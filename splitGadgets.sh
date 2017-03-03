@@ -21,7 +21,10 @@ do
   csplit -n5 -s --prefix=${filename##*/} $filename "/========/+1" "{*}"
 done
 
-
+for filename in ./*
+do
+    # analyze the gadget
+done
 
 
 # rm -rf splittemp
