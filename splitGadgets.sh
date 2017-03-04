@@ -29,4 +29,4 @@ do
   awk -f cleanup.awk $filename
 done
 
-rm -rf splittemp
+rm -rf splittemp nonenone
