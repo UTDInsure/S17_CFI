@@ -22,11 +22,14 @@ do
   csplit -n5 -s --prefix=${filename##*/} $filename "/========/+1" "{*}" #change to gcsplit on MacOS
 done
 
+cd ..
 
-for file in splittemp/*
+for filename in splittemp/*
 do
+	# analyze the gadget
+  	awk -f cleanup.awk $filename
 	hard=false
-	IFS=$'\n' read -d '' -r -a lines < $file  #make an array called lines from the file 
+	IFS=$'\n' read -d '' -r -a lines < $filename  #make an array called lines from the file 
 	if [ ${#lines[@]} -lt 4 ]; then #make sure our gadget is big enough to test
 		continue
 	fi
@@ -41,12 +44,12 @@ do
 	done
 
 	if $hard; then
-		cp $file hard
+		cp $filename hard
 	else
-		cp $file easy
+		cp $filename easy
 	fi
+
 
 done
 
-
-# rm -rf splittemp
+rm -rf splittemp nonenone
