@@ -21,10 +21,12 @@ do
   csplit -n5 -s --prefix=${filename##*/} $filename "/========/+1" "{*}"
 done
 
-for filename in ./*
+cd ..
+
+for filename in splittemp/*
 do
-    # analyze the gadget
+  # analyze the gadget
+  awk -f cleanup.awk $filename
 done
 
-
-# rm -rf splittemp
+rm -rf splittemp
