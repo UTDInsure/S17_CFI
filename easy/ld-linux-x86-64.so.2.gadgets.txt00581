@@ -1,0 +1,15 @@
+
+17D70: CLP                            [0F1F40AA] 
+17D74: PUSH R15                       [4157] 
+17D76: PUSH R14                       [4156] 
+17D78: PUSH R13                       [4155] 
+17D7A: MOV R13,RSI                    [4989F5] 
+17D7D: PUSH R12                       [4154] 
+17D7F: PUSH RBP                       [55] 
+17D80: PUSH RBX                       [53] 
+17D81: MOV RBX,RDI                    [4889FB] 
+17D84: LEA RDI,[0x222968]             [488D3DDDAB2000] 
+17D8B: SUB RSP,0x18                   [4883EC18] 
+17D8F: CALL [0x00222f68]              [FF15D3B12000] 
+
+========

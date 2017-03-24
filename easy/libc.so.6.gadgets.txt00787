@@ -1,0 +1,7 @@
+
+35860: CLP                            [0F1F40AA] 
+35864: PMOVMSKB EAX,XMM0              [660FD7C0] 
+35868: AND EAX,0x8                    [83E008] 
+3586B: RET                            [C3] 
+
+========

@@ -1,0 +1,8 @@
+
+D6130: CLP                            [0F1F40AA] 
+D6134: MOV EAX,[0x108 + RDI]          [8B8708010000] 
+D613A: MOV [RSI],EAX                  [8906] 
+D613C: XOR EAX,EAX                    [31C0] 
+D613E: RET                            [C3] 
+
+========

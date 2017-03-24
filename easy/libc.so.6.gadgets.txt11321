@@ -1,0 +1,6 @@
+
+108AA0: CLP                            [0F1F40AA] 
+108AA4: XOR EAX,EAX                    [31C0] 
+108AA6: RET                            [C3] 
+
+========

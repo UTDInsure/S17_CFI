@@ -1,0 +1,13 @@
+
+947F9: JLP                            [0F1F40BB] 
+947FD: MOV EAX,ECX                    [89C8] 
+947FF: XOR EDX,EDX                    [31D2] 
+94801: MOVZX ECX,CL                   [0FB6C9] 
+94804: SHR EAX,0x6                    [C1E806] 
+94807: AND EAX,0x3fffc00              [2500FCFF03] 
+9480C: DIV ECX                        [F7F1] 
+9480E: POP RBX                        [5B] 
+9480F: MOV EAX,EAX                    [89C0] 
+94811: RET                            [C3] 
+
+========

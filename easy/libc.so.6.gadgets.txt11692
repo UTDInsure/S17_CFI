@@ -1,0 +1,12 @@
+
+10CBF0: CLP                            [0F1F40AA] 
+10CBF4: SUB RSP,0x8                    [4883EC08] 
+10CBF8: MOV RDI,[RDI + 0x40]           [488B7F40] 
+10CBFC: MOV RCX,RSI                    [4889F1] 
+10CBFF: XOR EAX,EAX                    [31C0] 
+10CC01: MOV RSI,RDX                    [4889D6] 
+10CC04: MOV dword ptr [RDI + 0x10],0x2 [C7471002000000] 
+10CC0B: ADD RDI,0x10                   [4883C710] 
+10CC0F: CALL RCX                       [FFD1] 
+
+========

@@ -1,0 +1,14 @@
+
+17160: CLP                            [0F1F40AA] 
+17164: MOV RAX,[0x0024a830]           [488B05C5362300] 
+1716B: MOVSX ESI,SI                   [0FBFF6] 
+1716E: AND RDI,0xffff00ff             [4881E7FF00FFFF] 
+17175: SHL ESI,0x8                    [C1E608] 
+17178: MOVSXD RSI,ESI                 [4863F6] 
+1717B: MOV RAX,[RAX]                  [488B00] 
+1717E: OR RSI,RDI                     [4809FE] 
+17181: MOV [RAX + 0x10],RSI           [48897010] 
+17185: XOR EAX,EAX                    [31C0] 
+17187: RET                            [C3] 
+
+========

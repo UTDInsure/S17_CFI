@@ -1,0 +1,7 @@
+
+11C3E0: CLP                            [0F1F40AA] 
+11C3E4: SUB RSP,0x8                    [4883EC08] 
+11C3E8: MOV RAX,[0x00368e60]           [488B0571CA2400] 
+11C3EF: CALL [0x100 + RAX]             [FF9000010000] 
+
+========

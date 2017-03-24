@@ -1,0 +1,8 @@
+
+FEE90: CLP                            [0F1F40AA] 
+FEE94: MOVSXD RDI,[RDI]               [48633F] 
+FEE97: MOV EAX,0x3                    [B803000000] 
+FEE9C: SYSCALL                        [0F05] 
+FEE9E: RET                            [C3] 
+
+========

@@ -1,0 +1,6 @@
+
+40DE40: CLP                            [0F1F40AA] 
+40DE44: MOV byte ptr [RDI + 0x28],0x1  [C6472801] 
+40DE48: RET                            [C3] 
+
+========

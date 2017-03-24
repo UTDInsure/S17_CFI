@@ -1,0 +1,10 @@
+
+10C168: JLP                            [0F1F40BB] 
+10C16C: MOV EAX,[0xb4 + RCX]           [8B81B4000000] 
+10C172: BSWAP EAX                      [0FC8] 
+10C174: MOV EAX,EAX                    [89C0] 
+10C176: MOV [R8],RAX                   [498900] 
+10C179: MOV EAX,0x1                    [B801000000] 
+10C17E: RET                            [C3] 
+
+========

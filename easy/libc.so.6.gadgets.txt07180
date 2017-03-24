@@ -1,0 +1,7 @@
+
+B4100: CLP                            [0F1F40AA] 
+B4104: MOV EAX,0x6f                   [B86F000000] 
+B4109: SYSCALL                        [0F05] 
+B410B: RET                            [C3] 
+
+========

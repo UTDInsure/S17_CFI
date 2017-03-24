@@ -1,0 +1,7 @@
+
+2EFB0: CLP                            [0F1F40AA] 
+2EFB4: MOV RAX,[0x00368f20]           [488B05659F3300] 
+2EFBB: ADD RAX,FS:[0x0]               [644803042500000000] 
+2EFC4: RET                            [C3] 
+
+========

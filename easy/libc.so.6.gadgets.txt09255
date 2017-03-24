@@ -1,0 +1,10 @@
+
+E3830: CLP                            [0F1F40AA] 
+E3834: MOV RAX,RDI                    [4889F8] 
+E3837: MOVZX EDI,DIL                  [400FB6FF] 
+E383B: SHR RAX,0xc                    [48C1E80C] 
+E383F: XOR AL,AL                      [30C0] 
+E3841: OR EAX,EDI                     [09F8] 
+E3843: RET                            [C3] 
+
+========

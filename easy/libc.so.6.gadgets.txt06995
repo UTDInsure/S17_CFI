@@ -1,0 +1,6 @@
+
+AF210: CLP                            [0F1F40AA] 
+AF214: MOV EAX,[RDI]                  [8B07] 
+AF216: RET                            [C3] 
+
+========

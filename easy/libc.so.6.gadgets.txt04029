@@ -1,0 +1,8 @@
+
+75F80: CLP                            [0F1F40AA] 
+75F84: XOR EAX,EAX                    [31C0] 
+75F86: TEST byte ptr [RDI],0x4        [F60704] 
+75F89: SETZ AL                        [0F94C0] 
+75F8C: RET                            [C3] 
+
+========

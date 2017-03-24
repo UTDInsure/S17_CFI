@@ -1,0 +1,7 @@
+
+11CBA0: CLP                            [0F1F40AA] 
+11CBA4: MOV RAX,[0x00368d88]           [488B05DDC12400] 
+11CBAB: ADD RAX,FS:[0x0]               [644803042500000000] 
+11CBB4: RET                            [C3] 
+
+========

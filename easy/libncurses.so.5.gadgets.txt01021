@@ -1,0 +1,9 @@
+
+2C970: CLP                            [0F1F40AA] 
+2C974: LEA RDX,[0x39d40]              [488D15C5D30000] 
+2C97B: LEA RAX,[0x37820]              [488D059EAE0000] 
+2C982: TEST DIL,DIL                   [4084FF] 
+2C985: CMOVZ RAX,RDX                  [480F44C2] 
+2C989: RET                            [C3] 
+
+========

@@ -1,0 +1,14 @@
+
+35A80: CLP                            [0F1F40AA] 
+35A84: MOV RDX,[RSI]                  [488B16] 
+35A87: MOV RAX,RDI                    [4889F8] 
+35A8A: MOV [RDI],RDX                  [488917] 
+35A8D: MOV RDX,[RSI + 0x8]            [488B5608] 
+35A91: MOV [RDI + 0x8],RDX            [48895708] 
+35A95: MOV RDX,[RSI + 0x10]           [488B5610] 
+35A99: MOV [RDI + 0x10],RDX           [48895710] 
+35A9D: MOV RDX,[RSI + 0x18]           [488B5618] 
+35AA1: MOV [RDI + 0x18],RDX           [48895718] 
+35AA5: RET                            [C3] 
+
+========

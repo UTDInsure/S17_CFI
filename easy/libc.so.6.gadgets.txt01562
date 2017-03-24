@@ -1,0 +1,21 @@
+
+47250: CLP                            [0F1F40AA] 
+47254: MOVZX EAX,byte ptr [RSP + -0xf] [0FB64424F1] 
+47259: SHL EDX,0x7                    [C1E207] 
+4725C: ADD SI,0x3fff                  [6681C6FF3F] 
+47261: AND SI,0x7fff                  [6681E6FF7F] 
+47266: AND EAX,0x7f                   [83E07F] 
+47269: OR EAX,EDX                     [09D0] 
+4726B: MOV [RSP + -0xf],AL            [884424F1] 
+4726F: MOVZX EAX,word ptr [RSP + -0x10] [0FB74424F0] 
+47274: AND AX,0x8000                  [66250080] 
+47278: OR EAX,ESI                     [09F0] 
+4727A: MOV [RSP + -0x10],AX           [66894424F0] 
+4727F: MOV RAX,[RDI]                  [488B07] 
+47282: MOV [RSP + -0x18],EAX          [894424E8] 
+47286: SHR RAX,0x20                   [48C1E820] 
+4728A: MOV [RSP + -0x14],EAX          [894424EC] 
+4728E: FLD tword ptr [RSP + -0x18]    [DB6C24E8] 
+47292: RET                            [C3] 
+
+========

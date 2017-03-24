@@ -1,0 +1,12 @@
+
+10BEC0: CLP                            [0F1F40AA] 
+10BEC4: MOV RAX,[RDI + 0x10]           [488B4710] 
+10BEC8: MOV RDX,[0x90 + RAX]           [488B9090000000] 
+10BECF: MOV [RSI],RDX                  [488916] 
+10BED2: MOV RDX,[0x98 + RAX]           [488B9098000000] 
+10BED9: MOV [RSI + 0x8],RDX            [48895608] 
+10BEDD: MOV RAX,[0xa0 + RAX]           [488B80A0000000] 
+10BEE4: MOV [RSI + 0x10],RAX           [48894610] 
+10BEE8: RET                            [C3] 
+
+========

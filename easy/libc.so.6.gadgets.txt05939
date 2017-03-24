@@ -1,0 +1,11 @@
+
+94778: JLP                            [0F1F40BB] 
+9477C: MOV EAX,EDX                    [89D0] 
+9477E: LEA RCX,[0x130c64]             [488D0DDFC40900] 
+94785: SHR EAX,0xc                    [C1E80C] 
+94788: AND EAX,0xf                    [83E00F] 
+9478B: MOVSXD RSI,[RCX + RAX*0x4]     [48633481] 
+9478F: ADD RCX,RSI                    [4801F1] 
+94792: JMP RCX                        [FFE1] 
+
+========

@@ -1,0 +1,16 @@
+
+E3850: CLP                            [0F1F40AA] 
+E3854: MOV EAX,EDI                    [89F8] 
+E3856: MOVZX EDX,SIL                  [400FB6D6] 
+E385A: AND ESI,0xffffff00             [81E600FFFFFF] 
+E3860: AND EAX,0xfff                  [25FF0F0000] 
+E3865: SHL RSI,0xc                    [48C1E60C] 
+E3869: AND EDI,0xfffff000             [81E700F0FFFF] 
+E386F: SHL EAX,0x8                    [C1E008] 
+E3872: SHL RDI,0x20                   [48C1E720] 
+E3876: OR EAX,EDX                     [09D0] 
+E3878: OR RAX,RSI                     [4809F0] 
+E387B: OR RAX,RDI                     [4809F8] 
+E387E: RET                            [C3] 
+
+========

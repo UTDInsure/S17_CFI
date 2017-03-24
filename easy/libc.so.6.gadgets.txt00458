@@ -1,0 +1,11 @@
+
+2EC20: CLP                            [0F1F40AA] 
+2EC24: MOV RAX,[0x00368e00]           [488B05D5A13300] 
+2EC2B: MOVSXD RDI,EDI                 [4863FF] 
+2EC2E: MOV RAX,FS:[RAX]               [64488B00] 
+2EC32: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+2EC36: AND EAX,0x4                    [83E004] 
+2EC39: MOVZX EAX,AX                   [0FB7C0] 
+2EC3C: RET                            [C3] 
+
+========

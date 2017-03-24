@@ -1,0 +1,9 @@
+
+40DE20: CLP                            [0F1F40AA] 
+40DE24: MOV RAX,[RDI + 0x30]           [488B4730] 
+40DE28: MOV RDX,[RDI + 0x38]           [488B5738] 
+40DE2C: MOV [RSI],RAX                  [488906] 
+40DE2F: MOV [RSI + 0x8],RDX            [48895608] 
+40DE33: RET                            [C3] 
+
+========

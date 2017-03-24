@@ -1,0 +1,12 @@
+
+35920: CLP                            [0F1F40AA] 
+35924: MOV EDX,[RSP + 0x20]           [8B542420] 
+35928: MOV EAX,[RSP + 0x10]           [8B442410] 
+3592C: AND EDX,0x8000                 [81E200800000] 
+35932: AND EAX,0x7fff                 [25FF7F0000] 
+35937: OR EAX,EDX                     [09D0] 
+35939: MOV [RSP + 0x10],EAX           [89442410] 
+3593D: FLD tword ptr [RSP + 0x8]      [DB6C2408] 
+35941: RET                            [C3] 
+
+========

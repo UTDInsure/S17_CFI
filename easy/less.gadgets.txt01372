@@ -1,0 +1,8 @@
+
+412CF0: CLP                            [0F1F40AA] 
+412CF4: XOR EAX,EAX                    [31C0] 
+412CF6: CMP dword ptr [0x0062ac38],0x0 [48833D3A7F210000] 
+412CFE: SETNZ AL                       [0F95C0] 
+412D01: RET                            [C3] 
+
+========

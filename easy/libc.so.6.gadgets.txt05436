@@ -1,0 +1,9 @@
+
+898A0: CLP                            [0F1F40AA] 
+898A4: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+898A9: BSF EAX,EDI                    [0FBCC7] 
+898AC: CMOVZ EAX,EDX                  [0F44C2] 
+898AF: ADD EAX,0x1                    [83C001] 
+898B2: RET                            [C3] 
+
+========

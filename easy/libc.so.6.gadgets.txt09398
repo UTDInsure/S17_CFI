@@ -1,0 +1,8 @@
+
+E43B0: CLP                            [0F1F40AA] 
+E43B4: MOV RAX,[0x00368e68]           [488B05AD4A2800] 
+E43BB: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+E43C2: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+E43C9: RET                            [C3] 
+
+========

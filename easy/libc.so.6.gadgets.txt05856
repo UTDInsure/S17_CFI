@@ -1,0 +1,6 @@
+
+939DC: JLP                            [0F1F40BB] 
+939E0: XOR EAX,EAX                    [31C0] 
+939E2: RET                            [C3] 
+
+========

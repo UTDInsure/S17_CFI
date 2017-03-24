@@ -1,0 +1,17 @@
+
+111C70: CLP                            [0F1F40AA] 
+111C74: SUB RSP,0x68                   [4883EC68] 
+111C78: MOV RAX,[RDI + 0x28]           [488B4728] 
+111C7C: MOV dword ptr [RSP + 0x8],0x1  [C744240801000000] 
+111C84: MOV dword ptr [RSP + 0x10],0x0 [C744241000000000] 
+111C8C: MOV RSI,RSP                    [4889E6] 
+111C8F: MOV dword ptr [RSP + 0x30],0x1 [C744243001000000] 
+111C97: MOV [RSP + 0x18],RAX           [4889442418] 
+111C9C: MOV RAX,[RDI + 0x30]           [488B4730] 
+111CA0: MOV [RSP + 0x20],RAX           [4889442420] 
+111CA5: MOV RAX,[RDI + 0x38]           [488B4738] 
+111CA9: MOV [RSP + 0x28],RAX           [4889442428] 
+111CAE: MOV RAX,[RDI + 0x8]            [488B4708] 
+111CB2: CALL [RAX + 0x18]              [FF5018] 
+
+========

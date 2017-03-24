@@ -1,0 +1,8 @@
+
+10C0B0: JLP                            [0F1F40BB] 
+10C0B4: MOV EAX,[RCX]                  [8B01] 
+10C0B6: MOV [R8],EAX                   [418900] 
+10C0B9: MOV EAX,0x1                    [B801000000] 
+10C0BE: RET                            [C3] 
+
+========

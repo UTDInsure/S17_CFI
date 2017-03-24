@@ -1,0 +1,10 @@
+
+16720: CLP                            [0F1F40AA] 
+16724: MOV RAX,[0x0024a880]           [488B0555412300] 
+1672B: MOV RAX,[RAX]                  [488B00] 
+1672E: MOV RAX,[RAX + 0x10]           [488B4010] 
+16732: CMP byte ptr [RAX + 0x1b],0x0  [80781B00] 
+16736: SETNZ AL                       [0F95C0] 
+16739: RET                            [C3] 
+
+========

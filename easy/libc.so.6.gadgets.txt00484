@@ -1,0 +1,8 @@
+
+2EF30: CLP                            [0F1F40AA] 
+2EF34: MOV RAX,[RSI + 0x78]           [488B4678] 
+2EF38: MOVSXD RDI,EDI                 [4863FF] 
+2EF3B: MOV EAX,[RAX + RDI*0x4]        [8B04B8] 
+2EF3E: RET                            [C3] 
+
+========

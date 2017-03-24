@@ -1,0 +1,12 @@
+
+40DC50: CLP                            [0F1F40AA] 
+40DC54: TEST RDI,RDI                   [4885FF] 
+40DC57: MOV EAX,0x626500               [B800656200] 
+40DC5C: CMOVZ RDI,RAX                  [480F44F8] 
+40DC60: XOR EAX,EAX                    [31C0] 
+40DC62: MOV RDX,[RDI + 0x8]            [488B5708] 
+40DC66: CMP RDX,0x626500               [4881FA00656200] 
+40DC6D: CMOVNZ RAX,RDX                 [480F45C2] 
+40DC71: RET                            [C3] 
+
+========

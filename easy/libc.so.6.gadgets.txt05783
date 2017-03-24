@@ -1,0 +1,11 @@
+
+935C8: JLP                            [0F1F40BB] 
+935CC: MOV EAX,[RSP + 0x10]           [8B442410] 
+935D0: ADD RDI,0x8                    [4883C708] 
+935D4: MOV [RDI + -0x8],EAX           [8947F8] 
+935D7: MOV EAX,[RSP + 0x18]           [8B442418] 
+935DB: MOV [RDI + -0x4],EAX           [8947FC] 
+935DE: MOV RAX,RDI                    [4889F8] 
+935E1: RET                            [C3] 
+
+========

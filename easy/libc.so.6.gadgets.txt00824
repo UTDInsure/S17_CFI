@@ -1,0 +1,23 @@
+
+35D10: CLP                            [0F1F40AA] 
+35D14: MOV R8,[RDI + 0x30]            [4C8B4730] 
+35D18: MOV R9,[RDI + 0x8]             [4C8B4F08] 
+35D1C: MOV RDX,[RDI + 0x38]           [488B5738] 
+35D20: ROR R8,0x11                    [49C1C811] 
+35D24: XOR R8,FS:[0x30]               [644C33042530000000] 
+35D2D: ROR R9,0x11                    [49C1C911] 
+35D31: XOR R9,FS:[0x30]               [644C330C2530000000] 
+35D3A: ROR RDX,0x11                   [48C1CA11] 
+35D3E: XOR RDX,FS:[0x30]              [644833142530000000] 
+35D47: MOV RBX,[RDI]                  [488B1F] 
+35D4A: MOV R12,[RDI + 0x10]           [4C8B6710] 
+35D4E: MOV R13,[RDI + 0x18]           [4C8B6F18] 
+35D52: MOV R14,[RDI + 0x20]           [4C8B7720] 
+35D56: MOV R15,[RDI + 0x28]           [4C8B7F28] 
+35D5A: MOV EAX,ESI                    [89F0] 
+35D5C: MOV RSP,R8                     [4C89C4] 
+35D5F: MOV RBP,R9                     [4C89CD] 
+35D62: ADD RDX,0x4                    [4883C204] 
+35D66: JMP RDX                        [FFE2] 
+
+========

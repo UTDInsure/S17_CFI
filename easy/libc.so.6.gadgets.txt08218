@@ -1,0 +1,7 @@
+
+D5900: CLP                            [0F1F40AA] 
+D5904: MOV [RDI + 0x4],ESI            [897704] 
+D5907: XOR EAX,EAX                    [31C0] 
+D5909: RET                            [C3] 
+
+========

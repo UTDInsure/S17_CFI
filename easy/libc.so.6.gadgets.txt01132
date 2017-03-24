@@ -1,0 +1,10 @@
+
+39160: CLP                            [0F1F40AA] 
+39164: MOV EDX,EDI                    [89FA] 
+39166: MOV EAX,EDI                    [89F8] 
+39168: SAR EDX,0x1f                   [C1FA1F] 
+3916B: XOR EAX,EDX                    [31D0] 
+3916D: SUB EAX,EDX                    [29D0] 
+3916F: RET                            [C3] 
+
+========

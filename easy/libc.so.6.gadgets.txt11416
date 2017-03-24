@@ -1,0 +1,18 @@
+
+1094C0: CLP                            [0F1F40AA] 
+1094C4: PUSH RBP                       [55] 
+1094C5: PUSH RBX                       [53] 
+1094C6: MOV RBX,RDI                    [4889FB] 
+1094C9: SUB RSP,0x8                    [4883EC08] 
+1094CD: MOV RDX,[RDI + 0x60]           [488B5760] 
+1094D1: MOV EAX,[RDI + 0x48]           [8B4748] 
+1094D4: AND EDX,0x3                    [83E203] 
+1094D7: MOV RBP,RDX                    [4889D5] 
+1094DA: ADD RBP,[RDI + 0x50]           [48036F50] 
+1094DE: SUB EAX,EDX                    [29D0] 
+1094E0: MOV EDX,EAX                    [89C2] 
+1094E2: MOV RDI,[RDI]                  [488B3F] 
+1094E5: MOV RSI,RBP                    [4889EE] 
+1094E8: CALL [RBX + 0x40]              [FF5340] 
+
+========

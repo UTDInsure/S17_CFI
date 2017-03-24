@@ -1,0 +1,8 @@
+
+93790: JLP                            [0F1F40BB] 
+93794: MOV [RDI],SI                   [668937] 
+93797: MOV byte ptr [RDI + 0x2],0x0   [C6470200] 
+9379B: LEA RAX,[RDI + 0x2]            [488D4702] 
+9379F: RET                            [C3] 
+
+========

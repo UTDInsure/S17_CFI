@@ -1,0 +1,9 @@
+
+10BFD0: JLP                            [0F1F40BB] 
+10BFD4: MOV RAX,[R8]                   [498B00] 
+10BFD7: BSWAP EAX                      [0FC8] 
+10BFD9: MOV [0xb4 + RCX],EAX           [8981B4000000] 
+10BFDF: MOV EAX,0x1                    [B801000000] 
+10BFE4: RET                            [C3] 
+
+========

@@ -1,0 +1,7 @@
+
+1CC00: CLP                            [0F1F40AA] 
+1CC04: MOV RAX,[0x0024a878]           [488B056DDC2200] 
+1CC0B: MOV byte ptr [RAX + 0x1],0x1   [C6400101] 
+1CC0F: RET                            [C3] 
+
+========

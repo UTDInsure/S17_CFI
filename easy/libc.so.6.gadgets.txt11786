@@ -1,0 +1,10 @@
+
+10ED40: JLP                            [0F1F40BB] 
+10ED44: MOV RSI,[RCX + 0x8]            [488B7108] 
+10ED48: MOV RDI,[RCX + 0x10]           [488B7910] 
+10ED4C: MOV EAX,0x1                    [B801000000] 
+10ED51: MOV [RDX],RSI                  [488932] 
+10ED54: MOV [RDX + 0x8],RDI            [48897A08] 
+10ED58: RET                            [C3] 
+
+========

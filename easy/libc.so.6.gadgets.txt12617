@@ -1,0 +1,10 @@
+
+119760: CLP                            [0F1F40AA] 
+119764: PUSH RBP                       [55] 
+119765: MOV RBP,RDI                    [4889FD] 
+119768: PUSH RBX                       [53] 
+119769: MOV RBX,RSI                    [4889F3] 
+11976C: SUB RSP,0x8                    [4883EC08] 
+119770: CALL [0x00366ae0]              [FF156AD32400] 
+
+========

@@ -1,0 +1,7 @@
+
+F4EE0: CLP                            [0F1F40AA] 
+F4EE4: MOV EAX,EDI                    [89F8] 
+F4EE6: BSWAP EAX                      [0FC8] 
+F4EE8: RET                            [C3] 
+
+========

@@ -1,0 +1,6 @@
+
+7B3E0: CLP                            [0F1F40AA] 
+7B3E4: XOR EAX,EAX                    [31C0] 
+7B3E6: RET                            [C3] 
+
+========

@@ -1,0 +1,9 @@
+
+120B0: CLP                            [0F1F40AA] 
+120B4: MOV RAX,[0x00222fa0]           [488B05E50E2100] 
+120BB: MOV [RDI],RAX                  [488907] 
+120BE: MOV RAX,[0x00222fb0]           [488B05EB0E2100] 
+120C5: MOV [RSI],RAX                  [488906] 
+120C8: RET                            [C3] 
+
+========

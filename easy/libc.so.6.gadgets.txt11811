@@ -1,0 +1,12 @@
+
+10F5E0: CLP                            [0F1F40AA] 
+10F5E4: MOV RAX,[RDI + 0x10]           [488B4710] 
+10F5E8: MOV RDX,[RAX + 0x40]           [488B5040] 
+10F5EC: MOV [RSI],RDX                  [488916] 
+10F5EF: MOV RDX,[RAX + 0x48]           [488B5048] 
+10F5F3: MOV [RSI + 0x8],RDX            [48895608] 
+10F5F7: MOV RAX,[RAX + 0x50]           [488B4050] 
+10F5FB: MOV [RSI + 0x10],RAX           [48894610] 
+10F5FF: RET                            [C3] 
+
+========

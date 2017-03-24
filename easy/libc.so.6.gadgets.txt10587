@@ -1,0 +1,7 @@
+
+F4EF0: CLP                            [0F1F40AA] 
+F4EF4: MOV EAX,EDI                    [89F8] 
+F4EF6: ROR AX,0x8                     [66C1C808] 
+F4EFA: RET                            [C3] 
+
+========

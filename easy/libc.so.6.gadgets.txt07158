@@ -1,0 +1,7 @@
+
+B3E90: CLP                            [0F1F40AA] 
+B3E94: MOV EAX,0x6e                   [B86E000000] 
+B3E99: SYSCALL                        [0F05] 
+B3E9B: RET                            [C3] 
+
+========

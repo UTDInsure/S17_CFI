@@ -1,0 +1,7 @@
+
+7A6A0: CLP                            [0F1F40AA] 
+7A6A4: MOV EAX,[RDI + 0x10]           [8B4710] 
+7A6A7: SUB EAX,[RSI + 0x10]           [2B4610] 
+7A6AA: RET                            [C3] 
+
+========

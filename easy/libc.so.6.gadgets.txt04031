@@ -1,0 +1,7 @@
+
+75FA0: CLP                            [0F1F40AA] 
+75FA4: MOV EAX,[RDI]                  [8B07] 
+75FA6: AND EAX,0x200                  [2500020000] 
+75FAB: RET                            [C3] 
+
+========

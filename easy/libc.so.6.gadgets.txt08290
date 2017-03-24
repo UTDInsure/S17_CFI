@@ -1,0 +1,7 @@
+
+D67B0: CLP                            [0F1F40AA] 
+D67B4: MOV EAX,0x5f                   [B85F000000] 
+D67B9: SYSCALL                        [0F05] 
+D67BB: RET                            [C3] 
+
+========

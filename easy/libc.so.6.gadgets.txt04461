@@ -1,0 +1,6 @@
+
+79D80: CLP                            [0F1F40AA] 
+79D84: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+79D8B: RET                            [C3] 
+
+========

@@ -1,0 +1,7 @@
+
+946CB: JLP                            [0F1F40BB] 
+946CF: MOVZX EAX,CL                   [0FB6C1] 
+946D2: POP RBX                        [5B] 
+946D3: RET                            [C3] 
+
+========

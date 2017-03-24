@@ -1,0 +1,6 @@
+
+10CBB0: CLP                            [0F1F40AA] 
+10CBB4: MOV EAX,0x2                    [B802000000] 
+10CBB9: RET                            [C3] 
+
+========

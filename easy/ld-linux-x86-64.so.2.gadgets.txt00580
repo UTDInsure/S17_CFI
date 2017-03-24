@@ -1,0 +1,9 @@
+
+17D50: CLP                            [0F1F40AA] 
+17D54: MOV RAX,[RSI + 0x8]            [488B4608] 
+17D58: CMP [RDI + 0x8],RAX            [48394708] 
+17D5C: SETZ AL                        [0F94C0] 
+17D5F: MOVZX EAX,AL                   [0FB6C0] 
+17D62: RET                            [C3] 
+
+========

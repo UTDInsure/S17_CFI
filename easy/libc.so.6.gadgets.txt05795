@@ -1,0 +1,7 @@
+
+936D0: JLP                            [0F1F40BB] 
+936D4: MOV [RDI],SI                   [668937] 
+936D7: MOV RAX,RDI                    [4889F8] 
+936DA: RET                            [C3] 
+
+========

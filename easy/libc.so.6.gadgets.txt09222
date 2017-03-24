@@ -1,0 +1,6 @@
+
+E34E0: CLP                            [0F1F40AA] 
+E34E4: XOR EAX,EAX                    [31C0] 
+E34E6: RET                            [C3] 
+
+========

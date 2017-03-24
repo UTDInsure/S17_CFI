@@ -1,0 +1,6 @@
+
+935BB: JLP                            [0F1F40BB] 
+935BF: MOV RAX,RDI                    [4889F8] 
+935C2: RET                            [C3] 
+
+========

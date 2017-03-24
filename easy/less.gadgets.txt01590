@@ -1,0 +1,9 @@
+
+4152C8: JLP                            [0F1F40BB] 
+4152CC: MOV dword ptr [RSI],0x0        [C70600000000] 
+4152D2: NOP                            [660F1F440000] 
+4152D8: ADD RSP,0x10                   [4883C410] 
+4152DC: POP RBX                        [5B] 
+4152DD: RET                            [C3] 
+
+========

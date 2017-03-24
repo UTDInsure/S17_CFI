@@ -1,0 +1,8 @@
+
+391D0: CLP                            [0F1F40AA] 
+391D4: MOV RAX,RDI                    [4889F8] 
+391D7: CQO                            [4899] 
+391D9: IDIV RSI                       [48F7FE] 
+391DC: RET                            [C3] 
+
+========

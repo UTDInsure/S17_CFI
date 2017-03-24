@@ -1,0 +1,10 @@
+
+10F668: JLP                            [0F1F40BB] 
+10F66C: MOV RDX,[RDX]                  [488B12] 
+10F66F: MOV RAX,[0x90 + RDI]           [488B8790000000] 
+10F676: BSWAP EDX                      [0FCA] 
+10F678: MOV [RAX + 0xc],EDX            [89500C] 
+10F67B: MOV EAX,0x1                    [B801000000] 
+10F680: RET                            [C3] 
+
+========

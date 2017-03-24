@@ -1,0 +1,9 @@
+
+355F0: CLP                            [0F1F40AA] 
+355F4: MOVD EAX,XMM0                  [660F7EC0] 
+355F8: AND EAX,0x7fffffff             [25FFFFFF7F] 
+355FD: SUB EAX,0x7f800000             [2D0000807F] 
+35602: SHR EAX,0x1f                   [C1E81F] 
+35605: RET                            [C3] 
+
+========

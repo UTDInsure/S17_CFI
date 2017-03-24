@@ -1,0 +1,9 @@
+
+F10D0: CLP                            [0F1F40AA] 
+F10D4: PUSH RBP                       [55] 
+F10D5: XOR EAX,EAX                    [31C0] 
+F10D7: MOV RBP,RSP                    [4889E5] 
+F10DA: POP RBP                        [5D] 
+F10DB: RET                            [C3] 
+
+========

@@ -1,0 +1,10 @@
+
+2EE60: CLP                            [0F1F40AA] 
+2EE64: MOV RAX,[RSI + 0x68]           [488B4668] 
+2EE68: MOVSXD RDI,EDI                 [4863FF] 
+2EE6B: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+2EE6F: AND AX,0x8000                  [66250080] 
+2EE73: MOVZX EAX,AX                   [0FB7C0] 
+2EE76: RET                            [C3] 
+
+========

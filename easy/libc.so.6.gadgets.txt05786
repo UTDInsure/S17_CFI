@@ -1,0 +1,9 @@
+
+93618: JLP                            [0F1F40BB] 
+9361C: MOV EAX,[RSP + 0x10]           [8B442410] 
+93620: ADD RDI,0x4                    [4883C704] 
+93624: MOV [RDI + -0x4],EAX           [8947FC] 
+93627: MOV RAX,RDI                    [4889F8] 
+9362A: RET                            [C3] 
+
+========

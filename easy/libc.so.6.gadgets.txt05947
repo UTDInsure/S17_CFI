@@ -1,0 +1,13 @@
+
+947E1: JLP                            [0F1F40BB] 
+947E5: MOV EAX,EDX                    [89D0] 
+947E7: MOVZX ECX,DL                   [0FB6CA] 
+947EA: XOR EDX,EDX                    [31D2] 
+947EC: AND EAX,0x3ffc0000             [250000FC3F] 
+947F1: ADD EAX,EAX                    [01C0] 
+947F3: DIV ECX                        [F7F1] 
+947F5: POP RBX                        [5B] 
+947F6: MOV EAX,EAX                    [89C0] 
+947F8: RET                            [C3] 
+
+========

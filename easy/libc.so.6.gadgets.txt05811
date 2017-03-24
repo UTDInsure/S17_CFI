@@ -1,0 +1,9 @@
+
+937D0: JLP                            [0F1F40BB] 
+937D4: MOV [RDI],ECX                  [890F] 
+937D6: MOV [RDI + 0x4],DX             [66895704] 
+937DA: LEA RAX,[RDI + 0x6]            [488D4706] 
+937DE: MOV byte ptr [RDI + 0x6],0x0   [C6470600] 
+937E2: RET                            [C3] 
+
+========

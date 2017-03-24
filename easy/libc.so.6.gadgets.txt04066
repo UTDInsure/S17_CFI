@@ -1,0 +1,6 @@
+
+76730: CLP                            [0F1F40AA] 
+76734: AND [RDI],0xffffffcf           [8327CF] 
+76737: RET                            [C3] 
+
+========

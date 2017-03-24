@@ -1,0 +1,8 @@
+
+D58C0: CLP                            [0F1F40AA] 
+D58C4: MOVZX EAX,word ptr [RDI]       [0FB707] 
+D58C7: MOV [RSI],AX                   [668906] 
+D58CA: XOR EAX,EAX                    [31C0] 
+D58CC: RET                            [C3] 
+
+========

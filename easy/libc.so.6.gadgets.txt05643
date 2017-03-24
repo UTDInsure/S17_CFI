@@ -1,0 +1,10 @@
+
+8EC00: CLP                            [0F1F40AA] 
+8EC04: LEA RAX,[0x130b70]             [488D05651F0A00] 
+8EC0B: MOV R8,RDX                     [4989D0] 
+8EC0E: AND R8D,0x7                    [4183E007] 
+8EC12: MOVSXD R8,[RAX + R8*0x4]       [4E630480] 
+8EC16: ADD RAX,R8                     [4C01C0] 
+8EC19: JMP RAX                        [FFE0] 
+
+========

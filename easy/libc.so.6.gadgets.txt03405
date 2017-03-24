@@ -1,0 +1,8 @@
+
+70EE0: CLP                            [0F1F40AA] 
+70EE4: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+70EEB: PUSH RBX                       [53] 
+70EEC: MOV RBX,RDI                    [4889FB] 
+70EEF: CALL [RAX + 0x20]              [FF5020] 
+
+========

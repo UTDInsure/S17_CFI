@@ -1,0 +1,11 @@
+
+10F7B0: JLP                            [0F1F40BB] 
+10F7B4: MOV RAX,[0x90 + RDI]           [488B8790000000] 
+10F7BB: MOV EAX,[RAX + 0x10]           [8B4010] 
+10F7BE: BSWAP EAX                      [0FC8] 
+10F7C0: MOV EAX,EAX                    [89C0] 
+10F7C2: MOV [RDX],RAX                  [488902] 
+10F7C5: MOV EAX,0x1                    [B801000000] 
+10F7CA: RET                            [C3] 
+
+========

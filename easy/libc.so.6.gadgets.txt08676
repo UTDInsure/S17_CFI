@@ -1,0 +1,8 @@
+
+DC720: CLP                            [0F1F40AA] 
+DC724: MOV RAX,[0x00368e68]           [488B053DC72800] 
+DC72B: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+DC732: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+DC739: RET                            [C3] 
+
+========

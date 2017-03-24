@@ -1,0 +1,14 @@
+
+DC0A0: CLP                            [0F1F40AA] 
+DC0A4: MOV EAX,[RDI + 0x8]            [8B4708] 
+DC0A7: AND [RDI],0xfffffa14           [812714FAFFFF] 
+DC0AD: AND [RDI + 0x4],0xfffffffe     [836704FE] 
+DC0B1: MOV byte ptr [RDI + 0x17],0x1  [C6471701] 
+DC0B5: AND [RDI + 0xc],0xffff7fb4     [81670CB47FFFFF] 
+DC0BC: MOV byte ptr [RDI + 0x16],0x0  [C6471600] 
+DC0C0: AND EAX,0xfffffecf             [25CFFEFFFF] 
+DC0C5: OR EAX,0x30                    [83C830] 
+DC0C8: MOV [RDI + 0x8],EAX            [894708] 
+DC0CB: RET                            [C3] 
+
+========

@@ -1,0 +1,7 @@
+
+947AA: JLP                            [0F1F40BB] 
+947AE: MOV EAX,0x60                   [B860000000] 
+947B3: POP RBX                        [5B] 
+947B4: RET                            [C3] 
+
+========

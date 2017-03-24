@@ -1,0 +1,11 @@
+
+35230: CLP                            [0F1F40AA] 
+35234: MOV RDX,0x7fffffffffffffff     [48BAFFFFFFFFFFFFFF7F] 
+3523E: MOVQ RAX,XMM0                  [66480F7EC0] 
+35243: AND RAX,RDX                    [4821D0] 
+35246: MOV RDX,-0x7ff0000000000000    [48BA0000000000001080] 
+35250: ADD RAX,RDX                    [4801D0] 
+35253: SHR RAX,0x3f                   [48C1E83F] 
+35257: RET                            [C3] 
+
+========

@@ -1,0 +1,15 @@
+
+224D0: JLP                            [0F1F40BB] 
+224D4: MOV RAX,[0x00368e68]           [488B058D693400] 
+224DB: MOV dword ptr FS:[RAX],0x54    [64C70054000000] 
+224E2: ADD RSP,0x18                   [4883C418] 
+224E6: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+224ED: POP RBX                        [5B] 
+224EE: POP RBP                        [5D] 
+224EF: POP R12                        [415C] 
+224F1: POP R13                        [415D] 
+224F3: POP R14                        [415E] 
+224F5: POP R15                        [415F] 
+224F7: RET                            [C3] 
+
+========

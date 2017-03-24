@@ -1,0 +1,15 @@
+
+79470: CLP                            [0F1F40AA] 
+79474: MOV RDX,[RDI + 0x10]           [488B5710] 
+79478: MOV RAX,[RDI + 0x58]           [488B4758] 
+7947C: MOV RCX,[RDI + 0x48]           [488B4F48] 
+79480: OR dword ptr [RDI],0x100       [810F00010000] 
+79486: MOV [RDI + 0x58],RDX           [48895758] 
+7948A: MOV RDX,[RDI + 0x18]           [488B5718] 
+7948E: MOV [RDI + 0x10],RAX           [48894710] 
+79492: MOV [RDI + 0x18],RCX           [48894F18] 
+79496: MOV [RDI + 0x48],RDX           [48895748] 
+7949A: MOV [RDI + 0x8],RAX            [48894708] 
+7949E: RET                            [C3] 
+
+========

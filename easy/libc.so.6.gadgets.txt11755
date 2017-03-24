@@ -1,0 +1,13 @@
+
+10E810: CLP                            [0F1F40AA] 
+10E814: PUSH R13                       [4155] 
+10E816: PUSH R12                       [4154] 
+10E818: PUSH RBP                       [55] 
+10E819: PUSH RBX                       [53] 
+10E81A: MOV RBX,RSI                    [4889F3] 
+10E81D: SUB RSP,0x438                  [4881EC38040000] 
+10E824: MOV RAX,[RDI + 0x8]            [488B4708] 
+10E828: LEA RSI,[RSP + 0x10]           [488D742410] 
+10E82D: CALL [RAX + 0x10]              [FF5010] 
+
+========

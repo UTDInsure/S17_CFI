@@ -1,0 +1,6 @@
+
+40DE70: CLP                            [0F1F40AA] 
+40DE74: MOV EAX,[RDI + 0x24]           [8B4724] 
+40DE77: RET                            [C3] 
+
+========

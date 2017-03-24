@@ -1,0 +1,8 @@
+
+7AA70: CLP                            [0F1F40AA] 
+7AA74: MOV dword ptr [0x0036b780],0x0 [C705020D2F0000000000] 
+7AA7E: MOV dword ptr [0x0036b784],0x0 [C705FC0C2F0000000000] 
+7AA88: MOV dword ptr [0x0036b788],0x0 [48C705F50C2F0000000000] 
+7AA93: RET                            [C3] 
+
+========

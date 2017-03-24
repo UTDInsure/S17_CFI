@@ -1,0 +1,10 @@
+
+10F708: JLP                            [0F1F40BB] 
+10F70C: MOV RSI,[RDI + 0x20]           [488B7720] 
+10F710: MOV RDI,[RDI + 0x28]           [488B7F28] 
+10F714: MOV EAX,0x1                    [B801000000] 
+10F719: MOV [RDX],RSI                  [488932] 
+10F71C: MOV [RDX + 0x8],RDI            [48897A08] 
+10F720: RET                            [C3] 
+
+========

@@ -1,0 +1,11 @@
+
+94738: JLP                            [0F1F40BB] 
+9473C: MOV EAX,ECX                    [89C8] 
+9473E: LEA RDX,[0x130c24]             [488D15DFC40900] 
+94745: SHR EAX,0xc                    [C1E80C] 
+94748: AND EAX,0xf                    [83E00F] 
+9474B: MOVSXD RSI,[RDX + RAX*0x4]     [48633482] 
+9474F: ADD RDX,RSI                    [4801F2] 
+94752: JMP RDX                        [FFE2] 
+
+========

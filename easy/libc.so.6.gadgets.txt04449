@@ -1,0 +1,6 @@
+
+79CE0: CLP                            [0F1F40AA] 
+79CE4: XOR EAX,EAX                    [31C0] 
+79CE6: RET                            [C3] 
+
+========

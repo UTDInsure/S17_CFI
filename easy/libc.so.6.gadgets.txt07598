@@ -1,0 +1,9 @@
+
+BC30F: JLP                            [0F1F40BB] 
+BC313: XOR EAX,EAX                    [31C0] 
+BC315: POP RBX                        [5B] 
+BC316: POP RBP                        [5D] 
+BC317: POP R12                        [415C] 
+BC319: RET                            [C3] 
+
+========

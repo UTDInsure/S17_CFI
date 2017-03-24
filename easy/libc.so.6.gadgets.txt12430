@@ -1,0 +1,7 @@
+
+114C40: CLP                            [0F1F40AA] 
+114C44: ADD dword ptr [RDI + 0x28],0x4 [83472804] 
+114C48: MOV EAX,0x1                    [B801000000] 
+114C4D: RET                            [C3] 
+
+========

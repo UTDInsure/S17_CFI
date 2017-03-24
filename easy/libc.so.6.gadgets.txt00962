@@ -1,0 +1,8 @@
+
+36B00: CLP                            [0F1F40AA] 
+36B04: MOV RAX,[0x00368e68]           [488B055D233300] 
+36B0B: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+36B12: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+36B17: RET                            [C3] 
+
+========

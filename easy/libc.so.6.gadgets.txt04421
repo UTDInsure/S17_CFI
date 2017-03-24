@@ -1,0 +1,6 @@
+
+79830: CLP                            [0F1F40AA] 
+79834: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+79839: RET                            [C3] 
+
+========

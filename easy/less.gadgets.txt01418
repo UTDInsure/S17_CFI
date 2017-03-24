@@ -1,0 +1,11 @@
+
+413CF0: CLP                            [0F1F40AA] 
+413CF4: CVTSI2SD XMM0,RDI              [F2480F2AC7] 
+413CF9: CVTSI2SD XMM1,RSI              [F2480F2ACE] 
+413CFE: MULSD XMM0,[0x0041de30]        [F20F59052AA10000] 
+413D06: DIVSD XMM0,XMM1                [F20F5EC1] 
+413D0A: ADDSD XMM0,[0x0041de38]        [F20F580526A10000] 
+413D12: CVTTSD2SI RAX,XMM0             [F2480F2CC0] 
+413D17: RET                            [C3] 
+
+========

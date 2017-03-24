@@ -1,0 +1,6 @@
+
+BFBC1: JLP                            [0F1F40BB] 
+BFBC5: XOR EAX,EAX                    [31C0] 
+BFBC7: RET                            [C3] 
+
+========

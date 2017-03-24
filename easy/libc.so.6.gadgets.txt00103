@@ -1,0 +1,15 @@
+
+22450: JLP                            [0F1F40BB] 
+22454: MOV RAX,[0x00368e68]           [488B050D6A3400] 
+2245B: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+22462: ADD RSP,0x18                   [4883C418] 
+22466: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+2246D: POP RBX                        [5B] 
+2246E: POP RBP                        [5D] 
+2246F: POP R12                        [415C] 
+22471: POP R13                        [415D] 
+22473: POP R14                        [415E] 
+22475: POP R15                        [415F] 
+22477: RET                            [C3] 
+
+========

@@ -1,0 +1,9 @@
+
+406E60: CLP                            [0F1F40AA] 
+406E64: MOV dword ptr [0x00627bc8],0x0 [C7055A0D220000000000] 
+406E6E: MOV dword ptr [0x00627bcc],0x0 [C705540D220000000000] 
+406E78: MOV dword ptr [0x00627b64],0x0 [C705E20C220000000000] 
+406E82: MOV dword ptr [0x006261cc],0xffffffff [C70540F32100FFFFFFFF] 
+406E8C: RET                            [C3] 
+
+========

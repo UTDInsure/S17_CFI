@@ -1,0 +1,8 @@
+
+D6120: CLP                            [0F1F40AA] 
+D6124: MOV EAX,[0x10c + RDI]          [8B870C010000] 
+D612A: MOV [RSI],EAX                  [8906] 
+D612C: XOR EAX,EAX                    [31C0] 
+D612E: RET                            [C3] 
+
+========

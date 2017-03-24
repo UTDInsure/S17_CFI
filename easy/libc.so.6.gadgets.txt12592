@@ -1,0 +1,8 @@
+
+119080: CLP                            [0F1F40AA] 
+119084: MOV RAX,[0x00368e68]           [488B05DDFD2400] 
+11908B: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+119092: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+119097: RET                            [C3] 
+
+========

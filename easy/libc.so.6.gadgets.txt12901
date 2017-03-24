@@ -1,0 +1,18 @@
+
+11BF60: CLP                            [0F1F40AA] 
+11BF64: PUSH R15                       [4157] 
+11BF66: PUSH R14                       [4156] 
+11BF68: PUSH R13                       [4155] 
+11BF6A: PUSH R12                       [4154] 
+11BF6C: MOV R12,RSI                    [4989F4] 
+11BF6F: PUSH RBP                       [55] 
+11BF70: MOV RBP,RDI                    [4889FD] 
+11BF73: PUSH RBX                       [53] 
+11BF74: SUB RSP,0x28                   [4883EC28] 
+11BF78: MOV RAX,[0x00368de8]           [488B0569CE2400] 
+11BF7F: MOV [RSP + 0x8],RDX            [4889542408] 
+11BF84: MOV [RSP + 0x10],RCX           [48894C2410] 
+11BF89: LEA RDI,[0x908 + RAX]          [488DB808090000] 
+11BF90: CALL [0xf08 + RAX]             [FF90080F0000] 
+
+========

@@ -1,0 +1,7 @@
+
+10ED90: JLP                            [0F1F40BB] 
+10ED94: MOV dword ptr [RCX + 0x4],0x1  [C7410401000000] 
+10ED9B: MOV EAX,0x1                    [B801000000] 
+10EDA0: RET                            [C3] 
+
+========

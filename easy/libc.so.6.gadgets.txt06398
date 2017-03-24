@@ -1,0 +1,19 @@
+
+A38A0: CLP                            [0F1F40AA] 
+A38A4: MOV R8D,0x3b                   [41B83B000000] 
+A38AA: CMP EDI,0x3b                   [83FF3B] 
+A38AD: MOV EAX,EDI                    [89F8] 
+A38AF: CMOVA EAX,R8D                  [410F47C0] 
+A38B3: MOV ECX,0x18                   [B918000000] 
+A38B8: CMP EDX,0x18                   [83FA18] 
+A38BB: CMOVBE ECX,EDX                 [0F46CA] 
+A38BE: MOV EDX,0x3c                   [BA3C000000] 
+A38C3: IMUL ECX,ECX,0xe10             [69C9100E0000] 
+A38C9: ADD EAX,ECX                    [01C8] 
+A38CB: CMP ESI,0x3b                   [83FE3B] 
+A38CE: CMOVA ESI,R8D                  [410F47F0] 
+A38D2: IMUL ESI,EDX                   [0FAFF2] 
+A38D5: ADD EAX,ESI                    [01F0] 
+A38D7: RET                            [C3] 
+
+========

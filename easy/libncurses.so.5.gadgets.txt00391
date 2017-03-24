@@ -1,0 +1,8 @@
+
+18900: CLP                            [0F1F40AA] 
+18904: MOV RAX,[0x0024a7e8]           [488B05DD1E2300] 
+1890B: MOV [RAX],EDI                  [8938] 
+1890D: XOR EAX,EAX                    [31C0] 
+1890F: RET                            [C3] 
+
+========

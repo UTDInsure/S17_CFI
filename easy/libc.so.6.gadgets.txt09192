@@ -1,0 +1,10 @@
+
+E3210: CLP                            [0F1F40AA] 
+E3214: MOV RAX,[0x00368e60]           [488B05455C2800] 
+E321B: MOV EDX,[RAX + 0x38]           [8B5038] 
+E321E: MOV EAX,0x64                   [B864000000] 
+E3223: TEST EDX,EDX                   [85D2] 
+E3225: CMOVNZ EAX,EDX                 [0F45C2] 
+E3228: RET                            [C3] 
+
+========

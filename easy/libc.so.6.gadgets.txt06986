@@ -1,0 +1,6 @@
+
+AF0E0: CLP                            [0F1F40AA] 
+AF0E4: MOV RAX,[RDI + 0x20]           [488B4720] 
+AF0E8: RET                            [C3] 
+
+========

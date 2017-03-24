@@ -1,0 +1,6 @@
+
+10EE38: JLP                            [0F1F40BB] 
+10EE3C: XOR EAX,EAX                    [31C0] 
+10EE3E: RET                            [C3] 
+
+========

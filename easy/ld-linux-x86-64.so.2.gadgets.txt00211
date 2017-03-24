@@ -1,0 +1,15 @@
+
+F420: CLP                            [0F1F40AA] 
+F424: PUSH R15                       [4157] 
+F426: PUSH R14                       [4156] 
+F428: PUSH R13                       [4155] 
+F42A: MOV R13,RDI                    [4989FD] 
+F42D: PUSH R12                       [4154] 
+F42F: MOV R12,RSI                    [4989F4] 
+F432: PUSH RBP                       [55] 
+F433: MOV RBP,RDX                    [4889D5] 
+F436: PUSH RBX                       [53] 
+F437: SUB RSP,0x8                    [4883EC08] 
+F43B: CALL [0x002229f0]              [FF15AF352100] 
+
+========

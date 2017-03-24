@@ -1,0 +1,11 @@
+
+10C680: JLP                            [0F1F40BB] 
+10C684: ADD RSP,0x8                    [4883C408] 
+10C688: MOV EAX,R13D                   [4489E8] 
+10C68B: POP RBX                        [5B] 
+10C68C: POP RBP                        [5D] 
+10C68D: POP R12                        [415C] 
+10C68F: POP R13                        [415D] 
+10C691: RET                            [C3] 
+
+========

@@ -1,0 +1,10 @@
+
+8E940: CLP                            [0F1F40AA] 
+8E944: LEA RAX,[0x130b50]             [488D0505220A00] 
+8E94B: MOV RCX,RDX                    [4889D1] 
+8E94E: AND ECX,0x7                    [83E107] 
+8E951: MOVSXD RCX,[RAX + RCX*0x4]     [48630C88] 
+8E955: ADD RAX,RCX                    [4801C8] 
+8E958: JMP RAX                        [FFE0] 
+
+========

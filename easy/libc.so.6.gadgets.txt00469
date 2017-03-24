@@ -1,0 +1,7 @@
+
+2ED80: CLP                            [0F1F40AA] 
+2ED84: MOV EAX,EDI                    [89F8] 
+2ED86: AND EAX,0x7f                   [83E07F] 
+2ED89: RET                            [C3] 
+
+========

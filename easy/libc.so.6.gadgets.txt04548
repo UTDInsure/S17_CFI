@@ -1,0 +1,6 @@
+
+7A900: CLP                            [0F1F40AA] 
+7A904: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+7A90B: RET                            [C3] 
+
+========

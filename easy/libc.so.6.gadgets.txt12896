@@ -1,0 +1,16 @@
+
+11BD70: CLP                            [0F1F40AA] 
+11BD74: PUSH R15                       [4157] 
+11BD76: PUSH R14                       [4156] 
+11BD78: PUSH R13                       [4155] 
+11BD7A: PUSH R12                       [4154] 
+11BD7C: PUSH RBP                       [55] 
+11BD7D: PUSH RBX                       [53] 
+11BD7E: SUB RSP,0x68                   [4883EC68] 
+11BD82: MOV R12,[0x00368de8]           [4C8B255FD02400] 
+11BD89: MOV [RSP + 0x10],RDI           [48897C2410] 
+11BD8E: MOV [RSP + 0x18],RSI           [4889742418] 
+11BD93: LEA RDI,[0x930 + R12]          [498DBC2430090000] 
+11BD9B: CALL [0xf08 + R12]             [41FF9424080F0000] 
+
+========

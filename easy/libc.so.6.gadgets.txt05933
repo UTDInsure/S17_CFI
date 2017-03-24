@@ -1,0 +1,9 @@
+
+94700: JLP                            [0F1F40BB] 
+94704: MOV EAX,ECX                    [89C8] 
+94706: SHR EAX,0xe                    [C1E80E] 
+94709: AND EAX,0x3fc00                [2500FC0300] 
+9470E: POP RBX                        [5B] 
+9470F: RET                            [C3] 
+
+========

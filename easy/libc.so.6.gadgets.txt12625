@@ -1,0 +1,11 @@
+
+119820: CLP                            [0F1F40AA] 
+119824: PUSH R12                       [4154] 
+119826: MOV R12,RSI                    [4989F4] 
+119829: PUSH RBP                       [55] 
+11982A: MOV RBP,RDI                    [4889FD] 
+11982D: PUSH RBX                       [53] 
+11982E: MOV RBX,RDX                    [4889D3] 
+119831: CALL [0x00366ae0]              [FF15A9D22400] 
+
+========

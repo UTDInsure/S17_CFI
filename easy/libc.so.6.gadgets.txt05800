@@ -1,0 +1,9 @@
+
+93720: JLP                            [0F1F40BB] 
+93724: MOV [RDI],ECX                  [890F] 
+93726: MOV [RDI + 0x4],DX             [66895704] 
+9372A: MOV RAX,RDI                    [4889F8] 
+9372D: MOV byte ptr [RDI + 0x6],0x0   [C6470600] 
+93731: RET                            [C3] 
+
+========

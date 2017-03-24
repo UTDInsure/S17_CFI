@@ -1,0 +1,9 @@
+
+10C150: JLP                            [0F1F40BB] 
+10C154: MOV RAX,[R8]                   [498B00] 
+10C157: BSWAP EAX                      [0FC8] 
+10C159: MOV [0xb8 + RCX],EAX           [8981B8000000] 
+10C15F: MOV EAX,0x1                    [B801000000] 
+10C164: RET                            [C3] 
+
+========

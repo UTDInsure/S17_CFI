@@ -1,0 +1,8 @@
+
+76BB0: CLP                            [0F1F40AA] 
+76BB4: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+76BBB: PUSH RBX                       [53] 
+76BBC: MOV RBX,RDI                    [4889FB] 
+76BBF: CALL [0x80 + RAX]              [FF9080000000] 
+
+========

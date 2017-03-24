@@ -1,0 +1,10 @@
+
+39190: CLP                            [0F1F40AA] 
+39194: MOV RDX,RDI                    [4889FA] 
+39197: MOV RAX,RDI                    [4889F8] 
+3919A: SAR RDX,0x3f                   [48C1FA3F] 
+3919E: XOR RAX,RDX                    [4831D0] 
+391A1: SUB RAX,RDX                    [4829D0] 
+391A4: RET                            [C3] 
+
+========

@@ -1,0 +1,16 @@
+
+355A0: CLP                            [0F1F40AA] 
+355A4: MOVD ECX,XMM0                  [660F7EC1] 
+355A8: MOV EDX,ECX                    [89CA] 
+355AA: SAR ECX,0x1e                   [C1F91E] 
+355AD: AND EDX,0x7fffffff             [81E2FFFFFF7F] 
+355B3: XOR EDX,0x7f800000             [81F20000807F] 
+355B9: MOV EAX,EDX                    [89D0] 
+355BB: NEG EAX                        [F7D8] 
+355BD: OR EAX,EDX                     [09D0] 
+355BF: SAR EAX,0x1f                   [C1F81F] 
+355C2: NOT EAX                        [F7D0] 
+355C4: AND EAX,ECX                    [21C8] 
+355C6: RET                            [C3] 
+
+========

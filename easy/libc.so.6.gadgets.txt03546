@@ -1,0 +1,13 @@
+
+72050: CLP                            [0F1F40AA] 
+72054: PUSH R12                       [4154] 
+72056: MOV R12D,ESI                   [4189F4] 
+72059: PUSH RBP                       [55] 
+7205A: PUSH RBX                       [53] 
+7205B: MOV RBX,RDI                    [4889FB] 
+7205E: SUB RSP,0x20                   [4883EC20] 
+72062: MOV RBP,[0x98 + RDI]           [488BAF98000000] 
+72069: MOV RDI,RBP                    [4889EF] 
+7206C: CALL [RBP + 0x20]              [FF5520] 
+
+========

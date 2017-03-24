@@ -1,0 +1,8 @@
+
+935E8: JLP                            [0F1F40BB] 
+935EC: MOV [RDI],R9W                  [6644890F] 
+935F0: ADD RDI,0x2                    [4883C702] 
+935F4: MOV RAX,RDI                    [4889F8] 
+935F7: RET                            [C3] 
+
+========

@@ -1,0 +1,8 @@
+
+10F728: JLP                            [0F1F40BB] 
+10F72C: MOV EAX,[RDI]                  [8B07] 
+10F72E: MOV [RDX],EAX                  [8902] 
+10F730: MOV EAX,0x1                    [B801000000] 
+10F735: RET                            [C3] 
+
+========

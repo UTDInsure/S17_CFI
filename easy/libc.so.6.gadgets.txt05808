@@ -1,0 +1,7 @@
+
+937A0: JLP                            [0F1F40BB] 
+937A4: MOV [RDI],ECX                  [890F] 
+937A6: LEA RAX,[RDI + 0x3]            [488D4703] 
+937AA: RET                            [C3] 
+
+========

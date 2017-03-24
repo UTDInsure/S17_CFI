@@ -1,0 +1,14 @@
+
+12D10: CLP                            [0F1F40AA] 
+12D14: PUSH RBP                       [55] 
+12D15: MOV ESI,0xc                    [BE0C000000] 
+12D1A: MOV RBP,RDI                    [4889FD] 
+12D1D: PUSH RBX                       [53] 
+12D1E: SUB RSP,0x8                    [4883EC08] 
+12D22: MOV RBX,[0x00221cd8]           [488B1DAFEF2000] 
+12D29: NEG RBX                        [48F7DB] 
+12D2C: AND RBX,[RDI]                  [48231F] 
+12D2F: MOV RDI,[RSP + 0x18]           [488B7C2418] 
+12D34: CALL [0x00221db0]              [FF1576F02000] 
+
+========

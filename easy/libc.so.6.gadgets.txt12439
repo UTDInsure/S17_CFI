@@ -1,0 +1,6 @@
+
+114DF0: CLP                            [0F1F40AA] 
+114DF4: XOR EAX,EAX                    [31C0] 
+114DF6: RET                            [C3] 
+
+========

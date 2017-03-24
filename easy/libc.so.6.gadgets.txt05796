@@ -1,0 +1,8 @@
+
+936E0: JLP                            [0F1F40BB] 
+936E4: MOV [RDI],SI                   [668937] 
+936E7: MOV byte ptr [RDI + 0x2],0x0   [C6470200] 
+936EB: MOV RAX,RDI                    [4889F8] 
+936EE: RET                            [C3] 
+
+========

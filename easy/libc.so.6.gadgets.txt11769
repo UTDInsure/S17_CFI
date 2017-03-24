@@ -1,0 +1,12 @@
+
+10EC20: CLP                            [0F1F40AA] 
+10EC24: MOV RAX,[RDI + 0x10]           [488B4710] 
+10EC28: MOV RDX,[RAX + 0x30]           [488B5030] 
+10EC2C: MOV [RSI],RDX                  [488916] 
+10EC2F: MOV RDX,[RAX + 0x38]           [488B5038] 
+10EC33: MOV [RSI + 0x8],RDX            [48895608] 
+10EC37: MOV RAX,[RAX + 0x40]           [488B4040] 
+10EC3B: MOV [RSI + 0x10],RAX           [48894610] 
+10EC3F: RET                            [C3] 
+
+========

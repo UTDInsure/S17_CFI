@@ -1,0 +1,7 @@
+
+E3AB0: CLP                            [0F1F40AA] 
+E3AB4: MOV EAX,0xe4                   [B8E4000000] 
+E3AB9: SYSCALL                        [0F05] 
+E3ABB: RET                            [C3] 
+
+========

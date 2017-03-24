@@ -1,0 +1,15 @@
+
+471E0: CLP                            [0F1F40AA] 
+471E4: ADD ESI,0x7f                   [83C67F] 
+471E7: MOV RAX,[RDI]                  [488B07] 
+471EA: SHL EDX,0x1f                   [C1E21F] 
+471ED: MOVZX ESI,SIL                  [400FB6F6] 
+471F1: SHL ESI,0x17                   [C1E617] 
+471F4: AND EAX,0x7fffff               [25FFFF7F00] 
+471F9: OR EDX,ESI                     [09F2] 
+471FB: OR EDX,EAX                     [09C2] 
+471FD: MOV [RSP + -0x4],EDX           [895424FC] 
+47201: MOVSS XMM0,[RSP + -0x4]        [F30F104424FC] 
+47207: RET                            [C3] 
+
+========

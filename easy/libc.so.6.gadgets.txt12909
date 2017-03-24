@@ -1,0 +1,9 @@
+
+11C2B0: CLP                            [0F1F40AA] 
+11C2B4: SUB RSP,0x8                    [4883EC08] 
+11C2B8: MOV RAX,[0x00368e60]           [488B05A1CB2400] 
+11C2BF: MOV RSI,RDI                    [4889FE] 
+11C2C2: MOV RDI,[RSP + 0x8]            [488B7C2408] 
+11C2C7: CALL [0xe0 + RAX]              [FF90E0000000] 
+
+========

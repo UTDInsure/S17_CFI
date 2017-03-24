@@ -1,0 +1,11 @@
+
+775D0: CLP                            [0F1F40AA] 
+775D4: PUSH RBP                       [55] 
+775D5: PUSH RBX                       [53] 
+775D6: MOV RBX,RDI                    [4889FB] 
+775D9: SUB RSP,0x98                   [4881EC98000000] 
+775E0: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+775E7: MOV RSI,RSP                    [4889E6] 
+775EA: CALL [0x90 + RAX]              [FF9090000000] 
+
+========

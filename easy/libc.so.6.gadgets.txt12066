@@ -1,0 +1,11 @@
+
+1128E0: CLP                            [0F1F40AA] 
+1128E4: SUB RSP,0x8                    [4883EC08] 
+1128E8: MOV RDI,[RDI + 0x48]           [488B7F48] 
+1128EC: MOV RCX,RSI                    [4889F1] 
+1128EF: XOR EAX,EAX                    [31C0] 
+1128F1: MOV RSI,RDX                    [4889D6] 
+1128F4: ADD RDI,0x10                   [4883C710] 
+1128F8: CALL RCX                       [FFD1] 
+
+========

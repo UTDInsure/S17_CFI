@@ -1,0 +1,9 @@
+
+2C9F0: CLP                            [0F1F40AA] 
+2C9F4: MOVZX EDI,DIL                  [400FB6FF] 
+2C9F8: LEA RAX,[0x248640]             [488D0541BC2100] 
+2C9FF: SHL RDI,0x5                    [48C1E705] 
+2CA03: ADD RAX,RDI                    [4801F8] 
+2CA06: RET                            [C3] 
+
+========

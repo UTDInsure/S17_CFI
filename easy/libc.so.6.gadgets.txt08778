@@ -1,0 +1,8 @@
+
+DD3F0: CLP                            [0F1F40AA] 
+DD3F4: MOV RAX,[0x00368e68]           [488B056DBA2800] 
+DD3FB: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+DD402: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DD407: RET                            [C3] 
+
+========
