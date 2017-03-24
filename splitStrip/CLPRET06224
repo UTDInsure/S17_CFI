@@ -1,0 +1,7 @@
+
+
+F0144: MOV ESI,[0x0036e770]           [8B3526E62700] 
+F014A: XOR EAX,EAX                    [31C0] 
+F014C: TEST ESI,ESI                   [85F6] 
+
+========

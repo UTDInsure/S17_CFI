@@ -1,0 +1,14 @@
+
+
+89164: MOV RAX,RDI                    [4889F8] 
+89167: MOV RDX,RSI                    [4889F2] 
+8916A: PXOR XMM8,XMM8                 [66450FEFC0] 
+891CC: CMP RDX,0x40                   [4883FA40] 
+891D2: CMP RDX,0x10                   [4883FA10] 
+89272: MOVQ RCX,XMM8                  [664C0F7EC1] 
+89277: TEST DL,0x18                   [F6C218] 
+8927C: TEST DL,0x4                    [F6C204] 
+89297: MOV [RDI],ECX                  [890F] 
+89299: MOV [RDI + RDX*0x1 + -0x4],ECX [894C17FC] 
+
+========

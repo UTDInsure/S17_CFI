@@ -1,0 +1,9 @@
+
+
+391F4: TEST RDI,RDI                   [4885FF] 
+391F7: PUSH RBX                       [53] 
+391FA: XOR EAX,EAX                    [31C0] 
+391FC: CMP byte ptr [RDI],0x0         [803F00] 
+39201: POP RBX                        [5B] 
+
+========

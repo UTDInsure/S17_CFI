@@ -1,0 +1,26 @@
+
+
+4BDEA: CMP byte ptr [-0x4c8 + RBP],0x0 [80BD38FBFFFF00] 
+4BDF7: MOV RAX,[0x00368e68]           [488B056AD03100] 
+4BDFE: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+47F03: MOV dword ptr [-0x4a8 + RBP],0xffffffff [C78558FBFFFFFFFFFFFF] 
+47F0D: CMP dword ptr [-0x4f0 + RBP],0x0 [4883BD10FBFFFF00] 
+47F17: CMP dword ptr [-0x4c0 + RBP],0x0 [4883BD40FBFFFF00] 
+47A43: TEST dword ptr [RBX],0x8000    [F70300800000] 
+47A5C: MOV EAX,[-0x4ac + RBP]         [8B8554FBFFFF] 
+47A62: TEST EAX,EAX                   [85C0] 
+47B8C: MOV RAX,[0x0036e738]           [488B05A56B3200] 
+47B93: LEA RDI,[-0x440 + RBP]         [488DBDC0FBFFFF] 
+47B9A: XOR ESI,ESI                    [31F6] 
+47B9C: ROR RAX,0x11                   [48C1C811] 
+47BA0: XOR RAX,FS:[0x30]              [644833042530000000] 
+47A6A: MOV EAX,[-0x4a8 + RBP]         [8B8558FBFFFF] 
+47A70: LEA RSP,[RBP + -0x28]          [488D65D8] 
+47A74: POP RBX                        [5B] 
+47A75: POP R12                        [415C] 
+47A77: POP R13                        [415D] 
+47A79: POP R14                        [415E] 
+47A7B: POP R15                        [415F] 
+47A7D: POP RBP                        [5D] 
+
+========

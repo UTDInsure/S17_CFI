@@ -1,0 +1,7 @@
+
+
+36944: SUB RSP,0x8                    [4883EC08] 
+36948: MOV RSI,RDI                    [4889FE] 
+3694B: XOR EDI,EDI                    [31FF] 
+
+========

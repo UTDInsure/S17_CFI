@@ -1,0 +1,10 @@
+
+
+71E04: MOV RDX,[0xa0 + RDI]           [488B97A0000000] 
+71E0B: MOV RAX,[RDX + 0x8]            [488B4208] 
+71E0F: CMP [RDX + 0x20],RAX           [48394220] 
+71E13: CMOVNC RAX,[RDX + 0x20]        [480F434220] 
+71E18: SUB RAX,[RDX + 0x10]           [482B4210] 
+71E1C: SAR RAX,0x2                    [48C1F802] 
+
+========

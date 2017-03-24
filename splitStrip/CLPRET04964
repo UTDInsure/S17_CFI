@@ -1,0 +1,22 @@
+
+
+D7004: SUB RSP,0x58                   [4883EC58] 
+D7008: LEA RAX,[RSP + 0x60]           [488D442460] 
+D700D: MOV [RSP + 0x30],RDX           [4889542430] 
+D7012: MOV dword ptr [RSP + 0x8],0x10 [C744240810000000] 
+D701A: MOV [RSP + 0x10],RAX           [4889442410] 
+D701F: LEA RAX,[RSP + 0x20]           [488D442420] 
+D7024: MOV [RSP + 0x18],RAX           [4889442418] 
+D6F84: CMP ESI,0x9                    [83FE09] 
+D6FA0: LEA RDX,[RSP + -0x18]          [488D5424E8] 
+D6FA5: MOV ESI,0x10                   [BE10000000] 
+D6FAA: MOVSXD RDI,EDI                 [4863FF] 
+D6FAD: MOV EAX,0x48                   [B848000000] 
+D6FB4: CMP EAX,0xfffff000             [3D00F0FFFF] 
+D6FE0: MOV RDX,[0x00368e68]           [488B15811E2900] 
+D6FE7: NEG EAX                        [F7D8] 
+D6FE9: MOV FS:[RDX],EAX               [648902] 
+D6FEC: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+D7032: ADD RSP,0x58                   [4883C458] 
+
+========

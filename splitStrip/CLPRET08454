@@ -1,0 +1,28 @@
+
+
+2C914: SUB RSP,0x8                    [4883EC08] 
+2C918: TEST DIL,DIL                   [4084FF] 
+2C940: LEA RDX,[0x39760]              [488D1519CE0000] 
+2C947: LEA RSI,[0x38000]              [488D35B2B60000] 
+2C94E: LEA RDI,[0x24b758]             [488D3D03EE2100] 
+2C814: PUSH R15                       [4157] 
+2C816: PUSH R14                       [4156] 
+2C818: PUSH R13                       [4155] 
+2C81A: MOV R13,RDI                    [4989FD] 
+2C81D: PUSH R12                       [4154] 
+2C81F: PUSH RBP                       [55] 
+2C820: PUSH RBX                       [53] 
+2C821: SUB RSP,0x8                    [4883EC08] 
+2C825: MOV R12,[RDI]                  [4C8B27] 
+2C828: TEST R12,R12                   [4D85E4] 
+2C82D: ADD RSP,0x8                    [4883C408] 
+2C831: MOV RAX,R12                    [4C89E0] 
+2C834: POP RBX                        [5B] 
+2C835: POP RBP                        [5D] 
+2C836: POP R12                        [415C] 
+2C838: POP R13                        [415D] 
+2C83A: POP R14                        [415E] 
+2C83C: POP R15                        [415F] 
+2C95E: ADD RSP,0x8                    [4883C408] 
+
+========

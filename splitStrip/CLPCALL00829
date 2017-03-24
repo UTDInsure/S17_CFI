@@ -1,0 +1,14 @@
+
+
+AFF74: MOV EAX,[0x0036e770]           [8B05F6E72B00] 
+AFF7A: TEST EAX,EAX                   [85C0] 
+AFF9F: SUB RSP,0x38                   [4883EC38] 
+AFFA3: MOV RAX,[0x0036e758]           [488B05AEE72B00] 
+AFFAA: MOV [RSP + 0x8],RDI            [48897C2408] 
+AFFAF: MOV dword ptr [RSP],0x74       [C7042474000000] 
+AFFB6: MOV RDI,RSP                    [4889E7] 
+AFFB9: MOV [RSP + 0x10],RSI           [4889742410] 
+AFFBE: ROR RAX,0x11                   [48C1C811] 
+AFFC2: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

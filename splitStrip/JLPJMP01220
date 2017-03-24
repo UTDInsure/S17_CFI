@@ -1,0 +1,9 @@
+
+
+C9A57: MOV [RSP + 0x3c],R9D           [44894C243C] 
+C9A5C: MOV [RSP + 0x38],R8D           [4489442438] 
+C9A61: MOV [RSP + 0x34],EDX           [89542434] 
+C9A65: MOV [RSP + 0x28],RSI           [4889742428] 
+C9A6A: MOV [RSP + 0x20],ECX           [894C2420] 
+
+========

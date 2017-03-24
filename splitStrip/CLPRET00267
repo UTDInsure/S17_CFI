@@ -1,0 +1,19 @@
+
+
+174E4: MOVZX R10D,byte ptr [RSI]      [440FB616] 
+174E8: TEST R10B,R10B                 [4584D2] 
+174ED: MOV RAX,[RDI]                  [488B07] 
+174F0: TEST RAX,RAX                   [4885C0] 
+174F5: MOVZX R8D,byte ptr [RAX]       [440FB600] 
+174F9: TEST R8B,R8B                   [4584C0] 
+174FE: MOV R9,RAX                     [4989C1] 
+17501: NOP                            [0F1F8000000000] 
+17508: MOV ECX,R10D                   [4489D1] 
+1750B: MOV RDX,RSI                    [4889F2] 
+1751B: CMP CL,R8B                     [4438C1] 
+17520: TEST CL,CL                     [84C9] 
+17538: LEA RDX,[R9 + 0x1]             [498D5101] 
+1753C: MOV byte ptr [R9],0x0          [41C60100] 
+17533: MOV [RDI],RDX                  [488917] 
+
+========

@@ -1,0 +1,7 @@
+
+
+11D2B4: MOV R8D,[0x0036e770]           [448B05B5142500] 
+11D2BB: XOR EAX,EAX                    [31C0] 
+11D2BD: TEST R8D,R8D                   [4585C0] 
+
+========

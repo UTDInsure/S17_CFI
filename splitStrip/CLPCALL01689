@@ -1,0 +1,10 @@
+
+
+119AD4: SUB RSP,0x8                    [4883EC08] 
+119AD8: MOV ESI,0x1                    [BE01000000] 
+119ADD: XOR EAX,EAX                    [31C0] 
+119ADF: CMP dword ptr [0x0036e774],0x0 [833D8E4C250000] 
+119AF4: CMPXCHG [0x0036e9b8],ESI       [0FB135BD4E2500] 
+119B1B: MOV RAX,[0x0036a728]           [488B05060C2500] 
+
+========

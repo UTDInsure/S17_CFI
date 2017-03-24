@@ -1,0 +1,20 @@
+
+
+ABD24: PUSH R13                       [4155] 
+ABD26: MOV R13,RSI                    [4989F5] 
+ABD29: PUSH R12                       [4154] 
+ABD2B: MOV R12,RCX                    [4989CC] 
+ABD2E: PUSH RBP                       [55] 
+ABD2F: MOV RBP,RDI                    [4889FD] 
+ABD32: PUSH RBX                       [53] 
+ABD33: MOV RBX,RDX                    [4889D3] 
+ABD36: SUB RSP,0x8                    [4883EC08] 
+ABD3A: TEST RDX,RDX                   [4885D2] 
+ABD5B: ADD RSP,0x8                    [4883C408] 
+ABD5F: MOV RAX,RBP                    [4889E8] 
+ABD62: POP RBX                        [5B] 
+ABD63: POP RBP                        [5D] 
+ABD64: POP R12                        [415C] 
+ABD66: POP R13                        [415D] 
+
+========

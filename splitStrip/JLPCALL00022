@@ -1,0 +1,22 @@
+
+
+486DE: CMP dword ptr [-0x568 + RBP],0x0 [83BD98FAFFFF00] 
+486EB: MOV R12D,[-0x558 + RBP]        [448BA5A8FAFFFF] 
+486F2: SUB R12D,0x1                   [4183EC01] 
+486F6: CMP dword ptr [-0x584 + RBP],0x0 [83BD7CFAFFFF00] 
+4874F: MOVSXD RAX,[-0x4e4 + RBP]      [4863851CFBFFFF] 
+48756: IMUL RAX,RAX,0x48              [486BC048] 
+4875A: ADD RAX,[-0x4d0 + RBP]         [48038530FBFFFF] 
+48767: MOVSXD RAX,[RAX + 0x30]        [48634030] 
+4876B: MOV RCX,[-0x4d8 + RBP]         [488B8D28FBFFFF] 
+48772: SHL RAX,0x4                    [48C1E004] 
+48776: MOVZX ESI,byte ptr [RCX + RAX*0x1] [0FB63401] 
+4877A: MOV RAX,[RBX + 0x28]           [488B4328] 
+4877E: CMP RAX,[RBX + 0x30]           [483B4330] 
+48D2D: MOV RDI,RBX                    [4889DF] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

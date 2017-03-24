@@ -1,0 +1,16 @@
+
+
+966E4: PUSH R12                       [4154] 
+966E6: LEA EDX,[0x80 + RDI]           [8D9780000000] 
+966EC: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+966F1: PUSH RBP                       [55] 
+966F2: PUSH RBX                       [53] 
+966F3: MOV EBX,EDI                    [89FB] 
+966F5: SUB RSP,0x70                   [4883EC70] 
+966F9: CMP EDX,0x17f                  [81FA7F010000] 
+96701: ADD RSP,0x70                   [4883C470] 
+96705: POP RBX                        [5B] 
+96706: POP RBP                        [5D] 
+96707: POP R12                        [415C] 
+
+========

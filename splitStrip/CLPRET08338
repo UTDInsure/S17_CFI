@@ -1,0 +1,10 @@
+
+
+22594: TEST RDI,RDI                   [4885FF] 
+22597: PUSH RBX                       [53] 
+22598: MOV RBX,RDI                    [4889FB] 
+225BF: MOV RDI,[RBX + 0x48]           [488B7B48] 
+225C3: TEST RDI,RDI                   [4885FF] 
+225C8: POP RBX                        [5B] 
+
+========

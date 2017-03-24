@@ -1,0 +1,8 @@
+
+
+DADC4: CMP EDX,0x4                    [83FA04] 
+DADD0: MOV RAX,[0x00368e68]           [488B0591E02800] 
+DADD7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DADDE: MOV EAX,0x1                    [B801000000] 
+
+========

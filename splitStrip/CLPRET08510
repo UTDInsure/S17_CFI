@@ -1,0 +1,13 @@
+
+
+2DEE4: PUSH RBP                       [55] 
+2DEE5: PUSH RBX                       [53] 
+2DEE6: MOV RBX,RDI                    [4889FB] 
+2DEE9: SUB RSP,0x8                    [4883EC08] 
+2DEED: TEST RDI,RDI                   [4885FF] 
+2DF70: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2DF54: ADD RSP,0x8                    [4883C408] 
+2DF58: POP RBX                        [5B] 
+2DF59: POP RBP                        [5D] 
+
+========

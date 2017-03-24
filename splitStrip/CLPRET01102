@@ -1,0 +1,14 @@
+
+
+415954: MOV RCX,[RSI + 0x8]            [488B4E08] 
+415958: MOV RDX,RDI                    [4889FA] 
+415969: MOV RAX,[RDX]                  [488B02] 
+41596C: TEST RAX,RAX                   [4885C0] 
+415971: CMP RDX,RDI                    [4839FA] 
+415985: TEST RAX,RAX                   [4885C0] 
+4159C8: MOV RDI,[RSI + 0x10]           [488B7E10] 
+41599B: CMP RDI,RCX                    [4839CF] 
+4159A0: MOV [RSI],RAX                  [488906] 
+4159A3: MOV [RDX],RSI                  [488932] 
+
+========

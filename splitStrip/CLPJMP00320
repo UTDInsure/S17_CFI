@@ -1,0 +1,23 @@
+
+
+40ABB4: MOV EAX,[0x0062ba44]           [8B058A0E2200] 
+40ABBA: TEST EAX,EAX                   [85C0] 
+40ABC8: PUSH R15                       [4157] 
+40ABCA: XOR EAX,EAX                    [31C0] 
+40ABCC: PUSH R14                       [4156] 
+40ABCE: PUSH R13                       [4155] 
+40ABD0: MOV R13D,ESI                   [4189F5] 
+40ABD3: PUSH R12                       [4154] 
+40ABD5: PUSH RBP                       [55] 
+40ABD6: PUSH RBX                       [53] 
+40ABD7: SUB RSP,0x8                    [4883EC08] 
+40C1A4: PUSH R15                       [4157] 
+40C1A6: PUSH R14                       [4156] 
+40C1A8: PUSH R13                       [4155] 
+40C1AA: PUSH R12                       [4154] 
+40C1AC: PUSH RBP                       [55] 
+40C1AD: MOV RBP,RDI                    [4889FD] 
+40C1B0: PUSH RBX                       [53] 
+40C1B1: SUB RSP,0x8                    [4883EC08] 
+
+========

@@ -1,0 +1,24 @@
+
+
+70E34: PUSH RBX                       [53] 
+70E35: MOV RDX,[0xa0 + RDI]           [488B97A0000000] 
+70E3C: MOV RBX,RDI                    [4889FB] 
+70E3F: MOV RDI,[RDX + 0x30]           [488B7A30] 
+70E43: TEST RDI,RDI                   [4885FF] 
+70E48: TEST byte ptr [RBX + 0x74],0x8 [F6437408] 
+70EA0: MOV RAX,[RDX + 0x38]           [488B4238] 
+70EA4: SUB RAX,RDI                    [4829F8] 
+70EA7: SAR RAX,0x2                    [48C1F802] 
+70EAB: LEA RSI,[0xfff + RAX*0x4]      [488D3485FF0F0000] 
+70EB3: AND RSI,0xfffff000             [4881E600F0FFFF] 
+E0184: MOV EAX,0xb                    [B80B000000] 
+E018B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+70EC3: MOV RDX,[0xa0 + RBX]           [488B93A0000000] 
+70ECA: MOV dword ptr [RDX + 0x38],0x0 [48C7423800000000] 
+70ED2: MOV dword ptr [RDX + 0x30],0x0 [48C7423000000000] 
+70E4E: MOV RAX,[RBX + 0x60]           [488B4360] 
+70E52: TEST RAX,RAX                   [4885C0] 
+70E70: CMP dword ptr [RBX + 0x48],0x0 [48837B4800] 
+70E77: MOV RDI,[RDX + 0x40]           [488B7A40] 
+
+========

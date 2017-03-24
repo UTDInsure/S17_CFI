@@ -1,0 +1,27 @@
+
+
+116954: MOV EDX,[0x0036e980]           [8B1526802500] 
+11695A: TEST EDX,EDX                   [85D2] 
+116968: MOV EDI,0x6                    [BF06000000] 
+11696D: XOR ESI,ESI                    [31F6] 
+11696F: MOV ECX,0x1                    [B901000000] 
+116974: MOV EAX,ESI                    [89F0] 
+116976: LOCK                           [F0] 
+116977: CMPXCHG [0x0036e990],ECX       [0FB10D12802500] 
+11697E: TEST EAX,EAX                   [85C0] 
+116986: PUSH RBP                       [55] 
+116987: PUSH RBX                       [53] 
+116988: SUB RSP,0x8                    [4883EC08] 
+11698C: MOV RBX,[0x0036e998]           [488B1D05802500] 
+116993: TEST RBX,RBX                   [4885DB] 
+116998: CMP RBX,-0x1                   [4883FBFF] 
+11699E: MOV RAX,[RBX]                  [488B03] 
+1169A1: MOV EDX,[RAX + 0xc]            [8B500C] 
+1169A4: TEST EDX,EDX                   [85D2] 
+1169A8: MOV EAX,[RAX + 0x18]           [8B4018] 
+1169AB: MOV dword ptr [0x0036e990],0x0 [C705DB7F250000000000] 
+1169B5: ADD RSP,0x8                    [4883C408] 
+1169B9: POP RBX                        [5B] 
+1169BA: POP RBP                        [5D] 
+
+========

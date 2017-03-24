@@ -1,0 +1,16 @@
+
+
+6C7A4: TEST ESI,ESI                   [85F6] 
+6C7A6: MOV R9D,ESI                    [4189F1] 
+6C7AF: PUSH R12                       [4154] 
+6C7B1: CMP ESI,0x1                    [83FE01] 
+6C7B4: PUSH RBP                       [55] 
+6C7B5: MOV RBP,RDI                    [4889FD] 
+6C7B8: PUSH RBX                       [53] 
+6C8F3: MOV byte ptr [RDI],0x0         [C60700] 
+6C8F6: MOV RAX,RDI                    [4889F8] 
+6C8C0: POP RBX                        [5B] 
+6C8C1: POP RBP                        [5D] 
+6C8C2: POP R12                        [415C] 
+
+========

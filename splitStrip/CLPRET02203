@@ -1,0 +1,27 @@
+
+
+45F04: PUSH RBP                       [55] 
+45F05: MOV RBP,RSP                    [4889E5] 
+45F08: PUSH R15                       [4157] 
+45F0A: PUSH R14                       [4156] 
+45F0C: MOV R14,RCX                    [4989CE] 
+45F0F: PUSH R13                       [4155] 
+45F11: PUSH R12                       [4154] 
+45F13: MOV R12,RDX                    [4989D4] 
+45F16: PUSH RBX                       [53] 
+45F17: MOV RBX,R8                     [4C89C3] 
+45F1A: SUB RSP,0x58                   [4883EC58] 
+45F1E: CMP R8,0x1f                    [4983F81F] 
+45F22: MOV [RBP + -0x40],RDI          [48897DC0] 
+45F26: MOV [RBP + -0x38],RSI          [488975C8] 
+45F30: XOR EAX,EAX                    [31C0] 
+45F32: TEST R8,R8                     [4D85C0] 
+4605F: LEA RSP,[RBP + -0x28]          [488D65D8] 
+46063: POP RBX                        [5B] 
+46064: POP R12                        [415C] 
+46066: POP R13                        [415D] 
+46068: POP R14                        [415E] 
+4606A: POP R15                        [415F] 
+4606C: POP RBP                        [5D] 
+
+========

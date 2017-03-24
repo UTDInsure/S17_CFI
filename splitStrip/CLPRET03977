@@ -1,0 +1,11 @@
+
+
+963AB: CMP RDX,0x3                    [4883FA03] 
+963B1: TEST RDX,RDX                   [4885D2] 
+963B6: CMP [RDI],ESI                  [3937] 
+963BA: CMP RDX,0x1                    [4883FA01] 
+963BE: NOP                            [6690] 
+963C2: CMP [RDI + 0x4],ESI            [397704] 
+963E8: LEA RAX,[RDI + 0x4]            [488D4704] 
+
+========

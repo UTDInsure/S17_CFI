@@ -1,0 +1,19 @@
+
+
+F3534: SUB RSP,0x8                    [4883EC08] 
+F3538: MOV R10,RDI                    [4989FA] 
+F3546: TEST RCX,RCX                   [4885C9] 
+F354F: MOV R8D,[R10]                  [458B02] 
+F3552: LEA R9,[R10 + 0x4]             [4D8D4A04] 
+F3556: LEA R11,[RCX + -0x1]           [4C8D59FF] 
+F355A: TEST R8D,R8D                   [4585C0] 
+F355F: SUB R10,0x4                    [4983EA04] 
+F3563: CMP RDX,0x3                    [4883FA03] 
+F3600: TEST RDX,RDX                   [4885D2] 
+F3670: MOV R9,RCX                     [4989C9] 
+F3673: MOV RSI,R10                    [4C89D6] 
+F3652: TEST R8D,R8D                   [4585C0] 
+F35F0: MOV RAX,RDI                    [4889F8] 
+F35F3: ADD RSP,0x8                    [4883C408] 
+
+========

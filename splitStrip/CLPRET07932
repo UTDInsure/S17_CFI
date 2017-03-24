@@ -1,0 +1,8 @@
+
+
+15BC4: SUB RSP,0x8                    [4883EC08] 
+15BC8: TEST RDI,RDI                   [4885FF] 
+15C60: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+15C65: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,12 @@
+
+
+415004: MOV RDI,[0x00627440]           [488B3D35242100] 
+41500B: XOR EAX,EAX                    [31C0] 
+40DDD4: TEST RDI,RDI                   [4885FF] 
+40DDE0: XOR EAX,EAX                    [31C0] 
+415016: MOV RDI,RAX                    [4889C7] 
+415019: XOR EAX,EAX                    [31C0] 
+40D294: PUSH RBX                       [53] 
+40D295: MOV RBX,RDI                    [4889FB] 
+
+========

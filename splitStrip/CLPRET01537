@@ -1,0 +1,12 @@
+
+
+35344: MOVQ RAX,XMM0                  [66480F7EC0] 
+35349: MOV RDX,RAX                    [4889C2] 
+3534C: SAR RDX,0x34                   [48C1FA34] 
+35350: AND EDX,0x7ff                  [81E2FF070000] 
+353F5: MOV RDX,0xfffffffffffff        [48BAFFFFFFFFFFFF0F00] 
+353FF: MOVAPD XMM1,XMM0               [660F28C8] 
+35403: TEST RAX,RDX                   [4885D0] 
+353AA: MOVAPD XMM0,XMM1               [660F28C1] 
+
+========

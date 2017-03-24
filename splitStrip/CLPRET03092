@@ -1,0 +1,19 @@
+
+
+79234: MOV RDX,[RDI + 0x60]           [488B5760] 
+79238: MOV RAX,RSI                    [4889F0] 
+7923B: SUB RAX,[RDI + 0x18]           [482B4718] 
+7923F: TEST RDX,RDX                   [4885D2] 
+79244: NOP                            [0F1F4000] 
+79248: MOVSXD RCX,[RDX + 0x10]        [48634A10] 
+7924C: MOV RDX,[RDX]                  [488B12] 
+7924F: CMP RAX,RCX                    [4839C8] 
+79252: CMOVG RAX,RCX                  [480F4FC1] 
+79256: TEST RDX,RDX                   [4885D2] 
+79248: MOVSXD RCX,[RDX + 0x10]        [48634A10] 
+7924C: MOV RDX,[RDX]                  [488B12] 
+7924F: CMP RAX,RCX                    [4839C8] 
+79252: CMOVG RAX,RCX                  [480F4FC1] 
+79256: TEST RDX,RDX                   [4885D2] 
+
+========

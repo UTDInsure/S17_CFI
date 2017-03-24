@@ -1,0 +1,20 @@
+
+
+F1CC4: PUSH RBX                       [53] 
+F1CC5: MOV R9,RDI                     [4989F9] 
+F1CC8: LEA RBX,[RDI + RCX*0x1]        [488D1C0F] 
+F1CD6: CMP R9,RBX                     [4939D9] 
+F1CD9: LEA R11,[RCX + -0x1]           [4C8D59FF] 
+F1CE3: MOVZX R8D,byte ptr [R9]        [450FB601] 
+F1CE7: LEA R10,[R9 + 0x1]             [4D8D5101] 
+F1CEB: TEST R8B,R8B                   [4584C0] 
+F1CF0: SUB R9,0x1                     [4983E901] 
+F1CF4: CMP RDX,0x3                    [4883FA03] 
+F1D90: TEST RDX,RDX                   [4885D2] 
+F1DFC: MOV RBX,RCX                    [4889CB] 
+F1DFF: MOV R11,R9                     [4D89CB] 
+F1DE3: TEST R8B,R8B                   [4584C0] 
+F1D80: MOV RAX,RDI                    [4889F8] 
+F1D83: POP RBX                        [5B] 
+
+========

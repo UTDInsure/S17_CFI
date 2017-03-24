@@ -1,0 +1,28 @@
+
+
+16A14: PUSH R14                       [4156] 
+16A16: PUSH R13                       [4155] 
+16A18: PUSH R12                       [4154] 
+16A1A: PUSH RBP                       [55] 
+16A1B: PUSH RBX                       [53] 
+16A1C: SUB RSP,0x60                   [4883EC60] 
+16A20: MOV R14,[0x00221d28]           [4C8B3501B32000] 
+16A27: MOV byte ptr [RSP + 0x5f],0x0  [C644245F00] 
+16A2C: MOV RAX,[R14]                  [498B06] 
+16A2F: TEST RAX,RAX                   [4885C0] 
+16A38: LEA RBP,[RSP + 0xf]            [488D6C240F] 
+16A3D: LEA RBX,[RSP + 0x20]           [488D5C2420] 
+16A42: LEA R12,[0x1b410]              [4C8D25C7490000] 
+16A49: LEA R13,[0x1b400]              [4C8D2DB0490000] 
+16A50: CMP EAX,0x1                    [83F801] 
+16AF0: ADD R14,0x10                   [4983C610] 
+16AF4: MOV RAX,[R14]                  [498B06] 
+16AF7: TEST RAX,RAX                   [4885C0] 
+16B00: ADD RSP,0x60                   [4883C460] 
+16B04: POP RBX                        [5B] 
+16B05: POP RBP                        [5D] 
+16B06: POP R12                        [415C] 
+16B08: POP R13                        [415D] 
+16B0A: POP R14                        [415E] 
+
+========

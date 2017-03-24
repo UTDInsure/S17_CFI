@@ -1,0 +1,6 @@
+
+
+E6EE4: XOR EAX,EAX                    [31C0] 
+E6EE6: TEST RSI,RSI                   [4885F6] 
+
+========

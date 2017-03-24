@@ -1,0 +1,15 @@
+
+
+40AE34: PUSH RBP                       [55] 
+40AE35: MOV EBP,EDX                    [89D5] 
+40AE37: PUSH RBX                       [53] 
+40AE38: MOV RBX,RSI                    [4889F3] 
+40AE3B: SUB RSP,0x18                   [4883EC18] 
+40AE3F: TEST RDI,RDI                   [4885FF] 
+40AE98: XOR EAX,EAX                    [31C0] 
+40AE9A: TEST EBP,EBP                   [85ED] 
+40AE9C: MOV RDI,RBX                    [4889DF] 
+402894: PUSH RBX                       [53] 
+402895: MOV RBX,RDI                    [4889FB] 
+
+========

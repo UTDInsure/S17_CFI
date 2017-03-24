@@ -1,0 +1,11 @@
+
+
+DC964: MOV EAX,[0x0036e774]           [8B050A1E2900] 
+DC96A: MOV R10,RCX                    [4989CA] 
+DC96D: TEST EAX,EAX                   [85C0] 
+DC971: MOVSXD RDX,EDX                 [4863D2] 
+DC974: MOVSXD RDI,EDI                 [4863FF] 
+DC977: MOV EAX,0x128                  [B828010000] 
+DC97E: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

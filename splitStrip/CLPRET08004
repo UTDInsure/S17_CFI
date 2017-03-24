@@ -1,0 +1,8 @@
+
+
+18454: TEST RDI,RDI                   [4885FF] 
+18459: MOVSXD RSI,ESI                 [4863F6] 
+1845C: XOR EAX,EAX                    [31C0] 
+1845E: MOV [RDI + 0x10],RSI           [48897710] 
+
+========

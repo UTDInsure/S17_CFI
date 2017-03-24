@@ -1,0 +1,6 @@
+
+
+DBBF4: MOV EAX,[RDI + 0x8]            [8B4708] 
+DBBF7: AND EAX,0x100f                 [250F100000] 
+
+========

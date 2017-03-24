@@ -1,0 +1,9 @@
+
+
+71AE4: SUB RSP,0x8                    [4883EC08] 
+71AE8: TEST byte ptr [RDI],0x8        [F60708] 
+71AED: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+71AF2: CMP ESI,EAX                    [39C6] 
+71AF6: ADD RSP,0x8                    [4883C408] 
+
+========

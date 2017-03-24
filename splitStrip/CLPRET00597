@@ -1,0 +1,22 @@
+
+
+4054A4: PUSH R12                       [4154] 
+4054A6: PUSH RBP                       [55] 
+4054A7: MOV RBP,RDI                    [4889FD] 
+4054AA: PUSH RBX                       [53] 
+4054AB: XOR EBX,EBX                    [31DB] 
+4054AD: TEST RDI,RDI                   [4885FF] 
+4054B6: CMP byte ptr [RDI],0x0         [803F00] 
+4054BF: MOV R12D,ESI                   [4189F4] 
+4054C2: MOV RSI,[0x00625c80]           [488B35B7072200] 
+4054C9: TEST RSI,RSI                   [4885F6] 
+4054F8: MOV RSI,[0x00625f20]           [488B35210A2200] 
+4054FF: TEST RSI,RSI                   [4885F6] 
+405558: XOR EBX,EBX                    [31DB] 
+40555A: TEST R12D,R12D                 [4585E4] 
+40554D: MOV EAX,EBX                    [89D8] 
+40554F: POP RBX                        [5B] 
+405550: POP RBP                        [5D] 
+405551: POP R12                        [415C] 
+
+========

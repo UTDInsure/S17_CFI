@@ -1,0 +1,23 @@
+
+
+414714: PUSH R15                       [4157] 
+414716: PUSH R14                       [4156] 
+414718: PUSH R13                       [4155] 
+41471A: MOV R13,RDX                    [4989D5] 
+41471D: PUSH R12                       [4154] 
+41471F: MOV R12,R9                     [4D89CC] 
+414722: PUSH RBP                       [55] 
+414723: MOV RBP,R8                     [4C89C5] 
+414726: PUSH RBX                       [53] 
+414727: SUB RSP,0x18                   [4883EC18] 
+41472B: MOV EBX,[RSP + 0x58]           [8B5C2458] 
+41472F: TEST BH,0x10                   [F6C710] 
+4147D4: MOV EAX,[RSP + 0x50]           [8B442450] 
+4147D8: XOR R8D,R8D                    [4531C0] 
+4147DB: MOV EDX,0x1                    [BA01000000] 
+4147E0: MOV RCX,RSP                    [4889E1] 
+4147E3: MOV RSI,R13                    [4C89EE] 
+4147E6: TEST EAX,EAX                   [85C0] 
+4147E8: SETNZ R8B                      [410F95C0] 
+
+========

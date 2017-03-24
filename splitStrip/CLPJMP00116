@@ -1,0 +1,9 @@
+
+
+1A614: LEA RAX,[0x1b710]              [488D05F5100000] 
+1A61B: MOV R8,RDX                     [4989D0] 
+1A61E: AND R8D,0x7                    [4183E007] 
+1A622: MOVSXD R8,[RAX + R8*0x4]       [4E630480] 
+1A626: ADD RAX,R8                     [4C01C0] 
+
+========

@@ -1,0 +1,11 @@
+
+
+E3E94: MOV R10,RCX                    [4989CA] 
+E3E97: MOV EAX,0x19                   [B819000000] 
+E3E9E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3EA7: MOV RCX,[0x00368e68]           [488B0DBA4F2800] 
+E3EAE: NEG EAX                        [F7D8] 
+E3EB0: MOV FS:[RCX],EAX               [648901] 
+E3EB3: OR RAX,-0x1                    [4883C8FF] 
+
+========

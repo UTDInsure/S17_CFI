@@ -1,0 +1,7 @@
+
+
+FFD34: LEA EAX,[RDI + 0x9]            [8D4709] 
+FFD37: AND EAX,0xfffffff8             [83E0F8] 
+FFD3A: ADD EAX,0x10                   [83C010] 
+
+========

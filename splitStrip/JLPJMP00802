@@ -1,0 +1,19 @@
+
+
+547B3: TEST byte ptr [R14 + 0x74],0x4 [41F6467404] 
+547C7: MOVSXD RAX,[-0x10ac + RBP]     [48638554EFFFFF] 
+547CE: IMUL RAX,RAX,0x48              [486BC048] 
+547D2: ADD RAX,[-0x1098 + RBP]        [48038568EFFFFF] 
+56ED1: CMP dword ptr [-0x1140 + RBP],0x0 [83BDC0EEFFFF00] 
+56ED8: MOV EDX,[RBX]                  [8B13] 
+56EDC: CMP EDX,0x30                   [83FA30] 
+56F14: MOV RAX,[RBX + 0x8]            [488B4308] 
+56F18: LEA RDX,[RAX + 0x8]            [488D5008] 
+56F1C: MOV [RBX + 0x8],RDX            [48895308] 
+56EEC: MOVSXD RDX,[-0x1078 + RBP]     [48639588EFFFFF] 
+56EF3: MOV RAX,[RAX]                  [488B00] 
+56EF6: MOV [RAX],RDX                  [488910] 
+53F38: TEST R12,R12                   [4D85E4] 
+57070: MOV RDI,R12                    [4C89E7] 
+
+========

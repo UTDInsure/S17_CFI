@@ -1,0 +1,7 @@
+
+
+166D4: MOV RDI,[0x002230f0]           [488B3D15CA2000] 
+166DB: LEA RAX,[RDI + -0x1]           [488D47FF] 
+166DF: CMP RAX,-0x3                   [4883F8FD] 
+
+========

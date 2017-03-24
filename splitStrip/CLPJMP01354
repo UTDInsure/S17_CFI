@@ -1,0 +1,16 @@
+
+
+ECA24: PUSH R15                       [4157] 
+ECA26: PUSH R14                       [4156] 
+ECA28: PUSH R13                       [4155] 
+ECA2A: PUSH R12                       [4154] 
+ECA2C: PUSH RBP                       [55] 
+ECA2D: PUSH RBX                       [53] 
+ECA2E: SUB RSP,0x48                   [4883EC48] 
+ECA32: MOV R15,[RDI + 0x20]           [4C8B7F20] 
+ECA36: MOV RBX,[RDI]                  [488B1F] 
+ECA39: MOV [RSP],RDI                  [48893C24] 
+ECA3D: MOV EDI,0x20                   [BF20000000] 
+ECA42: MOV [RSP + 0x8],RSI            [4889742408] 
+
+========

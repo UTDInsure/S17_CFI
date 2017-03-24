@@ -1,0 +1,6 @@
+
+
+2E674: TEST RDI,RDI                   [4885FF] 
+2E69A: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,11 @@
+
+
+DE754: TEST RSI,RSI                   [4885F6] 
+DE7C0: XOR EDX,EDX                    [31D2] 
+DE7A0: XOR R10D,R10D                  [4531D2] 
+DE7A3: XOR ESI,ESI                    [31F6] 
+DE7A5: MOVSXD RDI,EDI                 [4863FF] 
+DE7A8: MOV EAX,0x118                  [B818010000] 
+DE7AF: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

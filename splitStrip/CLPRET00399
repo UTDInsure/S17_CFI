@@ -1,0 +1,10 @@
+
+
+19254: MOV AL,[RDI]                   [8A07] 
+19256: CMP AL,[RSI]                   [3A06] 
+1925A: INC RDI                        [48FFC7] 
+1925D: INC RSI                        [48FFC6] 
+19260: TEST AL,AL                     [84C0] 
+19264: XOR EAX,EAX                    [31C0] 
+
+========

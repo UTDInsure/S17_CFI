@@ -1,0 +1,13 @@
+
+
+F4C54: SUB RSP,0x8                    [4883EC08] 
+F4C58: MOV ESI,0x1                    [BE01000000] 
+F4C5D: XOR EAX,EAX                    [31C0] 
+F4C5F: CMP dword ptr [0x0036e774],0x0 [833D0E9B270000] 
+F4C74: CMPXCHG [0x0036d1b8],ESI       [0FB1353D852700] 
+F4C9B: CMP dword ptr [0x0036d1d0],0x0 [48833D2D85270000] 
+F4CA5: CMP dword ptr [0x0036e774],0x0 [833DC89A270000] 
+F4CB9: DEC dword ptr [0x0036d1b8]     [FF0DF9842700] 
+F4CDF: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,19 @@
+
+
+40AF64: PUSH R13                       [4155] 
+40AF66: PUSH R12                       [4154] 
+40AF68: PUSH RBP                       [55] 
+40AF69: PUSH RBX                       [53] 
+40AF6A: SUB RSP,0x38                   [4883EC38] 
+40AF6E: CMP EDI,[0x0062ba6c]           [3B3DF80A2200] 
+40AF7A: CMP EDI,[0x0062ba84]           [3B3D040B2200] 
+40AF86: CMP EDI,[0x0062ba68]           [3B3DDC0A2200] 
+40AF8C: MOV EBP,0x2                    [BD02000000] 
+40B025: ADD RSP,0x38                   [4883C438] 
+40B029: MOV EAX,EBP                    [89E8] 
+40B02B: POP RBX                        [5B] 
+40B02C: POP RBP                        [5D] 
+40B02D: POP R12                        [415C] 
+40B02F: POP R13                        [415D] 
+
+========

@@ -1,0 +1,11 @@
+
+
+1DFB4: PUSH RBX                       [53] 
+1DFB5: MOV RBX,RDI                    [4889FB] 
+1DFB8: SUB RSP,0x10                   [4883EC10] 
+1DFBC: TEST RDI,RDI                   [4885FF] 
+1E017: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1DFFB: ADD RSP,0x10                   [4883C410] 
+1DFFF: POP RBX                        [5B] 
+
+========

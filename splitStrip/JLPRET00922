@@ -1,0 +1,9 @@
+
+
+9475C: XOR EAX,EAX                    [31C0] 
+9475E: TEST DH,0xf0                   [F6C6F0] 
+94767: LEA RAX,[RDX + RDX*0x1]        [488D0412] 
+9476B: POP RBX                        [5B] 
+9476C: AND EAX,0x7ff80000             [250000F87F] 
+
+========

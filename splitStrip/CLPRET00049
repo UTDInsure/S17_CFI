@@ -1,0 +1,9 @@
+
+
+80E4: MOVSXD RDX,EDX                 [4863D2] 
+80E7: MOV R8,RSI                     [4989F0] 
+80EA: MOV RAX,[RDI + RDX*0x8 + 0x40] [488B44D740] 
+80EF: TEST RAX,RAX                   [4885C0] 
+8120: MOV dword ptr [RSI],-0x1       [48C706FFFFFFFF] 
+
+========

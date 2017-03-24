@@ -1,0 +1,23 @@
+
+
+DBCD4: PUSH R12                       [4154] 
+DBCD6: LEA RAX,[0x1329a4]             [488D05C76C0500] 
+DBCDD: LEA RDX,[0x132aa4]             [488D15C06D0500] 
+DBCE4: MOV R12,RDI                    [4989FC] 
+DBCE7: PUSH RBP                       [55] 
+DBCE8: PUSH RBX                       [53] 
+DBCE9: MOV EBX,ESI                    [89F3] 
+DBCEB: NOP                            [0F1F440000] 
+DBCF0: MOV EBP,[RAX]                  [8B28] 
+DBCF2: CMP EBP,EBX                    [39DD] 
+DBCF6: CMP [RAX + -0x4],EBX           [3958FC] 
+DBCFB: ADD RAX,0x8                    [4883C008] 
+DBCFF: CMP RAX,RDX                    [4839D0] 
+DBD04: MOV RAX,[0x00368e68]           [488B055DD12800] 
+DBD0B: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DBD12: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DBD17: POP RBX                        [5B] 
+DBD18: POP RBP                        [5D] 
+DBD19: POP R12                        [415C] 
+
+========

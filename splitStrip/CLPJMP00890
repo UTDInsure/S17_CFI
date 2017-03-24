@@ -1,0 +1,8 @@
+
+
+79514: PUSH RBX                       [53] 
+79515: TEST dword ptr [RDI],0x100     [F70700010000] 
+7951B: MOV RBX,RDI                    [4889FB] 
+79529: MOV RDI,[RBX + 0x48]           [488B7B48] 
+
+========

@@ -1,0 +1,7 @@
+
+
+2B114: TEST RDI,RDI                   [4885FF] 
+2B119: CMP byte ptr [RDI],0x2f        [803F2F] 
+2B11C: SETZ AL                        [0F94C0] 
+
+========

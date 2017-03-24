@@ -1,0 +1,12 @@
+
+
+1151F4: XOR EAX,EAX                    [31C0] 
+1151F6: TEST RSI,RSI                   [4885F6] 
+1151FB: LEA RAX,[0x1344a8]             [488D05A6F20100] 
+115202: LEA RDX,[RSI + 0x7]            [488D5607] 
+115206: AND ESI,0x7                    [83E607] 
+115209: MOVSXD RCX,[RAX + RSI*0x4]     [48630CB0] 
+11520D: SHR RDX,0x3                    [48C1EA03] 
+115211: ADD RAX,RCX                    [4801C8] 
+
+========

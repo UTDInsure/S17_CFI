@@ -1,0 +1,7 @@
+
+
+402744: MOVSX R8D,byte ptr [RSI]       [440FBE06] 
+402748: TEST R8B,R8B                   [4584C0] 
+4027B8: XOR EAX,EAX                    [31C0] 
+
+========

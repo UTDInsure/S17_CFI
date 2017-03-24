@@ -1,0 +1,11 @@
+
+
+1168F4: SUB RSP,0x18                   [4883EC18] 
+1168F8: CMP ESI,0x4                    [83FE04] 
+1168FD: CMP EDX,0x2                    [83FA02] 
+116930: CMP ESI,0x10                   [83FE10] 
+116935: CMP EDX,0xa                    [83FA0A] 
+116940: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+116925: ADD RSP,0x18                   [4883C418] 
+
+========

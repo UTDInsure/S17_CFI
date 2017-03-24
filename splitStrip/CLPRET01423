@@ -1,0 +1,7 @@
+
+
+2ED94: XOR EAX,EAX                    [31C0] 
+2ED96: AND EDI,0xffffff80             [83E780] 
+2ED99: SETZ AL                        [0F94C0] 
+
+========

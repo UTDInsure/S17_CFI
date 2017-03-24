@@ -1,0 +1,15 @@
+
+
+110CA4: PUSH RBX                       [53] 
+1114C4: PUSH RBX                       [53] 
+1114C5: MOV RBX,[0x00368f80]           [488B1DB47A2500] 
+1114CC: MOV RAX,FS:[RBX]               [64488B03] 
+1114D0: TEST RAX,RAX                   [4885C0] 
+1114D5: POP RBX                        [5B] 
+110CAE: MOV RBX,[0xc8 + RAX]           [488B98C8000000] 
+110CB5: TEST RBX,RBX                   [4885DB] 
+110CBA: MOV RAX,[RBX]                  [488B03] 
+110CBD: TEST RAX,RAX                   [4885C0] 
+110CE6: MOV RDI,RBX                    [4889DF] 
+
+========

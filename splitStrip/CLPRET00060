@@ -1,0 +1,15 @@
+
+
+AFE4: MOV RAX,[0x298 + RDI]          [488B8798020000] 
+AFEB: TEST RAX,RAX                   [4885C0] 
+B047: MOV RAX,[RDI + 0x60]           [488B4760] 
+B04B: TEST RAX,RAX                   [4885C0] 
+B050: MOV RAX,[RAX + 0x8]            [488B4008] 
+B054: MOV EDX,[RAX]                  [8B10] 
+B056: ADD RAX,0x8                    [4883C008] 
+B05A: MOV [0x308 + RDI],RAX          [48898708030000] 
+B061: LEA RAX,[RAX + RDX*0x4]        [488D0490] 
+B065: MOV [0x2ec + RDI],EDX          [8997EC020000] 
+B06B: MOV [0x300 + RDI],RAX          [48898700030000] 
+
+========

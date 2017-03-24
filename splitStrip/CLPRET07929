@@ -1,0 +1,6 @@
+
+
+15AE4: TEST RDI,RDI                   [4885FF] 
+15AF0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

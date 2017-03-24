@@ -1,0 +1,10 @@
+
+
+40B404: TEST RDI,RDI                   [4885FF] 
+40B409: SUB RSP,0x8                    [4883EC08] 
+40B40D: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+40B412: XOR EAX,EAX                    [31C0] 
+40DE64: ADD [RDI + 0x24],ESI           [017724] 
+40B41D: ADD RSP,0x8                    [4883C408] 
+
+========

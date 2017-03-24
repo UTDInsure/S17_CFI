@@ -1,0 +1,25 @@
+
+
+F6F4: PUSH RBP                       [55] 
+F6F5: MOV RBP,RSP                    [4889E5] 
+F6F8: PUSH R15                       [4157] 
+F6FA: PUSH R14                       [4156] 
+F6FC: PUSH R13                       [4155] 
+F6FE: PUSH R12                       [4154] 
+F700: PUSH RBX                       [53] 
+F701: MOV RBX,RSI                    [4889F3] 
+F704: SUB RSP,0x58                   [4883EC58] 
+F708: CMP RSI,0x1                    [4883FE01] 
+F70C: MOV [RBP + -0x50],RDI          [48897DB0] 
+F710: MOV [RBP + -0x40],RSI          [488975C0] 
+F714: MOV [RBP + -0x60],RDX          [488955A0] 
+F718: MOV [RBP + -0x58],RSP          [488965A8] 
+F850: LEA RSP,[RBP + -0x28]          [488D65D8] 
+F854: POP RBX                        [5B] 
+F855: POP R12                        [415C] 
+F857: POP R13                        [415D] 
+F859: POP R14                        [415E] 
+F85B: POP R15                        [415F] 
+F85D: POP RBP                        [5D] 
+
+========

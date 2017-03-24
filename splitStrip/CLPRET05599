@@ -1,0 +1,10 @@
+
+
+E3814: MOV RAX,RDI                    [4889F8] 
+E3817: SHR RDI,0x8                    [48C1EF08] 
+E381B: SHR RAX,0x20                   [48C1E820] 
+E381F: AND EDI,0xfff                  [81E7FF0F0000] 
+E3825: AND EAX,0xfffff000             [2500F0FFFF] 
+E382A: OR EAX,EDI                     [09F8] 
+
+========

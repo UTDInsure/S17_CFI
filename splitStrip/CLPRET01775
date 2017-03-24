@@ -1,0 +1,12 @@
+
+
+36CE4: MOV EAX,[0x0036906c]           [8B0582233300] 
+36CEA: CMP EAX,-0x1                   [83F8FF] 
+36CEF: MOV EDX,[0x00369068]           [8B1573233300] 
+36CF5: CMP EAX,EDX                    [39D0] 
+36CF9: TEST EDI,EDI                   [85FF] 
+36D20: LEA EAX,[RDX + -0x1]           [8D42FF] 
+36D23: MOV [0x00369068],EAX           [89053F233300] 
+36D29: MOV EAX,EDX                    [89D0] 
+
+========

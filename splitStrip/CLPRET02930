@@ -1,0 +1,20 @@
+
+
+767A4: MOV RAX,[RDI + 0x8]            [488B4708] 
+767A8: CMP RAX,[RDI + 0x10]           [483B4710] 
+767BA: PUSH RCX                       [51] 
+79654: PUSH RBX                       [53] 
+79655: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7965B: MOV RBX,RDI                    [4889FB] 
+7965E: TEST EAX,EAX                   [85C0] 
+796C0: CMP EAX,-0x1                   [83F8FF] 
+7966C: TEST dword ptr [RBX],0x800     [F70300080000] 
+79678: MOV RAX,[RBX + 0x8]            [488B4308] 
+7967C: CMP RAX,[RBX + 0x10]           [483B4310] 
+796F0: LEA RDX,[RAX + 0x1]            [488D5001] 
+796F4: MOV [RBX + 0x8],RDX            [48895308] 
+796F8: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+796FB: POP RBX                        [5B] 
+767C4: POP RDX                        [5A] 
+
+========

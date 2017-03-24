@@ -1,0 +1,7 @@
+
+
+40CC14: MOV EDX,[0x0062ba44]           [8B152AEE2100] 
+40CC1A: XOR EAX,EAX                    [31C0] 
+40CC1C: TEST EDX,EDX                   [85D2] 
+
+========

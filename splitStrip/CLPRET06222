@@ -1,0 +1,7 @@
+
+
+F0104: MOV ECX,[0x0036e770]           [8B0D66E62700] 
+F010A: XOR EAX,EAX                    [31C0] 
+F010C: TEST ECX,ECX                   [85C9] 
+
+========

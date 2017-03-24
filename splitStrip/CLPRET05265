@@ -1,0 +1,12 @@
+
+
+DCAF4: CMP EDI,-0x1                   [83FFFF] 
+DCAF9: MOV EAX,[0x0036e770]           [8B05711C2900] 
+DCAFF: TEST EAX,EAX                   [85C0] 
+DCB03: MOV RDX,-0x1                   [48C7C2FFFFFFFF] 
+DCB0A: MOV ESI,EDI                    [89FE] 
+DCB0C: MOV EAX,0x75                   [B875000000] 
+DCB11: MOV RDI,RDX                    [4889D7] 
+DCB16: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

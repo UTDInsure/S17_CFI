@@ -1,0 +1,17 @@
+
+
+5318B: MOV RAX,[0xa0 + R14]           [498B86A0000000] 
+53192: TEST RAX,RAX                   [4885C0] 
+5319B: MOV RDX,[RAX + 0x20]           [488B5020] 
+5319F: CMP RDX,[RAX + 0x28]           [483B5028] 
+531A9: LEA RCX,[RDX + 0x4]            [488D4A04] 
+531AD: MOV [RAX + 0x20],RCX           [48894820] 
+531B1: MOV dword ptr [RDX],0x25       [C70225000000] 
+531B7: MOV ECX,[-0x1078 + RBP]        [8B8D88EFFFFF] 
+531BD: CMP ECX,0x7fffffff             [81F9FFFFFF7F] 
+531C9: ADD ECX,0x1                    [83C101] 
+531CC: TEST R12,R12                   [4D85E4] 
+57005: MOV RDI,R12                    [4C89E7] 
+57008: MOV [-0x1078 + RBP],ECX        [898D88EFFFFF] 
+
+========

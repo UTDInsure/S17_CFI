@@ -1,0 +1,16 @@
+
+
+11AA44: PUSH RBP                       [55] 
+11AA45: PUSH RBX                       [53] 
+11AA46: SUB RSP,0x18                   [4883EC18] 
+11AA4A: MOV EAX,[0x003692f0]           [8B05A0E82400] 
+11AA50: TEST EAX,EAX                   [85C0] 
+11AA58: CMP dword ptr [0x0036e300],-0x1 [48833DA0382500FF] 
+11AA60: MOV RBP,RDX                    [4889D5] 
+11AB70: MOV dword ptr [RBP],0x0        [48C7450000000000] 
+11AB78: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+11AAD8: ADD RSP,0x18                   [4883C418] 
+11AADC: POP RBX                        [5B] 
+11AADD: POP RBP                        [5D] 
+
+========

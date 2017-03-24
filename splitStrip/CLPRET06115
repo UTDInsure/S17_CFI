@@ -1,0 +1,13 @@
+
+
+EB224: MOV RAX,[RDI + 0x38]           [488B4738] 
+EB228: SUB RAX,[RDI + 0x30]           [482B4730] 
+EB22C: CMP RAX,[RDI + 0x20]           [483B4720] 
+EB230: PUSH RBX                       [53] 
+EB231: MOV RBX,RDI                    [4889FB] 
+EB23F: XOR EAX,EAX                    [31C0] 
+EB241: CMP dword ptr [RBX + 0x28],0x0 [48837B2800] 
+EB246: CMOVNS RAX,[RBX + 0x28]        [480F494328] 
+EB24B: POP RBX                        [5B] 
+
+========

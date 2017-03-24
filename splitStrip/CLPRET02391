@@ -1,0 +1,10 @@
+
+
+6CB34: SUB RSP,0x18                   [4883EC18] 
+6CB38: MOV RAX,[0xf8 + RDI]           [488B87F8000000] 
+6CB3F: MOV [RSP + 0x8],RSI            [4889742408] 
+6CB44: TEST RAX,RAX                   [4885C0] 
+6CB70: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+6CB65: ADD RSP,0x18                   [4883C418] 
+
+========

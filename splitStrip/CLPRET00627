@@ -1,0 +1,14 @@
+
+
+405C94: PUSH R12                       [4154] 
+405C96: PUSH RBP                       [55] 
+405C97: PUSH RBX                       [53] 
+405C98: MOVZX EBP,byte ptr [RDI]       [0FB62F] 
+405C9B: MOV RBX,RDI                    [4889FB] 
+405C9E: TEST BPL,BPL                   [4084ED] 
+405CA7: POP RBX                        [5B] 
+405CA8: MOVZX EAX,BPL                  [400FB6C5] 
+405CAC: POP RBP                        [5D] 
+405CAD: POP R12                        [415C] 
+
+========

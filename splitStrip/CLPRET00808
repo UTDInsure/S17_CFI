@@ -1,0 +1,6 @@
+
+
+40DDD4: TEST RDI,RDI                   [4885FF] 
+40DDD9: MOV RAX,[RDI + 0x10]           [488B4710] 
+
+========

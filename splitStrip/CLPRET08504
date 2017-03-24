@@ -1,0 +1,16 @@
+
+
+2DDC4: TEST EDI,EDI                   [85FF] 
+2DDC8: LEA RDX,[0x3cfe4]              [488D1515F20000] 
+2DDCF: XOR EAX,EAX                    [31C0] 
+2DDD1: NOP                            [0F1F8000000000] 
+2DDD8: CMP [RDX + RAX*0x8],EDI        [393CC2] 
+2DDDB: MOV ECX,EAX                    [89C1] 
+2DDDF: ADD RAX,0x1                    [4883C001] 
+2DDE3: CMP RAX,0x15                   [4883F815] 
+2DDD8: CMP [RDX + RAX*0x8],EDI        [393CC2] 
+2DDDB: MOV ECX,EAX                    [89C1] 
+2DDF0: LEA RAX,[0x3cfe0]              [488D05E9F10000] 
+2DDF7: MOV EAX,[RAX + RCX*0x8]        [8B04C8] 
+
+========

@@ -1,0 +1,9 @@
+
+
+FFCE4: CMP RSI,RDX                    [4839D6] 
+FFCE9: CMP byte ptr [RSI],0x0         [803E00] 
+FFCEE: LEA RAX,[RSI + 0x2]            [488D4602] 
+FFCF2: CMP RDX,RAX                    [4839C2] 
+FFD20: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

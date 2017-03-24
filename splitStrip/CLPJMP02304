@@ -1,0 +1,13 @@
+
+
+2CFC4: PUSH R14                       [4156] 
+2CFC6: MOVZX R14D,DL                  [440FB6F2] 
+2CFCA: PUSH R13                       [4155] 
+2CFCC: MOV R13D,ESI                   [4189F5] 
+2CFCF: PUSH R12                       [4154] 
+2CFD1: MOV R12,RDI                    [4989FC] 
+2CFD4: MOV EDI,R14D                   [4489F7] 
+2CFD7: PUSH RBP                       [55] 
+2CFD8: PUSH RBX                       [53] 
+
+========

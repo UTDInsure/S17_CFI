@@ -1,0 +1,9 @@
+
+
+D64A4: CMP EDI,0x1                    [83FF01] 
+D64A7: MOV RAX,RSI                    [4889F0] 
+D64C8: MOV RAX,[0x00368e68]           [488B0599292900] 
+D64CF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D64D6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

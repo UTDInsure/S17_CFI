@@ -1,0 +1,19 @@
+
+
+408B71: OR dword ptr [0x00628428],0x200 [810DADF8210000020000] 
+408B7F: CMP dword ptr [0x00628420],0x0 [48833D99F8210000] 
+408B8D: XOR EAX,EAX                    [31C0] 
+408B8F: MOV EBX,0x65                   [BB65000000] 
+407F44: SUB RSP,0x8                    [4883EC08] 
+407F48: MOV EAX,[0x00628428]           [8B05DA042200] 
+407F4E: TEST AH,0x20                   [F6C420] 
+407F57: MOV dword ptr [0x0062842c],0x37 [C705CB04220037000000] 
+407F61: XOR EAX,EAX                    [31C0] 
+403F54: MOV ECX,[0x0062bb48]           [8B0DEE7B2200] 
+403F5A: PUSH RBX                       [53] 
+403F5B: MOV EDX,0x413de0               [BAE03D4100] 
+403F60: MOV ESI,0x1                    [BE01000000] 
+403F65: TEST ECX,ECX                   [85C9] 
+403FB0: MOV RDI,[0x006279a8]           [488B3DF1392200] 
+
+========

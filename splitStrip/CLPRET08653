@@ -1,0 +1,17 @@
+
+
+36564: TEST RDI,RDI                   [4885FF] 
+36567: PUSH RBX                       [53] 
+36568: MOVZX EBX,SIL                  [400FB6DE] 
+3656E: MOV EAX,[0x580 + RDI]          [8B8780050000] 
+36574: CMP EAX,0x1                    [83F801] 
+36579: LEA EDX,[RBX + -0x80]          [8D5380] 
+3657C: CMP EDX,0x1f                   [83FA1F] 
+365B0: LEA RAX,[0x40c20]              [488D0569A60000] 
+365B7: MOVSXD RDX,EDX                 [4863D2] 
+365BA: POP RBX                        [5B] 
+365BB: MOVSX RDX,word ptr [RAX + RDX*0x2] [480FBF1450] 
+365C0: LEA RAX,[0x40800]              [488D0539A20000] 
+365C7: ADD RAX,RDX                    [4801D0] 
+
+========

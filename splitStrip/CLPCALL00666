@@ -1,0 +1,17 @@
+
+
+7A354: PUSH R13                       [4155] 
+7A356: PUSH R12                       [4154] 
+7A358: PUSH RBP                       [55] 
+7A359: PUSH RBX                       [53] 
+7A35A: SUB RSP,0x28                   [4883EC28] 
+7A35E: MOV EBP,[0x0036e770]           [8B2D0C442F00] 
+7A364: TEST EBP,EBP                   [85ED] 
+7A5B0: MOV RAX,[0x0036e730]           [488B0579412F00] 
+7A5B7: MOV RDI,RSP                    [4889E7] 
+7A5BA: XOR EDX,EDX                    [31D2] 
+7A5BC: ROR RAX,0x11                   [48C1C811] 
+7A5C0: XOR RAX,FS:[0x30]              [644833042530000000] 
+7A5C9: LEA RSI,[0x78c40]              [488D3570E6FFFF] 
+
+========

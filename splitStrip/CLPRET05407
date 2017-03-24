@@ -1,0 +1,17 @@
+
+
+DE954: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+DE957: MOVSX EDX,CL                   [0FBED1] 
+DE95A: TEST EDX,EDX                   [85D2] 
+DE962: MOV RSI,RDI                    [4889FE] 
+DE965: XOR R8D,R8D                    [4531C0] 
+DE9AA: CMP EDX,0x22                   [83FA22] 
+DE9AF: MOVZX ECX,byte ptr [RDI + 0x1] [0FB64F01] 
+DE9B3: XOR R8D,0x1                    [4183F001] 
+DE9B7: LEA RAX,[RDI + 0x1]            [488D4701] 
+DE9BB: MOVSX EDX,CL                   [0FBED1] 
+DE9BE: TEST EDX,EDX                   [85D2] 
+DE9C2: MOV R9,RSI                     [4989F1] 
+DE9C5: MOV byte ptr [R9 + -0x1],0x0   [41C641FF00] 
+
+========

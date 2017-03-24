@@ -1,0 +1,12 @@
+
+
+10DD74: MOV RAX,RSI                    [4889F0] 
+10DD77: SUB RSP,0x8                    [4883EC08] 
+10DD7B: MOV RSI,[RDI + 0x40]           [488B7740] 
+10DD7F: MOV RCX,[RAX + 0x8]            [488B4808] 
+10DD83: MOV RDI,RAX                    [4889C7] 
+10DD86: MOV EDX,[0x1c8 + RSI]          [8B96C8010000] 
+10DD8C: ADD RSI,0x38                   [4883C638] 
+10DD97: ADD RSP,0x8                    [4883C408] 
+
+========

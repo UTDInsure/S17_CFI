@@ -1,0 +1,15 @@
+
+
+90B14: PUSH R12                       [4154] 
+90B16: TEST RSI,RSI                   [4885F6] 
+90B19: MOV R12,RSI                    [4989F4] 
+90B1C: PUSH RBP                       [55] 
+90B1D: MOV RBP,RDX                    [4889D5] 
+90B20: PUSH RBX                       [53] 
+90B21: MOV RBX,RDI                    [4889FB] 
+90B58: MOV dword ptr [RBP],0x0        [48C7450000000000] 
+90B60: POP RBX                        [5B] 
+90B61: POP RBP                        [5D] 
+90B62: POP R12                        [415C] 
+
+========

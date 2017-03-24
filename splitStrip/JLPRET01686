@@ -1,0 +1,9 @@
+
+
+10EDDC: MOV RAX,[RDX]                  [488B02] 
+10EDDF: SUB EAX,0x1                    [83E801] 
+10EDE2: BSWAP EAX                      [0FC8] 
+10EDE4: MOV [RCX + 0x48],EAX           [894148] 
+10EDE7: MOV EAX,0x1                    [B801000000] 
+
+========

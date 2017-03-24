@@ -1,0 +1,10 @@
+
+
+D64F4: CMP EDI,0x1                    [83FF01] 
+D64F7: MOV EAX,ESI                    [89F0] 
+D64FB: MOVSXD RDI,EAX                 [4863F8] 
+D64FE: MOV RSI,RDX                    [4889D6] 
+D6501: MOV EAX,0x5                    [B805000000] 
+D6508: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

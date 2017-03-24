@@ -1,0 +1,7 @@
+
+
+D58F4: MOV EAX,[RDI + 0x4]            [8B4704] 
+D58F7: MOV [RSI],EAX                  [8906] 
+D58F9: XOR EAX,EAX                    [31C0] 
+
+========

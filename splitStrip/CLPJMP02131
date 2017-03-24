@@ -1,0 +1,12 @@
+
+
+1E7F4: PUSH R12                       [4154] 
+1E7F6: MOV R12,RDX                    [4989D4] 
+1E7F9: MOV EDX,0x1fff                 [BAFF1F0000] 
+1E7FE: PUSH RBP                       [55] 
+1E7FF: MOV RBP,RSI                    [4889F5] 
+1E802: PUSH RBX                       [53] 
+1E803: SUB RSP,0x2000                 [4881EC00200000] 
+1E80A: MOV RSI,RSP                    [4889E6] 
+
+========

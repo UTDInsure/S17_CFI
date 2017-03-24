@@ -1,0 +1,14 @@
+
+
+DDB14: MOV EDX,[0x0036e770]           [8B15560C2900] 
+DDB1A: PUSH RBX                       [53] 
+DDB1B: MOV RBX,RDI                    [4889FB] 
+DDB1E: TEST EDX,EDX                   [85D2] 
+DDB22: MOV EAX,[0x0036c088]           [8B0560E52800] 
+DDB28: TEST EAX,EAX                   [85C0] 
+DDB2C: MOV RDX,[0x0036a7c0]           [488B158DCC2800] 
+DDB33: TEST RDX,RDX                   [4885D2] 
+DDBC0: XOR EAX,EAX                    [31C0] 
+DDBC2: POP RBX                        [5B] 
+
+========

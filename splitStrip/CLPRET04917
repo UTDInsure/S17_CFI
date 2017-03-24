@@ -1,0 +1,13 @@
+
+
+D69E4: MOV R10D,ECX                   [4189CA] 
+D69E7: MOVSXD RDX,EDX                 [4863D2] 
+D69EA: MOVSXD RDI,EDI                 [4863FF] 
+D69ED: MOV EAX,0x101                  [B801010000] 
+D69F4: CMP RAX,0xfffff000             [483D00F0FFFF] 
+D69FE: MOV RDX,[0x00368e68]           [488B1563242900] 
+D6A05: NEG EAX                        [F7D8] 
+D6A07: MOV FS:[RDX],EAX               [648902] 
+D6A0A: OR RAX,-0x1                    [4883C8FF] 
+
+========

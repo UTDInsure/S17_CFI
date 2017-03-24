@@ -1,0 +1,20 @@
+
+
+76884: PUSH RBX                       [53] 
+76885: MOV EAX,[RDI]                  [8B07] 
+76887: MOV RBX,RDI                    [4889FB] 
+7688A: AND EAX,0x8000                 [2500800000] 
+76891: MOV RDX,[0x88 + RDI]           [488B9788000000] 
+76898: MOV R8,FS:[0x10]               [644C8B042510000000] 
+768A1: CMP R8,[RDX + 0x8]             [4C3B4208] 
+768E7: ADD dword ptr [RDX + 0x4],0x1  [83420401] 
+768EB: MOV RAX,[RBX + 0x8]            [488B4308] 
+768EF: CMP RAX,[RBX + 0x10]           [483B4310] 
+768F5: MOVZX EDX,byte ptr [RAX]       [0FB610] 
+768F8: TEST dword ptr [RBX],0x8000    [F70300800000] 
+76900: MOV RSI,[0x88 + RBX]           [488BB388000000] 
+76907: SUB dword ptr [RSI + 0x4],0x1  [836E0401] 
+76943: MOV EAX,EDX                    [89D0] 
+76945: POP RBX                        [5B] 
+
+========

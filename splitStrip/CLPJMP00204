@@ -1,0 +1,25 @@
+
+
+403FE4: MOV EAX,[0x00625c60]           [8B05761C2200] 
+403FEA: OR EAX,EDI                     [09F8] 
+403FEC: TEST DIL,0x20                  [40F6C720] 
+403FF0: CMOVZ EAX,EDI                  [0F44C7] 
+403FF3: MOV EDX,EAX                    [89C2] 
+403FF5: OR EDX,0x8                     [83CA08] 
+403FF8: TEST AL,0x40                   [A840] 
+403FFA: CMOVNZ EAX,EDX                 [0F45C2] 
+403FFD: AND EAX,0xffffff9f             [83E09F] 
+404000: XOR EAX,[0x0062790c]           [330506392200] 
+404006: AND EAX,0xffffffef             [83E0EF] 
+404010: SUB RSP,0x18                   [4883EC18] 
+404014: XOR EAX,EAX                    [31C0] 
+404016: MOV [RSP + 0xc],EDI            [897C240C] 
+403E84: SUB RSP,0x8                    [4883EC08] 
+403E88: MOV EAX,[0x0062790c]           [8B057E3A2200] 
+403E8E: TEST AL,0x8                    [A808] 
+403E96: TEST AL,0x4                    [A804] 
+403F00: MOV RDI,[0x00627948]           [488B3D413A2200] 
+403F07: MOV EDX,0x413de0               [BAE03D4100] 
+403F0C: MOV ESI,0x1                    [BE01000000] 
+
+========

@@ -1,0 +1,22 @@
+
+
+FEB84: PUSH RBP                       [55] 
+FEB85: MOV RBP,RSP                    [4889E5] 
+FEB88: PUSH R15                       [4157] 
+FEB8A: PUSH R14                       [4156] 
+FEB8C: PUSH R13                       [4155] 
+FEB8E: PUSH R12                       [4154] 
+FEB90: PUSH RBX                       [53] 
+FEB91: MOV RBX,RDI                    [4889FB] 
+FEB94: SUB RSP,0x88                   [4881EC88000000] 
+FEB9B: MOV EAX,[RDI + 0x8]            [8B4708] 
+FEB9E: MOV dword ptr [RBP + -0x78],0x1000 [48C7458800100000] 
+FEBA6: SUB RSP,0x1010                 [4881EC10100000] 
+FEBAD: LEA R14,[RSP + 0xf]            [4C8D74240F] 
+FEBB2: AND R14,-0x10                  [4983E6F0] 
+FEBB6: TEST EAX,EAX                   [85C0] 
+FEBB8: MOV [RBP + -0x80],R14          [4C897580] 
+FEE47: XOR EDI,EDI                    [31FF] 
+FEE49: MOV [-0x98 + RBP],ESI          [89B568FFFFFF] 
+
+========

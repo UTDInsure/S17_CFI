@@ -1,0 +1,9 @@
+
+
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+7957A: ADD RSP,0x8                    [4883C408] 
+
+========

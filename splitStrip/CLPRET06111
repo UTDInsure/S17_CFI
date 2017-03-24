@@ -1,0 +1,17 @@
+
+
+EB1A4: PUSH RBP                       [55] 
+EB1A5: MOV RBP,RSI                    [4889F5] 
+EB1A8: PUSH RBX                       [53] 
+EB1A9: MOV RBX,RDI                    [4889FB] 
+EB1AC: SUB RSP,0x8                    [4883EC08] 
+EB1B0: MOV RAX,[RDI + 0x38]           [488B4738] 
+EB1B4: SUB RAX,[RDI + 0x30]           [482B4730] 
+EB1B8: CMP RAX,[RDI + 0x20]           [483B4720] 
+EB1C7: MOV RAX,[RBX + 0x10]           [488B4310] 
+EB1CB: MOV [RBX + 0x10],RBP           [48896B10] 
+EB1CF: ADD RSP,0x8                    [4883C408] 
+EB1D3: POP RBX                        [5B] 
+EB1D4: POP RBP                        [5D] 
+
+========

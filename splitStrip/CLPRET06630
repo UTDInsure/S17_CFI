@@ -1,0 +1,7 @@
+
+
+100634: CMP EDX,0x1                    [83FA01] 
+100670: MOVSXD RSI,ESI                 [4863F6] 
+100673: MOV byte ptr [RDI + RSI*0x1],0x0 [C6043700] 
+
+========

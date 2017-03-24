@@ -1,0 +1,23 @@
+
+
+C7094: MOV RAX,[0x00368dc0]           [488B05251D2A00] 
+C709B: MOV dword ptr [0xdc + RSP],0x0 [C78424DC00000000000000] 
+C70A6: MOV RAX,FS:[RAX]               [64488B00] 
+C70AA: MOV RAX,[RAX + 0x18]           [488B4018] 
+C70AE: MOV RDX,[0xc0 + RAX]           [488B90C0000000] 
+C70B5: MOV [RSP + 0x10],RDX           [4889542410] 
+C70BA: MOV EDX,[RAX + 0x40]           [8B5040] 
+C70BD: TEST EDX,EDX                   [85D2] 
+C70BF: MOV R14D,EDX                   [4189D6] 
+C70C4: MOV ECX,[0xa8 + RAX]           [8B88A8000000] 
+C70CA: MOV RDX,[0xb0 + RAX]           [488B90B0000000] 
+C70D1: MOV [RSP + 0x60],ECX           [894C2460] 
+C70D5: MOV RCX,[0xb8 + RAX]           [488B88B8000000] 
+C70DC: MOV RAX,[0xc8 + RAX]           [488B80C8000000] 
+C70E3: MOV [RSP + 0x40],RDX           [4889542440] 
+C70E8: MOV [0x88 + RSP],RCX           [48898C2488000000] 
+C70F0: MOV [RSP + 0x68],RAX           [4889442468] 
+C70F5: MOV ESI,0x1                    [BE01000000] 
+C70FA: MOV EDI,0x20                   [BF20000000] 
+
+========

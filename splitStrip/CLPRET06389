@@ -1,0 +1,6 @@
+
+
+F2E24: TEST EDX,EDX                   [85D2] 
+F2EC0: XOR EAX,EAX                    [31C0] 
+
+========

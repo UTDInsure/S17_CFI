@@ -1,0 +1,10 @@
+
+
+DE6A4: TEST RSI,RSI                   [4885F6] 
+DE6A9: MOV RAX,[RSI + 0x8]            [488B4608] 
+DE6AD: CMP RAX,0xf423f                [483D3F420F00] 
+DE720: MOV RAX,[0x00368e68]           [488B0541A72800] 
+DE727: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DE72E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

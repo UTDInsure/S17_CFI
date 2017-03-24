@@ -1,0 +1,12 @@
+
+
+1F314: PUSH RBX                       [53] 
+1F315: MOV RBX,RDI                    [4889FB] 
+1F318: SUB RSP,0x10                   [4883EC10] 
+1F31C: TEST RDI,RDI                   [4885FF] 
+1F321: CMP byte ptr [RDI + 0x23],0x0  [807F2300] 
+1F360: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1F356: ADD RSP,0x10                   [4883C410] 
+1F35A: POP RBX                        [5B] 
+
+========

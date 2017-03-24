@@ -1,0 +1,24 @@
+
+
+35874: FLD tword ptr [RSP + 0x8]      [DB6C2408] 
+35878: FSTP tword ptr [RSP + -0x18]   [DB7C24E8] 
+3587C: MOVSX ECX,word ptr [RSP + -0x10] [0FBF4C24F0] 
+35881: MOV EAX,[RSP + -0x14]          [8B4424EC] 
+35885: LEA EDX,[-0x80000000 + RAX]    [8D9000000080] 
+3588B: OR EDX,[RSP + -0x18]           [0B5424E8] 
+3588F: MOV EAX,ECX                    [89C8] 
+35891: AND ECX,0x8000                 [81E100800000] 
+35897: NOT EAX                        [F7D0] 
+35899: SAR ECX,0xe                    [C1F90E] 
+3589C: AND EAX,0x7fff                 [25FF7F0000] 
+358A1: OR EDX,EAX                     [09C2] 
+358A3: MOV EAX,EDX                    [89D0] 
+358A5: NEG EAX                        [F7D8] 
+358A7: OR EAX,EDX                     [09D0] 
+358A9: MOV EDX,0x1                    [BA01000000] 
+358AE: SAR EAX,0x1f                   [C1F81F] 
+358B1: SUB EDX,ECX                    [29CA] 
+358B3: NOT EAX                        [F7D0] 
+358B5: AND EAX,EDX                    [21D0] 
+
+========

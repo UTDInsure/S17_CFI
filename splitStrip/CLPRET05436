@@ -1,0 +1,12 @@
+
+
+DF6F4: SUB RSP,0x8                    [4883EC08] 
+DF6F8: MOV EDI,[0x003691f8]           [8B3DFA9A2800] 
+D7224: CMP dword ptr [0x0036e774],0x0 [833D4975290000] 
+D7231: MOV EAX,0x3                    [B803000000] 
+D7238: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DF707: MOV dword ptr [0x003691f8],0xffffffff [C705E79A2800FFFFFFFF] 
+DF711: MOV dword ptr [0x0036c244],0x0 [C70529CB280000000000] 
+DF71B: ADD RSP,0x8                    [4883C408] 
+
+========

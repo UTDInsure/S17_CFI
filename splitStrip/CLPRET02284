@@ -1,0 +1,26 @@
+
+
+513C4: PUSH R12                       [4154] 
+513C6: PUSH RBP                       [55] 
+513C7: MOV RBP,RDI                    [4889FD] 
+513CA: PUSH RBX                       [53] 
+513CB: MOV EAX,[RDI]                  [8B07] 
+513CD: SUB EAX,0x1                    [83E801] 
+513D0: CMP EAX,0xfe                   [3DFE000000] 
+513DB: MOV RBX,RDI                    [4889FB] 
+513EB: ADD RBX,0x4                    [4883C304] 
+513EF: MOV EAX,[RBX]                  [8B03] 
+513F1: TEST EAX,EAX                   [85C0] 
+513E0: CMP EAX,0xff                   [3DFF000000] 
+513EB: ADD RBX,0x4                    [4883C304] 
+513EF: MOV EAX,[RBX]                  [8B03] 
+513F1: TEST EAX,EAX                   [85C0] 
+513E0: CMP EAX,0xff                   [3DFF000000] 
+51518: MOV RAX,[0x00368e68]           [488B0549793100] 
+5151F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+51526: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+5152B: POP RBX                        [5B] 
+5152C: POP RBP                        [5D] 
+5152D: POP R12                        [415C] 
+
+========

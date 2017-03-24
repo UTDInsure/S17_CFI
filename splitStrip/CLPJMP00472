@@ -1,0 +1,12 @@
+
+
+412494: PUSH RBX                       [53] 
+412495: SUB RSP,0x20                   [4883EC20] 
+412499: CMP EDI,0x1                    [83FF01] 
+41249E: CMP EDI,0x2                    [83FF02] 
+4124B0: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+4124B3: SUB EAX,0x3d                   [83E83D] 
+4124B6: CMP AL,0x3a                    [3C3A] 
+4124BA: MOVZX EAX,AL                   [0FB6C0] 
+
+========

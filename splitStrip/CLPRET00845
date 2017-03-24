@@ -1,0 +1,15 @@
+
+
+40FD74: PUSH R12                       [4154] 
+40FD76: MOV R10D,[0x00628690]          [448B1513892100] 
+40FD7D: PUSH RBP                       [55] 
+40FD7E: MOV RBP,RDI                    [4889FD] 
+40FD81: PUSH RBX                       [53] 
+40FD82: XOR EBX,EBX                    [31DB] 
+40FD84: TEST R10D,R10D                 [4585D2] 
+40FDC8: POP RBX                        [5B] 
+40FDC9: POP RBP                        [5D] 
+40FDCA: XOR EAX,EAX                    [31C0] 
+40FDCC: POP R12                        [415C] 
+
+========

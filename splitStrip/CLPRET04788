@@ -1,0 +1,24 @@
+
+
+D12D4: PUSH R13                       [4155] 
+D12D6: MOV R13,RCX                    [4989CD] 
+D12D9: PUSH R12                       [4154] 
+D12DB: MOV R12,RSI                    [4989F4] 
+D12DE: PUSH RBP                       [55] 
+D12DF: MOV RBP,R8                     [4C89C5] 
+D12E2: PUSH RBX                       [53] 
+D12E3: MOV RBX,RDI                    [4889FB] 
+D12E6: SUB RSP,0x8                    [4883EC08] 
+D12EA: MOV RDI,[RSI]                  [488B3E] 
+D12ED: MOV RAX,[RDX]                  [488B02] 
+D12F0: LEA R8,[RDI + R8*0x1]          [4E8D0407] 
+D12F4: CMP R8,RAX                     [4939C0] 
+D1368: TEST RBX,RBX                   [4885DB] 
+D136D: ADD RSP,0x8                    [4883C408] 
+D1371: MOV RAX,RBX                    [4889D8] 
+D1374: POP RBX                        [5B] 
+D1375: POP RBP                        [5D] 
+D1376: POP R12                        [415C] 
+D1378: POP R13                        [415D] 
+
+========

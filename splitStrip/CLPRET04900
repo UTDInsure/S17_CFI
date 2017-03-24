@@ -1,0 +1,6 @@
+
+
+D68B4: MOV EAX,0x53                   [B853000000] 
+D68BB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

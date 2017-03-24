@@ -1,0 +1,17 @@
+
+
+B5B44: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+B5B47: XOR EAX,EAX                    [31C0] 
+B5B49: TEST DL,DL                     [84D2] 
+B5B4D: CMP DL,0x5b                    [80FA5B] 
+B5BB0: OR EAX,0x4                     [83C804] 
+B5BB3: MOVZX EDX,byte ptr [RDI + 0x1] [0FB65701] 
+B5B6A: ADD RDI,0x1                    [4883C701] 
+B5B6E: TEST DL,DL                     [84D2] 
+B5B4D: CMP DL,0x5b                    [80FA5B] 
+B5BB0: OR EAX,0x4                     [83C804] 
+B5BB3: MOVZX EDX,byte ptr [RDI + 0x1] [0FB65701] 
+B5B6A: ADD RDI,0x1                    [4883C701] 
+B5B6E: TEST DL,DL                     [84D2] 
+
+========

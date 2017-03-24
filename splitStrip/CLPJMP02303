@@ -1,0 +1,13 @@
+
+
+2CEF4: PUSH R13                       [4155] 
+2CEF6: XOR R13D,R13D                  [4531ED] 
+2CEF9: PUSH R12                       [4154] 
+2CEFB: MOV R12,RDI                    [4989FC] 
+2CEFE: XOR EDI,EDI                    [31FF] 
+2CF00: PUSH RBP                       [55] 
+2CF01: PUSH RBX                       [53] 
+2CF02: MOV RBX,RSI                    [4889F3] 
+2CF05: SUB RSP,0x8                    [4883EC08] 
+
+========

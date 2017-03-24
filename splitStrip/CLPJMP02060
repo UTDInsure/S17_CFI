@@ -1,0 +1,18 @@
+
+
+197A4: PUSH R15                       [4157] 
+197A6: PUSH R14                       [4156] 
+197A8: PUSH R13                       [4155] 
+197AA: LEA R13,[R8 + -0x1]            [4D8D68FF] 
+197AE: PUSH R12                       [4154] 
+197B0: PUSH RBP                       [55] 
+197B1: PUSH RBX                       [53] 
+197B2: SUB RSP,0x8                    [4883EC08] 
+197B6: TEST R9B,R9B                   [4584C9] 
+197B9: MOV byte ptr [R8 + -0x1],0x0   [41C640FF00] 
+197D8: MOV RBX,RDI                    [4889FB] 
+197DB: MOV R14,RCX                    [4989CE] 
+197DE: MOVSX EBP,word ptr [RDI]       [0FBF2F] 
+197E1: MOVZX R12D,word ptr [RDI + 0x2] [440FB76702] 
+
+========

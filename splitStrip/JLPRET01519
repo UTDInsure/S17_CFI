@@ -1,0 +1,15 @@
+
+
+B9DF4: TEST byte ptr [RSP + 0x14],0x2 [F644241402] 
+BA2E8: CMP R11,[RSP + 0x8]            [4C3B5C2408] 
+B9F88: MOV dword ptr [RSP + 0x20],0x1 [C744242001000000] 
+B9F90: MOV EAX,[RSP + 0x20]           [8B442420] 
+B9F94: ADD RSP,0x8d8                  [4881C4D8080000] 
+B9F9B: POP RBX                        [5B] 
+B9F9C: POP RBP                        [5D] 
+B9F9D: POP R12                        [415C] 
+B9F9F: POP R13                        [415D] 
+B9FA1: POP R14                        [415E] 
+B9FA3: POP R15                        [415F] 
+
+========

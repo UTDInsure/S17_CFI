@@ -1,0 +1,9 @@
+
+
+F0F74: SUB RSP,0x8                    [4883EC08] 
+F0F78: MOV RAX,[0x00368e18]           [488B05997E2700] 
+F0F7F: MOV RAX,[RAX]                  [488B00] 
+F0F82: ROR RAX,0x11                   [48C1C811] 
+F0F86: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

@@ -1,0 +1,25 @@
+
+
+81B74: TEST SIL,0x7                   [40F6C607] 
+81B78: MOV RCX,RSI                    [4889F1] 
+81B7B: MOV EAX,0x16                   [B816000000] 
+81B88: MOV RSI,RDX                    [4889D6] 
+81B8B: MOV RDX,RCX                    [4889CA] 
+81B8E: PUSH RBX                       [53] 
+81B8F: SHR RDX,0x3                    [48C1EA03] 
+81B93: MOV RBX,RDI                    [4889FB] 
+81B96: LEA RDI,[RDX + -0x1]           [488D7AFF] 
+81B9A: TEST RDI,RDX                   [4885D7] 
+81BAC: TEST RCX,RCX                   [4885C9] 
+81BB1: MOV RDX,[RSP + 0x8]            [488B542408] 
+81BB6: MOV RDI,RCX                    [4889CF] 
+7FC44: PUSH R12                       [4154] 
+7FC46: MOV RAX,[0x00368ed0]           [488B0583922E00] 
+7FC4D: MOV R12,RSI                    [4989F4] 
+7FC50: PUSH RBP                       [55] 
+7FC51: PUSH RBX                       [53] 
+7FC52: MOV RAX,[RAX]                  [488B00] 
+7FC55: MOV RBX,RDI                    [4889FB] 
+7FC58: TEST RAX,RAX                   [4885C0] 
+
+========

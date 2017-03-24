@@ -1,0 +1,17 @@
+
+
+DF4C4: CMP dword ptr [0x0036e774],0x0 [833DA9F2280000] 
+DF4D8: DEC dword ptr [0x0036c230]     [FF0D52CD2800] 
+DF4E0: LEA RDI,[0x36c230]             [488D3D49CD2800] 
+DF4E7: SUB RSP,0x80                   [4881EC80000000] 
+F08A4: PUSH RSI                       [56] 
+F08A5: PUSH RDX                       [52] 
+F08A6: MOV dword ptr [RDI],0x0        [C70700000000] 
+F08AC: MOV ESI,0x81                   [BE81000000] 
+F08B1: MOV EDX,0x1                    [BA01000000] 
+F08B6: MOV EAX,0xca                   [B8CA000000] 
+F08BD: POP RDX                        [5A] 
+F08BE: POP RSI                        [5E] 
+DF4F7: ADD RSP,0x80                   [4881C480000000] 
+
+========

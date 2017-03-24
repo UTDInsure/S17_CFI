@@ -1,0 +1,18 @@
+
+
+72F54: PUSH RBP                       [55] 
+72F55: PUSH RBX                       [53] 
+72F56: MOV RBX,RDI                    [4889FB] 
+72F59: SUB RSP,0x28                   [4883EC28] 
+72F5D: MOV EAX,[RDI]                  [8B07] 
+72F5F: TEST AL,0x4                    [A804] 
+73088: OR EAX,0x20                    [83C820] 
+7308B: MOV [RDI],EAX                  [8907] 
+7308D: MOV RAX,[0x00368e68]           [488B05D45D2F00] 
+73094: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+7309B: OR EAX,0xffffffff              [83C8FF] 
+73022: ADD RSP,0x28                   [4883C428] 
+73026: POP RBX                        [5B] 
+73027: POP RBP                        [5D] 
+
+========

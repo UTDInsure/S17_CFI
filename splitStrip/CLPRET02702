@@ -1,0 +1,6 @@
+
+
+71844: CMP dword ptr [RDI + 0x60],0x0 [48837F6000] 
+71853: CMP dword ptr [RDI + 0x48],0x0 [48837F4800] 
+
+========

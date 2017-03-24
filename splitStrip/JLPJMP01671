@@ -1,0 +1,21 @@
+
+
+3377D: MOV EAX,[0x1d8 + R12]          [418B8424D8010000] 
+33785: TEST EAX,EAX                   [85C0] 
+33D9F: MOV RAX,[0x0024a840]           [488B059A6A2100] 
+33DA6: XOR EDX,EDX                    [31D2] 
+33DA8: ADD dword ptr [RAX],0x1        [830001] 
+337B1: LEA ECX,[R13 + 0x1]            [418D4D01] 
+337B5: CMP R13D,0x1e                  [4183FD1E] 
+337B9: MOV EAX,0x1f                   [B81F000000] 
+337BE: MOV RBX,[0x1f8 + R12]          [498B9C24F8010000] 
+337C6: CMOVGE RAX,RCX                 [480F4DC1] 
+337CA: MOV RCX,[0x1f0 + R12]          [498B8C24F0010000] 
+337D2: ADD RAX,RCX                    [4801C8] 
+337D5: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+337E3: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+337EB: ADD RDI,RCX                    [4801CF] 
+337EE: MOV RSI,RBX                    [4889DE] 
+337F1: XOR EAX,EAX                    [31C0] 
+
+========

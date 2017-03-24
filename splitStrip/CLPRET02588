@@ -1,0 +1,15 @@
+
+
+700A4: SUB RSP,0x8                    [4883EC08] 
+700A8: MOV RAX,[0x0036a710]           [488B0561A62F00] 
+700AF: MOV RDX,[0xa0 + RAX]           [488B90A0000000] 
+700B6: TEST RDX,RDX                   [4885D2] 
+700BB: MOV RCX,[RDX + 0x20]           [488B4A20] 
+700BF: CMP RCX,[RDX + 0x28]           [483B4A28] 
+700C5: LEA RAX,[RCX + 0x4]            [488D4104] 
+700C9: MOV [RDX + 0x20],RAX           [48894220] 
+700CD: MOV [RCX],EDI                  [8939] 
+700CF: MOV EAX,EDI                    [89F8] 
+700D1: ADD RSP,0x8                    [4883C408] 
+
+========

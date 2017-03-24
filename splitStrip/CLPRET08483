@@ -1,0 +1,13 @@
+
+
+2D4C4: TEST RDI,RDI                   [4885FF] 
+2D4C9: CMP RDI,RSI                    [4839F7] 
+2D52B: MOV RAX,RDI                    [4889F8] 
+2D52E: XOR EDI,EDI                    [31FF] 
+2D4FE: MOV RDX,[0x0024a7b8]           [488B15B3D22100] 
+2D505: CMP RAX,[RDX]                  [483B02] 
+2D50A: MOV RDX,[0x0024a788]           [488B1577D22100] 
+2D511: CMP RAX,[RDX]                  [483B02] 
+2D518: MOV [RDX],RDI                  [48893A] 
+
+========

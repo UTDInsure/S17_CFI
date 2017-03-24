@@ -1,0 +1,9 @@
+
+
+E5944: SUB RSP,0x8                    [4883EC08] 
+E5948: XOR EDI,EDI                    [31FF] 
+E56C4: CMP dword ptr [0x00369220],0x2 [48833D543B280002] 
+E5953: CMP dword ptr [0x00369220],0x2 [48833DC538280002] 
+E5966: MOV RDI,[0x00369248]           [488B3DDB382800] 
+
+========

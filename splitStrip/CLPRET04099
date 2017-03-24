@@ -1,0 +1,11 @@
+
+
+9AC94: SUB RSP,0x8                    [4883EC08] 
+9AC98: CMP R8D,0x400                  [4181F800040000] 
+9ACF0: OR EDX,ECX                     [09CA] 
+9ACF2: XOR EAX,EAX                    [31C0] 
+9ACF4: TEST DIL,DIL                   [4084FF] 
+9ACF7: CMOVNZ EAX,EDX                 [0F45C2] 
+9ACFA: ADD RSP,0x8                    [4883C408] 
+
+========

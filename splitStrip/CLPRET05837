@@ -1,0 +1,8 @@
+
+
+E4F54: CMP dword ptr [0x0036e774],0x0 [833D1998280000] 
+E4F61: MOV R10,RCX                    [4989CA] 
+E4F64: MOV EAX,0x46                   [B846000000] 
+E4F6B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

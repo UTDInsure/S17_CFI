@@ -1,0 +1,12 @@
+
+
+100684: TEST RDI,RDI                   [4885FF] 
+100687: MOV EAX,0x2                    [B802000000] 
+10068E: LEA EDX,[RSI + -0x1]           [8D56FF] 
+100691: CMP EDX,0x7ff                  [81FAFF070000] 
+100699: TEST SIL,0x7                   [40F6C607] 
+10069F: SHR ESI,0x3                    [C1EE03] 
+1006A2: SUB ESI,0x1                    [83EE01] 
+1006A5: MOV [RDI + 0x1],SIL            [40887701] 
+
+========

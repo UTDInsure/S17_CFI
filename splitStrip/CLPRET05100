@@ -1,0 +1,11 @@
+
+
+DB394: TEST EDI,EDI                   [85FF] 
+DB398: MOV RDX,RSI                    [4889F2] 
+DB39B: XOR R10D,R10D                  [4531D2] 
+DB39E: XOR ESI,ESI                    [31F6] 
+DB3A0: MOVSXD RDI,EDI                 [4863FF] 
+DB3A3: MOV EAX,0x118                  [B818010000] 
+DB3AA: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

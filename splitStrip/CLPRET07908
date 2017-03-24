@@ -1,0 +1,9 @@
+
+
+15454: SUB RSP,0x8                    [4883EC08] 
+15458: TEST RDI,RDI                   [4885FF] 
+15539: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1553E: NOP                            [6690] 
+15509: ADD RSP,0x8                    [4883C408] 
+
+========

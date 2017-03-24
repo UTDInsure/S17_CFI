@@ -1,0 +1,17 @@
+
+
+F08C4: MOV EAX,FS:[0x308]             [648B042508030000] 
+F08CC: MOV R11D,EAX                   [4189C3] 
+F08CF: OR R11D,0x2                    [4183CB02] 
+F08D3: CMP R11D,EAX                   [4139C3] 
+F08D8: LOCK                           [F0] 
+F08D9: CMPXCHG FS:[0x308],R11D        [64440FB11C2508030000] 
+F08CC: MOV R11D,EAX                   [4189C3] 
+F08CF: OR R11D,0x2                    [4183CB02] 
+F08D3: CMP R11D,EAX                   [4139C3] 
+F08D8: LOCK                           [F0] 
+F08D9: CMPXCHG FS:[0x308],R11D        [64440FB11C2508030000] 
+F08E5: AND R11D,0xffffffbb            [4183E3BB] 
+F08E9: CMP R11D,0xa                   [4183FB0A] 
+
+========

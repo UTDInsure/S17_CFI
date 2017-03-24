@@ -1,0 +1,7 @@
+
+
+403ED4: MOV RDI,[0x00627958]           [488B3D7D3A2200] 
+403EDB: MOV EDX,0x413de0               [BAE03D4100] 
+403EE0: MOV ESI,0x1                    [BE01000000] 
+
+========

@@ -1,0 +1,8 @@
+
+
+DD6A4: TEST RSI,RSI                   [4885F6] 
+DD6A7: MOV RAX,[0x00368e68]           [488B05BAB72800] 
+DD6C0: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DD6C7: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,23 @@
+
+
+1DC84: PUSH R15                       [4157] 
+1DC86: PUSH R14                       [4156] 
+1DC88: PUSH R13                       [4155] 
+1DC8A: PUSH R12                       [4154] 
+1DC8C: PUSH RBP                       [55] 
+1DC8D: PUSH RBX                       [53] 
+1DC8E: MOV RBX,RDI                    [4889FB] 
+1DC91: SUB RSP,0x38                   [4883EC38] 
+1DC95: TEST RDI,RDI                   [4885FF] 
+1DC98: MOV [RSP + 0x10],R9D           [44894C2410] 
+1DCA3: TEST byte ptr [RDI + 0xc],0x10 [F6470C10] 
+1DF33: ADD RSP,0x38                   [4883C438] 
+1DF37: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1DF3C: POP RBX                        [5B] 
+1DF3D: POP RBP                        [5D] 
+1DF3E: POP R12                        [415C] 
+1DF40: POP R13                        [415D] 
+1DF42: POP R14                        [415E] 
+1DF44: POP R15                        [415F] 
+
+========

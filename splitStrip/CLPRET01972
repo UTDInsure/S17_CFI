@@ -1,0 +1,18 @@
+
+
+39E94: MOV EDI,EDI                    [89FF] 
+39E96: MOV EDX,0xb                    [BA0B000000] 
+39E9B: MOV ECX,0x1                    [B901000000] 
+39EA0: MOV RAX,RDI                    [4889F8] 
+39EA3: MOV [RSI + 0x2],DI             [66897E02] 
+39EA7: MOV [RSI + 0xc],DX             [6689560C] 
+39EAB: SAR RAX,0x10                   [48C1F810] 
+39EAF: MOV [RSI + 0xe],CX             [66894E0E] 
+39EB3: MOV [RSI + 0x4],AX             [66894604] 
+39EB7: MOV EAX,0x330e                 [B80E330000] 
+39EBC: MOV [RSI],AX                   [668906] 
+39EBF: MOV RAX,0x5deece66d            [48B86DE6ECDE05000000] 
+39EC9: MOV [RSI + 0x10],RAX           [48894610] 
+39ECD: XOR EAX,EAX                    [31C0] 
+
+========

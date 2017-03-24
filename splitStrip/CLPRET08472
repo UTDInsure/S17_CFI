@@ -1,0 +1,10 @@
+
+
+2D224: PUSH RBX                       [53] 
+2D225: MOV RBX,[0x0024a8a0]           [488B1D74D62100] 
+2D22C: MOV RDI,[RBX + 0x30]           [488B7B30] 
+2D230: TEST RDI,RDI                   [4885FF] 
+2D246: MOV dword ptr [RBX + 0x38],0x0 [C7433800000000] 
+2D24D: POP RBX                        [5B] 
+
+========

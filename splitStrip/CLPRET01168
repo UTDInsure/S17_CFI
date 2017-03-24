@@ -1,0 +1,7 @@
+
+
+417D84: MOV RAX,[0x0062b9f8]           [488B056D3C2100] 
+417D8B: TEST RAX,RAX                   [4885C0] 
+417EEA: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

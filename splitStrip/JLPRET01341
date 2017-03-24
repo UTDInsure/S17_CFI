@@ -1,0 +1,9 @@
+
+
+B4EDC: MOV EAX,0x20                   [B820000000] 
+B4E30: ADD RSP,0x30                   [4883C430] 
+B4E34: POP RBX                        [5B] 
+B4E35: POP RBP                        [5D] 
+B4E36: POP R12                        [415C] 
+
+========

@@ -1,0 +1,10 @@
+
+
+CC574: MOV EAX,[RSI + 0x4]            [8B4604] 
+CC577: XOR EDX,EDX                    [31D2] 
+CC579: CMP [RDI + 0x4],EAX            [394704] 
+CC57C: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+CC581: SETNZ DL                       [0F95C2] 
+CC584: CMOVBE EAX,EDX                 [0F46C2] 
+
+========

@@ -1,0 +1,14 @@
+
+
+20F14: TEST RDI,RDI                   [4885FF] 
+20F19: MOVSX EDX,word ptr [RDI + 0x4] [0FBF5704] 
+20F1D: MOV EAX,0x1                    [B801000000] 
+20F22: CMP EDX,ESI                    [39F2] 
+20F26: TEST ESI,ESI                   [85F6] 
+20F2A: MOVSXD RSI,ESI                 [4863F6] 
+20F2D: SHL RSI,0x4                    [48C1E604] 
+20F31: ADD RSI,[RDI + 0x30]           [48037730] 
+20F35: CMP word ptr [RSI + 0x8],-0x1  [66837E08FF] 
+20F3A: SETNZ AL                       [0F95C0] 
+
+========

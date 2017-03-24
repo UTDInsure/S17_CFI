@@ -1,0 +1,18 @@
+
+
+51664: PUSH R13                       [4155] 
+51666: MOV RAX,[0x0036e4d0]           [488B0563CE3100] 
+5166D: PUSH R12                       [4154] 
+5166F: PUSH RBP                       [55] 
+51670: PUSH RBX                       [53] 
+51671: MOV RBX,[RDI]                  [488B1F] 
+51674: MOV EDX,[RBX]                  [8B13] 
+51676: MOV R9,[RAX + RDX*0x8]         [4C8B0CD0] 
+5167A: TEST R9,R9                     [4D85C9] 
+51721: POP RBX                        [5B] 
+51722: POP RBP                        [5D] 
+51723: POP R12                        [415C] 
+51725: MOV EAX,0x1                    [B801000000] 
+5172A: POP R13                        [415D] 
+
+========

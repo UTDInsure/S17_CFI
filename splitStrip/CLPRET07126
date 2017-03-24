@@ -1,0 +1,7 @@
+
+
+10CEE4: MOV RDI,[RDI + 0x40]           [488B7F40] 
+10CEE8: MOV EAX,[RDI]                  [8B07] 
+10CEEA: TEST EAX,EAX                   [85C0] 
+
+========

@@ -1,0 +1,14 @@
+
+
+402BC4: PUSH R12                       [4154] 
+402BC6: PUSH RBP                       [55] 
+402BC7: MOV RBP,RSI                    [4889F5] 
+402BCA: PUSH RBX                       [53] 
+402BCB: CMP byte ptr [RDI],0x0         [803F00] 
+402BE0: CMP byte ptr [RSI],0x0         [803E00] 
+402BE3: MOV RBX,RDI                    [4889FB] 
+402BE8: MOV ESI,[0x0062ba70]           [8B35828E2200] 
+402BEE: MOV EDX,0x4028d0               [BAD0284000] 
+402BF3: MOV dword ptr [0x00627904],0x0 [C705074D220000000000] 
+
+========

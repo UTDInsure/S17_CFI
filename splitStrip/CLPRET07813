@@ -1,0 +1,7 @@
+
+
+11E0E4: MOV RDI,[0x0036d198]           [488B3DADF02400] 
+11E0EB: MOV dword ptr [0x0036d1b0],0x0 [48C705BAF0240000000000] 
+11E0F6: TEST RDI,RDI                   [4885FF] 
+
+========

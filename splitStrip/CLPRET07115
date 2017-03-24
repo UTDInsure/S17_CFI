@@ -1,0 +1,8 @@
+
+
+10BFA4: CMP ESI,0xf                    [83FE0F] 
+10BFA7: MOV R8,RDX                     [4989D0] 
+10BFAA: MOV RCX,[RDI + 0x10]           [488B4F10] 
+10C184: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,24 @@
+
+
+49E21: MOVSXD RAX,[-0x4e4 + RBP]      [4863851CFBFFFF] 
+49E28: IMUL RAX,RAX,0x48              [486BC048] 
+49E2C: ADD RAX,[-0x4d0 + RBP]         [48038530FBFFFF] 
+49E39: MOVSXD RAX,[RAX + 0x30]        [48634030] 
+49E3D: MOV RCX,[-0x4d8 + RBP]         [488B8D28FBFFFF] 
+49E44: SHL RAX,0x4                    [48C1E004] 
+49E48: MOV R13,[RCX + RAX*0x1]        [4C8B2C01] 
+49E4C: TEST R13,R13                   [4D85ED] 
+4A10B: CMP dword ptr [-0x560 + RBP],0x5 [83BDA0FAFFFF05] 
+4A6DF: MOV dword ptr [-0x560 + RBP],0x0 [C785A0FAFFFF00000000] 
+4A6E9: MOV R12D,0x6                   [41BC06000000] 
+4A6EF: LEA R13,[0x134d06]             [4C8D2D10A60E00] 
+49E9A: MOV ECX,[-0x558 + RBP]         [8B8DA8FAFFFF] 
+49EA0: MOV [-0x568 + RBP],R12D        [4489A598FAFFFF] 
+49EA7: SUB ECX,R12D                   [4429E1] 
+4A007: CMP dword ptr [-0x4a8 + RBP],0x0 [83BD58FBFFFF00] 
+4A014: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+4A01B: MOV RDX,R12                    [4C89E2] 
+4A01E: MOV RSI,R13                    [4C89EE] 
+4A021: MOV RDI,RBX                    [4889DF] 
+
+========

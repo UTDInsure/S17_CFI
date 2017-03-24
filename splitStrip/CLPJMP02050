@@ -1,0 +1,6 @@
+
+
+184B4: SUB RSP,0x8                    [4883EC08] 
+184B8: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+
+========

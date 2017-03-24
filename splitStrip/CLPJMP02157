@@ -1,0 +1,18 @@
+
+
+1F824: PUSH R15                       [4157] 
+1F826: PUSH R14                       [4156] 
+1F828: PUSH R13                       [4155] 
+1F82A: PUSH R12                       [4154] 
+1F82C: PUSH RBP                       [55] 
+1F82D: MOV EBP,ECX                    [89CD] 
+1F82F: PUSH RBX                       [53] 
+1F830: MOV RBX,RDX                    [4889D3] 
+1F833: SUB RSP,0x28                   [4883EC28] 
+1F837: MOV [RSP + 0xc],EDI            [897C240C] 
+1F83B: MOV [RSP + 0x8],ESI            [89742408] 
+1F83F: MOV EDI,0x1                    [BF01000000] 
+1F844: MOV ESI,0x610                  [BE10060000] 
+1F849: MOV [RSP + 0x4],R8D            [4489442404] 
+
+========

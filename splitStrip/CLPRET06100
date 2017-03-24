@@ -1,0 +1,16 @@
+
+
+EAE74: PUSH RBP                       [55] 
+EAE75: MOV RBP,RSI                    [4889F5] 
+EAE78: PUSH RBX                       [53] 
+EAE79: MOV RBX,RDI                    [4889FB] 
+EAE7C: SUB RSP,0x8                    [4883EC08] 
+EAE80: MOV RAX,[RDI + 0x40]           [488B4740] 
+EAE84: SUB RAX,[RDI + 0x38]           [482B4738] 
+EAE88: CMP RAX,RSI                    [4839F0] 
+EAE8D: ADD RSP,0x8                    [4883C408] 
+EAE91: MOV EAX,0x1                    [B801000000] 
+EAE96: POP RBX                        [5B] 
+EAE97: POP RBP                        [5D] 
+
+========

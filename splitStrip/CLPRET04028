@@ -1,0 +1,9 @@
+
+
+969F4: TEST RDI,RDI                   [4885FF] 
+969F9: MOV EDX,[RDI]                  [8B17] 
+969FB: XOR EAX,EAX                    [31C0] 
+969FD: TEST EDX,EDX                   [85D2] 
+969FF: SETZ AL                        [0F94C0] 
+
+========

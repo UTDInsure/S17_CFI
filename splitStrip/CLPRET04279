@@ -1,0 +1,8 @@
+
+
+AE9D4: PUSH RBX                       [53] 
+AE9D5: MOV RBX,[RDI + 0x28]           [488B5F28] 
+AE9D9: TEST RBX,RBX                   [4885DB] 
+AEA20: POP RBX                        [5B] 
+
+========

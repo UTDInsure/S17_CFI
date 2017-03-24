@@ -1,0 +1,9 @@
+
+
+B5A94: MOV RDI,[RDI]                  [488B3F] 
+B5A97: MOV RSI,[RSI]                  [488B36] 
+B5A9A: CMP RDI,RSI                    [4839F7] 
+B5A9F: TEST RDI,RDI                   [4885FF] 
+B5AC8: MOV EAX,0x1                    [B801000000] 
+
+========

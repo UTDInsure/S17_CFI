@@ -1,0 +1,16 @@
+
+
+6BAB4: MOV EDX,EDI                    [89FA] 
+6BAB6: MOV RAX,RSI                    [4889F0] 
+6B7DF: CMP dword ptr [0x0036e4c8],0x0 [48833DE12C300000] 
+6B7E7: MOV [RSP + 0x8],RAX            [4889442408] 
+6B7EC: MOV [RBX + 0x8],EDX            [895308] 
+6B7EF: MOV dword ptr [RBX + 0x40],0xffffffff [C74340FFFFFFFF] 
+6B7FC: LEA ECX,[RDX + -0x41]          [8D4ABF] 
+6B7FF: MOV dword ptr [RBX + 0x38],0x1 [48C7433801000000] 
+6B807: CMP ECX,0x37                   [83F937] 
+6B810: LEA RSI,[0x13085c]             [488D3545500C00] 
+6B817: MOVSXD RAX,[RSI + RCX*0x4]     [4863048E] 
+6B81B: ADD RSI,RAX                    [4801C6] 
+
+========

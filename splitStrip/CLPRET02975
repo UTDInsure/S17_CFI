@@ -1,0 +1,9 @@
+
+
+76CB4: SUB RSP,0x8                    [4883EC08] 
+76CB8: MOV EDI,[RDI + 0x70]           [8B7F70] 
+D7231: MOV EAX,0x3                    [B803000000] 
+D7238: CMP RAX,0xfffff001             [483D01F0FFFF] 
+76CC4: ADD RSP,0x8                    [4883C408] 
+
+========

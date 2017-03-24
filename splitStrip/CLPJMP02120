@@ -1,0 +1,17 @@
+
+
+1E114: SUB RSP,0xd8                   [4881ECD8000000] 
+1E11B: TEST AL,AL                     [84C0] 
+1E11D: MOV [RSP + 0x30],RDX           [4889542430] 
+1E122: MOV [RSP + 0x38],RCX           [48894C2438] 
+1E127: MOV [RSP + 0x40],R8            [4C89442440] 
+1E12C: MOV [RSP + 0x48],R9            [4C894C2448] 
+1E16A: LEA RAX,[0xe0 + RSP]           [488D8424E0000000] 
+1E172: LEA RDX,[RSP + 0x8]            [488D542408] 
+1E177: MOV [RSP + 0x10],RAX           [4889442410] 
+1E17C: LEA RAX,[RSP + 0x20]           [488D442420] 
+1E181: MOV dword ptr [RSP + 0x8],0x10 [C744240810000000] 
+1E189: MOV dword ptr [RSP + 0xc],0x30 [C744240C30000000] 
+1E191: MOV [RSP + 0x18],RAX           [4889442418] 
+
+========

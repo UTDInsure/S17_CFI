@@ -1,0 +1,24 @@
+
+
+16474: PUSH R15                       [4157] 
+16476: PUSH R14                       [4156] 
+16478: MOVSX R14,DI                   [4C0FBFF7] 
+1647C: PUSH R13                       [4155] 
+1647E: PUSH R12                       [4154] 
+16480: PUSH RBP                       [55] 
+16481: PUSH RBX                       [53] 
+16482: SUB RSP,0x18                   [4883EC18] 
+16486: MOV R15,[0x0024a7a0]           [4C8B3D13432300] 
+1648D: MOV [RSP + 0x4],CX             [66894C2404] 
+16492: MOV R10,[R15]                  [4D8B17] 
+16495: TEST R10,R10                   [4D85D2] 
+165C0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+165A8: ADD RSP,0x18                   [4883C418] 
+165AC: POP RBX                        [5B] 
+165AD: POP RBP                        [5D] 
+165AE: POP R12                        [415C] 
+165B0: POP R13                        [415D] 
+165B2: POP R14                        [415E] 
+165B4: POP R15                        [415F] 
+
+========

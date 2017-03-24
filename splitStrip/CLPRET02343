@@ -1,0 +1,9 @@
+
+
+69F34: MOV R10,RCX                    [4989CA] 
+69F37: MOVSXD RDX,EDX                 [4863D2] 
+69F3A: MOVSXD RDI,EDI                 [4863FF] 
+69F3D: MOV EAX,0x108                  [B808010000] 
+69F44: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

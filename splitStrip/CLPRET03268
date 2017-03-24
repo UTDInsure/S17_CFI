@@ -1,0 +1,24 @@
+
+
+7AFF4: PUSH R14                       [4156] 
+7AFF6: TEST ECX,ECX                   [85C9] 
+7AFF8: PUSH R13                       [4155] 
+7AFFA: MOV R13D,EDX                   [4189D5] 
+7AFFD: PUSH R12                       [4154] 
+7AFFF: MOV R12,RSI                    [4989F4] 
+7B002: PUSH RBP                       [55] 
+7B003: MOV EBP,ECX                    [89CD] 
+7B005: PUSH RBX                       [53] 
+7B006: MOV RBX,RDI                    [4889FB] 
+7B00B: MOV EAX,[RDI]                  [8B07] 
+7B00D: TEST AH,0x4                    [F6C404] 
+7B0E8: TEST AL,0x8                    [A808] 
+7B0EC: MOV RAX,[RBX + 0x8]            [488B4308] 
+7B0F0: SUB RAX,[RBX + 0x18]           [482B4318] 
+7B0F4: POP RBX                        [5B] 
+7B0F5: POP RBP                        [5D] 
+7B0F6: POP R12                        [415C] 
+7B0F8: POP R13                        [415D] 
+7B0FA: POP R14                        [415E] 
+
+========

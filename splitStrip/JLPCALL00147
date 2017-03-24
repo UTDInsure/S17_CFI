@@ -1,0 +1,26 @@
+
+
+58E7E: CMP R14D,-0x1                  [4183FEFF] 
+5A052: MOV RDX,[0x00368e68]           [488B150FEE3000] 
+5A059: MOV EAX,[-0x1e0 + RBP]         [8B8520FEFFFF] 
+5A05F: MOV FS:[RDX],EAX               [648902] 
+58EA6: MOV R13D,[-0x1e8 + RBP]        [448BAD18FEFFFF] 
+58EAD: XOR EAX,EAX                    [31C0] 
+58EAF: TEST R13D,R13D                 [4585ED] 
+58EB2: SETG AL                        [0F9FC0] 
+58EB5: SUB [-0x1e8 + RBP],EAX         [298518FEFFFF] 
+58EBB: CMP R14D,-0x1                  [4183FEFF] 
+60514: MOV R12D,[-0x1fc + RBP]        [448BA504FEFFFF] 
+6051B: MOV EBX,0x1                    [BB01000000] 
+60520: TEST R12D,R12D                 [4585E4] 
+60529: MOV [-0x1fc + RBP],R14D        [4489B504FEFFFF] 
+58378: TEST dword ptr [R15],0x8000    [41F70700800000] 
+58385: MOV EAX,[-0x284 + RBP]         [8B857CFDFFFF] 
+5838B: TEST EAX,EAX                   [85C0] 
+5860B: MOV RAX,[0x0036e738]           [488B0526613100] 
+58612: XOR ESI,ESI                    [31F6] 
+58614: LEA RDI,[-0x170 + RBP]         [488DBD90FEFFFF] 
+5861B: ROR RAX,0x11                   [48C1C811] 
+5861F: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

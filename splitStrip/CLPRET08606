@@ -1,0 +1,13 @@
+
+
+346A4: PUSH R12                       [4154] 
+346A6: TEST RDI,RDI                   [4885FF] 
+346A9: PUSH RBP                       [55] 
+346AA: PUSH RBX                       [53] 
+346AB: MOV RBX,RDI                    [4889FB] 
+3470B: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+34710: POP RBX                        [5B] 
+34711: POP RBP                        [5D] 
+34712: POP R12                        [415C] 
+
+========

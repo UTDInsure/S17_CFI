@@ -1,0 +1,20 @@
+
+
+13204: PUSH RBP                       [55] 
+13205: MOV RBP,RSP                    [4889E5] 
+13208: PUSH R15                       [4157] 
+1320A: PUSH R14                       [4156] 
+1320C: PUSH R13                       [4155] 
+1320E: MOV R13,RDI                    [4989FD] 
+13211: PUSH R12                       [4154] 
+13213: MOV R12D,ESI                   [4189F4] 
+13216: PUSH RBX                       [53] 
+13217: SUB RSP,0x78                   [4883EC78] 
+1321B: TEST SIL,0x3                   [40F6C603] 
+13225: MOV RBX,RCX                    [4889CB] 
+13228: MOV [-0x98 + RBP],RDX          [48899568FFFFFF] 
+1322F: MOV R15D,R8D                   [4589C7] 
+13232: MOV R14,R9                     [4D89CE] 
+13235: LEA RDI,[0x222968]             [488D3D2CF72000] 
+
+========

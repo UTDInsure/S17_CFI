@@ -1,0 +1,25 @@
+
+
+74574: PUSH R14                       [4156] 
+74576: PUSH R13                       [4155] 
+74578: PUSH R12                       [4154] 
+7457A: PUSH RBP                       [55] 
+7457B: PUSH RBX                       [53] 
+7457C: MOV RBX,RDX                    [4889D3] 
+7457F: SUB RSP,0x90                   [4881EC90000000] 
+74586: MOV EAX,[RDX]                  [8B02] 
+74588: TEST AH,0x20                   [F6C420] 
+74591: AND EAX,0x8000                 [2500800000] 
+74596: MOV RBP,RDI                    [4889FD] 
+74599: MOV R12,RSI                    [4989F4] 
+7459E: MOV R8,[0x88 + RBX]            [4C8B8388000000] 
+745A5: MOV RDX,FS:[0x10]              [64488B142510000000] 
+745AE: CMP RDX,[R8 + 0x8]             [493B5008] 
+745F6: ADD dword ptr [R8 + 0x4],0x1   [4183400401] 
+745FB: TEST RBP,RBP                   [4885ED] 
+745FE: MOV R13D,[RBX + 0x70]          [448B6B70] 
+74602: SETZ R14B                      [410F94C6] 
+74730: TEST R13D,R13D                 [4585ED] 
+74739: MOV EDI,0x1e                   [BF1E000000] 
+
+========

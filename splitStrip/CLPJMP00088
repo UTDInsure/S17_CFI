@@ -1,0 +1,18 @@
+
+
+17224: PUSH R12                       [4154] 
+17226: MOV R12D,EDX                   [4189D4] 
+17229: MOV EDX,0x190                  [BA90010000] 
+1722E: PUSH RBP                       [55] 
+1722F: MOV RBP,RSI                    [4889F5] 
+17232: PUSH RBX                       [53] 
+17233: MOV RBX,RCX                    [4889CB] 
+17236: SUB RSP,0x1a0                  [4881ECA0010000] 
+1723D: LEA RSI,[RSP + 0x10]           [488D742410] 
+17064: CMP EDI,0x16                   [83FF16] 
+17069: LEA RAX,[0x1b680]              [488D0510460000] 
+17070: MOV ECX,EDI                    [89F9] 
+17072: MOVSXD RCX,[RAX + RCX*0x4]     [48630C88] 
+17076: ADD RAX,RCX                    [4801C8] 
+
+========

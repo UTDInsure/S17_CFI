@@ -1,0 +1,20 @@
+
+
+74574: PUSH R14                       [4156] 
+74576: PUSH R13                       [4155] 
+74578: PUSH R12                       [4154] 
+7457A: PUSH RBP                       [55] 
+7457B: PUSH RBX                       [53] 
+7457C: MOV RBX,RDX                    [4889D3] 
+7457F: SUB RSP,0x90                   [4881EC90000000] 
+74586: MOV EAX,[RDX]                  [8B02] 
+74588: TEST AH,0x20                   [F6C420] 
+747E0: ADD RSP,0x90                   [4881C490000000] 
+747E7: XOR EAX,EAX                    [31C0] 
+747E9: POP RBX                        [5B] 
+747EA: POP RBP                        [5D] 
+747EB: POP R12                        [415C] 
+747ED: POP R13                        [415D] 
+747EF: POP R14                        [415E] 
+
+========

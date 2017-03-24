@@ -1,0 +1,10 @@
+
+
+D7C84: MOV EAX,0x5c                   [B85C000000] 
+D7C8B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D7C94: MOV RCX,[0x00368e68]           [488B0DCD112900] 
+D7C9B: NEG EAX                        [F7D8] 
+D7C9D: MOV FS:[RCX],EAX               [648901] 
+D7CA0: OR RAX,-0x1                    [4883C8FF] 
+
+========

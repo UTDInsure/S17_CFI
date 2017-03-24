@@ -1,0 +1,7 @@
+
+
+B3E54: MOV EDX,FS:[0x2d4]             [648B1425D4020000] 
+B3E5C: CMP EDX,0x0                    [83FA00] 
+B3E5F: MOV EAX,EDX                    [89D0] 
+
+========

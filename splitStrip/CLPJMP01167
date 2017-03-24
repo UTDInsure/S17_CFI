@@ -1,0 +1,28 @@
+
+
+BF564: PUSH R15                       [4157] 
+BF566: PUSH R14                       [4156] 
+BF568: MOV R14,RDX                    [4989D6] 
+BF56B: MOV EDX,ECX                    [89CA] 
+BF56D: PUSH R13                       [4155] 
+BF56F: PUSH R12                       [4154] 
+BF571: PUSH RBP                       [55] 
+BF572: PUSH RBX                       [53] 
+BF573: SUB RSP,0x38                   [4883EC38] 
+BF577: MOV ECX,[R14 + 0x4]            [418B4E04] 
+BF57B: MOV [RSP + 0x20],RDI           [48897C2420] 
+BF580: TEST ECX,ECX                   [85C9] 
+BF588: TEST ECX,ECX                   [85C9] 
+BF58A: MOV R13,RSI                    [4989F5] 
+BF58D: LEA R12D,[RDX + RCX*0x1]       [448D240A] 
+BF5AC: MOV EAX,R12D                   [4489E0] 
+BF5AF: AND EAX,[0x84 + R13]           [41238584000000] 
+BF5B6: SHL RAX,0x4                    [48C1E004] 
+BF5BA: ADD RAX,[R13 + 0x40]           [49034540] 
+BF5BE: MOV ECX,[RAX]                  [8B08] 
+BF5C0: TEST ECX,ECX                   [85C9] 
+BF640: MOV ESI,0x1                    [BE01000000] 
+BF645: MOV EDI,0x58                   [BF58000000] 
+BF64A: MOV [RSP + 0x14],EDX           [89542414] 
+
+========

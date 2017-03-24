@@ -1,0 +1,10 @@
+
+
+CC2A4: MOV EAX,0x18                   [B818000000] 
+CC2AB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+CC2B4: MOV RCX,[0x00368e68]           [488B0DADCB2900] 
+CC2BB: NEG EAX                        [F7D8] 
+CC2BD: MOV FS:[RCX],EAX               [648901] 
+CC2C0: OR RAX,-0x1                    [4883C8FF] 
+
+========

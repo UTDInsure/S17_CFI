@@ -1,0 +1,15 @@
+
+
+45C84: LEA RDI,[RDI + RDX*0x8 + -0x8] [488D7CD7F8] 
+45C89: LEA RSI,[RSI + RDX*0x8 + -0x8] [488D74D6F8] 
+45C8E: MOV EAX,EDX                    [89D0] 
+45C90: AND EAX,0x3                    [83E003] 
+45CB3: CMP EAX,0x2                    [83F802] 
+45CB8: MOV R9,[RSI]                   [4C8B0E] 
+45CBB: XOR EAX,EAX                    [31C0] 
+45CBD: SHLD RAX,R9,CL                 [4C0FA5C8] 
+45CC1: SUB RDX,0x2                    [4883EA02] 
+45CD9: SHL R9,CL                      [49D3E1] 
+45CDC: MOV [RDI],R9                   [4C890F] 
+
+========

@@ -1,0 +1,16 @@
+
+
+2C744: PUSH R12                       [4154] 
+2C746: PUSH RBP                       [55] 
+2C747: MOV RBP,RDI                    [4889FD] 
+2C74A: PUSH RBX                       [53] 
+2C74B: SUB RSP,0x10                   [4883EC10] 
+2C74F: MOV RBX,[RDI]                  [488B1F] 
+2C752: TEST RBX,RBX                   [4885DB] 
+2C757: ADD RSP,0x10                   [4883C410] 
+2C75B: MOV RAX,RBX                    [4889D8] 
+2C75E: POP RBX                        [5B] 
+2C75F: POP RBP                        [5D] 
+2C760: POP R12                        [415C] 
+
+========

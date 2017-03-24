@@ -1,0 +1,19 @@
+
+
+BE834: PUSH RBP                       [55] 
+BE835: MOV EBP,ESI                    [89F5] 
+BE837: PUSH RBX                       [53] 
+BE838: MOV RBX,RDI                    [4889FB] 
+BE83B: SUB RSP,0x8                    [4883EC08] 
+BE83F: MOV EAX,[RDI]                  [8B07] 
+BE841: TEST EAX,EAX                   [85C0] 
+BE845: MOVSXD RDX,[RDI + 0x4]         [48635704] 
+BE849: TEST EDX,EDX                   [85D2] 
+BE883: CMP EAX,EDX                    [39D0] 
+BE90D: ADD EDX,EDX                    [01D2] 
+BE90F: MOV [RDI],EDX                  [8917] 
+BE911: MOVSXD RDX,EDX                 [4863D2] 
+BE914: MOV RDI,[RDI + 0x8]            [488B7F08] 
+BE918: LEA RSI,[RDX*0x4]              [488D349500000000] 
+
+========

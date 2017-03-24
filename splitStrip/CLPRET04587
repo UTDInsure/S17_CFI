@@ -1,0 +1,8 @@
+
+
+BDE14: MOVZX EAX,byte ptr [RSI + 0x30] [0FB64630] 
+BDE18: CMP AL,0x4                     [3C04] 
+BDE1C: CMP AL,0x11                    [3C11] 
+BDE20: XOR EAX,EAX                    [31C0] 
+
+========

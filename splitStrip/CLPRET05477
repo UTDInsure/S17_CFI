@@ -1,0 +1,6 @@
+
+
+E0374: MOV EAX,0x98                   [B898000000] 
+E037B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

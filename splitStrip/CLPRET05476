@@ -1,0 +1,10 @@
+
+
+E0374: MOV EAX,0x98                   [B898000000] 
+E037B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E0384: MOV RCX,[0x00368e68]           [488B0DDD8A2800] 
+E038B: NEG EAX                        [F7D8] 
+E038D: MOV FS:[RCX],EAX               [648901] 
+E0390: OR RAX,-0x1                    [4883C8FF] 
+
+========

@@ -1,0 +1,16 @@
+
+
+33DD2: MOV RDX,[R12]                  [498B1424] 
+33DD6: TEST RDX,RDX                   [4885D2] 
+33EE0: MOV EBX,0x1                    [BB01000000] 
+33EE5: CMP R14,[RSP + 0x10]           [4C3B742410] 
+33EF8: ADD RSP,0x838                  [4881C438080000] 
+33EFF: MOV EAX,EBX                    [89D8] 
+33F01: POP RBX                        [5B] 
+33F02: POP RBP                        [5D] 
+33F03: POP R12                        [415C] 
+33F05: POP R13                        [415D] 
+33F07: POP R14                        [415E] 
+33F09: POP R15                        [415F] 
+
+========

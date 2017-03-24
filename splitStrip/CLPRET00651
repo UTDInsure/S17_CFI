@@ -1,0 +1,23 @@
+
+
+4060B4: XOR EAX,EAX                    [31C0] 
+4060B6: CMP RDI,[0x006237a0]           [483B3DE3D62100] 
+4060C8: MOV EDX,0x1c3                  [BAC3010000] 
+4060CD: MOV ESI,0x6237a0               [BEA0376200] 
+405444: SUB EDX,0x1                    [83EA01] 
+405449: XOR R8D,R8D                    [4531C0] 
+405459: LEA EAX,[R8 + RDX*0x1]         [418D0410] 
+40545D: MOV ECX,EAX                    [89C1] 
+40545F: SHR ECX,0x1f                   [C1E91F] 
+405462: ADD EAX,ECX                    [01C8] 
+405464: SAR EAX,1                      [D1F8] 
+405466: MOVSXD RCX,EAX                 [4863C8] 
+405469: SHL RCX,0x4                    [48C1E104] 
+40546D: ADD RCX,RSI                    [4801F1] 
+405470: CMP [RCX + 0x8],RDI            [48397908] 
+405476: CMP RDI,[RCX]                  [483B39] 
+40547B: LEA EDX,[RAX + -0x1]           [8D50FF] 
+40547E: CMP R8D,EDX                    [4139D0] 
+405483: XOR EAX,EAX                    [31C0] 
+
+========

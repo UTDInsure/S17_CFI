@@ -1,0 +1,25 @@
+
+
+5494: PUSH R13                       [4155] 
+5496: PUSH R12                       [4154] 
+5498: PUSH RBP                       [55] 
+5499: MOV RBP,RSI                    [4889F5] 
+549C: PUSH RBX                       [53] 
+549D: MOV RBX,RDI                    [4889FB] 
+54A0: SUB RSP,0x8                    [4883EC08] 
+54A4: TEST RDI,RDI                   [4885FF] 
+54BC: MOV RSI,[RBX]                  [488B33] 
+54BF: MOV RDI,RBP                    [4889EF] 
+19254: MOV AL,[RDI]                   [8A07] 
+19256: CMP AL,[RSI]                   [3A06] 
+19267: MOV EAX,0x1                    [B801000000] 
+1926C: MOV ECX,0xffffffff             [B9FFFFFFFF] 
+19271: CMOVC EAX,ECX                  [0F42C1] 
+54CB: TEST EAX,EAX                   [85C0] 
+54CF: ADD RSP,0x8                    [4883C408] 
+54D3: POP RBX                        [5B] 
+54D4: POP RBP                        [5D] 
+54D5: POP R12                        [415C] 
+54D7: POP R13                        [415D] 
+
+========

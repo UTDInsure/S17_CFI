@@ -1,0 +1,17 @@
+
+
+40CF44: MOV R9D,[0x0062ba44]           [448B0DF9EA2100] 
+40CF4B: TEST R9D,R9D                   [4585C9] 
+40CF54: PUSH R15                       [4157] 
+40CF56: PUSH R14                       [4156] 
+40CF58: PUSH R13                       [4155] 
+40CF5A: PUSH R12                       [4154] 
+40CF5C: MOV R12,RDI                    [4989FC] 
+40CF5F: PUSH RBP                       [55] 
+40CF60: MOV RBP,RSI                    [4889F5] 
+40CF63: PUSH RBX                       [53] 
+40CF64: SUB RSP,0x8                    [4883EC08] 
+40CF68: TEST RDX,RDX                   [4885D2] 
+40CF6D: MOV RDI,RDX                    [4889D7] 
+
+========

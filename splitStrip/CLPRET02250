@@ -1,0 +1,25 @@
+
+
+47764: LEA R8,[0x12f3a0]              [4C8D05357C0E00] 
+4776B: LEA RAX,[0x12f360]             [488D05EE7B0E00] 
+47772: TEST ECX,ECX                   [85C9] 
+47774: CMOVZ R8,RAX                   [4C0F44C0] 
+47778: CMP EDX,0xa                    [83FA0A] 
+4777D: CMP EDX,0x10                   [83FA10] 
+477B0: MOV RAX,RDI                    [4889F8] 
+477B3: SHR RDI,0x4                    [48C1EF04] 
+477B7: SUB RSI,0x1                    [4883EE01] 
+477BB: AND EAX,0xf                    [83E00F] 
+477BE: TEST RDI,RDI                   [4885FF] 
+477C1: MOVZX EAX,byte ptr [R8 + RAX*0x1] [410FB60400] 
+477C6: MOV [RSI],AL                   [8806] 
+477B0: MOV RAX,RDI                    [4889F8] 
+477B3: SHR RDI,0x4                    [48C1EF04] 
+477B7: SUB RSI,0x1                    [4883EE01] 
+477BB: AND EAX,0xf                    [83E00F] 
+477BE: TEST RDI,RDI                   [4885FF] 
+477C1: MOVZX EAX,byte ptr [R8 + RAX*0x1] [410FB60400] 
+477C6: MOV [RSI],AL                   [8806] 
+477AB: MOV RAX,RSI                    [4889F0] 
+
+========

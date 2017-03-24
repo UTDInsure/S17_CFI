@@ -1,0 +1,10 @@
+
+
+DCA84: MOV EAX,[0x0036e770]           [8B05E61C2900] 
+DCA8A: TEST EAX,EAX                   [85C0] 
+DCA8E: MOV ESI,ESI                    [89F6] 
+DCA90: MOV EDI,EDI                    [89FF] 
+DCA92: MOV EAX,0x72                   [B872000000] 
+DCA99: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

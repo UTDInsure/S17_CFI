@@ -1,0 +1,6 @@
+
+
+E3754: MOV EAX,0xa6                   [B8A6000000] 
+E375B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

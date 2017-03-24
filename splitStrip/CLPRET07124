@@ -1,0 +1,24 @@
+
+
+10CEE4: MOV RDI,[RDI + 0x40]           [488B7F40] 
+10CEE8: MOV EAX,[RDI]                  [8B07] 
+10CEEA: TEST EAX,EAX                   [85C0] 
+10CEF0: SUB RSP,0x8                    [4883EC08] 
+10CEF4: ADD RDI,0x10                   [4883C710] 
+109D54: PUSH RBX                       [53] 
+109D55: MOV RBX,[RDI + 0x18]           [488B5F18] 
+109D59: MOV RSI,[RBX + 0x68]           [488B7368] 
+109D5D: TEST RSI,RSI                   [4885F6] 
+109D7B: MOV EDI,[RBX + 0x70]           [8B7B70] 
+109D7E: TEST EDI,EDI                   [85FF] 
+109DB8: MOV RAX,[RBX + 0x60]           [488B4360] 
+109DBC: CMP [RBX + 0x58],RAX           [48394358] 
+109DC0: POP RBX                        [5B] 
+109DC1: SETZ AL                        [0F94C0] 
+109DC4: MOVZX EAX,AL                   [0FB6C0] 
+10CF01: CMP EAX,0x1                    [83F801] 
+10CF04: SBB EAX,EAX                    [19C0] 
+10CF06: ADD RSP,0x8                    [4883C408] 
+10CF0A: ADD EAX,0x2                    [83C002] 
+
+========

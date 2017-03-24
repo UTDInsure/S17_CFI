@@ -1,0 +1,8 @@
+
+
+B4934: TEST EDI,EDI                   [85FF] 
+B4940: MOV RAX,[0x00368e68]           [488B0521452B00] 
+B4947: CMP dword ptr FS:[RAX],0x26    [64833826] 
+B494D: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

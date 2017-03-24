@@ -1,0 +1,11 @@
+
+
+35464: MOVQ RCX,XMM0                  [66480F7EC1] 
+35469: MOV RAX,RCX                    [4889C8] 
+3546C: SAR RAX,0x34                   [48C1F834] 
+35470: AND EAX,0x7ff                  [25FF070000] 
+35475: CMP EAX,0x7ff                  [3DFF070000] 
+354C0: XOR EDX,EDX                    [31D2] 
+354BD: MOV [RDI],EDX                  [8917] 
+
+========

@@ -1,0 +1,12 @@
+
+
+416AA4: SUB RSP,0x18                   [4883EC18] 
+416AA8: XOR EAX,EAX                    [31C0] 
+416AAA: MOV RDI,RSP                    [4889E7] 
+414C04: MOV ESI,[0x0062ba70]           [8B35666E2100] 
+414C0A: TEST ESI,ESI                   [85F6] 
+414C45: MOV dword ptr [RDI],-0x1       [48C707FFFFFFFF] 
+416AB6: CMP dword ptr [RSP],-0x1       [48833C24FF] 
+416AF4: ADD RSP,0x18                   [4883C418] 
+
+========

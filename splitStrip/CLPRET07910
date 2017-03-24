@@ -1,0 +1,18 @@
+
+
+15454: SUB RSP,0x8                    [4883EC08] 
+15458: TEST RDI,RDI                   [4885FF] 
+15461: TEST EDX,EDX                   [85D2] 
+15463: MOVSX R10,word ptr [RDI]       [4C0FBF17] 
+15467: MOVZX R11D,word ptr [RDI + 0x2] [440FB75F02] 
+15472: MOVSX EAX,word ptr [RDI + 0x6] [0FBF4706] 
+15476: MOVSX ECX,R11W                 [410FBFCB] 
+1547A: SUB EAX,ECX                    [29C8] 
+1547C: ADD EAX,0x1                    [83C001] 
+1547F: CMP EDX,EAX                    [39C2] 
+15481: CMOVG EDX,EAX                  [0F4FD0] 
+15484: XOR EAX,EAX                    [31C0] 
+15486: TEST EDX,EDX                   [85D2] 
+15509: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,27 @@
+
+
+11E374: PUSH RBX                       [53] 
+11E375: MOV EAX,0x1                    [B801000000] 
+11E37A: MOV RBX,RDI                    [4889FB] 
+11E37D: SUB RSP,0x10                   [4883EC10] 
+11E381: MOV RDX,[RDI]                  [488B17] 
+11E384: TEST RDX,RDX                   [4885D2] 
+11E389: LEA RDI,[RDX + 0x8]            [488D7A08] 
+11E374: PUSH RBX                       [53] 
+11E375: MOV EAX,0x1                    [B801000000] 
+11E37A: MOV RBX,RDI                    [4889FB] 
+11E37D: SUB RSP,0x10                   [4883EC10] 
+11E381: MOV RDX,[RDI]                  [488B17] 
+11E384: TEST RDX,RDX                   [4885D2] 
+11E3E4: ADD RSP,0x10                   [4883C410] 
+11E3E8: POP RBX                        [5B] 
+11E396: TEST AL,AL                     [84C0] 
+11E39A: MOV RDI,[RBX]                  [488B3B] 
+11E39D: MOV RSI,[RDI]                  [488B37] 
+11E3A0: TEST RSI,RSI                   [4885F6] 
+11E3A5: CMP dword ptr [RDI + 0x18],0x0 [48837F1800] 
+11E3F0: ADD RSP,0x10                   [4883C410] 
+11E3F4: XOR EAX,EAX                    [31C0] 
+11E3F6: POP RBX                        [5B] 
+
+========

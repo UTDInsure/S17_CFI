@@ -1,0 +1,12 @@
+
+
+417174: PUSH R12                       [4154] 
+417176: PUSH RBP                       [55] 
+417177: PUSH RBX                       [53] 
+417178: MOV EBX,[0x0062bb98]           [8B1D1A4A2100] 
+41717E: TEST EBX,EBX                   [85DB] 
+4171AD: POP RBX                        [5B] 
+4171AE: POP RBP                        [5D] 
+4171AF: POP R12                        [415C] 
+
+========

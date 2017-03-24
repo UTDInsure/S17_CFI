@@ -1,0 +1,17 @@
+
+
+408624: PUSH RBP                       [55] 
+408625: XOR EAX,EAX                    [31C0] 
+408627: PUSH RBX                       [53] 
+408628: SUB RSP,0x8                    [4883EC08] 
+414B44: MOV EDX,[0x0062ba70]           [8B15266F2100] 
+414B4A: TEST EDX,EDX                   [85D2] 
+414B86: MOV EAX,0x1                    [B801000000] 
+408635: TEST EAX,EAX                   [85C0] 
+408660: MOV EAX,[0x0062bac4]           [8B055E342200] 
+408666: TEST EAX,EAX                   [85C0] 
+408657: ADD RSP,0x8                    [4883C408] 
+40865B: POP RBX                        [5B] 
+40865C: POP RBP                        [5D] 
+
+========

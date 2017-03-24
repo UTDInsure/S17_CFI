@@ -1,0 +1,20 @@
+
+
+137F4: PUSH R14                       [4156] 
+137F6: PUSH R13                       [4155] 
+137F8: PUSH R12                       [4154] 
+137FA: PUSH RBP                       [55] 
+137FB: PUSH RBX                       [53] 
+137FC: MOV RBX,[0x0024a7a0]           [488B1D9D6F2300] 
+13803: MOV RBP,[RBX]                  [488B2B] 
+13806: MOVZX R14D,word ptr [RBP + 0x64] [440FB77564] 
+1380B: MOVSX EAX,R14W                 [410FBFC6] 
+1380F: CMP EAX,[0x560 + RBP]          [3B8560050000] 
+13815: MOVSX R13,R14W                 [4D0FBFEE] 
+1381B: MOV RDI,[0x558 + RBP]          [488BBD58050000] 
+13822: TEST RDI,RDI                   [4885FF] 
+13838: MOVSX R13,R14W                 [4D0FBFEE] 
+1383C: LEA RDI,[R13 + R13*0x2 + 0x3]  [4B8D7C6D03] 
+13841: SHL RDI,0x4                    [48C1E704] 
+
+========

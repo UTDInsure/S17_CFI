@@ -1,0 +1,13 @@
+
+
+20F54: TEST RDI,RDI                   [4885FF] 
+20F59: MOVSX ECX,word ptr [RDI + 0x4] [0FBF4F04] 
+20F5D: TEST ECX,ECX                   [85C9] 
+20F61: MOV RDX,[RDI + 0x30]           [488B5730] 
+20F65: CMP word ptr [RDX + 0x8],-0x1  [66837A08FF] 
+20F6C: XOR EAX,EAX                    [31C0] 
+20F7B: ADD EAX,0x1                    [83C001] 
+20F7E: CMP EAX,ECX                    [39C8] 
+20F82: XOR EAX,EAX                    [31C0] 
+
+========

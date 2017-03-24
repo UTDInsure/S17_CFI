@@ -1,0 +1,9 @@
+
+
+36A84: LEA ECX,[RSI + -0x1]           [8D4EFF] 
+36A87: CMP ECX,0x3f                   [83F93F] 
+36AA8: MOV RAX,[0x00368e68]           [488B05B9233300] 
+36AAF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+36AB6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

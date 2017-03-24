@@ -1,0 +1,28 @@
+
+
+F3084: SUB RSP,0x8                    [4883EC08] 
+F3088: CMP RSI,RDX                    [4839D6] 
+D7454: PUSH R15                       [4157] 
+D7456: PUSH R14                       [4156] 
+D7458: PUSH R13                       [4155] 
+D745A: PUSH R12                       [4154] 
+D745C: MOV R12,RDI                    [4989FC] 
+D745F: PUSH RBP                       [55] 
+D7460: PUSH RBX                       [53] 
+D7461: MOV RBX,RSI                    [4889F3] 
+D7464: SUB RSP,0xf8                   [4881ECF8000000] 
+D746B: TEST RSI,RSI                   [4885F6] 
+D7470: TEST RDI,RDI                   [4885FF] 
+D7530: MOV RAX,[0x00368e68]           [488B0531192900] 
+D7537: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D753E: XOR EAX,EAX                    [31C0] 
+D74E9: ADD RSP,0xf8                   [4881C4F8000000] 
+D74F0: POP RBX                        [5B] 
+D74F1: POP RBP                        [5D] 
+D74F2: POP R12                        [415C] 
+D74F4: POP R13                        [415D] 
+D74F6: POP R14                        [415E] 
+D74F8: POP R15                        [415F] 
+F3096: ADD RSP,0x8                    [4883C408] 
+
+========

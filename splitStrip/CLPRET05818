@@ -1,0 +1,7 @@
+
+
+E4E44: MOV RAX,[RSI]                  [488B06] 
+E4E47: CMP RAX,0xf                    [4883F80F] 
+E4E80: XOR EAX,EAX                    [31C0] 
+
+========

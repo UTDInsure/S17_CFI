@@ -1,0 +1,6 @@
+
+
+1009D4: CMP byte ptr [RDI + 0x2],0x0   [807F0200] 
+100A18: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

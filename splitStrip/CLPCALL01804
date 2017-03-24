@@ -1,0 +1,9 @@
+
+
+11C4E4: SUB RSP,0x28                   [4883EC28] 
+11C4E8: MOV RAX,[0x0036e340]           [488B05511E2500] 
+11C4EF: MOV [RSP],RDI                  [48893C24] 
+11C4F3: MOV [RSP + 0x8],RSI            [4889742408] 
+11C4F8: TEST RAX,RAX                   [4885C0] 
+
+========

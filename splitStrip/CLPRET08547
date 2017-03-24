@@ -1,0 +1,8 @@
+
+
+2E674: TEST RDI,RDI                   [4885FF] 
+2E679: TEST SIL,SIL                   [4084F6] 
+2E690: MOV dword ptr [RDI + 0x2c],0x0 [C7472C00000000] 
+2E697: XOR EAX,EAX                    [31C0] 
+
+========

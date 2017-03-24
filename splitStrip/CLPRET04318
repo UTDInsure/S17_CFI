@@ -1,0 +1,10 @@
+
+
+B16E4: TEST RDI,RDI                   [4885FF] 
+B16ED: TEST RSI,RSI                   [4885F6] 
+B16F0: MOV RAX,RSI                    [4889F0] 
+B17E0: MOV RAX,[0x00368e68]           [488B0581762B00] 
+B17E7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B17EE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

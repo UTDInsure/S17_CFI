@@ -1,0 +1,26 @@
+
+
+73944: PUSH R13                       [4155] 
+73946: MOV R13,R8                     [4D89C5] 
+73949: PUSH R12                       [4154] 
+7394B: PUSH RBP                       [55] 
+7394C: PUSH RBX                       [53] 
+7394D: MOV RBX,RDI                    [4889FB] 
+73950: SUB RSP,0x28                   [4883EC28] 
+73954: MOV R12,[0x90 + RDI]           [4C8BA790000000] 
+7395B: MOV [0x98 + RDI],RDX           [48899798000000] 
+73962: MOV [0xa0 + RDI],RCX           [48898FA0000000] 
+73969: MOV [0xb8 + RDI],RSI           [4889B7B8000000] 
+73970: CMP dword ptr [R12],0x0        [49833C2400] 
+73975: MOV RBP,[R12 + 0x28]           [498B6C2428] 
+7397C: ROR RBP,0x11                   [48C1CD11] 
+73980: XOR RBP,FS:[0x30]              [6448332C2530000000] 
+73989: MOV RDI,RBP                    [4889EF] 
+11C2E4: MOV RAX,[0x00368de8]           [488B05FDCA2400] 
+11C2EB: CMP dword ptr [0x970 + RAX],0x0 [4883B87009000000] 
+11C2F5: SUB RSP,0x8                    [4883EC08] 
+11C2F9: MOV RAX,[0x00368e60]           [488B0560CB2400] 
+11C300: MOV RSI,RDI                    [4889FE] 
+11C303: MOV RDI,[RSP + 0x8]            [488B7C2408] 
+
+========

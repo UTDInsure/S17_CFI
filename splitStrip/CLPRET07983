@@ -1,0 +1,9 @@
+
+
+16D94: MOV RAX,[0x0024a7a0]           [488B05053A2300] 
+16D9B: MOV RAX,[RAX]                  [488B00] 
+16D9E: TEST RAX,RAX                   [4885C0] 
+16DA3: MOV dword ptr [0x2fc + RAX],0x1 [C780FC02000001000000] 
+16DAD: XOR EAX,EAX                    [31C0] 
+
+========

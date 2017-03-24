@@ -1,0 +1,9 @@
+
+
+1D7C4: MOV RAX,[0x0024a7a0]           [488B05D5CF2200] 
+1D7CB: MOV RAX,[RAX]                  [488B00] 
+1D7CE: TEST RAX,RAX                   [4885C0] 
+1D7D3: MOV dword ptr [0x2f0 + RAX],0x0 [C780F002000000000000] 
+1D7DD: XOR EAX,EAX                    [31C0] 
+
+========

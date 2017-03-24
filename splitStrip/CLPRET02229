@@ -1,0 +1,23 @@
+
+
+47124: FLD tword ptr [RSP + 0x8]      [DB6C2408] 
+47128: FSTP tword ptr [RSP + -0x18]   [DB7C24E8] 
+4712C: MOVZX EAX,byte ptr [RSP + -0xf] [0FB64424F1] 
+47131: MOV R8D,[RSP + -0x18]          [448B4424E8] 
+47136: SHR AL,0x7                     [C0E807] 
+47139: MOVZX EAX,AL                   [0FB6C0] 
+4713C: MOV [RCX],EAX                  [8901] 
+4713E: MOVZX ECX,word ptr [RSP + -0x10] [0FB74C24F0] 
+47143: AND CX,0x7fff                  [6681E1FF7F] 
+47148: MOVZX ESI,CX                   [0FB7F1] 
+4714B: LEA EAX,[-0x3fff + RSI]        [8D8601C0FFFF] 
+47151: MOV [RDX],EAX                  [8902] 
+47153: MOV EAX,[RSP + -0x14]          [8B4424EC] 
+47157: SHL RAX,0x20                   [48C1E020] 
+4715B: OR RAX,R8                      [4C09C0] 
+4715E: TEST CX,CX                     [6685C9] 
+47161: MOV [RDI],RAX                  [488907] 
+471A0: CMP ESI,0x7fff                 [81FEFF7F0000] 
+47199: MOV EAX,0x1                    [B801000000] 
+
+========

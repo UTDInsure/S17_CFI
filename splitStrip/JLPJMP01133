@@ -1,0 +1,20 @@
+
+
+BC324: MOV RAX,[RSI + 0x8]            [488B4608] 
+BC328: OR byte ptr [0xa0 + RDI],0x1   [808FA000000001] 
+BC32F: TEST RAX,RAX                   [4885C0] 
+BC490: MOV RAX,[RSI + 0x20]           [488B4620] 
+BC494: MOV EBP,[RAX + 0x38]           [8B6838] 
+BC33F: MOV RAX,[RSI + 0x10]           [488B4610] 
+BC343: TEST RAX,RAX                   [4885C0] 
+BC34C: MOV RAX,[RAX + 0x18]           [488B4018] 
+BC350: MOV R12D,[RAX + 0x38]          [448B6038] 
+BC354: TEST EBP,EBP                   [85ED] 
+BC35C: TEST R12D,R12D                 [4585E4] 
+BC365: MOVSXD RBX,R8D                 [4963D8] 
+BC368: SHL RBX,0x4                    [48C1E304] 
+BC36C: ADD RBX,[RDI + 0x28]           [48035F28] 
+BC370: MOV EDI,0x8                    [BF08000000] 
+BC375: MOV dword ptr [RBX],0x2        [C70302000000] 
+
+========

@@ -1,0 +1,7 @@
+
+
+FD884: MOV EDX,[0x0036d928]           [8B159E002700] 
+FD88A: TEST EDX,EDX                   [85D2] 
+FD940: MOV RAX,[0x0036a8b0]           [488B0569CF2600] 
+
+========

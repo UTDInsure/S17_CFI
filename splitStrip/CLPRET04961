@@ -1,0 +1,15 @@
+
+
+D6F84: CMP ESI,0x9                    [83FE09] 
+D6FA0: LEA RDX,[RSP + -0x18]          [488D5424E8] 
+D6FA5: MOV ESI,0x10                   [BE10000000] 
+D6FAA: MOVSXD RDI,EDI                 [4863FF] 
+D6FAD: MOV EAX,0x48                   [B848000000] 
+D6FB4: CMP EAX,0xfffff000             [3D00F0FFFF] 
+D6FBB: MOV EAX,[RSP + -0x14]          [8B4424EC] 
+D6FBF: MOV EDX,EAX                    [89C2] 
+D6FC1: NEG EDX                        [F7DA] 
+D6FC3: CMP dword ptr [RSP + -0x18],0x2 [837C24E802] 
+D6FC8: CMOVZ EAX,EDX                  [0F44C2] 
+
+========

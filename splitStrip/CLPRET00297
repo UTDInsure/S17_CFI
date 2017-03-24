@@ -1,0 +1,16 @@
+
+
+17C54: CMP byte ptr [RSI],0x0         [803E00] 
+17C57: MOV RAX,RSI                    [4889F0] 
+17C5C: SUB RSP,0x8                    [4883EC08] 
+17C60: CMP EDI,-0x64                  [83FF9C] 
+17C65: MOV RDI,RAX                    [4889C7] 
+17C68: MOV ESI,0x90800                [BE00080900] 
+17C6D: XOR EAX,EAX                    [31C0] 
+18A94: MOV EAX,0x2                    [B802000000] 
+18A9B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+17C78: TEST EAX,EAX                   [85C0] 
+17CA2: XOR EAX,EAX                    [31C0] 
+17C90: ADD RSP,0x8                    [4883C408] 
+
+========

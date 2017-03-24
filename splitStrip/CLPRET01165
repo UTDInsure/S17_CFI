@@ -1,0 +1,24 @@
+
+
+4176E4: PUSH R15                       [4157] 
+4176E6: PUSH R14                       [4156] 
+4176E8: PUSH R13                       [4155] 
+4176EA: PUSH R12                       [4154] 
+4176EC: PUSH RBP                       [55] 
+4176ED: MOV RBP,RDI                    [4889FD] 
+4176F0: PUSH RBX                       [53] 
+4176F1: MOV EBX,ESI                    [89F3] 
+4176F3: SUB RSP,0x108                  [4881EC08010000] 
+4176FA: CMP ESI,0x1                    [83FE01] 
+4176FF: TEST RDI,RDI                   [4885FF] 
+417704: MOV EBX,0x1                    [BB01000000] 
+417709: ADD RSP,0x108                  [4881C408010000] 
+417710: MOV EAX,EBX                    [89D8] 
+417712: POP RBX                        [5B] 
+417713: POP RBP                        [5D] 
+417714: POP R12                        [415C] 
+417716: POP R13                        [415D] 
+417718: POP R14                        [415E] 
+41771A: POP R15                        [415F] 
+
+========

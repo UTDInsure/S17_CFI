@@ -1,0 +1,11 @@
+
+
+E4671: MOV R10,RCX                    [4989CA] 
+E4674: MOV EAX,0x2d                   [B82D000000] 
+E467B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E46BF: MOV RCX,[0x00368e68]           [488B0DA2472800] 
+E46C6: NEG EAX                        [F7D8] 
+E46C8: MOV FS:[RCX],EAX               [648901] 
+E46CB: OR RAX,-0x1                    [4883C8FF] 
+
+========

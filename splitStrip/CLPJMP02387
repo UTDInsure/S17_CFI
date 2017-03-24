@@ -1,0 +1,7 @@
+
+
+34514: TEST RSI,RSI                   [4885F6] 
+34519: SUB RSP,0x8                    [4883EC08] 
+3451D: MOV RDI,RSI                    [4889F7] 
+
+========

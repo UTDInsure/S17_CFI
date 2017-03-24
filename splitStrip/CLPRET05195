@@ -1,0 +1,18 @@
+
+
+DC374: PUSH R12                       [4154] 
+DC376: MOVSXD R12,ESI                 [4C63E6] 
+DC379: PUSH RBP                       [55] 
+DC37A: PUSH RBX                       [53] 
+DC37B: LEA EBX,[RDI + -0x1]           [8D5FFF] 
+DC37E: SUB RSP,0x10                   [4883EC10] 
+DC382: CMP EBX,0x5                    [83FB05] 
+DC3C0: MOV RAX,[0x00368e68]           [488B05A1CA2800] 
+DC3C7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DC3CE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DC3B2: ADD RSP,0x10                   [4883C410] 
+DC3B6: POP RBX                        [5B] 
+DC3B7: POP RBP                        [5D] 
+DC3B8: POP R12                        [415C] 
+
+========

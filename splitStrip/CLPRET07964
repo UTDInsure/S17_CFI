@@ -1,0 +1,10 @@
+
+
+16864: MOV RAX,[0x0024a7a0]           [488B05353F2300] 
+1686B: MOVSX RCX,DI                   [480FBFCF] 
+1686F: MOV RAX,[RAX]                  [488B00] 
+16872: TEST RAX,RAX                   [4885C0] 
+16877: TEST DI,DI                     [6685FF] 
+168D8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

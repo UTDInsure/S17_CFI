@@ -1,0 +1,22 @@
+
+
+1134E4: XOR EAX,EAX                    [31C0] 
+1134E6: TEST EDI,EDI                   [85FF] 
+1134E8: LEA R9,[0x13d670]              [4C8D0D81A10200] 
+1134F1: NOP                            [0F1F8000000000] 
+1134F8: MOVZX R8D,byte ptr [RSI + RAX*0x1] [440FB60406] 
+1134FD: MOV RCX,R8                     [4C89C1] 
+113500: AND R8D,0xf                    [4183E00F] 
+113504: SHR RCX,0x4                    [48C1E904] 
+113508: AND ECX,0xf                    [83E10F] 
+11350B: MOVZX ECX,byte ptr [R9 + RCX*0x1] [410FB60C09] 
+113510: MOV [RDX + RAX*0x2],CL         [880C42] 
+113513: MOVZX ECX,byte ptr [R9 + R8*0x1] [430FB60C01] 
+113518: MOV [RDX + RAX*0x2 + 0x1],CL   [884C4201] 
+11351C: ADD RAX,0x1                    [4883C001] 
+113520: CMP EDI,EAX                    [39C7] 
+113524: ADD EDI,EDI                    [01FF] 
+113526: MOVSXD RDI,EDI                 [4863FF] 
+113529: MOV byte ptr [RDX + RDI*0x1],0x0 [C6043A00] 
+
+========

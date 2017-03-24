@@ -1,0 +1,28 @@
+
+
+29134: PUSH RBP                       [55] 
+29135: PUSH RBX                       [53] 
+29136: SUB RSP,0x8                    [4883EC08] 
+2913A: MOV RBP,[0x0024a7a0]           [488B2D5F162200] 
+29141: MOV RDX,[RBP]                  [488B5500] 
+29145: MOV RAX,[0x2d0 + RDX]          [488B82D0020000] 
+2914C: AND [RAX],0xff                 [488120FF000000] 
+29153: MOV RAX,[RDX + 0x78]           [488B4278] 
+29157: MOV byte ptr [RAX + 0x21],0x1  [C6402101] 
+2915B: CMP dword ptr [0x2d8 + RDX],0x0 [4883BAD802000000] 
+29169: MOV EAX,[0x2dc + RDX]          [8B82DC020000] 
+2916F: TEST EAX,EAX                   [85C0] 
+29263: NEG EAX                        [F7D8] 
+29265: XOR EBX,EBX                    [31DB] 
+29267: MOV [0x2dc + RDX],EAX          [8982DC020000] 
+29287: MOV RAX,RBX                    [4889D8] 
+2928A: SHL RAX,0x4                    [48C1E004] 
+2928E: ADD RAX,[0x3a8 + RDX]          [480382A8030000] 
+29295: MOV EDX,[RAX + 0xc]            [8B500C] 
+29298: TEST EDX,EDX                   [85D2] 
+2929C: MOVSX ECX,word ptr [RAX + 0xa] [0FBF480A] 
+292A0: MOVSX EDX,word ptr [RAX + 0x8] [0FBF5008] 
+292A4: MOVSX EDI,BX                   [0FBFFB] 
+292A7: MOVSX ESI,word ptr [RAX + 0x6] [0FBF7006] 
+
+========

@@ -1,0 +1,10 @@
+
+
+2D364: MOV RDX,[0x0024a8a0]           [488B1535D52100] 
+2D36B: XOR R12D,R12D                  [4531E4] 
+2D36E: MOV EAX,0x1                    [B801000000] 
+2D373: CMP byte ptr [RDX + 0x20],0x0  [807A2000] 
+2D2FA: MOV [RBP],EAX                  [894500] 
+2D2FD: MOV dword ptr [R14],0x0        [41C70600000000] 
+
+========

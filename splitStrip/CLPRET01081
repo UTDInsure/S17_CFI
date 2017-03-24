@@ -1,0 +1,7 @@
+
+
+4157E4: CMP byte ptr [RDI],0x0         [803F00] 
+4157E7: MOV dword ptr [0x0062b180],0x62b1a0 [48C7058E592100A0B16200] 
+4157F2: MOV EAX,0x4182d2               [B8D2824100] 
+
+========

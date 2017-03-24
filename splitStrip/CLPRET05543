@@ -1,0 +1,10 @@
+
+
+E3264: MOV EAX,0xc4                   [B8C4000000] 
+E326B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3274: MOV RCX,[0x00368e68]           [488B0DED5B2800] 
+E327B: NEG EAX                        [F7D8] 
+E327D: MOV FS:[RCX],EAX               [648901] 
+E3280: OR RAX,-0x1                    [4883C8FF] 
+
+========

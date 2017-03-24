@@ -1,0 +1,12 @@
+
+
+FEB44: PUSH R12                       [4154] 
+FEB46: PUSH RBP                       [55] 
+FEB47: MOV RBP,[0x00368e68]           [488B2D1AA32600] 
+FEB4E: PUSH RBX                       [53] 
+FEB4F: MOV RDI,[RDI + 0x10]           [488B7F10] 
+FEB53: MOV R12D,FS:[RBP]              [64448B6500] 
+FEB58: TEST RDI,RDI                   [4885FF] 
+FEB63: MOV RBX,[RDI]                  [488B1F] 
+
+========

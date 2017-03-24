@@ -1,0 +1,25 @@
+
+
+B7C4: PUSH RBP                       [55] 
+B7C5: MOV R10,RDI                    [4989FA] 
+B7C8: MOV RBP,RSP                    [4889E5] 
+B7CB: PUSH R15                       [4157] 
+B7CD: PUSH R14                       [4156] 
+B7CF: PUSH R13                       [4155] 
+B7D1: PUSH R12                       [4154] 
+B7D3: PUSH RBX                       [53] 
+B7D4: MOV EBX,EDX                    [89D3] 
+B7D6: SUB RSP,0x108                  [4881EC08010000] 
+B7DD: TEST EDX,0x8000000             [F7C200000008] 
+B7E3: MOV [-0xb8 + RBP],RSI          [4889B548FFFFFF] 
+B7EA: MOV [-0xac + RBP],ECX          [898D54FFFFFF] 
+B805: TEST byte ptr [0x314 + R10],0x4 [41F6821403000004] 
+BAA8: LEA RSP,[RBP + -0x28]          [488D65D8] 
+BAAC: POP RBX                        [5B] 
+BAAD: POP R12                        [415C] 
+BAAF: POP R13                        [415D] 
+BAB1: POP R14                        [415E] 
+BAB3: POP R15                        [415F] 
+BAB5: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,7 @@
+
+
+15AE4: TEST RDI,RDI                   [4885FF] 
+15AE9: MOV [RDI + 0x21],SIL           [40887721] 
+15AED: XOR EAX,EAX                    [31C0] 
+
+========

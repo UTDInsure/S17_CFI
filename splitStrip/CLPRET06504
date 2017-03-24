@@ -1,0 +1,8 @@
+
+
+F4F04: BSWAP EDI                      [0FCF] 
+F4F06: TEST EDI,EDI                   [85FF] 
+F4F0A: MOV EAX,EDI                    [89F8] 
+F4F0C: AND EAX,0xffffff               [25FFFFFF00] 
+
+========

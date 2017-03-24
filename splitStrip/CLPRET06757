@@ -1,0 +1,13 @@
+
+
+103A84: SUB RSP,0x8                    [4883EC08] 
+103A88: MOV EDX,[0x0036e770]           [8B15E2AC2600] 
+103A8E: TEST EDX,EDX                   [85D2] 
+103AC0: MOV RAX,[0x0036e6f8]           [488B0531AC2600] 
+103AC7: LEA RSI,[0x103670]             [488D35A2FBFFFF] 
+103ACE: LEA RDI,[0x36dbc4]             [488D3DEFA02600] 
+103AD5: ROR RAX,0x11                   [48C1C811] 
+103AD9: XOR RAX,FS:[0x30]              [644833042530000000] 
+103AE8: ADD RSP,0x8                    [4883C408] 
+
+========

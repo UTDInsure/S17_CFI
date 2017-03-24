@@ -1,0 +1,14 @@
+
+
+EA7C4: PUSH R14                       [4156] 
+EA7C6: MOV R14,RSI                    [4989F6] 
+EA7C9: PUSH R13                       [4155] 
+EA7CB: MOV R13,RDX                    [4989D5] 
+EA7CE: PUSH R12                       [4154] 
+EA7D0: MOV R12,RCX                    [4989CC] 
+EA7D3: PUSH RBP                       [55] 
+EA7D4: MOV RBP,RDI                    [4889FD] 
+EA7D7: MOV EDI,0x48                   [BF48000000] 
+EA7DC: PUSH RBX                       [53] 
+
+========

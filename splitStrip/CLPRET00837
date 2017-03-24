@@ -1,0 +1,19 @@
+
+
+40F1C4: PUSH RBP                       [55] 
+40F1C5: XOR EAX,EAX                    [31C0] 
+40F1C7: PUSH RBX                       [53] 
+40F1C8: MOV RBX,RDI                    [4889FB] 
+40F1CB: SUB RSP,0x28                   [4883EC28] 
+40F1CF: CMP dword ptr [0x0062bae8],0x2 [833D12C9210002] 
+40F1DC: MOV EDI,[0x0062baf8]           [8B3D16C92100] 
+40F1E2: TEST EDI,EDI                   [85FF] 
+40F243: CMP dword ptr [0x0062bae8],0x2 [833D9EC8210002] 
+40F24C: MOV EDI,[0x006286bc]           [8B3D6A942100] 
+40F252: MOV R8D,[0x006286cc]           [448B0573942100] 
+40F259: CMP EDI,R8D                    [4439C7] 
+40F2AC: ADD RSP,0x28                   [4883C428] 
+40F2B0: POP RBX                        [5B] 
+40F2B1: POP RBP                        [5D] 
+
+========

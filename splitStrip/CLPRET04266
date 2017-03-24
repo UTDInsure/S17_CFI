@@ -1,0 +1,24 @@
+
+
+AE304: PUSH RBX                       [53] 
+AE305: MOV RBX,RDI                    [4889FB] 
+AE308: SUB RSP,0x10                   [4883EC10] 
+AE30C: MOV RAX,[RSI + 0x28]           [488B4628] 
+AE310: TEST RAX,RAX                   [4885C0] 
+AE319: MOV R8D,[RAX + 0x10]           [448B4010] 
+AE31D: TEST R8D,R8D                   [4585C0] 
+AE326: MOV R8,[RAX + 0x8]             [4C8B4008] 
+AE32A: MOV ECX,[RBX + 0x14]           [8B4B14] 
+AE32D: MOV R9D,[RBX + 0x10]           [448B4B10] 
+AE331: MOV R11D,[RBX + 0xc]           [448B5B0C] 
+AE335: TEST R8,R8                     [4D85C0] 
+AE33E: MOV RDX,[RAX]                  [488B10] 
+AE341: XOR ESI,ESI                    [31F6] 
+AE366: MOV EDI,[RDX + 0x8]            [8B7A08] 
+AE369: MOV RAX,RDX                    [4889D0] 
+AE36C: CMP ECX,EDI                    [39F9] 
+AE370: CMP ECX,[RDX + 0x14]           [3B4A14] 
+AE3A0: ADD RSP,0x10                   [4883C410] 
+AE3A4: POP RBX                        [5B] 
+
+========

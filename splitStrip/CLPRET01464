@@ -1,0 +1,21 @@
+
+
+2F4F4: PUSH R13                       [4155] 
+2F4F6: PUSH R12                       [4154] 
+2F4F8: PUSH RBP                       [55] 
+2F4F9: MOV RBP,RSI                    [4889F5] 
+2F4FC: PUSH RBX                       [53] 
+2F4FD: MOV RBX,RDI                    [4889FB] 
+2F500: SUB RSP,0x8                    [4883EC08] 
+2F504: MOV EAX,[RDI]                  [8B07] 
+2F506: CMP EAX,0x1                    [83F801] 
+2F5B8: TEST EAX,EAX                   [85C0] 
+2F5D8: ADD RSP,0x8                    [4883C408] 
+2F5DC: XOR ECX,ECX                    [31C9] 
+2F5DE: POP RBX                        [5B] 
+2F5DF: POP RBP                        [5D] 
+2F5E0: POP R12                        [415C] 
+2F5E2: MOV RAX,RCX                    [4889C8] 
+2F5E5: POP R13                        [415D] 
+
+========

@@ -1,0 +1,7 @@
+
+
+F0774: MOV EDX,[0x0036e770]           [8B15F6DF2700] 
+F077A: XOR EAX,EAX                    [31C0] 
+F077C: TEST EDX,EDX                   [85D2] 
+
+========

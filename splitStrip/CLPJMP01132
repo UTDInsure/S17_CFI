@@ -1,0 +1,24 @@
+
+
+BCDE4: PUSH RBX                       [53] 
+BCDE5: MOV RBX,RDI                    [4889FB] 
+BCDE8: SUB RSP,0x10                   [4883EC10] 
+BCDEC: MOV EAX,[RDI + 0x34]           [8B4734] 
+BCDEF: CMP EAX,0x7fffffe              [3DFEFFFF07] 
+BCDFA: MOV EDX,[RDI + 0x40]           [8B5740] 
+BCDFD: ADD EAX,EAX                    [01C0] 
+BCDFF: CMP EAX,EDX                    [39D0] 
+BCE01: CMOVG EAX,EDX                  [0F4FC2] 
+BCE04: CMP ESI,EAX                    [39C6] 
+BCE06: CMOVL ESI,EAX                  [0F4CF0] 
+BBC74: PUSH R12                       [4154] 
+BBC76: PUSH RBP                       [55] 
+BBC77: MOV EBP,ESI                    [89F5] 
+BBC79: PUSH RBX                       [53] 
+BBC7A: CMP dword ptr [RDI + 0x68],0x1 [837F6801] 
+BBC7E: MOV RBX,RDI                    [4889FB] 
+BBCD4: CMP byte ptr [RBX + 0x63],0x0  [807B6300] 
+BBCE8: MOV RDI,[RBX + 0x8]            [488B7B08] 
+BBCEC: MOVSXD RSI,EBP                 [4863F5] 
+
+========

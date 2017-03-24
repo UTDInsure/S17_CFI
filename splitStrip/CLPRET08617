@@ -1,0 +1,6 @@
+
+
+34C64: TEST RDI,RDI                   [4885FF] 
+34D0F: XOR EAX,EAX                    [31C0] 
+
+========

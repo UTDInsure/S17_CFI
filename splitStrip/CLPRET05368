@@ -1,0 +1,15 @@
+
+
+DE6A4: TEST RSI,RSI                   [4885F6] 
+DE718: XOR EDX,EDX                    [31D2] 
+DE6F0: MOV RSI,RDI                    [4889FE] 
+DE6F3: MOV R10D,0x100                 [41BA00010000] 
+DE6F9: MOV RDI,-0x64                  [48C7C79CFFFFFF] 
+DE700: MOV EAX,0x118                  [B818010000] 
+DE707: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DE734: MOV RDX,[0x00368e68]           [488B152DA72800] 
+DE73B: NEG EAX                        [F7D8] 
+DE73D: MOV FS:[RDX],EAX               [648902] 
+DE740: OR RAX,-0x1                    [4883C8FF] 
+
+========

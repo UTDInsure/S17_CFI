@@ -1,0 +1,23 @@
+
+
+4052F4: PUSH R12                       [4154] 
+4052F6: PUSH RBP                       [55] 
+4052F7: MOV RBP,RSI                    [4889F5] 
+4052FA: PUSH RBX                       [53] 
+4052FB: MOV RBX,RDI                    [4889FB] 
+4052FE: SUB RSP,0x10                   [4883EC10] 
+405302: TEST RDI,RDI                   [4885FF] 
+40535D: CMP byte ptr [RDX],0x2a        [803A2A] 
+405360: MOV RBX,RDX                    [4889D3] 
+405385: MOVZX R12D,byte ptr [RDX + 0x1] [440FB66201] 
+40538A: ADD RBX,0x2                    [4883C302] 
+40538E: CMP R12B,0x6b                  [4180FC6B] 
+4053B8: CMP R12B,0x64                  [4180FC64] 
+405420: MOV dword ptr [0x00625c60],0x0 [C7053608220000000000] 
+405365: MOV [RBP],RBX                  [48895D00] 
+405369: ADD RSP,0x10                   [4883C410] 
+40536D: POP RBX                        [5B] 
+40536E: POP RBP                        [5D] 
+40536F: POP R12                        [415C] 
+
+========

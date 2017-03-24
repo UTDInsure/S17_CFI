@@ -1,0 +1,11 @@
+
+
+410884: MOV R9D,[0x006286c0]           [448B0D357E2100] 
+41088B: TEST R9D,R9D                   [4585C9] 
+410890: MOV R8D,[0x0062bb50]           [448B05B9B22100] 
+410897: TEST R8D,R8D                   [4585C0] 
+41089C: TEST EDI,EDI                   [85FF] 
+4108A0: MOV dword ptr [RSI],0x2        [C70602000000] 
+4108A6: MOV EAX,0x7e                   [B87E000000] 
+
+========

@@ -1,0 +1,25 @@
+
+
+F34C4: SUB RSP,0x8                    [4883EC08] 
+F34C8: SUB RDX,0x1                    [4883EA01] 
+F34CC: MOV R8,RDI                     [4989F8] 
+F34DE: CMP RDX,-0x1                   [4883FAFF] 
+F34E4: MOV EAX,[R8]                   [418B00] 
+F34E7: LEA RCX,[R8 + 0x4]             [498D4804] 
+F34EB: LEA R9,[RDX + -0x1]            [4C8D4AFF] 
+F34EF: TEST EAX,EAX                   [85C0] 
+F34F3: LEA R9,[R8 + -0x4]             [4D8D48FC] 
+F34F7: XOR ECX,ECX                    [31C9] 
+F34F9: ADD RDX,0x1                    [4883C201] 
+F3509: MOV R8D,[RSI + RCX*0x4]        [448B048E] 
+F350D: TEST R8D,R8D                   [4585C0] 
+F3510: MOV [R9 + RCX*0x4 + 0x4],R8D   [4589448904] 
+F3500: ADD RCX,0x1                    [4883C101] 
+F3504: CMP RCX,RDX                    [4839D1] 
+F3509: MOV R8D,[RSI + RCX*0x4]        [448B048E] 
+F350D: TEST R8D,R8D                   [4585C0] 
+F3510: MOV [R9 + RCX*0x4 + 0x4],R8D   [4589448904] 
+F3517: MOV RAX,RDI                    [4889F8] 
+F351A: ADD RSP,0x8                    [4883C408] 
+
+========

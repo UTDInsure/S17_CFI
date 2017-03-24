@@ -1,0 +1,11 @@
+
+
+10BFA4: CMP ESI,0xf                    [83FE0F] 
+10BFA7: MOV R8,RDX                     [4989D0] 
+10BFAA: MOV RCX,[RDI + 0x10]           [488B4F10] 
+10BFB4: LEA RAX,[0x134000]             [488D0545800200] 
+10BFBB: MOV ESI,ESI                    [89F6] 
+10BFBD: MOVSXD RDX,[RAX + RSI*0x4]     [486314B0] 
+10BFC1: ADD RAX,RDX                    [4801D0] 
+
+========

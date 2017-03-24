@@ -1,0 +1,25 @@
+
+
+D11E4: PUSH R14                       [4156] 
+D11E6: MOV R14,RDX                    [4989D6] 
+D11E9: PUSH R13                       [4155] 
+D11EB: MOV R13,RSI                    [4989F5] 
+D11EE: PUSH R12                       [4154] 
+D11F0: MOV R12,RDI                    [4989FC] 
+D11F3: PUSH RBP                       [55] 
+D11F4: MOV RBP,RCX                    [4889CD] 
+D11F7: PUSH RBX                       [53] 
+D11F8: MOV RBX,R8                     [4C89C3] 
+D11FB: MOV R8,[R8]                    [4D8B00] 
+D11FE: MOVZX R9D,byte ptr [RCX + R8*0x1 + 0x1] [460FB64C0101] 
+D1204: LEA RDX,[R8 + 0x1]             [498D5001] 
+D1208: CMP R9B,0x22                   [4180F922] 
+D1214: TEST R9B,R9B                   [4584C9] 
+D1217: MOV EAX,0x5                    [B805000000] 
+D1229: POP RBX                        [5B] 
+D122A: POP RBP                        [5D] 
+D122B: POP R12                        [415C] 
+D122D: POP R13                        [415D] 
+D122F: POP R14                        [415E] 
+
+========

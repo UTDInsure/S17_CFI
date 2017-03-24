@@ -1,0 +1,25 @@
+
+
+742F4: MOV ESI,[RDI]                  [8B37] 
+742F6: MOV R8,RDI                     [4989F8] 
+742F9: MOV EAX,ESI                    [89F0] 
+742FB: AND EAX,0x8000                 [2500800000] 
+74306: MOV RDX,[0x88 + RDI]           [488B9788000000] 
+7430D: MOV R9,FS:[0x10]               [644C8B0C2510000000] 
+74316: CMP R9,[RDX + 0x8]             [4C3B4A08] 
+74320: MOV ESI,0x1                    [BE01000000] 
+74325: CMP dword ptr [0x0036e774],0x0 [833D48A42F0000] 
+74336: CMPXCHG [RDX],ESI              [0FB132] 
+74355: MOV RDX,[0x88 + R8]            [498B9088000000] 
+7435C: MOV ECX,[R8]                   [418B08] 
+7435F: MOV EAX,[RDX + 0x4]            [8B4204] 
+74362: MOV [RDX + 0x8],R9             [4C894A08] 
+74366: LEA ESI,[RAX + 0x1]            [8D7001] 
+74369: MOV [RDX + 0x4],ESI            [897204] 
+7436C: MOV ESI,ECX                    [89CE] 
+7436E: SHR ESI,0x5                    [C1EE05] 
+74371: AND ESI,0x1                    [83E601] 
+74374: AND CH,0x80                    [80E580] 
+743C6: MOV EAX,ESI                    [89F0] 
+
+========

@@ -1,0 +1,10 @@
+
+
+B5B44: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+B5B47: XOR EAX,EAX                    [31C0] 
+B5B49: TEST DL,DL                     [84D2] 
+B82BD: CMP EAX,0x1                    [83F801] 
+B82C0: SETZ AL                        [0F94C0] 
+B82C3: MOVZX EAX,AL                   [0FB6C0] 
+
+========

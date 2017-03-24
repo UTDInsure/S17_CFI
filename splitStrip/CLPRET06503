@@ -1,0 +1,12 @@
+
+
+F4F04: BSWAP EDI                      [0FCF] 
+F4F06: TEST EDI,EDI                   [85FF] 
+F4F18: MOV EDX,EDI                    [89FA] 
+F4F1A: MOVZX EAX,DI                   [0FB7C7] 
+F4F1D: MOVZX EDI,DIL                  [400FB6FF] 
+F4F21: AND EDX,0xc0000000             [81E2000000C0] 
+F4F27: CMP EDX,0x80000000             [81FA00000080] 
+F4F2D: CMOVNZ EAX,EDI                 [0F45C7] 
+
+========

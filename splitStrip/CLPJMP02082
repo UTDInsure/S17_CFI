@@ -1,0 +1,19 @@
+
+
+1AB74: TEST SIL,SIL                   [4084F6] 
+1AB77: PUSH RBX                       [53] 
+1AB78: MOV RBX,RDI                    [4889FB] 
+1AB7D: CMP byte ptr [0x404 + RDI],0x0 [80BF0404000000] 
+1A7A4: TEST RDI,RDI                   [4885FF] 
+1A7A7: PUSH RBX                       [53] 
+1A7A8: MOV RBX,RDI                    [4889FB] 
+1A890: XOR EAX,EAX                    [31C0] 
+1A892: POP RBX                        [5B] 
+1AB8F: TEST AL,AL                     [84C0] 
+1AB93: MOV EAX,[0x408 + RBX]          [8B8308040000] 
+1AB99: CMP EAX,-0x1                   [83F8FF] 
+1ABB8: MOV RDI,[0x448 + RBX]          [488BBB48040000] 
+1ABBF: XOR ESI,ESI                    [31F6] 
+1ABC1: XOR EAX,EAX                    [31C0] 
+
+========

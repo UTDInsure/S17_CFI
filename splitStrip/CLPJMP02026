@@ -1,0 +1,10 @@
+
+
+18004: PUSH R12                       [4154] 
+18006: MOV R12D,R8D                   [4589C4] 
+18009: PUSH RBP                       [55] 
+1800A: MOV RBP,RCX                    [4889CD] 
+1800D: PUSH RBX                       [53] 
+1800E: MOV RBX,RDI                    [4889FB] 
+
+========

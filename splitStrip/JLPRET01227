@@ -1,0 +1,28 @@
+
+
+AAE04: TEST ECX,ECX                   [85C9] 
+AA058: LEA RAX,[RBX + -0x1]           [488D43FF] 
+AA05C: MOV R13D,0x1                   [41BD01000000] 
+AA062: MOV R14,RAX                    [4989C6] 
+AA065: SUB RAX,0x1                    [4883E801] 
+AA069: ADD R13D,0x1                   [4183C501] 
+AA06D: CMP byte ptr [RAX + 0x1],0x25  [80780125] 
+A9F7A: MOV ECX,R15D                   [4489F9] 
+A9F7D: XOR EAX,EAX                    [31C0] 
+A9F7F: SUB ECX,R13D                   [4429E9] 
+A9F82: CMOVNS EAX,ECX                 [0F49C1] 
+A9F85: ADD EAX,R13D                   [4401E8] 
+A9F88: MOVSXD R15,EAX                 [4C63F8] 
+A9F8B: MOV RAX,[RSP + 0x8]            [488B442408] 
+A9F90: SUB RAX,R11                    [4C29D8] 
+A9F93: CMP R15,RAX                    [4939C7] 
+A9F18: XOR EAX,EAX                    [31C0] 
+A9F1A: ADD RSP,0xd8                   [4881C4D8000000] 
+A9F21: POP RBX                        [5B] 
+A9F22: POP RBP                        [5D] 
+A9F23: POP R12                        [415C] 
+A9F25: POP R13                        [415D] 
+A9F27: POP R14                        [415E] 
+A9F29: POP R15                        [415F] 
+
+========

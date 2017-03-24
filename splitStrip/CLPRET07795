@@ -1,0 +1,12 @@
+
+
+11DB44: PUSH RBP                       [55] 
+11DB45: PUSH RBX                       [53] 
+11DB46: SUB RSP,0x8                    [4883EC08] 
+11DB4A: MOV RBX,[0x0036abb8]           [488B1D67D02400] 
+11DB51: TEST RBX,RBX                   [4885DB] 
+11DB96: ADD RSP,0x8                    [4883C408] 
+11DB9A: POP RBX                        [5B] 
+11DB9B: POP RBP                        [5D] 
+
+========

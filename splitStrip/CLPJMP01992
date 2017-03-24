@@ -1,0 +1,12 @@
+
+
+176B4: PUSH RBP                       [55] 
+176B5: MOV RBP,RDX                    [4889D5] 
+176B8: MOV EDX,ESI                    [89F2] 
+176BA: MOV ESI,EDI                    [89FE] 
+176BC: PUSH RBX                       [53] 
+176BD: SUB RSP,0x8                    [4883EC08] 
+176C1: MOV RBX,[0x0024a830]           [488B1D68312300] 
+176C8: MOV RDI,[RBX]                  [488B3B] 
+
+========

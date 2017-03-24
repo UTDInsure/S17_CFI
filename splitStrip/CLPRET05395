@@ -1,0 +1,8 @@
+
+
+DE8D4: TEST EDI,EDI                   [85FF] 
+DE8D6: MOV RAX,[0x00368e68]           [488B058BA52800] 
+DE8DF: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+DE8E6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

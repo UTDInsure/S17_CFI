@@ -1,0 +1,13 @@
+
+
+22594: TEST RDI,RDI                   [4885FF] 
+22597: PUSH RBX                       [53] 
+22598: MOV RBX,RDI                    [4889FB] 
+225BF: MOV RDI,[RBX + 0x48]           [488B7B48] 
+225C3: TEST RDI,RDI                   [4885FF] 
+225A0: MOVSX EDX,word ptr [RBX + 0x2] [0FBF5302] 
+225A4: MOVSX ESI,word ptr [RBX]       [0FBF33] 
+225A7: ADD EDX,[RBX + 0x3c]           [03533C] 
+225AA: ADD ESI,[RBX + 0x40]           [037340] 
+
+========

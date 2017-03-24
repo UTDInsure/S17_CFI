@@ -1,0 +1,18 @@
+
+
+4026DC: CMP dword ptr [0x00623268],0x0 [48833D840B220000] 
+4026E4: PUSH RBP                       [55] 
+4026E5: MOV RBP,RSP                    [4889E5] 
+4026EA: MOV EAX,0x0                    [B800000000] 
+4026EF: TEST RAX,RAX                   [4885C0] 
+40263F: MOV EAX,0x6273f0               [B8F0736200] 
+402644: MOV ECX,0x2                    [B902000000] 
+402649: SUB RAX,0x6273f0               [482DF0736200] 
+40264F: SAR RAX,0x3                    [48C1F803] 
+402653: CQO                            [4899] 
+402655: IDIV RCX                       [48F7F9] 
+402658: TEST RAX,RAX                   [4885C0] 
+40265B: MOV RSI,RAX                    [4889C6] 
+402708: POP RBP                        [5D] 
+
+========

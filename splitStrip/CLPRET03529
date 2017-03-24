@@ -1,0 +1,8 @@
+
+
+87404: CMP RDX,0x3                    [4883FA03] 
+87408: MOV RAX,RDI                    [4889F8] 
+8740B: LEA RCX,[RDI + -0x1]           [488D4FFF] 
+874A0: AND EDX,0x3                    [83E203] 
+
+========

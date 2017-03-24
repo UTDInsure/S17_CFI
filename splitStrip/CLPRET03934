@@ -1,0 +1,12 @@
+
+
+95C34: CMP RDX,0x3                    [4883FA03] 
+95C3A: MOV RCX,RDX                    [4889D1] 
+95C3D: SHR RCX,0x2                    [48C1E902] 
+95C8A: MOV EAX,[RDI]                  [8B07] 
+95C8C: MOV R8D,[RSI]                  [448B06] 
+95C8F: CMP EAX,R8D                    [4439C0] 
+95C94: NOP                            [0F1F4000] 
+95C98: SUB EAX,R8D                    [4429C0] 
+
+========

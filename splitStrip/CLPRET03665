@@ -1,0 +1,7 @@
+
+
+8E484: ADD RCX,RSI                    [4801F1] 
+8E4A3: CMP RSI,RCX                    [4839CE] 
+8E4A8: XOR EAX,EAX                    [31C0] 
+
+========

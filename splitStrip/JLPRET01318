@@ -1,0 +1,27 @@
+
+
+B4A74: MOV RDX,RSP                    [4889E2] 
+B4A77: MOV RSI,RBX                    [4889DE] 
+B4A7A: MOV EDI,0x1                    [BF01000000] 
+D64A4: CMP EDI,0x1                    [83FF01] 
+D64A7: MOV RAX,RSI                    [4889F0] 
+D64AC: MOV RDI,RAX                    [4889C7] 
+D64AF: MOV RSI,RDX                    [4889D6] 
+D64B2: MOV EAX,0x4                    [B804000000] 
+D64B9: CMP RAX,0xfffff000             [483D00F0FFFF] 
+D64DC: MOV RDX,[0x00368e68]           [488B1585292900] 
+D64E3: NEG EAX                        [F7D8] 
+D64E5: MOV FS:[RDX],EAX               [648902] 
+D64E8: OR RAX,-0x1                    [4883C8FF] 
+B4A88: TEST EAX,EAX                   [85C0] 
+B4A90: MOV EAX,[RSP + 0x18]           [8B442418] 
+B4A94: AND EAX,0xf000                 [2500F00000] 
+B4A99: CMP EAX,0x6000                 [3D00600000] 
+B4AA0: CMP EAX,0x8000                 [3D00800000] 
+B4B32: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+B49A5: ADD RSP,0x90                   [4881C490000000] 
+B49AC: POP RBX                        [5B] 
+B49AD: POP RBP                        [5D] 
+B49AE: POP R12                        [415C] 
+
+========

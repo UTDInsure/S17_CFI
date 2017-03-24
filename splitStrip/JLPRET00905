@@ -1,0 +1,13 @@
+
+
+93B04: CMP DL,R8B                     [4438C2] 
+93B09: CMP DL,R9B                     [4438CA] 
+93B0E: ADD RCX,0x1                    [4883C101] 
+93B12: MOVZX EDX,byte ptr [RCX]       [0FB611] 
+93B15: TEST DL,DL                     [84D2] 
+93B04: CMP DL,R8B                     [4438C2] 
+93B30: LEA RDX,[RCX + 0x1]            [488D5101] 
+93B34: MOV byte ptr [RCX],0x0         [C60100] 
+93B37: MOV [RDI],RDX                  [488917] 
+
+========

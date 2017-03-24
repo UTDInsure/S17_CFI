@@ -1,0 +1,23 @@
+
+
+78154: PUSH R12                       [4154] 
+78156: XOR EAX,EAX                    [31C0] 
+78158: MOV R12D,R8D                   [4589C4] 
+7815B: PUSH RBP                       [55] 
+7815C: PUSH RBX                       [53] 
+7815D: MOV RBX,RDI                    [4889FB] 
+78160: MOV RDI,RSI                    [4889F7] 
+78163: TEST byte ptr [RBX + 0x74],0x2 [F6437402] 
+78167: MOV ESI,EDX                    [89D6] 
+78169: MOV EDX,ECX                    [89CA] 
+D6914: CMP dword ptr [0x0036e774],0x0 [833D597E290000] 
+D6921: MOV EAX,0x2                    [B802000000] 
+D6928: CMP RAX,0xfffff001             [483D01F0FFFF] 
+7817A: MOV EBP,EAX                    [89C5] 
+7817C: TEST EBP,EBP                   [85ED] 
+78200: XOR EAX,EAX                    [31C0] 
+781BB: POP RBX                        [5B] 
+781BC: POP RBP                        [5D] 
+781BD: POP R12                        [415C] 
+
+========

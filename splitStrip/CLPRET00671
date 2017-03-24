@@ -1,0 +1,14 @@
+
+
+4063D4: SUB RSP,0x8                    [4883EC08] 
+4063D8: CMP EDI,0x11                   [83FF11] 
+4063DD: CMP EDI,0x12                   [83FF12] 
+4063F0: MOV EDI,0x627b80               [BF807B6200] 
+4063F5: XOR EAX,EAX                    [31C0] 
+40B344: TEST RSI,RSI                   [4885F6] 
+40B349: MOV RDX,[RDI]                  [488B17] 
+40B34C: CMP RSI,RDX                    [4839D6] 
+40B3A0: XOR EAX,EAX                    [31C0] 
+406400: ADD RSP,0x8                    [4883C408] 
+
+========

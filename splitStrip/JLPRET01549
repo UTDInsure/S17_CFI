@@ -1,0 +1,25 @@
+
+
+B9FF8: CMP R11,[RSP + 0x8]            [4C3B5C2408] 
+B9FFF: MOV R14,R15                    [4D89FE] 
+BA002: TEST R10D,R10D                 [4585D2] 
+BA490: MOVZX EAX,byte ptr [R11]       [410FB603] 
+BA01D: CMP EAX,EBX                    [39D8] 
+BA025: XOR R13D,R13D                  [4531ED] 
+BA028: MOVZX EBX,byte ptr [R14]       [410FB61E] 
+BA02C: LEA R15,[R14 + 0x1]            [4D8D7E01] 
+BA030: ADD R11,0x1                    [4983C301] 
+BA034: MOV RBP,R15                    [4C89FD] 
+BA037: TEST BL,BL                     [84DB] 
+BA03F: CMP R11,[RSP + 0x8]            [4C3B5C2408] 
+BA05B: MOV dword ptr [RSP + 0x20],0x0 [C744242000000000] 
+B9F90: MOV EAX,[RSP + 0x20]           [8B442420] 
+B9F94: ADD RSP,0x8d8                  [4881C4D8080000] 
+B9F9B: POP RBX                        [5B] 
+B9F9C: POP RBP                        [5D] 
+B9F9D: POP R12                        [415C] 
+B9F9F: POP R13                        [415D] 
+B9FA1: POP R14                        [415E] 
+B9FA3: POP R15                        [415F] 
+
+========

@@ -1,0 +1,10 @@
+
+
+A38E4: PUSH RBP                       [55] 
+A38E5: CMP ESI,-0x1                   [83FEFF] 
+A38E8: PUSH RBX                       [53] 
+A38EF: CMP [RDI + 0x28],ESI           [397728] 
+A3B20: POP RBX                        [5B] 
+A3B21: POP RBP                        [5D] 
+
+========

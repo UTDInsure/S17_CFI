@@ -1,0 +1,24 @@
+
+
+11E124: MOV RDI,[0x0036d1d0]           [488B3DA5F02400] 
+11E12B: CMP RDI,0x1                    [4883FF01] 
+11E138: SUB RSP,0x8                    [4883EC08] 
+11C554: SUB RSP,0x8                    [4883EC08] 
+11C558: MOV RAX,[0x0036e340]           [488B05E11D2500] 
+11C55F: TEST RAX,RAX                   [4885C0] 
+11C564: MOV RSI,RDI                    [4889FE] 
+11C567: LEA RDI,[0x11c3e0]             [488D3D72FEFFFF] 
+11C404: SUB RSP,0x38                   [4883EC38] 
+11C408: MOV RAX,[0x00368e60]           [488B0551CA2400] 
+11C40F: MOV RCX,RDI                    [4889F9] 
+11C412: MOV R8,RSI                     [4989F0] 
+11C415: MOV dword ptr [RSP + 0x28],0x0 [48C744242800000000] 
+11C41E: LEA RDX,[RSP + 0x1f]           [488D54241F] 
+11C423: LEA RSI,[RSP + 0x28]           [488D742428] 
+11C428: LEA RDI,[RSP + 0x20]           [488D7C2420] 
+11C437: TEST EAX,EAX                   [85C0] 
+11C458: CMP byte ptr [RSP + 0x1f],0x0  [807C241F00] 
+11C45F: MOV RDI,[RSP + 0x28]           [488B7C2428] 
+11C464: MOV [RSP + 0xc],EAX            [8944240C] 
+
+========

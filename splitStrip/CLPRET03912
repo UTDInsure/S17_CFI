@@ -1,0 +1,8 @@
+
+
+958C4: CMP dword ptr [RDI],0x0        [833F00] 
+958CD: CMP dword ptr [RDI + 0x4],0x0  [837F0400] 
+958D7: CMP dword ptr [RDI + 0x8],0x0  [837F0800] 
+95B00: MOV RAX,0x2                    [48C7C002000000] 
+
+========

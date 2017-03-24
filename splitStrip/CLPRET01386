@@ -1,0 +1,28 @@
+
+
+2DD34: PUSH RBP                       [55] 
+2DD35: MOV EAX,EDI                    [89F8] 
+2DD37: MOV RBP,RSP                    [4889E5] 
+2DD3A: PUSH R15                       [4157] 
+2DD3C: PUSH R14                       [4156] 
+2DD3E: PUSH R13                       [4155] 
+2DD40: PUSH R12                       [4154] 
+2DD42: MOV R12,RSI                    [4989F4] 
+2DD45: PUSH RBX                       [53] 
+2DD46: SUB RSP,0x1a8                  [4881ECA8010000] 
+2DD4D: CMP EDI,0x40                   [83FF40] 
+2DD50: MOV [-0x1ac + RBP],EDI         [89BD54FEFFFF] 
+2DD56: MOV [-0x1b8 + RBP],RDX         [48899548FEFFFF] 
+2DD63: TEST EAX,0xffffe040            [A940E0FFFF] 
+2DE58: MOV RAX,[0x00368e68]           [488B0509B03300] 
+2DE5F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+2DE66: XOR EAX,EAX                    [31C0] 
+2DE68: LEA RSP,[RBP + -0x28]          [488D65D8] 
+2DE6C: POP RBX                        [5B] 
+2DE6D: POP R12                        [415C] 
+2DE6F: POP R13                        [415D] 
+2DE71: POP R14                        [415E] 
+2DE73: POP R15                        [415F] 
+2DE75: POP RBP                        [5D] 
+
+========

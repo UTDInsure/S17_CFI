@@ -1,0 +1,14 @@
+
+
+BC2D4: PUSH R12                       [4154] 
+BC2D6: PUSH RBP                       [55] 
+BC2D7: PUSH RBX                       [53] 
+BC2D8: MOVZX EAX,byte ptr [RSI + 0x30] [0FB64630] 
+BC2DC: MOVSXD R8,[RSI + 0x38]         [4C634638] 
+BC2E0: CMP AL,0x10                    [3C10] 
+BC2E8: LEA RDX,[0x131d20]             [488D15315A0700] 
+BC2EF: MOVZX ECX,AL                   [0FB6C8] 
+BC2F2: MOVSXD RCX,[RDX + RCX*0x4]     [48630C8A] 
+BC2F6: ADD RDX,RCX                    [4801CA] 
+
+========

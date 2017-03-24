@@ -1,0 +1,13 @@
+
+
+9F6D4: MOV RAX,[0x00368dc0]           [488B05E5962C00] 
+9F6DB: MOV EDX,EDI                    [89FA] 
+9F6DD: MOV RAX,FS:[RAX]               [64488B00] 
+9F6E1: MOV RAX,[RAX]                  [488B00] 
+9F6E4: MOV RAX,[0xa0 + RAX]           [488B80A0000000] 
+9F6EB: MOV ECX,[RAX]                  [8B08] 
+9F6ED: SHR EDX,CL                     [D3EA] 
+9F6EF: CMP EDX,[RAX + 0x4]            [3B5004] 
+9F730: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

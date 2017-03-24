@@ -1,0 +1,17 @@
+
+
+35464: MOVQ RCX,XMM0                  [66480F7EC1] 
+35469: MOV RAX,RCX                    [4889C8] 
+3546C: SAR RAX,0x34                   [48C1F834] 
+35470: AND EAX,0x7ff                  [25FF070000] 
+35475: CMP EAX,0x7ff                  [3DFF070000] 
+3547C: XORPD XMM1,XMM1                [660F57C9] 
+35480: MOV EDX,0x1                    [BA01000000] 
+35485: UCOMISD XMM0,XMM1              [660F2EC1] 
+35489: SETP SIL                       [400F9AC6] 
+3548D: CMOVZ EDX,ESI                  [0F44D6] 
+35490: TEST DL,DL                     [84D2] 
+354C0: XOR EDX,EDX                    [31D2] 
+354BD: MOV [RDI],EDX                  [8917] 
+
+========

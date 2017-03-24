@@ -1,0 +1,14 @@
+
+
+93A24: TEST CL,CL                     [84C9] 
+93A28: LEA RCX,[RAX + 0x1]            [488D4801] 
+93A3C: MOVZX ESI,byte ptr [RCX]       [0FB631] 
+93A3F: TEST SIL,SIL                   [4084F6] 
+93A30: CMP R8B,SIL                    [4138F0] 
+93A33: LEA RDI,[RCX + 0x1]            [488D7901] 
+93A39: MOV RCX,RDI                    [4889F9] 
+93A3C: MOVZX ESI,byte ptr [RCX]       [0FB631] 
+93A3F: TEST SIL,SIL                   [4084F6] 
+93A44: MOV [RDX],RCX                  [48890A] 
+
+========

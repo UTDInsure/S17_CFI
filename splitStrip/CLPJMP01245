@@ -1,0 +1,27 @@
+
+
+D8904: PUSH R15                       [4157] 
+D8906: PUSH R14                       [4156] 
+D8908: MOV R14,RDI                    [4989FE] 
+D890B: PUSH R13                       [4155] 
+D890D: PUSH R12                       [4154] 
+D890F: PUSH RBP                       [55] 
+D8910: PUSH RBX                       [53] 
+D8911: SUB RSP,0x58                   [4883EC58] 
+D8915: MOV EAX,[RDI + 0x28]           [8B4728] 
+D8918: MOV [RSP + 0x28],RSI           [4889742428] 
+D891D: XOR ESI,ESI                    [31F6] 
+D891F: MOV [RSP + 0x18],RDX           [4889542418] 
+D8924: MOV [RSP + 0x24],EAX           [89442424] 
+D8928: MOV RAX,RDX                    [4889D0] 
+D892B: ADD RAX,0x8                    [4883C008] 
+D892F: TEST RDX,RDX                   [4885D2] 
+D8932: MOV RDX,[RDI + 0x8]            [488B5708] 
+D8936: CMOVZ RAX,RSI                  [480F44C6] 
+D893A: MOV [RSP + 0x10],RAX           [4889442410] 
+D893F: MOV RAX,[RDI]                  [488B07] 
+D8942: MOV RBX,[RAX + RDX*0x8]        [488B1CD0] 
+D8946: TEST RBX,RBX                   [4885DB] 
+D894F: MOV EDI,0x400                  [BF00040000] 
+
+========

@@ -1,0 +1,6 @@
+
+
+E4481: MOV EAX,0x2a                   [B82A000000] 
+E4488: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

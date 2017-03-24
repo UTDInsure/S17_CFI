@@ -1,0 +1,16 @@
+
+
+35CE4: SUB RSP,0x8                    [4883EC08] 
+35CE8: TEST RSI,RSI                   [4885F6] 
+35CED: MOVZX R8D,byte ptr [RSI]       [440FB606] 
+35CF1: XOR EAX,EAX                    [31C0] 
+35CF3: TEST R8B,R8B                   [4584C0] 
+35CF8: MOV RCX,[RDI]                  [488B0F] 
+35CFB: TEST RCX,RCX                   [4885C9] 
+35D00: CMP [RCX + 0x10],R8B           [44384110] 
+35D6E: MOV RDX,RCX                    [4889CA] 
+35D34: CMP byte ptr [RSI + 0x1],0x0   [807E0100] 
+35D5C: ADD RSI,0x1                    [4883C601] 
+35D60: MOV RDI,RDX                    [4889D7] 
+
+========

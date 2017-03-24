@@ -1,0 +1,8 @@
+
+
+1D504: MOV EAX,EDX                    [89D0] 
+1D506: SHR EAX,0x1f                   [C1E81F] 
+1D509: TEST AL,AL                     [84C0] 
+1D61B: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,14 @@
+
+
+4054A4: PUSH R12                       [4154] 
+4054A6: PUSH RBP                       [55] 
+4054A7: MOV RBP,RDI                    [4889FD] 
+4054AA: PUSH RBX                       [53] 
+4054AB: XOR EBX,EBX                    [31DB] 
+4054AD: TEST RDI,RDI                   [4885FF] 
+40554D: MOV EAX,EBX                    [89D8] 
+40554F: POP RBX                        [5B] 
+405550: POP RBP                        [5D] 
+405551: POP R12                        [415C] 
+
+========

@@ -1,0 +1,25 @@
+
+
+87404: CMP RDX,0x3                    [4883FA03] 
+87408: MOV RAX,RDI                    [4889F8] 
+8740B: LEA RCX,[RDI + -0x1]           [488D4FFF] 
+87415: MOV R9,RDX                     [4989D1] 
+87418: SHR R9,0x2                     [49C1E902] 
+8745F: MOVZX R8D,byte ptr [RSI]       [440FB606] 
+87463: TEST R8B,R8B                   [4584C0] 
+87466: MOV [RCX + 0x1],R8B            [44884101] 
+8746C: ADD RCX,0x1                    [4883C101] 
+87470: MOV RSI,RAX                    [4889C6] 
+87473: SUB RSI,RCX                    [4829CE] 
+87476: LEA RDX,[RDX + RSI*0x1 + -0x1] [488D5432FF] 
+8747B: TEST RDX,RDX                   [4885D2] 
+87480: ADD RDX,RCX                    [4801CA] 
+87483: NOP                            [0F1F440000] 
+87488: ADD RCX,0x1                    [4883C101] 
+8748C: MOV byte ptr [RCX],0x0         [C60100] 
+8748F: CMP RCX,RDX                    [4839D1] 
+87488: ADD RCX,0x1                    [4883C101] 
+8748C: MOV byte ptr [RCX],0x0         [C60100] 
+8748F: CMP RCX,RDX                    [4839D1] 
+
+========

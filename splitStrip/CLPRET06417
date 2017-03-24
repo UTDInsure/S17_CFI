@@ -1,0 +1,26 @@
+
+
+F30E4: PUSH R13                       [4155] 
+F30E6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+F30EB: MOV R9,RDI                     [4989F9] 
+F30EE: MOV R13,R8                     [4D89C5] 
+F30F1: PUSH R12                       [4154] 
+F30F3: MOV R12,RCX                    [4989CC] 
+F30F6: PUSH RBP                       [55] 
+F30F7: MOV RBP,RDX                    [4889D5] 
+F30FA: PUSH RBX                       [53] 
+F30FB: MOV RBX,RDX                    [4889D3] 
+F30FE: OR RDX,RCX                     [4809CA] 
+F3101: IMUL RBX,RCX                   [480FAFD9] 
+F3105: SUB RSP,0x8                    [4883EC08] 
+F3109: CMP RDX,RAX                    [4839C2] 
+F3112: CMP RBX,RSI                    [4839F3] 
+F311B: TEST RBX,RBX                   [4885DB] 
+F3210: ADD RSP,0x8                    [4883C408] 
+F3214: XOR EAX,EAX                    [31C0] 
+F3216: POP RBX                        [5B] 
+F3217: POP RBP                        [5D] 
+F3218: POP R12                        [415C] 
+F321A: POP R13                        [415D] 
+
+========

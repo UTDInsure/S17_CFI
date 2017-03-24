@@ -1,0 +1,21 @@
+
+
+2CF5C: CMP RCX,0x4                    [4883F904] 
+2CED0: LEA R8,[0x3658a0]              [4C8D05C9893300] 
+2CED7: MOV R8,[R8 + R15*0x8]          [4F8B04F8] 
+2CEDB: CMP dword ptr [R8 + RCX*0x4],0x5 [41833C8805] 
+2D147: AND SIL,0x3                    [4080E603] 
+2D151: MOV EAX,[R12 + RAX*0x1]        [418B0404] 
+2D155: MOV [RDI + RCX*0x8 + 0x40],EAX [8944CF40] 
+2CEEE: ADD RCX,0x1                    [4883C101] 
+2CEF2: CMP RBP,RCX                    [4839CD] 
+2D120: MOV RAX,RDI                    [4889F8] 
+2CE42: ADD RSP,0x8                    [4883C408] 
+2CE46: POP RBX                        [5B] 
+2CE47: POP RBP                        [5D] 
+2CE48: POP R12                        [415C] 
+2CE4A: POP R13                        [415D] 
+2CE4C: POP R14                        [415E] 
+2CE4E: POP R15                        [415F] 
+
+========

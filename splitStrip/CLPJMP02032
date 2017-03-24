@@ -1,0 +1,8 @@
+
+
+18194: SUB RSP,0x8                    [4883EC08] 
+18198: MOVSX EDX,word ptr [RDI + 0x4] [0FBF5704] 
+1819C: XOR ESI,ESI                    [31F6] 
+1819E: ADD EDX,0x1                    [83C201] 
+
+========

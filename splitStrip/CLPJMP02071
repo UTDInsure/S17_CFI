@@ -1,0 +1,14 @@
+
+
+1A164: PUSH R13                       [4155] 
+1A166: PUSH R12                       [4154] 
+1A168: PUSH RBP                       [55] 
+1A169: PUSH RBX                       [53] 
+1A16A: MOV RBX,RDI                    [4889FB] 
+1A16D: SUB RSP,0x8                    [4883EC08] 
+1A171: TEST RDI,RDI                   [4885FF] 
+1A176: MOVZX R12D,word ptr [RDI]      [440FB727] 
+1A17A: MOVZX R13D,word ptr [RDI + 0x2] [440FB76F02] 
+1A17F: MOV RBP,RSI                    [4889F5] 
+
+========

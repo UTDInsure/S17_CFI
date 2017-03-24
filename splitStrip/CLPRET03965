@@ -1,0 +1,7 @@
+
+
+96274: MOV EDX,[RSI]                  [8B16] 
+96276: MOV RAX,RDI                    [4889F8] 
+96279: TEST EDX,EDX                   [85D2] 
+
+========

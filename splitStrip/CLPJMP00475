@@ -1,0 +1,19 @@
+
+
+412624: CMP EDI,0x2                    [83FF02] 
+412630: SUB RSP,0x8                    [4883EC08] 
+412634: XOR EAX,EAX                    [31C0] 
+4166B4: MOV R9D,[0x0062b9d8]           [448B0D1D532100] 
+4166BB: TEST R9D,R9D                   [4585C9] 
+4166D0: SUB RSP,0x8                    [4883EC08] 
+4166D4: MOV RDI,[0x0062b9c8]           [488B3DED522100] 
+4166DB: TEST RDI,RDI                   [4885FF] 
+4166E9: MOV EDI,0x62b9c0               [BFC0B96200] 
+4166EE: XOR EAX,EAX                    [31C0] 
+4166F0: MOV dword ptr [0x0062b9c8],0x0 [48C705CD52210000000000] 
+4146D4: PUSH RBX                       [53] 
+4146D5: MOV RBX,RDI                    [4889FB] 
+4146D8: MOV RDI,[RDI]                  [488B3F] 
+4146DB: TEST RDI,RDI                   [4885FF] 
+
+========

@@ -1,0 +1,18 @@
+
+
+EB104: PUSH RBP                       [55] 
+EB105: MOV EBP,ESI                    [89F5] 
+EB107: PUSH RBX                       [53] 
+EB108: MOV RBX,RDI                    [4889FB] 
+EB10B: SUB RSP,0x8                    [4883EC08] 
+EB10F: MOV RDX,[RDI + 0x38]           [488B5738] 
+EB113: CMP RDX,[RDI + 0x40]           [483B5740] 
+EB119: LEA RAX,[RDX + 0x1]            [488D4201] 
+EB11D: MOV [RBX + 0x38],RAX           [48894338] 
+EB121: MOV [RDX],BPL                  [40882A] 
+EB124: MOVSX EAX,BPL                  [400FBEC5] 
+EB128: ADD RSP,0x8                    [4883C408] 
+EB12C: POP RBX                        [5B] 
+EB12D: POP RBP                        [5D] 
+
+========

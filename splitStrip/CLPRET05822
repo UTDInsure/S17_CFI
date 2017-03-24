@@ -1,0 +1,19 @@
+
+
+E4E94: PUSH RBX                       [53] 
+E4E95: MOV EBX,ESI                    [89F3] 
+E4E97: MOV RSI,RDI                    [4889FE] 
+E4E9A: MOV EDI,0x1                    [BF01000000] 
+E4E9F: SUB RSP,0x90                   [4881EC90000000] 
+E4EA6: MOV RDX,RSP                    [4889E2] 
+D64A4: CMP EDI,0x1                    [83FF01] 
+D64A7: MOV RAX,RSI                    [4889F0] 
+D64C8: MOV RAX,[0x00368e68]           [488B0599292900] 
+D64CF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D64D6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+E4EB2: TEST EAX,EAX                   [85C0] 
+E4ED8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+E4EC9: ADD RSP,0x90                   [4881C490000000] 
+E4ED0: POP RBX                        [5B] 
+
+========

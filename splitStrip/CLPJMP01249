@@ -1,0 +1,17 @@
+
+
+D9964: PUSH R14                       [4156] 
+D9966: MOV R14,RDX                    [4989D6] 
+D9969: PUSH R13                       [4155] 
+D996B: MOV R13,RDI                    [4989FD] 
+D996E: LEA RDI,[RCX + 0x78]           [488D7978] 
+D9972: PUSH R12                       [4154] 
+D9974: MOV R12,RSI                    [4989F4] 
+D9977: PUSH RBP                       [55] 
+D9978: MOV RBP,RCX                    [4889CD] 
+D997B: LEA RCX,[0x117 + RCX]          [488D8917010000] 
+D9982: PUSH RBX                       [53] 
+D9983: TEST byte ptr [RSI],0x8        [F60608] 
+D9986: CMOVZ RDI,RCX                  [480F44F9] 
+
+========

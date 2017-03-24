@@ -1,0 +1,16 @@
+
+
+F41D4: TEST EDI,EDI                   [85FF] 
+F41D8: MOVSXD RAX,EDI                 [4863C7] 
+F41DB: SUB RSP,0x8                    [4883EC08] 
+F41DF: SHL RAX,0x2                    [48C1E002] 
+F41E3: CMP RAX,RDX                    [4839D0] 
+B3EE4: MOV EAX,0x73                   [B873000000] 
+B3EEB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B3EF4: MOV RCX,[0x00368e68]           [488B0D6D4F2B00] 
+B3EFB: NEG EAX                        [F7D8] 
+B3EFD: MOV FS:[RCX],EAX               [648901] 
+B3F00: OR RAX,-0x1                    [4883C8FF] 
+F41F1: ADD RSP,0x8                    [4883C408] 
+
+========

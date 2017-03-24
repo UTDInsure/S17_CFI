@@ -1,0 +1,12 @@
+
+
+411DE4: PUSH RBX                       [53] 
+411DE5: SUB RSP,0x30                   [4883EC30] 
+411DE9: CMP EDI,0x1                    [83FF01] 
+411DEC: MOV [RSP + 0x8],RSI            [4889742408] 
+411DF3: CMP EDI,0x2                    [83FF02] 
+411DF8: TEST EDI,EDI                   [85FF] 
+411DFC: ADD RSP,0x30                   [4883C430] 
+411E00: POP RBX                        [5B] 
+
+========

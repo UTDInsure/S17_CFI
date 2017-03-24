@@ -1,0 +1,14 @@
+
+
+83044: PUSH R12                       [4154] 
+83046: PUSH RBP                       [55] 
+83047: PUSH RBX                       [53] 
+83048: MOV RBX,RDI                    [4889FB] 
+8304B: SUB RSP,0x20                   [4883EC20] 
+8304F: TEST RDI,RDI                   [4885FF] 
+8310D: ADD RSP,0x20                   [4883C420] 
+83111: POP RBX                        [5B] 
+83112: POP RBP                        [5D] 
+83113: POP R12                        [415C] 
+
+========

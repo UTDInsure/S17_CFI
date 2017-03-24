@@ -1,0 +1,19 @@
+
+
+11BC54: SUB RSP,0x8                    [4883EC08] 
+119A24: SUB RSP,0x8                    [4883EC08] 
+119A28: MOV RDX,RDI                    [4889FA] 
+119A2B: MOV ESI,0x1                    [BE01000000] 
+119A30: XOR EAX,EAX                    [31C0] 
+119A32: CMP dword ptr [0x0036e774],0x0 [833D3B4D250000] 
+119A47: CMPXCHG [0x0036e9b8],ESI       [0FB1356A4F2500] 
+119A6E: MOV RAX,[0x0036a728]           [488B05B30C2500] 
+119A75: MOV RDI,RDX                    [4889D7] 
+119A7F: MOV RDX,RAX                    [4889C2] 
+119A82: CMP dword ptr [0x0036e774],0x0 [833DEB4C250000] 
+119A96: DEC dword ptr [0x0036e9b8]     [FF0D1C4F2500] 
+119ABC: MOV RAX,RDX                    [4889D0] 
+119ABF: ADD RSP,0x8                    [4883C408] 
+11BC61: ADD RSP,0x8                    [4883C408] 
+
+========

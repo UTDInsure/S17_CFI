@@ -1,0 +1,6 @@
+
+
+E4124: MOV EAX,0x86                   [B886000000] 
+E412B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,19 @@
+
+
+1AED4: TEST RDI,RDI                   [4885FF] 
+1AED9: MOVSX EAX,word ptr [RDI + 0x5c] [0FBF475C] 
+1AEDD: MOVSX ECX,word ptr [RDI + 0x8] [0FBF4F08] 
+1AEE1: SUB ESI,EAX                    [29C6] 
+1AEE3: XOR EAX,EAX                    [31C0] 
+1AEE5: CMP ESI,ECX                    [39CE] 
+1AEE9: MOVSX R8D,word ptr [RDI + 0xa] [440FBF470A] 
+1AEEE: CMP R8D,EDX                    [4139D0] 
+1AEF3: MOVSX R9D,word ptr [RDI + 0x6] [440FBF4F06] 
+1AEF8: ADD R8D,R9D                    [4501C8] 
+1AEFB: CMP EDX,R8D                    [4439C2] 
+1AF00: MOVSX EAX,word ptr [RDI + 0x4] [0FBF4704] 
+1AF04: ADD ECX,EAX                    [01C1] 
+1AF06: CMP ESI,ECX                    [39CE] 
+1AF08: SETLE AL                       [0F9EC0] 
+
+========

@@ -1,0 +1,13 @@
+
+
+2D484: PUSH RBX                       [53] 
+2D485: MOV RAX,[RDI + 0x20]           [488B4720] 
+2D489: MOV RBX,RDI                    [4889FB] 
+2D48C: TEST RAX,RAX                   [4885C0] 
+2D497: MOV EAX,[RBX + 0x18]           [8B4318] 
+2D49A: TEST EAX,EAX                   [85C0] 
+2D49E: CMP EAX,0x1                    [83F801] 
+2D4A3: CMP EAX,0x2                    [83F802] 
+2D4A8: MOV RDI,[RBX]                  [488B3B] 
+
+========

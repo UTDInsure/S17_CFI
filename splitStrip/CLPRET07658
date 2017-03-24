@@ -1,0 +1,24 @@
+
+
+11A254: PUSH R15                       [4157] 
+11A256: PUSH R14                       [4156] 
+11A258: PUSH R13                       [4155] 
+11A25A: PUSH R12                       [4154] 
+11A25C: PUSH RBP                       [55] 
+11A25D: PUSH RBX                       [53] 
+11A25E: SUB RSP,0x168                  [4881EC68010000] 
+11A265: MOV R8D,[0x003692f0]           [448B0584F02400] 
+11A26C: TEST R8D,R8D                   [4585C0] 
+11A275: CMP dword ptr [0x0036e300],-0x1 [48833D83402500FF] 
+11A27D: MOV RBP,RDX                    [4889D5] 
+11A4AA: MOV dword ptr [RDX],0x0        [48C70200000000] 
+11A4B1: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+11A47A: ADD RSP,0x168                  [4881C468010000] 
+11A481: POP RBX                        [5B] 
+11A482: POP RBP                        [5D] 
+11A483: POP R12                        [415C] 
+11A485: POP R13                        [415D] 
+11A487: POP R14                        [415E] 
+11A489: POP R15                        [415F] 
+
+========

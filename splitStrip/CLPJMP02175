@@ -1,0 +1,14 @@
+
+
+21134: PUSH R12                       [4154] 
+21136: PUSH RBP                       [55] 
+21137: PUSH RBX                       [53] 
+21138: SUB RSP,0x240                  [4881EC40020000] 
+2113F: MOV RAX,[0x0024a7a0]           [488B055A962200] 
+21146: MOV RAX,[RAX]                  [488B00] 
+21149: TEST RAX,RAX                   [4885C0] 
+2115C: MOV RDI,RSP                    [4889E7] 
+2115F: LEA RBP,[0x80 + RSP]           [488DAC2480000000] 
+21167: MOV RBX,RSP                    [4889E3] 
+
+========

@@ -1,0 +1,8 @@
+
+
+10EE0C: MOV RAX,[RDX]                  [488B02] 
+10EE0F: BSWAP EAX                      [0FC8] 
+10EE11: MOV [RCX + 0x58],EAX           [894158] 
+10EE14: MOV EAX,0x1                    [B801000000] 
+
+========

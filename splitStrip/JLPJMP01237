@@ -1,0 +1,8 @@
+
+
+D32A4: TEST RBP,RBP                   [4885ED] 
+D366D: TEST R14D,R14D                 [4585F6] 
+D3672: MOV RDI,RBP                    [4889EF] 
+D3675: MOV [RSP + 0x38],R10           [4C89542438] 
+
+========

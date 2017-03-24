@@ -1,0 +1,6 @@
+
+
+EEFD4: CMP EDI,0x56                   [83FF56] 
+EEFD9: MOV EAX,0x7                    [B807000000] 
+
+========

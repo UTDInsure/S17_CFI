@@ -1,0 +1,16 @@
+
+
+351C4: MOV RDX,0x7fffffffffffffff     [48BAFFFFFFFFFFFFFF7F] 
+351CE: MOV RAX,0x7ff0000000000000     [48B8000000000000F07F] 
+351D8: MOVQ RCX,XMM0                  [66480F7EC1] 
+351DD: AND RDX,RCX                    [4821CA] 
+351E0: SAR RCX,0x3e                   [48C1F93E] 
+351E4: XOR RDX,RAX                    [4831C2] 
+351E7: MOV RAX,RDX                    [4889D0] 
+351EA: NEG RAX                        [48F7D8] 
+351ED: OR RAX,RDX                     [4809D0] 
+351F0: SAR RAX,0x3f                   [48C1F83F] 
+351F4: NOT EAX                        [F7D0] 
+351F6: AND EAX,ECX                    [21C8] 
+
+========

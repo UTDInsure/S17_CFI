@@ -1,0 +1,11 @@
+
+
+79654: PUSH RBX                       [53] 
+79655: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7965B: MOV RBX,RDI                    [4889FB] 
+7965E: TEST EAX,EAX                   [85C0] 
+796C0: CMP EAX,-0x1                   [83F8FF] 
+796C5: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+796CA: POP RBX                        [5B] 
+
+========

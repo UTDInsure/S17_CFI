@@ -1,0 +1,23 @@
+
+
+415B54: PUSH R15                       [4157] 
+415B56: PUSH R14                       [4156] 
+415B58: PUSH R13                       [4155] 
+415B5A: PUSH R12                       [4154] 
+415B5C: PUSH RBP                       [55] 
+415B5D: PUSH RBX                       [53] 
+415B5E: SUB RSP,0x48                   [4883EC48] 
+415B62: TEST R9,R9                     [4D85C9] 
+415B65: MOV [RSP + 0x20],RCX           [48894C2420] 
+415B6A: MOV [RSP + 0x38],R8            [4C89442438] 
+415B6F: MOV [RSP + 0x30],R9            [4C894C2430] 
+415B7A: TEST R8,R8                     [4D85C0] 
+415CE0: ADD RSP,0x48                   [4883C448] 
+415CE4: POP RBX                        [5B] 
+415CE5: POP RBP                        [5D] 
+415CE6: POP R12                        [415C] 
+415CE8: POP R13                        [415D] 
+415CEA: POP R14                        [415E] 
+415CEC: POP R15                        [415F] 
+
+========

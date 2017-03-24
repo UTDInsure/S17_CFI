@@ -1,0 +1,10 @@
+
+
+2E624: LEA EAX,[RDI + -0x1]           [8D47FF] 
+2E627: PUSH RBX                       [53] 
+2E628: MOV EBX,EDI                    [89FB] 
+2E62A: CMP EAX,0xfe                   [3DFE000000] 
+2E631: MOV RAX,[0x0024a880]           [488B0548C22100] 
+2E638: CMP dword ptr [RAX],0x0        [48833800] 
+
+========

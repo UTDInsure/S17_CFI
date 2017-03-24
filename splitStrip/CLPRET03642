@@ -1,0 +1,26 @@
+
+
+89AD4: MOV RAX,[0x00368dc0]           [488B05E5F22D00] 
+89ADB: MOV RDX,FS:[RAX]               [64488B10] 
+89ADF: NOP                            [0F1F440000] 
+89AE4: NOP                            [6666662E0F1F840000000000] 
+89AF4: MOV RAX,[RDX]                  [488B02] 
+89AF7: TEST dword ptr [0x278 + RAX],0x1 [F7807802000001000000] 
+948B4: CMP RDI,RSI                    [4839F7] 
+948B9: MOV RDX,[RDX + 0x70]           [488B5270] 
+948C9: ADD RSI,0x1                    [4883C601] 
+948CD: MOVZX R8D,byte ptr [RDI]       [440FB607] 
+948D1: MOVZX ECX,byte ptr [RSI + -0x1] [0FB64EFF] 
+948D5: MOVZX EAX,R8B                  [410FB6C0] 
+948D9: MOV EAX,[RDX + RAX*0x4]        [8B0482] 
+948DC: SUB EAX,[RDX + RCX*0x4]        [2B048A] 
+948C0: ADD RDI,0x1                    [4883C701] 
+948C4: TEST R8B,R8B                   [4584C0] 
+948C9: ADD RSI,0x1                    [4883C601] 
+948CD: MOVZX R8D,byte ptr [RDI]       [440FB607] 
+948D1: MOVZX ECX,byte ptr [RSI + -0x1] [0FB64EFF] 
+948D5: MOVZX EAX,R8B                  [410FB6C0] 
+948D9: MOV EAX,[RDX + RAX*0x4]        [8B0482] 
+948DC: SUB EAX,[RDX + RCX*0x4]        [2B048A] 
+
+========

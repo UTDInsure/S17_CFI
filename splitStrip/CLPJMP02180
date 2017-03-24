@@ -1,0 +1,11 @@
+
+
+21414: CMP byte ptr [0x0024b738],0x0  [803D1DA3220000] 
+2141B: PUSH RBX                       [53] 
+21422: TEST DIL,DIL                   [4084FF] 
+214C0: LEA RDX,[0x24b600]             [488D1539A12200] 
+214C7: LEA RSI,[0x24b6a0]             [488D35D2A12200] 
+214CE: MOV EDI,0x14                   [BF14000000] 
+214D3: MOV dword ptr [0x0024b6a0],0x1 [48C705C2A1220001000000] 
+
+========

@@ -1,0 +1,14 @@
+
+
+AE5B4: PUSH RBP                       [55] 
+AE5B5: MOV EBP,EDI                    [89FD] 
+AE5B7: PUSH RBX                       [53] 
+AE5B8: SUB RSP,0x8                    [4883EC08] 
+AE5BC: CMP EBP,0x63                   [83FD63] 
+AE6A0: XOR EBX,EBX                    [31DB] 
+AE6A2: ADD RSP,0x8                    [4883C408] 
+AE6A6: MOV RAX,RBX                    [4889D8] 
+AE6A9: POP RBX                        [5B] 
+AE6AA: POP RBP                        [5D] 
+
+========

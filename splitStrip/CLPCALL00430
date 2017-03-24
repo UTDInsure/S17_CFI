@@ -1,0 +1,10 @@
+
+
+71B14: PUSH RBX                       [53] 
+71B15: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+71B1C: MOV RBX,RDI                    [4889FB] 
+71B1F: MOV RDI,[RAX + 0x30]           [488B7830] 
+71B23: TEST RDI,RDI                   [4885FF] 
+71B28: TEST byte ptr [RBX + 0x74],0x8 [F6437408] 
+
+========

@@ -1,0 +1,8 @@
+
+
+36184: MOV R10D,0x8                   [41BA08000000] 
+3618A: MOVSXD RDI,EDI                 [4863FF] 
+3618D: MOV EAX,0xe                    [B80E000000] 
+36194: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

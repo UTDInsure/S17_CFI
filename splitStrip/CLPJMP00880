@@ -1,0 +1,24 @@
+
+
+77F14: PUSH R12                       [4154] 
+77F16: PUSH RBP                       [55] 
+77F17: PUSH RBX                       [53] 
+77F18: MOV EAX,[RDI + 0x70]           [8B4770] 
+77F1B: MOV RBX,RDI                    [4889FB] 
+77F1E: CMP EAX,-0x1                   [83F8FF] 
+77F27: MOV EDX,[RDI]                  [8B17] 
+77F29: XOR R12D,R12D                  [4531E4] 
+77F2C: AND EDX,0x808                  [81E208080000] 
+77F32: CMP EDX,0x800                  [81FA00080000] 
+77F3E: MOV RDI,RBX                    [4889DF] 
+77F41: XOR EBP,EBP                    [31ED] 
+7A794: CMP dword ptr [RDI + 0x60],0x0 [48837F6000] 
+7A79B: MOV dword ptr [RDI + 0x60],0x0 [48C7476000000000] 
+7A7A3: CMP dword ptr [RDI + 0x48],0x0 [48837F4800] 
+7A7AA: SUB RSP,0x8                    [4883EC08] 
+79514: PUSH RBX                       [53] 
+79515: TEST dword ptr [RDI],0x100     [F70700010000] 
+7951B: MOV RBX,RDI                    [4889FB] 
+79529: MOV RDI,[RBX + 0x48]           [488B7B48] 
+
+========

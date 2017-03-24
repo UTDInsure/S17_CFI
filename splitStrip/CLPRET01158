@@ -1,0 +1,22 @@
+
+
+416B04: SUB RSP,0x8                    [4883EC08] 
+416B08: XOR EAX,EAX                    [31C0] 
+416B0A: MOV EDI,0x6273b0               [BFB0736200] 
+416084: PUSH RBP                       [55] 
+416085: MOV RBP,RDI                    [4889FD] 
+416088: PUSH RBX                       [53] 
+416089: SUB RSP,0x8                    [4883EC08] 
+41608D: MOV RDI,[RDI]                  [488B3F] 
+416090: TEST RDI,RDI                   [4885FF] 
+4160B4: MOV dword ptr [RBP],0x0        [48C7450000000000] 
+4160BC: MOV dword ptr [0x0062b9e0],-0x1 [48C70519592100FFFFFFFF] 
+4160C7: MOV dword ptr [0x0062b9e8],-0x1 [48C70516592100FFFFFFFF] 
+4160D2: ADD RSP,0x8                    [4883C408] 
+4160D6: POP RBX                        [5B] 
+4160D7: POP RBP                        [5D] 
+416B18: CMP dword ptr [0x0062bb54],0x2 [833D3550210002] 
+416B1F: MOV dword ptr [0x0062b9f0],0x0 [C705C74E210000000000] 
+416B2B: ADD RSP,0x8                    [4883C408] 
+
+========

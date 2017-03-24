@@ -1,0 +1,10 @@
+
+
+1A7A4: TEST RDI,RDI                   [4885FF] 
+1A7A7: PUSH RBX                       [53] 
+1A7A8: MOV RBX,RDI                    [4889FB] 
+1A7B1: CMP byte ptr [0x404 + RDI],0x0 [80BF0404000000] 
+1A7B8: MOV EAX,0x1                    [B801000000] 
+1A88C: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,6 @@
+
+
+18AF4: MOV EAX,0x1                    [B801000000] 
+18AFB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

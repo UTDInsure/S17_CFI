@@ -1,0 +1,6 @@
+
+
+E3B84: MOV EAX,0x131                  [B831010000] 
+E3B8B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,14 @@
+
+
+318EB: MOVZX EAX,byte ptr [RBP + 0x1] [0FB64501] 
+318EF: XOR ECX,ECX                    [31C9] 
+318F1: LEA RDX,[RBP + 0x1]            [488D5501] 
+318F5: TEST AL,AL                     [84C0] 
+31220: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+31228: LEA RAX,[RDX + 0x1]            [488D4201] 
+3122C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+312C0: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+312C8: LEA RSI,[RAX + RAX*0x1]        [488D3400] 
+312CC: MOV [0x1e8 + R12],RSI          [4989B424E8010000] 
+
+========

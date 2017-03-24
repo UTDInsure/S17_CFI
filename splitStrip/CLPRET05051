@@ -1,0 +1,9 @@
+
+
+D9554: TEST ECX,0xffffffe0            [F7C1E0FFFFFF] 
+D955A: MOV R8D,ECX                    [4189C8] 
+D9580: MOV RAX,[0x00368e68]           [488B05E1F82800] 
+D9587: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D958E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,28 @@
+
+
+6D064: PUSH RBP                       [55] 
+6D065: MOV RBP,RSI                    [4889F5] 
+6D068: PUSH RBX                       [53] 
+6D069: MOV RBX,RDI                    [4889FB] 
+6D06C: SUB RSP,0x8                    [4883EC08] 
+6D070: MOV EAX,[RDI]                  [8B07] 
+6D072: AND EAX,0x8000                 [2500800000] 
+6D0D3: MOV RSI,[RBP]                  [488B7500] 
+6D0D7: MOV EDX,0x3                    [BA03000000] 
+6D0DC: MOV RDI,RBX                    [4889DF] 
+6E8C4: PUSH R12                       [4154] 
+6E8C6: MOV R12D,EDX                   [4189D4] 
+6E8C9: PUSH RBP                       [55] 
+6E8CA: MOV RBP,RSI                    [4889F5] 
+6E8CD: PUSH RBX                       [53] 
+6E8CE: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+6E8D4: MOV RBX,RDI                    [4889FB] 
+6E8D7: TEST EAX,EAX                   [85C0] 
+6E910: CMP dword ptr [RDI + 0x48],0x0 [48837F4800] 
+6E8F2: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+6E8F9: MOV ECX,R12D                   [4489E1] 
+6E8FC: MOV RSI,RBP                    [4889EE] 
+6E8FF: MOV RDI,RBX                    [4889DF] 
+6E902: XOR EDX,EDX                    [31D2] 
+
+========

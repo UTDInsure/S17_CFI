@@ -1,0 +1,24 @@
+
+
+124D4: PUSH R14                       [4156] 
+124D6: PUSH R13                       [4155] 
+124D8: MOV R13D,ESI                   [4189F5] 
+124DB: PUSH R12                       [4154] 
+124DD: MOV R12,RDI                    [4989FC] 
+124E0: PUSH RBP                       [55] 
+124E1: XOR EBP,EBP                    [31ED] 
+124E3: PUSH RBX                       [53] 
+124E4: MOV R14,[RDI + 0x8]            [4C8B7708] 
+124E8: MOV RAX,[R14 + -0x10]          [498B46F0] 
+124EC: MOV RBX,R14                    [4C89F3] 
+1251D: CMP RBP,RAX                    [4839C5] 
+124F8: ADD RBP,0x1                    [4883C501] 
+124FC: CMP byte ptr [RBX + 0x18],0x0  [807B1800] 
+12502: MOV RDI,[RBX + 0x10]           [488B7B10] 
+12506: CMP RDI,-0x1                   [4883FFFF] 
+12519: ADD RBX,0x10                   [4883C310] 
+1251D: CMP RBP,RAX                    [4839C5] 
+12522: CMP [0x00222fb8],R14           [4C39358F0A2100] 
+1252B: LEA RDI,[R14 + -0x10]          [498D7EF0] 
+
+========

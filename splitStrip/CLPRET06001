@@ -1,0 +1,18 @@
+
+
+E7034: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E703C: MOV RAX,[RSI]                  [488B06] 
+E703F: MOV EDX,[0xc8 + RAX]           [8B90C8000000] 
+E7045: ADD EDX,0xb                    [83C20B] 
+E7048: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E704D: MOV EAX,EDI                    [89F8] 
+E704F: MOV ECX,[RDX]                  [8B0A] 
+E7051: SHR EAX,CL                     [D3E8] 
+E7053: MOV ECX,EAX                    [89C1] 
+E7055: XOR EAX,EAX                    [31C0] 
+E7057: CMP ECX,[RDX + 0x4]            [3B4A04] 
+E705C: ADD ECX,0x5                    [83C105] 
+E705F: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+E7062: TEST ECX,ECX                   [85C9] 
+
+========

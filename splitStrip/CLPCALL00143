@@ -1,0 +1,16 @@
+
+
+23DA4: PUSH RBP                       [55] 
+23DA5: MOV RBP,RSI                    [4889F5] 
+23DA8: PUSH RBX                       [53] 
+23DA9: MOV RBX,RDI                    [4889FB] 
+23DAC: SUB RSP,0x18                   [4883EC18] 
+23DB0: MOV EDI,[0x0036e770]           [8B3DBAA93400] 
+23DB6: TEST EDI,EDI                   [85FF] 
+23E30: MOV RAX,[0x0036e6f8]           [488B05C1A83400] 
+23E37: LEA RSI,[0x24bb0]              [488D35720D0000] 
+23E3E: LEA RDI,[0x36a8f8]             [488D3DB36A3400] 
+23E45: ROR RAX,0x11                   [48C1C811] 
+23E49: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

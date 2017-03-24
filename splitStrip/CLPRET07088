@@ -1,0 +1,23 @@
+
+
+10B124: PUSH RBP                       [55] 
+10B125: MOV EDX,0x30                   [BA30000000] 
+10B12A: MOV RBP,RSI                    [4889F5] 
+10B12D: PUSH RBX                       [53] 
+10B12E: MOV RBX,RDI                    [4889FB] 
+10B131: SUB RSP,0x8                    [4883EC08] 
+114074: TEST EDX,EDX                   [85D2] 
+114076: MOV EAX,0x1                    [B801000000] 
+10B13E: TEST EAX,EAX                   [85C0] 
+10B142: LEA RSI,[RBP + 0x30]           [488D7530] 
+10B146: MOV EDX,0x30                   [BA30000000] 
+10B14B: MOV RDI,RBX                    [4889DF] 
+114074: TEST EDX,EDX                   [85D2] 
+114076: MOV EAX,0x1                    [B801000000] 
+10B157: TEST EAX,EAX                   [85C0] 
+10B15B: ADD RSP,0x8                    [4883C408] 
+10B15F: XOR EAX,EAX                    [31C0] 
+10B161: POP RBX                        [5B] 
+10B162: POP RBP                        [5D] 
+
+========

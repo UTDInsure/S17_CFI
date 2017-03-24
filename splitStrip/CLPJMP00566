@@ -1,0 +1,9 @@
+
+
+415734: SUB RSP,0x8                    [4883EC08] 
+415738: MOV EDI,0x41e580               [BF80E54100] 
+41573D: XOR EAX,EAX                    [31C0] 
+402894: PUSH RBX                       [53] 
+402895: MOV RBX,RDI                    [4889FB] 
+
+========

@@ -1,0 +1,8 @@
+
+
+83384: PUSH RBX                       [53] 
+83385: MOV RBX,[0x0036b8d8]           [488B1D4C852E00] 
+8338C: TEST RBX,RBX                   [4885DB] 
+83409: POP RBX                        [5B] 
+
+========

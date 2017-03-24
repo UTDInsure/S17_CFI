@@ -1,0 +1,9 @@
+
+
+B45E4: TEST EDI,EDI                   [85FF] 
+B45EC: MOV R8,[RSI]                   [4C8B06] 
+B45EF: CMP R8,0x12ff7b6               [4981F8B6F72F01] 
+B4650: CMP R8,0x52654973              [4981F873496552] 
+B46F8: MOV EAX,0xfc17                 [B817FC0000] 
+
+========

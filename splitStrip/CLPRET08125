@@ -1,0 +1,11 @@
+
+
+1AF24: MOV RAX,[0x0024a7a0]           [488B0575F82200] 
+1AF2B: MOV RDX,[RAX]                  [488B10] 
+1AF2E: MOV EAX,0xa6                   [B8A6000000] 
+1AF33: TEST RDX,RDX                   [4885D2] 
+1AF38: TEST EDI,EDI                   [85FF] 
+1AF3A: MOV EAX,[0x40c + RDX]          [8B820C040000] 
+1AF42: MOV [0x40c + RDX],EDI          [89BA0C040000] 
+
+========

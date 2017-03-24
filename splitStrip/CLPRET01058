@@ -1,0 +1,15 @@
+
+
+414CA4: MOV RAX,RDI                    [4889F8] 
+414CA7: MOV ESI,0x1                    [BE01000000] 
+414CC3: MOVZX EDX,byte ptr [RAX + 0x1] [0FB65001] 
+414CC7: LEA RCX,[RAX + 0x1]            [488D4801] 
+414CCB: CMP DL,0x3a                    [80FA3A] 
+414CE8: CMP ESI,0x1                    [83FE01] 
+414CC0: MOV RAX,RCX                    [4889C8] 
+414CC3: MOVZX EDX,byte ptr [RAX + 0x1] [0FB65001] 
+414CC7: LEA RCX,[RAX + 0x1]            [488D4801] 
+414CCB: CMP DL,0x3a                    [80FA3A] 
+414CB0: TEST DL,DL                     [84D2] 
+
+========

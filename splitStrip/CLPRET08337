@@ -1,0 +1,14 @@
+
+
+224C4: PUSH RBP                       [55] 
+224C5: PUSH RBX                       [53] 
+224C6: MOV RBX,RDI                    [4889FB] 
+224C9: SUB RSP,0x8                    [4883EC08] 
+224CD: TEST RDI,RDI                   [4885FF] 
+224D6: MOV RBP,[RDI + 0x48]           [488B6F48] 
+224DA: TEST RBP,RBP                   [4885ED] 
+22588: ADD RSP,0x8                    [4883C408] 
+2258C: POP RBX                        [5B] 
+2258D: POP RBP                        [5D] 
+
+========

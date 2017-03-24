@@ -1,0 +1,9 @@
+
+
+767A4: MOV RAX,[RDI + 0x8]            [488B4708] 
+767A8: CMP RAX,[RDI + 0x10]           [483B4710] 
+767AE: LEA RDX,[RAX + 0x1]            [488D5001] 
+767B2: MOV [RDI + 0x8],RDX            [48895708] 
+767B6: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+
+========

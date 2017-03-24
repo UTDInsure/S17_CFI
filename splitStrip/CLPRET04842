@@ -1,0 +1,8 @@
+
+
+D6234: CMP EDX,0x4                    [83FA04] 
+D6239: MOVSXD RDX,EDX                 [4863D2] 
+D623C: MOV EAX,0x1c                   [B81C000000] 
+D6243: NEG EAX                        [F7D8] 
+
+========

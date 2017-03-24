@@ -1,0 +1,16 @@
+
+
+83864: MOV RDX,[RDI + 0x8]            [488B5708] 
+83868: XOR EAX,EAX                    [31C0] 
+8386A: TEST RDX,RDX                   [4885D2] 
+8386F: NOP                            [90] 
+83870: ADD EAX,[RDX]                  [0302] 
+83872: SUB EAX,EDX                    [29D0] 
+83874: MOV RDX,[RDX + 0x8]            [488B5208] 
+83878: TEST RDX,RDX                   [4885D2] 
+83870: ADD EAX,[RDX]                  [0302] 
+83872: SUB EAX,EDX                    [29D0] 
+83874: MOV RDX,[RDX + 0x8]            [488B5208] 
+83878: TEST RDX,RDX                   [4885D2] 
+
+========

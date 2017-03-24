@@ -1,0 +1,17 @@
+
+
+102314: PUSH RBX                       [53] 
+102315: XOR EAX,EAX                    [31C0] 
+102317: NOP                            [660F1F840000000000] 
+102320: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+102323: TEST CL,CL                     [84C9] 
+10232B: CMP EAX,EDX                    [39D0] 
+102333: LEA R8D,[RCX + -0x2e]          [448D41D2] 
+102337: CMP R8B,0x1                    [4180F801] 
+102341: CMP CL,0x2b                    [80F92B] 
+1023F8: ADD RDI,0x1                    [4883C701] 
+102320: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+102323: TEST CL,CL                     [84C9] 
+1023F0: POP RBX                        [5B] 
+
+========

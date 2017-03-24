@@ -1,0 +1,23 @@
+
+
+23164: SUB RSP,0x18                   [4883EC18] 
+23168: LEA RDX,[0x23140]              [488D15D1FFFFFF] 
+2316F: LEA RSI,[0x36e360]             [488D35EAB13400] 
+23176: MOV [RSP],RDI                  [48893C24] 
+2317A: MOV RDI,RSP                    [4889E7] 
+E1634: PUSH R12                       [4154] 
+E1636: TEST RSI,RSI                   [4885F6] 
+E1639: MOV R12,RDI                    [4989FC] 
+E163C: PUSH RBP                       [55] 
+E163D: MOV RBP,RDX                    [4889D5] 
+E1640: PUSH RBX                       [53] 
+E166E: POP RBX                        [5B] 
+E166F: POP RBP                        [5D] 
+E1670: XOR EAX,EAX                    [31C0] 
+E1672: POP R12                        [415C] 
+23186: TEST RAX,RAX                   [4885C0] 
+2318B: MOV RAX,[RAX]                  [488B00] 
+2318E: MOV RAX,[RAX + 0x8]            [488B4008] 
+23192: ADD RSP,0x18                   [4883C418] 
+
+========

@@ -1,0 +1,6 @@
+
+
+93764: MOV byte ptr [RDI],0x0         [C60700] 
+9376B: MOV RAX,RDI                    [4889F8] 
+
+========

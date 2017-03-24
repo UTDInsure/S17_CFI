@@ -1,0 +1,21 @@
+
+
+AE6B4: PUSH R13                       [4155] 
+AE6B6: MOV R13D,EDI                   [4189FD] 
+AE6B9: PUSH R12                       [4154] 
+AE6BB: PUSH RBP                       [55] 
+AE6BC: PUSH RBX                       [53] 
+AE6BD: SUB RSP,0x18                   [4883EC18] 
+AE6C1: CMP R13D,0x63                  [4183FD63] 
+AE6CB: MOV RAX,[0x350 + RSI]          [488B8650030000] 
+AE6D2: MOV R10D,[RAX]                 [448B10] 
+AE6D5: TEST R10D,R10D                 [4585D2] 
+AE7FF: ADD RSP,0x18                   [4883C418] 
+AE803: XOR EBX,EBX                    [31DB] 
+AE805: MOV RAX,RBX                    [4889D8] 
+AE808: POP RBX                        [5B] 
+AE809: POP RBP                        [5D] 
+AE80A: POP R12                        [415C] 
+AE80C: POP R13                        [415D] 
+
+========

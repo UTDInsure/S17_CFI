@@ -1,0 +1,16 @@
+
+
+40DC84: TEST RDI,RDI                   [4885FF] 
+40DC87: MOV EAX,0x626500               [B800656200] 
+40DC8C: CMOVNZ RAX,RDI                 [480F45C7] 
+40DC90: MOV RAX,[RAX + 0x8]            [488B4008] 
+40DC94: CMP RAX,0x626500               [483D00656200] 
+40DCA8: TEST RDI,RDI                   [4885FF] 
+40DCAB: MOV EAX,0x626500               [B800656200] 
+40DCB0: CMOVZ RDI,RAX                  [480F44F8] 
+40DCB4: XOR EAX,EAX                    [31C0] 
+40DCB6: MOV RDX,[RDI]                  [488B17] 
+40DCB9: CMP RDX,0x626500               [4881FA00656200] 
+40DCC0: CMOVNZ RAX,RDX                 [480F45C2] 
+
+========

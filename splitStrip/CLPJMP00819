@@ -1,0 +1,11 @@
+
+
+6E404: PUSH R12                       [4154] 
+6E406: MOV R12,RSI                    [4989F4] 
+6E409: PUSH RBP                       [55] 
+6E40A: MOV RBP,RDI                    [4889FD] 
+6E40D: MOV EDI,0x100                  [BF00010000] 
+6E412: PUSH RBX                       [53] 
+6E413: SUB RSP,0x10                   [4883EC10] 
+
+========

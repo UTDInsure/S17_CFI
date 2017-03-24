@@ -1,0 +1,23 @@
+
+
+21414: CMP byte ptr [0x0024b738],0x0  [803D1DA3220000] 
+2141B: PUSH RBX                       [53] 
+214A8: MOV RBX,[0x0024a8a0]           [488B1DF1932200] 
+214AF: CMP byte ptr [RBX + 0x8],0x0   [807B0800] 
+214B5: TEST DIL,DIL                   [4084FF] 
+21460: LEA RSI,[0x21040]              [488D35D9FBFFFF] 
+21467: MOV EDI,0x2                    [BF02000000] 
+21354: PUSH R12                       [4154] 
+21356: XOR EAX,EAX                    [31C0] 
+21358: MOV ECX,0x13                   [B913000000] 
+2135D: MOV R12,RSI                    [4989F4] 
+21360: PUSH RBP                       [55] 
+21361: MOV EBP,EDI                    [89FD] 
+21363: PUSH RBX                       [53] 
+21364: SUB RSP,0x140                  [4881EC40010000] 
+2136B: LEA RBX,[0xa0 + RSP]           [488D9C24A0000000] 
+21373: MOV RDI,RBX                    [4889DF] 
+21376: STOSQ.REP RDI                  [F348AB] 
+21379: LEA RDI,[RBX + 0x8]            [488D7B08] 
+
+========

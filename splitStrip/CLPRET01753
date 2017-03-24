@@ -1,0 +1,10 @@
+
+
+36B44: LEA EAX,[RDI + -0x1]           [8D47FF] 
+36B47: MOV R8D,EDI                    [4189F8] 
+36B4A: CMP EAX,0x3f                   [83F83F] 
+36BB0: MOV RAX,[0x00368e68]           [488B05B1223300] 
+36BB7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+36BBE: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

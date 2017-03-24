@@ -1,0 +1,18 @@
+
+
+40C6F4: PUSH R13                       [4155] 
+40C6F6: PUSH R12                       [4154] 
+40C6F8: MOV R12,RDI                    [4989FC] 
+40C6FB: PUSH RBP                       [55] 
+40C6FC: PUSH RBX                       [53] 
+40C6FD: SUB RSP,0x8                    [4883EC08] 
+40C701: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+40C704: TEST AL,AL                     [84C0] 
+40C87C: MOV EDI,0x1                    [BF01000000] 
+40C732: XOR EAX,EAX                    [31C0] 
+40C734: MOV ESI,0x1                    [BE01000000] 
+402854: SUB RSP,0x8                    [4883EC08] 
+402858: MOV ESI,ESI                    [89F6] 
+40285A: MOVSXD RDI,EDI                 [4863FF] 
+
+========

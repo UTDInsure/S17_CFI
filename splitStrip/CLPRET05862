@@ -1,0 +1,27 @@
+
+
+E56C4: CMP dword ptr [0x00369220],0x2 [48833D543B280002] 
+E56CE: SUB RSP,0x8                    [4883EC08] 
+E56D2: TEST EDI,EDI                   [85FF] 
+E56D6: XOR ECX,ECX                    [31C9] 
+E56D8: XOR EDX,EDX                    [31D2] 
+E56DA: XOR ESI,ESI                    [31F6] 
+E56DC: XOR EDI,EDI                    [31FF] 
+E5B54: PUSH R13                       [4155] 
+E5B56: PUSH R12                       [4154] 
+E5B58: PUSH RBP                       [55] 
+E5B59: PUSH RBX                       [53] 
+E5B5A: MOV RBX,RDI                    [4889FB] 
+E5B5D: SUB RSP,0xc8                   [4881ECC8000000] 
+E5B64: TEST RDI,RDI                   [4885FF] 
+E5C90: XOR EAX,EAX                    [31C0] 
+E5C92: CMP dword ptr [0x0036c438],0x0 [48833D9E67280000] 
+E5C7B: ADD RSP,0xc8                   [4881C4C8000000] 
+E5C82: POP RBX                        [5B] 
+E5C83: POP RBP                        [5D] 
+E5C84: POP R12                        [415C] 
+E5C86: POP R13                        [415D] 
+E56E7: MOV dword ptr [0x00369220],0x3 [48C7052E3B280003000000] 
+E56F2: ADD RSP,0x8                    [4883C408] 
+
+========

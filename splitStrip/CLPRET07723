@@ -1,0 +1,20 @@
+
+
+11C384: PUSH RBX                       [53] 
+11C385: MOV RBX,RDI                    [4889FB] 
+11C388: LEA RDX,[RDI + 0x18]           [488D5718] 
+11C38C: XOR R9D,R9D                    [4531C9] 
+11C38F: XOR R8D,R8D                    [4531C0] 
+11C392: SUB RSP,0x10                   [4883EC10] 
+11C396: MOV RSI,[RDI]                  [488B37] 
+11C399: MOV RAX,[0x00368e60]           [488B05C0CA2400] 
+11C3A0: MOV dword ptr [RDI + 0x18],0x0 [48C7471800000000] 
+11C3A8: MOV RDI,[RDI + 0x8]            [488B7F08] 
+11C3AC: MOV dword ptr [RSP + 0x8],0x0  [48C744240800000000] 
+11C3B5: MOV dword ptr [RSP],0x2        [C7042402000000] 
+11C3BC: LEA RCX,[0x388 + RSI]          [488D8E88030000] 
+11C3CD: MOV [RBX + 0x10],RAX           [48894310] 
+11C3D1: ADD RSP,0x10                   [4883C410] 
+11C3D5: POP RBX                        [5B] 
+
+========

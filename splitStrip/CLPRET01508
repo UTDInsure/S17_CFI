@@ -1,0 +1,8 @@
+
+
+33A54: TEST RDI,RDI                   [4885FF] 
+33A57: PUSH RBX                       [53] 
+33A58: MOV RBX,RDI                    [4889FB] 
+33A7A: POP RBX                        [5B] 
+
+========

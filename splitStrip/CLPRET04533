@@ -1,0 +1,26 @@
+
+
+BC164: PUSH R15                       [4157] 
+BC166: MOV R15,RDI                    [4989FF] 
+BC169: PUSH R14                       [4156] 
+BC16B: PUSH R13                       [4155] 
+BC16D: PUSH R12                       [4154] 
+BC16F: MOV R12,RSI                    [4989F4] 
+BC172: PUSH RBP                       [55] 
+BC173: XOR EBP,EBP                    [31ED] 
+BC175: PUSH RBX                       [53] 
+BC176: XOR EBX,EBX                    [31DB] 
+BC178: SUB RSP,0x28                   [4883EC28] 
+BC17C: MOV R8D,[RSI + 0x4]            [448B4604] 
+BC180: MOV R14,[RDI + 0x70]           [4C8B7770] 
+BC184: TEST R8D,R8D                   [4585C0] 
+BC260: XOR EAX,EAX                    [31C0] 
+BC262: ADD RSP,0x28                   [4883C428] 
+BC266: POP RBX                        [5B] 
+BC267: POP RBP                        [5D] 
+BC268: POP R12                        [415C] 
+BC26A: POP R13                        [415D] 
+BC26C: POP R14                        [415E] 
+BC26E: POP R15                        [415F] 
+
+========

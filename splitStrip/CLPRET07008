@@ -1,0 +1,13 @@
+
+
+109CE4: PUSH RBX                       [53] 
+109CE5: MOV RBX,[RDI + 0x18]           [488B5F18] 
+109CE9: MOV RSI,[RBX + 0x68]           [488B7368] 
+109CED: TEST RSI,RSI                   [4885F6] 
+109D09: MOV EDX,[RBX + 0x70]           [8B5370] 
+109D0C: TEST EDX,EDX                   [85D2] 
+109D40: MOV dword ptr [RBX + 0x70],0x0 [C7437000000000] 
+109D47: MOV EAX,0x1                    [B801000000] 
+109D4C: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,20 @@
+
+
+ACB99: MOV RAX,[-0xe8 + RBP]          [488B8518FFFFFF] 
+ACBA0: MOV ECX,[RAX + 0x20]           [8B4820] 
+ACBA3: TEST ECX,ECX                   [85C9] 
+AD0AD: MOV RAX,RBX                    [4889D8] 
+ABE38: MOV EAX,[RAX + 0x4]            [8B4004] 
+ABE3B: ADD RBX,0x4                    [4883C304] 
+ABE3F: TEST EAX,EAX                   [85C0] 
+AC07A: TEST R13,R13                   [4D85ED] 
+AC20E: MOV RAX,R14                    [4C89F0] 
+ABF62: LEA RSP,[RBP + -0x28]          [488D65D8] 
+ABF66: POP RBX                        [5B] 
+ABF67: POP R12                        [415C] 
+ABF69: POP R13                        [415D] 
+ABF6B: POP R14                        [415E] 
+ABF6D: POP R15                        [415F] 
+ABF6F: POP RBP                        [5D] 
+
+========

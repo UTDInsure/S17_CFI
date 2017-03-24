@@ -1,0 +1,19 @@
+
+
+90DA4: PUSH R15                       [4157] 
+90DA6: MOV R15,RDX                    [4989D7] 
+90DA9: PUSH R14                       [4156] 
+90DAB: MOV R14,RCX                    [4989CE] 
+90DAE: PUSH R13                       [4155] 
+90DB0: MOV R13,RCX                    [4989CD] 
+90DB3: PUSH R12                       [4154] 
+90DB5: MOV R12,RDI                    [4989FC] 
+90DB8: PUSH RBP                       [55] 
+90DB9: PUSH RBX                       [53] 
+90DBA: MOV RBX,RSI                    [4889F3] 
+90DBD: SUB RSP,0x8                    [4883EC08] 
+90DC1: ADD R13,[RSI]                  [4C032E] 
+90DC4: MOV RDI,[RDI]                  [488B3F] 
+90DC7: LEA RSI,[R13 + 0x1]            [498D7501] 
+
+========

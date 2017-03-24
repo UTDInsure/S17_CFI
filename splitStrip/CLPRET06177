@@ -1,0 +1,25 @@
+
+
+ED3F4: PUSH RBP                       [55] 
+ED3F5: MOV RBP,RSP                    [4889E5] 
+ED3F8: PUSH R15                       [4157] 
+ED3FA: PUSH R14                       [4156] 
+ED3FC: PUSH R13                       [4155] 
+ED3FE: PUSH R12                       [4154] 
+ED400: PUSH RBX                       [53] 
+ED401: SUB RSP,0xb8                   [4881ECB8000000] 
+ED408: TEST RDX,RDX                   [4885D2] 
+ED40B: MOV [-0xd0 + RBP],RDI          [4889BD30FFFFFF] 
+ED412: MOV [-0xb8 + RBP],RDX          [48899548FFFFFF] 
+ED419: MOV RDI,RDX                    [4889D7] 
+ED41C: MOV [-0x84 + RBP],ECX          [898D7CFFFFFF] 
+ED422: MOV [-0xa0 + RBP],R8           [4C898560FFFFFF] 
+EDB90: LEA RSP,[RBP + -0x28]          [488D65D8] 
+EDB94: POP RBX                        [5B] 
+EDB95: POP R12                        [415C] 
+EDB97: POP R13                        [415D] 
+EDB99: POP R14                        [415E] 
+EDB9B: POP R15                        [415F] 
+EDB9D: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,14 @@
+
+
+23214: PUSH RBP                       [55] 
+23215: PUSH RBX                       [53] 
+23216: MOV RBX,RDI                    [4889FB] 
+23219: SUB RSP,0x8                    [4883EC08] 
+2321D: MOV RDI,[RDI]                  [488B3F] 
+23220: TEST RDI,RDI                   [4885FF] 
+23270: CMP dword ptr [RBX + 0x40],0x0 [48837B4000] 
+23269: ADD RSP,0x8                    [4883C408] 
+2326D: POP RBX                        [5B] 
+2326E: POP RBP                        [5D] 
+
+========

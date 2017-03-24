@@ -1,0 +1,17 @@
+
+
+2A424: SUB RSP,0x8                    [4883EC08] 
+2A428: TEST RDI,RDI                   [4885FF] 
+2A42D: MOV RAX,[0x0024a8a0]           [488B056C042200] 
+2A434: MOV RAX,[0x118 + RAX]          [488B8018010000] 
+2A43B: TEST RAX,RAX                   [4885C0] 
+2A450: CMP [RAX + 0x58],RDI           [48397858] 
+2A456: LEA RDI,[RAX + 0x10]           [488D7810] 
+2A424: SUB RSP,0x8                    [4883EC08] 
+2A428: TEST RDI,RDI                   [4885FF] 
+2A470: XOR EAX,EAX                    [31C0] 
+2A472: ADD RSP,0x8                    [4883C408] 
+2A463: ADD EAX,0x1                    [83C001] 
+2A466: ADD RSP,0x8                    [4883C408] 
+
+========

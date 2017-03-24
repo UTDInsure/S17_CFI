@@ -1,0 +1,9 @@
+
+
+17AF4: TEST DL,0x40                   [F6C240] 
+17AF9: MOVSXD RDX,EDX                 [4863D2] 
+17AFC: MOVSXD RDI,EDI                 [4863FF] 
+17AFF: MOV EAX,0x101                  [B801010000] 
+17B06: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

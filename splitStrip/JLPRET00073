@@ -1,0 +1,8 @@
+
+
+1A6D4: SUB RDI,0x40                   [4883EF40] 
+1A6D8: SUB RDX,0x1                    [4883EA01] 
+1A6DC: MOV R9,[RSI + -0x8]            [4C8B4EF8] 
+1A720: MOV [RDI + 0x38],R9            [4C894F38] 
+
+========

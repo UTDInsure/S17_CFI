@@ -1,0 +1,22 @@
+
+
+413D24: MOV R8,RDX                     [4989D0] 
+413D27: MOV RDX,-0x5c28f5c28f5c28f5    [48BA0BD7A3703D0AD7A3] 
+413D31: MOV RAX,R8                     [4C89C0] 
+413D34: IMUL RDX                       [48F7EA] 
+413D37: XOR EAX,EAX                    [31C0] 
+413D39: IMUL ESI,ESI,0x2710            [69F610270000] 
+413D3F: LEA RCX,[RDX + R8*0x1]         [4A8D0C02] 
+413D43: SAR R8,0x3f                    [49C1F83F] 
+413D47: MOVSXD RSI,ESI                 [4863F6] 
+413D4A: SAR RCX,0x6                    [48C1F906] 
+413D4E: SUB RCX,R8                     [4C29C1] 
+413D51: ADD RCX,RSI                    [4801F1] 
+413D56: CVTSI2SD XMM0,RDI              [F2480F2AC7] 
+413D5B: CVTSI2SD XMM1,RCX              [F2480F2AC9] 
+413D60: MULSD XMM0,XMM1                [F20F59C1] 
+413D64: DIVSD XMM0,[0x0041de40]        [F20F5E05D4A00000] 
+413D6C: ADDSD XMM0,[0x0041de38]        [F20F5805C4A00000] 
+413D74: CVTTSD2SI RAX,XMM0             [F2480F2CC0] 
+
+========

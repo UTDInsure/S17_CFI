@@ -1,0 +1,11 @@
+
+EE5: XOR EAX,EAX                    [31C0] 
+EE7: CMP dword ptr [0x00222fb8],0x0 [48833DC920220000] 
+EEF: PUSH RBX                       [53] 
+EF0: MOV RBX,[0x00222f88]           [488B1D91202200] 
+EF7: MOV [0x00222f98],RBX           [48891D9A202200] 
+F04: LEA RDI,[RBX + 0x40]           [488D7B40] 
+F08: MOV ESI,0x1                    [BE01000000] 
+F0D: SHL RDI,0x4                    [48C1E704] 
+
+========

@@ -1,0 +1,13 @@
+
+
+190A4: MOV RDX,RDI                    [4889FA] 
+190A7: AND EDX,0x7                    [83E207] 
+190AA: MOV RAX,RDI                    [4889F8] 
+190AF: NEG EDX                        [F7DA] 
+190B1: ADD EDX,0x8                    [83C208] 
+190B4: MOV CL,[RAX]                   [8A08] 
+190B6: CMP SIL,CL                     [4038CE] 
+190BF: TEST CL,CL                     [84C9] 
+191D8: XOR EAX,EAX                    [31C0] 
+
+========

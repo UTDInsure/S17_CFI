@@ -1,0 +1,20 @@
+
+
+118C54: PUSH R14                       [4156] 
+118C56: PUSH R13                       [4155] 
+118C58: PUSH R12                       [4154] 
+118C5A: PUSH RBP                       [55] 
+118C5B: MOV RBP,RDX                    [4889D5] 
+118C5E: PUSH RBX                       [53] 
+118C5F: SUB RSP,0x10                   [4883EC10] 
+118C63: MOV RAX,[RDX + 0x8]            [488B4208] 
+118C67: CMP RAX,-0x1                   [4883F8FF] 
+118D10: ADD RSP,0x10                   [4883C410] 
+118D14: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+118D1B: POP RBX                        [5B] 
+118D1C: POP RBP                        [5D] 
+118D1D: POP R12                        [415C] 
+118D1F: POP R13                        [415D] 
+118D21: POP R14                        [415E] 
+
+========

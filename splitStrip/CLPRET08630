@@ -1,0 +1,6 @@
+
+
+35A34: TEST RDI,RDI                   [4885FF] 
+35A37: MOV RAX,RDI                    [4889F8] 
+
+========

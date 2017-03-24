@@ -1,0 +1,27 @@
+
+
+1007E4: PUSH RBP                       [55] 
+1007E5: MOV EBP,ECX                    [89CD] 
+1007E7: PUSH RBX                       [53] 
+1007E8: MOV EBX,ESI                    [89F3] 
+1007EA: MOV RSI,RDX                    [4889D6] 
+1007ED: MOVSXD RAX,EBX                 [4863C3] 
+1007F0: MOV EDX,ECX                    [89CA] 
+1007F2: SUB RSP,0x8                    [4883EC08] 
+1007F6: ADD RDI,RAX                    [4801C7] 
+8E4D4: CMP RDX,0x20                   [4883FA20] 
+8E4D8: MOV RAX,RDI                    [4889F8] 
+8E550: MOV [RSP + -0x8],RAX           [48894424F8] 
+8E555: MOV ECX,ESI                    [89F1] 
+8E557: AND ECX,0x7                    [83E107] 
+8E590: CMP RDX,0x400                  [4881FA00040000] 
+8E599: MOV ECX,EDX                    [89D1] 
+8E59B: SHR ECX,0x5                    [C1E905] 
+8E600: AND EDX,0x1f                   [83E21F] 
+8E603: MOV RAX,[RSP + -0x8]           [488B4424F8] 
+100802: ADD RSP,0x8                    [4883C408] 
+100806: LEA EAX,[RBX + RBP*0x1]        [8D042B] 
+100809: POP RBX                        [5B] 
+10080A: POP RBP                        [5D] 
+
+========

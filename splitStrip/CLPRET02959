@@ -1,0 +1,6 @@
+
+
+76AB4: TEST ESI,ESI                   [85F6] 
+76B30: XOR EAX,EAX                    [31C0] 
+
+========

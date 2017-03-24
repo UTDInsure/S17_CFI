@@ -1,0 +1,10 @@
+
+
+DD414: MOV EAX,0x99                   [B899000000] 
+DD41B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DD424: MOV RCX,[0x00368e68]           [488B0D3DBA2800] 
+DD42B: NEG EAX                        [F7D8] 
+DD42D: MOV FS:[RCX],EAX               [648901] 
+DD430: OR RAX,-0x1                    [4883C8FF] 
+
+========

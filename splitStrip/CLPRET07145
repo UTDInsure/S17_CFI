@@ -1,0 +1,7 @@
+
+
+10ECE4: CMP ESI,0xf                    [83FE0F] 
+10ECE7: MOV RCX,[RDI + 0x10]           [488B4F10] 
+10EE3C: XOR EAX,EAX                    [31C0] 
+
+========

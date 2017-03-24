@@ -1,0 +1,7 @@
+
+
+361E4: MOV ESI,0x8                    [BE08000000] 
+361E9: MOV EAX,0x7f                   [B87F000000] 
+361F0: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

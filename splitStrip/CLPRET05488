@@ -1,0 +1,10 @@
+
+
+E1064: TEST RDI,RDI                   [4885FF] 
+E1067: PUSH RBX                       [53] 
+E1068: MOV RBX,RDI                    [4889FB] 
+E1088: MOV RAX,[0x00368e68]           [488B05D97D2800] 
+E108F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+E1096: POP RBX                        [5B] 
+
+========

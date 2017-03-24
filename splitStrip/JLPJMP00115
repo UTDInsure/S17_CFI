@@ -1,0 +1,24 @@
+
+
+40741C: MOV RAX,[0x00627bc0]           [488B059D072200] 
+407423: MOV dword ptr [0x00627bb0],0x0 [C7058307220000000000] 
+40742D: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+407430: TEST AL,0xdf                   [A8DF] 
+407434: NOP                            [0F1F4000] 
+407438: XOR EAX,EAX                    [31C0] 
+406A24: MOV RAX,[0x00627bc0]           [488B0595112200] 
+406A2B: CMP byte ptr [RAX],0x0         [803800] 
+406A38: SUB RSP,0x28                   [4883EC28] 
+406A3C: LEA RDI,[RSP + 0x18]           [488D7C2418] 
+406A41: LEA RSI,[RSP + 0x14]           [488D742414] 
+406A46: MOV [RSP + 0x18],RAX           [4889442418] 
+406A4B: XOR EAX,EAX                    [31C0] 
+406634: PUSH R12                       [4154] 
+406636: MOV R12,RSI                    [4989F4] 
+406639: PUSH RBP                       [55] 
+40663A: MOV RBP,RDI                    [4889FD] 
+40663D: PUSH RBX                       [53] 
+40663E: MOV RBX,[RDI]                  [488B1F] 
+406641: MOV RDI,RBX                    [4889DF] 
+
+========

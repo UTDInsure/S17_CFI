@@ -1,0 +1,20 @@
+
+
+83894: MOV RCX,RDI                    [4889F9] 
+83897: AND ECX,0x7                    [83E107] 
+8389A: MOV RAX,RDI                    [4889F8] 
+8389D: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+838A9: NEG ECX                        [F7D9] 
+838AB: ADD ECX,0x8                    [83C108] 
+838AE: CMP byte ptr [RAX],0x0         [803800] 
+83975: MOV RCX,RSI                    [4889F1] 
+83978: AND ECX,0x7                    [83E107] 
+8397B: MOV RDX,RAX                    [4889C2] 
+83980: NEG ECX                        [F7D9] 
+83982: ADD ECX,0x8                    [83C108] 
+83985: MOV AL,[RSI]                   [8A06] 
+83987: TEST AL,AL                     [84C0] 
+83989: MOV [RDX],AL                   [8802] 
+83A48: MOV RAX,RDI                    [4889F8] 
+
+========

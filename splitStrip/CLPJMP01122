@@ -1,0 +1,13 @@
+
+
+BBC74: PUSH R12                       [4154] 
+BBC76: PUSH RBP                       [55] 
+BBC77: MOV EBP,ESI                    [89F5] 
+BBC79: PUSH RBX                       [53] 
+BBC7A: CMP dword ptr [RDI + 0x68],0x1 [837F6801] 
+BBC7E: MOV RBX,RDI                    [4889FB] 
+BBCD4: CMP byte ptr [RBX + 0x63],0x0  [807B6300] 
+BBCE8: MOV RDI,[RBX + 0x8]            [488B7B08] 
+BBCEC: MOVSXD RSI,EBP                 [4863F5] 
+
+========

@@ -1,0 +1,19 @@
+
+
+1C1A4: PUSH RBX                       [53] 
+1C1A5: MOV RBX,[0x0024a880]           [488B1DD4E62200] 
+1C1AC: MOV RAX,[RBX]                  [488B03] 
+1C1AF: MOV RAX,[RAX + 0x20]           [488B4020] 
+1C1B3: MOV RSI,[0xe0 + RAX]           [488BB0E0000000] 
+1C1BA: TEST RSI,RSI                   [4885F6] 
+1C1D6: MOV RDI,[RAX + 0x18]           [488B7818] 
+1C1DA: MOV RBX,[0x0024a7a0]           [488B1DBFE52200] 
+1C1E1: TEST RDI,RDI                   [4885FF] 
+1C1E6: MOV RAX,[RBX]                  [488B03] 
+1C1E9: XOR ESI,ESI                    [31F6] 
+1C1EB: MOVSX EDX,word ptr [RAX + 0x64] [0FBF5064] 
+1C1EF: XOR EAX,EAX                    [31C0] 
+1C1F1: SUB EDX,0x1                    [83EA01] 
+1C1F4: MOVSXD RDX,EDX                 [4863D2] 
+
+========

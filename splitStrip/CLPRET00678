@@ -1,0 +1,7 @@
+
+
+406BD4: MOV RAX,[0x00627bc0]           [488B05E50F2200] 
+406BDB: CMP byte ptr [RAX],0x0         [803800] 
+406BE0: XOR EAX,EAX                    [31C0] 
+
+========

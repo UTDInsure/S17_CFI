@@ -1,0 +1,6 @@
+
+
+185D4: TEST RDI,RDI                   [4885FF] 
+185D9: MOVSX EAX,word ptr [RDI + 0x2] [0FBF4702] 
+
+========

@@ -1,0 +1,16 @@
+
+
+A7A7D: LEA R12,[RAX + 0x2]            [4C8D6002] 
+A7A81: MOVZX EAX,byte ptr [RAX + 0x1] [0FB64001] 
+A7A85: SUB EAX,0x43                   [83E843] 
+A7A88: CMP AL,0x36                    [3C36] 
+A6C92: XOR EAX,EAX                    [31C0] 
+A6C94: ADD RSP,0xc8                   [4881C4C8000000] 
+A6C9B: POP RBX                        [5B] 
+A6C9C: POP RBP                        [5D] 
+A6C9D: POP R12                        [415C] 
+A6C9F: POP R13                        [415D] 
+A6CA1: POP R14                        [415E] 
+A6CA3: POP R15                        [415F] 
+
+========

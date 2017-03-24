@@ -1,0 +1,8 @@
+
+
+11DE34: MOV EDX,0x1                    [BA01000000] 
+11DE39: XOR EAX,EAX                    [31C0] 
+11DE3B: LOCK                           [F0] 
+11DE3C: CMPXCHG [0x0036b8e8],RDX       [480FB115A4DA2400] 
+
+========

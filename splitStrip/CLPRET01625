@@ -1,0 +1,8 @@
+
+
+35EE4: TEST EDI,EDI                   [85FF] 
+35F00: MOV RAX,[0x00368e68]           [488B05612F3300] 
+35F07: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+35F0E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

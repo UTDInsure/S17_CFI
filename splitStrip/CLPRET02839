@@ -1,0 +1,22 @@
+
+
+74B04: PUSH RBX                       [53] 
+74B05: MOV RBX,[0x0036a718]           [488B1D0C5C2F00] 
+74B0C: MOV EAX,[RBX]                  [8B03] 
+74B0E: MOV RDI,RBX                    [4889DF] 
+74B11: AND EAX,0x8000                 [2500800000] 
+74B7D: MOV RAX,[RDI + 0x8]            [488B4708] 
+74B81: CMP RAX,[RDI + 0x10]           [483B4710] 
+79654: PUSH RBX                       [53] 
+79655: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7965B: MOV RBX,RDI                    [4889FB] 
+7965E: TEST EAX,EAX                   [85C0] 
+796C0: CMP EAX,-0x1                   [83F8FF] 
+796C5: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+796CA: POP RBX                        [5B] 
+74BF6: MOV EDX,EAX                    [89C2] 
+74B92: TEST dword ptr [RBX],0x8000    [F70300800000] 
+74BDD: MOV EAX,EDX                    [89D0] 
+74BDF: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,11 @@
+
+
+22284: TEST RDI,RDI                   [4885FF] 
+22289: MOVSX RAX,word ptr [RDI]       [480FBF07] 
+2228D: MOVSX RDX,word ptr [RDI + 0x2] [480FBF5702] 
+22292: SHL RAX,0x4                    [48C1E004] 
+22296: ADD RAX,[RDI + 0x30]           [48034730] 
+2229A: MOV RAX,[RAX]                  [488B00] 
+2229D: MOV RAX,[RAX + RDX*0x8]        [488B04D0] 
+
+========

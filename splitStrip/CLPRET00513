@@ -1,0 +1,13 @@
+
+
+403B14: MOV EAX,[0x00627910]           [8B05F63D2200] 
+403B1A: TEST EAX,EAX                   [85C0] 
+403B1E: SUB RSP,0x8                    [4883EC08] 
+403B22: MOV EAX,[0x0062bb00]           [8B05D87F2200] 
+403B28: TEST EAX,EAX                   [85C0] 
+403B2C: MOV EAX,[0x0062bb28]           [8B05F67F2200] 
+403B32: TEST EAX,EAX                   [85C0] 
+403B36: MOV dword ptr [0x00627910],0x0 [C705D03D220000000000] 
+403B40: ADD RSP,0x8                    [4883C408] 
+
+========

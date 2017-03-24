@@ -1,0 +1,24 @@
+
+
+5433F: MOV EDX,[RBX]                  [8B13] 
+54341: CMP EDX,0x30                   [83FA30] 
+56834: MOV RAX,[RBX + 0x8]            [488B4308] 
+56838: LEA RDX,[RAX + 0x8]            [488D5008] 
+5683C: MOV [RBX + 0x8],RDX            [48895308] 
+54355: MOV R8,[RAX]                   [4C8B00] 
+53964: TEST R8,R8                     [4D85C0] 
+56BCE: CMP dword ptr [-0x10d8 + RBP],0x5 [83BD28EFFFFF05] 
+56BE4: MOV dword ptr [-0x10c0 + RBP],0x0 [C78540EFFFFF00000000] 
+56BEE: MOV R10D,0x6                   [41BA06000000] 
+56BF4: LEA R8,[0x13dda0]              [4C8D05A5710E00] 
+53A35: MOV R11D,[-0x10d0 + RBP]       [448B9D30EFFFFF] 
+53A3C: MOV [-0x10d8 + RBP],R10D       [44899528EFFFFF] 
+53A43: SUB R11D,R10D                  [4529D3] 
+57B93: CMP dword ptr [-0x1078 + RBP],0x0 [83BD88EFFFFF00] 
+57BA0: MOV RAX,[0xd8 + R14]           [498B86D8000000] 
+57BA7: MOV RDX,R10                    [4C89D2] 
+57BAA: MOV [-0x10c0 + RBP],R10        [4C899540EFFFFF] 
+57BB1: MOV RSI,R8                     [4C89C6] 
+57BB4: MOV RDI,R14                    [4C89F7] 
+
+========

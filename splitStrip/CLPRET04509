@@ -1,0 +1,6 @@
+
+
+BB8E4: CMP byte ptr [RSI + 0x30],0x11 [807E3011] 
+BB8EA: XOR EAX,EAX                    [31C0] 
+
+========

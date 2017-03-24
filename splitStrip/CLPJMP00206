@@ -1,0 +1,22 @@
+
+
+4042D4: PUSH R12                       [4154] 
+4042D6: MOV RAX,[0x006279d8]           [488B05FB362200] 
+4042DD: PUSH RBP                       [55] 
+4042DE: PUSH RBX                       [53] 
+4042DF: MOV RDX,[0x828 + RAX]          [488B9028080000] 
+4042E6: LEA R12,[0x3ffe + RDX]         [4C8DA2FE3F0000] 
+4042ED: ADD RDX,0x1fff                 [4881C2FF1F0000] 
+4042F4: CMOVNS R12,RDX                 [4C0F49E2] 
+4042F8: XOR EBX,EBX                    [31DB] 
+4042FA: XOR EBP,EBP                    [31ED] 
+4042FC: SAR R12,0xd                    [49C1FC0D] 
+404300: TEST R12,R12                   [4D85E4] 
+404305: MOV RSI,[RAX]                  [488B30] 
+404308: CMP RSI,RAX                    [4839C6] 
+404318: CMP [RSI + 0x20],RBX           [48395E20] 
+40431E: MOV EDX,[RSI + 0x28]           [8B5628] 
+404321: MOV EDI,[0x00623670]           [8B3D49F32100] 
+404327: ADD RSI,0x2c                   [4883C62C] 
+
+========

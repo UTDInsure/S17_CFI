@@ -1,0 +1,28 @@
+
+
+80264: PUSH R13                       [4155] 
+80266: MOV RDX,RDI                    [4889FA] 
+80269: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+8026E: OR RDX,RSI                     [4809F2] 
+80271: PUSH R12                       [4154] 
+80273: MOV R12,RDI                    [4989FC] 
+80276: IMUL R12,RSI                   [4C0FAFE6] 
+8027A: PUSH RBP                       [55] 
+8027B: PUSH RBX                       [53] 
+8027C: SUB RSP,0x8                    [4883EC08] 
+80280: CMP RDX,RAX                    [4839C2] 
+8055B: TEST RSI,RSI                   [4885F6] 
+80289: MOV RAX,[0x00368ee0]           [488B05508C2E00] 
+80290: MOV RAX,[RAX]                  [488B00] 
+80293: TEST RAX,RAX                   [4885C0] 
+8052E: MOV RSI,[RSP + 0x28]           [488B742428] 
+80533: MOV RDI,R12                    [4C89E7] 
+8053C: TEST RAX,RAX                   [4885C0] 
+8049A: XOR EAX,EAX                    [31C0] 
+803A3: ADD RSP,0x8                    [4883C408] 
+803A7: POP RBX                        [5B] 
+803A8: POP RBP                        [5D] 
+803A9: POP R12                        [415C] 
+803AB: POP R13                        [415D] 
+
+========

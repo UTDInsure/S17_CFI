@@ -1,0 +1,10 @@
+
+
+B4134: SUB RSP,0x8                    [4883EC08] 
+B4138: XOR ESI,ESI                    [31F6] 
+B413A: XOR EDI,EDI                    [31FF] 
+B40D4: MOV EAX,0x6d                   [B86D000000] 
+B40DB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B4145: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,7 @@
+
+
+D6824: MOV RAX,[0x00368e68]           [488B053D262900] 
+D682B: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+D6832: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

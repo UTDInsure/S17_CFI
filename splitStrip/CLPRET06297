@@ -1,0 +1,25 @@
+
+
+F0924: TEST EDI,0x2                   [F7C702000000] 
+F092C: MOV EAX,FS:[0x308]             [648B042508030000] 
+F0934: MOV R11D,EAX                   [4189C3] 
+F0937: AND R11D,0xfffffffd            [4183E3FD] 
+F093B: LOCK                           [F0] 
+F093C: CMPXCHG FS:[0x308],R11D        [64440FB11C2508030000] 
+F0934: MOV R11D,EAX                   [4189C3] 
+F0937: AND R11D,0xfffffffd            [4183E3FD] 
+F093B: LOCK                           [F0] 
+F093C: CMPXCHG FS:[0x308],R11D        [64440FB11C2508030000] 
+F0948: MOV EAX,R11D                   [4489D8] 
+F094B: AND EAX,0xc                    [83E00C] 
+F094E: CMP EAX,0x4                    [83F804] 
+F0954: MOV RDI,FS:[0x0]               [64488B3C2500000000] 
+F095D: MOV EAX,0xca                   [B8CA000000] 
+F0962: XOR R10,R10                    [4D31D2] 
+F0965: ADD RDI,0x308                  [4881C708030000] 
+F096C: MOV ESI,0x80                   [BE80000000] 
+F0973: MOV EAX,FS:[0x308]             [648B042508030000] 
+F094B: AND EAX,0xc                    [83E00C] 
+F094E: CMP EAX,0x4                    [83F804] 
+
+========

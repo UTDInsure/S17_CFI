@@ -1,0 +1,23 @@
+
+
+18E64: SUB RSP,0xd0                   [4881ECD0000000] 
+18E6B: TEST RSI,RSI                   [4885F6] 
+18E6E: MOV R8,RDX                     [4989D0] 
+18F2F: LEA RDX,[RSP + 0x28]           [488D542428] 
+18F34: XOR EAX,EAX                    [31C0] 
+18F36: LEA RCX,[RSP + -0x78]          [488D4C2488] 
+18F3B: TEST R8,R8                     [4D85C0] 
+18F3E: MOV R10D,0x8                   [41BA08000000] 
+18F44: MOVSXD RDI,EDI                 [4863FF] 
+18F47: CMOVZ RDX,RAX                  [480F44D0] 
+18F4B: TEST RSI,RSI                   [4885F6] 
+18F4E: CMOVNZ RAX,RCX                 [480F45C1] 
+18F52: MOV ECX,0xd                    [B90D000000] 
+18F57: MOV RSI,RAX                    [4889C6] 
+18F5A: MOV EAX,ECX                    [89C8] 
+18F5E: CMP RAX,0xfffff000             [483D00F0FFFF] 
+18F64: MOV RDX,RAX                    [4889C2] 
+18F6D: TEST EDX,EDX                   [85D2] 
+18F71: ADD RSP,0xd0                   [4881C4D0000000] 
+
+========

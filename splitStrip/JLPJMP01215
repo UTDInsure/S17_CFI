@@ -1,0 +1,25 @@
+
+
+C94ED: MOV ECX,[RCX]                  [8B09] 
+C94EF: CMP ECX,0x20                   [83F920] 
+C966B: CMP ECX,0x10                   [83F910] 
+C9064: MOV RAX,[R12 + 0x68]           [498B442468] 
+C9069: MOV RDI,[RSP + 0x18]           [488B7C2418] 
+C906E: MOV RAX,[RAX + 0x18]           [488B4018] 
+C9072: MOVSXD RSI,[RAX + 0x38]        [48637038] 
+C9076: MOV [0x88 + R12],ESI           [4189B42488000000] 
+C907E: SHL RSI,0x4                    [48C1E604] 
+C9082: ADD RSI,[R12 + 0x30]           [4903742430] 
+BF314: PUSH R12                       [4154] 
+BF316: PUSH RBP                       [55] 
+BF317: MOV RBP,RSI                    [4889F5] 
+BF31A: PUSH RBX                       [53] 
+BF31B: MOV RBX,RDI                    [4889FB] 
+BF31E: MOVSXD RDI,[RSI + 0x4]         [48637E04] 
+BF322: MOV [RBX + 0x4],EDI            [897B04] 
+BF325: MOVSXD R12,[RSI + 0x4]         [4C636604] 
+BF329: TEST R12D,R12D                 [4585E4] 
+BF32E: MOV [RBX],EDI                  [893B] 
+BF330: SHL RDI,0x2                    [48C1E702] 
+
+========

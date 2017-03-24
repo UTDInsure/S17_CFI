@@ -1,0 +1,28 @@
+
+
+344D4: XOR EAX,EAX                    [31C0] 
+344D6: NOP                            [662E0F1F840000000000] 
+344E0: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+344E3: TEST DL,DL                     [84D2] 
+344E7: SHL RAX,0x4                    [48C1E004] 
+344EB: ADD RDI,0x1                    [4883C701] 
+344EF: ADD RAX,RDX                    [4801D0] 
+344F2: MOV RDX,RAX                    [4889C2] 
+344F5: AND EDX,0xf0000000             [81E2000000F0] 
+344FD: XOR RAX,RDX                    [4831D0] 
+34500: SHR RDX,0x18                   [48C1EA18] 
+34504: XOR RAX,RDX                    [4831D0] 
+34507: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+3450A: TEST DL,DL                     [84D2] 
+344E7: SHL RAX,0x4                    [48C1E004] 
+344EB: ADD RDI,0x1                    [4883C701] 
+344EF: ADD RAX,RDX                    [4801D0] 
+344F2: MOV RDX,RAX                    [4889C2] 
+344F5: AND EDX,0xf0000000             [81E2000000F0] 
+344FD: XOR RAX,RDX                    [4831D0] 
+34500: SHR RDX,0x18                   [48C1EA18] 
+34504: XOR RAX,RDX                    [4831D0] 
+34507: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+3450A: TEST DL,DL                     [84D2] 
+
+========

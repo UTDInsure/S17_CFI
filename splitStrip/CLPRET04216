@@ -1,0 +1,20 @@
+
+
+A4AA4: MOV RDX,[0x0036bb70]           [488B15C5702C00] 
+A4AAB: LEA RCX,[RDX + RDI*0x1]        [488D0C3A] 
+A4AAF: NOP                            [90] 
+A4AB0: CMP byte ptr [RDX],0x0         [803A00] 
+A4AB3: MOV RAX,RDX                    [4889D0] 
+A4AB8: NOP                            [0F1F840000000000] 
+A4AC0: ADD RAX,0x1                    [4883C001] 
+A4AC4: CMP byte ptr [RAX],0x0         [803800] 
+A4AC0: ADD RAX,0x1                    [4883C001] 
+A4AC4: CMP byte ptr [RAX],0x0         [803800] 
+A4AC9: MOV RSI,RAX                    [4889C6] 
+A4ACC: SUB RSI,RDX                    [4829D6] 
+A4ACF: CMP [0x0036e538],RSI           [483935629A2C00] 
+A4AD8: MOV [0x0036e538],RSI           [488935599A2C00] 
+A4ADF: LEA RDX,[RAX + 0x1]            [488D5001] 
+A4AE3: CMP RDX,RCX                    [4839CA] 
+
+========

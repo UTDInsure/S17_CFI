@@ -1,0 +1,10 @@
+
+
+E7664: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E76D8: MOV RAX,[RSI + 0x68]           [488B4668] 
+E76DC: MOV EDI,EDI                    [89FF] 
+E76DE: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+E76E2: AND AX,0x1000                  [66250010] 
+E76E6: MOVZX EAX,AX                   [0FB7C0] 
+
+========

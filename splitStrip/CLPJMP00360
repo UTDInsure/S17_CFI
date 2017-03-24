@@ -1,0 +1,7 @@
+
+
+40C084: PUSH RBX                       [53] 
+40C085: XOR EBX,EBX                    [31DB] 
+40C09D: MOV ESI,0x25                   [BE25000000] 
+
+========

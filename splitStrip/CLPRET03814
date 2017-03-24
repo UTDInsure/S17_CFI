@@ -1,0 +1,7 @@
+
+
+93964: MOVSX EAX,byte ptr [RDI]       [0FBE07] 
+93967: TEST AL,AL                     [84C0] 
+93994: XOR EAX,EAX                    [31C0] 
+
+========

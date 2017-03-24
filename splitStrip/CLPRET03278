@@ -1,0 +1,16 @@
+
+
+7B204: MOV EAX,[0x00369124]           [8B051ADF2E00] 
+7B20A: TEST EAX,EAX                   [85C0] 
+7B212: PUSH RBX                       [53] 
+7B213: XOR EAX,EAX                    [31C0] 
+7B215: MOV EDX,0x1                    [BA01000000] 
+7B21A: CMP dword ptr [0x0036e774],0x0 [833D53352F0000] 
+7B22D: CMPXCHG [0x0036b858],EDX       [0FB11524062F00] 
+7B234: TEST EAX,EAX                   [85C0] 
+7B236: MOV RBX,[0x00368d80]           [488B1D43DB2E00] 
+7B23F: CMP dword ptr FS:[RBX],-0x1    [6448833BFF] 
+7B32B: ADD dword ptr [0x0036b7f8],0x1 [8305C6042F0001] 
+7B332: POP RBX                        [5B] 
+
+========

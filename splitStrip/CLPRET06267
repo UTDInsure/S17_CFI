@@ -1,0 +1,12 @@
+
+
+F06B4: MOV R9D,[0x0036e770]           [448B0DB5E02700] 
+F06BB: XOR EAX,EAX                    [31C0] 
+F06BD: TEST R9D,R9D                   [4585C9] 
+F06C8: SUB RSP,0x8                    [4883EC08] 
+F06CC: MOV RAX,[0x0036e6b8]           [488B05E5DF2700] 
+F06D3: ROR RAX,0x11                   [48C1C811] 
+F06D7: XOR RAX,FS:[0x30]              [644833042530000000] 
+F06E6: ADD RSP,0x8                    [4883C408] 
+
+========

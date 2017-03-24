@@ -1,0 +1,23 @@
+
+
+1A4A4: MOV RCX,[RSI]                  [488B0E] 
+1A4A7: ADD RDX,0x1                    [4883C201] 
+1A4AB: SUB RSI,0x8                    [4883EE08] 
+1A4AF: SUB RDI,0x10                   [4883EF10] 
+1A3D0: MOV RAX,[RSI + 0x10]           [488B4610] 
+1A3D4: MOV [RDI + 0x10],RCX           [48894F10] 
+1A3D8: MOV RCX,[RSI + 0x18]           [488B4E18] 
+1A3DC: MOV [RDI + 0x18],RAX           [48894718] 
+1A390: MOV RAX,[RSI + 0x20]           [488B4620] 
+1A394: MOV [RDI + 0x20],RCX           [48894F20] 
+1A398: MOV RCX,[RSI + 0x28]           [488B4E28] 
+1A39C: MOV [RDI + 0x28],RAX           [48894728] 
+1A3A0: MOV RAX,[RSI + 0x30]           [488B4630] 
+1A3A4: MOV [RDI + 0x30],RCX           [48894F30] 
+1A3A8: MOV RCX,[RSI + 0x38]           [488B4E38] 
+1A3AC: ADD RDI,0x40                   [4883C740] 
+1A3B0: MOV [RDI + -0x8],RAX           [488947F8] 
+1A3B4: SUB RDX,0x8                    [4883EA08] 
+1A4C0: MOV [RDI],RCX                  [48890F] 
+
+========

@@ -1,0 +1,11 @@
+
+
+4087F4: MOV EAX,[0x0062842c]           [8B0532FC2100] 
+4087FA: CMP EAX,0x16                   [83F816] 
+4087FD: SETNZ DL                       [0F95C2] 
+408800: TEST EAX,EAX                   [85C0] 
+408802: SETNZ AL                       [0F95C0] 
+408805: MOVZX EAX,AL                   [0FB6C0] 
+408808: AND EAX,EDX                    [21D0] 
+
+========

@@ -1,0 +1,19 @@
+
+
+96274: MOV EDX,[RSI]                  [8B16] 
+96276: MOV RAX,RDI                    [4889F8] 
+96279: TEST EDX,EDX                   [85D2] 
+96281: SUB RDI,0x4                    [4883EF04] 
+96298: ADD RDI,0x4                    [4883C704] 
+9629C: MOV EAX,[RDI]                  [8B07] 
+9629E: TEST EAX,EAX                   [85C0] 
+96290: CMP EAX,EDX                    [39D0] 
+96318: MOV ECX,[RSI + 0x4]            [8B4E04] 
+9631B: MOV RAX,RDI                    [4889F8] 
+9631E: TEST ECX,ECX                   [85C9] 
+96322: MOV EAX,[RDI + 0x4]            [8B4704] 
+96325: LEA R8,[RDI + 0x4]             [4C8D4704] 
+96329: TEST EAX,EAX                   [85C0] 
+962A2: XOR EAX,EAX                    [31C0] 
+
+========

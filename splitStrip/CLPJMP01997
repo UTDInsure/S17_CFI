@@ -1,0 +1,17 @@
+
+
+17834: PUSH R14                       [4156] 
+17836: MOV R14,R9                     [4D89CE] 
+17839: PUSH R13                       [4155] 
+1783B: MOV R13D,R8D                   [4589C5] 
+1783E: PUSH R12                       [4154] 
+17840: MOV R12,RCX                    [4989CC] 
+17843: PUSH RBP                       [55] 
+17844: MOV EBP,EDX                    [89D5] 
+17846: MOV EDX,ESI                    [89F2] 
+17848: MOV ESI,EDI                    [89FE] 
+1784A: PUSH RBX                       [53] 
+1784B: MOV RBX,[0x0024a830]           [488B1DDE2F2300] 
+17852: MOV RDI,[RBX]                  [488B3B] 
+
+========

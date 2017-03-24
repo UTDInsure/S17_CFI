@@ -1,0 +1,24 @@
+
+
+7B474: TEST DIL,0xf                   [40F6C70F] 
+7B47E: MOV RCX,[RDI + -0x8]           [488B4FF8] 
+7B482: LEA R8,[RDI + -0x10]           [4C8D47F0] 
+7B486: TEST CL,0x2                    [F6C102] 
+7B580: MOV RAX,[0x00368e60]           [488B05D9D82E00] 
+7B587: MOV R9,[RAX + 0x18]            [4C8B4818] 
+7B58B: MOV RAX,RDI                    [4889F8] 
+7B58E: SUB R9,0x1                     [4983E901] 
+7B592: AND RAX,R9                     [4C21C8] 
+7B595: CMP RAX,0x10                   [4883F810] 
+7B59B: LEA RDX,[RAX + -0x1]           [488D50FF] 
+7B59F: CMP RDX,0x1ffe                 [4881FAFE1F0000] 
+7B5A6: SETBE R10B                     [410F96C2] 
+7B5AA: CMP RAX,0x20                   [4883F820] 
+7B5AE: SETNZ DL                       [0F95C2] 
+7B5B1: TEST R10B,DL                   [4184D2] 
+7B5F8: MOV RDX,[RDI + -0x8]           [488B57F8] 
+7B5FC: XOR EAX,EAX                    [31C0] 
+7B5FE: AND EDX,0x3                    [83E203] 
+7B601: CMP RDX,0x2                    [4883FA02] 
+
+========

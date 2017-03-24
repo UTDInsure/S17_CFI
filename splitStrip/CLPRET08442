@@ -1,0 +1,7 @@
+
+
+2C644: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+2C647: TEST DL,DL                     [84D2] 
+2C69C: XOR EAX,EAX                    [31C0] 
+
+========

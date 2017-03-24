@@ -1,0 +1,28 @@
+
+
+FC8E4: PUSH R15                       [4157] 
+FC8E6: PUSH R14                       [4156] 
+FC8E8: PUSH R13                       [4155] 
+FC8EA: PUSH R12                       [4154] 
+FC8EC: PUSH RBP                       [55] 
+FC8ED: PUSH RBX                       [53] 
+FC8EE: MOV RBX,RCX                    [4889CB] 
+FC8F1: SUB RSP,0x48                   [4883EC48] 
+FC8F5: MOV [RSP + 0x20],RDI           [48897C2420] 
+FC8FA: MOV RDI,[RCX + 0x50]           [488B7950] 
+FC8FE: MOV [RSP + 0x28],RSI           [4889742428] 
+FC903: MOV [RSP + 0x30],RDX           [4889542430] 
+FC908: MOV [RSP + 0x8],R8             [4C89442408] 
+FC90D: MOV [RSP + 0x10],R9            [4C894C2410] 
+FC912: TEST RDI,RDI                   [4885FF] 
+FC915: MOV R12,[0x80 + RSP]           [4C8BA42480000000] 
+FCABB: ADD RSP,0x48                   [4883C448] 
+FCABF: XOR EAX,EAX                    [31C0] 
+FCAC1: POP RBX                        [5B] 
+FCAC2: POP RBP                        [5D] 
+FCAC3: POP R12                        [415C] 
+FCAC5: POP R13                        [415D] 
+FCAC7: POP R14                        [415E] 
+FCAC9: POP R15                        [415F] 
+
+========

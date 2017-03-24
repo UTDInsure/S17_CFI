@@ -1,0 +1,6 @@
+
+
+1FFB4: XOR EAX,EAX                    [31C0] 
+1FFB6: TEST EDI,EDI                   [85FF] 
+
+========

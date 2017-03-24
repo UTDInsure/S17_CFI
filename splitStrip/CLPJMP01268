@@ -1,0 +1,13 @@
+
+
+DF0C4: SUB RSP,0x8                    [4883EC08] 
+DF0C8: MOV RDX,[0x0036c170]           [488B15A1D02800] 
+DF0CF: TEST RDX,RDX                   [4885D2] 
+DEE84: PUSH R13                       [4155] 
+DEE86: PUSH R12                       [4154] 
+DEE88: PUSH RBP                       [55] 
+DEE89: PUSH RBX                       [53] 
+DEE8A: SUB RSP,0x98                   [4881EC98000000] 
+DEE91: MOV RDI,[0x0036c168]           [488B3DD0D22800] 
+
+========

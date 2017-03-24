@@ -1,0 +1,6 @@
+
+
+E4444: MOV EAX,0x31                   [B831000000] 
+E444B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

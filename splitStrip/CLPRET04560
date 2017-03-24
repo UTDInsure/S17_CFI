@@ -1,0 +1,16 @@
+
+
+BD054: MOVSXD RAX,EDX                 [4863C2] 
+BD057: MOV R8D,EDX                    [4189D0] 
+BD05A: MOV RDX,[RDI + 0x8]            [488B5708] 
+BD05E: PUSH RBX                       [53] 
+BD05F: MOVZX ECX,byte ptr [RDX + RAX*0x1] [0FB60C02] 
+BD063: MOVZX EAX,byte ptr [RSI + 0x8] [0FB64608] 
+BD067: CMP AL,0x3                     [3C03] 
+BD120: CMP AL,0x1                     [3C01] 
+BD124: XOR EAX,EAX                    [31C0] 
+BD126: CMP [RSI],CL                   [380E] 
+BD12E: POP RBX                        [5B] 
+BD12F: NOP                            [90] 
+
+========

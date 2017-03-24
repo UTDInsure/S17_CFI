@@ -1,0 +1,21 @@
+
+
+18864: MOV RAX,[0xa8 + RDX]           [488B82A8000000] 
+1886B: SUB RAX,[0x00223128]           [482B05B6A82000] 
+18872: MOV ECX,[0x00223120]           [8B0DA8A82000] 
+18878: MOV RDX,RAX                    [4889C2] 
+1887B: SHR RDX,0x3f                   [48C1EA3F] 
+1887F: ADD RAX,RDX                    [4801D0] 
+18882: SAR RAX,1                      [48D1F8] 
+18885: MOV RDX,RAX                    [4889C2] 
+18888: MOVZX EAX,AX                   [0FB7C0] 
+1888B: SHR RDX,0x10                   [48C1EA10] 
+1888F: IMUL RAX,RCX                   [480FAFC1] 
+18893: IMUL RDX,RCX                   [480FAFD1] 
+18897: SHR RAX,0x10                   [48C1E810] 
+1889B: ADD RAX,RDX                    [4801D0] 
+1889E: CMP RAX,[0x00223130]           [483B058BA82000] 
+188A7: MOV RDX,[0x00223138]           [488B158AA82000] 
+188AE: ADD word ptr [RDX + RAX*0x2],0x1 [6683044201] 
+
+========

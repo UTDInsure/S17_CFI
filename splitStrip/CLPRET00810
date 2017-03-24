@@ -1,0 +1,8 @@
+
+
+40DE04: MOV RAX,[RSI]                  [488B06] 
+40DE07: MOV RDX,[RSI + 0x8]            [488B5608] 
+40DE0B: MOV [RDI + 0x30],RAX           [48894730] 
+40DE0F: MOV [RDI + 0x38],RDX           [48895738] 
+
+========

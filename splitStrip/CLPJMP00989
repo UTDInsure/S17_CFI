@@ -1,0 +1,19 @@
+
+
+90764: PUSH R15                       [4157] 
+90766: MOV R15,RDX                    [4989D7] 
+90769: PUSH R14                       [4156] 
+9076B: MOV R14,RCX                    [4989CE] 
+9076E: PUSH R13                       [4155] 
+90770: MOV R13,RDI                    [4989FD] 
+90773: PUSH R12                       [4154] 
+90775: MOV R12,RCX                    [4989CC] 
+90778: PUSH RBP                       [55] 
+90779: PUSH RBX                       [53] 
+9077A: MOV RBX,RSI                    [4889F3] 
+9077D: SUB RSP,0x8                    [4883EC08] 
+90781: ADD R12,[RSI]                  [4C0326] 
+90784: MOV RDI,[RDI]                  [488B3F] 
+90787: MOV RSI,R12                    [4C89E6] 
+
+========

@@ -1,0 +1,7 @@
+
+
+40D334: MOV ECX,[0x0062baac]           [8B0D72E72100] 
+40D33A: TEST ECX,ECX                   [85C9] 
+40D33E: XOR EAX,EAX                    [31C0] 
+
+========

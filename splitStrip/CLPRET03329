@@ -1,0 +1,11 @@
+
+
+7E5D4: CMP RDI,-0x1                   [4883FFFF] 
+7E5D8: PUSH RBX                       [53] 
+7E5D9: MOV RBX,RDI                    [4889FB] 
+7E6A0: MOV RAX,[0x00368e68]           [488B05C1A72E00] 
+7E6A7: MOV dword ptr FS:[RAX],0xc     [64C7000C000000] 
+7E6AE: XOR EAX,EAX                    [31C0] 
+7E6B0: POP RBX                        [5B] 
+
+========

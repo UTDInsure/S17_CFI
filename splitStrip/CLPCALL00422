@@ -1,0 +1,17 @@
+
+
+71264: PUSH RBX                       [53] 
+71265: MOV ECX,[0xc0 + RDI]           [8B8FC0000000] 
+7126B: MOV RBX,RDI                    [4889FB] 
+7126E: TEST ECX,ECX                   [85C9] 
+71274: TEST dword ptr [RBX],0x800     [F70300080000] 
+7131E: MOV RDI,RBX                    [4889DF] 
+71154: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+7115B: PUSH RBX                       [53] 
+7115C: MOV RBX,RDI                    [4889FB] 
+7115F: MOV RDX,[RAX + 0x20]           [488B5020] 
+71163: CMP RDX,[RAX + 0x18]           [483B5018] 
+711B0: MOV RAX,[0x140 + RAX]          [488B8040010000] 
+711B7: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+
+========

@@ -1,0 +1,7 @@
+
+
+6CAB4: MOV RAX,[0xe8 + RDI]           [488B87E8000000] 
+6CABB: TEST RAX,RAX                   [4885C0] 
+6CAE0: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

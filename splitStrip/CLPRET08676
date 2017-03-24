@@ -1,0 +1,20 @@
+
+
+36C04: PUSH R14                       [4156] 
+36C06: PUSH R13                       [4155] 
+36C08: PUSH R12                       [4154] 
+36C0A: PUSH RBP                       [55] 
+36C0B: PUSH RBX                       [53] 
+36C0C: MOV EBX,EDI                    [89FB] 
+36C0E: SUB RSP,0x10                   [4883EC10] 
+36C12: TEST EDI,EDI                   [85FF] 
+36D4A: MOV R12D,0xffffffff            [41BCFFFFFFFF] 
+36CB2: ADD RSP,0x10                   [4883C410] 
+36CB6: MOV EAX,R12D                   [4489E0] 
+36CB9: POP RBX                        [5B] 
+36CBA: POP RBP                        [5D] 
+36CBB: POP R12                        [415C] 
+36CBD: POP R13                        [415D] 
+36CBF: POP R14                        [415E] 
+
+========

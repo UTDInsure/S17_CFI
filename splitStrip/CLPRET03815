@@ -1,0 +1,7 @@
+
+
+939A4: MOVSX EAX,byte ptr [RDI]       [0FBE07] 
+939A7: TEST AL,AL                     [84C0] 
+939E0: XOR EAX,EAX                    [31C0] 
+
+========

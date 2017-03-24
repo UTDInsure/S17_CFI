@@ -1,0 +1,11 @@
+
+
+3AB14: SUB RSP,0x8                    [4883EC08] 
+3AB18: CMP R8D,0x400                  [4181F800040000] 
+3AB70: OR EDX,ECX                     [09CA] 
+3AB72: XOR EAX,EAX                    [31C0] 
+3AB74: TEST DIL,DIL                   [4084FF] 
+3AB77: CMOVNZ EAX,EDX                 [0F45C2] 
+3AB7A: ADD RSP,0x8                    [4883C408] 
+
+========

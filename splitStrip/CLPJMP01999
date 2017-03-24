@@ -1,0 +1,9 @@
+
+
+178C4: PUSH RBX                       [53] 
+178C5: MOV RBX,[0x0024a830]           [488B1D642F2300] 
+178CC: MOV EDX,ESI                    [89F2] 
+178CE: MOV ESI,EDI                    [89FE] 
+178D0: MOV RDI,[RBX]                  [488B3B] 
+
+========

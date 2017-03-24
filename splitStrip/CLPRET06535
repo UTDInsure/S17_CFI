@@ -1,0 +1,22 @@
+
+
+F97C4: LEA RSI,[0x36d701]             [488D35363F2700] 
+F97CB: SUB RSP,0x8                    [4883EC08] 
+F97E4: MOV RAX,[0x00368f20]           [488B0535F72600] 
+F97EB: PUSH RBX                       [53] 
+F97EC: XOR EDX,EDX                    [31D2] 
+F97EE: MOV R10,FS:[RAX]               [644C8B10] 
+F97F2: MOV RAX,[0x00368e00]           [488B0507F62600] 
+F97F9: MOV RAX,FS:[RAX]               [64488B00] 
+F97FD: MOVSX RCX,byte ptr [RDI]       [480FBE0F] 
+F9801: LEA R9,[RDI + 0x1]             [4C8D4F01] 
+F9805: MOV R8D,[R10 + RCX*0x4]        [458B048A] 
+F9809: LEA ECX,[R8 + -0x61]           [418D489F] 
+F980D: CMP CL,0x5                     [80F905] 
+F98A8: LEA ECX,[R8 + -0x30]           [418D48D0] 
+F98AC: CMP CL,0x9                     [80F909] 
+F98B5: XOR EAX,EAX                    [31C0] 
+F98B7: POP RBX                        [5B] 
+F97D8: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,18 @@
+
+
+414444: PUSH RBP                       [55] 
+414445: XOR EAX,EAX                    [31C0] 
+414447: MOV RBP,RSI                    [4889F5] 
+41444A: PUSH RBX                       [53] 
+41444B: MOV RBX,RDI                    [4889FB] 
+41444E: SUB RSP,0x8                    [4883EC08] 
+403E84: SUB RSP,0x8                    [4883EC08] 
+403E88: MOV EAX,[0x0062790c]           [8B057E3A2200] 
+403E8E: TEST AL,0x8                    [A808] 
+403E96: TEST AL,0x4                    [A804] 
+403E9A: TEST AL,0x2                    [A802] 
+403ED4: MOV RDI,[0x00627958]           [488B3D7D3A2200] 
+403EDB: MOV EDX,0x413de0               [BAE03D4100] 
+403EE0: MOV ESI,0x1                    [BE01000000] 
+
+========

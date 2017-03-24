@@ -1,0 +1,11 @@
+
+
+D32F0: TEST RBP,RBP                   [4885ED] 
+D32FF: TEST R14D,R14D                 [4585F6] 
+D3308: TEST RBP,RBP                   [4885ED] 
+D330D: MOV EBX,[RSP + 0x58]           [8B5C2458] 
+D3311: TEST EBX,EBX                   [85DB] 
+D3315: XOR R12D,R12D                  [4531E4] 
+D2B2C: MOV RDI,R10                    [4C89D7] 
+
+========

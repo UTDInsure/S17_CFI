@@ -1,0 +1,23 @@
+
+
+EB254: PUSH R15                       [4157] 
+EB256: PUSH R14                       [4156] 
+EB258: PUSH R13                       [4155] 
+EB25A: PUSH R12                       [4154] 
+EB25C: PUSH RBP                       [55] 
+EB25D: PUSH RBX                       [53] 
+EB25E: SUB RSP,0x18                   [4883EC18] 
+EB262: MOV EBP,[RDI + 0x8]            [8B6F08] 
+EB265: MOV R12,[RDI]                  [4C8B27] 
+EB268: MOV R13,[RDI + 0x10]           [4C8B6F10] 
+EB26C: TEST EBP,EBP                   [85ED] 
+EB335: XOR EAX,EAX                    [31C0] 
+EB2DC: ADD RSP,0x18                   [4883C418] 
+EB2E0: POP RBX                        [5B] 
+EB2E1: POP RBP                        [5D] 
+EB2E2: POP R12                        [415C] 
+EB2E4: POP R13                        [415D] 
+EB2E6: POP R14                        [415E] 
+EB2E8: POP R15                        [415F] 
+
+========

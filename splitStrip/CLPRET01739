@@ -1,0 +1,12 @@
+
+
+36AC4: LEA ECX,[RSI + -0x1]           [8D4EFF] 
+36AC7: CMP ECX,0x3f                   [83F93F] 
+36ACC: TEST RDI,RDI                   [4885FF] 
+36AD1: MOV EAX,0x1                    [B801000000] 
+36AD6: SHL RAX,CL                     [48D3E0] 
+36AD9: TEST [RDI],RAX                 [488507] 
+36ADC: SETNZ AL                       [0F95C0] 
+36ADF: MOVZX EAX,AL                   [0FB6C0] 
+
+========

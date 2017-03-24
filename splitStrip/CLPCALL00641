@@ -1,0 +1,7 @@
+
+
+79844: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+7984B: PUSH RBX                       [53] 
+7984C: MOV RBX,RDI                    [4889FB] 
+
+========

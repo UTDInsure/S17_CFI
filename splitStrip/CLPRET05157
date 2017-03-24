@@ -1,0 +1,13 @@
+
+
+DBF04: SUB RSP,0x18                   [4883EC18] 
+DBF08: XOR EAX,EAX                    [31C0] 
+DBF0A: MOV ESI,0x540f                 [BE0F540000] 
+DBF0F: LEA RDX,[RSP + 0xc]            [488D54240C] 
+DC744: MOV EAX,0x10                   [B810000000] 
+DC74B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DBF1D: TEST EAX,EAX                   [85C0] 
+DBF30: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DBF25: ADD RSP,0x18                   [4883C418] 
+
+========

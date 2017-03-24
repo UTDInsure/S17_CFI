@@ -1,0 +1,22 @@
+
+
+4073AC: MOV R13,[0x00627b78]           [4C8B2DC5072200] 
+4073B3: MOV dword ptr [0x00627bb0],0x0 [C705F307220000000000] 
+4073BD: TEST R13,R13                   [4D85ED] 
+407358: XOR EAX,EAX                    [31C0] 
+403D04: SUB RSP,0x8                    [4883EC08] 
+403D08: CMP dword ptr [0x0062bb0c],0x2 [833DFD7D220002] 
+403D34: XOR EAX,EAX                    [31C0] 
+403CC4: MOV RDI,[0x00627940]           [488B3D753C2200] 
+403CCB: CMP byte ptr [RDI],0x0         [803F00] 
+403D3F: ADD RSP,0x8                    [4883C408] 
+407367: XOR EAX,EAX                    [31C0] 
+407112: ADD RSP,0x28                   [4883C428] 
+407116: POP RBX                        [5B] 
+407117: POP RBP                        [5D] 
+407118: POP R12                        [415C] 
+40711A: POP R13                        [415D] 
+40711C: POP R14                        [415E] 
+40711E: POP R15                        [415F] 
+
+========

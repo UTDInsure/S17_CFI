@@ -1,0 +1,6 @@
+
+
+BFAF4: TEST ECX,ECX                   [85C9] 
+BFBC5: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,8 @@
+
+
+BB7B4: MOVSXD RAX,[RSI + 0x38]        [48634638] 
+BB7B8: CMP [RSI + 0x48],EAX           [394648] 
+BB808: MOV byte ptr [RDI + 0x8],0x2   [C6470802] 
+BB80C: XOR EAX,EAX                    [31C0] 
+
+========

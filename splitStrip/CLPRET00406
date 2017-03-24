@@ -1,0 +1,11 @@
+
+
+19284: MOV RCX,RDI                    [4889F9] 
+19287: AND ECX,0x7                    [83E107] 
+1928A: MOV RAX,RDI                    [4889F8] 
+1928F: NEG ECX                        [F7D9] 
+19291: ADD ECX,0x8                    [83C108] 
+19294: CMP byte ptr [RAX],0x0         [803800] 
+19365: SUB RAX,RDI                    [4829F8] 
+
+========

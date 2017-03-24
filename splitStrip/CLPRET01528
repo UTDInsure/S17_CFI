@@ -1,0 +1,10 @@
+
+
+35204: MOV RAX,0x7fffffffffffffff     [48B8FFFFFFFFFFFFFF7F] 
+3520E: MOVQ RDX,XMM0                  [66480F7EC2] 
+35213: AND RDX,RAX                    [4821C2] 
+35216: MOV RAX,0x7ff0000000000000     [48B8000000000000F07F] 
+35220: SUB RAX,RDX                    [4829D0] 
+35223: SHR RAX,0x3f                   [48C1E83F] 
+
+========

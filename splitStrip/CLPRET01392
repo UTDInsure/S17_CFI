@@ -1,0 +1,23 @@
+
+
+2E694: MOV RAX,[0x00368dc0]           [488B0525A73300] 
+2E69B: TEST RDI,RDI                   [4885FF] 
+2E69E: LEA RCX,[0x369f20]             [488D0D7BB83300] 
+2E6A5: MOV RDX,FS:[RAX]               [64488B10] 
+2E6AB: CMP RDI,-0x1                   [4883FFFF] 
+2E6AF: CMOVZ RDI,RCX                  [480F44F9] 
+2E6B3: MOV FS:[RAX],RDI               [64488938] 
+2E6B7: MOV RSI,[RDI + 0x68]           [488B7768] 
+2E6BB: MOV RAX,[0x00368e00]           [488B053EA73300] 
+2E6C2: MOV FS:[RAX],RSI               [64488930] 
+2E6C6: MOV RSI,[RDI + 0x70]           [488B7770] 
+2E6CA: MOV RAX,[0x00368f20]           [488B054FA83300] 
+2E6D1: MOV FS:[RAX],RSI               [64488930] 
+2E6D5: MOV RSI,[RDI + 0x78]           [488B7778] 
+2E6D9: MOV RAX,[0x00368ed8]           [488B05F8A73300] 
+2E6E0: MOV FS:[RAX],RSI               [64488930] 
+2E6E4: CMP RDX,RCX                    [4839CA] 
+2E6E7: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+2E6EE: CMOVNZ RAX,RDX                 [480F45C2] 
+
+========

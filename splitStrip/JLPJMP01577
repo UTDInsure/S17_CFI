@@ -1,0 +1,28 @@
+
+
+32DAB: MOV EAX,[0x1d8 + R12]          [418B8424D8010000] 
+32DB3: MOVZX EDX,byte ptr [RBP + 0x1] [0FB65501] 
+32DB7: CMP EAX,0x13                   [83F813] 
+33B26: MOVSXD RCX,EAX                 [4863C8] 
+33B29: ADD EAX,0x1                    [83C001] 
+33B2C: ADD RCX,0x9                    [4883C109] 
+33B30: MOV [0x1d8 + R12],EAX          [41898424D8010000] 
+33B38: SHL RCX,0x4                    [48C1E104] 
+33B3C: ADD RCX,R12                    [4C01E1] 
+33B3F: MOV byte ptr [RCX + 0x10],0x1  [C6411001] 
+33B43: MOV [RCX + 0x8],EDX            [895108] 
+32DCA: LEA RBX,[RBP + 0x2]            [488D5D02] 
+32DCE: MOVZX EAX,byte ptr [RBP + 0x2] [0FB64502] 
+32857: TEST AL,AL                     [84C0] 
+3285F: ADD RBX,0x1                    [4883C301] 
+32863: MOV RAX,RBX                    [4889D8] 
+32866: SUB RAX,[RSP]                  [482B0424] 
+3286A: CMP RAX,R14                    [4C39F0] 
+32B60: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+32B68: LEA RAX,[RDX + 0x1]            [488D4201] 
+32B6C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+32C00: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+32C08: LEA RSI,[RAX + RAX*0x1]        [488D3400] 
+32C0C: MOV [0x1e8 + R12],RSI          [4989B424E8010000] 
+
+========

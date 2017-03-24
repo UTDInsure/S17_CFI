@@ -1,0 +1,14 @@
+
+
+417174: PUSH R12                       [4154] 
+417176: PUSH RBP                       [55] 
+417177: PUSH RBX                       [53] 
+417178: MOV EBX,[0x0062bb98]           [8B1D1A4A2100] 
+41717E: TEST EBX,EBX                   [85DB] 
+417182: TEST BL,0x2                    [F6C302] 
+417185: MOV dword ptr [0x0062bb98],0x0 [C705094A210000000000] 
+417220: MOV ESI,0x1                    [BE01000000] 
+417225: MOV EDI,0x16                   [BF16000000] 
+41722A: OR EBX,0x4                     [83CB04] 
+
+========

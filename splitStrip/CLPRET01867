@@ -1,0 +1,20 @@
+
+
+38744: PUSH R13                       [4155] 
+38746: PUSH R12                       [4154] 
+38748: MOV R12,RDI                    [4989FC] 
+3874B: PUSH RBP                       [55] 
+3874C: PUSH RBX                       [53] 
+3874D: SUB RSP,0x8                    [4883EC08] 
+38751: TEST RDI,RDI                   [4885FF] 
+3875A: CMP byte ptr [RDI],0x0         [803F00] 
+38880: MOV RAX,[0x00368e68]           [488B05E1053300] 
+38887: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+3888E: ADD RSP,0x8                    [4883C408] 
+38892: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+38897: POP RBX                        [5B] 
+38898: POP RBP                        [5D] 
+38899: POP R12                        [415C] 
+3889B: POP R13                        [415D] 
+
+========

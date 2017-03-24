@@ -1,0 +1,15 @@
+
+
+2DD44: MOV ESI,[0x0024bba4]           [8B355ADE2100] 
+2DD4A: CMP EDI,ESI                    [39F7] 
+2DD4E: TEST EDI,EDI                   [85FF] 
+2DD50: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2DD57: LEA RDX,[0x3cfe0]              [488D1582F20000] 
+2DD5E: XOR EAX,EAX                    [31C0] 
+2DD60: CMP [RDX + RAX*0x8],EDI        [393CC2] 
+2DD63: MOV ECX,EAX                    [89C1] 
+2DDA0: LEA RAX,[0x3cfe0]              [488D0539F20000] 
+2DDA7: CMP ESI,EDI                    [39FE] 
+2DDA9: MOV EAX,[RAX + RCX*0x8 + 0x4]  [8B44C804] 
+
+========

@@ -1,0 +1,19 @@
+
+
+6D3A4: PUSH RBP                       [55] 
+6D3A5: PUSH RBX                       [53] 
+6D3A6: MOV RBX,RDI                    [4889FB] 
+6D3A9: SUB RSP,0x8                    [4883EC08] 
+6D3AD: MOV RDX,[RDI + 0x38]           [488B5738] 
+6D3B1: TEST RDX,RDX                   [4885D2] 
+6BE24: PUSH R12                       [4154] 
+6BE26: PUSH RBP                       [55] 
+6BE27: PUSH RBX                       [53] 
+6BE28: MOV RBX,RDI                    [4889FB] 
+6BE2B: SUB RSP,0x90                   [4881EC90000000] 
+6BE32: MOV EAX,[RDI + 0x70]           [8B4770] 
+6BE35: TEST EAX,EAX                   [85C0] 
+6BE39: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+6BE40: MOV RSI,RSP                    [4889E6] 
+
+========

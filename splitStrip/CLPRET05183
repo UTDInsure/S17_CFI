@@ -1,0 +1,6 @@
+
+
+DC194: MOV EAX,0x61                   [B861000000] 
+DC19B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

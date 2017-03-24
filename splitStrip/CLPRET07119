@@ -1,0 +1,11 @@
+
+
+10CBC4: SUB RSP,0x8                    [4883EC08] 
+10CBC8: MOV RDI,[RDI + 0x40]           [488B7F40] 
+10CBCC: MOV RCX,RSI                    [4889F1] 
+10CBCF: XOR EAX,EAX                    [31C0] 
+10CBD1: MOV RSI,RDX                    [4889D6] 
+10CBD4: ADD RDI,0x10                   [4883C710] 
+10CBDE: ADD RSP,0x8                    [4883C408] 
+
+========

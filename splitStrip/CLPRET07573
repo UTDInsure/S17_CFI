@@ -1,0 +1,7 @@
+
+
+119054: MOV R10,RCX                    [4989CA] 
+119057: MOV EAX,0xb6                   [B8B6000000] 
+11905E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

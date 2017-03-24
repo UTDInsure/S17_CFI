@@ -1,0 +1,10 @@
+
+
+18874: TEST RDI,RDI                   [4885FF] 
+18879: MOVSX EAX,word ptr [RDI + 0x38] [0FBF4738] 
+1887D: MOV [RSI],EAX                  [8906] 
+1887F: MOVSX EAX,word ptr [RDI + 0x3a] [0FBF473A] 
+18883: MOV [RDX],EAX                  [8902] 
+18885: XOR EAX,EAX                    [31C0] 
+
+========

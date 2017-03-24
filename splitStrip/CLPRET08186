@@ -1,0 +1,9 @@
+
+
+1DB64: SUB RSP,0x8                    [4883EC08] 
+1DB68: XOR EDX,EDX                    [31D2] 
+1DA54: TEST RDI,RDI                   [4885FF] 
+1DB30: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1DB73: ADD RSP,0x8                    [4883C408] 
+
+========

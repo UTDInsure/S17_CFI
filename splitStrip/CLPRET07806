@@ -1,0 +1,20 @@
+
+
+11DD94: MOV RAX,[0x0036b760]           [488B05C5D92400] 
+11DD9B: MOV byte ptr [0x0036b768],0x1  [C605C6D9240001] 
+11DDA2: TEST RAX,RAX                   [4885C0] 
+11DDA7: SUB RSP,0x8                    [4883EC08] 
+11DDAB: NOP                            [0F1F440000] 
+11DDB0: MOV RDX,[0xb8 + RAX]           [488B90B8000000] 
+11DDB7: MOV RDI,[0xb0 + RAX]           [488BB8B0000000] 
+11DDBE: LEA RSI,[0xfff + RDX]          [488DB2FF0F0000] 
+11DDC5: AND RSI,0xfffff000             [4881E600F0FFFF] 
+E0184: MOV EAX,0xb                    [B80B000000] 
+E018B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+11DDD5: MOV RAX,[0x0036b760]           [488B0584D92400] 
+11DDDC: MOV RAX,[0xa8 + RAX]           [488B80A8000000] 
+11DDE3: TEST RAX,RAX                   [4885C0] 
+11DDE6: MOV [0x0036b760],RAX           [48890573D92400] 
+11DDEF: ADD RSP,0x8                    [4883C408] 
+
+========

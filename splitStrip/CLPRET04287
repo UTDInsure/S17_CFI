@@ -1,0 +1,12 @@
+
+
+AEC74: SUB RSP,0x8                    [4883EC08] 
+AEC78: MOV RSI,RDI                    [4889FE] 
+AEC7B: MOV EDI,0xffffff9c             [BF9CFFFFFF] 
+AEC24: CMP byte ptr [RSI],0x0         [803E00] 
+AEC5A: MOV RAX,[0x00368e68]           [488B0507A22B00] 
+AEC61: MOV dword ptr FS:[RAX],0x2     [64C70002000000] 
+AEC68: XOR EAX,EAX                    [31C0] 
+AEC89: ADD RSP,0x8                    [4883C408] 
+
+========

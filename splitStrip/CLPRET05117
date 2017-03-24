@@ -1,0 +1,11 @@
+
+
+DBB44: MOV EAX,[0x0036e774]           [8B052A2C2900] 
+DBB4A: MOV R10,RCX                    [4989CA] 
+DBB4D: TEST EAX,EAX                   [85C0] 
+DBB51: MOVSXD RSI,ESI                 [4863F6] 
+DBB54: MOVSXD RDI,EDI                 [4863FF] 
+DBB57: MOV EAX,0x11d                  [B81D010000] 
+DBB5E: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

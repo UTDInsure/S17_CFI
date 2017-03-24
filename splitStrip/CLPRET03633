@@ -1,0 +1,7 @@
+
+
+899D4: CMP RDX,0x3                    [4883FA03] 
+89A68: AND EDX,0x3                    [83E203] 
+89A6B: MOV RAX,RDI                    [4889F8] 
+
+========

@@ -1,0 +1,25 @@
+
+
+102064: PUSH R15                       [4157] 
+102066: MOV R15,RDX                    [4989D7] 
+102069: PUSH R14                       [4156] 
+10206B: PUSH R13                       [4155] 
+10206D: PUSH R12                       [4154] 
+10206F: PUSH RBP                       [55] 
+102070: MOV RBP,RSI                    [4889F5] 
+102073: PUSH RBX                       [53] 
+102074: SUB RSP,0x48                   [4883EC48] 
+102078: CMP EDI,0x2                    [83FF02] 
+102081: CMP EDI,0xa                    [83FF0A] 
+1021F0: MOV RAX,[0x00368e68]           [488B05716C2600] 
+1021F7: MOV dword ptr FS:[RAX],0x61    [64C70061000000] 
+1021FE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+102203: ADD RSP,0x48                   [4883C448] 
+102207: POP RBX                        [5B] 
+102208: POP RBP                        [5D] 
+102209: POP R12                        [415C] 
+10220B: POP R13                        [415D] 
+10220D: POP R14                        [415E] 
+10220F: POP R15                        [415F] 
+
+========

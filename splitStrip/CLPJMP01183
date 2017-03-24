@@ -1,0 +1,22 @@
+
+
+C2744: PUSH RBP                       [55] 
+C2745: MOV RBP,RSP                    [4889E5] 
+C2748: PUSH R15                       [4157] 
+C274A: MOV R15,RSI                    [4989F7] 
+C274D: PUSH R14                       [4156] 
+C274F: PUSH R13                       [4155] 
+C2751: PUSH R12                       [4154] 
+C2753: PUSH RBX                       [53] 
+C2754: SUB RSP,0xa8                   [4881ECA8000000] 
+C275B: MOV RAX,[RDI]                  [488B07] 
+C275E: TEST R8D,R8D                   [4585C0] 
+C2761: MOV [-0xa0 + RBP],RDX          [48899560FFFFFF] 
+C2768: MOV [RBP + -0x70],RCX          [48894D90] 
+C276C: MOV dword ptr [RBP + -0x40],0x0 [C745C000000000] 
+C2773: MOV dword ptr [RBP + -0x3c],0x2 [C745C402000000] 
+C277A: MOV [RBP + -0x80],RAX          [48894580] 
+C277E: MOV dword ptr [RBP + -0x38],0x0 [48C745C800000000] 
+C278C: MOV EDI,0x40                   [BF40000000] 
+
+========

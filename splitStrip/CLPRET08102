@@ -1,0 +1,6 @@
+
+
+1ACA4: CMP dword ptr [0x408 + RDI],-0x1 [83BF08040000FF] 
+1ACAD: CMP dword ptr [0x440 + RDI],0x0 [4883BF4004000000] 
+
+========

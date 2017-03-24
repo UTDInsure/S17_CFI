@@ -1,0 +1,15 @@
+
+
+90A34: PUSH RBP                       [55] 
+90A35: PUSH RBX                       [53] 
+90A36: SUB RSP,0x8                    [4883EC08] 
+90A3A: TEST RDX,RDX                   [4885D2] 
+90A3F: LEA RBP,[RDI + RSI*0x1]        [488D2C37] 
+90A43: XOR EBX,EBX                    [31DB] 
+90A45: CMP RDX,RBP                    [4839EA] 
+90A63: ADD RSP,0x8                    [4883C408] 
+90A67: MOV RAX,RBX                    [4889D8] 
+90A6A: POP RBX                        [5B] 
+90A6B: POP RBP                        [5D] 
+
+========

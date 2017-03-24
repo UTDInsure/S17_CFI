@@ -1,0 +1,12 @@
+
+
+797D4: PUSH RBX                       [53] 
+797D5: CMP dword ptr [RDI + 0x38],0x0 [48837F3800] 
+797DA: MOV RBX,RDI                    [4889FB] 
+797E8: TEST byte ptr [RDI],0x2        [F60702] 
+797F7: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+797FE: MOV RDI,RBX                    [4889DF] 
+79808: CMP EAX,-0x1                   [83F8FF] 
+797DF: POP RBX                        [5B] 
+
+========

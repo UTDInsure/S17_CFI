@@ -1,0 +1,16 @@
+
+
+DA344: PUSH R15                       [4157] 
+DA346: PUSH R14                       [4156] 
+DA348: PUSH R13                       [4155] 
+DA34A: PUSH R12                       [4154] 
+DA34C: PUSH RBP                       [55] 
+DA34D: PUSH RBX                       [53] 
+DA34E: MOV EBX,ESI                    [89F3] 
+DA350: SUB RSP,0x28                   [4883EC28] 
+DA354: TEST ESI,0xffffff00            [F7C600FFFFFF] 
+DA35A: MOV [RSP],RDX                  [48891424] 
+DA364: MOV RBP,RDI                    [4889FD] 
+DA367: MOV EDI,0x48                   [BF48000000] 
+
+========

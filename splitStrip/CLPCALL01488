@@ -1,0 +1,19 @@
+
+
+112D14: PUSH R15                       [4157] 
+112D16: PUSH R14                       [4156] 
+112D18: PUSH R13                       [4155] 
+112D1A: MOV R13,RSI                    [4989F5] 
+112D1D: XOR ESI,ESI                    [31F6] 
+112D1F: PUSH R12                       [4154] 
+112D21: PUSH RBP                       [55] 
+112D22: MOV RBP,RDI                    [4889FD] 
+112D25: PUSH RBX                       [53] 
+112D26: SUB RSP,0x18                   [4883EC18] 
+112D2A: MOV RBX,[RDI + 0x48]           [488B5F48] 
+112D2E: MOV RAX,[RBX + 0x18]           [488B4318] 
+112D32: LEA R12,[RBX + 0x10]           [4C8D6310] 
+112D36: MOV dword ptr [RBX + 0x10],0x0 [C7431000000000] 
+112D3D: MOV RDI,R12                    [4C89E7] 
+
+========

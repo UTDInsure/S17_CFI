@@ -1,0 +1,23 @@
+
+
+583E2: MOVZX EBX,byte ptr [RDX + 0x1] [0FB65A01] 
+583E6: MOV EAX,EBX                    [89D8] 
+583E8: AND EAX,0xfffffff7             [83E0F7] 
+583EB: CMP AL,0x53                    [3C53] 
+583F3: CMP BL,0x73                    [80FB73] 
+583FC: TEST R8D,R8D                   [4585C0] 
+583FF: MOV RCX,R13                    [4C89E9] 
+58402: MOV EBX,0x61                   [BB61000000] 
+58407: MOV R13,RDX                    [4989D5] 
+5840A: MOV EAX,0x61                   [B861000000] 
+5832A: AND EAX,0xffffffdf             [83E0DF] 
+5832D: CMP AL,0x43                    [3C43] 
+58335: MOV [-0x1f8 + RBP],RCX         [48898D08FEFFFF] 
+584A4: SUB EBX,0x25                   [83EB25] 
+584A7: CMP BL,0x53                    [80FB53] 
+584B0: LEA RAX,[0x12fdb8]             [488D0501790D00] 
+584B7: MOVZX EBX,BL                   [0FB6DB] 
+584BA: MOVSXD RDX,[RAX + RBX*0x4]     [48631498] 
+584BE: ADD RAX,RDX                    [4801D0] 
+
+========

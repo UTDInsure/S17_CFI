@@ -1,0 +1,12 @@
+
+
+405854: MOV EDX,[0x006279e0]           [8B1586212200] 
+40585A: TEST EDX,EDX                   [85D2] 
+40585E: XOR EAX,EAX                    [31C0] 
+405860: CMP RDI,[0x006237a0]           [483B3D39DF2100] 
+405880: MOV EDX,0x1c3                  [BAC3010000] 
+405885: MOV ESI,0x6237a0               [BEA0376200] 
+405444: SUB EDX,0x1                    [83EA01] 
+405483: XOR EAX,EAX                    [31C0] 
+
+========

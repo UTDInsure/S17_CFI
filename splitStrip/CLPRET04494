@@ -1,0 +1,15 @@
+
+
+B83E4: PUSH RBP                       [55] 
+B83E5: MOV RBP,RDI                    [4889FD] 
+B83E8: PUSH RBX                       [53] 
+B83E9: MOV RBX,RDI                    [4889FB] 
+B83EC: SUB RSP,0x8                    [4883EC08] 
+B83F0: MOVZX EDX,byte ptr [RBX + 0x1] [0FB65301] 
+B83F4: TEST DL,DL                     [84D2] 
+B8430: ADD RSP,0x8                    [4883C408] 
+B8434: MOV RAX,RBP                    [4889E8] 
+B8437: POP RBX                        [5B] 
+B8438: POP RBP                        [5D] 
+
+========

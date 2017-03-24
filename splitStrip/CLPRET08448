@@ -1,0 +1,14 @@
+
+
+2C6A4: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+2C6A7: TEST AL,AL                     [84C0] 
+2C6AF: MOV [RSP + -0x18],AL           [884424E8] 
+2C6B3: MOVZX EAX,byte ptr [RDI + 0x1] [0FB64701] 
+2C6B7: TEST AL,AL                     [84C0] 
+2C733: MOV EAX,0x1                    [B801000000] 
+2C6C4: MOV byte ptr [RSP + RAX*0x1 + -0x18],0x0 [C64404E800] 
+2C6C9: MOVZX EDX,byte ptr [RSP + -0x18] [0FB65424E8] 
+2C6CE: TEST DL,DL                     [84D2] 
+2C72C: XOR EAX,EAX                    [31C0] 
+
+========

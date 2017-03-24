@@ -1,0 +1,22 @@
+
+
+C9F54: PUSH R14                       [4156] 
+C9F56: MOV EAX,EDX                    [89D0] 
+C9F58: MOV R14,RSI                    [4989F6] 
+C9F5B: AND EAX,0x1                    [83E001] 
+C9F5E: PUSH R13                       [4155] 
+C9F60: MOV R13D,EDX                   [4189D5] 
+C9F63: PUSH R12                       [4154] 
+C9F65: PUSH RBP                       [55] 
+C9F66: PUSH RBX                       [53] 
+C9F67: MOV RBX,RDI                    [4889FB] 
+C9F6A: SUB RSP,0x10                   [4883EC10] 
+C9F6E: CMP EAX,0x1                    [83F801] 
+C9F71: MOV dword ptr [RDI],0x0        [48C70700000000] 
+C9F78: SBB R12,R12                    [4D19E4] 
+C9F7B: MOV dword ptr [RDI + 0x8],0x0  [48C7470800000000] 
+C9F83: MOV dword ptr [RDI + 0x10],0x0 [48C7471000000000] 
+C9F8B: AND R12D,0xfd4fca              [4181E4CA4FFD00] 
+C9F92: MOV EDI,0x100                  [BF00010000] 
+
+========

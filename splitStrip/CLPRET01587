@@ -1,0 +1,20 @@
+
+
+35954: FLD tword ptr [RSP + 0x8]      [DB6C2408] 
+35958: FLD ST0                        [D9C0] 
+3595A: FSTP tword ptr [RSP + -0x18]   [DB7C24E8] 
+3595E: MOVZX EAX,word ptr [RSP + -0x10] [0FB74424F0] 
+35963: MOV R9D,[RSP + -0x14]          [448B4C24EC] 
+35968: MOV R8D,[RSP + -0x18]          [448B4424E8] 
+3596D: MOV EDX,EAX                    [89C2] 
+3596F: AND EDX,0x7fff                 [81E2FF7F0000] 
+35975: LEA ECX,[-0x3fff + RDX]        [8D8A01C0FFFF] 
+3597B: CMP ECX,0x1f                   [83F91F] 
+359C0: CMP ECX,0x3f                   [83F93F] 
+35A50: CMP ECX,0x4000                 [81F900400000] 
+35A56: FLD ST0                        [D9C0] 
+35A58: FSTP tword ptr [RDI]           [DB3F] 
+35A5C: AND R9D,0x7fffffff             [4181E1FFFFFF7F] 
+35A63: OR R9D,R8D                     [4509C1] 
+
+========

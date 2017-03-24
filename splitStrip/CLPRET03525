@@ -1,0 +1,9 @@
+
+
+85BA4: TEST RDX,RDX                   [4885D2] 
+85BAD: CMP RDX,0x1                    [4883FA01] 
+873F0: MOVZX ECX,byte ptr [RSI]       [0FB60E] 
+873F3: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+873F6: SUB EAX,ECX                    [29C8] 
+
+========

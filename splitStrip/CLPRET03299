@@ -1,0 +1,17 @@
+
+
+7B474: TEST DIL,0xf                   [40F6C70F] 
+7B47E: MOV RCX,[RDI + -0x8]           [488B4FF8] 
+7B482: LEA R8,[RDI + -0x10]           [4C8D47F0] 
+7B486: TEST CL,0x2                    [F6C102] 
+7B48F: MOV EAX,[0x00369624]           [8B058FE12E00] 
+7B495: MOV RDX,RCX                    [4889CA] 
+7B498: AND RDX,-0x8                   [4883E2F8] 
+7B49C: SHR EAX,1                      [D1E8] 
+7B49E: XOR EAX,0x1                    [83F001] 
+7B4A1: AND EAX,0x1                    [83E001] 
+7B4A6: MOV R9,[0x00369190]            [4C8B0DE3DC2E00] 
+7B4AD: CMP R8,R9                      [4D39C8] 
+7B5F0: XOR EAX,EAX                    [31C0] 
+
+========

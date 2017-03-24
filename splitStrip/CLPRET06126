@@ -1,0 +1,14 @@
+
+
+EB384: MOV RDX,[RDI]                  [488B17] 
+EB387: MOV R8,[0x00368e00]            [4C8B0572DA2700] 
+EB38E: MOVZX ECX,byte ptr [RDX]       [0FB60A] 
+EB391: MOV RAX,FS:[R8]                [64498B00] 
+EB395: MOVSX RSI,CL                   [480FBEF1] 
+EB399: TEST byte ptr [RAX + RSI*0x2 + 0x1],0x20 [F644700120] 
+EB3C5: XOR EAX,EAX                    [31C0] 
+EB3C7: CMP CL,0x2d                    [80F92D] 
+EB3CA: SETNZ AL                       [0F95C0] 
+EB3CD: TEST CL,CL                     [84C9] 
+
+========

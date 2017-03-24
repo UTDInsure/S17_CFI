@@ -1,0 +1,17 @@
+
+
+FFC14: PUSH R12                       [4154] 
+FFC16: LEA EAX,[RDX + -0x1]           [8D42FF] 
+FFC19: MOV R12D,ESI                   [4189F4] 
+FFC1C: PUSH RBP                       [55] 
+FFC1D: CMP EAX,0x1                    [83F801] 
+FFC20: PUSH RBX                       [53] 
+FFC21: MOV RBX,RDI                    [4889FB] 
+FFC26: CMP EDX,0x4                    [83FA04] 
+FFCA0: CMP EDX,0x8                    [83FA08] 
+FFCA5: POP RBX                        [5B] 
+FFCA6: POP RBP                        [5D] 
+FFCA7: XOR EAX,EAX                    [31C0] 
+FFCA9: POP R12                        [415C] 
+
+========

@@ -1,0 +1,19 @@
+
+
+95B64: MOV RAX,RDI                    [4889F8] 
+95B67: MOV R9,RDI                     [4989F9] 
+95B73: MOV ECX,[R9]                   [418B09] 
+95B76: LEA R8,[R9 + 0x4]              [4D8D4104] 
+95B7A: TEST ECX,ECX                   [85C9] 
+95B70: MOV R9,R8                      [4D89C1] 
+95B73: MOV ECX,[R9]                   [418B09] 
+95B76: LEA R8,[R9 + 0x4]              [4D8D4104] 
+95B7A: TEST ECX,ECX                   [85C9] 
+95B7E: CMP RDX,0x3                    [4883FA03] 
+95B82: LEA R8,[R9 + -0x4]             [4D8D41FC] 
+95BD8: TEST RDX,RDX                   [4885D2] 
+95C1C: MOV RSI,R8                     [4C89C6] 
+95C10: TEST ECX,ECX                   [85C9] 
+95C14: MOV dword ptr [RSI + 0x4],0x0  [C7460400000000] 
+
+========

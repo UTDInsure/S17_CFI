@@ -1,0 +1,6 @@
+
+
+7BAA4: MOV ECX,[0x00369124]           [8B0D7AD62E00] 
+7BAAA: TEST ECX,ECX                   [85C9] 
+
+========

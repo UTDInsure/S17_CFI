@@ -1,0 +1,21 @@
+
+
+223E4: PUSH R13                       [4155] 
+223E6: PUSH R12                       [4154] 
+223E8: PUSH RBP                       [55] 
+223E9: PUSH RBX                       [53] 
+223EA: MOV RBX,RDI                    [4889FB] 
+223ED: SUB RSP,0x8                    [4883EC08] 
+223F1: TEST RDI,RDI                   [4885FF] 
+223FA: MOV RBP,[RDI + 0x48]           [488B6F48] 
+223FE: TEST RBP,RBP                   [4885ED] 
+22407: TEST EDX,EDX                   [85D2] 
+22409: MOV R12D,EDX                   [4189D4] 
+224B0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+224A0: ADD RSP,0x8                    [4883C408] 
+224A4: POP RBX                        [5B] 
+224A5: POP RBP                        [5D] 
+224A6: POP R12                        [415C] 
+224A8: POP R13                        [415D] 
+
+========

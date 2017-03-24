@@ -1,0 +1,17 @@
+
+
+B5654: PUSH R12                       [4154] 
+B5656: PUSH RBP                       [55] 
+B5657: PUSH RBX                       [53] 
+B5658: MOV EBX,EDI                    [89FB] 
+B565A: SUB RSP,0x90                   [4881EC90000000] 
+B5661: CMP ESI,0x6                    [83FE06] 
+B56D0: TEST ESI,ESI                   [85F6] 
+B5700: TEST EBX,EBX                   [85DB] 
+B5708: CMP ESI,0x14                   [83FE14] 
+B5711: LEA RAX,[0x131ad8]             [488D05C0C30700] 
+B5718: MOV ESI,ESI                    [89F6] 
+B571A: MOVSXD RDX,[RAX + RSI*0x4]     [486314B0] 
+B571E: ADD RAX,RDX                    [4801D0] 
+
+========

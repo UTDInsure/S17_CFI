@@ -1,0 +1,13 @@
+
+
+20794: MOV RAX,[0x0024a7a0]           [488B0505A02200] 
+2079B: MOV RAX,[RAX]                  [488B00] 
+2079E: TEST RAX,RAX                   [4885C0] 
+207A3: MOV RDX,[0x308 + RAX]          [488B9008030000] 
+207AA: TEST RDX,RDX                   [4885D2] 
+207AF: TEST DI,DI                     [6685FF] 
+207B4: MOVSX EDI,DI                   [0FBFFF] 
+207B7: CMP EDI,[0x3c4 + RAX]          [3BB8C4030000] 
+207E0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

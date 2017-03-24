@@ -1,0 +1,5 @@
+
+
+40DE54: MOVSX EAX,byte ptr [RDI + 0x28] [0FBE4728] 
+
+========

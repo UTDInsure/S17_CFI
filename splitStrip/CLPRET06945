@@ -1,0 +1,15 @@
+
+
+109324: PUSH RBX                       [53] 
+109325: MOV RBX,RSI                    [4889F3] 
+109328: SUB RSP,0x10                   [4883EC10] 
+10932C: MOV EAX,[RDI]                  [8B07] 
+10932E: CMP EAX,0x1                    [83F801] 
+109370: MOVSXD RAX,[RSI]               [486306] 
+109373: LEA RSI,[RSP + 0x8]            [488D742408] 
+109378: MOV [RSP + 0x8],RAX            [4889442408] 
+10937D: MOV RAX,[RDI + 0x8]            [488B4708] 
+109388: ADD RSP,0x10                   [4883C410] 
+10938C: POP RBX                        [5B] 
+
+========

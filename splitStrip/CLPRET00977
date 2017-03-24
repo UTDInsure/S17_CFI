@@ -1,0 +1,17 @@
+
+
+412E34: PUSH R13                       [4155] 
+412E36: MOV RSI,RDI                    [4889FE] 
+412E39: PUSH R12                       [4154] 
+412E3B: PUSH RBP                       [55] 
+412E3C: PUSH RBX                       [53] 
+412E3D: SUB RSP,0x48                   [4883EC48] 
+412E41: TEST RDI,RDI                   [4885FF] 
+412E44: MOV [RSP + 0x8],RDI            [48897C2408] 
+412E7D: ADD RSP,0x48                   [4883C448] 
+412E81: POP RBX                        [5B] 
+412E82: POP RBP                        [5D] 
+412E83: POP R12                        [415C] 
+412E85: POP R13                        [415D] 
+
+========

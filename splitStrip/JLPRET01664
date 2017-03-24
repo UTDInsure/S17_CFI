@@ -1,0 +1,9 @@
+
+
+10BFEC: MOV RAX,[R8]                   [498B00] 
+10BFEF: MOV RDX,[R8 + 0x8]             [498B5008] 
+10BFF3: MOV [RCX + 0x8],RAX            [48894108] 
+10BFF7: MOV [RCX + 0x10],RDX           [48895110] 
+10BFFB: MOV EAX,0x1                    [B801000000] 
+
+========

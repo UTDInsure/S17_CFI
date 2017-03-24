@@ -1,0 +1,7 @@
+
+
+82A54: MOV EAX,[0x0036b86c]           [8B05128E2E00] 
+82A5A: TEST EAX,EAX                   [85C0] 
+82A78: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,6 @@
+
+
+858A4: TEST RSI,RSI                   [4885F6] 
+858A9: XOR RAX,RAX                    [4831C0] 
+
+========

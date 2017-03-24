@@ -1,0 +1,13 @@
+
+
+113304: PUSH R13                       [4155] 
+113306: PUSH R12                       [4154] 
+113308: PUSH RBP                       [55] 
+113309: PUSH RBX                       [53] 
+11330A: SUB RSP,0x8                    [4883EC08] 
+11330E: MOV RBX,[RDI + 0x48]           [488B5F48] 
+113312: CMP dword ptr [0x1d0 + RBX],0x0 [4883BBD001000000] 
+113360: MOV EDI,0x48                   [BF48000000] 
+113365: MOV RBP,RSI                    [4889F5] 
+
+========

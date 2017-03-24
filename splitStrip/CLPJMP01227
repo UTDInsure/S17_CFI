@@ -1,0 +1,18 @@
+
+
+D5494: PUSH R12                       [4154] 
+D5496: MOV R12,RDI                    [4989FC] 
+D5499: PUSH RBP                       [55] 
+D549A: XOR EBP,EBP                    [31ED] 
+D549C: PUSH RBX                       [53] 
+D549D: MOV EAX,[RDI + 0x4]            [8B4704] 
+D54A0: XOR EBX,EBX                    [31DB] 
+D54A2: MOV RDI,[RDI + 0x8]            [488B7F08] 
+D54A6: TEST EAX,EAX                   [85C0] 
+D54BE: LEA RAX,[RDI + RBP*0x1]        [488D042F] 
+D54C2: CMP dword ptr [RAX],0x2        [833802] 
+D54B0: ADD EBX,0x1                    [83C301] 
+D54B3: ADD RBP,0x20                   [4883C520] 
+D54B7: CMP [R12 + 0x4],EBX            [41395C2404] 
+
+========

@@ -1,0 +1,24 @@
+
+
+159D4: TEST RDI,RDI                   [4885FF] 
+159DD: MOVSX R8,word ptr [RDI]        [4C0FBF07] 
+159E1: MOVSX ECX,CX                   [0FBFC9] 
+159E4: SHL ECX,0x8                    [C1E108] 
+159E7: SHL R8,0x4                     [49C1E004] 
+159EB: ADD R8,[RDI + 0x30]            [4C034730] 
+159EF: TEST CH,0xff                   [F6C5FF] 
+159F8: XOR DH,DH                      [30F6] 
+159FA: MOVSXD R10,ECX                 [4C63D1] 
+159FD: OR R10,RDX                     [4909D2] 
+15A00: MOVSX RAX,word ptr [RDI + 0x2] [480FBF4702] 
+15A05: MOVSX R11D,word ptr [RDI + 0x6] [440FBF5F06] 
+15A0A: AND ECX,0xff00                 [81E100FF0000] 
+15A10: MOVSX EDX,AX                   [0FBFD0] 
+15A13: LEA RDI,[RAX*0x8]              [488D3CC500000000] 
+15A1B: CMP EDX,R11D                   [4439DA] 
+15A39: CMP ESI,-0x1                   [83FEFF] 
+15A3E: TEST ESI,ESI                   [85F6] 
+15A40: LEA EAX,[RSI + -0x1]           [8D46FF] 
+15A88: XOR EAX,EAX                    [31C0] 
+
+========

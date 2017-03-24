@@ -1,0 +1,6 @@
+
+
+DDAE4: SUB RSP,0x8                    [4883EC08] 
+DDAE8: MOV EDI,0x1000                 [BF00100000] 
+
+========

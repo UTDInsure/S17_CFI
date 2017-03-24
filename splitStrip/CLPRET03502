@@ -1,0 +1,23 @@
+
+
+852A4: CMP RDI,RSI                    [4839F7] 
+852AD: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+852B0: MOVZX R8D,byte ptr [RSI]       [440FB606] 
+852B4: LEA RCX,[RDI + 0x1]            [488D4F01] 
+852B8: LEA RDI,[RSI + 0x1]            [488D7E01] 
+852BC: XOR R9D,R9D                    [4531C9] 
+852BF: MOVZX EAX,DL                   [0FB6C2] 
+852C2: CMP DL,0x30                    [80FA30] 
+852C5: LEA ESI,[RAX + -0x30]          [8D70D0] 
+852C8: SETZ R9B                       [410F94C1] 
+852CC: CMP ESI,0x9                    [83FE09] 
+852CF: SETBE SIL                      [400F96C6] 
+852D3: MOVZX ESI,SIL                  [400FB6F6] 
+852D7: ADD R9D,ESI                    [4101F1] 
+852DA: MOVZX ESI,R8B                  [410FB6F0] 
+852DE: SUB EAX,ESI                    [29F0] 
+852E2: TEST DL,DL                     [84D2] 
+85390: XOR EDX,EDX                    [31D2] 
+85392: MOV EAX,EDX                    [89D0] 
+
+========

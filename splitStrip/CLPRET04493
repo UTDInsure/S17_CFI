@@ -1,0 +1,20 @@
+
+
+B82D4: PUSH RBP                       [55] 
+B82D5: MOV RBP,RDI                    [4889FD] 
+B82D8: PUSH RBX                       [53] 
+B82D9: MOV RBX,RDI                    [4889FB] 
+B82DC: SUB RSP,0x8                    [4883EC08] 
+B82E0: MOV EDX,[RBX + 0x4]            [8B5304] 
+B82E3: TEST EDX,EDX                   [85D2] 
+B82E7: CMP EDX,0x5b                   [83FA5B] 
+B82EC: LEA ECX,[RDX + -0x3f]          [8D4AC1] 
+B82EF: CMP ECX,0x1                    [83F901] 
+B8328: CMP dword ptr [RBX + 0x8],0x28 [837B0828] 
+B8301: CMP EDX,0x29                   [83FA29] 
+B83C9: ADD RSP,0x8                    [4883C408] 
+B83CD: LEA RAX,[RBX + 0x8]            [488D4308] 
+B83D1: POP RBX                        [5B] 
+B83D2: POP RBP                        [5D] 
+
+========

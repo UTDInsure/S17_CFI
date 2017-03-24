@@ -1,0 +1,13 @@
+
+
+4173D4: SUB RSP,0x8                    [4883EC08] 
+4173D8: MOV RDI,[0x006273d0]           [488B3DF1FF2000] 
+4173DF: CMP RDI,0x6273d0               [4881FFD0736200] 
+4173E8: NOP                            [0F1F840000000000] 
+4173F0: MOV RDX,[RDI + 0x8]            [488B5708] 
+4173F4: MOV RAX,[RDI]                  [488B07] 
+4173F7: MOV [RAX + 0x8],RDX            [48895008] 
+4173FB: MOV RDX,[RDI + 0x8]            [488B5708] 
+4173FF: MOV [RDX],RAX                  [488902] 
+
+========

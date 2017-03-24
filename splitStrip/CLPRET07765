@@ -1,0 +1,7 @@
+
+
+11D1F4: MOV R9D,[0x0036e770]           [448B0D75152500] 
+11D1FB: XOR EAX,EAX                    [31C0] 
+11D1FD: TEST R9D,R9D                   [4585C9] 
+
+========

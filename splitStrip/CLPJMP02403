@@ -1,0 +1,12 @@
+
+
+34BD4: PUSH R12                       [4154] 
+34BD6: MOV R12,RDI                    [4989FC] 
+34BD9: PUSH RBP                       [55] 
+34BDA: MOV RBP,[0x0024a8a0]           [488B2DBF5C2100] 
+34BE1: PUSH RBX                       [53] 
+34BE2: MOV RBX,[RBP + 0x40]           [488B5D40] 
+34BE6: TEST RBX,RBX                   [4885DB] 
+34C2C: MOV EDI,0x201                  [BF01020000] 
+
+========

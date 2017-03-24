@@ -1,0 +1,8 @@
+
+
+11E5A4: MOV RAX,[0x00368d80]           [488B05D5A72400] 
+11E5AB: MOV RDX,FS:[RAX]               [64488B10] 
+11E5AF: MOV dword ptr FS:[RAX],0x0     [6448C70000000000] 
+11E5B7: TEST RDX,RDX                   [4885D2] 
+
+========

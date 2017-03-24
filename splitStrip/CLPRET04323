@@ -1,0 +1,6 @@
+
+
+B2964: MOV EAX,0x3f                   [B83F000000] 
+B296B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

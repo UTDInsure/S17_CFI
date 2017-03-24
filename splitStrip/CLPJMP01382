@@ -1,0 +1,22 @@
+
+
+F4AB4: MOV R8,[RDI + 0x30]            [4C8B4730] 
+F4AB8: MOV R9,[RDI + 0x8]             [4C8B4F08] 
+F4ABC: MOV RDX,[RDI + 0x38]           [488B5738] 
+F4AC0: ROR R8,0x11                    [49C1C811] 
+F4AC4: XOR R8,FS:[0x30]               [644C33042530000000] 
+F4ACD: ROR R9,0x11                    [49C1C911] 
+F4AD1: XOR R9,FS:[0x30]               [644C330C2530000000] 
+F4ADA: ROR RDX,0x11                   [48C1CA11] 
+F4ADE: XOR RDX,FS:[0x30]              [644833142530000000] 
+F4AE7: CMP RSP,R8                     [4C39C4] 
+F4B3B: MOV RBX,[RDI]                  [488B1F] 
+F4B3E: MOV R12,[RDI + 0x10]           [4C8B6710] 
+F4B42: MOV R13,[RDI + 0x18]           [4C8B6F18] 
+F4B46: MOV R14,[RDI + 0x20]           [4C8B7720] 
+F4B4A: MOV R15,[RDI + 0x28]           [4C8B7F28] 
+F4B4E: MOV EAX,ESI                    [89F0] 
+F4B50: MOV RSP,R8                     [4C89C4] 
+F4B53: MOV RBP,R9                     [4C89CD] 
+
+========

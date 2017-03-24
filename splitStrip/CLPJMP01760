@@ -1,0 +1,11 @@
+
+
+11BC34: SUB RSP,0x8                    [4883EC08] 
+119BF4: PUSH RBX                       [53] 
+119BF5: MOV RBX,RDI                    [4889FB] 
+119BF8: SUB RSP,0x10                   [4883EC10] 
+119BFC: MOV RSI,[0x0036a8d0]           [488B35CD0C2500] 
+119C03: TEST RSI,RSI                   [4885F6] 
+119C30: MOV EDI,0x180                  [BF80010000] 
+
+========

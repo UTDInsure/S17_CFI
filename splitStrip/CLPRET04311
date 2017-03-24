@@ -1,0 +1,24 @@
+
+
+B0404: PUSH R15                       [4157] 
+B0406: MOV R15,RDI                    [4989FF] 
+B0409: PUSH R14                       [4156] 
+B040B: PUSH R13                       [4155] 
+B040D: PUSH R12                       [4154] 
+B040F: PUSH RBP                       [55] 
+B0410: PUSH RBX                       [53] 
+B0411: SUB RSP,0x8                    [4883EC08] 
+B0415: TEST RDI,RDI                   [4885FF] 
+B063D: MOV RAX,[0x00368e68]           [488B0524882B00] 
+B0644: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+B0649: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B0586: ADD RSP,0x8                    [4883C408] 
+B058A: MOV EAX,EDX                    [89D0] 
+B058C: POP RBX                        [5B] 
+B058D: POP RBP                        [5D] 
+B058E: POP R12                        [415C] 
+B0590: POP R13                        [415D] 
+B0592: POP R14                        [415E] 
+B0594: POP R15                        [415F] 
+
+========

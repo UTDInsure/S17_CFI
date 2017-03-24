@@ -1,0 +1,6 @@
+
+
+18534: SUB RSP,0x8                    [4883EC08] 
+18538: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+
+========

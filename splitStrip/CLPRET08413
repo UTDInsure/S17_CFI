@@ -1,0 +1,6 @@
+
+
+2B114: TEST RDI,RDI                   [4885FF] 
+2B120: XOR EAX,EAX                    [31C0] 
+
+========

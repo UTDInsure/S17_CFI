@@ -1,0 +1,22 @@
+
+
+F9A34: PUSH R12                       [4154] 
+F9A36: MOV RAX,[0x00368f20]           [488B05E3F42600] 
+F9A3D: XOR ECX,ECX                    [31C9] 
+F9A3F: MOV R11,[0x00368e00]           [4C8B1DBAF32600] 
+F9A46: PUSH RBP                       [55] 
+F9A47: PUSH RBX                       [53] 
+F9A48: MOV RBX,FS:[RAX]               [64488B18] 
+F9A4C: MOVSX RAX,byte ptr [RDI]       [480FBE07] 
+F9A50: MOV RBP,FS:[R11]               [64498B2B] 
+F9A54: MOV R10D,[RBX + RAX*0x4]       [448B1483] 
+F9A58: LEA EAX,[R10 + -0x61]          [418D429F] 
+F9A5C: CMP AL,0x5                     [3C05] 
+F9AD3: LEA EAX,[R10 + -0x30]          [418D42D0] 
+F9AD7: CMP AL,0x9                     [3C09] 
+F9ADB: POP RBX                        [5B] 
+F9ADC: POP RBP                        [5D] 
+F9ADD: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+F9AE2: POP R12                        [415C] 
+
+========

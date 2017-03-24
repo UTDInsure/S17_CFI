@@ -1,0 +1,12 @@
+
+
+402CB4: PUSH RBP                       [55] 
+402CB5: PUSH RBX                       [53] 
+402CB6: MOV EBX,EDI                    [89FB] 
+402CB8: SUB RSP,0x48                   [4883EC48] 
+402CBC: CMP EDI,[0x00627900]           [3B3D3E4C2200] 
+402D66: ADD RSP,0x48                   [4883C448] 
+402D6A: POP RBX                        [5B] 
+402D6B: POP RBP                        [5D] 
+
+========

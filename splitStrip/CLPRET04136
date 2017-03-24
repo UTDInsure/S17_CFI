@@ -1,0 +1,14 @@
+
+
+A1254: PUSH R12                       [4154] 
+A1256: CMP RDI,RSI                    [4839F7] 
+A1259: PUSH RBP                       [55] 
+A125A: MOV RBP,RDI                    [4889FD] 
+A125D: PUSH RBX                       [53] 
+A125E: MOV RBX,RSI                    [4889F3] 
+A12A0: POP RBX                        [5B] 
+A12A1: POP RBP                        [5D] 
+A12A2: XOR EAX,EAX                    [31C0] 
+A12A4: POP R12                        [415C] 
+
+========

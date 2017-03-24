@@ -1,0 +1,25 @@
+
+
+40C304: PUSH R15                       [4157] 
+40C306: XOR EAX,EAX                    [31C0] 
+40C308: PUSH R14                       [4156] 
+40C30A: PUSH R13                       [4155] 
+40C30C: PUSH R12                       [4154] 
+40C30E: PUSH RBP                       [55] 
+40C30F: PUSH RBX                       [53] 
+40C310: MOV RBX,RDI                    [4889FB] 
+40C313: MOV EDI,0x419c39               [BF399C4100] 
+40C318: SUB RSP,0x18                   [4883EC18] 
+40AB24: PUSH RBX                       [53] 
+40AB25: MOV RSI,RDI                    [4889FE] 
+40AB28: MOV RBX,RDI                    [4889FB] 
+40AB2B: XOR EAX,EAX                    [31C0] 
+40AB2D: SUB RSP,0x10                   [4883EC10] 
+40AB31: MOV RDI,[0x00628440]           [488B3D08D92100] 
+40AB38: LEA RDX,[RSP + 0x8]            [488D542408] 
+40A814: TEST RDI,RDI                   [4885FF] 
+40A889: MOV EAX,0x64                   [B864000000] 
+40AB46: CMP EAX,0x1                    [83F801] 
+40AB4B: MOV RDI,RBX                    [4889DF] 
+
+========

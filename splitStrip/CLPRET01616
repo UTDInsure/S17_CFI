@@ -1,0 +1,10 @@
+
+
+35DB4: LEA EDX,[RDI + -0x1]           [8D57FF] 
+35DB7: MOV R8D,EDI                    [4189F8] 
+35DBA: CMP EDX,0x3f                   [83FA3F] 
+35E40: MOV RAX,[0x00368e68]           [488B0521303300] 
+35E47: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+35E4E: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

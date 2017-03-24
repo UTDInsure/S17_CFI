@@ -1,0 +1,13 @@
+
+
+20694: MOV RAX,[0x0024a7a0]           [488B0505A12200] 
+2069B: MOV RAX,[RAX]                  [488B00] 
+2069E: TEST RAX,RAX                   [4885C0] 
+206A3: MOV RAX,[0x308 + RAX]          [488B8008030000] 
+206AA: TEST RAX,RAX                   [4885C0] 
+206AF: MOVZX EDX,byte ptr [RAX + 0x20] [0FB65020] 
+206B3: OR RDX,RDI                     [4809FA] 
+206B6: MOV [RAX + 0x20],RDX           [48895020] 
+206BA: XOR EAX,EAX                    [31C0] 
+
+========

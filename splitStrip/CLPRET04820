@@ -1,0 +1,8 @@
+
+
+D58D4: TEST SI,0xff80                 [66F7C680FF] 
+D58D9: MOV EAX,0x16                   [B816000000] 
+D58E8: MOV [RDI],SI                   [668937] 
+D58EB: XOR AL,AL                      [30C0] 
+
+========

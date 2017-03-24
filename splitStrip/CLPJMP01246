@@ -1,0 +1,16 @@
+
+
+D95A4: PUSH R12                       [4154] 
+D95A6: MOV R12D,EDX                   [4189D4] 
+D95A9: PUSH RBP                       [55] 
+D95AA: MOV RBP,RDI                    [4889FD] 
+D95AD: PUSH RBX                       [53] 
+D95AE: CMP [RDI + 0x30],EDX           [395730] 
+D95B1: MOV RBX,RSI                    [4889F3] 
+D9648: LEA EAX,[RDX + 0x28]           [8D4228] 
+D964B: MOV [RDI + 0x30],EAX           [894730] 
+D964E: CDQE                           [4898] 
+D9650: MOV RDI,[RDI + 0x10]           [488B7F10] 
+D9654: LEA RSI,[RAX*0x8]              [488D34C500000000] 
+
+========

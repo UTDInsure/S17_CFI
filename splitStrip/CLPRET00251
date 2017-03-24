@@ -1,0 +1,17 @@
+
+
+17014: CMP RDI,[0x00223100]           [483B3DE5C02000] 
+1701B: PUSH RBX                       [53] 
+1701C: MOV RBX,RDI                    [4889FB] 
+17028: MOV RDX,[0x00223110]           [488B15E1C02000] 
+1702F: XOR ESI,ESI                    [31F6] 
+17031: SUB RDX,RDI                    [4829FA] 
+19F94: MOV RCX,RDX                    [4889D1] 
+19F97: MOVZX EAX,SIL                  [400FB6C6] 
+19F9B: MOV RDX,RDI                    [4889FA] 
+19F9E: STOSB.REP RDI                  [F3AA] 
+19FA0: MOV RAX,RDX                    [4889D0] 
+1703D: MOV [0x00223110],RBX           [48891DCCC02000] 
+17044: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,8 @@
+
+
+93AD4: MOV RAX,[RDI]                  [488B07] 
+93AD7: MOV R8D,ESI                    [4189F0] 
+93ADA: MOV R9D,EDX                    [4189D1] 
+93ADD: TEST RAX,RAX                   [4885C0] 
+
+========

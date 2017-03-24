@@ -1,0 +1,7 @@
+
+
+9475C: XOR EAX,EAX                    [31C0] 
+9475E: TEST DH,0xf0                   [F6C6F0] 
+946B2: POP RBX                        [5B] 
+
+========

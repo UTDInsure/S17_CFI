@@ -1,0 +1,13 @@
+
+
+DA6B4: PUSH R12                       [4154] 
+DA6B6: PUSH RBP                       [55] 
+DA6B7: MOV RBP,RDI                    [4889FD] 
+DA6BA: PUSH RBX                       [53] 
+DA6BB: MOV RDI,[RDI]                  [488B3F] 
+DA6BE: TEST RDI,RDI                   [4885FF] 
+DA6C3: CMP word ptr [RDI + 0x60],0x0  [66837F6000] 
+DA6E5: MOV RBX,[RDI + 0x10]           [488B5F10] 
+DA6E9: TEST RBX,RBX                   [4885DB] 
+
+========

@@ -1,0 +1,12 @@
+
+
+40C894: PUSH RBP                       [55] 
+40C895: XOR EAX,EAX                    [31C0] 
+40C897: PUSH RBX                       [53] 
+40C898: MOV EBX,EDI                    [89FB] 
+40C89A: SUB RSP,0x118                  [4881EC18010000] 
+404F14: SUB RSP,0x8                    [4883EC08] 
+404F18: XOR EDX,EDX                    [31D2] 
+404F1A: MOV ESI,0x1                    [BE01000000] 
+
+========

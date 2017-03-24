@@ -1,0 +1,13 @@
+
+
+11DF14: LEA RDI,[0x36bee0]             [488D3DC5DF2400] 
+11DF1B: SUB RSP,0x8                    [4883EC08] 
+CA124: PUSH RBX                       [53] 
+CA125: MOV RBX,RDI                    [4889FB] 
+CA128: MOV RDI,[RDI]                  [488B3F] 
+CA12B: TEST RDI,RDI                   [4885FF] 
+CA139: MOV RDI,[RBX + 0x20]           [488B7B20] 
+CA13D: MOV dword ptr [RBX],0x0        [48C70300000000] 
+CA144: MOV dword ptr [RBX + 0x8],0x0  [48C7430800000000] 
+
+========

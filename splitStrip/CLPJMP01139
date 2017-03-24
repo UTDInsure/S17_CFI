@@ -1,0 +1,7 @@
+
+
+BD264: PUSH RBX                       [53] 
+BD265: MOV RBX,RDI                    [4889FB] 
+BD268: MOV RDI,[RDI + 0x20]           [488B7F20] 
+
+========

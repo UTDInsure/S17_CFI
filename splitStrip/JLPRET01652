@@ -1,0 +1,14 @@
+
+
+C8694: TEST RBP,RBP                   [4885ED] 
+C869D: TEST R14,R14                   [4D85F6] 
+C867F: XOR EAX,EAX                    [31C0] 
+C8681: ADD RSP,0x48                   [4883C448] 
+C8685: POP RBX                        [5B] 
+C8686: POP RBP                        [5D] 
+C8687: POP R12                        [415C] 
+C8689: POP R13                        [415D] 
+C868B: POP R14                        [415E] 
+C868D: POP R15                        [415F] 
+
+========

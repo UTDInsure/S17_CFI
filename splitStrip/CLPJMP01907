@@ -1,0 +1,16 @@
+
+
+14D14: PUSH R15                       [4157] 
+14D16: PUSH R14                       [4156] 
+14D18: PUSH R13                       [4155] 
+14D1A: PUSH R12                       [4154] 
+14D1C: PUSH RBP                       [55] 
+14D1D: PUSH RBX                       [53] 
+14D1E: MOV RBX,RDI                    [4889FB] 
+14D21: SUB RSP,0x18                   [4883EC18] 
+14D25: TEST RDI,RDI                   [4885FF] 
+14D2E: MOVZX R13D,SIL                 [440FB6EE] 
+14D32: MOV RBP,RSI                    [4889F5] 
+14D35: MOV RDI,R13                    [4C89EF] 
+
+========

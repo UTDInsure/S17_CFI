@@ -1,0 +1,12 @@
+
+
+F07B4: MOV ECX,[0x0036e770]           [8B0DB6DF2700] 
+F07BA: XOR EAX,EAX                    [31C0] 
+F07BC: TEST ECX,ECX                   [85C9] 
+F07C8: SUB RSP,0x8                    [4883EC08] 
+F07CC: MOV RAX,[0x0036e6d8]           [488B0505DF2700] 
+F07D3: ROR RAX,0x11                   [48C1C811] 
+F07D7: XOR RAX,FS:[0x30]              [644833042530000000] 
+F07E6: ADD RSP,0x8                    [4883C408] 
+
+========

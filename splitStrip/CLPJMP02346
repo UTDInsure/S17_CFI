@@ -1,0 +1,8 @@
+
+
+2E9A4: TEST RDI,RDI                   [4885FF] 
+2E9A9: PUSH RBX                       [53] 
+2E9AA: MOV EBX,ESI                    [89F3] 
+2E9AC: MOV [RDI + 0x28],SIL           [40887728] 
+
+========

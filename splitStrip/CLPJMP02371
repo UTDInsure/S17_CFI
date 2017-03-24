@@ -1,0 +1,17 @@
+
+
+305C4: PUSH R15                       [4157] 
+305C6: PUSH R14                       [4156] 
+305C8: PUSH R13                       [4155] 
+305CA: PUSH R12                       [4154] 
+305CC: PUSH RBP                       [55] 
+305CD: PUSH RBX                       [53] 
+305CE: SUB RSP,0x8                    [4883EC08] 
+305D2: MOV RAX,[0x0024a880]           [488B05A7A22100] 
+305D9: MOV RBP,[RAX]                  [488B28] 
+305DC: TEST RBP,RBP                   [4885ED] 
+305E5: XOR EDX,EDX                    [31D2] 
+305E7: MOV ESI,0x1                    [BE01000000] 
+305EC: MOV R13,RDI                    [4989FD] 
+
+========

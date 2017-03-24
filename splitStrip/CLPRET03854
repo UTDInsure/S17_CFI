@@ -1,0 +1,24 @@
+
+
+93BB4: MOVQ XMM1,RSI                  [66480F6ECE] 
+93BB9: SUB RDX,0x10                   [4883EA10] 
+93BC3: PUNPCKLBW XMM1,XMM1            [660F60C9] 
+93BC7: PUNPCKLBW XMM1,XMM1            [660F60C9] 
+93BCB: ADD RDI,RDX                    [4801D7] 
+93BCE: PSHUFD XMM1,XMM1,0x0           [660F70C900] 
+93BD3: MOVDQU XMM0,[RDI]              [F30F6F07] 
+93BD7: PCMPEQB XMM0,XMM1              [660F74C1] 
+93BDB: PMOVMSKB EAX,XMM0              [660FD7C0] 
+93BDF: TEST EAX,EAX                   [85C0] 
+93BE7: SUB RDI,0x40                   [4883EF40] 
+93BEB: MOV RCX,RDI                    [4889F9] 
+93BEE: AND RCX,0xf                    [4883E10F] 
+93C10: SUB RDX,0x40                   [4883EA40] 
+93C1A: MOVDQA XMM0,[RDI + 0x30]       [660F6F4730] 
+93C1F: PCMPEQB XMM0,XMM1              [660F74C1] 
+93C23: PMOVMSKB EAX,XMM0              [660FD7C0] 
+93C27: TEST EAX,EAX                   [85C0] 
+93E40: BSR EAX,EAX                    [0FBDC0] 
+93E43: LEA RAX,[RAX + RDI*0x1 + 0x30] [488D443830] 
+
+========

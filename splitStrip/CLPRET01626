@@ -1,0 +1,14 @@
+
+
+35EE4: TEST EDI,EDI                   [85FF] 
+35EE8: SUB RSP,0x8                    [4883EC08] 
+35EEC: NEG EDI                        [F7DF] 
+361B4: MOV EAX,0x3e                   [B83E000000] 
+361BB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+361C4: MOV RCX,[0x00368e68]           [488B0D9D2C3300] 
+361CB: NEG EAX                        [F7D8] 
+361CD: MOV FS:[RCX],EAX               [648901] 
+361D0: OR RAX,-0x1                    [4883C8FF] 
+35EF7: ADD RSP,0x8                    [4883C408] 
+
+========

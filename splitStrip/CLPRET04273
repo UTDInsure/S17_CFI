@@ -1,0 +1,18 @@
+
+
+AE4F4: PUSH R12                       [4154] 
+AE4F6: PUSH RBP                       [55] 
+AE4F7: PUSH RBX                       [53] 
+AE4F8: MOV R12,[RDI + 0x28]           [4C8B6728] 
+AE4FC: MOV RBX,RDI                    [4889FB] 
+AE4FF: TEST R12,R12                   [4D85E4] 
+AE504: MOV EAX,[R12 + 0x28]           [418B442428] 
+AE509: TEST EAX,EAX                   [85C0] 
+AE50D: MOV RBP,[0x1b8 + RBX]          [488BABB8010000] 
+AE514: MOV dword ptr [R12 + 0x28],0x1 [41C744242801000000] 
+AE51D: TEST RBP,RBP                   [4885ED] 
+AE570: POP RBX                        [5B] 
+AE571: POP RBP                        [5D] 
+AE572: POP R12                        [415C] 
+
+========

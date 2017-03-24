@@ -1,0 +1,24 @@
+
+
+6EE04: CMP EDI,-0x1                   [83FFFF] 
+6EE07: MOV R8D,EDI                    [4189F8] 
+6EE10: PUSH RBX                       [53] 
+6EE11: MOV EAX,[RSI]                  [8B06] 
+6EE13: MOV RBX,RSI                    [4889F3] 
+6EE16: AND EAX,0x8000                 [2500800000] 
+6EE77: MOVZX ESI,R8B                  [410FB6F0] 
+6EE7B: MOV RDI,RBX                    [4889DF] 
+79D94: PUSH RBX                       [53] 
+79D95: MOV RDX,[RDI + 0x8]            [488B5708] 
+79D99: MOV RBX,RDI                    [4889FB] 
+79D9C: CMP RDX,[RDI + 0x18]           [483B5718] 
+79DA8: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+79DAF: MOV RDI,RBX                    [4889DF] 
+79DB9: CMP EAX,-0x1                   [83F8FF] 
+79DBE: AND [RBX],0xffffffef           [8323EF] 
+79DC1: POP RBX                        [5B] 
+6EE87: TEST dword ptr [RBX],0x8000    [F70300800000] 
+6EE8D: MOV EDX,EAX                    [89C2] 
+6EEE0: POP RBX                        [5B] 
+
+========

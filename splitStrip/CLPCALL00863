@@ -1,0 +1,19 @@
+
+
+BBB94: PUSH R12                       [4154] 
+BBB96: MOV R12,RSI                    [4989F4] 
+BBB99: PUSH RBP                       [55] 
+BBB9A: MOV RBP,RDX                    [4889D5] 
+BBB9D: PUSH RBX                       [53] 
+BBB9E: MOV RBX,RDI                    [4889FB] 
+BBBAB: MOV RAX,[RBX + 0x8]            [488B4308] 
+BBBAF: TEST RAX,RAX                   [4885C0] 
+BBBA8: MOV RBX,RAX                    [4889C3] 
+BBBAB: MOV RAX,[RBX + 0x8]            [488B4308] 
+BBBAF: TEST RAX,RAX                   [4885C0] 
+BBBB4: MOV RAX,[RBX + 0x10]           [488B4310] 
+BBBB8: TEST RAX,RAX                   [4885C0] 
+BBBD1: MOV RSI,RBX                    [4889DE] 
+BBBD4: MOV RDI,RBP                    [4889EF] 
+
+========

@@ -1,0 +1,15 @@
+
+
+114C94: PUSH R12                       [4154] 
+114C96: TEST ESI,ESI                   [85F6] 
+114C98: PUSH RBP                       [55] 
+114C99: MOV EBP,ESI                    [89F5] 
+114C9B: PUSH RBX                       [53] 
+114C9E: MOV EAX,[RDI]                  [8B07] 
+114CA0: MOV RBX,RDI                    [4889FB] 
+114CA3: TEST EAX,EAX                   [85C0] 
+114CA7: CMP [RDI + 0x20],ESI           [397720] 
+114CC0: MOV RDI,[RDI + 0x18]           [488B7F18] 
+114CC4: MOV R12D,EBP                   [4189EC] 
+
+========

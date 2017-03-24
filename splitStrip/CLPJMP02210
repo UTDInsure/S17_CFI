@@ -1,0 +1,27 @@
+
+
+23564: PUSH R15                       [4157] 
+23566: MOV R15D,ESI                   [4189F7] 
+23569: PUSH R14                       [4156] 
+2356B: PUSH R13                       [4155] 
+2356D: PUSH R12                       [4154] 
+2356F: MOV R12,R9                     [4D89CC] 
+23572: PUSH RBP                       [55] 
+23573: MOV EBP,EDI                    [89FD] 
+23575: PUSH RBX                       [53] 
+23576: SUB RSP,0x38                   [4883EC38] 
+2357A: MOV R14,[0x0024a880]           [4C8B35FF722200] 
+23581: CMP EDI,0x1                    [83FF01] 
+23584: MOV RAX,[R14]                  [498B06] 
+23587: MOV RAX,[RAX + 0x20]           [488B4020] 
+23858: CMP dword ptr [0x410 + RAX],0x0 [4883B81004000000] 
+23862: CMP ESI,ECX                    [39CE] 
+23A3E: CMP EDX,R8D                    [4439C2] 
+23A47: MOV RBX,[0x0024a7a0]           [488B1D526D2200] 
+23A4E: XOR ECX,ECX                    [31C9] 
+23A50: MOV EDX,R15D                   [4489FA] 
+23A53: MOV RAX,[RBX]                  [488B03] 
+23A56: MOV ESI,[0x2e8 + RAX]          [8BB0E8020000] 
+23A5C: MOV EDI,[0x2e4 + RAX]          [8BB8E4020000] 
+
+========

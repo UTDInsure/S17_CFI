@@ -1,0 +1,7 @@
+
+
+E0154: MOV R10,RCX                    [4989CA] 
+E0157: MOV EAX,0x9                    [B809000000] 
+E015E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

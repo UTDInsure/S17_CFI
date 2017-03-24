@@ -1,0 +1,13 @@
+
+
+15B04: TEST RDI,RDI                   [4885FF] 
+15B0D: PUSH R12                       [4154] 
+15B0F: MOVZX R8D,word ptr [RDI]       [440FB707] 
+15B13: MOVZX R9D,word ptr [RDI + 0x2] [440FB74F02] 
+15B18: MOV RCX,[RDI + 0x18]           [488B4F18] 
+15B1C: PUSH RBP                       [55] 
+15B1D: PUSH RBX                       [53] 
+15B1E: MOVZX EBX,word ptr [RDI + 0x4] [0FB75F04] 
+15B22: CMP R8W,BX                     [664139D8] 
+
+========

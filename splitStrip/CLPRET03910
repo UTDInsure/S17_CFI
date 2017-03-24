@@ -1,0 +1,6 @@
+
+
+958C4: CMP dword ptr [RDI],0x0        [833F00] 
+95AE0: XOR RAX,RAX                    [4831C0] 
+
+========

@@ -1,0 +1,7 @@
+
+
+E6FD4: TEST RSI,RSI                   [4885F6] 
+E7018: MOV EAX,EDI                    [89F8] 
+E701A: NOP                            [660F1F440000] 
+
+========

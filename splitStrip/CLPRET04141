@@ -1,0 +1,21 @@
+
+
+A13B4: PUSH R14                       [4156] 
+A13B6: CMP RDI,RSI                    [4839F7] 
+A13B9: PUSH R13                       [4155] 
+A13BB: PUSH R12                       [4154] 
+A13BD: PUSH RBP                       [55] 
+A13BE: MOV RBP,RDI                    [4889FD] 
+A13C1: PUSH RBX                       [53] 
+A13C2: MOV RBX,RSI                    [4889F3] 
+A13C7: TEST RDX,RDX                   [4885D2] 
+A13CA: MOV R12,RDX                    [4989D4] 
+A13CD: MOV R14,RCX                    [4989CE] 
+A13D2: POP RBX                        [5B] 
+A13D3: POP RBP                        [5D] 
+A13D4: POP R12                        [415C] 
+A13D6: POP R13                        [415D] 
+A13D8: XOR EAX,EAX                    [31C0] 
+A13DA: POP R14                        [415E] 
+
+========

@@ -1,0 +1,23 @@
+
+
+D1B64: PUSH R15                       [4157] 
+D1B66: PUSH R14                       [4156] 
+D1B68: MOV R14,R8                     [4D89C6] 
+D1B6B: PUSH R13                       [4155] 
+D1B6D: PUSH R12                       [4154] 
+D1B6F: PUSH RBP                       [55] 
+D1B70: PUSH RBX                       [53] 
+D1B71: MOV RBX,RCX                    [4889CB] 
+D1B74: SUB RSP,0x58                   [4883EC58] 
+D1B78: MOV [RSP + 0x20],RDX           [4889542420] 
+D1B7D: MOV RDX,[R8]                   [498B10] 
+D1B80: MOV [RSP + 0x10],RDI           [48897C2410] 
+D1B85: MOV [RSP + 0x18],RSI           [4889742418] 
+D1B8A: MOV dword ptr [RSP + 0x40],0x0 [48C744244000000000] 
+D1B93: MOV dword ptr [RSP + 0x38],0x0 [48C744243800000000] 
+D1B9C: MOVSX ECX,byte ptr [RCX + RDX*0x1] [0FBE0C11] 
+D1BA0: MOV dword ptr [RSP + 0x48],0x0 [48C744244800000000] 
+D1BA9: TEST CL,CL                     [84C9] 
+D1D16: XOR EDI,EDI                    [31FF] 
+
+========

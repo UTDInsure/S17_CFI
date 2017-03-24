@@ -1,0 +1,26 @@
+
+
+72134: PUSH R15                       [4157] 
+72136: PUSH R14                       [4156] 
+72138: PUSH R13                       [4155] 
+7213A: PUSH R12                       [4154] 
+7213C: PUSH RBP                       [55] 
+7213D: PUSH RBX                       [53] 
+7213E: MOV RBX,RDI                    [4889FB] 
+72141: SUB RSP,0x48                   [4883EC48] 
+72145: MOV EAX,[RDI]                  [8B07] 
+72147: TEST AL,0x4                    [A804] 
+7271B: OR EAX,0x20                    [83C820] 
+7271E: MOV [RDI],EAX                  [8907] 
+72720: MOV RAX,[0x00368e68]           [488B0541672F00] 
+72727: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+7272E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+723DA: ADD RSP,0x48                   [4883C448] 
+723DE: POP RBX                        [5B] 
+723DF: POP RBP                        [5D] 
+723E0: POP R12                        [415C] 
+723E2: POP R13                        [415D] 
+723E4: POP R14                        [415E] 
+723E6: POP R15                        [415F] 
+
+========

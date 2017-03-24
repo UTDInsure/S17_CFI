@@ -1,0 +1,12 @@
+
+
+74D44: PUSH R13                       [4155] 
+74D46: MOV R13,RDI                    [4989FD] 
+74D49: MOV EDI,0x258                  [BF58020000] 
+74D4E: PUSH R12                       [4154] 
+74D50: MOV R12,RSI                    [4989F4] 
+74D53: PUSH RBP                       [55] 
+74D54: PUSH RBX                       [53] 
+74D55: SUB RSP,0x8                    [4883EC08] 
+
+========

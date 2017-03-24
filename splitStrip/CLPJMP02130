@@ -1,0 +1,10 @@
+
+
+1E6D4: PUSH R13                       [4155] 
+1E6D6: XOR ECX,ECX                    [31C9] 
+1E6D8: PUSH R12                       [4154] 
+1E6DA: PUSH RBP                       [55] 
+1E6DB: PUSH RBX                       [53] 
+1E6DC: SUB RSP,0x8                    [4883EC08] 
+
+========

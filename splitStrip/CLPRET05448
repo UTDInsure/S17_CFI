@@ -1,0 +1,6 @@
+
+
+DFF94: TEST EDI,EDI                   [85FF] 
+DFF96: MOV EAX,[0x003691f0]           [8B0554922800] 
+
+========

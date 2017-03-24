@@ -1,0 +1,11 @@
+
+
+11DCE4: MOV RDI,[0x003695f0]           [488B3D05B92400] 
+11DCEB: TEST RDI,RDI                   [4885FF] 
+11DCF0: PUSH RBX                       [53] 
+11DD01: CMP dword ptr [RDI],0x4        [833F04] 
+11DCF8: MOV RDI,[RDI + 0x10]           [488B7F10] 
+11DCFC: TEST RDI,RDI                   [4885FF] 
+11DD1B: POP RBX                        [5B] 
+
+========

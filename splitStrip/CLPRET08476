@@ -1,0 +1,6 @@
+
+
+2D404: MOV dword ptr [RDI],0x0        [C70700000000] 
+2D40A: MOV dword ptr [RSI],0x0        [C70600000000] 
+
+========

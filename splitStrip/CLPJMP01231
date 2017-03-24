@@ -1,0 +1,13 @@
+
+
+D5494: PUSH R12                       [4154] 
+D5496: MOV R12,RDI                    [4989FC] 
+D5499: PUSH RBP                       [55] 
+D549A: XOR EBP,EBP                    [31ED] 
+D549C: PUSH RBX                       [53] 
+D549D: MOV EAX,[RDI + 0x4]            [8B4704] 
+D54A0: XOR EBX,EBX                    [31DB] 
+D54A2: MOV RDI,[RDI + 0x8]            [488B7F08] 
+D54A6: TEST EAX,EAX                   [85C0] 
+
+========

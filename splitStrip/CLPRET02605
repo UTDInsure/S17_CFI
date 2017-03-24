@@ -1,0 +1,20 @@
+
+
+706B4: PUSH R14                       [4156] 
+706B6: PUSH R13                       [4155] 
+706B8: PUSH R12                       [4154] 
+706BA: MOV R12,RSI                    [4989F4] 
+706BD: PUSH RBP                       [55] 
+706BE: PUSH RBX                       [53] 
+706BF: SUB RSP,0x340                  [4881EC40030000] 
+706C6: TEST RSI,RSI                   [4885F6] 
+706C9: MOV dword ptr [0x1d8 + RSP],0x0 [48C78424D801000000000000] 
+70780: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+70769: ADD RSP,0x340                  [4881C440030000] 
+70770: POP RBX                        [5B] 
+70771: POP RBP                        [5D] 
+70772: POP R12                        [415C] 
+70774: POP R13                        [415D] 
+70776: POP R14                        [415E] 
+
+========

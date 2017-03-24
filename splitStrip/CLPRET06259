@@ -1,0 +1,12 @@
+
+
+F05C4: MOV R11D,[0x0036e770]          [448B1DA5E12700] 
+F05CB: XOR EAX,EAX                    [31C0] 
+F05CD: TEST R11D,R11D                 [4585DB] 
+F05D8: SUB RSP,0x8                    [4883EC08] 
+F05DC: MOV RAX,[0x0036e660]           [488B057DE02700] 
+F05E3: ROR RAX,0x11                   [48C1C811] 
+F05E7: XOR RAX,FS:[0x30]              [644833042530000000] 
+F05F6: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,14 @@
+
+
+1ED84: PUSH R14                       [4156] 
+1ED86: TEST RDI,RDI                   [4885FF] 
+1ED89: PUSH R13                       [4155] 
+1ED8B: PUSH R12                       [4154] 
+1ED8D: MOV R12,RDI                    [4989FC] 
+1ED90: PUSH RBP                       [55] 
+1ED91: PUSH RBX                       [53] 
+1ED98: MOV R13,RSI                    [4989F5] 
+1ED9B: MOVSX R14D,word ptr [RDI + 0x6] [440FBF7706] 
+1EDA0: MOV RDI,RSI                    [4889F7] 
+
+========

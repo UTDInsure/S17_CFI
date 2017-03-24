@@ -1,0 +1,14 @@
+
+
+A4494: PUSH RBP                       [55] 
+A4495: MOV EBP,ESI                    [89F5] 
+A4497: PUSH RBX                       [53] 
+A4498: SUB RSP,0x8                    [4883EC08] 
+A449C: MOV R8D,[0x0036bacc]           [448B0529762C00] 
+A44A3: TEST R8D,R8D                   [4585C0] 
+A44A8: TEST EDI,EDI                   [85FF] 
+A4590: ADD RSP,0x8                    [4883C408] 
+A4594: POP RBX                        [5B] 
+A4595: POP RBP                        [5D] 
+
+========

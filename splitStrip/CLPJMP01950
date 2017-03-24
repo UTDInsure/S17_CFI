@@ -1,0 +1,14 @@
+
+
+16E54: SUB RSP,0x8                    [4883EC08] 
+16E58: TEST RDI,RDI                   [4885FF] 
+16E61: MOVSX RAX,word ptr [RDI + 0x4] [480FBF4704] 
+16E66: MOV RCX,[RDI + 0x18]           [488B4F18] 
+16E6A: TEST AX,AX                     [6685C0] 
+16EC4: AND [RDI + 0xc],0xffbf         [6683670CBF] 
+16EC9: XOR EDX,EDX                    [31D2] 
+16ECB: XOR ECX,ECX                    [31C9] 
+16ECD: MOV [RDI],DX                   [668917] 
+16ED0: MOV [RDI + 0x2],CX             [66894F02] 
+
+========

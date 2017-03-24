@@ -1,0 +1,27 @@
+
+
+72F54: PUSH RBP                       [55] 
+72F55: PUSH RBX                       [53] 
+72F56: MOV RBX,RDI                    [4889FB] 
+72F59: SUB RSP,0x28                   [4883EC28] 
+72F5D: MOV EAX,[RDI]                  [8B07] 
+72F5F: TEST AL,0x4                    [A804] 
+72F67: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+72F6E: MOV RDX,[RAX]                  [488B10] 
+72F71: CMP RDX,[RAX + 0x8]            [483B5008] 
+72F7B: MOV RDX,[RDI + 0x8]            [488B5708] 
+72F7F: CMP RDX,[RDI + 0x10]           [483B5710] 
+72F83: MOV RBP,[0x98 + RDI]           [488BAF98000000] 
+77C84: PUSH RBX                       [53] 
+77C85: MOV RAX,[RDI + 0x8]            [488B4708] 
+77C89: MOV RBX,RDI                    [4889FB] 
+77C8C: CMP RAX,[RDI + 0x10]           [483B4710] 
+77354: PUSH R12                       [4154] 
+77356: PUSH RBP                       [55] 
+77357: PUSH RBX                       [53] 
+77358: MOV RBX,RDI                    [4889FB] 
+7735B: SUB RSP,0x90                   [4881EC90000000] 
+77362: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+77369: MOV RSI,RSP                    [4889E6] 
+
+========

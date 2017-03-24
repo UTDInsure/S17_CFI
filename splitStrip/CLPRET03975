@@ -1,0 +1,8 @@
+
+
+963AB: CMP RDX,0x3                    [4883FA03] 
+963B1: TEST RDX,RDX                   [4885D2] 
+963B6: CMP [RDI],ESI                  [3937] 
+963E0: MOV RAX,RDI                    [4889F8] 
+
+========

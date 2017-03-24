@@ -1,0 +1,19 @@
+
+
+C74F4: MOVZX EAX,byte ptr [0xe8 + RSP] [0FB68424E8000000] 
+C74FC: MOV EDX,EAX                    [89C2] 
+C74FE: AND EAX,0x3f                   [83E03F] 
+C7501: SHR DL,0x6                     [C0EA06] 
+C7504: MOV ECX,EAX                    [89C1] 
+C7506: MOV EAX,0x1                    [B801000000] 
+C750B: MOVZX EDX,DL                   [0FB6D2] 
+C750E: SHL RAX,CL                     [48D3E0] 
+C7511: OR [R15 + RDX*0x8],RAX         [490904D7] 
+C7302: MOV RAX,[RSP + 0x28]           [488B442428] 
+C7307: MOVZX EAX,byte ptr [RAX + 0x8] [0FB64008] 
+C730B: CMP AL,0x2                     [3C02] 
+C8178: MOV RAX,[RSP + 0x58]           [488B442458] 
+C817D: MOV dword ptr [RAX],0x7        [C70007000000] 
+C768C: MOV RDI,R15                    [4C89FF] 
+
+========

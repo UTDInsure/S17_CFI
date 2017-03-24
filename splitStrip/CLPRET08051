@@ -1,0 +1,8 @@
+
+
+187F4: TEST RDI,RDI                   [4885FF] 
+187F9: MOVZX EAX,word ptr [RDI + 0xc] [0FB7470C] 
+187FD: SHR AX,0x4                     [66C1E804] 
+18801: AND EAX,0x1                    [83E001] 
+
+========

@@ -1,0 +1,12 @@
+
+
+808B4: MOV EDX,0x1                    [BA01000000] 
+80790: CMP dword ptr [0x0036e774],0x0 [833DDDDF2E0000] 
+80799: LOCK                           [F0] 
+8079A: DEC dword ptr [0x00369620]     [FF0D808E2E00] 
+807CA: ADD RSP,0x8                    [4883C408] 
+807CE: MOV EAX,EDX                    [89D0] 
+807D0: POP RBX                        [5B] 
+807D1: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,8 @@
+
+
+403BE4: SUB RSP,0x8                    [4883EC08] 
+403BE8: MOV ESI,[0x0062ba70]           [8B35827E2200] 
+403BEE: MOV RDI,[0x006279b8]           [488B3DC33D2200] 
+403BF5: MOV EDX,0x413de0               [BAE03D4100] 
+
+========

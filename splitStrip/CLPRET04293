@@ -1,0 +1,13 @@
+
+
+AF154: SUB RSP,0x8                    [4883EC08] 
+AF158: MOV RSI,[RSI]                  [488B36] 
+AF15B: MOV RDI,[RDI]                  [488B3F] 
+AF15E: ADD RSI,0x13                   [4883C613] 
+AF162: ADD RDI,0x13                   [4883C713] 
+852A4: CMP RDI,RSI                    [4839F7] 
+85390: XOR EDX,EDX                    [31D2] 
+85392: MOV EAX,EDX                    [89D0] 
+AF16F: ADD RSP,0x8                    [4883C408] 
+
+========

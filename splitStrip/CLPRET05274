@@ -1,0 +1,25 @@
+
+
+DCCA4: PUSH R14                       [4156] 
+DCCA6: MOV R14,RDI                    [4989FE] 
+DCCA9: PUSH R13                       [4155] 
+DCCAB: PUSH R12                       [4154] 
+DCCAD: PUSH RBP                       [55] 
+DCCAE: PUSH RBX                       [53] 
+DCCAF: MOV RBX,RSI                    [4889F3] 
+DCCB2: SUB RSP,0x190                  [4881EC90010000] 
+DCCB9: MOV RDI,RSP                    [4889E7] 
+B2964: MOV EAX,0x3f                   [B83F000000] 
+B296B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DCCC5: TEST EAX,EAX                   [85C0] 
+DCCC7: MOV R12D,EAX                   [4189C4] 
+DCD18: MOV R12D,0xffffffff            [41BCFFFFFFFF] 
+DCCFF: ADD RSP,0x190                  [4881C490010000] 
+DCD06: MOV EAX,R12D                   [4489E0] 
+DCD09: POP RBX                        [5B] 
+DCD0A: POP RBP                        [5D] 
+DCD0B: POP R12                        [415C] 
+DCD0D: POP R13                        [415D] 
+DCD0F: POP R14                        [415E] 
+
+========

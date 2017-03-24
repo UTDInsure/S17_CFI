@@ -1,0 +1,6 @@
+
+
+35EA4: PUSH RBX                       [53] 
+35EA5: LEA RBX,[RDI + 0x2]            [488D5F02] 
+
+========

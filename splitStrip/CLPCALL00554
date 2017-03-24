@@ -1,0 +1,14 @@
+
+
+76844: MOV RCX,[RSI + 0x28]           [488B4E28] 
+76848: CMP RCX,[RSI + 0x30]           [483B4E30] 
+7684C: MOV RDX,RSI                    [4889F2] 
+76861: PUSH RCX                       [51] 
+76862: MOVZX ESI,DIL                  [400FB6F7] 
+76866: MOV RDI,RDX                    [4889D7] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

@@ -1,0 +1,27 @@
+
+
+2AC34: PUSH R15                       [4157] 
+2AC36: PUSH R14                       [4156] 
+2AC38: PUSH R13                       [4155] 
+2AC3A: PUSH R12                       [4154] 
+2AC3C: MOV R12,RDI                    [4989FC] 
+2AC3F: PUSH RBP                       [55] 
+2AC40: PUSH RBX                       [53] 
+2AC41: SUB RSP,0x48                   [4883EC48] 
+2AC45: TEST RDI,RDI                   [4885FF] 
+2AC4E: MOV EAX,ESI                    [89F0] 
+2AC50: MOV R10D,ESI                   [4189F2] 
+2AC53: SUB EAX,0x1                    [83E801] 
+2AC56: MOV [RSP + 0x30],EAX           [89442430] 
+2AC60: MOV R13D,EDX                   [4189D5] 
+2AC63: SUB R13D,0x1                   [4183ED01] 
+2B047: ADD RSP,0x48                   [4883C448] 
+2B04B: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2B050: POP RBX                        [5B] 
+2B051: POP RBP                        [5D] 
+2B052: POP R12                        [415C] 
+2B054: POP R13                        [415D] 
+2B056: POP R14                        [415E] 
+2B058: POP R15                        [415F] 
+
+========

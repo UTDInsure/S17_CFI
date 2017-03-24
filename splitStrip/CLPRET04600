@@ -1,0 +1,17 @@
+
+
+BDF24: MOV R8D,EDI                    [4189F8] 
+BDF27: XOR EAX,EAX                    [31C0] 
+BDF33: CMP R8D,EAX                    [4139C0] 
+BDF38: LEA ECX,[R8 + RAX*0x1]         [418D0C00] 
+BDF3C: MOV R10,[RSI]                  [4C8B16] 
+BDF3F: SAR ECX,1                      [D1F9] 
+BDF41: MOVSXD R9,ECX                  [4C63C9] 
+BDF44: LEA R9,[R9 + R9*0x4]           [4F8D0C89] 
+BDF48: CMP EDX,[R10 + R9*0x4 + 0x4]   [433B548A04] 
+BDF4F: CMP EAX,ECX                    [39C8] 
+BDF51: MOV R8D,ECX                    [4189C8] 
+BDF6F: CMP EDI,EAX                    [39C7] 
+BDF90: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

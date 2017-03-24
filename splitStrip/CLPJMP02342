@@ -1,0 +1,20 @@
+
+
+2E7F4: PUSH R12                       [4154] 
+2E7F6: MOV R12,[0x0024a7a0]           [4C8B25A3BF2100] 
+2E7FD: PUSH RBP                       [55] 
+2E7FE: PUSH RBX                       [53] 
+2E7FF: MOV RAX,[R12]                  [498B0424] 
+2E803: TEST RAX,RAX                   [4885C0] 
+2E80C: CMP EDI,0x2                    [83FF02] 
+2E80F: MOV EBX,EDI                    [89FB] 
+2E817: MOV EBP,[0x2e0 + RAX]          [8BA8E0020000] 
+2E81D: CMP EDI,EBP                    [39EF] 
+2E821: CMP EDI,0x1                    [83FF01] 
+2E8B8: MOV RAX,[0x0024a880]           [488B05C1BF2100] 
+2E8BF: LEA RDI,[0x3db98]              [488D3DD2F20000] 
+2E8C6: MOV RAX,[RAX]                  [488B00] 
+2E8C9: MOV RAX,[RAX + 0x20]           [488B4020] 
+2E8CD: MOV RSI,[0x80 + RAX]           [488BB080000000] 
+
+========

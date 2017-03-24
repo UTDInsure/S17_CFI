@@ -1,0 +1,27 @@
+
+
+90874: PUSH R15                       [4157] 
+90876: PUSH R14                       [4156] 
+90878: MOV R14,RDX                    [4989D6] 
+9087B: PUSH R13                       [4155] 
+9087D: MOV R13,RSI                    [4989F5] 
+90880: PUSH R12                       [4154] 
+90882: MOV R12,RDI                    [4989FC] 
+90885: PUSH RBP                       [55] 
+90886: PUSH RBX                       [53] 
+90887: SUB RSP,0x8                    [4883EC08] 
+9088B: MOV RDI,[RDI]                  [488B3F] 
+9088E: TEST RDI,RDI                   [4885FF] 
+908C0: MOV dword ptr [R13],0x0        [49C7450000000000] 
+908C8: XOR EBX,EBX                    [31DB] 
+908CA: MOV [R14],RBX                  [49891E] 
+908CD: XOR EAX,EAX                    [31C0] 
+908CF: ADD RSP,0x8                    [4883C408] 
+908D3: POP RBX                        [5B] 
+908D4: POP RBP                        [5D] 
+908D5: POP R12                        [415C] 
+908D7: POP R13                        [415D] 
+908D9: POP R14                        [415E] 
+908DB: POP R15                        [415F] 
+
+========

@@ -1,0 +1,10 @@
+
+
+BDDD4: TEST ESI,ESI                   [85F6] 
+BDDD8: MOV EAX,[RDI + 0x4]            [8B4704] 
+BDDDB: CMP ESI,EAX                    [39C6] 
+BDDDF: SUB EAX,0x1                    [83E801] 
+BDDE2: CMP ESI,EAX                    [39C6] 
+BDDE4: MOV [RDI + 0x4],EAX            [894704] 
+
+========

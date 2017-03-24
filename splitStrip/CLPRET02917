@@ -1,0 +1,8 @@
+
+
+763C4: CMP EDX,0x1                    [83FA01] 
+763C9: CMP EDX,0x2                    [83FA02] 
+763CE: TEST EDX,EDX                   [85D2] 
+763D2: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

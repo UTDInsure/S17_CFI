@@ -1,0 +1,7 @@
+
+
+7BAA4: MOV ECX,[0x00369124]           [8B0D7AD62E00] 
+7BAAA: TEST ECX,ECX                   [85C9] 
+7BAB2: SUB dword ptr [0x0036b7f8],0x1 [832D3FFD2E0001] 
+
+========

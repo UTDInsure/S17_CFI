@@ -1,0 +1,19 @@
+
+
+7BC84: PUSH R12                       [4154] 
+7BC86: MOV EAX,EDI                    [89F8] 
+7BC88: MOV R12,RSI                    [4989F4] 
+7BC8B: AND EAX,0x5                    [83E005] 
+7BC8E: PUSH RBP                       [55] 
+7BC8F: PUSH RBX                       [53] 
+7BC90: MOV EBX,EDI                    [89FB] 
+7BC92: SUB RSP,0x20                   [4883EC20] 
+7BC96: CMP EAX,0x5                    [83F805] 
+7BC9F: TEST DIL,0x1                   [40F6C701] 
+7BCA5: AND EBX,0x2                    [83E302] 
+7BCAE: ADD RSP,0x20                   [4883C420] 
+7BCB2: POP RBX                        [5B] 
+7BCB3: POP RBP                        [5D] 
+7BCB4: POP R12                        [415C] 
+
+========

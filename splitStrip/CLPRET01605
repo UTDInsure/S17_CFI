@@ -1,0 +1,11 @@
+
+
+35C74: XOR EAX,EAX                    [31C0] 
+35C76: TEST ESI,ESI                   [85F6] 
+35C78: PUSH RBX                       [53] 
+35C79: MOV RBX,RDI                    [4889FB] 
+35C97: MOV [RBX + 0x40],EAX           [894340] 
+35C9A: XOR EAX,EAX                    [31C0] 
+35C9C: POP RBX                        [5B] 
+
+========

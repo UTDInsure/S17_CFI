@@ -1,0 +1,13 @@
+
+
+17AC4: PUSH R12                       [4154] 
+17AC6: MOV R12D,ECX                   [4189CC] 
+17AC9: PUSH RBP                       [55] 
+17ACA: MOV RBP,RDX                    [4889D5] 
+17ACD: MOV EDX,ESI                    [89F2] 
+17ACF: MOV ESI,EDI                    [89FE] 
+17AD1: PUSH RBX                       [53] 
+17AD2: MOV RBX,[0x0024a830]           [488B1D572D2300] 
+17AD9: MOV RDI,[RBX]                  [488B3B] 
+
+========

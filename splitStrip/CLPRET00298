@@ -1,0 +1,12 @@
+
+
+17CD4: SUB RSP,0x8                    [4883EC08] 
+17CD8: MOV RSI,RDI                    [4889FE] 
+17CDB: MOV EDI,0xffffff9c             [BF9CFFFFFF] 
+17C54: CMP byte ptr [RSI],0x0         [803E00] 
+17C57: MOV RAX,RSI                    [4889F0] 
+17C95: MOV dword ptr [0x00223160],0x2 [C705C1B4200002000000] 
+17C9F: XOR EAX,EAX                    [31C0] 
+17CE9: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,12 @@
+
+
+4125E4: SUB RSP,0x8                    [4883EC08] 
+4125E8: TEST EDI,EDI                   [85FF] 
+4125EC: CMP EDI,0x2                    [83FF02] 
+412600: MOV EDI,[0x0062bb44]           [8B3D3E952100] 
+412606: XOR EAX,EAX                    [31C0] 
+404DE4: TEST EDI,EDI                   [85FF] 
+404E08: MOV dword ptr [0x00623688],0xffffffff [C70576E82100FFFFFFFF] 
+412611: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,25 @@
+
+
+8F584: PUSH R15                       [4157] 
+8F586: MOV R8,RSI                     [4989F0] 
+8F589: PUSH R14                       [4156] 
+8F58B: PUSH R13                       [4155] 
+8F58D: PUSH R12                       [4154] 
+8F58F: PUSH RBP                       [55] 
+8F590: PUSH RBX                       [53] 
+8F591: SUB RSP,0x68                   [4883EC68] 
+8F595: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+8F598: TEST AL,AL                     [84C0] 
+8FA5E: MOV RBP,RSI                    [4889F5] 
+8FA61: MOV ESI,0x1                    [BE01000000] 
+8F5EC: CMP byte ptr [RBP],0x0         [807D0000] 
+8F868: ADD RSP,0x68                   [4883C468] 
+8F86C: XOR EAX,EAX                    [31C0] 
+8F86E: POP RBX                        [5B] 
+8F86F: POP RBP                        [5D] 
+8F870: POP R12                        [415C] 
+8F872: POP R13                        [415D] 
+8F874: POP R14                        [415E] 
+8F876: POP R15                        [415F] 
+
+========

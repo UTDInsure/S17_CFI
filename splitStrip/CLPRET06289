@@ -1,0 +1,12 @@
+
+
+F08A4: PUSH RSI                       [56] 
+F08A5: PUSH RDX                       [52] 
+F08A6: MOV dword ptr [RDI],0x0        [C70700000000] 
+F08AC: MOV ESI,0x81                   [BE81000000] 
+F08B1: MOV EDX,0x1                    [BA01000000] 
+F08B6: MOV EAX,0xca                   [B8CA000000] 
+F08BD: POP RDX                        [5A] 
+F08BE: POP RSI                        [5E] 
+
+========

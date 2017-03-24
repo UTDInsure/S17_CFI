@@ -1,0 +1,15 @@
+
+
+18924: PUSH R15                       [4157] 
+18926: PUSH R14                       [4156] 
+18928: PUSH R13                       [4155] 
+1892A: MOV R13,RDI                    [4989FD] 
+1892D: PUSH R12                       [4154] 
+1892F: PUSH RBP                       [55] 
+18930: PUSH RBX                       [53] 
+18931: SUB RSP,0xb8                   [4881ECB8000000] 
+18938: MOV dword ptr [RSI],0x0        [C70600000000] 
+1893E: MOV [RSP],RSI                  [48893424] 
+18942: MOV [RSP + 0x14],EDX           [89542414] 
+
+========

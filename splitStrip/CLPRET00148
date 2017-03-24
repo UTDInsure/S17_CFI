@@ -1,0 +1,12 @@
+
+
+11DD4: CMP byte ptr [0x00222f84],0x0  [803DA911210000] 
+11DE5: MOV RDI,[0x00222f90]           [488B3DA4112100] 
+11DEC: XOR EAX,EAX                    [31C0] 
+11DEE: TEST RDI,RDI                   [4885FF] 
+11DF3: MOV RSI,[RDI]                  [488B37] 
+11DF6: TEST RSI,RSI                   [4885F6] 
+11E16: MOV RDI,[RDI + 0x8]            [488B7F08] 
+11E1A: TEST RDI,RDI                   [4885FF] 
+
+========

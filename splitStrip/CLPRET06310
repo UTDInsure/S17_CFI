@@ -1,0 +1,9 @@
+
+
+F0BE4: MOV R9,[0x0036e558]            [4C8B0D6DD92700] 
+F0BEB: PUSH RBP                       [55] 
+F0BEC: MOV RBP,RSP                    [4889E5] 
+F0BEF: TEST R9,R9                     [4D85C9] 
+F0C11: LEAVE                          [C9] 
+
+========

@@ -1,0 +1,26 @@
+
+
+7B954: PUSH R12                       [4154] 
+7B956: MOV RAX,[0x00368e60]           [488B0503D52E00] 
+7B95D: PUSH RBP                       [55] 
+7B95E: MOV RAX,[RAX + 0x18]           [488B4018] 
+7B962: PUSH RBX                       [53] 
+7B963: MOV RDX,[RDI + 0x8]            [488B5708] 
+7B967: MOV RBP,[RDI]                  [488B2F] 
+7B96A: SUB RAX,0x1                    [4883E801] 
+7B96E: MOV R12,RDX                    [4989D4] 
+7B971: AND R12,-0x8                   [4983E4F8] 
+7B975: AND EDX,0x2                    [83E202] 
+7B97E: LEA R8,[R12 + RBP*0x1]         [4D8D042C] 
+7B982: TEST R8,RAX                    [4985C0] 
+7B98B: LEA RBX,[RAX + RBP*0x1 + 0x8]  [488D5C2808] 
+7B990: NOT RAX                        [48F7D0] 
+7B993: ADD RBX,RSI                    [4801F3] 
+7B996: AND RBX,RAX                    [4821C3] 
+7B999: CMP R8,RBX                     [4939D8] 
+7BA17: MOV RAX,RDI                    [4889F8] 
+7BA1A: POP RBX                        [5B] 
+7BA1B: POP RBP                        [5D] 
+7BA1C: POP R12                        [415C] 
+
+========

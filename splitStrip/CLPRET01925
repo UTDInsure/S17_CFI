@@ -1,0 +1,19 @@
+
+
+39974: PUSH R13                       [4155] 
+39976: PUSH R12                       [4154] 
+39978: PUSH RBP                       [55] 
+39979: PUSH RBX                       [53] 
+3997A: MOV RBX,RCX                    [4889CB] 
+3997D: SUB RSP,0x8                    [4883EC08] 
+39981: TEST RCX,RCX                   [4885C9] 
+39AB0: MOV RAX,[0x00368e68]           [488B05B1F33200] 
+39AB7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+39ABE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+399F9: ADD RSP,0x8                    [4883C408] 
+399FD: POP RBX                        [5B] 
+399FE: POP RBP                        [5D] 
+399FF: POP R12                        [415C] 
+39A01: POP R13                        [415D] 
+
+========

@@ -1,0 +1,19 @@
+
+
+2A934: PUSH R14                       [4156] 
+2A936: PUSH R13                       [4155] 
+2A938: MOV R13,[0x0024a7a0]           [4C8B2D61FE2100] 
+2A93F: PUSH R12                       [4154] 
+2A941: PUSH RBP                       [55] 
+2A942: PUSH RBX                       [53] 
+2A943: MOV RAX,[R13]                  [498B4500] 
+2A947: TEST RAX,RAX                   [4885C0] 
+2AA98: MOV EBP,0xffffffff             [BDFFFFFFFF] 
+2AA82: POP RBX                        [5B] 
+2AA83: MOV EAX,EBP                    [89E8] 
+2AA85: POP RBP                        [5D] 
+2AA86: POP R12                        [415C] 
+2AA88: POP R13                        [415D] 
+2AA8A: POP R14                        [415E] 
+
+========

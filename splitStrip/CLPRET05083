@@ -1,0 +1,13 @@
+
+
+DB0D4: MOVSXD R10,ECX                 [4C63D1] 
+DB0D7: MOVSXD RDI,EDI                 [4863FF] 
+DB0DA: MOV EAX,0xdd                   [B8DD000000] 
+DB0E1: MOV ECX,EAX                    [89C1] 
+DB0E3: XOR EDX,EDX                    [31D2] 
+DB0E5: NEG ECX                        [F7D9] 
+DB0E7: CMP EAX,0xfffff000             [3D00F0FFFF] 
+DB0EC: CMOVA EDX,ECX                  [0F47D1] 
+DB0EF: MOV EAX,EDX                    [89D0] 
+
+========

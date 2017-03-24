@@ -1,0 +1,17 @@
+
+
+7A6F4: PUSH RBX                       [53] 
+7A6F5: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+7A6FA: SUB RSP,0x10                   [4883EC10] 
+7A6FE: MOV RBX,[RSI + 0x8]            [488B5E08] 
+7A702: CMP RBX,RDI                    [4839FB] 
+7A707: MOVSXD RAX,[RSI + 0x10]        [48634610] 
+7A70B: TEST EAX,EAX                   [85C0] 
+7A70F: TEST dword ptr [RBX],0x100     [F70300010000] 
+7A717: ADD RAX,[RBX + 0x18]           [48034318] 
+7A71B: MOV [RBX + 0x8],RAX            [48894308] 
+7A71F: XOR EAX,EAX                    [31C0] 
+7A721: ADD RSP,0x10                   [4883C410] 
+7A725: POP RBX                        [5B] 
+
+========

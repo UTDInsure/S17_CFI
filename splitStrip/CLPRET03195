@@ -1,0 +1,7 @@
+
+
+7A654: MOV RAX,[RDI + 0x8]            [488B4708] 
+7A658: MOV RDX,[RAX + 0x60]           [488B5060] 
+7A65C: TEST RDX,RDX                   [4885D2] 
+
+========

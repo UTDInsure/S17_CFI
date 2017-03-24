@@ -1,0 +1,23 @@
+
+
+10C6A4: PUSH R14                       [4156] 
+10C6A6: XOR EAX,EAX                    [31C0] 
+10C6A8: PUSH R13                       [4155] 
+10C6AA: MOV R13,RSI                    [4989F5] 
+10C6AD: PUSH R12                       [4154] 
+10C6AF: MOVSXD R12,EDX                 [4C63E2] 
+10C6B2: PUSH RBP                       [55] 
+10C6B3: PUSH RBX                       [53] 
+10C6B4: MOV RBX,RDI                    [4889FB] 
+10C6B7: SUB RSP,0x70                   [4883EC70] 
+10C6BB: TEST R12D,R12D                 [4585E4] 
+10C6BE: MOV RDI,[RDI + 0x8]            [488B7F08] 
+10C6C2: MOV RSI,[RBX + 0x10]           [488B7310] 
+10C7FF: ADD RSP,0x70                   [4883C470] 
+10C803: POP RBX                        [5B] 
+10C804: POP RBP                        [5D] 
+10C805: POP R12                        [415C] 
+10C807: POP R13                        [415D] 
+10C809: POP R14                        [415E] 
+
+========

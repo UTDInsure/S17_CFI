@@ -1,0 +1,20 @@
+
+
+1CB84: TEST RDI,RDI                   [4885FF] 
+1CB89: TEST byte ptr [RDI + 0xc],0x10 [F6470C10] 
+1CB8F: MOV RAX,[0x0024a7a0]           [488B050ADC2200] 
+1CB96: MOVSX ECX,word ptr [RDI + 0x4] [0FBF4F04] 
+1CB9A: MOV RAX,[RAX]                  [488B00] 
+1CB9D: LEA R8D,[RCX + RSI*0x1]        [448D0431] 
+1CBA1: MOVSX R9D,word ptr [RAX + 0x64] [440FBF4864] 
+1CBA6: CMP R9D,R8D                    [4539C1] 
+1CBAB: MOVSX R8D,word ptr [RAX + 0x66] [440FBF4066] 
+1CBB0: MOVSX EAX,word ptr [RDI + 0x6] [0FBF4706] 
+1CBB4: ADD EAX,EDX                    [01D0] 
+1CBB6: CMP R8D,EAX                    [4139C0] 
+1CBBB: MOV EAX,ESI                    [89F0] 
+1CBBD: SHR EAX,0x1f                   [C1E81F] 
+1CBC0: TEST AL,AL                     [84C0] 
+1CBF8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

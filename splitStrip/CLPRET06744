@@ -1,0 +1,11 @@
+
+
+103284: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+103287: MOV RAX,RDI                    [4889F8] 
+10328A: TEST DL,DL                     [84D2] 
+10328E: MOV RCX,[0x00368e00]           [488B0D6B5B2600] 
+103295: MOV RSI,FS:[RCX]               [64488B31] 
+1032B5: MOVSX RCX,DL                   [480FBECA] 
+1032B9: TEST byte ptr [RSI + RCX*0x2 + 0x1],0x20 [F6444E0120] 
+
+========

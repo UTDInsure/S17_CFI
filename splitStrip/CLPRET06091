@@ -1,0 +1,7 @@
+
+
+E92F4: CMP dword ptr [0x00369288],-0x1 [833D8DFF2700FF] 
+E93A8: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+E93AD: MOV EAX,EDX                    [89D0] 
+
+========

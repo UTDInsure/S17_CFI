@@ -1,0 +1,23 @@
+
+
+35344: MOVQ RAX,XMM0                  [66480F7EC0] 
+35349: MOV RDX,RAX                    [4889C2] 
+3534C: SAR RDX,0x34                   [48C1FA34] 
+35350: AND EDX,0x7ff                  [81E2FF070000] 
+353F5: MOV RDX,0xfffffffffffff        [48BAFFFFFFFFFFFF0F00] 
+353FF: MOVAPD XMM1,XMM0               [660F28C8] 
+35403: TEST RAX,RDX                   [4885D0] 
+35408: MULSD XMM0,[0x0013dcc8]        [F20F5905B8881000] 
+35410: MOVQ RAX,XMM0                  [66480F7EC0] 
+35415: MOV RDX,RAX                    [4889C2] 
+35418: SAR RDX,0x34                   [48C1FA34] 
+3541C: AND EDX,0x7ff                  [81E2FF070000] 
+35422: SUB RDX,0x36                   [4883EA36] 
+35369: CMP EDI,0xffff3cb0             [81FFB03CFFFF] 
+353CD: MOVAPD XMM1,XMM0               [660F28C8] 
+353D1: ANDPD XMM1,[0x0013d510]        [660F540D37811000] 
+353D9: ORPD XMM1,[0x0013d530]         [660F560D4F811000] 
+353E1: MULSD XMM1,[0x0013dcd0]        [F20F590DE7881000] 
+353AA: MOVAPD XMM0,XMM1               [660F28C1] 
+
+========

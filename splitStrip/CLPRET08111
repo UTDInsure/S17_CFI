@@ -1,0 +1,6 @@
+
+
+1ADB4: TEST RDI,RDI                   [4885FF] 
+1AE20: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

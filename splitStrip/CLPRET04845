@@ -1,0 +1,8 @@
+
+
+D6294: AND RDI,-0x8                   [4883E7F8] 
+D6298: ADD RDI,RSI                    [4801F7] 
+D629B: CMP RSI,RDI                    [4839FE] 
+D634E: XOR EAX,EAX                    [31C0] 
+
+========

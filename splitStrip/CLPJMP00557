@@ -1,0 +1,13 @@
+
+
+4149E4: MOV ESI,[0x0062ba70]           [8B3586702100] 
+4149EA: CMP ESI,[0x0062b160]           [3B3570672100] 
+4149F6: PUSH RBP                       [55] 
+4149F7: PUSH RBX                       [53] 
+4149F8: SUB RSP,0x8                    [4883EC08] 
+4149FC: MOV RDI,[0x0062b168]           [488B3D65672100] 
+414A03: TEST RDI,RDI                   [4885FF] 
+414A0C: TEST ESI,ESI                   [85F6] 
+414A0E: MOV RBP,-0x1                   [48C7C5FFFFFFFF] 
+
+========

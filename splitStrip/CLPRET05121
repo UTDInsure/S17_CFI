@@ -1,0 +1,11 @@
+
+
+DBC24: TEST ESI,0xffffeff0            [F7C6F0EFFFFF] 
+DBC37: MOV EAX,[RDI + 0x8]            [8B4708] 
+DBC3A: MOV [RDI + 0x38],ESI           [897738] 
+DBC3D: AND EAX,0xffffeff0             [25F0EFFFFF] 
+DBC42: OR EAX,ESI                     [09F0] 
+DBC44: MOV [RDI + 0x8],EAX            [894708] 
+DBC47: XOR EAX,EAX                    [31C0] 
+
+========

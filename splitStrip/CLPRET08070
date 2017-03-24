@@ -1,0 +1,8 @@
+
+
+19EA4: MOV RAX,[0x0024a8a0]           [488B05F5092300] 
+19EAB: CMP byte ptr [RAX + 0x9],0x0   [80780900] 
+19EB1: MOV RAX,[0x0024a830]           [488B0578092300] 
+19EB8: MOV RAX,[RAX]                  [488B00] 
+
+========

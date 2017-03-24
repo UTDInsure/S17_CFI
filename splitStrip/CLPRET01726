@@ -1,0 +1,11 @@
+
+
+36884: LEA ECX,[RSI + -0x1]           [8D4EFF] 
+36887: MOV EDX,0x1                    [BA01000000] 
+3688C: MOVSXD RAX,ECX                 [4863C1] 
+3688F: SHL RDX,CL                     [48D3E2] 
+36892: SHR RAX,0x6                    [48C1E806] 
+36896: OR [RDI + RAX*0x8],RDX         [480914C7] 
+3689A: XOR EAX,EAX                    [31C0] 
+
+========

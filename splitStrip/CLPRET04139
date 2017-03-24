@@ -1,0 +1,19 @@
+
+
+A1334: PUSH R13                       [4155] 
+A1336: MOV R13,RDX                    [4989D5] 
+A1339: PUSH R12                       [4154] 
+A133B: PUSH RBP                       [55] 
+A133C: MOV RBP,RDI                    [4889FD] 
+A133F: PUSH RBX                       [53] 
+A1340: MOV RBX,RSI                    [4889F3] 
+A1343: SUB RSP,0x8                    [4883EC08] 
+A1347: CMP RDI,RSI                    [4839F7] 
+A1394: ADD RSP,0x8                    [4883C408] 
+A1398: XOR EAX,EAX                    [31C0] 
+A139A: POP RBX                        [5B] 
+A139B: POP RBP                        [5D] 
+A139C: POP R12                        [415C] 
+A139E: POP R13                        [415D] 
+
+========

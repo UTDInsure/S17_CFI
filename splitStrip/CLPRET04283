@@ -1,0 +1,27 @@
+
+
+AEA84: PUSH RBX                       [53] 
+AEA85: MOV RBX,RDI                    [4889FB] 
+AEA88: SUB RSP,0xd0                   [4881ECD0000000] 
+AEA8F: MOV RDI,RSP                    [4889E7] 
+AEA92: MOV dword ptr [RSP],0x0        [C7042400000000] 
+E3AF4: MOV EAX,0x9f                   [B89F000000] 
+E3AFB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+AEAA2: MOV RDX,[RSP + 0x18]           [488B542418] 
+AEAA7: MOV RSI,[RSP + 0x48]           [488B742448] 
+AEAAC: MOV RDI,[RSP + 0x50]           [488B7C2450] 
+AEAB1: MOV dword ptr [RBX + 0x28],0x0 [48C7432800000000] 
+AEAB9: MOV dword ptr [RBX + 0x30],0x0 [48C7433000000000] 
+AEAC1: MOV dword ptr [RBX + 0x38],0x0 [48C7433800000000] 
+AEAC9: MOV [RBX + 0x10],RDX           [48895310] 
+AEACD: MOV RDX,[RSP + 0x20]           [488B542420] 
+AEAD2: MOV [RBX],RSI                  [488933] 
+AEAD5: MOV [RBX + 0x8],RDI            [48897B08] 
+AEAD9: MOV dword ptr [RBX + 0x40],0x0 [48C7434000000000] 
+AEAE1: MOV [RBX + 0x18],RDX           [48895318] 
+AEAE5: MOVSXD RDX,[0xa0 + RSP]        [48639424A0000000] 
+AEAED: MOV [RBX + 0x20],RDX           [48895320] 
+AEAF1: ADD RSP,0xd0                   [4881C4D0000000] 
+AEAF8: POP RBX                        [5B] 
+
+========

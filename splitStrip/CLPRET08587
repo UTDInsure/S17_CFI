@@ -1,0 +1,23 @@
+
+
+30334: PUSH R15                       [4157] 
+30336: PUSH R14                       [4156] 
+30338: PUSH R13                       [4155] 
+3033A: PUSH R12                       [4154] 
+3033C: PUSH RBP                       [55] 
+3033D: PUSH RBX                       [53] 
+3033E: SUB RSP,0x18                   [4883EC18] 
+30342: MOV RAX,[0x0024a880]           [488B0537A52100] 
+30349: MOV RBP,[RAX]                  [488B28] 
+3034C: TEST RBP,RBP                   [4885ED] 
+30497: XOR EBX,EBX                    [31DB] 
+303E7: ADD RSP,0x18                   [4883C418] 
+303EB: MOV RAX,RBX                    [4889D8] 
+303EE: POP RBX                        [5B] 
+303EF: POP RBP                        [5D] 
+303F0: POP R12                        [415C] 
+303F2: POP R13                        [415D] 
+303F4: POP R14                        [415E] 
+303F6: POP R15                        [415F] 
+
+========

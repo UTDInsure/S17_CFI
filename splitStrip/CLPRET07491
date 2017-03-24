@@ -1,0 +1,13 @@
+
+
+114C94: PUSH R12                       [4154] 
+114C96: TEST ESI,ESI                   [85F6] 
+114C98: PUSH RBP                       [55] 
+114C99: MOV EBP,ESI                    [89F5] 
+114C9B: PUSH RBX                       [53] 
+114CF8: POP RBX                        [5B] 
+114CF9: POP RBP                        [5D] 
+114CFA: XOR EAX,EAX                    [31C0] 
+114CFC: POP R12                        [415C] 
+
+========

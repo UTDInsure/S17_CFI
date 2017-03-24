@@ -1,0 +1,24 @@
+
+
+EB8D4: PUSH R12                       [4154] 
+EB8D6: TEST RDX,RDX                   [4885D2] 
+EB8D9: PUSH RBP                       [55] 
+EB8DA: MOV RBP,RDI                    [4889FD] 
+EB8DD: PUSH RBX                       [53] 
+EB8DE: MOV RBX,RDX                    [4889D3] 
+EB8E3: CMP dword ptr [RDX + 0x28],0x0 [48837A2800] 
+EB8EA: MOV RDI,RDX                    [4889D7] 
+EB8ED: MOV R12D,ESI                   [4189F4] 
+EB8F0: MOV RSI,RCX                    [4889CE] 
+EFF94: TEST RSI,RSI                   [4885F6] 
+EFFC8: XOR EAX,EAX                    [31C0] 
+EB8FC: MOV RSI,RBP                    [4889EE] 
+EB8FF: MOV RDX,RAX                    [4889C2] 
+EB902: MOV EDI,R12D                   [4489E7] 
+EB90C: MOV RBP,RAX                    [4889C5] 
+EB90F: POP RBX                        [5B] 
+EB910: MOV RAX,RBP                    [4889E8] 
+EB913: POP RBP                        [5D] 
+EB914: POP R12                        [415C] 
+
+========

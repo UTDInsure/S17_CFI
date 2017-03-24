@@ -1,0 +1,12 @@
+
+
+410884: MOV R9D,[0x006286c0]           [448B0D357E2100] 
+41088B: TEST R9D,R9D                   [4585C9] 
+410890: MOV R8D,[0x0062bb50]           [448B05B9B22100] 
+410897: TEST R8D,R8D                   [4585C0] 
+4108D3: CMP EDI,0x1                    [83FF01] 
+4108D6: MOV dword ptr [RSI],0x0        [C70600000000] 
+4108DC: SBB EAX,EAX                    [19C0] 
+4108DE: AND EAX,0xa                    [83E00A] 
+
+========

@@ -1,0 +1,14 @@
+
+
+35A94: FLD tword ptr [RSP + 0x8]      [DB6C2408] 
+35A98: MOV dword ptr [RDI],0x0        [C70700000000] 
+35A9E: FLD ST0                        [D9C0] 
+35AA0: FSTP tword ptr [RSP + -0x18]   [DB7C24E8] 
+35AA4: MOVSX EDX,word ptr [RSP + -0x10] [0FBF5424F0] 
+35AA9: MOV ECX,[RSP + -0x14]          [8B4C24EC] 
+35AAD: MOV ESI,[RSP + -0x18]          [8B7424E8] 
+35AB1: MOV EAX,EDX                    [89D0] 
+35AB3: AND EAX,0x7fff                 [25FF7F0000] 
+35AB8: CMP EAX,0x7fff                 [3DFF7F0000] 
+
+========

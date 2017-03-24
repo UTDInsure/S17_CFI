@@ -1,0 +1,7 @@
+
+
+6C7A4: TEST ESI,ESI                   [85F6] 
+6C7A6: MOV R9D,ESI                    [4189F1] 
+6C8F0: XOR EAX,EAX                    [31C0] 
+
+========

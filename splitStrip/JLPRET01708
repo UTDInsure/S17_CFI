@@ -1,0 +1,9 @@
+
+
+1152D4: MOV RCX,RDI                    [4889F9] 
+1152D7: XOR EAX,EAX                    [31C0] 
+115279: MOVZX ESI,byte ptr [RCX]       [0FB631] 
+11527C: ADD EAX,ESI                    [01F0] 
+11527E: SUB RDX,0x1                    [4883EA01] 
+
+========

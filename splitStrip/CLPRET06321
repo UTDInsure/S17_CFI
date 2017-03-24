@@ -1,0 +1,15 @@
+
+
+F0F74: SUB RSP,0x8                    [4883EC08] 
+F0F78: MOV RAX,[0x00368e18]           [488B05997E2700] 
+F0F7F: MOV RAX,[RAX]                  [488B00] 
+F0F82: ROR RAX,0x11                   [48C1C811] 
+F0F86: XOR RAX,FS:[0x30]              [644833042530000000] 
+F0F95: CMP RAX,0xfffff000             [483D00F0FFFF] 
+F0F9D: MOV RDX,[0x00368e68]           [488B15C47E2700] 
+F0FA4: NEG EAX                        [F7D8] 
+F0FA6: MOV FS:[RDX],EAX               [648902] 
+F0FA9: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+F0FAE: ADD RSP,0x8                    [4883C408] 
+
+========

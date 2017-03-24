@@ -1,0 +1,20 @@
+
+
+112044: PUSH R15                       [4157] 
+112046: PUSH R14                       [4156] 
+112048: PUSH R13                       [4155] 
+11204A: MOV R13D,ESI                   [4189F5] 
+11204D: PUSH R12                       [4154] 
+11204F: PUSH RBP                       [55] 
+112050: PUSH RBX                       [53] 
+112051: SUB RSP,0x8                    [4883EC08] 
+112055: TEST ESI,ESI                   [85F6] 
+1120E0: ADD RSP,0x8                    [4883C408] 
+1120E4: POP RBX                        [5B] 
+1120E5: POP RBP                        [5D] 
+1120E6: POP R12                        [415C] 
+1120E8: POP R13                        [415D] 
+1120EA: POP R14                        [415E] 
+1120EC: POP R15                        [415F] 
+
+========

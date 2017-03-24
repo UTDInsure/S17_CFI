@@ -1,0 +1,12 @@
+
+
+10AED4: SUB RSP,0x8                    [4883EC08] 
+10AED8: MOV EDX,0x30                   [BA30000000] 
+114074: TEST EDX,EDX                   [85D2] 
+114076: MOV EAX,0x1                    [B801000000] 
+10AEE6: TEST EAX,EAX                   [85C0] 
+10AEE8: SETNZ AL                       [0F95C0] 
+10AEEB: ADD RSP,0x8                    [4883C408] 
+10AEEF: MOVZX EAX,AL                   [0FB6C0] 
+
+========

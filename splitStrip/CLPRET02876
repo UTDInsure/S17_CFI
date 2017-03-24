@@ -1,0 +1,21 @@
+
+
+75414: PUSH R13                       [4155] 
+75416: MOV R13D,ESI                   [4189F5] 
+75419: PUSH R12                       [4154] 
+7541B: PUSH RBP                       [55] 
+7541C: LEA RBP,[0xf0 + RDI]           [488DAFF0000000] 
+75423: PUSH RBX                       [53] 
+75424: MOV RBX,RDI                    [4889FB] 
+75427: SUB RSP,0x8                    [4883EC08] 
+7542B: CMP [RDI + 0x38],RBP           [48396F38] 
+75460: MOV [RBX + 0x28],RBP           [48896B28] 
+75464: MOV [RBX + 0x30],RBP           [48896B30] 
+75468: ADD RSP,0x8                    [4883C408] 
+7546C: POP RBX                        [5B] 
+7546D: POP RBP                        [5D] 
+7546E: POP R12                        [415C] 
+75470: MOV EAX,R13D                   [4489E8] 
+75473: POP R13                        [415D] 
+
+========

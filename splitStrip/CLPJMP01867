@@ -1,0 +1,24 @@
+
+
+11E1C4: PUSH R12                       [4154] 
+11E1C6: MOV R12,[0x0036de48]           [4C8B257BFC2400] 
+11E1CD: PUSH RBP                       [55] 
+11E1CE: TEST R12,R12                   [4D85E4] 
+11E1D1: PUSH RBX                       [53] 
+11E1D4: MOV RDI,[R12]                  [498B3C24] 
+11E1D8: MOV dword ptr [0x0036de48],0x0 [48C70565FC240000000000] 
+1045F4: PUSH R12                       [4154] 
+1045F6: TEST RDI,RDI                   [4885FF] 
+1045F9: MOV R12,RDI                    [4989FC] 
+1045FC: PUSH RBP                       [55] 
+1045FD: PUSH RBX                       [53] 
+104600: MOV RBX,[R12 + 0x8]            [498B5C2408] 
+104605: TEST RBX,RBX                   [4885DB] 
+104613: MOV RDI,[RBX + 0x28]           [488B7B28] 
+104617: TEST RDI,RDI                   [4885FF] 
+10461C: MOV RSI,[0x00368f98]           [488B3575492600] 
+E1B54: TEST RDI,RDI                   [4885FF] 
+10462C: MOV RBP,[RBX]                  [488B2B] 
+10462F: MOV RDI,RBX                    [4889DF] 
+
+========

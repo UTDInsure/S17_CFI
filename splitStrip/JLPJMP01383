@@ -1,0 +1,24 @@
+
+
+310A4: TEST R8B,R8B                   [4584C0] 
+310A7: MOV byte ptr [RDX],0x2e        [C6022E] 
+310AA: LEA RSI,[RDX + 0x1]            [488D7201] 
+310AE: LEA RAX,[RBP + 0x1]            [488D4501] 
+310B2: MOVZX EBX,byte ptr [RBP + 0x1] [0FB65D01] 
+310BC: MOV [RSP + 0x2c],R13D          [44896C242C] 
+310C1: MOV RDX,RSI                    [4889F2] 
+310C4: MOV RBP,RAX                    [4889C5] 
+310C7: XOR R13D,R13D                  [4531ED] 
+310CA: MOV R8D,0x1                    [41B801000000] 
+30FE0: TEST BL,BL                     [84DB] 
+30FE4: TEST CL,CL                     [84C9] 
+30FE8: LEA EAX,[RBX + -0x20]          [8D43E0] 
+30FEB: CMP AL,0x58                    [3C58] 
+31144: MOV [RSP + 0x28],R9D           [44894C2428] 
+31149: MOV [RSP + 0x24],ECX           [894C2424] 
+3114D: MOV [RSP + 0x20],R10D          [4489542420] 
+31152: MOV [RSP + 0x1c],R8D           [448944241C] 
+31157: MOV [RSP + 0x10],RDX           [4889542410] 
+3115C: MOV [RSP + 0x8],RDI            [48897C2408] 
+
+========

@@ -1,0 +1,10 @@
+
+
+75067: TEST dword ptr [RBX],0x8000    [F70300800000] 
+7506D: MOV RSI,RAX                    [4889C6] 
+750BC: MOV RDI,RSI                    [4889F7] 
+22014: SUB RSP,0x18                   [4883EC18] 
+22018: MOV RAX,[0x0036a8f0]           [488B05D1883400] 
+2201F: TEST RAX,RAX                   [4885C0] 
+
+========

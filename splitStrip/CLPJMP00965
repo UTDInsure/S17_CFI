@@ -1,0 +1,24 @@
+
+
+85BA4: TEST RDX,RDX                   [4885D2] 
+85BAD: CMP RDX,0x1                    [4883FA01] 
+85BB7: MOV R11,RDX                    [4989D3] 
+85BBA: MOV ECX,ESI                    [89F1] 
+85BBC: MOV EAX,EDI                    [89F8] 
+85BBE: AND RCX,0x3f                   [4883E13F] 
+85BC2: AND RAX,0x3f                   [4883E03F] 
+85BC6: CMP ECX,0x30                   [83F930] 
+85C20: AND RSI,-0x10                  [4883E6F0] 
+85C24: AND RDI,-0x10                  [4883E7F0] 
+85C28: MOV EDX,0xffff                 [BAFFFF0000] 
+85C2D: XOR R8D,R8D                    [4531C0] 
+85C30: AND ECX,0xf                    [83E10F] 
+85C33: AND EAX,0xf                    [83E00F] 
+85C36: CMP ECX,EAX                    [39C1] 
+85C43: LEA R9,[RAX + 0xf]             [4C8D480F] 
+85C47: SUB R9,RCX                     [4929C9] 
+85C4A: LEA R10,[0x130a90]             [4C8D153FAE0A00] 
+85C51: MOVSXD R9,[R10 + R9*0x4]       [4F630C8A] 
+85C55: LEA R10,[R10 + R9*0x1]         [4F8D140A] 
+
+========

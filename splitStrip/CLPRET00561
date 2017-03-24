@@ -1,0 +1,12 @@
+
+
+404DE4: TEST EDI,EDI                   [85FF] 
+404DE8: SHL EDI,0xa                    [C1E70A] 
+404DEB: MOV EDX,0x1                    [BA01000000] 
+404DF0: LEA EAX,[0x1fff + RDI]         [8D87FF1F0000] 
+404DF6: SAR EAX,0xd                    [C1F80D] 
+404DF9: TEST EAX,EAX                   [85C0] 
+404DFB: CMOVG EDX,EAX                  [0F4FD0] 
+404DFE: MOV [0x00623688],EDX           [891584E82100] 
+
+========

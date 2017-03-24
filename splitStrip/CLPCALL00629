@@ -1,0 +1,20 @@
+
+
+78A24: PUSH R12                       [4154] 
+78A26: PUSH RBP                       [55] 
+78A27: PUSH RBX                       [53] 
+78A28: MOV ECX,[RDI]                  [8B0F] 
+78A2A: MOV RBX,RDI                    [4889FB] 
+78A2D: TEST CL,0x8                    [F6C108] 
+78A36: TEST CH,0x8                    [F6C508] 
+78A39: MOV EBP,ESI                    [89F5] 
+78A3D: CMP dword ptr [RDI + 0x20],0x0 [48837F2000] 
+78BC0: MOV RDI,RBX                    [4889DF] 
+797D4: PUSH RBX                       [53] 
+797D5: CMP dword ptr [RDI + 0x38],0x0 [48837F3800] 
+797DA: MOV RBX,RDI                    [4889FB] 
+797E8: TEST byte ptr [RDI],0x2        [F60702] 
+797F7: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+797FE: MOV RDI,RBX                    [4889DF] 
+
+========

@@ -1,0 +1,18 @@
+
+
+454A4: PUSH R12                       [4154] 
+454A6: XOR EAX,EAX                    [31C0] 
+454A8: MOV R12,RSI                    [4989F4] 
+454AB: PUSH RBP                       [55] 
+454AC: MOV RBP,RDI                    [4889FD] 
+454AF: PUSH RBX                       [53] 
+454B0: MOV RBX,RDX                    [4889D3] 
+454B3: SUB RSP,0x10                   [4883EC10] 
+454B7: TEST R8,R8                     [4D85C0] 
+454BC: CMP RBX,R8                     [4C39C3] 
+454E2: ADD RSP,0x10                   [4883C410] 
+454E6: POP RBX                        [5B] 
+454E7: POP RBP                        [5D] 
+454E8: POP R12                        [415C] 
+
+========

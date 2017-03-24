@@ -1,0 +1,26 @@
+
+
+EEB74: PUSH RBP                       [55] 
+EEB75: PUSH RBX                       [53] 
+EEB76: MOV RBX,RDX                    [4889D3] 
+EEB79: SUB RSP,0x8                    [4883EC08] 
+EEB7D: CMP EDI,-0x3                   [83FFFD] 
+EEC80: MOV RSI,[RDX + 0x50]           [488B7250] 
+EEC84: MOV RDI,RBX                    [4889DF] 
+EEC87: MOV EDX,0x201                  [BA01020000] 
+EE8B4: PUSH RBP                       [55] 
+EE8B5: MOV EBP,EDX                    [89D5] 
+EE8B7: PUSH RBX                       [53] 
+EE8B8: MOV RBX,RDI                    [4889FB] 
+EE8BB: SUB RSP,0x8                    [4883EC08] 
+EE8BF: TEST RDI,RDI                   [4885FF] 
+EE924: TEST RSI,RSI                   [4885F6] 
+EE908: ADD RSP,0x8                    [4883C408] 
+EE90C: POP RBX                        [5B] 
+EE90D: POP RBP                        [5D] 
+EEC95: ADD RSP,0x8                    [4883C408] 
+EEC99: XOR EAX,EAX                    [31C0] 
+EEC9B: POP RBX                        [5B] 
+EEC9C: POP RBP                        [5D] 
+
+========

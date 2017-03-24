@@ -1,0 +1,24 @@
+
+
+7D224: PUSH R15                       [4157] 
+7D226: PUSH R14                       [4156] 
+7D228: MOV R14,RSI                    [4989F6] 
+7D22B: PUSH R13                       [4155] 
+7D22D: PUSH R12                       [4154] 
+7D22F: PUSH RBP                       [55] 
+7D230: PUSH RBX                       [53] 
+7D231: SUB RSP,0x68                   [4883EC68] 
+7D235: CMP RSI,-0x41                  [4883FEBF] 
+7D961: MOV RAX,[0x00368e68]           [488B0500B52E00] 
+7D968: XOR R12D,R12D                  [4531E4] 
+7D96B: MOV dword ptr FS:[RAX],0xc     [64C7000C000000] 
+7D346: ADD RSP,0x68                   [4883C468] 
+7D34A: MOV RAX,R12                    [4C89E0] 
+7D34D: POP RBX                        [5B] 
+7D34E: POP RBP                        [5D] 
+7D34F: POP R12                        [415C] 
+7D351: POP R13                        [415D] 
+7D353: POP R14                        [415E] 
+7D355: POP R15                        [415F] 
+
+========

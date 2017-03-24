@@ -1,0 +1,20 @@
+
+
+BA0E4: CMP dword ptr [RSP + 0x30],0x0 [48837C243000] 
+BB343: CMP byte ptr [R14 + 0x1],0x28  [41807E0128] 
+BA0F0: CMP dword ptr [RSP + 0x38],0x0 [48837C243800] 
+BAC88: MOV RAX,[RSP + 0x38]           [488B442438] 
+BAC8D: MOV dword ptr [RSP + 0x20],0x0 [C744242000000000] 
+BAC95: MOV [RAX],R14                  [4C8930] 
+BAC98: MOV [RAX + 0x8],R11            [4C895808] 
+BAC9C: MOV [RAX + 0x10],R13D          [44896810] 
+B9F90: MOV EAX,[RSP + 0x20]           [8B442420] 
+B9F94: ADD RSP,0x8d8                  [4881C4D8080000] 
+B9F9B: POP RBX                        [5B] 
+B9F9C: POP RBP                        [5D] 
+B9F9D: POP R12                        [415C] 
+B9F9F: POP R13                        [415D] 
+B9FA1: POP R14                        [415E] 
+B9FA3: POP R15                        [415F] 
+
+========

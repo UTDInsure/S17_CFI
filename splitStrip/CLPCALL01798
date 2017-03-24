@@ -1,0 +1,17 @@
+
+
+11C324: PUSH RBX                       [53] 
+11C325: MOV RBX,RDI                    [4889FB] 
+11C328: MOV RCX,-0x2                   [48C7C1FEFFFFFF] 
+11C32F: SUB RSP,0x10                   [4883EC10] 
+11C333: MOV RAX,[0x00368ea8]           [488B056ECB2400] 
+11C33A: MOV RDX,[RDI + 0x10]           [488B5710] 
+11C33E: MOV ESI,[RDI + 0x8]            [8B7708] 
+11C341: MOV R9,[0x0036e350]            [4C8B0D08202500] 
+11C348: MOV R8D,[0x0036e358]           [448B0509202500] 
+11C34F: MOV RAX,[RAX]                  [488B00] 
+11C352: MOV [RSP],RAX                  [48890424] 
+11C356: MOV RAX,[0x00368e60]           [488B0503CB2400] 
+11C35D: MOV RDI,[RDI]                  [488B3F] 
+
+========

@@ -1,0 +1,9 @@
+
+
+10F6EC: MOV RAX,[RDX]                  [488B02] 
+10F6EF: MOV RDX,[RDX + 0x8]            [488B5208] 
+10F6F3: MOV [RDI + 0x20],RAX           [48894720] 
+10F6F7: MOV [RDI + 0x28],RDX           [48895728] 
+10F6FB: MOV EAX,0x1                    [B801000000] 
+
+========

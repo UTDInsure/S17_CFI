@@ -1,0 +1,9 @@
+
+
+2D424: PUSH RBP                       [55] 
+2D425: PUSH RBX                       [53] 
+2D426: MOV RBX,RDI                    [4889FB] 
+2D429: SUB RSP,0x8                    [4883EC08] 
+2D42D: TEST RDI,RDI                   [4885FF] 
+
+========

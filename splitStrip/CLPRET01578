@@ -1,0 +1,27 @@
+
+
+357F4: MOVD EAX,XMM0                  [660F7EC0] 
+357F8: AND EAX,0x7fffffff             [25FFFFFF7F] 
+357FD: SUB RSP,0x8                    [4883EC08] 
+35801: CMP EAX,0x7f7fffff             [3DFFFF7F7F] 
+35806: MOVAPS XMM1,XMM0               [0F28C8] 
+3580B: XORPS XMM2,XMM2                [0F57D2] 
+3580E: UCOMISS XMM1,XMM2              [0F2ECA] 
+35820: MOVAPS XMM0,XMM1               [0F28C1] 
+356B4: MOVD EDX,XMM0                  [660F7EC2] 
+356B8: MOV EAX,EDX                    [89D0] 
+356BA: AND EAX,0x7f800000             [250000807F] 
+356BF: SAR EAX,0x17                   [C1F817] 
+356C2: TEST EAX,EAX                   [85C0] 
+356C6: CMP EAX,0xff                   [3DFF000000] 
+35733: MOVAPS XMM1,XMM0               [0F28C8] 
+35736: ADDSS XMM1,XMM0                [F30F58C8] 
+356F9: MOVAPS XMM0,XMM1               [0F28C1] 
+3582C: MOVD EAX,XMM0                  [660F7EC0] 
+35830: AND EAX,0x7fffffff             [25FFFFFF7F] 
+35835: CMP EAX,0x7f7fffff             [3DFFFF7F7F] 
+35846: MOV RAX,[0x00368e68]           [488B051B363300] 
+3584D: MOV dword ptr FS:[RAX],0x22    [64C70022000000] 
+35854: ADD RSP,0x8                    [4883C408] 
+
+========

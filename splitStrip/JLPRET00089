@@ -1,0 +1,8 @@
+
+
+403D34: XOR EAX,EAX                    [31C0] 
+403CC4: MOV RDI,[0x00627940]           [488B3D753C2200] 
+403CCB: CMP byte ptr [RDI],0x0         [803F00] 
+403D3F: ADD RSP,0x8                    [4883C408] 
+
+========

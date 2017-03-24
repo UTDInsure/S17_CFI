@@ -1,0 +1,10 @@
+
+
+E7544: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E75B8: MOV RAX,[RSI + 0x68]           [488B4668] 
+E75BC: MOV EDI,EDI                    [89FF] 
+E75BE: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+E75C2: AND AX,0x2000                  [66250020] 
+E75C6: MOVZX EAX,AX                   [0FB7C0] 
+
+========

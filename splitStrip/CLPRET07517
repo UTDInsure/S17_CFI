@@ -1,0 +1,19 @@
+
+
+115724: PUSH R14                       [4156] 
+115726: PUSH R13                       [4155] 
+115728: PUSH R12                       [4154] 
+11572A: PUSH RBP                       [55] 
+11572B: PUSH RBX                       [53] 
+11572C: MOV RBX,RDI                    [4889FB] 
+11572F: SUB RSP,0x10                   [4883EC10] 
+115733: TEST RDI,RDI                   [4885FF] 
+115780: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+11576C: ADD RSP,0x10                   [4883C410] 
+115770: POP RBX                        [5B] 
+115771: POP RBP                        [5D] 
+115772: POP R12                        [415C] 
+115774: POP R13                        [415D] 
+115776: POP R14                        [415E] 
+
+========

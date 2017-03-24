@@ -1,0 +1,22 @@
+
+
+220F4: PUSH R14                       [4156] 
+220F6: TEST RDI,RDI                   [4885FF] 
+220F9: PUSH R13                       [4155] 
+220FB: PUSH R12                       [4154] 
+220FD: MOV R12,RDI                    [4989FC] 
+22100: PUSH RBP                       [55] 
+22101: PUSH RBX                       [53] 
+22108: MOVSX R13D,word ptr [RDI]      [440FBF2F] 
+2210C: MOVSX EAX,word ptr [RDI + 0x4] [0FBF4704] 
+22110: MOVZX EBX,word ptr [RDI + 0x2] [0FB75F02] 
+22114: LEA R14D,[RDX + R13*0x1 + -0x1] [468D742AFF] 
+22119: MOVSX EBP,BX                   [0FBFEB] 
+2211C: CMP R14D,EAX                   [4139C6] 
+2211F: CMOVG R14D,EAX                 [440F4FF0] 
+22123: TEST RSI,RSI                   [4885F6] 
+221E0: MOV RAX,[0x0024a7a8]           [488B05C1852200] 
+221E7: MOV RSI,[0x3c0 + RAX]          [488BB0C0030000] 
+2212C: MOV RDI,R12                    [4C89E7] 
+
+========

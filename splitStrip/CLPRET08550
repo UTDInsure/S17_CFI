@@ -1,0 +1,7 @@
+
+
+2E6A4: TEST RDI,RDI                   [4885FF] 
+2E6A9: MOV [RDI + 0x20],SIL           [40887720] 
+2E6AD: XOR EAX,EAX                    [31C0] 
+
+========

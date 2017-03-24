@@ -1,0 +1,15 @@
+
+
+4118C4: SUB RSP,0x8                    [4883EC08] 
+4118C8: CMP EDI,0x27                   [83FF27] 
+4118D3: CMP EDI,0x2e                   [83FF2E] 
+4118D8: CMP EDI,0x5e                   [83FF5E] 
+4118DB: NOP                            [0F1F440000] 
+4118E6: MOV RAX,[0x00627440]           [488B05535B2100] 
+4118ED: MOV dword ptr [0x0062a6c8],0x0 [48C705D08D210000000000] 
+4118F8: MOV dword ptr [0x0062a6d0],0x0 [C705CE8D210000000000] 
+411902: MOV [0x0062a6c0],RAX           [488905B78D2100] 
+411909: MOV EAX,0x62a6c0               [B8C0A66200] 
+41190E: ADD RSP,0x8                    [4883C408] 
+
+========

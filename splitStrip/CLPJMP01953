@@ -1,0 +1,12 @@
+
+
+16EF4: MOV RAX,[0x0024a880]           [488B0585392300] 
+16EFB: PUSH RBX                       [53] 
+16EFC: MOV RAX,[RAX]                  [488B00] 
+16EFF: MOV RAX,[RAX + 0x20]           [488B4020] 
+16F03: MOV RDI,[0x168 + RAX]          [488BB868010000] 
+16F0A: TEST RDI,RDI                   [4885FF] 
+16F30: MOV RDI,[RAX + 0x8]            [488B7808] 
+16F34: TEST RDI,RDI                   [4885FF] 
+
+========

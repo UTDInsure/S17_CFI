@@ -1,0 +1,22 @@
+
+
+1009D4: CMP byte ptr [RDI + 0x2],0x0   [807F0200] 
+1009DA: MOVZX EAX,byte ptr [RDI + 0x1] [0FB64701] 
+1009DE: MOVZX EDX,byte ptr [RDI + 0x3] [0FB65703] 
+1009E2: SHL EAX,0x3                    [C1E003] 
+1009E5: MOVZX ECX,DL                   [0FB6CA] 
+1009E8: CDQE                           [4898] 
+1009EA: SHR RAX,0x4                    [48C1E804] 
+1009EE: CMP RAX,RCX                    [4839C8] 
+1009F3: LEA EAX,[RDX + 0x1]            [8D4201] 
+1009F6: MOV RDX,RCX                    [4889CA] 
+1009F9: SHL RDX,0x4                    [48C1E204] 
+1009FD: MOV [RDI + 0x3],AL             [884703] 
+100A00: MOV RAX,[RSI]                  [488B06] 
+100A03: ADD RDX,RDI                    [4801FA] 
+100A06: MOV [RDX + 0x8],RAX            [48894208] 
+100A0A: MOV RAX,[RSI + 0x8]            [488B4608] 
+100A0E: MOV [RDX + 0x10],RAX           [48894210] 
+100A12: XOR EAX,EAX                    [31C0] 
+
+========

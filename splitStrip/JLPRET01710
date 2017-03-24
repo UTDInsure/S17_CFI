@@ -1,0 +1,12 @@
+
+
+1152E4: XOR EAX,EAX                    [31C0] 
+11526A: MOVZX ESI,byte ptr [RDI]       [0FB637] 
+11526D: LEA RCX,[RDI + 0x1]            [488D4F01] 
+115271: ADD EAX,ESI                    [01F0] 
+115273: IMUL EAX,EAX,0x1003f           [69C03F000100] 
+115279: MOVZX ESI,byte ptr [RCX]       [0FB631] 
+11527C: ADD EAX,ESI                    [01F0] 
+11527E: SUB RDX,0x1                    [4883EA01] 
+
+========

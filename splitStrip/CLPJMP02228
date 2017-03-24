@@ -1,0 +1,23 @@
+
+
+29134: PUSH RBP                       [55] 
+29135: PUSH RBX                       [53] 
+29136: SUB RSP,0x8                    [4883EC08] 
+2913A: MOV RBP,[0x0024a7a0]           [488B2D5F162200] 
+29141: MOV RDX,[RBP]                  [488B5500] 
+29145: MOV RAX,[0x2d0 + RDX]          [488B82D0020000] 
+2914C: AND [RAX],0xff                 [488120FF000000] 
+29153: MOV RAX,[RDX + 0x78]           [488B4278] 
+29157: MOV byte ptr [RAX + 0x21],0x1  [C6402101] 
+2915B: CMP dword ptr [0x2d8 + RDX],0x0 [4883BAD802000000] 
+29169: MOV EAX,[0x2dc + RDX]          [8B82DC020000] 
+2916F: TEST EAX,EAX                   [85C0] 
+29177: MOV RBX,[0x0024a880]           [488B1D02172200] 
+2917E: MOV RDX,[RBX]                  [488B13] 
+29181: MOV RAX,[RDX + 0x20]           [488B4220] 
+29185: MOV RDI,[0x138 + RAX]          [488BB838010000] 
+2918C: TEST RDI,RDI                   [4885FF] 
+291F8: MOV RDI,[0x130 + RAX]          [488BB830010000] 
+291FF: TEST RDI,RDI                   [4885FF] 
+
+========

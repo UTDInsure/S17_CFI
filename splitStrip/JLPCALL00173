@@ -1,0 +1,22 @@
+
+
+615D6: OR dword ptr [-0x148 + RBP],0x40 [838DB8FEFFFF40] 
+615E1: MOV R8D,0xa                    [41B80A000000] 
+615E7: CMP R13D,-0x1                  [4183FDFF] 
+618DD: MOV RAX,[0x00368e68]           [488B0584753000] 
+618E4: MOV ESI,[-0x128 + RBP]         [8BB5D8FEFFFF] 
+618EA: MOV FS:[RAX],ESI               [648930] 
+618ED: MOV R8D,[-0x150 + RBP]         [448B85B0FEFFFF] 
+618F4: MOV EBX,0x1                    [BB01000000] 
+618F9: TEST R8D,R8D                   [4585C0] 
+61260: TEST dword ptr [R15],0x8000    [41F70700800000] 
+6126D: NOP                            [0F1F00] 
+61270: MOV R15D,[-0x1dc + RBP]        [448BBD24FEFFFF] 
+61277: TEST R15D,R15D                 [4585FF] 
+61BE3: MOV RAX,[0x0036e738]           [488B054ECB3000] 
+61BEA: XOR ESI,ESI                    [31F6] 
+61BEC: LEA RDI,[-0xf0 + RBP]          [488DBD10FFFFFF] 
+61BF3: ROR RAX,0x11                   [48C1C811] 
+61BF7: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

@@ -1,0 +1,25 @@
+
+
+2B4D4: PUSH R15                       [4157] 
+2B4D6: PUSH R14                       [4156] 
+2B4D8: PUSH R13                       [4155] 
+2B4DA: MOV R13D,R8D                   [4589C5] 
+2B4DD: PUSH R12                       [4154] 
+2B4DF: MOV R12,RSI                    [4989F4] 
+2B4E2: PUSH RBP                       [55] 
+2B4E3: MOV RBP,RCX                    [4889CD] 
+2B4E6: PUSH RBX                       [53] 
+2B4E7: XOR EBX,EBX                    [31DB] 
+2B4E9: SUB RSP,0x18                   [4883EC18] 
+2B4ED: MOV [RSP + 0x8],RDI            [48897C2408] 
+2B4F2: MOV [RSP + 0x4],EDX            [89542404] 
+2B51B: TEST R13D,R13D                 [4585ED] 
+2B51E: MOV EAX,EBX                    [89D8] 
+2B522: MOV EDX,[RSP + 0x4]            [8B542404] 
+2B526: TEST EDX,EDX                   [85D2] 
+2B52A: MOV R15,[RBP]                  [4C8B7D00] 
+2B52E: MOV R14,[R12]                  [4D8B3424] 
+2B532: MOV RSI,R15                    [4C89FE] 
+2B535: MOV RDI,R14                    [4C89F7] 
+
+========

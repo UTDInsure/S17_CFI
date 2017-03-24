@@ -1,0 +1,6 @@
+
+
+A6194: MOV EAX,0x24                   [B824000000] 
+A619B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

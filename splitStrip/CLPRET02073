@@ -1,0 +1,18 @@
+
+
+43014: LEA R8,[RDI + 0x6]             [4C8D4706] 
+43018: XOR ECX,ECX                    [31C9] 
+4301A: XOR EAX,EAX                    [31C0] 
+4301C: MOVSX EDX,byte ptr [RDI]       [0FBE17] 
+4301F: SUB EDX,0x2e                   [83EA2E] 
+43022: CMP EDX,0x4c                   [83FA4C] 
+43027: LEA RSI,[0x12ba20]             [488D35F2890E00] 
+4302E: MOVSX EDX,byte ptr [RSI + RDX*0x1] [0FBE1416] 
+43032: CMP EDX,0x40                   [83FA40] 
+43037: SHL EDX,CL                     [D3E2] 
+43039: ADD RDI,0x1                    [4883C701] 
+4303D: ADD ECX,0x6                    [83C106] 
+43040: OR RAX,RDX                     [4809D0] 
+43043: CMP R8,RDI                     [4939F8] 
+
+========

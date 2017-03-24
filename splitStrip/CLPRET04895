@@ -1,0 +1,8 @@
+
+
+D6844: TEST ECX,0xfffffeff            [F7C1FFFEFFFF] 
+D6880: MOV RAX,[0x00368e68]           [488B05E1252900] 
+D6887: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D688E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

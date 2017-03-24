@@ -1,0 +1,18 @@
+
+
+FFB94: PUSH RBP                       [55] 
+FFB95: MOV RBP,RDI                    [4889FD] 
+FFB98: PUSH RBX                       [53] 
+FFB99: MOVSXD RBX,ESI                 [4863DE] 
+FFB9C: SUB RSP,0x8                    [4883EC08] 
+FFBA0: MOV RAX,[RDI]                  [488B07] 
+FFBA3: CMP EBX,0x1                    [83FB01] 
+FFBA6: LEA RDX,[RAX + -0x10]          [488D50F0] 
+FFBF8: ADD RAX,RBX                    [4801D8] 
+FFBFB: MOV byte ptr [RDI + RDX*0x1 + 0x10],0x0 [C644171000] 
+FFC00: MOV [RBP],RAX                  [48894500] 
+FFC04: ADD RSP,0x8                    [4883C408] 
+FFC08: POP RBX                        [5B] 
+FFC09: POP RBP                        [5D] 
+
+========

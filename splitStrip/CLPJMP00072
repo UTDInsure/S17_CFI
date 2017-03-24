@@ -1,0 +1,13 @@
+
+
+12C34: PUSH RBP                       [55] 
+12C35: PUSH RBX                       [53] 
+12C36: MOV RBX,RDI                    [4889FB] 
+12C39: SUB RSP,0x8                    [4883EC08] 
+12C3D: MOV EAX,FS:[0x18]              [648B042518000000] 
+12C45: TEST EAX,EAX                   [85C0] 
+12C5B: MOV RBP,[0x00222fd8]           [488B2D76032100] 
+12C62: TEST RBP,RBP                   [4885ED] 
+12CBB: MOV EDI,0x198                  [BF98010000] 
+
+========

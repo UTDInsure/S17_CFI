@@ -1,0 +1,9 @@
+
+
+18334: SUB RSP,0x8                    [4883EC08] 
+18338: TEST RDI,RDI                   [4885FF] 
+1833B: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+18349: XOR ECX,ECX                    [31C9] 
+1834B: XOR ESI,ESI                    [31F6] 
+
+========

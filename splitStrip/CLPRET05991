@@ -1,0 +1,21 @@
+
+
+E6EE4: XOR EAX,EAX                    [31C0] 
+E6EE6: TEST RSI,RSI                   [4885F6] 
+E6EEB: MOV ECX,[RSI]                  [8B0E] 
+E6EED: MOV EDX,EDI                    [89FA] 
+E6EEF: SHR EDX,CL                     [D3EA] 
+E6EF1: CMP EDX,[RSI + 0x4]            [3B5604] 
+E6EF6: ADD EDX,0x5                    [83C205] 
+E6EF9: MOV EDX,[RSI + RDX*0x4]        [8B1496] 
+E6EFC: TEST EDX,EDX                   [85D2] 
+E6F00: MOV ECX,[RSI + 0x8]            [8B4E08] 
+E6F03: MOV R8D,EDI                    [4189F8] 
+E6F06: SHR R8D,CL                     [41D3E8] 
+E6F09: MOV ECX,R8D                    [4489C1] 
+E6F0C: AND ECX,[RSI + 0xc]            [234E0C] 
+E6F0F: LEA RDX,[RDX + RCX*0x4]        [488D148A] 
+E6F13: MOV EDX,[RSI + RDX*0x1]        [8B1416] 
+E6F16: TEST EDX,EDX                   [85D2] 
+
+========

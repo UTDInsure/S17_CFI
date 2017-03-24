@@ -1,0 +1,9 @@
+
+
+F4E54: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+F4E57: TEST CL,CL                     [84C9] 
+F4E6B: TEST CL,CL                     [84C9] 
+F4EA0: MOV [RSI],RDI                  [48893E] 
+F4EA3: XOR EAX,EAX                    [31C0] 
+
+========

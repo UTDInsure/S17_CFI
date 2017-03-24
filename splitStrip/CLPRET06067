@@ -1,0 +1,6 @@
+
+
+E7854: XOR EAX,EAX                    [31C0] 
+E7856: TEST RSI,RSI                   [4885F6] 
+
+========

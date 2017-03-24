@@ -1,0 +1,22 @@
+
+
+405BA4: TEST DIL,DIL                   [4084FF] 
+405BA7: MOV EAX,0x1                    [B801000000] 
+405BB0: MOVSX EDI,DIL                  [400FBEFF] 
+405BB4: XOR EAX,EAX                    [31C0] 
+405594: MOVSX EDI,DIL                  [400FBEFF] 
+405598: MOV EAX,0x2                    [B802000000] 
+40559D: MOV EDX,EDI                    [89FA] 
+40559F: AND EDX,0xe0                   [81E2E0000000] 
+4055A5: CMP EDX,0xc0                   [81FAC0000000] 
+4055AD: MOV EDX,EDI                    [89FA] 
+4055AF: MOV AL,0x3                     [B003] 
+4055B1: AND EDX,0xf0                   [81E2F0000000] 
+4055B7: CMP EDX,0xe0                   [81FAE0000000] 
+4055BF: MOV EDX,EDI                    [89FA] 
+4055C1: MOV AL,0x4                     [B004] 
+4055C3: AND EDX,0xf8                   [81E2F8000000] 
+4055C9: CMP EDX,0xf0                   [81FAF0000000] 
+405BBF: NOP                            [90] 
+
+========

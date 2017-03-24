@@ -1,0 +1,18 @@
+
+
+D7B44: PUSH R12                       [4154] 
+D7B46: PUSH RBP                       [55] 
+D7B47: MOV RBP,RDI                    [4889FD] 
+D7B4A: PUSH RBX                       [53] 
+D7B4B: SUB RSP,0x1000                 [4881EC00100000] 
+D7B52: TEST RDI,RDI                   [4885FF] 
+D7B98: MOV RAX,[0x00368e68]           [488B05C9122900] 
+D7B9F: XOR EBX,EBX                    [31DB] 
+D7BA1: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D7B82: ADD RSP,0x1000                 [4881C400100000] 
+D7B89: MOV RAX,RBX                    [4889D8] 
+D7B8C: POP RBX                        [5B] 
+D7B8D: POP RBP                        [5D] 
+D7B8E: POP R12                        [415C] 
+
+========

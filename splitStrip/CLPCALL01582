@@ -1,0 +1,8 @@
+
+
+1145F4: SUB RSP,0x8                    [4883EC08] 
+1145F8: MOV EAX,[RDI]                  [8B07] 
+1145FA: CMP EAX,0x1                    [83F801] 
+114610: MOV RAX,[RDI + 0x8]            [488B4708] 
+
+========

@@ -1,0 +1,21 @@
+
+
+116954: MOV EDX,[0x0036e980]           [8B1526802500] 
+11695A: TEST EDX,EDX                   [85D2] 
+116968: MOV EDI,0x6                    [BF06000000] 
+11696D: XOR ESI,ESI                    [31F6] 
+11696F: MOV ECX,0x1                    [B901000000] 
+116974: MOV EAX,ESI                    [89F0] 
+116976: LOCK                           [F0] 
+116977: CMPXCHG [0x0036e990],ECX       [0FB10D12802500] 
+11697E: TEST EAX,EAX                   [85C0] 
+116A15: SUB EDI,0x1                    [83EF01] 
+116A1E: PAUSE                          [F390] 
+116974: MOV EAX,ESI                    [89F0] 
+116976: LOCK                           [F0] 
+116977: CMPXCHG [0x0036e990],ECX       [0FB10D12802500] 
+11697E: TEST EAX,EAX                   [85C0] 
+116A15: SUB EDI,0x1                    [83EF01] 
+11695E: XOR EAX,EAX                    [31C0] 
+
+========

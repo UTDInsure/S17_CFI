@@ -1,0 +1,12 @@
+
+
+408904: PUSH RBX                       [53] 
+408905: MOV ESI,0x10                   [BE10000000] 
+40890A: MOV EBX,EDI                    [89FB] 
+40890C: XOR EAX,EAX                    [31C0] 
+40890E: MOV EDI,0x1                    [BF01000000] 
+402854: SUB RSP,0x8                    [4883EC08] 
+402858: MOV ESI,ESI                    [89F6] 
+40285A: MOVSXD RDI,EDI                 [4863FF] 
+
+========

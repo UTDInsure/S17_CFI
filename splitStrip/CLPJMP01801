@@ -1,0 +1,9 @@
+
+
+11D794: PUSH RBX                       [53] 
+11D795: MOV RBX,RDI                    [4889FB] 
+11D798: MOV RDI,[RDI + 0x10]           [488B7F10] 
+11D79C: TEST RDI,RDI                   [4885FF] 
+11D7AA: MOV RDI,RBX                    [4889DF] 
+
+========

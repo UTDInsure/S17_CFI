@@ -1,0 +1,23 @@
+
+
+39884: PUSH R12                       [4154] 
+39886: PUSH RBP                       [55] 
+39887: MOV RBP,RSI                    [4889F5] 
+3988A: PUSH RBX                       [53] 
+3988B: SUB RSP,0x10                   [4883EC10] 
+3988F: TEST RSI,RSI                   [4885F6] 
+39898: MOV EAX,[RSI + 0x18]           [8B4618] 
+3989B: CMP EAX,0x4                    [83F804] 
+398A4: MOV RSI,[RSI + 0x10]           [488B7610] 
+398A8: TEST EDI,EDI                   [85FF] 
+398AA: MOV ECX,0x1                    [B901000000] 
+398AF: CMOVNZ ECX,EDI                 [0F45CF] 
+398B2: TEST EAX,EAX                   [85C0] 
+398B4: MOV [RSI],ECX                  [890E] 
+39957: XOR EAX,EAX                    [31C0] 
+39959: ADD RSP,0x10                   [4883C410] 
+3995D: POP RBX                        [5B] 
+3995E: POP RBP                        [5D] 
+3995F: POP R12                        [415C] 
+
+========

@@ -1,0 +1,18 @@
+
+
+45584: PUSH R12                       [4154] 
+45586: XOR EAX,EAX                    [31C0] 
+45588: MOV R12,RSI                    [4989F4] 
+4558B: PUSH RBP                       [55] 
+4558C: MOV RBP,RDI                    [4889FD] 
+4558F: PUSH RBX                       [53] 
+45590: MOV RBX,RDX                    [4889D3] 
+45593: SUB RSP,0x10                   [4883EC10] 
+45597: TEST R8,R8                     [4D85C0] 
+4559C: CMP RBX,R8                     [4C39C3] 
+455C2: ADD RSP,0x10                   [4883C410] 
+455C6: POP RBX                        [5B] 
+455C7: POP RBP                        [5D] 
+455C8: POP R12                        [415C] 
+
+========

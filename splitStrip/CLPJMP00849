@@ -1,0 +1,26 @@
+
+
+71AE4: SUB RSP,0x8                    [4883EC08] 
+71AE8: TEST byte ptr [RDI],0x8        [F60708] 
+70C84: PUSH R15                       [4157] 
+70C86: PUSH R14                       [4156] 
+70C88: PUSH R13                       [4155] 
+70C8A: PUSH R12                       [4154] 
+70C8C: MOV R12D,ESI                   [4189F4] 
+70C8F: PUSH RBP                       [55] 
+70C90: MOV RBP,RDI                    [4889FD] 
+70C93: PUSH RBX                       [53] 
+70C94: SUB RSP,0x18                   [4883EC18] 
+70C98: MOV RBX,[0xa0 + RDI]           [488B9FA0000000] 
+70C9F: MOV RDX,[RBX]                  [488B13] 
+70CA2: MOV R13,[RBX + 0x10]           [4C8B6B10] 
+70CA6: MOV RAX,RBX                    [4889D8] 
+70CA9: CMP RDX,R13                    [4C39EA] 
+70D10: TEST dword ptr [RDI],0x100     [F70700010000] 
+70D18: MOV RCX,[RDI + 0x8]            [488B4F08] 
+70D1C: MOVSX EAX,byte ptr [RCX + -0x1] [0FBE41FF] 
+70D20: CMP EAX,ESI                    [39F0] 
+70D24: CMP dword ptr [RBX + 0x40],0x0 [48837B4000] 
+70DF0: MOV EDI,0x200                  [BF00020000] 
+
+========

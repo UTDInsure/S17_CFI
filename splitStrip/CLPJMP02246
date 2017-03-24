@@ -1,0 +1,14 @@
+
+
+2AAA4: PUSH R13                       [4155] 
+2AAA6: MOV R13,RSI                    [4989F5] 
+2AAA9: PUSH R12                       [4154] 
+2AAAB: MOV R12,RDX                    [4989D4] 
+2AAAE: PUSH RBP                       [55] 
+2AAAF: PUSH RBX                       [53] 
+2AAB0: MOV RBX,RDI                    [4889FB] 
+2AAB3: SUB RSP,0x8                    [4883EC08] 
+2AAB7: MOV RAX,[0x0024a7a0]           [488B05E2FC2100] 
+2AABE: MOV RBP,[RAX]                  [488B28] 
+
+========

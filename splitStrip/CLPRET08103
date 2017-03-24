@@ -1,0 +1,5 @@
+
+
+1ACE4: CMP dword ptr [0x408 + RDI],-0x1 [83BF08040000FF] 
+
+========

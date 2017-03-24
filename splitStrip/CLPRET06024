@@ -1,0 +1,10 @@
+
+
+E7304: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E7378: MOV RAX,[RSI + 0x68]           [488B4668] 
+E737C: MOV EDI,EDI                    [89FF] 
+E737E: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+E7382: AND AX,0x200                   [66250002] 
+E7386: MOVZX EAX,AX                   [0FB7C0] 
+
+========

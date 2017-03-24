@@ -1,0 +1,15 @@
+
+
+35EF4: PUSH RBP                       [55] 
+35EF5: PUSH RBX                       [53] 
+35EF6: MOV RBX,RDI                    [4889FB] 
+35EF9: SUB RSP,0x8                    [4883EC08] 
+35EFD: MOVZX EBP,byte ptr [RDI + 0x1] [0FB66F01] 
+35F01: CMP BPL,0x3b                   [4080FD3B] 
+35F30: ADD RBX,0x2                    [4883C302] 
+35F34: ADD RSP,0x8                    [4883C408] 
+35F38: MOV RAX,RBX                    [4889D8] 
+35F3B: POP RBX                        [5B] 
+35F3C: POP RBP                        [5D] 
+
+========

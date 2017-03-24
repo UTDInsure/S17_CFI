@@ -1,0 +1,13 @@
+
+
+113E64: PUSH RBX                       [53] 
+113E65: MOV RBX,RSI                    [4889F3] 
+113E68: SUB RSP,0x10                   [4883EC10] 
+113E6C: MOV EAX,[RDI]                  [8B07] 
+113E6E: CMP EAX,0x1                    [83F801] 
+113EB8: MOVZX EAX,word ptr [RSI]       [0FB706] 
+113EBB: LEA RSI,[RSP + 0x8]            [488D742408] 
+113EC0: MOV [RSP + 0x8],RAX            [4889442408] 
+113EC5: MOV RAX,[RDI + 0x8]            [488B4708] 
+
+========

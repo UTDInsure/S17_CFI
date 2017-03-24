@@ -1,0 +1,15 @@
+
+
+77984: PUSH R14                       [4156] 
+77986: MOV R14,RSI                    [4989F6] 
+77989: PUSH R13                       [4155] 
+7798B: MOV R13,RDX                    [4989D5] 
+7798E: PUSH R12                       [4154] 
+77990: PUSH RBP                       [55] 
+77991: PUSH RBX                       [53] 
+77992: CMP dword ptr [RDI + 0x38],0x0 [48837F3800] 
+77997: MOV RBX,RDI                    [4889FB] 
+77B58: MOV RDI,[RDI + 0x48]           [488B7F48] 
+77B5C: TEST RDI,RDI                   [4885FF] 
+
+========

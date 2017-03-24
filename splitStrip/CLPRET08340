@@ -1,0 +1,18 @@
+
+
+225D4: PUSH R14                       [4156] 
+225D6: TEST RDI,RDI                   [4885FF] 
+225D9: PUSH R13                       [4155] 
+225DB: PUSH R12                       [4154] 
+225DD: MOV R12,RDI                    [4989FC] 
+225E0: PUSH RBP                       [55] 
+225E1: PUSH RBX                       [53] 
+227C3: XOR EBX,EBX                    [31DB] 
+227C5: MOV RAX,RBX                    [4889D8] 
+227C8: POP RBX                        [5B] 
+227C9: POP RBP                        [5D] 
+227CA: POP R12                        [415C] 
+227CC: POP R13                        [415D] 
+227CE: POP R14                        [415E] 
+
+========

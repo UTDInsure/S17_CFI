@@ -1,0 +1,23 @@
+
+
+DC224: PUSH RBX                       [53] 
+DC225: SUB RSP,0x60                   [4883EC60] 
+DC229: CMP EDI,0x2                    [83FF02] 
+DC22C: LEA RAX,[RSP + 0x70]           [488D442470] 
+DC231: MOV [RSP + 0x38],RSI           [4889742438] 
+DC236: MOV dword ptr [RSP + 0x18],0x8 [C744241808000000] 
+DC23E: MOV [RSP + 0x20],RAX           [4889442420] 
+DC243: LEA RAX,[RSP + 0x30]           [488D442430] 
+DC248: MOV [RSP + 0x28],RAX           [4889442428] 
+DC253: CMP EDI,0x4                    [83FF04] 
+DC258: CMP EDI,0x1                    [83FF01] 
+DC280: MOV RSI,RSP                    [4889E6] 
+DC194: MOV EAX,0x61                   [B861000000] 
+DC19B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DC28C: TEST EAX,EAX                   [85C0] 
+DC35D: MOV RBX,-0x1                   [48C7C3FFFFFFFF] 
+DC272: ADD RSP,0x60                   [4883C460] 
+DC276: MOV RAX,RBX                    [4889D8] 
+DC279: POP RBX                        [5B] 
+
+========

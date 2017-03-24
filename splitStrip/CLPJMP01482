@@ -1,0 +1,24 @@
+
+
+FC7F4: PUSH RBX                       [53] 
+FC7F5: MOV RBX,RDI                    [4889FB] 
+FC304: PUSH RBX                       [53] 
+FC305: MOV RBX,RDI                    [4889FB] 
+FC308: MOV RDI,[RDI + 0x50]           [488B7F50] 
+FC30C: LEA RAX,[RDI + -0x1]           [488D47FF] 
+FC310: CMP RAX,-0x3                   [4883F8FD] 
+FC316: POP RBX                        [5B] 
+FC801: LEA RSI,[RBX + 0x48]           [488D7348] 
+FC805: LEA RDI,[RBX + 0x40]           [488D7B40] 
+FC634: PUSH RBP                       [55] 
+FC635: MOV RBP,RDI                    [4889FD] 
+FC638: PUSH RBX                       [53] 
+FC639: MOV RBX,RSI                    [4889F3] 
+FC63C: SUB RSP,0x8                    [4883EC08] 
+FC640: MOV RDI,[RDI]                  [488B3F] 
+FC643: TEST RDI,RDI                   [4885FF] 
+FC648: NOP                            [0F1F840000000000] 
+FC650: MOV RDX,[RDI]                  [488B17] 
+FC653: MOV [RBP],RDX                  [48895500] 
+
+========

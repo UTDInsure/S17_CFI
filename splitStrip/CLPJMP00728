@@ -1,0 +1,25 @@
+
+
+33664: PUSH R12                       [4154] 
+33666: MOV R12,RDI                    [4989FC] 
+33669: PUSH RBP                       [55] 
+3366A: PUSH RBX                       [53] 
+3366B: SUB RSP,0x10                   [4883EC10] 
+3366F: TEST RSI,RSI                   [4885F6] 
+33678: MOV RBP,[0x00367b48]           [488B2DC9443300] 
+3367F: LEA RBX,[RSI + RDI*0x1]        [488D1C3E] 
+33683: MOV RAX,RDI                    [4889F8] 
+33686: MOV R8D,0x1                    [41B801000000] 
+3368C: XOR R9D,R9D                    [4531C9] 
+3368F: XOR R10D,R10D                  [4531D2] 
+33692: NOP                            [660F1F440000] 
+33698: MOVZX EDX,byte ptr [RAX]       [0FB610] 
+3369B: MOVZX ECX,DL                   [0FB6CA] 
+3369E: TEST byte ptr [RBP + RCX*0x2],0x8 [F6444D0008] 
+336B3: ADD RAX,0x1                    [4883C001] 
+336B7: CMP RAX,RBX                    [4839D8] 
+336BC: TEST R8D,R8D                   [4585C0] 
+336C1: LEA EDI,[R9 + 0x1]             [418D7901] 
+336C5: MOVSXD RDI,EDI                 [4863FF] 
+
+========

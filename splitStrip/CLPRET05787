@@ -1,0 +1,6 @@
+
+
+E4944: MOV EAX,0x29                   [B829000000] 
+E494B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

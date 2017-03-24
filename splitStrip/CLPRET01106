@@ -1,0 +1,14 @@
+
+
+415B24: SUB RSP,0x8                    [4883EC08] 
+415B28: MOV RDI,[RDI]                  [488B3F] 
+415B2B: XOR EAX,EAX                    [31C0] 
+414704: XOR EAX,EAX                    [31C0] 
+414706: TEST RDI,RDI                   [4885FF] 
+414709: SETZ AL                        [0F94C0] 
+415B36: TEST EAX,EAX                   [85C0] 
+415B38: SETZ AL                        [0F94C0] 
+415B3B: ADD RSP,0x8                    [4883C408] 
+415B3F: MOVZX EAX,AL                   [0FB6C0] 
+
+========

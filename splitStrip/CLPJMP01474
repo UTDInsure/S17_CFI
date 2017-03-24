@@ -1,0 +1,14 @@
+
+
+FC634: PUSH RBP                       [55] 
+FC635: MOV RBP,RDI                    [4889FD] 
+FC638: PUSH RBX                       [53] 
+FC639: MOV RBX,RSI                    [4889F3] 
+FC63C: SUB RSP,0x8                    [4883EC08] 
+FC640: MOV RDI,[RDI]                  [488B3F] 
+FC643: TEST RDI,RDI                   [4885FF] 
+FC648: NOP                            [0F1F840000000000] 
+FC650: MOV RDX,[RDI]                  [488B17] 
+FC653: MOV [RBP],RDX                  [48895500] 
+
+========

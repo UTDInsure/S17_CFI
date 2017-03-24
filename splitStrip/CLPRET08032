@@ -1,0 +1,6 @@
+
+
+186D4: TEST RDI,RDI                   [4885FF] 
+186E0: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,21 @@
+
+
+12234: PUSH R15                       [4157] 
+12236: PUSH R14                       [4156] 
+12238: PUSH R13                       [4155] 
+1223A: PUSH R12                       [4154] 
+1223C: PUSH RBP                       [55] 
+1223D: PUSH RBX                       [53] 
+1223E: SUB RSP,0x28                   [4883EC28] 
+12242: TEST RDI,RDI                   [4885FF] 
+12245: MOV [RSP + 0x18],RDI           [48897C2418] 
+12478: XOR EAX,EAX                    [31C0] 
+123ED: ADD RSP,0x28                   [4883C428] 
+123F1: POP RBX                        [5B] 
+123F2: POP RBP                        [5D] 
+123F3: POP R12                        [415C] 
+123F5: POP R13                        [415D] 
+123F7: POP R14                        [415E] 
+123F9: POP R15                        [415F] 
+
+========

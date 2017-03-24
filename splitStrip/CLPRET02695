@@ -1,0 +1,13 @@
+
+
+71734: MOV RAX,[RDI + 0x8]            [488B4708] 
+71738: TEST RAX,RAX                   [4885C0] 
+7173D: TEST dword ptr [RAX],0x100     [F70000010000] 
+71743: MOV RAX,[0xa0 + RAX]           [488B80A0000000] 
+7174A: MOV RDX,[RAX]                  [488B10] 
+71760: SUB RDX,[RAX + 0x8]            [482B5008] 
+71764: MOV EAX,[RDI + 0x10]           [8B4710] 
+71767: SHR RDX,0x2                    [48C1EA02] 
+7176B: SUB EAX,EDX                    [29D0] 
+
+========

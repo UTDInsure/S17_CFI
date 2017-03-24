@@ -1,0 +1,15 @@
+
+
+77564: PUSH RBX                       [53] 
+77565: MOV RSI,[RDI + 0x8]            [488B7708] 
+77569: MOV RBX,RDI                    [4889FB] 
+7756C: CMP RSI,[RDI + 0x10]           [483B7710] 
+775B0: SUB RSI,[RDI + 0x38]           [482B7738] 
+77591: MOV RAX,[RBX + 0x18]           [488B4318] 
+77595: MOV [0x90 + RBX],RSI           [4889B390000000] 
+7759C: MOV [RBX + 0x8],RAX            [48894308] 
+775A0: MOV [RBX + 0x10],RAX           [48894310] 
+775A4: XOR EAX,EAX                    [31C0] 
+775A6: POP RBX                        [5B] 
+
+========

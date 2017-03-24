@@ -1,0 +1,7 @@
+
+
+2ECA4: LEA EDX,[0x80 + RDI]           [8D9780000000] 
+2ECAA: MOVSXD RAX,EDI                 [4863C7] 
+2ECAD: CMP EDX,0x17f                  [81FA7F010000] 
+
+========

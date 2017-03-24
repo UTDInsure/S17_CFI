@@ -1,0 +1,24 @@
+
+
+190A4: MOV RDX,RDI                    [4889FA] 
+190A7: AND EDX,0x7                    [83E207] 
+190AA: MOV RAX,RDI                    [4889F8] 
+190CE: MOV R9,0x101010101010101       [49B90101010101010101] 
+190D8: MOVZX EDX,SIL                  [400FB6D6] 
+190DC: IMUL R9,RDX                    [4C0FAFCA] 
+190E0: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+190EA: NOP                            [660F1F440000] 
+190F0: MOV RCX,[RAX]                  [488B08] 
+190F3: ADD RAX,0x8                    [4883C008] 
+190F7: MOV RDX,R8                     [4C89C2] 
+190FA: XOR RCX,R9                     [4C31C9] 
+190FD: ADD RDX,RCX                    [4801CA] 
+191E0: MOV RDX,R9                     [4C89CA] 
+191E3: SUB RAX,0x8                    [4883E808] 
+191E7: TEST CL,CL                     [84C9] 
+191EB: CMP CL,DL                      [38D1] 
+191EF: INC RAX                        [48FFC0] 
+191F2: TEST CH,CH                     [84ED] 
+19240: NOP                            [90] 
+
+========

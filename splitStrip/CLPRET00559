@@ -1,0 +1,24 @@
+
+
+404D14: SUB RSP,0x8                    [4883EC08] 
+404D18: MOV RCX,[0x006279d8]           [488B0DB92C2200] 
+404D1F: TEST RCX,RCX                   [4885C9] 
+404D28: MOV EAX,[0x840 + RCX]          [8B8140080000] 
+404D2E: TEST EAX,EAX                   [85C0] 
+404D32: MOV RSI,[0x838 + RCX]          [488BB138080000] 
+404D39: TEST RSI,RSI                   [4885F6] 
+404D42: SUB RSI,0x1                    [4883EE01] 
+404D46: TEST byte ptr [0x824 + RCX],0x1 [F6812408000001] 
+404D4F: MOV RDI,RSI                    [4889F7] 
+404D52: AND EDI,0x3f                   [83E73F] 
+404D55: MOV RAX,RDI                    [4889F8] 
+404D58: ADD RDI,0x1                    [4883C701] 
+404D5C: SHL RAX,0x5                    [48C1E005] 
+404D60: SHL RDI,0x5                    [48C1E705] 
+404D64: MOV RDX,[RCX + RAX*0x1 + 0x30] [488B540130] 
+404D69: ADD RDI,RCX                    [4801CF] 
+404D6C: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+404D71: CMP RDX,RDI                    [4839FA] 
+404DBC: ADD RSP,0x8                    [4883C408] 
+
+========

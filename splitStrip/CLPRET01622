@@ -1,0 +1,18 @@
+
+
+35E64: MOV EAX,FS:[0x2d4]             [648B0425D4020000] 
+35E6C: MOV ECX,EAX                    [89C1] 
+35E6E: MOV ESI,FS:[0x2d0]             [648B3425D0020000] 
+35E76: TEST ESI,ESI                   [85F6] 
+35EB0: TEST EAX,EAX                   [85C0] 
+35EB4: MOV ECX,EAX                    [89C1] 
+35EB6: NEG ECX                        [F7D9] 
+35EB8: TEST EAX,0x7fffffff            [A9FFFFFF7F] 
+35EBD: CMOVZ ECX,ESI                  [0F44CE] 
+35E8D: MOVSXD RDX,EDI                 [4863D7] 
+35E90: MOVSXD RSI,ESI                 [4863F6] 
+35E93: MOVSXD RDI,ECX                 [4863F9] 
+35E96: MOV EAX,0xea                   [B8EA000000] 
+35E9D: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

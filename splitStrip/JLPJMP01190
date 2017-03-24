@@ -1,0 +1,12 @@
+
+
+C747A: MOVSXD RDX,[R13 + 0x34]        [49635534] 
+C747E: CMP EDX,[RSP + 0x7c]           [3B54247C] 
+C7892: MOV EAX,[RSP + 0x7c]           [8B44247C] 
+C7896: MOV RDI,[R13]                  [498B7D00] 
+C789A: LEA EAX,[RAX + RAX*0x1 + 0x1]  [8D440001] 
+C789E: MOVSXD RSI,EAX                 [4863F0] 
+C78A1: MOV [RSP + 0x7c],EAX           [8944247C] 
+C78A5: SHL RSI,0x2                    [48C1E602] 
+
+========

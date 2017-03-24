@@ -1,0 +1,20 @@
+
+
+1B0A4: PUSH R15                       [4157] 
+1B0A6: MOV R15,RDI                    [4989FF] 
+1B0A9: PUSH R14                       [4156] 
+1B0AB: MOV R14D,ESI                   [4189F6] 
+1B0AE: MOV RSI,R15                    [4C89FE] 
+1B0B1: PUSH R13                       [4155] 
+1B0B3: PUSH R12                       [4154] 
+1B0B5: PUSH RBP                       [55] 
+1B0B6: MOV EBP,R8D                    [4489C5] 
+1B0B9: PUSH RBX                       [53] 
+1B0BA: MOVSXD RBX,ECX                 [4863D9] 
+1B0BD: SUB RSP,0x278                  [4881EC78020000] 
+1B0C4: LEA RDI,[RSP + 0x30]           [488D7C2430] 
+1B0C9: MOV [RSP + 0x8],EDX            [89542408] 
+1B0CD: MOV [RSP + 0x1c],R9D           [44894C241C] 
+1B0D2: MOV [RSP + 0x10],RDI           [48897C2410] 
+
+========

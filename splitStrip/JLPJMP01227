@@ -1,0 +1,27 @@
+
+
+C9CEA: XOR EAX,EAX                    [31C0] 
+C9CEC: XOR EBX,EBX                    [31DB] 
+C9B30: CMP EAX,[R13]                  [413B4500] 
+C9B36: MOVSXD RDX,EBX                 [4863D3] 
+C9B39: XOR EAX,EAX                    [31C0] 
+C9B3B: SHL RDX,0x2                    [48C1E202] 
+C9B3F: MOV RCX,RDX                    [4889D1] 
+C9B42: ADD RDX,[R13 + 0x8]            [49035508] 
+C9B46: ADD RCX,[R13 + 0x10]           [49034D10] 
+C9B4A: NOP                            [660F1F440000] 
+C9B50: MOV dword ptr [RCX + RAX*0x1],0xffffffff [C70401FFFFFFFF] 
+C9B57: ADD EBX,0x1                    [83C301] 
+C9B5A: MOV dword ptr [RDX + RAX*0x1],0xffffffff [C70402FFFFFFFF] 
+C9B61: ADD RAX,0x4                    [4883C004] 
+C9B65: CMP EBX,[R13]                  [413B5D00] 
+C9B6B: MOVZX EAX,byte ptr [R14 + 0x38] [410FB64638] 
+C9B70: ADD EDI,EDI                    [01FF] 
+C9B72: AND EAX,0xfffffff9             [83E0F9] 
+C9B75: OR EAX,EDI                     [09F8] 
+C9B77: TEST AL,0x6                    [A806] 
+C9B79: MOV [R14 + 0x38],AL            [41884638] 
+C9E1D: MOV EBX,0xfffffffe             [BBFEFFFFFF] 
+C9BA5: MOV RDI,RBP                    [4889EF] 
+
+========

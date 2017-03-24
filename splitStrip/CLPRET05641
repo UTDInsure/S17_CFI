@@ -1,0 +1,10 @@
+
+
+E3C44: MOV EAX,0x123                  [B823010000] 
+E3C4B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3C54: MOV RCX,[0x00368e68]           [488B0D0D522800] 
+E3C5B: NEG EAX                        [F7D8] 
+E3C5D: MOV FS:[RCX],EAX               [648901] 
+E3C60: OR RAX,-0x1                    [4883C8FF] 
+
+========

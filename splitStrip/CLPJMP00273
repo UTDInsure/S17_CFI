@@ -1,0 +1,11 @@
+
+
+406E94: PUSH R13                       [4155] 
+406E96: XOR R13D,R13D                  [4531ED] 
+406E99: PUSH R12                       [4154] 
+406E9B: PUSH RBP                       [55] 
+406E9C: PUSH RBX                       [53] 
+406E9D: MOV RBX,RDI                    [4889FB] 
+406EA0: SUB RSP,0x18                   [4883EC18] 
+
+========

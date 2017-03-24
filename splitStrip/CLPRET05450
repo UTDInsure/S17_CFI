@@ -1,0 +1,16 @@
+
+
+DFFB4: MOV RAX,RDI                    [4889F8] 
+DFFB7: MOV RDI,RSI                    [4889F7] 
+DFFBA: MOV RSI,RDX                    [4889D6] 
+DFFBD: MOV RDX,RCX                    [4889CA] 
+DFFC0: MOV R10,R8                     [4D89C2] 
+DFFC3: MOV R8,R9                      [4D89C8] 
+DFFC6: MOV R9,[RSP + 0x8]             [4C8B4C2408] 
+DFFCD: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DFFD6: MOV RCX,[0x00368e68]           [488B0D8B8E2800] 
+DFFDD: NEG EAX                        [F7D8] 
+DFFDF: MOV FS:[RCX],EAX               [648901] 
+DFFE2: OR RAX,-0x1                    [4883C8FF] 
+
+========

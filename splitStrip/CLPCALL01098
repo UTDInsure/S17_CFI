@@ -1,0 +1,11 @@
+
+
+F0674: MOV R8D,[0x0036e770]           [448B05F5E02700] 
+F067B: XOR EAX,EAX                    [31C0] 
+F067D: TEST R8D,R8D                   [4585C0] 
+F0688: SUB RSP,0x8                    [4883EC08] 
+F068C: MOV RAX,[0x0036e6b0]           [488B051DE02700] 
+F0693: ROR RAX,0x11                   [48C1C811] 
+F0697: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

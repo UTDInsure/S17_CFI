@@ -1,0 +1,22 @@
+
+
+36644: PUSH R15                       [4157] 
+36646: PUSH R14                       [4156] 
+36648: PUSH R13                       [4155] 
+3664A: PUSH R12                       [4154] 
+3664C: PUSH RBP                       [55] 
+3664D: MOV RBP,RSI                    [4889F5] 
+36650: PUSH RBX                       [53] 
+36651: MOVSXD RBX,EDI                 [4863DF] 
+36654: SUB RSP,0x8                    [4883EC08] 
+36658: TEST RSI,RSI                   [4885F6] 
+368F0: ADD RSP,0x8                    [4883C408] 
+368F4: LEA RAX,[0x40d20]              [488D0525A40000] 
+368FB: POP RBX                        [5B] 
+368FC: POP RBP                        [5D] 
+368FD: POP R12                        [415C] 
+368FF: POP R13                        [415D] 
+36901: POP R14                        [415E] 
+36903: POP R15                        [415F] 
+
+========

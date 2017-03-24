@@ -1,0 +1,15 @@
+
+
+1086A4: PUSH R12                       [4154] 
+1086A6: PUSH RBP                       [55] 
+1086A7: MOV RBP,RDI                    [4889FD] 
+1086AA: PUSH RBX                       [53] 
+1086AB: MOV EAX,[RDI]                  [8B07] 
+1086AD: MOV RBX,RSI                    [4889F3] 
+1086B0: TEST EAX,EAX                   [85C0] 
+1086E8: CMP EAX,0x1                    [83F801] 
+1087B0: MOV RAX,[RBP + 0x8]            [488B4508] 
+1087B4: MOV ESI,0x20                   [BE20000000] 
+1087B9: MOV RDI,RBP                    [4889EF] 
+
+========

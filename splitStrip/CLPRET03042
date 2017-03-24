@@ -1,0 +1,19 @@
+
+
+77B94: PUSH RBP                       [55] 
+77B95: PUSH RBX                       [53] 
+77B96: MOV RBX,RDI                    [4889FB] 
+77B99: SUB RSP,0x8                    [4883EC08] 
+77B9D: TEST ECX,ECX                   [85C9] 
+77BA5: CMP EDX,0x1                    [83FA01] 
+77BA8: MOV RBP,RSI                    [4889F5] 
+77BAD: CMP EDX,0x2                    [83FA02] 
+77BBD: TEST RBP,RBP                   [4885ED] 
+77C60: MOV RAX,[0x00368e68]           [488B0501122F00] 
+77C67: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+77C6E: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+77C14: ADD RSP,0x8                    [4883C408] 
+77C18: POP RBX                        [5B] 
+77C19: POP RBP                        [5D] 
+
+========

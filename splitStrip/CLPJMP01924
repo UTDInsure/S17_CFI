@@ -1,0 +1,6 @@
+
+
+15AC4: PUSH RBX                       [53] 
+15AC5: MOV RBX,RDI                    [4889FB] 
+
+========

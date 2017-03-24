@@ -1,0 +1,16 @@
+
+
+F344: PUSH RBX                       [53] 
+F345: SUB RSP,0x130                  [4881EC30010000] 
+F34C: LEA RAX,[RSP + 0x44]           [488D442444] 
+F351: MOV [RSP + 0x18],RDI           [48897C2418] 
+F356: MOV [RSP + 0x48],RDI           [48897C2448] 
+F35B: MOV [RSP + 0x20],RSI           [4889742420] 
+F360: MOV [RSP + 0x50],RSI           [4889742450] 
+F365: MOV [RSP + 0x30],RCX           [48894C2430] 
+F36A: MOV [RSP + 0x38],R8            [4C89442438] 
+F36F: MOV [RSP + 0x28],RDX           [4889542428] 
+F374: MOV [RSP + 0x58],RDX           [4889542458] 
+F379: MOV [RSP + 0x60],RAX           [4889442460] 
+
+========

@@ -1,0 +1,11 @@
+
+
+F0834: MOV R9D,[0x0036e770]           [448B0D35DF2700] 
+F083B: XOR EAX,EAX                    [31C0] 
+F083D: TEST R9D,R9D                   [4585C9] 
+F0848: SUB RSP,0x8                    [4883EC08] 
+F084C: MOV RAX,[0x0036e6e8]           [488B0595DE2700] 
+F0853: ROR RAX,0x11                   [48C1C811] 
+F0857: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

@@ -1,0 +1,19 @@
+
+
+13D44: PUSH R14                       [4156] 
+13D46: PUSH R13                       [4155] 
+13D48: MOV R13,[0x0024a7a0]           [4C8B2D516A2300] 
+13D4F: PUSH R12                       [4154] 
+13D51: MOVSXD R12,ESI                 [4C63E6] 
+13D54: PUSH RBP                       [55] 
+13D55: PUSH RBX                       [53] 
+13D56: MOV RAX,[R13]                  [498B4500] 
+13D5A: MOV RAX,[0x548 + RAX]          [488B8048050000] 
+13D61: TEST RAX,RAX                   [4885C0] 
+13E37: POP RBX                        [5B] 
+13E38: POP RBP                        [5D] 
+13E39: POP R12                        [415C] 
+13E3B: POP R13                        [415D] 
+13E3D: POP R14                        [415E] 
+
+========

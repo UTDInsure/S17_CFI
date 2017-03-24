@@ -1,0 +1,7 @@
+
+
+1CB84: TEST RDI,RDI                   [4885FF] 
+1CB89: TEST byte ptr [RDI + 0xc],0x10 [F6470C10] 
+1CBF8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

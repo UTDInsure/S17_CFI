@@ -1,0 +1,8 @@
+
+
+79E34: MOVSXD R8,EDX                  [4C63C2] 
+79E37: ADD R8,RSI                     [4901F0] 
+79E3A: CMP RSI,R8                     [4C39C6] 
+79E5E: LEA EAX,[RDX + RDI*0x1]        [8D043A] 
+
+========

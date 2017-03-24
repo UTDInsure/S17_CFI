@@ -1,0 +1,7 @@
+
+
+E3F84: MOV R10,RCX                    [4989CA] 
+E3F87: MOV EAX,0xb2                   [B8B2000000] 
+E3F8E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

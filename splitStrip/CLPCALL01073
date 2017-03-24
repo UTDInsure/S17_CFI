@@ -1,0 +1,12 @@
+
+
+EEFD4: CMP EDI,0x56                   [83FF56] 
+EEFE0: MOV RAX,[0x00368e98]           [488B05B19E2700] 
+EEFE7: PUSH RBX                       [53] 
+EEFE8: MOV RBX,RDX                    [4889D3] 
+EEFEB: MOV RAX,[RAX]                  [488B00] 
+EEFEE: TEST RAX,RAX                   [4885C0] 
+EEFF3: MOV RDI,[RDX + 0x50]           [488B7A50] 
+EEFF7: MOV RSI,RDX                    [4889D6] 
+
+========

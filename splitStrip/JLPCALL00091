@@ -1,0 +1,28 @@
+
+
+54F6F: MOV R13D,[-0x1120 + RBP]       [448BADE0EEFFFF] 
+54F76: SUB R13D,0x1                   [4183ED01] 
+54F7A: CMP dword ptr [-0x1150 + RBP],0x0 [83BDB0EEFFFF00] 
+54F83: TEST R13D,R13D                 [4585ED] 
+54FDF: MOVSXD RAX,[-0x10ac + RBP]     [48638554EFFFFF] 
+54FE6: IMUL RAX,RAX,0x48              [486BC048] 
+54FEA: ADD RAX,[-0x1098 + RBP]        [48038568EFFFFF] 
+54FF7: MOVSXD RAX,[RAX + 0x30]        [48634030] 
+54FFB: MOV RCX,[-0x1090 + RBP]        [488B8D70EFFFFF] 
+55002: SHL RAX,0x4                    [48C1E004] 
+55006: MOV ESI,[RCX + RAX*0x1]        [8B3401] 
+55009: MOV RAX,[0xa0 + R14]           [498B86A0000000] 
+55010: TEST RAX,RAX                   [4885C0] 
+56C00: MOV RDI,R14                    [4C89F7] 
+70F24: PUSH RBP                       [55] 
+70F25: MOV EBP,ESI                    [89F5] 
+70F27: PUSH RBX                       [53] 
+70F28: MOV RBX,RDI                    [4889FB] 
+70F2B: SUB RSP,0x8                    [4883EC08] 
+70F2F: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+70F35: TEST EAX,EAX                   [85C0] 
+70F47: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+70F4E: MOV ESI,EBP                    [89EE] 
+70F50: MOV RDI,RBX                    [4889DF] 
+
+========

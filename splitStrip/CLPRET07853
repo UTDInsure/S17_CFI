@@ -1,0 +1,13 @@
+
+
+11E714: PUSH RBP                       [55] 
+11E715: PUSH RBX                       [53] 
+11E716: SUB RSP,0x8                    [4883EC08] 
+11E71A: MOV RBP,[0x00368f80]           [488B2D5FA82400] 
+11E721: MOV RBX,FS:[RBP]               [64488B5D00] 
+11E726: TEST RBX,RBX                   [4885DB] 
+11E7DB: ADD RSP,0x8                    [4883C408] 
+11E7DF: POP RBX                        [5B] 
+11E7E0: POP RBP                        [5D] 
+
+========

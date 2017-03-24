@@ -1,0 +1,18 @@
+
+
+1AB74: TEST SIL,SIL                   [4084F6] 
+1AB77: PUSH RBX                       [53] 
+1AB78: MOV RBX,RDI                    [4889FB] 
+1A7A4: TEST RDI,RDI                   [4885FF] 
+1A7A7: PUSH RBX                       [53] 
+1A7A8: MOV RBX,RDI                    [4889FB] 
+1A890: XOR EAX,EAX                    [31C0] 
+1A892: POP RBX                        [5B] 
+1ABF1: TEST AL,AL                     [84C0] 
+1ABF5: MOV EAX,[0x408 + RBX]          [8B8308040000] 
+1ABFB: CMP EAX,-0x1                   [83F8FF] 
+1AC00: TEST EAX,EAX                   [85C0] 
+1ABAB: POP RBX                        [5B] 
+1ABAC: NOP                            [0F1F4000] 
+
+========

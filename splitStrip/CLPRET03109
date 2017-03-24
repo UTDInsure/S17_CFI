@@ -1,0 +1,14 @@
+
+
+79584: PUSH RBX                       [53] 
+79585: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7958B: MOV RBX,RDI                    [4889FB] 
+7958E: TEST EAX,EAX                   [85C0] 
+79592: MOV dword ptr [0xc0 + RDI],0xffffffff [C787C0000000FFFFFFFF] 
+7959C: TEST dword ptr [RBX],0x800     [F70300080000] 
+795A4: MOV RAX,[RBX + 0x8]            [488B4308] 
+795A8: CMP RAX,[RBX + 0x10]           [483B4310] 
+79610: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+79613: POP RBX                        [5B] 
+
+========

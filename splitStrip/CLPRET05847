@@ -1,0 +1,6 @@
+
+
+E5054: MOV EAX,0x40                   [B840000000] 
+E505B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

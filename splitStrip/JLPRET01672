@@ -1,0 +1,9 @@
+
+
+10C134: MOV EAX,[0xb8 + RCX]           [8B81B8000000] 
+10C13A: BSWAP EAX                      [0FC8] 
+10C13C: MOV EAX,EAX                    [89C0] 
+10C13E: MOV [R8],RAX                   [498900] 
+10C141: MOV EAX,0x1                    [B801000000] 
+
+========

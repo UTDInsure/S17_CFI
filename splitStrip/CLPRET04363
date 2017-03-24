@@ -1,0 +1,10 @@
+
+
+B3314: MOV EAX,EDI                    [89F8] 
+B3316: SHR EAX,0x1f                   [C1E81F] 
+B3319: TEST AL,AL                     [84C0] 
+B33C0: MOV RAX,[0x00368e68]           [488B05A15A2B00] 
+B33C7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B33CE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

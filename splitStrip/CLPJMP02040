@@ -1,0 +1,11 @@
+
+
+18304: SUB RSP,0x8                    [4883EC08] 
+18308: TEST RDI,RDI                   [4885FF] 
+1830B: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+18312: MOVSX EDX,word ptr [RDI + 0x4] [0FBF5704] 
+18316: ADD EDX,0x1                    [83C201] 
+18319: MOV ECX,0x1                    [B901000000] 
+1831E: XOR ESI,ESI                    [31F6] 
+
+========

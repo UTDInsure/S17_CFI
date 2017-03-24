@@ -1,0 +1,7 @@
+
+
+946DC: XOR EAX,EAX                    [31C0] 
+946DE: TEST CH,0xf0                   [F6C5F0] 
+946B2: POP RBX                        [5B] 
+
+========

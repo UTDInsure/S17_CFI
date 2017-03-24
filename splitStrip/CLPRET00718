@@ -1,0 +1,23 @@
+
+
+40AB24: PUSH RBX                       [53] 
+40AB25: MOV RSI,RDI                    [4889FE] 
+40AB28: MOV RBX,RDI                    [4889FB] 
+40AB2B: XOR EAX,EAX                    [31C0] 
+40AB2D: SUB RSP,0x10                   [4883EC10] 
+40AB31: MOV RDI,[0x00628440]           [488B3D08D92100] 
+40AB38: LEA RDX,[RSP + 0x8]            [488D542408] 
+40A814: TEST RDI,RDI                   [4885FF] 
+40A819: MOV R10,[RDI + 0x10]           [4C8B5710] 
+40A81D: MOV RAX,[RDI + 0x8]            [488B4708] 
+40A821: MOV dword ptr [RDX],0x0        [48C70200000000] 
+40A828: CMP R10,RAX                    [4939C2] 
+40A881: MOV RDI,[RDI]                  [488B3F] 
+40A884: TEST RDI,RDI                   [4885FF] 
+40A889: MOV EAX,0x64                   [B864000000] 
+40AB46: CMP EAX,0x1                    [83F801] 
+40AB98: MOV RAX,[RSP + 0x8]            [488B442408] 
+40AB9D: ADD RSP,0x10                   [4883C410] 
+40ABA1: POP RBX                        [5B] 
+
+========

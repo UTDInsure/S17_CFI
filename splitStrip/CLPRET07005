@@ -1,0 +1,19 @@
+
+
+109AA4: PUSH R14                       [4156] 
+109AA6: TEST EDX,EDX                   [85D2] 
+109AA8: PUSH R13                       [4155] 
+109AAA: MOV R13,RSI                    [4989F5] 
+109AAD: PUSH R12                       [4154] 
+109AAF: PUSH RBP                       [55] 
+109AB0: PUSH RBX                       [53] 
+109AB1: MOV EBX,EDX                    [89D3] 
+109AB3: MOV R12,[RDI + 0x18]           [4C8B6718] 
+109B09: MOV EAX,0x1                    [B801000000] 
+109B0E: POP RBX                        [5B] 
+109B0F: POP RBP                        [5D] 
+109B10: POP R12                        [415C] 
+109B12: POP R13                        [415D] 
+109B14: POP R14                        [415E] 
+
+========

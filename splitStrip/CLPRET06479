@@ -1,0 +1,18 @@
+
+
+F4BB4: SHR R8,0x3                     [49C1E803] 
+F4BB8: SUB RSP,0x8                    [4883EC08] 
+F4BBC: CMP R8,RSI                     [4939F0] 
+DAFF4: SUB RSP,0x38                   [4883EC38] 
+DAFF8: TEST RDX,RDX                   [4885D2] 
+DAFFB: MOV R10,RCX                    [4989CA] 
+DB040: XOR EDX,EDX                    [31D2] 
+DB016: MOV EAX,[0x0036e774]           [8B0558372900] 
+DB01C: TEST EAX,EAX                   [85C0] 
+DB020: MOV R8D,0x8                    [41B808000000] 
+DB026: MOV EAX,0x10f                  [B80F010000] 
+DB02D: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DB035: ADD RSP,0x38                   [4883C438] 
+F4BCA: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,15 @@
+
+
+C9CEA: XOR EAX,EAX                    [31C0] 
+C9CEC: XOR EBX,EBX                    [31DB] 
+C9B30: CMP EAX,[R13]                  [413B4500] 
+C9B6B: MOVZX EAX,byte ptr [R14 + 0x38] [410FB64638] 
+C9B70: ADD EDI,EDI                    [01FF] 
+C9B72: AND EAX,0xfffffff9             [83E0F9] 
+C9B75: OR EAX,EDI                     [09F8] 
+C9B77: TEST AL,0x6                    [A806] 
+C9B79: MOV [R14 + 0x38],AL            [41884638] 
+C9E1D: MOV EBX,0xfffffffe             [BBFEFFFFFF] 
+C9BA5: MOV RDI,RBP                    [4889EF] 
+
+========

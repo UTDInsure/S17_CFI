@@ -1,0 +1,7 @@
+
+
+93704: MOV [RDI],ECX                  [890F] 
+93706: MOV byte ptr [RDI + 0x4],0x0   [C6470400] 
+9370A: MOV RAX,RDI                    [4889F8] 
+
+========

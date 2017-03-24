@@ -1,0 +1,11 @@
+
+
+E02B4: MOV R10,RCX                    [4989CA] 
+E02B7: MOV EAX,0xd8                   [B8D8000000] 
+E02BE: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E02C7: MOV RCX,[0x00368e68]           [488B0D9A8B2800] 
+E02CE: NEG EAX                        [F7D8] 
+E02D0: MOV FS:[RCX],EAX               [648901] 
+E02D3: OR RAX,-0x1                    [4883C8FF] 
+
+========

@@ -1,0 +1,12 @@
+
+
+7A654: MOV RAX,[RDI + 0x8]            [488B4708] 
+7A658: MOV RDX,[RAX + 0x60]           [488B5060] 
+7A65C: TEST RDX,RDX                   [4885D2] 
+7A661: CMP RDI,RDX                    [4839D7] 
+7A682: LEA RDX,[RAX + 0x60]           [488D5060] 
+7A686: NOP                            [662E0F1F840000000000] 
+7A690: MOV RCX,[RDI]                  [488B0F] 
+7A693: MOV [RDX],RCX                  [48890A] 
+
+========

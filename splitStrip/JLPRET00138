@@ -1,0 +1,8 @@
+
+
+4083EC: CMP byte ptr [RAX],0x21        [803821] 
+408425: MOV ECX,[0x0062ba44]           [8B0D19362200] 
+40842B: TEST ECX,ECX                   [85C9] 
+408454: ADD RSP,0x18                   [4883C418] 
+
+========

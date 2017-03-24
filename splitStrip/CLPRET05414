@@ -1,0 +1,7 @@
+
+
+DEDE4: MOV RDI,[0x0036c148]           [488B3D5DD32800] 
+DEDEB: MOV EAX,0x1                    [B801000000] 
+DEDF0: TEST RDI,RDI                   [4885FF] 
+
+========

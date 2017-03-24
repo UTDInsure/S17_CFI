@@ -1,0 +1,10 @@
+
+
+11D744: SUB RSP,0x8                    [4883EC08] 
+11D748: MOV EAX,[0x0036a910]           [8B05C2D12400] 
+11D74E: MOV RDI,[0x0036a920]           [488B3DCBD12400] 
+11D755: TEST EAX,EAX                   [85C0] 
+11D759: TEST RDI,RDI                   [4885FF] 
+11D76E: ADD RSP,0x8                    [4883C408] 
+
+========

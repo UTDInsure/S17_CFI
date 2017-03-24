@@ -1,0 +1,10 @@
+
+
+20854: MOV RAX,[0x0024a7a0]           [488B05459F2200] 
+2085B: MOV RAX,[RAX]                  [488B00] 
+2085E: TEST RAX,RAX                   [4885C0] 
+20863: MOV RAX,[0x308 + RAX]          [488B8008030000] 
+2086A: TEST RAX,RAX                   [4885C0] 
+20890: XOR EAX,EAX                    [31C0] 
+
+========

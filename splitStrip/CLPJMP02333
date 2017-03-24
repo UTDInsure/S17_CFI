@@ -1,0 +1,7 @@
+
+
+2E484: PUSH RBX                       [53] 
+2E485: MOV RBX,[0x0024a7d8]           [488B1D4CC32100] 
+2E48C: MOV RDI,RBX                    [4889DF] 
+
+========

@@ -1,0 +1,8 @@
+
+
+38964: MOV RDX,[0x00368e28]           [488B15BD043300] 
+3896B: XOR EAX,EAX                    [31C0] 
+3896D: MOV EDX,[RDX]                  [8B12] 
+3896F: TEST EDX,EDX                   [85D2] 
+
+========

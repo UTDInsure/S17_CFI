@@ -1,0 +1,23 @@
+
+
+1DB84: PUSH R15                       [4157] 
+1DB86: PUSH R14                       [4156] 
+1DB88: PUSH R13                       [4155] 
+1DB8A: PUSH R12                       [4154] 
+1DB8C: PUSH RBP                       [55] 
+1DB8D: MOVSXD RBP,ESI                 [4863EE] 
+1DB90: PUSH RBX                       [53] 
+1DB91: MOV EBX,EDI                    [89FB] 
+1DB93: SUB RSP,0x8                    [4883EC08] 
+1DB97: TEST EDI,EDI                   [85FF] 
+1DB9F: TEST EBP,EBP                   [85ED] 
+1DC3B: ADD RSP,0x8                    [4883C408] 
+1DC3F: XOR EAX,EAX                    [31C0] 
+1DC41: POP RBX                        [5B] 
+1DC42: POP RBP                        [5D] 
+1DC43: POP R12                        [415C] 
+1DC45: POP R13                        [415D] 
+1DC47: POP R14                        [415E] 
+1DC49: POP R15                        [415F] 
+
+========

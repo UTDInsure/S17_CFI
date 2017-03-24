@@ -1,0 +1,22 @@
+
+
+30504: PUSH R15                       [4157] 
+30506: PUSH R14                       [4156] 
+30508: PUSH R13                       [4155] 
+3050A: PUSH R12                       [4154] 
+3050C: PUSH RBP                       [55] 
+3050D: PUSH RBX                       [53] 
+3050E: SUB RSP,0x8                    [4883EC08] 
+30512: MOV RAX,[0x0024a880]           [488B0567A32100] 
+30519: MOV R12,[RAX]                  [4C8B20] 
+3051C: TEST R12,R12                   [4D85E4] 
+305B4: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+3054E: ADD RSP,0x8                    [4883C408] 
+30552: POP RBX                        [5B] 
+30553: POP RBP                        [5D] 
+30554: POP R12                        [415C] 
+30556: POP R13                        [415D] 
+30558: POP R14                        [415E] 
+3055A: POP R15                        [415F] 
+
+========

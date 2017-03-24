@@ -1,0 +1,14 @@
+
+
+B3F84: MOV EAX,[0x0036e770]           [8B05E6A72B00] 
+B3F8A: TEST EAX,EAX                   [85C0] 
+B3FB1: SUB RSP,0x38                   [4883EC38] 
+B3FB5: MOV EAX,EDI                    [89F8] 
+B3FB7: MOV [RSP + 0x8],RAX            [4889442408] 
+B3FBC: MOV dword ptr [RSP],0x6a       [C704246A000000] 
+B3FC3: MOV RDI,RSP                    [4889E7] 
+B3FC6: MOV RAX,[0x0036e758]           [488B058BA72B00] 
+B3FCD: ROR RAX,0x11                   [48C1C811] 
+B3FD1: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

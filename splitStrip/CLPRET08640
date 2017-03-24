@@ -1,0 +1,8 @@
+
+
+35CE4: SUB RSP,0x8                    [4883EC08] 
+35CE8: TEST RSI,RSI                   [4885F6] 
+35D22: XOR EAX,EAX                    [31C0] 
+35D24: ADD RSP,0x8                    [4883C408] 
+
+========

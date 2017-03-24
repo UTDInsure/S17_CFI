@@ -1,0 +1,25 @@
+
+
+5444: PUSH RBP                       [55] 
+5445: PUSH RBX                       [53] 
+5446: MOV RBX,RDI                    [4889FB] 
+5449: SUB RSP,0x8                    [4883EC08] 
+19284: MOV RCX,RDI                    [4889F9] 
+19287: AND ECX,0x7                    [83E107] 
+1928A: MOV RAX,RDI                    [4889F8] 
+192A4: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+192AE: NOP                            [6690] 
+192B0: MOV RCX,[RAX]                  [488B08] 
+192B3: ADD RAX,0x8                    [4883C008] 
+192B7: MOV RDX,R8                     [4C89C2] 
+192BA: ADD RDX,RCX                    [4801CA] 
+192BF: XOR RDX,RCX                    [4831CA] 
+192C2: OR RDX,R8                      [4C09C2] 
+192C5: INC RDX                        [48FFC2] 
+19320: SUB RAX,0x8                    [4883E808] 
+19324: TEST CL,CL                     [84C9] 
+19365: SUB RAX,RDI                    [4829F8] 
+5456: LEA RBP,[RAX + 0x1]            [488D6801] 
+545A: MOV RDI,RBP                    [4889EF] 
+
+========

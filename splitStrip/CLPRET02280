@@ -1,0 +1,17 @@
+
+
+4F7A4: SUB RSP,0x8                    [4883EC08] 
+4F674: PUSH RBP                       [55] 
+4F675: PUSH RBX                       [53] 
+4F676: MOVSXD RBX,EDI                 [4863DF] 
+4F679: SUB RSP,0x18                   [4883EC18] 
+4F67D: CMP EBX,0xff                   [81FBFF000000] 
+4F780: MOV RAX,[0x00368e68]           [488B05E1963100] 
+4F787: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+4F78E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+4F72A: ADD RSP,0x18                   [4883C418] 
+4F72E: POP RBX                        [5B] 
+4F72F: POP RBP                        [5D] 
+4F7B1: ADD RSP,0x8                    [4883C408] 
+
+========

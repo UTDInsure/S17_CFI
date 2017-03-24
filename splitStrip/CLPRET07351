@@ -1,0 +1,14 @@
+
+
+113E64: PUSH RBX                       [53] 
+113E65: MOV RBX,RSI                    [4889F3] 
+113E68: SUB RSP,0x10                   [4883EC10] 
+113E6C: MOV EAX,[RDI]                  [8B07] 
+113E6E: CMP EAX,0x1                    [83F801] 
+113E75: CMP EAX,0x2                    [83F802] 
+113E78: SETZ AL                        [0F94C0] 
+113E7B: MOVZX EAX,AL                   [0FB6C0] 
+113E7E: ADD RSP,0x10                   [4883C410] 
+113E82: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,26 @@
+
+
+2A144: PUSH R14                       [4156] 
+2A146: MOV RAX,[0x0024a880]           [488B0533072200] 
+2A14D: PUSH R13                       [4155] 
+2A14F: PUSH R12                       [4154] 
+2A151: MOV R12D,0xffffffff            [41BCFFFFFFFF] 
+2A157: PUSH RBP                       [55] 
+2A158: MOV EBP,ESI                    [89F5] 
+2A15A: PUSH RBX                       [53] 
+2A15B: MOV RAX,[RAX]                  [488B00] 
+2A15E: MOV EBX,EDI                    [89FB] 
+2A160: MOV RDX,[RAX + 0x20]           [488B5020] 
+2A164: CMP dword ptr [0x948 + RDX],0x0 [4883BA4809000000] 
+2A172: CMP dword ptr [0x960 + RDX],0x0 [4883BA6009000000] 
+2A180: MOV R13,[0x0024a7a0]           [4C8B2D19062200] 
+2A187: CMP EBX,0x1fe                  [81FBFE010000] 
+2A18D: LEA RDI,[0x36ff9]              [488D3D65CE0000] 
+2A194: SETA AL                        [0F97C0] 
+2A197: CMP EBP,0x1fe                  [81FDFE010000] 
+2A19D: SETA DL                        [0F97C2] 
+2A1A0: MOV R12,[R13]                  [4D8B6500] 
+2A1A4: OR EAX,EDX                     [09D0] 
+2A1A6: MOV [0x3c8 + R12],AL           [41888424C8030000] 
+
+========

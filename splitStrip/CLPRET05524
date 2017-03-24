@@ -1,0 +1,22 @@
+
+
+E1CB4: PUSH RBP                       [55] 
+E1CB5: MOV RBP,RSP                    [4889E5] 
+E1CB8: PUSH R15                       [4157] 
+E1CBA: PUSH R14                       [4156] 
+E1CBC: PUSH R13                       [4155] 
+E1CBE: MOV R13,RDI                    [4989FD] 
+E1CC1: PUSH R12                       [4154] 
+E1CC3: PUSH RBX                       [53] 
+E1CC4: SUB RSP,0x38                   [4883EC38] 
+E1CC8: TEST RDI,RDI                   [4885FF] 
+E1CCB: MOV [RBP + -0x58],RSI          [488975A8] 
+E1DA9: LEA RSP,[RBP + -0x28]          [488D65D8] 
+E1DAD: POP RBX                        [5B] 
+E1DAE: POP R12                        [415C] 
+E1DB0: POP R13                        [415D] 
+E1DB2: POP R14                        [415E] 
+E1DB4: POP R15                        [415F] 
+E1DB6: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,28 @@
+
+
+413924: PUSH R15                       [4157] 
+413926: PUSH R14                       [4156] 
+413928: PUSH R13                       [4155] 
+41392A: PUSH R12                       [4154] 
+41392C: PUSH RBP                       [55] 
+41392D: PUSH RBX                       [53] 
+41392E: SUB RSP,0x38                   [4883EC38] 
+413932: CMP byte ptr [0x00626560],0x0  [803D272C210000] 
+413939: MOV RBX,[RDI]                  [488B1F] 
+41393C: MOV [RSP + 0x20],RDI           [48897C2420] 
+413941: MOV [RSP + 0x18],RSI           [4889742418] 
+413946: MOV [RSP + 0x28],RDX           [4889542428] 
+413AB8: MOV RAX,[RSP + 0x20]           [488B442420] 
+413ABD: MOV dword ptr [RSP + 0x8],0x0  [48C744240800000000] 
+413AC6: MOV [RAX],RBX                  [488918] 
+413AC9: XOR EAX,EAX                    [31C0] 
+413ACB: CMP dword ptr [RSP + 0x18],0x0 [48837C241800] 
+413A58: ADD RSP,0x38                   [4883C438] 
+413A5C: POP RBX                        [5B] 
+413A5D: POP RBP                        [5D] 
+413A5E: POP R12                        [415C] 
+413A60: POP R13                        [415D] 
+413A62: POP R14                        [415E] 
+413A64: POP R15                        [415F] 
+
+========

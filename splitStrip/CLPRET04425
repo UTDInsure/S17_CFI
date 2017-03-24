@@ -1,0 +1,10 @@
+
+
+B45E4: TEST EDI,EDI                   [85FF] 
+B4680: MOV RDX,[0x00368e68]           [488B15E1472B00] 
+B4687: MOV EAX,0x7f                   [B87F000000] 
+B468C: CMP dword ptr FS:[RDX],0x26    [64833A26] 
+B4690: MOV RDX,-0x1                   [48C7C2FFFFFFFF] 
+B4697: CMOVNZ RAX,RDX                 [480F45C2] 
+
+========

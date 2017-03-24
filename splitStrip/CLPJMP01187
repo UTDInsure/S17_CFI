@@ -1,0 +1,26 @@
+
+
+C8844: PUSH R15                       [4157] 
+C8846: MOV R15,RDX                    [4989D7] 
+C8849: PUSH R14                       [4156] 
+C884B: PUSH R13                       [4155] 
+C884D: PUSH R12                       [4154] 
+C884F: PUSH RBP                       [55] 
+C8850: PUSH RBX                       [53] 
+C8851: SUB RSP,0xe8                   [4881ECE8000000] 
+C8858: MOVZX EAX,byte ptr [RDI + 0x38] [0FB64738] 
+C885C: MOV [RDI + 0x18],RCX           [48894F18] 
+C8860: MOV [RSP + 0x20],RDI           [48897C2420] 
+C8865: MOV [RSP + 0x8],RSI            [4889742408] 
+C886A: MOV [RSP + 0x28],RCX           [48894C2428] 
+C886F: MOV dword ptr [RSP + 0x4c],0x0 [C744244C00000000] 
+C8877: MOV dword ptr [RDI + 0x10],0x0 [48C7471000000000] 
+C887F: MOV dword ptr [RDI + 0x30],0x0 [48C7473000000000] 
+C8887: AND EAX,0xffffff90             [83E090] 
+C888A: CMP dword ptr [RDI + 0x8],0xdf [48817F08DF000000] 
+C8892: MOV R12,[RDI]                  [4C8B27] 
+C8895: MOV [RDI + 0x38],AL            [884738] 
+C9693: MOV RDI,R12                    [4C89E7] 
+C9696: MOV ESI,0xe0                   [BEE0000000] 
+
+========

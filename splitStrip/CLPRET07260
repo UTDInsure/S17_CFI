@@ -1,0 +1,22 @@
+
+
+113444: XOR EAX,EAX                    [31C0] 
+113446: TEST EDI,EDI                   [85FF] 
+113497: MOVSX RCX,byte ptr [RSI + RAX*0x2] [480FBE0C46] 
+11349C: LEA R8D,[RCX + -0x30]          [448D41D0] 
+1134A0: CMP R8B,0x9                    [4180F809] 
+1134A6: MOV R8,[0x00368ed8]            [4C8B052B5A2500] 
+1134AD: MOV R9D,0xfffffff0             [41B9F0FFFFFF] 
+1134B3: MOV R8,FS:[R8]                 [644D8B00] 
+1134B7: MOV ECX,[R8 + RCX*0x4]         [418B0C88] 
+1134BB: LEA R8D,[RCX + -0x41]          [448D41BF] 
+1134BF: CMP R8D,0x19                   [4183F819] 
+113456: MOVSX R8,byte ptr [RSI + RAX*0x2 + 0x1] [4C0FBE444601] 
+11345C: LEA ECX,[R8 + -0x30]           [418D48D0] 
+113460: CMP CL,0x9                     [80F909] 
+113489: ADD ECX,R9D                    [4401C9] 
+11348C: MOV [RDX + RAX*0x1],CL         [880C02] 
+11348F: ADD RAX,0x1                    [4883C001] 
+113493: CMP EDI,EAX                    [39C7] 
+
+========

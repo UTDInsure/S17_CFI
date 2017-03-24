@@ -1,0 +1,23 @@
+
+
+83464: PUSH R12                       [4154] 
+83466: PUSH RBP                       [55] 
+83467: PUSH RBX                       [53] 
+83468: MOV RBX,RDI                    [4889FB] 
+8346B: SUB RSP,0x10                   [4883EC10] 
+8346F: TEST EDX,EDX                   [85D2] 
+83473: LEA EAX,[RDX + -0x1]           [8D42FF] 
+83476: NEG EDX                        [F7DA] 
+83478: MOVSXD RBP,EDX                 [4863EA] 
+8347B: MOVSXD R12,EAX                 [4C63E0] 
+8347E: TEST ESI,ESI                   [85F6] 
+83480: MOVSXD RDX,ESI                 [4863D6] 
+83483: MOV EDI,0xfe0                  [BFE00F0000] 
+83488: CMOVNZ RDI,RDX                 [480F45FA] 
+8348C: AND [RBX + 0x50],0xfe          [806350FE] 
+83490: MOV [RBX + 0x38],RCX           [48894B38] 
+83494: MOV [RBX + 0x40],R8            [4C894340] 
+83498: MOV [RBX],RDI                  [48893B] 
+8349B: MOV [RBX + 0x30],EAX           [894330] 
+
+========

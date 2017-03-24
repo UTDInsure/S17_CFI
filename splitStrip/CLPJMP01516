@@ -1,0 +1,20 @@
+
+
+1013E4: TEST RDI,RDI                   [4885FF] 
+1013E7: MOV RDX,RDI                    [4889FA] 
+1013F0: LEA R8,[RDI + -0x18]           [4C8D47E8] 
+1013F4: LOCK                           [F0] 
+1013F5: ADD dword ptr [RDI + -0x14],-0x1 [8347ECFF] 
+1013F9: SETZ AL                        [0F94C0] 
+1013FC: TEST AL,AL                     [84C0] 
+101404: SUB RSP,0x8                    [4883EC08] 
+101408: MOV ESI,0x1                    [BE01000000] 
+10140D: XOR EAX,EAX                    [31C0] 
+10140F: CMP dword ptr [0x0036e774],0x0 [833D5ED3260000] 
+101418: LOCK                           [F0] 
+101419: CMPXCHG [0x0036d930],ESI       [0FB13510C52600] 
+10144B: MOV EAX,[RDX + -0x14]          [8B42EC] 
+10144E: TEST EAX,EAX                   [85C0] 
+101498: MOV RDI,R8                     [4C89C7] 
+
+========

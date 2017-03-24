@@ -1,0 +1,20 @@
+
+
+35F44: PUSH R12                       [4154] 
+35F46: MOV EAX,0x1                    [B801000000] 
+35F4B: PUSH RBP                       [55] 
+35F4C: MOV RBP,RDI                    [4889FD] 
+35F4F: PUSH RBX                       [53] 
+35F50: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+35F53: MOV RBX,RSI                    [4889F3] 
+35F56: CMP DL,0xe9                    [80FAE9] 
+35F5B: XOR AL,AL                      [30C0] 
+35F5D: CMP DL,0x1b                    [80FA1B] 
+35F66: MOVZX EDX,byte ptr [RBX]       [0FB613] 
+35F69: CMP DL,0xe9                    [80FAE9] 
+35F6E: CMP DL,0x1b                    [80FA1B] 
+36018: CMP byte ptr [RBX + 0x1],0x5b  [807B015B] 
+3601C: MOV EDX,0x2                    [BA02000000] 
+35F77: MOV RDI,RBP                    [4889EF] 
+
+========

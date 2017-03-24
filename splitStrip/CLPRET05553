@@ -1,0 +1,11 @@
+
+
+E3354: MOV R10,RCX                    [4989CA] 
+E3357: MOV EAX,0xc0                   [B8C0000000] 
+E335E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3367: MOV RCX,[0x00368e68]           [488B0DFA5A2800] 
+E336E: NEG EAX                        [F7D8] 
+E3370: MOV FS:[RCX],EAX               [648901] 
+E3373: OR RAX,-0x1                    [4883C8FF] 
+
+========

@@ -1,0 +1,13 @@
+
+
+2E5C4: PUSH R12                       [4154] 
+2E5C6: LEA RAX,[0x367ae0]             [488D0513953300] 
+2E5CD: MOV R12,RDI                    [4989FC] 
+2E5D0: PUSH RBP                       [55] 
+2E5D1: CMP RDI,RAX                    [4839C7] 
+2E5D4: PUSH RBX                       [53] 
+2E62C: POP RBX                        [5B] 
+2E62D: POP RBP                        [5D] 
+2E62E: POP R12                        [415C] 
+
+========

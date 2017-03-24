@@ -1,0 +1,25 @@
+
+
+31944: MOVZX EDX,byte ptr [RBP + 0x1] [0FB65501] 
+31948: LEA RBX,[RBP + 0x1]            [488D5D01] 
+3194C: LEA EAX,[RDX + -0x41]          [8D42BF] 
+3194F: CMP AL,0x19                    [3C19] 
+31957: LEA ECX,[RDX + -0x61]          [8D4A9F] 
+3195A: MOV EAX,EDX                    [89D0] 
+3195C: CMP CL,0x19                    [80F919] 
+30F0F: TEST AL,AL                     [84C0] 
+31220: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+31228: LEA RAX,[RDX + 0x1]            [488D4201] 
+3122C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+3123A: MOV RAX,[0x1e0 + R12]          [498B8424E0010000] 
+31242: MOV byte ptr [RAX + RDX*0x1],0x0 [C6041000] 
+31246: MOV RAX,[0x1e0 + R12]          [498B8424E0010000] 
+3124E: ADD RSP,0x128                  [4881C428010000] 
+31255: POP RBX                        [5B] 
+31256: POP RBP                        [5D] 
+31257: POP R12                        [415C] 
+31259: POP R13                        [415D] 
+3125B: POP R14                        [415E] 
+3125D: POP R15                        [415F] 
+
+========

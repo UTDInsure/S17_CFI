@@ -1,0 +1,27 @@
+
+
+E01E4: CMP dword ptr [0x0036e774],0x0 [833D89E5280000] 
+E0201: SUB RSP,0x8                    [4883EC08] 
+F08C4: MOV EAX,FS:[0x308]             [648B042508030000] 
+F08CC: MOV R11D,EAX                   [4189C3] 
+F08CF: OR R11D,0x2                    [4183CB02] 
+F08D3: CMP R11D,EAX                   [4139C3] 
+F08D8: LOCK                           [F0] 
+F08D9: CMPXCHG FS:[0x308],R11D        [64440FB11C2508030000] 
+F08E5: AND R11D,0xffffffbb            [4183E3BB] 
+F08E9: CMP R11D,0xa                   [4183FB0A] 
+F08F0: SUB RSP,0x8                    [4883EC08] 
+F08F4: MOV dword ptr FS:[0x630],-0x1  [6448C7042530060000FFFFFFFF] 
+F0901: LOCK                           [F0] 
+F0902: OR dword ptr FS:[0x308],0x10   [64830C250803000010] 
+F090B: MOV RDI,FS:[0x300]             [64488B3C2500030000] 
+11D334: SUB RSP,0x8                    [4883EC08] 
+11D338: MOV R10D,[0x0036e770]          [448B1531142500] 
+11D33F: MOV RDX,RDI                    [4889FA] 
+11D342: TEST R10D,R10D                 [4585D2] 
+11D35D: MOV RAX,[0x0036e748]           [488B05E4132500] 
+11D364: MOV RDI,RDX                    [4889D7] 
+11D367: ROR RAX,0x11                   [48C1C811] 
+11D36B: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

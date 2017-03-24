@@ -1,0 +1,7 @@
+
+
+852A4: CMP RDI,RSI                    [4839F7] 
+85390: XOR EDX,EDX                    [31D2] 
+85392: MOV EAX,EDX                    [89D0] 
+
+========

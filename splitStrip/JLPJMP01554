@@ -1,0 +1,15 @@
+
+
+32A44: MOV byte ptr [RDX],0x20        [C60220] 
+32A47: ADD RBP,0x1                    [4883C501] 
+32A4B: MOVZX EBX,byte ptr [RBP]       [0FB65D00] 
+32A4F: ADD RDX,0x1                    [4883C201] 
+32920: TEST BL,BL                     [84DB] 
+32924: TEST CL,CL                     [84C9] 
+32928: LEA EAX,[RBX + -0x20]          [8D43E0] 
+3292B: CMP AL,0x58                    [3C58] 
+32933: MOVZX EAX,AL                   [0FB6C0] 
+32936: MOVSXD RAX,[R15 + RAX*0x4]     [49630487] 
+3293A: ADD RAX,R15                    [4C01F8] 
+
+========

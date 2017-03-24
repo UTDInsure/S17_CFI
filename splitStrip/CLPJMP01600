@@ -1,0 +1,18 @@
+
+
+109B54: PUSH R15                       [4157] 
+109B56: MOV R15,RCX                    [4989CF] 
+109B59: PUSH R14                       [4156] 
+109B5B: PUSH R13                       [4155] 
+109B5D: PUSH R12                       [4154] 
+109B5F: MOV R12,RDI                    [4989FC] 
+109B62: MOV EDI,0x80                   [BF80000000] 
+109B67: PUSH RBP                       [55] 
+109B68: MOV EBP,ESI                    [89F5] 
+109B6A: PUSH RBX                       [53] 
+109B6B: SUB RSP,0x28                   [4883EC28] 
+109B6F: MOV [RSP + 0xc],EDX            [8954240C] 
+109B73: MOV [RSP + 0x10],R8            [4C89442410] 
+109B78: MOV [RSP + 0x18],R9            [4C894C2418] 
+
+========

@@ -1,0 +1,11 @@
+
+
+35B24: PUSH R12                       [4154] 
+35B26: TEST RSI,RSI                   [4885F6] 
+35B29: PUSH RBP                       [55] 
+35B2A: MOV RBP,RSI                    [4889F5] 
+35B2D: PUSH RBX                       [53] 
+35B30: MOV RBX,RDI                    [4889FB] 
+35B33: MOV RDI,RSI                    [4889F7] 
+
+========

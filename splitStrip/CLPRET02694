@@ -1,0 +1,7 @@
+
+
+71734: MOV RAX,[RDI + 0x8]            [488B4708] 
+71738: TEST RAX,RAX                   [4885C0] 
+7176E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

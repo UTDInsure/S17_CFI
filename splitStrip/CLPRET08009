@@ -1,0 +1,11 @@
+
+
+18494: MOVSX EDX,DX                   [0FBFD2] 
+18497: AND RSI,0xffff00ff             [4881E6FF00FFFF] 
+1849E: XOR EAX,EAX                    [31C0] 
+184A0: SHL EDX,0x8                    [C1E208] 
+184A3: MOVSXD RDX,EDX                 [4863D2] 
+184A6: OR RDX,RSI                     [4809F2] 
+184A9: MOV [RDI + 0x10],RDX           [48895710] 
+
+========

@@ -1,0 +1,10 @@
+
+
+1AED4: TEST RDI,RDI                   [4885FF] 
+1AED9: MOVSX EAX,word ptr [RDI + 0x5c] [0FBF475C] 
+1AEDD: MOVSX ECX,word ptr [RDI + 0x8] [0FBF4F08] 
+1AEE1: SUB ESI,EAX                    [29C6] 
+1AEE3: XOR EAX,EAX                    [31C0] 
+1AEE5: CMP ESI,ECX                    [39CE] 
+
+========

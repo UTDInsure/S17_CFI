@@ -1,0 +1,7 @@
+
+
+11D274: MOV ECX,[0x0036e770]           [8B0DF6142500] 
+11D27A: XOR EAX,EAX                    [31C0] 
+11D27C: TEST ECX,ECX                   [85C9] 
+
+========

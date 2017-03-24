@@ -1,0 +1,8 @@
+
+
+D3321: TEST RBP,RBP                   [4885ED] 
+D32C5: XOR R12D,R12D                  [4531E4] 
+D32C8: TEST R14D,R14D                 [4585F6] 
+D2B2C: MOV RDI,R10                    [4C89D7] 
+
+========

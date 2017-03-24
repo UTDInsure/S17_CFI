@@ -1,0 +1,9 @@
+
+
+410BD4: MOV EAX,[0x00628708]           [8B052E7B2100] 
+410BDA: TEST EAX,EAX                   [85C0] 
+410BDE: ADD EAX,0x1                    [83C001] 
+410BE1: CMP EAX,0x64                   [83F864] 
+410BE4: MOV [0x00628708],EAX           [89051E7B2100] 
+
+========

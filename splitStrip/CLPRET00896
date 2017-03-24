@@ -1,0 +1,22 @@
+
+
+411A44: SUB RSP,0x8                    [4883EC08] 
+411A48: XOR EAX,EAX                    [31C0] 
+4118C4: SUB RSP,0x8                    [4883EC08] 
+4118C8: CMP EDI,0x27                   [83FF27] 
+411940: CMP EDI,0x24                   [83FF24] 
+411998: XOR EAX,EAX                    [31C0] 
+411864: LEA EAX,[RDI + -0x61]          [8D479F] 
+411867: CMP EAX,0x19                   [83F819] 
+411890: CDQE                           [4898] 
+411892: LEA RAX,[RAX + RAX*0x2]        [488D0440] 
+411896: LEA RAX,[0x62a6e0 + RAX*0x8]   [488D04C5E0A66200] 
+4119A3: TEST RAX,RAX                   [4885C0] 
+4119E0: XOR EAX,EAX                    [31C0] 
+41190E: ADD RSP,0x8                    [4883C408] 
+411A53: TEST RAX,RAX                   [4885C0] 
+411A56: SETZ AL                        [0F94C0] 
+411A59: ADD RSP,0x8                    [4883C408] 
+411A5D: MOVZX EAX,AL                   [0FB6C0] 
+
+========

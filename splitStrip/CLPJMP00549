@@ -1,0 +1,19 @@
+
+
+4144E4: PUSH RBX                       [53] 
+4144E5: SUB RSP,0x10                   [4883EC10] 
+4144E9: MOV EAX,[0x00627434]           [8B05452F2100] 
+4144EF: TEST EAX,EAX                   [85C0] 
+4144F3: MOV EAX,[0x0062ba34]           [8B053B752100] 
+4144F9: TEST EAX,EAX                   [85C0] 
+414578: XOR EAX,EAX                    [31C0] 
+41457A: MOV [RSP + 0x8],RSI            [4889742408] 
+41457F: MOV [RSP],RDI                  [48893C24] 
+403F54: MOV ECX,[0x0062bb48]           [8B0DEE7B2200] 
+403F5A: PUSH RBX                       [53] 
+403F5B: MOV EDX,0x413de0               [BAE03D4100] 
+403F60: MOV ESI,0x1                    [BE01000000] 
+403F65: TEST ECX,ECX                   [85C9] 
+403F69: MOV RDI,[0x006279b0]           [488B3D403A2200] 
+
+========

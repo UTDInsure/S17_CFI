@@ -1,0 +1,8 @@
+
+
+71664: MOVSXD RCX,EDX                 [4863CA] 
+71667: LEA R8,[RSI + RCX*0x4]         [4C8D048E] 
+7166B: CMP RSI,R8                     [4C39C6] 
+7168E: LEA EAX,[RDX + RDI*0x1]        [8D043A] 
+
+========

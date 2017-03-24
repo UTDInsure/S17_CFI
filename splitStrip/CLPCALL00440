@@ -1,0 +1,26 @@
+
+
+727B4: PUSH R15                       [4157] 
+727B6: PUSH R14                       [4156] 
+727B8: PUSH R13                       [4155] 
+727BA: PUSH R12                       [4154] 
+727BC: PUSH RBP                       [55] 
+727BD: PUSH RBX                       [53] 
+727BE: MOV RBX,RDI                    [4889FB] 
+727C1: SUB RSP,0xc8                   [4881ECC8000000] 
+727C8: TEST ECX,ECX                   [85C9] 
+72AA8: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+72AAF: CMP dword ptr [RAX + 0x30],0x0 [4883783000] 
+72ABA: MOV RDI,[RAX + 0x18]           [488B7818] 
+72ABE: CMP [RAX + 0x20],RDI           [48397820] 
+72AC2: MOV EDX,[RBX]                  [8B13] 
+72AC6: TEST DH,0x8                    [F6C608] 
+72ACF: XOR R12D,R12D                  [4531E4] 
+72AD2: TEST DH,0x10                   [F6C610] 
+72AD5: MOV EBP,0x1                    [BD01000000] 
+72CE0: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+72CE7: XOR ESI,ESI                    [31F6] 
+72CE9: MOV EDX,0x2                    [BA02000000] 
+72CEE: MOV RDI,RBX                    [4889DF] 
+
+========

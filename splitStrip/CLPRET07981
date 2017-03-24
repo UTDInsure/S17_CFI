@@ -1,0 +1,21 @@
+
+
+16CC4: TEST RDI,RDI                   [4885FF] 
+16CC7: PUSH RBX                       [53] 
+16CC8: MOV RBX,RDI                    [4889FB] 
+16CD1: MOV RAX,[0x0024a8a0]           [488B05C83B2300] 
+16CD8: MOV RDX,[0x118 + RAX]          [488B9018010000] 
+16CDF: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+16CE4: TEST RDX,RDX                   [4885D2] 
+16CE9: MOV ECX,0x1                    [B901000000] 
+16D08: LEA RAX,[RDX + 0x10]           [488D4210] 
+16D0C: CMP RBX,RAX                    [4839C3] 
+16D11: MOV RDX,[RDX]                  [488B12] 
+16D14: XOR ECX,ECX                    [31C9] 
+16D16: TEST RDX,RDX                   [4885D2] 
+16D1B: NOP                            [0F1F440000] 
+16D20: TEST CL,CL                     [84C9] 
+16D80: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+16D85: POP RBX                        [5B] 
+
+========

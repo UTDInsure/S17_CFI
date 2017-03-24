@@ -1,0 +1,19 @@
+
+
+76524: PUSH RBP                       [55] 
+76525: MOV RBP,RDX                    [4889D5] 
+76528: PUSH RBX                       [53] 
+76529: MOV RBX,RDI                    [4889FB] 
+7652C: MOV RDI,RSI                    [4889F7] 
+7652F: SUB RSP,0x8                    [4883EC08] 
+76533: MOV RAX,[RBX + 0x18]           [488B4318] 
+76537: MOV RDX,[RBX + 0x10]           [488B5310] 
+7653B: LEA RCX,[RBP + RAX*0x1]        [488D4C0500] 
+76540: CMP RCX,RDX                    [4839D1] 
+76545: CMP RAX,RDX                    [4839D0] 
+76590: ADD RSP,0x8                    [4883C408] 
+76594: XOR EAX,EAX                    [31C0] 
+76596: POP RBX                        [5B] 
+76597: POP RBP                        [5D] 
+
+========

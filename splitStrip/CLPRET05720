@@ -1,0 +1,6 @@
+
+
+E42C1: MOV EAX,0x130                  [B830010000] 
+E42C8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

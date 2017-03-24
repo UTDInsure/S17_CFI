@@ -1,0 +1,24 @@
+
+
+40FDD4: PUSH R13                       [4155] 
+40FDD6: MOV R13,RSI                    [4989F5] 
+40FDD9: PUSH R12                       [4154] 
+40FDDB: PUSH RBP                       [55] 
+40FDDC: MOV RBP,RDX                    [4889D5] 
+40FDDF: PUSH RBX                       [53] 
+40FDE0: MOV RBX,RDI                    [4889FB] 
+40FDE3: SUB RSP,0x18                   [4883EC18] 
+40FDE7: CMP RDI,0x8                    [4883FF08] 
+40FDF1: CMP dword ptr [0x006286c8],0x0 [833DD088210000] 
+4100E0: MOV R12D,0x0                   [41BC00000000] 
+40FE5F: CMP RBX,0x9                    [4883FB09] 
+410058: MOV EAX,[0x0062bb30]           [8B05D2BA2100] 
+41005E: TEST EAX,EAX                   [85C0] 
+410074: ADD RSP,0x18                   [4883C418] 
+410078: XOR EAX,EAX                    [31C0] 
+41007A: POP RBX                        [5B] 
+41007B: POP RBP                        [5D] 
+41007C: POP R12                        [415C] 
+41007E: POP R13                        [415D] 
+
+========

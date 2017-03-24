@@ -1,0 +1,14 @@
+
+
+119764: PUSH RBP                       [55] 
+119765: MOV RBP,RDI                    [4889FD] 
+119768: PUSH RBX                       [53] 
+119769: MOV RBX,RSI                    [4889F3] 
+11976C: SUB RSP,0x8                    [4883EC08] 
+11977A: TEST EAX,EAX                   [85C0] 
+11977E: LEA RAX,[0x366ae0]             [488D055BD32400] 
+119785: MOV RSI,RBX                    [4889DE] 
+119788: MOV RDI,RBP                    [4889EF] 
+11978B: MOV [0x0036a728],RAX           [488905960F2500] 
+
+========

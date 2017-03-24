@@ -1,0 +1,19 @@
+
+
+BC2D4: PUSH R12                       [4154] 
+BC2D6: PUSH RBP                       [55] 
+BC2D7: PUSH RBX                       [53] 
+BC2D8: MOVZX EAX,byte ptr [RSI + 0x30] [0FB64630] 
+BC2DC: MOVSXD R8,[RSI + 0x38]         [4C634638] 
+BC2E0: CMP AL,0x10                    [3C10] 
+BC41C: TEST AL,0x8                    [A808] 
+BC424: MOV RAX,[RSI + 0x20]           [488B4620] 
+BC428: MOV EDX,[RAX + 0x38]           [8B5038] 
+BC42B: MOV RAX,[RDI + 0x18]           [488B4718] 
+BC42F: MOV [RAX + R8*0x4],EDX         [42891480] 
+BC433: XOR EAX,EAX                    [31C0] 
+BC435: POP RBX                        [5B] 
+BC436: POP RBP                        [5D] 
+BC437: POP R12                        [415C] 
+
+========

@@ -1,0 +1,12 @@
+
+
+406694: PUSH RBX                       [53] 
+406695: XOR EAX,EAX                    [31C0] 
+406697: MOV RBX,RDI                    [4889FB] 
+40669A: SUB RSP,0x10                   [4883EC10] 
+403D84: SUB RSP,0x8                    [4883EC08] 
+403D88: MOV RDI,[0x00627990]           [488B3D013C2200] 
+403D8F: MOV EDX,0x413de0               [BAE03D4100] 
+403D94: MOV ESI,0x1                    [BE01000000] 
+
+========

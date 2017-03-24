@@ -1,0 +1,6 @@
+
+
+18614: TEST RDI,RDI                   [4885FF] 
+1861E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

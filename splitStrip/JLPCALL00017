@@ -1,0 +1,21 @@
+
+
+48523: CMP dword ptr [-0x510 + RBP],0x0 [83BDF0FAFFFF00] 
+48530: MOV R13D,[-0x500 + RBP]        [448BAD00FBFFFF] 
+48537: SUB R13D,0x1                   [4183ED01] 
+4853B: CMP dword ptr [-0x514 + RBP],0x0 [83BDECFAFFFF00] 
+485A2: MOV EDX,[R15]                  [418B17] 
+485A5: CMP EDX,0x30                   [83FA30] 
+486AA: MOV RAX,[R15 + 0x8]            [498B4708] 
+486AE: LEA RDX,[RAX + 0x8]            [488D5008] 
+486B2: MOV [R15 + 0x8],RDX            [49895708] 
+485BA: MOVZX ESI,byte ptr [RAX]       [0FB630] 
+485BD: MOV RAX,[RBX + 0x28]           [488B4328] 
+485C1: CMP RAX,[RBX + 0x30]           [483B4330] 
+48690: MOV RDI,RBX                    [4889DF] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

@@ -1,0 +1,7 @@
+
+
+E4881: MOV R10,RCX                    [4989CA] 
+E4884: MOV EAX,0x2c                   [B82C000000] 
+E488B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

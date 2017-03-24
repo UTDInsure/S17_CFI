@@ -1,0 +1,10 @@
+
+
+DBC74: TEST ESI,0xffffeff0            [F7C6F0EFFFFF] 
+DBC7C: LEA EAX,[-0x1001 + RSI]        [8D86FFEFFFFF] 
+DBC82: CMP EAX,0xe                    [83F80E] 
+DBCB0: MOV RAX,[0x00368e68]           [488B05B1D12800] 
+DBCB7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DBCBE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

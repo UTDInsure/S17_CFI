@@ -1,0 +1,6 @@
+
+
+E5174: MOV EAX,0x1f                   [B81F000000] 
+E517B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,13 @@
+
+
+45EB4: XOR EAX,EAX                    [31C0] 
+45EB6: TEST RSI,RSI                   [4885F6] 
+45EB9: MOV R8,RDX                     [4989D0] 
+45EBE: LEA RCX,[RSI + -0x1]           [488D4EFF] 
+45EC2: MOV RDX,[RDI + RCX*0x8]        [488B14CF] 
+45EC6: CMP RDX,R8                     [4C39C2] 
+45ECB: LEA RCX,[RSI + -0x2]           [488D4EFE] 
+45ECF: TEST RCX,RCX                   [4885C9] 
+45EE9: MOV RAX,RDX                    [4889D0] 
+
+========

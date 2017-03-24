@@ -1,0 +1,13 @@
+
+
+412B14: PUSH R13                       [4155] 
+412B16: PUSH R12                       [4154] 
+412B18: PUSH RBP                       [55] 
+412B19: PUSH RBX                       [53] 
+412B1A: MOV RBX,RDI                    [4889FB] 
+412B1D: SUB RSP,0x18                   [4883EC18] 
+412B21: CMP byte ptr [RDI],0x0         [803F00] 
+412B2A: MOV R13,RSI                    [4989F5] 
+412B2D: MOV R12,RCX                    [4989CC] 
+
+========

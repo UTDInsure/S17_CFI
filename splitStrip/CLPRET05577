@@ -1,0 +1,27 @@
+
+
+E35C4: PUSH RBP                       [55] 
+E35C5: XOR EAX,EAX                    [31C0] 
+E35C7: MOV RBP,RCX                    [4889CD] 
+E35CA: MOV ECX,0xa                    [B90A000000] 
+E35CF: PUSH RBX                       [53] 
+E35D0: MOV RBX,RDI                    [4889FB] 
+E35D3: LEA RDI,[RSP + -0x58]          [488D7C24A8] 
+E35D8: STOSQ.REP RDI                  [F348AB] 
+E35DB: MOV [RSP + -0x58],RBX          [48895C24A8] 
+E35E0: MOV [RSP + -0x50],ESI          [897424B0] 
+E35E4: LEA RDI,[RSP + -0x58]          [488D7C24A8] 
+E35E9: MOV [RSP + -0x48],RDX          [48895424B8] 
+E35EE: MOV [RSP + -0x40],RBP          [48896C24C0] 
+E35F3: MOV AL,0x9c                    [B09C] 
+E35F5: MOV [RSP + -0x38],R8           [4C894424C8] 
+E35FA: MOV [RSP + -0x30],R9           [4C894C24D0] 
+E3601: CMP RAX,0xfffff000             [483D00F0FFFF] 
+E360C: MOV RDX,[0x00368e68]           [488B1555582800] 
+E3613: NEG EAX                        [F7D8] 
+E3615: MOV FS:[RDX],EAX               [648902] 
+E3618: OR RAX,-0x1                    [4883C8FF] 
+E3609: POP RBX                        [5B] 
+E360A: POP RBP                        [5D] 
+
+========

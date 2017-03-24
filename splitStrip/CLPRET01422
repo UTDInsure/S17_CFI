@@ -1,0 +1,6 @@
+
+
+2ED84: MOV EAX,EDI                    [89F8] 
+2ED86: AND EAX,0x7f                   [83E07F] 
+
+========

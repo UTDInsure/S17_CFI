@@ -1,0 +1,27 @@
+
+
+ACB99: MOV RAX,[-0xe8 + RBP]          [488B8518FFFFFF] 
+ACBA0: MOV ECX,[RAX + 0x20]           [8B4820] 
+ACBA3: TEST ECX,ECX                   [85C9] 
+ACBAB: MOV RCX,[RAX + 0x28]           [488B4828] 
+ACBAF: TEST ECX,ECX                   [85C9] 
+ACBB1: MOV R12D,ECX                   [4189CC] 
+ACBBA: MOV ECX,R15D                   [4489F9] 
+ACBBD: XOR EAX,EAX                    [31C0] 
+ACBBF: SUB ECX,0x1                    [83E901] 
+ACBC2: CMOVNS EAX,ECX                 [0F49C1] 
+ACBC5: ADD EAX,0x1                    [83C001] 
+ACBC8: MOVSXD R9,EAX                  [4C63C8] 
+ACBCB: MOV RAX,[-0xd8 + RBP]          [488B8528FFFFFF] 
+ACBD2: SUB RAX,R14                    [4C29F0] 
+ACBD5: CMP R9,RAX                     [4939C1] 
+ABF60: XOR EAX,EAX                    [31C0] 
+ABF62: LEA RSP,[RBP + -0x28]          [488D65D8] 
+ABF66: POP RBX                        [5B] 
+ABF67: POP R12                        [415C] 
+ABF69: POP R13                        [415D] 
+ABF6B: POP R14                        [415E] 
+ABF6D: POP R15                        [415F] 
+ABF6F: POP RBP                        [5D] 
+
+========

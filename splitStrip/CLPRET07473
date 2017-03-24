@@ -1,0 +1,14 @@
+
+
+114A04: PUSH RBP                       [55] 
+114A05: XOR EAX,EAX                    [31C0] 
+114A07: PUSH RBX                       [53] 
+114A08: MOV RBX,RDI                    [4889FB] 
+114A0B: SUB RSP,0x8                    [4883EC08] 
+114A0F: MOV ECX,[RDI + 0x28]           [8B4F28] 
+114A12: CMP ECX,EDX                    [39D1] 
+114A39: ADD RSP,0x8                    [4883C408] 
+114A3D: POP RBX                        [5B] 
+114A3E: POP RBP                        [5D] 
+
+========

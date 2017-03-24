@@ -1,0 +1,9 @@
+
+
+11DF34: SUB RSP,0x8                    [4883EC08] 
+11DF38: MOV RDI,[0x0036bf90]           [488B3D51E02400] 
+11DF3F: LEA RAX,[0x132440]             [488D05FA440100] 
+11DF46: CMP RDI,RAX                    [4839C7] 
+11DF4B: MOV [0x0036bf90],RAX           [4889053EE02400] 
+
+========

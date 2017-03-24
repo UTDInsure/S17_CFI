@@ -1,0 +1,12 @@
+
+
+22CF4: PUSH RBX                       [53] 
+22CF5: SUB RSP,0x90                   [4881EC90000000] 
+22CFC: MOV RBX,[0x0024a7a0]           [488B1D9D7A2200] 
+22D03: MOV RAX,[RBX]                  [488B03] 
+22D06: CMP word ptr [0x2c6 + RAX],0x0 [6683B8C602000000] 
+22DA5: ADD RSP,0x90                   [4881C490000000] 
+22DAC: XOR EAX,EAX                    [31C0] 
+22DAE: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,7 @@
+
+
+D8404: MOVSXD RSI,ESI                 [4863F6] 
+D8407: MOV EAX,0x10a                  [B80A010000] 
+D840E: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

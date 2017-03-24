@@ -1,0 +1,15 @@
+
+
+13FE4: PUSH R15                       [4157] 
+13FE6: PUSH R14                       [4156] 
+13FE8: PUSH R13                       [4155] 
+13FEA: MOVZX R13D,SIL                 [440FB6EE] 
+13FEE: PUSH R12                       [4154] 
+13FF0: PUSH RBP                       [55] 
+13FF1: MOV RBP,RSI                    [4889F5] 
+13FF4: PUSH RBX                       [53] 
+13FF5: MOV RBX,RDI                    [4889FB] 
+13FF8: MOV RDI,R13                    [4C89EF] 
+13FFB: SUB RSP,0x18                   [4883EC18] 
+
+========

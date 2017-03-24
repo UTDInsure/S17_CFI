@@ -1,0 +1,9 @@
+
+
+17314: SUB RSP,0x8                    [4883EC08] 
+17318: MOV RAX,[0x0024a830]           [488B0511352300] 
+1731F: MOV RDX,RSI                    [4889F2] 
+17322: MOVSX ESI,DI                   [0FBFF7] 
+17325: MOV RDI,[RAX]                  [488B38] 
+
+========

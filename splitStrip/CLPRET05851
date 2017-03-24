@@ -1,0 +1,7 @@
+
+
+E50B4: MOV R10,RCX                    [4989CA] 
+E50B7: MOV EAX,0xdc                   [B8DC000000] 
+E50BE: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

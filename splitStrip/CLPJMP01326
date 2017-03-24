@@ -1,0 +1,20 @@
+
+
+E7A84: PUSH R13                       [4155] 
+E7A86: MOV ESI,0x1                    [BE01000000] 
+E7A8B: XOR EAX,EAX                    [31C0] 
+E7A8D: PUSH R12                       [4154] 
+E7A8F: PUSH RBP                       [55] 
+E7A90: MOV RBP,RDI                    [4889FD] 
+E7A93: PUSH RBX                       [53] 
+E7A94: SUB RSP,0x18                   [4883EC18] 
+E7A98: CMP dword ptr [0x0036e774],0x0 [833DD56C280000] 
+E7AA1: LOCK                           [F0] 
+E7AA2: CMPXCHG [0x0036c5f0],ESI       [0FB135474B2800] 
+E7AD4: MOV RDX,[0x0036a7e0]           [488B15052D2800] 
+E7ADB: MOV RCX,[0x0036c5e8]           [488B0D064B2800] 
+E7AE2: TEST RDX,RDX                   [4885D2] 
+E7BE0: MOV EDI,0x400                  [BF00040000] 
+E7BE5: MOV dword ptr [0x0036c5e8],0x400 [48C705F849280000040000] 
+
+========

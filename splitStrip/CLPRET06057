@@ -1,0 +1,27 @@
+
+
+E7664: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E766C: MOV RAX,[RSI]                  [488B06] 
+E766F: MOV EDX,[0xc8 + RAX]           [8B90C8000000] 
+E7675: ADD EDX,0x4                    [83C204] 
+E7678: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E767D: MOV EAX,EDI                    [89F8] 
+E767F: MOV ECX,[RDX]                  [8B0A] 
+E7681: SHR EAX,CL                     [D3E8] 
+E7683: MOV ECX,EAX                    [89C1] 
+E7685: XOR EAX,EAX                    [31C0] 
+E7687: CMP ECX,[RDX + 0x4]            [3B4A04] 
+E768C: ADD ECX,0x5                    [83C105] 
+E768F: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+E7692: TEST ECX,ECX                   [85C9] 
+E7696: MOV ESI,ECX                    [89CE] 
+E7698: MOV ECX,[RDX + 0x8]            [8B4A08] 
+E769B: MOV R8D,EDI                    [4189F8] 
+E769E: SHR R8D,CL                     [41D3E8] 
+E76A1: MOV ECX,R8D                    [4489C1] 
+E76A4: AND ECX,[RDX + 0xc]            [234A0C] 
+E76A7: LEA RCX,[RSI + RCX*0x4]        [488D0C8E] 
+E76AB: MOV ECX,[RDX + RCX*0x1]        [8B0C0A] 
+E76AE: TEST ECX,ECX                   [85C9] 
+
+========

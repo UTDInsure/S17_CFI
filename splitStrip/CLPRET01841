@@ -1,0 +1,20 @@
+
+
+370E4: PUSH R12                       [4154] 
+370E6: PUSH RBP                       [55] 
+370E7: PUSH RBX                       [53] 
+370E8: MOV EBX,EDI                    [89FB] 
+370EA: SUB RSP,0x240                  [4881EC40020000] 
+370F1: CMP RSI,0x2                    [4883FE02] 
+370FB: LEA EBP,[RDI + -0x1]           [8D6FFF] 
+370FE: CMP EBP,0x3f                   [83FD3F] 
+37107: CMP RSI,-0x1                   [4883FEFF] 
+371A8: MOV RAX,[0x00368e68]           [488B05B91C3300] 
+371AF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+371B6: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+371BD: ADD RSP,0x240                  [4881C440020000] 
+371C4: POP RBX                        [5B] 
+371C5: POP RBP                        [5D] 
+371C6: POP R12                        [415C] 
+
+========

@@ -1,0 +1,13 @@
+
+
+977F4: TEST RSI,RSI                   [4885F6] 
+977FD: MOV R11D,[RDI]                 [448B1F] 
+97800: TEST R11D,R11D                 [4585DB] 
+97805: CMP RSI,0x1                    [4883FE01] 
+9780B: MOV R10D,[RDI + 0x4]           [448B5704] 
+9780F: TEST R10D,R10D                 [4585D2] 
+97814: CMP RSI,0x2                    [4883FE02] 
+97818: MOV EAX,0x2                    [B802000000] 
+9788D: NOP                            [0F1F00] 
+
+========

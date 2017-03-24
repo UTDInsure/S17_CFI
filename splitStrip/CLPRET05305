@@ -1,0 +1,11 @@
+
+
+DD094: CMP dword ptr [0x0036e774],0x0 [833DD916290000] 
+DD0A1: MOV EAX,0x4b                   [B84B000000] 
+DD0A8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DD0E9: MOV RCX,[0x00368e68]           [488B0D78BD2800] 
+DD0F0: NEG EAX                        [F7D8] 
+DD0F2: MOV FS:[RCX],EAX               [648901] 
+DD0F5: OR RAX,-0x1                    [4883C8FF] 
+
+========

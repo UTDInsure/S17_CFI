@@ -1,0 +1,17 @@
+
+
+13014: MOV RAX,[0x0024a880]           [488B0565782300] 
+1301B: MOV ECX,0x20                   [B920000000] 
+13020: MOV RAX,[RAX]                  [488B00] 
+13023: MOV RAX,[RAX + 0x10]           [488B4010] 
+13027: CMP byte ptr [RAX + 0x1c],0x0  [80781C00] 
+1302D: MOV RAX,[0x0024a830]           [488B05FC772300] 
+13034: MOV RAX,[RAX]                  [488B00] 
+13037: MOVZX ECX,byte ptr [RAX + 0x19] [0FB64819] 
+1303B: SHL RCX,0x8                    [48C1E108] 
+1303F: OR RCX,0x20                    [4883C920] 
+13043: MOVZX EAX,word ptr [RDI + 0x6] [0FB74706] 
+13047: TEST AX,AX                     [6685C0] 
+1306D: XOR EAX,EAX                    [31C0] 
+
+========

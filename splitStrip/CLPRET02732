@@ -1,0 +1,26 @@
+
+
+71E34: PUSH R14                       [4156] 
+71E36: TEST ECX,ECX                   [85C9] 
+71E38: PUSH R13                       [4155] 
+71E3A: MOV R13D,EDX                   [4189D5] 
+71E3D: PUSH R12                       [4154] 
+71E3F: MOV R12D,ECX                   [4189CC] 
+71E42: PUSH RBP                       [55] 
+71E43: MOV RBP,RSI                    [4889F5] 
+71E46: PUSH RBX                       [53] 
+71E47: MOV RBX,RDI                    [4889FB] 
+71E4C: MOV EAX,[RDI]                  [8B07] 
+71E4E: TEST AH,0x4                    [F6C404] 
+71F58: TEST AL,0x8                    [A808] 
+71F5C: MOV RDX,[0xa0 + RBX]           [488B93A0000000] 
+71F63: POP RBX                        [5B] 
+71F64: POP RBP                        [5D] 
+71F65: MOV RAX,[RDX]                  [488B02] 
+71F68: SUB RAX,[RDX + 0x10]           [482B4210] 
+71F6C: POP R12                        [415C] 
+71F6E: POP R13                        [415D] 
+71F70: POP R14                        [415E] 
+71F72: SAR RAX,0x2                    [48C1F802] 
+
+========

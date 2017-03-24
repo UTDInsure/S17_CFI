@@ -1,0 +1,6 @@
+
+
+39E14: TEST RDI,RDI                   [4885FF] 
+39E38: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

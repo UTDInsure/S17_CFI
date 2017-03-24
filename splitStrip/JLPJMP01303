@@ -1,0 +1,21 @@
+
+
+2D394: MOV EAX,[R14]                  [418B06] 
+2D397: XOR EDI,EDI                    [31FF] 
+2D399: MOV RSI,R14                    [4C89F6] 
+2D39C: TEST EAX,EAX                   [85C0] 
+2D39E: CMOVZ RDI,R15                  [490F44FF] 
+2D084: PUSH R13                       [4155] 
+2D086: MOV R13,RSI                    [4989F5] 
+2D089: PUSH R12                       [4154] 
+2D08B: PUSH RBP                       [55] 
+2D08C: MOV RBP,RDI                    [4889FD] 
+2D08F: PUSH RBX                       [53] 
+2D090: SUB RSP,0x8                    [4883EC08] 
+2D094: TEST RDI,RDI                   [4885FF] 
+2D097: MOV RBX,[0x0024a8a0]           [488B1D02D82100] 
+2D0A4: MOV RDI,[RBX + 0x30]           [488B7B30] 
+2D0A8: TEST RDI,RDI                   [4885FF] 
+2D0B6: MOV RDI,RBP                    [4889EF] 
+
+========

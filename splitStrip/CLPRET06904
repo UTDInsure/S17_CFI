@@ -1,0 +1,14 @@
+
+
+108584: MOV EAX,[RDI + 0x10]           [8B4710] 
+108587: TEST EAX,EAX                   [85C0] 
+10858B: CMP EAX,0x1                    [83F801] 
+108590: MOV EAX,[RDI + 0x18]           [8B4718] 
+108593: TEST EAX,EAX                   [85C0] 
+108608: MOV dword ptr [RSI],0x6        [C70606000000] 
+10860E: MOV RAX,[RDI + 0x20]           [488B4720] 
+108612: MOV [RSI + 0x8],RAX            [48894608] 
+108616: MOV RAX,[RDI + 0x28]           [488B4728] 
+10861A: MOV [RSI + 0x10],RAX           [48894610] 
+
+========

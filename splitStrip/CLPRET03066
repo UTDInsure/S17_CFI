@@ -1,0 +1,13 @@
+
+
+786D4: PUSH R12                       [4154] 
+786D6: CMP dword ptr [RDI + 0x70],-0x1 [837F70FF] 
+786DA: PUSH RBP                       [55] 
+786DB: PUSH RBX                       [53] 
+786DC: MOV RBX,RDI                    [4889FB] 
+78740: POP RBX                        [5B] 
+78741: POP RBP                        [5D] 
+78742: XOR EAX,EAX                    [31C0] 
+78744: POP R12                        [415C] 
+
+========

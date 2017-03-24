@@ -1,0 +1,8 @@
+
+
+12C54: MOVSXD R10,ECX                 [4C63D1] 
+12C57: XOR R9D,R9D                    [4531C9] 
+12C5A: ADD R10,R8                     [4D01C2] 
+12C5D: CMP EDX,R9D                    [4439CA] 
+
+========

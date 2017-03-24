@@ -1,0 +1,13 @@
+
+
+32974: SUB RSP,0x8                    [4883EC08] 
+32978: MOV RSI,[RSI]                  [488B36] 
+3297B: MOV RDI,[RDI]                  [488B3F] 
+3297E: LEA RDX,[0x367ae0]             [488D155B513300] 
+89AF4: MOV RAX,[RDX]                  [488B02] 
+89AF7: TEST dword ptr [0x278 + RAX],0x1 [F7807802000001000000] 
+948B4: CMP RDI,RSI                    [4839F7] 
+948E8: XOR EAX,EAX                    [31C0] 
+3298E: ADD RSP,0x8                    [4883C408] 
+
+========

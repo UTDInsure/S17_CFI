@@ -1,0 +1,17 @@
+
+
+A2F74: PUSH RBX                       [53] 
+A2F75: MOV RBX,R9                     [4C89CB] 
+A2F78: SUB RSP,0x20                   [4883EC20] 
+A2F7C: MOV RAX,[RSP + 0x30]           [488B442430] 
+A2F81: TEST RAX,RAX                   [4885C0] 
+A2FCD: TEST RBX,RBX                   [4885DB] 
+A2FD2: MOV RDX,0x7ffffffffffffffd     [48BAFDFFFFFFFFFFFF7F] 
+A2FDC: LEA RCX,[RBX + -0x1]           [488D4BFF] 
+A2FE0: MOV RAX,0x7fffffffffffffff     [48B8FFFFFFFFFFFFFF7F] 
+A2FEA: CMP RBX,RDX                    [4839D3] 
+A2FED: CMOVG RAX,RCX                  [480F4FC1] 
+A2FF1: ADD RSP,0x20                   [4883C420] 
+A2FF5: POP RBX                        [5B] 
+
+========

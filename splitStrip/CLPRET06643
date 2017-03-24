@@ -1,0 +1,21 @@
+
+
+1006C4: PUSH R14                       [4156] 
+1006C6: CMP EDX,0x1                    [83FA01] 
+1006C9: PUSH R13                       [4155] 
+1006CB: PUSH R12                       [4154] 
+1006CD: MOV R12D,EDX                   [4189D4] 
+1006D0: PUSH RBP                       [55] 
+1006D1: PUSH RBX                       [53] 
+1006D8: CMP CL,0x1                     [80F901] 
+1006DB: MOV R14D,ECX                   [4189CE] 
+1006E4: CMP R8D,0xff                   [4181F8FF000000] 
+1006EB: MOV EBX,R8D                    [4489C3] 
+100778: POP RBX                        [5B] 
+100779: POP RBP                        [5D] 
+10077A: POP R12                        [415C] 
+10077C: POP R13                        [415D] 
+10077E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+100783: POP R14                        [415E] 
+
+========

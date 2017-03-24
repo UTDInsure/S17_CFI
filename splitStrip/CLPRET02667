@@ -1,0 +1,28 @@
+
+
+714E4: PUSH R14                       [4156] 
+714E6: PUSH R13                       [4155] 
+714E8: MOV R13,RDX                    [4989D5] 
+714EB: PUSH R12                       [4154] 
+714ED: MOV R12,RSI                    [4989F4] 
+714F0: PUSH RBP                       [55] 
+714F1: MOV RBP,RDX                    [4889D5] 
+714F4: PUSH RBX                       [53] 
+714F5: MOV RBX,RDI                    [4889FB] 
+714F8: NOP                            [0F1F840000000000] 
+71500: MOV RDI,[0xa0 + RBX]           [488BBBA0000000] 
+71507: MOV RSI,[RDI]                  [488B37] 
+7150A: MOV R8,[RDI + 0x8]             [4C8B4708] 
+7150E: SUB R8,RSI                     [4929F0] 
+71511: SAR R8,0x2                     [49C1F802] 
+71515: TEST R8,R8                     [4D85C0] 
+71560: TEST R13,R13                   [4D85ED] 
+71576: POP RBX                        [5B] 
+71577: MOV RAX,RBP                    [4889E8] 
+7157A: POP RBP                        [5D] 
+7157B: POP R12                        [415C] 
+7157D: SUB RAX,R13                    [4C29E8] 
+71580: POP R13                        [415D] 
+71582: POP R14                        [415E] 
+
+========

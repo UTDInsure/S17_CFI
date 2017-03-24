@@ -1,0 +1,16 @@
+
+
+76A34: PUSH R12                       [4154] 
+76A36: XOR EAX,EAX                    [31C0] 
+76A38: MOV R12,RDX                    [4989D4] 
+76A3B: PUSH RBP                       [55] 
+76A3C: MOV RBP,RSI                    [4889F5] 
+76A3F: IMUL RBP,RDX                   [480FAFEA] 
+76A43: PUSH RBX                       [53] 
+76A44: MOV RBX,RSI                    [4889F3] 
+76A47: TEST RBP,RBP                   [4885ED] 
+76A62: POP RBX                        [5B] 
+76A63: POP RBP                        [5D] 
+76A64: POP R12                        [415C] 
+
+========

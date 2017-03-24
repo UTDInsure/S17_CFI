@@ -1,0 +1,22 @@
+
+
+1E994: PUSH RBP                       [55] 
+1E995: PUSH RBX                       [53] 
+1E996: SUB RSP,0xd8                   [4881ECD8000000] 
+1E99D: TEST AL,AL                     [84C0] 
+1E99F: MOV [RSP + 0x38],RCX           [48894C2438] 
+1E9A4: MOV [RSP + 0x40],R8            [4C89442440] 
+1E9A9: MOV [RSP + 0x48],R9            [4C894C2448] 
+1E9E7: LEA RAX,[0xf0 + RSP]           [488D8424F0000000] 
+1E9EF: MOV RBP,RDX                    [4889D5] 
+1E9F2: MOV EDX,ESI                    [89F2] 
+1E9F4: MOV ESI,EDI                    [89FE] 
+1E9F6: MOV RBX,[0x0024a830]           [488B1D33BE2200] 
+1E9FD: MOV [RSP + 0x10],RAX           [4889442410] 
+1EA02: LEA RAX,[RSP + 0x20]           [488D442420] 
+1EA07: MOV dword ptr [RSP + 0x8],0x18 [C744240818000000] 
+1EA0F: MOV dword ptr [RSP + 0xc],0x30 [C744240C30000000] 
+1EA17: MOV [RSP + 0x18],RAX           [4889442418] 
+1EA1C: MOV RDI,[RBX]                  [488B3B] 
+
+========

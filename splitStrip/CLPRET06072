@@ -1,0 +1,18 @@
+
+
+E78B4: PUSH R13                       [4155] 
+E78B6: PUSH R12                       [4154] 
+E78B8: PUSH RBP                       [55] 
+E78B9: PUSH RBX                       [53] 
+E78BA: SUB RSP,0x8                    [4883EC08] 
+E78BE: MOV R13,[RSI]                  [4C8B2E] 
+E78C1: MOV RBX,[0x98 + R13]           [498B9D98000000] 
+E78C8: CMP byte ptr [RBX],0x0         [803B00] 
+E7928: ADD RSP,0x8                    [4883C408] 
+E792C: XOR EAX,EAX                    [31C0] 
+E792E: POP RBX                        [5B] 
+E792F: POP RBP                        [5D] 
+E7930: POP R12                        [415C] 
+E7932: POP R13                        [415D] 
+
+========

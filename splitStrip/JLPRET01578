@@ -1,0 +1,17 @@
+
+
+C6094: TEST DL,0x8                    [F6C208] 
+C6099: MOV EAX,[RBX + 0x38]           [8B4338] 
+C609C: ADD EAX,0x1                    [83C001] 
+C609F: CMP EAX,[RBX + 0x40]           [3B4340] 
+C60D8: MOV byte ptr [RBP + 0x8],0xc   [C645080C] 
+C60DC: MOV dword ptr [RBP],0x20       [C7450020000000] 
+C60E3: MOV EAX,0x1                    [B801000000] 
+C5F46: ADD RSP,0x20                   [4883C420] 
+C5F4A: POP RBX                        [5B] 
+C5F4B: POP RBP                        [5D] 
+C5F4C: POP R12                        [415C] 
+C5F4E: POP R13                        [415D] 
+C5F50: POP R14                        [415E] 
+
+========

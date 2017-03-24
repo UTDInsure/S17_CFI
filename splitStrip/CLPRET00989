@@ -1,0 +1,7 @@
+
+
+4138D4: MOVSX EDX,byte ptr [0x00626560] [0FBE15852C2100] 
+4138DB: TEST DL,DL                     [84D2] 
+41390C: XOR EAX,EAX                    [31C0] 
+
+========

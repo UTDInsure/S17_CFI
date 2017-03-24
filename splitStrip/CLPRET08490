@@ -1,0 +1,27 @@
+
+
+2D7E4: PUSH R13                       [4155] 
+2D7E6: PUSH R12                       [4154] 
+2D7E8: MOV R12,RDI                    [4989FC] 
+2D7EB: PUSH RBP                       [55] 
+2D7EC: PUSH RBX                       [53] 
+2D7ED: SUB RSP,0x8                    [4883EC08] 
+2D7F1: TEST RDI,RDI                   [4885FF] 
+2D7FA: MOV RBX,[0x0024a818]           [488B1D17D02100] 
+2D801: MOV EDX,0x15c                  [BA5C010000] 
+2D806: LEA RBP,[0x88 + RDI]           [488DAF88000000] 
+2D81D: MOV EAX,[RBX]                  [8B03] 
+2D81F: CMP EAX,0x19d                  [3D9D010000] 
+2D810: ADD RBX,0x10                   [4883C310] 
+2D814: MOV RDX,[RBX + 0x8]            [488B5308] 
+2D818: TEST RDX,RDX                   [4885D2] 
+2D851: MOV RBX,[R12 + 0x20]           [498B5C2420] 
+2D856: MOVZX R8D,word ptr [RBX + 0x3c] [440FB7433C] 
+2D85B: CMP R8W,0x19e                  [664181F89E01] 
+2D8E0: ADD RSP,0x8                    [4883C408] 
+2D8E4: POP RBX                        [5B] 
+2D8E5: POP RBP                        [5D] 
+2D8E6: POP R12                        [415C] 
+2D8E8: POP R13                        [415D] 
+
+========

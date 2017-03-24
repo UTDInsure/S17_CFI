@@ -1,0 +1,9 @@
+
+
+B4744: TEST EDI,EDI                   [85FF] 
+B474C: MOV RDX,[RSI]                  [488B16] 
+B474F: CMP RDX,0xbd00bd0              [4881FAD00BD00B] 
+B47A8: CMP RDX,0x7275                 [4881FA75720000] 
+B47D0: MOV EAX,0x20                   [B820000000] 
+
+========

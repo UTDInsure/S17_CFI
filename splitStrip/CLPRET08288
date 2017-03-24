@@ -1,0 +1,11 @@
+
+
+20EE4: MOV RAX,[0x0024a7a0]           [488B05B5982200] 
+20EEB: MOV RAX,[RAX]                  [488B00] 
+20EEE: TEST RAX,RAX                   [4885C0] 
+20EF3: MOV RAX,[0x308 + RAX]          [488B8008030000] 
+20EFA: TEST RAX,RAX                   [4885C0] 
+20EFF: MOV byte ptr [RAX],0x1         [C60001] 
+20F02: XOR EAX,EAX                    [31C0] 
+
+========

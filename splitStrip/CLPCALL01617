@@ -1,0 +1,13 @@
+
+
+114F24: SUB RSP,0x8                    [4883EC08] 
+114F28: MOV RDI,[RDI + 0x18]           [488B7F18] 
+6C454: TEST RDI,RDI                   [4885FF] 
+6C457: PUSH RBX                       [53] 
+6C458: MOV RBX,RDI                    [4889FB] 
+6C461: MOV EAX,[RDI]                  [8B07] 
+6C463: AND EAX,0x8000                 [2500800000] 
+6C4C4: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+6C4CB: MOV RDI,RBX                    [4889DF] 
+
+========

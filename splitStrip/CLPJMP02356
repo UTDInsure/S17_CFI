@@ -1,0 +1,16 @@
+
+
+2F404: PUSH R12                       [4154] 
+2F406: PUSH RBP                       [55] 
+2F407: PUSH RBX                       [53] 
+2F408: MOV RBX,RDI                    [4889FB] 
+2F40B: SUB RSP,0x10                   [4883EC10] 
+2F40F: MOV RAX,[0x0024a880]           [488B056AB42100] 
+2F416: LEA RDX,[RSP + 0xc]            [488D54240C] 
+2F41B: LEA RSI,[RSP + 0x8]            [488D742408] 
+2F420: MOV RAX,[RAX]                  [488B00] 
+2F423: MOV RAX,[RAX + 0x18]           [488B4018] 
+2F427: MOVSX EBP,word ptr [RAX + 0x4] [0FBF6804] 
+2F42B: MOVSX R12D,word ptr [RAX]      [440FBF20] 
+
+========

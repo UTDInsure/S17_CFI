@@ -1,0 +1,6 @@
+
+
+2E6C4: TEST RDI,RDI                   [4885FF] 
+2E6C9: MOV [RDI + 0x2c],ESI           [89772C] 
+
+========

@@ -1,0 +1,8 @@
+
+
+2EDA4: MOV RAX,[RSI + 0x68]           [488B4668] 
+2EDA8: MOVSXD RDI,EDI                 [4863FF] 
+2EDAB: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+2EDAF: AND EAX,0x1                    [83E001] 
+
+========

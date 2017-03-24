@@ -1,0 +1,21 @@
+
+
+BED34: PUSH R12                       [4154] 
+BED36: TEST RSI,RSI                   [4885F6] 
+BED39: MOV R12,RSI                    [4989F4] 
+BED3C: PUSH RBP                       [55] 
+BED3D: PUSH RBX                       [53] 
+BED44: MOV EAX,[RSI + 0x4]            [8B4604] 
+BED47: TEST EAX,EAX                   [85C0] 
+BED4F: MOV EDX,[RDI + 0x4]            [8B5704] 
+BED52: MOV ECX,[RDI]                  [8B0F] 
+BED54: MOV RBP,RDI                    [4889FD] 
+BED57: LEA ESI,[RDX + RAX*0x2]        [8D3442] 
+BED5A: CMP ECX,ESI                    [39F1] 
+BEEE8: ADD EAX,ECX                    [01C8] 
+BEEEA: MOV RDI,[RDI + 0x8]            [488B7F08] 
+BEEEE: LEA EBX,[RAX + RAX*0x1]        [8D1C00] 
+BEEF1: MOVSXD RSI,EBX                 [4863F3] 
+BEEF4: SHL RSI,0x2                    [48C1E602] 
+
+========

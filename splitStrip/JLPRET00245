@@ -1,0 +1,13 @@
+
+
+2F99B: TEST R12D,R12D                 [4585E4] 
+2FA30: XOR EAX,EAX                    [31C0] 
+2FA32: LEA RSP,[RBP + -0x28]          [488D65D8] 
+2FA36: POP RBX                        [5B] 
+2FA37: POP R12                        [415C] 
+2FA39: POP R13                        [415D] 
+2FA3B: POP R14                        [415E] 
+2FA3D: POP R15                        [415F] 
+2FA3F: POP RBP                        [5D] 
+
+========

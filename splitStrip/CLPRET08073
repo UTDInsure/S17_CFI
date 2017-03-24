@@ -1,0 +1,14 @@
+
+
+1A1D4: PUSH RBP                       [55] 
+1A1D5: PUSH RBX                       [53] 
+1A1D6: MOV RBX,RDI                    [4889FB] 
+1A1D9: SUB RSP,0x8                    [4883EC08] 
+1A1DD: TEST RDI,RDI                   [4885FF] 
+1A213: MOV EBP,0xffffffff             [BDFFFFFFFF] 
+1A20A: ADD RSP,0x8                    [4883C408] 
+1A20E: MOV EAX,EBP                    [89E8] 
+1A210: POP RBX                        [5B] 
+1A211: POP RBP                        [5D] 
+
+========

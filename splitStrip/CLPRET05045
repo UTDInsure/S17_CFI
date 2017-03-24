@@ -1,0 +1,12 @@
+
+
+D8524: MOV RDX,[RSI + 0x8]            [488B5608] 
+D8528: MOV RCX,[RDI + 0x8]            [488B4F08] 
+D852C: XOR EAX,EAX                    [31C0] 
+D852E: CMP RCX,RDX                    [4839D1] 
+D8531: SETC DL                        [0F92C2] 
+D8534: SETA AL                        [0F97C0] 
+D8537: MOVZX EDX,DL                   [0FB6D2] 
+D853A: SUB EAX,EDX                    [29D0] 
+
+========

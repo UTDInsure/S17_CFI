@@ -1,0 +1,14 @@
+
+
+96164: MOV R8D,[RDI]                  [448B07] 
+96167: TEST R8D,R8D                   [4585C0] 
+9616C: MOV R9D,[RSI]                  [448B0E] 
+9616F: XOR EAX,EAX                    [31C0] 
+96171: TEST R9D,R9D                   [4585C9] 
+96176: NOP                            [662E0F1F840000000000] 
+96180: CMP R9D,R8D                    [4539C1] 
+961A8: ADD RAX,0x1                    [4883C001] 
+961AC: MOV R8D,[RDI + RAX*0x4]        [448B0487] 
+961B0: TEST R8D,R8D                   [4585C0] 
+
+========

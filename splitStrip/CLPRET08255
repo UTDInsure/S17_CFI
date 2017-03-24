@@ -1,0 +1,10 @@
+
+
+206D4: MOV RAX,[0x0024a7a0]           [488B05C5A02200] 
+206DB: MOV RAX,[RAX]                  [488B00] 
+206DE: TEST RAX,RAX                   [4885C0] 
+206E3: MOV RAX,[0x308 + RAX]          [488B8008030000] 
+206EA: TEST RAX,RAX                   [4885C0] 
+20700: XOR EAX,EAX                    [31C0] 
+
+========

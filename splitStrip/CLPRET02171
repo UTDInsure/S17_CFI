@@ -1,0 +1,14 @@
+
+
+457D4: XOR EAX,EAX                    [31C0] 
+457D6: TEST RDX,RDX                   [4885D2] 
+457D9: MOV R9,RDX                     [4989D1] 
+457DE: LEA R8,[RDX + -0x1]            [4C8D42FF] 
+457E2: MOV RDX,[RSI + R8*0x8]         [4A8B14C6] 
+457E6: CMP RDX,RCX                    [4839CA] 
+457EB: MOV dword ptr [RDI + R8*0x8],0x0 [4AC704C700000000] 
+457F3: LEA R8,[R9 + -0x2]             [4D8D41FE] 
+457F7: TEST R8,R8                     [4D85C0] 
+45819: MOV RAX,RDX                    [4889D0] 
+
+========

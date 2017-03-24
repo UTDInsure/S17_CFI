@@ -1,0 +1,21 @@
+
+
+101FA4: LEA R8,[RSP + -0x18]           [4C8D4424E8] 
+101FA9: MOV byte ptr [RSP + -0x18],0x0 [C64424E800] 
+101FAE: XOR R9D,R9D                    [4531C9] 
+101FB1: XOR ECX,ECX                    [31C9] 
+101FB3: NOP                            [0F1F440000] 
+101FB8: ADD RDI,0x1                    [4883C701] 
+101FBC: MOVSX EAX,byte ptr [RDI + -0x1] [0FBE47FF] 
+101FC0: TEST EAX,EAX                   [85C0] 
+101FC4: LEA EDX,[RAX + -0x30]          [8D50D0] 
+101FC7: CMP EDX,0x9                    [83FA09] 
+101FCC: MOVZX R10D,byte ptr [R8]       [450FB610] 
+101FD0: TEST ECX,ECX                   [85C9] 
+101FD2: MOVZX EAX,R10B                 [410FB6C2] 
+101FD6: LEA EAX,[RAX + RAX*0x4]        [8D0480] 
+101FD9: LEA EAX,[RDX + RAX*0x2]        [8D0442] 
+101FE3: CMP EAX,0xff                   [3DFF000000] 
+102050: XOR EAX,EAX                    [31C0] 
+
+========

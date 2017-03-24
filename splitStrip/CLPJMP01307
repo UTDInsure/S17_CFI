@@ -1,0 +1,22 @@
+
+
+E5E84: PUSH R15                       [4157] 
+E5E86: MOVSXD R15,EDI                 [4C63FF] 
+E5E89: PUSH R14                       [4156] 
+E5E8B: MOV R14D,R8D                   [4589C6] 
+E5E8E: PUSH R13                       [4155] 
+E5E90: MOV R13,RSI                    [4989F5] 
+E5E93: PUSH R12                       [4154] 
+E5E95: MOV R12,RDX                    [4989D4] 
+E5E98: PUSH RBP                       [55] 
+E5E99: PUSH RBX                       [53] 
+E5E9A: MOV RBX,RCX                    [4889CB] 
+E5E9D: SUB RSP,0x8                    [4883EC08] 
+E5EA1: MOV EAX,[0x0036c440]           [8B0599652800] 
+E5EA7: TEST EAX,EAX                   [85C0] 
+E5F50: ADD EAX,0x1                    [83C001] 
+E5F53: MOV RDI,[0x0036c448]           [488B3DEE642800] 
+E5F5A: LEA RSI,[RAX + RAX*0x2]        [488D3440] 
+E5F5E: SHL RSI,0x4                    [48C1E604] 
+
+========

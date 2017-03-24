@@ -1,0 +1,24 @@
+
+
+104664: PUSH RBP                       [55] 
+104665: MOV RBP,RSP                    [4889E5] 
+104668: PUSH R15                       [4157] 
+10466A: PUSH R14                       [4156] 
+10466C: PUSH R13                       [4155] 
+10466E: PUSH R12                       [4154] 
+104670: PUSH RBX                       [53] 
+104671: MOV RBX,RDI                    [4889FB] 
+104674: SUB RSP,0x18                   [4883EC18] 
+104678: MOV R12,[RDI + 0x20]           [4C8B6720] 
+10467C: TEST R12,R12                   [4D85E4] 
+1046A0: MOV RDX,[0x0036de48]           [488B15A1972600] 
+1046A7: LEA RAX,[0x36de20]             [488D0572972600] 
+1046AE: LEA R13,[RDI + 0x30]           [4C8D6F30] 
+1046B2: TEST RDX,RDX                   [4885D2] 
+1046B5: CMOVNZ RAX,RDX                 [480F45C2] 
+1046B9: MOV R12,[RAX + 0x8]            [4C8B6008] 
+1046BD: TEST R12,R12                   [4D85E4] 
+1048A8: LEA R12,[RAX + 0x8]            [4C8D6008] 
+1047B4: MOV EDI,0x18                   [BF18000000] 
+
+========

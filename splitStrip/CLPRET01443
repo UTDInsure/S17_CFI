@@ -1,0 +1,9 @@
+
+
+2F414: SUB RSP,0x18                   [4883EC18] 
+2F418: XOR EAX,EAX                    [31C0] 
+2F41A: TEST RDI,RDI                   [4885FF] 
+2F41D: MOV [RSP + 0x8],RSI            [4889742408] 
+2F429: ADD RSP,0x18                   [4883C418] 
+
+========

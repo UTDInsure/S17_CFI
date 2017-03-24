@@ -1,0 +1,13 @@
+
+
+2A264: PUSH R15                       [4157] 
+2A266: PUSH R14                       [4156] 
+2A268: PUSH R13                       [4155] 
+2A26A: MOVSXD R13,ESI                 [4C63EE] 
+2A26D: PUSH R12                       [4154] 
+2A26F: PUSH RBP                       [55] 
+2A270: PUSH RBX                       [53] 
+2A271: SUB RSP,0x28                   [4883EC28] 
+2A275: MOV [RSP + 0x8],RDI            [48897C2408] 
+
+========

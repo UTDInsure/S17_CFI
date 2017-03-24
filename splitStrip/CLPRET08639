@@ -1,0 +1,16 @@
+
+
+35C44: PUSH RBP                       [55] 
+35C45: PUSH RBX                       [53] 
+35C46: MOV EBX,ESI                    [89F3] 
+35C48: SUB RSP,0x8                    [4883EC08] 
+35C4C: TEST ESI,ESI                   [85F6] 
+35C50: MOV RBP,RDI                    [4889FD] 
+35C53: MOV RDI,[RDI]                  [488B3F] 
+35C56: TEST RDI,RDI                   [4885FF] 
+35C98: XOR EAX,EAX                    [31C0] 
+35C9A: ADD RSP,0x8                    [4883C408] 
+35C9E: POP RBX                        [5B] 
+35C9F: POP RBP                        [5D] 
+
+========

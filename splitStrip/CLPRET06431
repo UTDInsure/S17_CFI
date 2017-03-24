@@ -1,0 +1,22 @@
+
+
+F3444: SUB RSI,RDI                    [4829FE] 
+F3447: LEA RAX,[RDI + -0x4]           [488D47FC] 
+F344B: XOR ECX,ECX                    [31C9] 
+F344D: SAR RSI,0x2                    [48C1FE02] 
+F3451: LEA RDI,[0x4 + RSI*0x4]        [488D3CB504000000] 
+F3459: NOP                            [0F1F8000000000] 
+F3460: CMP RCX,RDX                    [4839D1] 
+F3465: MOV ESI,[RAX + RDI*0x1]        [8B3438] 
+F3468: ADD RCX,0x1                    [4883C101] 
+F346C: ADD RAX,0x4                    [4883C004] 
+F3470: TEST ESI,ESI                   [85F6] 
+F3472: MOV [RAX],ESI                  [8930] 
+F3460: CMP RCX,RDX                    [4839D1] 
+F3465: MOV ESI,[RAX + RDI*0x1]        [8B3438] 
+F3468: ADD RCX,0x1                    [4883C101] 
+F346C: ADD RAX,0x4                    [4883C004] 
+F3470: TEST ESI,ESI                   [85F6] 
+F3472: MOV [RAX],ESI                  [8930] 
+
+========

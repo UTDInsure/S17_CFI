@@ -1,0 +1,7 @@
+
+
+D58C4: MOVZX EAX,word ptr [RDI]       [0FB707] 
+D58C7: MOV [RSI],AX                   [668906] 
+D58CA: XOR EAX,EAX                    [31C0] 
+
+========

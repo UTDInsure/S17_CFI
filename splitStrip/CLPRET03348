@@ -1,0 +1,7 @@
+
+
+7F6D4: MOV EAX,[0x0036b7e8]           [8B050EC12E00] 
+7F6DA: TEST EAX,EAX                   [85C0] 
+7F730: MOV dword ptr [0x0036b7e8],0x0 [C705AEC02E0000000000] 
+
+========

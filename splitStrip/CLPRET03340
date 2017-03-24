@@ -1,0 +1,14 @@
+
+
+7F5F4: LEA RAX,[0x369620]             [488D0525A02E00] 
+7F5FB: MOV RDX,RDI                    [4889FA] 
+7F5FE: CMP RDI,RAX                    [4839C7] 
+7F603: CMP dword ptr [0x0036e774],0x0 [833D6AF12E0000] 
+7F613: DEC dword ptr [RDX]            [FF0A] 
+7F631: MOV ESI,0x1                    [BE01000000] 
+7F636: XOR EAX,EAX                    [31C0] 
+7F638: CMP dword ptr [0x0036e774],0x0 [833D35F12E0000] 
+7F64D: CMPXCHG [0x00369620],ESI       [0FB135CC9F2E00] 
+7F674: LEA RAX,[0x369620]             [488D05A59F2E00] 
+
+========

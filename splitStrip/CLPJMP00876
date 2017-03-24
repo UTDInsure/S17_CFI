@@ -1,0 +1,14 @@
+
+
+765A4: PUSH R13                       [4155] 
+765A6: PUSH R12                       [4154] 
+765A8: MOV R12,RSI                    [4989F4] 
+765AB: PUSH RBP                       [55] 
+765AC: PUSH RBX                       [53] 
+765AD: SUB RSP,0x48                   [4883EC48] 
+765B1: TEST RSI,RSI                   [4885F6] 
+765BA: MOV R13,RDI                    [4989FD] 
+765BD: MOV EDI,0x28                   [BF28000000] 
+765C2: MOV RBP,RDX                    [4889D5] 
+
+========

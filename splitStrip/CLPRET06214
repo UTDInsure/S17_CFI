@@ -1,0 +1,9 @@
+
+
+F0044: MOV ECX,[RDI + 0x8]            [8B4F08] 
+F0047: XOR EAX,EAX                    [31C0] 
+F0049: TEST ECX,ECX                   [85C9] 
+F004D: CMP dword ptr [RDI],0x0        [48833F00] 
+F0058: CMP dword ptr [RDI + 0x20],0x0 [48837F2000] 
+
+========

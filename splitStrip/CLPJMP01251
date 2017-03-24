@@ -1,0 +1,13 @@
+
+
+DA6B4: PUSH R12                       [4154] 
+DA6B6: PUSH RBP                       [55] 
+DA6B7: MOV RBP,RDI                    [4889FD] 
+DA6BA: PUSH RBX                       [53] 
+DA6BB: MOV RDI,[RDI]                  [488B3F] 
+DA6BE: TEST RDI,RDI                   [4885FF] 
+DA714: MOV RDI,[RBP + 0x8]            [488B7D08] 
+DA718: TEST RDI,RDI                   [4885FF] 
+DA723: MOV RBX,[RDI + 0x10]           [488B5F10] 
+
+========

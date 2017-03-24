@@ -1,0 +1,9 @@
+
+
+CFB64: MOVZX EDX,word ptr [RDI]       [0FB717] 
+CFB67: CMP DX,0xa                     [6683FA0A] 
+CFBB8: CMP byte ptr [RDI + 0x8],0xff  [807F08FF] 
+CFC10: MOVZX EAX,byte ptr [RDI + 0x9] [0FB64709] 
+CFC14: AND EAX,0xf                    [83E00F] 
+
+========

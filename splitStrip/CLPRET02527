@@ -1,0 +1,7 @@
+
+
+6F564: TEST ESI,ESI                   [85F6] 
+6F566: MOV R9D,ESI                    [4189F1] 
+6F6B0: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,11 @@
+
+
+1AD24: TEST RDI,RDI                   [4885FF] 
+1AD29: MOV RAX,[0x0024a7a0]           [488B0570FA2200] 
+1AD30: MOV RDX,[RAX]                  [488B10] 
+1AD33: TEST RDX,RDX                   [4885D2] 
+1AD38: MOV R8D,[0x408 + RDX]          [448B8208040000] 
+1AD3F: TEST R8D,R8D                   [4585C0] 
+1ADA0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

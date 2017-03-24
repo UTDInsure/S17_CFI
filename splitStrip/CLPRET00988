@@ -1,0 +1,25 @@
+
+
+413854: PUSH RBX                       [53] 
+413855: XOR EAX,EAX                    [31C0] 
+413857: MOV EDI,0x41d2a4               [BFA4D24100] 
+40AB24: PUSH RBX                       [53] 
+40AB25: MOV RSI,RDI                    [4889FE] 
+40AB28: MOV RBX,RDI                    [4889FB] 
+40AB2B: XOR EAX,EAX                    [31C0] 
+40AB2D: SUB RSP,0x10                   [4883EC10] 
+40AB31: MOV RDI,[0x00628440]           [488B3D08D92100] 
+40AB38: LEA RDX,[RSP + 0x8]            [488D542408] 
+40A814: TEST RDI,RDI                   [4885FF] 
+40A889: MOV EAX,0x64                   [B864000000] 
+40AB46: CMP EAX,0x1                    [83F801] 
+40AB98: MOV RAX,[RSP + 0x8]            [488B442408] 
+40AB9D: ADD RSP,0x10                   [4883C410] 
+40ABA1: POP RBX                        [5B] 
+413865: TEST RAX,RAX                   [4885C0] 
+41386A: CMP byte ptr [RAX],0x0         [803800] 
+41386F: CMP byte ptr [0x00626560],0x0  [803DEA2C210000] 
+413876: MOV EBX,0x626560               [BB60656200] 
+4138B3: POP RBX                        [5B] 
+
+========

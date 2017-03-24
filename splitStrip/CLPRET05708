@@ -1,0 +1,7 @@
+
+
+E41F4: MOV R10,RCX                    [4989CA] 
+E41F7: MOV EAX,0x11e                  [B81E010000] 
+E41FE: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

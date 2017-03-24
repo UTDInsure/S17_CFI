@@ -1,0 +1,28 @@
+
+
+31E39: MOV EAX,[0x1d8 + R12]          [418B8424D8010000] 
+31E41: TEST EAX,EAX                   [85C0] 
+31E49: SUB EAX,0x1                    [83E801] 
+31E4C: XOR EDX,EDX                    [31D2] 
+31E4E: MOV [0x1d8 + R12],EAX          [41898424D8010000] 
+31E56: CDQE                           [4898] 
+31E58: ADD RAX,0x9                    [4883C009] 
+31E5C: SHL RAX,0x4                    [48C1E004] 
+31E60: ADD RAX,R12                    [4C01E0] 
+31E63: CMP byte ptr [RAX + 0x10],0x0  [80781000] 
+320F8: MOV EDX,[RAX + 0x8]            [8B5008] 
+320FB: NOP                            [0F1F440000] 
+31E6D: LEA ECX,[R13 + 0x1]            [418D4D01] 
+31E71: CMP R13D,0x1e                  [4183FD1E] 
+31E75: MOV EAX,0x1f                   [B81F000000] 
+31E7A: MOV RBX,[0x1f8 + R12]          [498B9C24F8010000] 
+31E82: CMOVGE RAX,RCX                 [480F4DC1] 
+31E86: MOV RCX,[0x1f0 + R12]          [498B8C24F0010000] 
+31E8E: ADD RAX,RCX                    [4801C8] 
+31E91: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+31E9F: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+31EA7: ADD RDI,RCX                    [4801CF] 
+31EAA: MOV RSI,RBX                    [4889DE] 
+31EAD: XOR EAX,EAX                    [31C0] 
+
+========

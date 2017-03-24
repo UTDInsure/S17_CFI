@@ -1,0 +1,7 @@
+
+
+416FF4: SUB RSP,0x8                    [4883EC08] 
+416FF8: MOV ESI,0x416ff0               [BEF06F4100] 
+416FFD: MOV EDI,0x1c                   [BF1C000000] 
+
+========

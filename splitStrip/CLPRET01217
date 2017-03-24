@@ -1,0 +1,24 @@
+
+
+1FB8F: PUSH RBP                       [55] 
+1FB90: MOV RBP,RSP                    [4889E5] 
+1FB93: PUSH R15                       [4157] 
+1FB95: PUSH R14                       [4156] 
+1FB97: MOV R14D,ECX                   [4189CE] 
+1FB9A: PUSH R13                       [4155] 
+1FB9C: PUSH R12                       [4154] 
+1FB9E: PUSH RBX                       [53] 
+1FB9F: PUSH RAX                       [50] 
+1FBA0: MOVSX EBX,byte ptr [RDX]       [0FBE1A] 
+1FBA3: MOV RAX,RDI                    [4889F8] 
+1FBA6: LEA ECX,[RBX + -0x1]           [8D4BFF] 
+1FBA9: CMP CL,0x7d                    [80F97D] 
+1FC4B: LEA RSP,[RBP + -0x28]          [488D65D8] 
+1FC4F: POP RBX                        [5B] 
+1FC50: POP R12                        [415C] 
+1FC52: POP R13                        [415D] 
+1FC54: POP R14                        [415E] 
+1FC56: POP R15                        [415F] 
+1FC58: POP RBP                        [5D] 
+
+========

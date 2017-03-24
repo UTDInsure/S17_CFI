@@ -1,0 +1,6 @@
+
+
+F40F4: TEST EDX,EDX                   [85D2] 
+F4190: XOR EAX,EAX                    [31C0] 
+
+========

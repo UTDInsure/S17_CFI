@@ -1,0 +1,13 @@
+
+
+10D644: PUSH RBP                       [55] 
+10D645: PUSH RBX                       [53] 
+10D646: SUB RSP,0x18                   [4883EC18] 
+10D64A: CMP dword ptr [RSI + 0x10],0xc [837E100C] 
+10D64E: MOV RBX,[RDI + 0x40]           [488B5F40] 
+10D654: XOR EAX,EAX                    [31C0] 
+10D656: ADD RSP,0x18                   [4883C418] 
+10D65A: POP RBX                        [5B] 
+10D65B: POP RBP                        [5D] 
+
+========

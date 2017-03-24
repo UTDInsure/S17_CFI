@@ -1,0 +1,10 @@
+
+
+822D4: PUSH RBX                       [53] 
+822D5: MOV RBX,[0x0036b870]           [488B1D94952E00] 
+822DC: MOV dword ptr [0x0036b868],0x0 [C70582952E0000000000] 
+822E6: TEST RBX,RBX                   [4885DB] 
+82318: MOV dword ptr [0x0036b868],0x1 [C70546952E0001000000] 
+82322: POP RBX                        [5B] 
+
+========

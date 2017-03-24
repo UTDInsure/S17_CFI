@@ -1,0 +1,15 @@
+
+
+2BAE4: CMP ESI,0x3                    [83FE03] 
+2BAE7: PUSH RBX                       [53] 
+2BAE8: MOV RBX,[RDI]                  [488B1F] 
+2BAED: CMP RBX,[0x0036a928]           [483B1D34EE3300] 
+2BAF4: MOV EAX,[RBX + 0x8]            [8B4308] 
+2BAF9: LEA EDX,[RAX + 0x2]            [8D5002] 
+2BAFC: CMP EDX,0x2                    [83FA02] 
+2BB01: SUB EAX,0x1                    [83E801] 
+2BB04: CMP EAX,-0x3                   [83F8FD] 
+2BB07: MOV [RBX + 0x8],EAX            [894308] 
+2BB26: POP RBX                        [5B] 
+
+========

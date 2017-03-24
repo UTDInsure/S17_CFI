@@ -1,0 +1,6 @@
+
+
+DAF91: MOV EAX,0x7                    [B807000000] 
+DAF98: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

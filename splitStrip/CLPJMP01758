@@ -1,0 +1,9 @@
+
+
+11BBD4: SUB RSP,0x8                    [4883EC08] 
+1196D4: SUB RSP,0x18                   [4883EC18] 
+1196D8: MOV RDI,[0x0036a8c0]           [488B3DE1112500] 
+1196DF: TEST RDI,RDI                   [4885FF] 
+119700: MOV DI,0x180                   [66BF8001] 
+
+========

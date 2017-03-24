@@ -1,0 +1,22 @@
+
+
+18D84: MOV [RDI],RBX                  [48891F] 
+18D87: MOV RAX,RBP                    [4889E8] 
+18D8A: XOR RAX,[0x00221de8]           [48330557902000] 
+18D91: ROL RAX,0x11                   [48C1C011] 
+18D95: MOV [RDI + 0x8],RAX            [48894708] 
+18D99: MOV [RDI + 0x10],R12           [4C896710] 
+18D9D: MOV [RDI + 0x18],R13           [4C896F18] 
+18DA1: MOV [RDI + 0x20],R14           [4C897720] 
+18DA5: MOV [RDI + 0x28],R15           [4C897F28] 
+18DA9: LEA RDX,[RSP + 0x8]            [488D542408] 
+18DAE: XOR RDX,[0x00221de8]           [48331533902000] 
+18DB5: ROL RDX,0x11                   [48C1C211] 
+18DB9: MOV [RDI + 0x30],RDX           [48895730] 
+18DBD: MOV RAX,[RSP]                  [488B0424] 
+18DC1: XOR RAX,[0x00221de8]           [48330520902000] 
+18DC8: ROL RAX,0x11                   [48C1C011] 
+18DCC: MOV [RDI + 0x38],RAX           [48894738] 
+18DD0: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,15 @@
+
+
+77B94: PUSH RBP                       [55] 
+77B95: PUSH RBX                       [53] 
+77B96: MOV RBX,RDI                    [4889FB] 
+77B99: SUB RSP,0x8                    [4883EC08] 
+77B9D: TEST ECX,ECX                   [85C9] 
+77C30: MOV RAX,[RDI + 0x8]            [488B4708] 
+77C34: SUB RAX,[RDI + 0x10]           [482B4710] 
+77C38: ADD RAX,[0x90 + RDI]           [48038790000000] 
+77C3F: ADD RSP,0x8                    [4883C408] 
+77C43: POP RBX                        [5B] 
+77C44: POP RBP                        [5D] 
+
+========

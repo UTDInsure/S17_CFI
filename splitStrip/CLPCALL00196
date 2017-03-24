@@ -1,0 +1,22 @@
+
+
+30F64: PUSH RBP                       [55] 
+30F65: MOV RBP,RSP                    [4889E5] 
+30F68: PUSH R15                       [4157] 
+30F6A: MOV R15,RDX                    [4989D7] 
+30F6D: PUSH R14                       [4156] 
+30F6F: MOV R14,RCX                    [4989CE] 
+30F72: PUSH R13                       [4155] 
+30F74: MOV R13,RSI                    [4989F5] 
+30F77: PUSH R12                       [4154] 
+30F79: MOV R12,RDI                    [4989FC] 
+30F7C: PUSH RBX                       [53] 
+30F7D: SUB RSP,0x68                   [4883EC68] 
+30F81: MOV R11D,[0x0036e770]          [448B1DE8D73300] 
+30F88: TEST R11D,R11D                 [4585DB] 
+31028: MOV RAX,[0x0036e700]           [488B05D1D63300] 
+3102F: LEA RDI,[0x36ab80]             [488D3D4A9B3300] 
+31036: ROR RAX,0x11                   [48C1C811] 
+3103A: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

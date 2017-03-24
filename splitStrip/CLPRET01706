@@ -1,0 +1,19 @@
+
+
+365E4: PUSH RBX                       [53] 
+365E5: MOV RBX,RDX                    [4889D3] 
+365E8: SUB RSP,0x140                  [4881EC40010000] 
+365EF: TEST RSI,RSI                   [4885F6] 
+366D0: XOR ESI,ESI                    [31F6] 
+36671: MOV RDX,RSP                    [4889E2] 
+36154: LEA EAX,[RDI + -0x20]          [8D47E0] 
+36157: CMP EAX,0x1                    [83F801] 
+3616E: MOV RAX,[0x00368e68]           [488B05F32C3300] 
+36175: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+3617C: OR EAX,0xffffffff              [83C8FF] 
+3667D: TEST EAX,EAX                   [85C0] 
+366D4: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+366C5: ADD RSP,0x140                  [4881C440010000] 
+366CC: POP RBX                        [5B] 
+
+========

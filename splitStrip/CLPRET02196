@@ -1,0 +1,7 @@
+
+
+45EB4: XOR EAX,EAX                    [31C0] 
+45EB6: TEST RSI,RSI                   [4885F6] 
+45EB9: MOV R8,RDX                     [4989D0] 
+
+========

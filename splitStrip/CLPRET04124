@@ -1,0 +1,6 @@
+
+
+9F744: TEST RSI,RSI                   [4885F6] 
+9F81D: XOR EAX,EAX                    [31C0] 
+
+========

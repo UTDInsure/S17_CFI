@@ -1,0 +1,12 @@
+
+
+33664: PUSH R12                       [4154] 
+33666: MOV R12,RDI                    [4989FC] 
+33669: PUSH RBP                       [55] 
+3366A: PUSH RBX                       [53] 
+3366B: SUB RSP,0x10                   [4883EC10] 
+3366F: TEST RSI,RSI                   [4885F6] 
+3377E: MOV EDI,0x4                    [BF04000000] 
+33747: MOV [RSP + 0x8],RSI            [4889742408] 
+
+========

@@ -1,0 +1,10 @@
+
+
+100944: XOR EAX,EAX                    [31C0] 
+100946: TEST EDI,EDI                   [85FF] 
+10094A: CMP ESI,0x7f                   [83FE7F] 
+10094F: MOV EAX,ESI                    [89F0] 
+100951: SHL EAX,0x4                    [C1E004] 
+100954: ADD EAX,0x8                    [83C008] 
+
+========

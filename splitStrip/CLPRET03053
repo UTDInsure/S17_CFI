@@ -1,0 +1,17 @@
+
+
+77D14: PUSH R14                       [4156] 
+77D16: XOR EAX,EAX                    [31C0] 
+77D18: TEST RDX,RDX                   [4885D2] 
+77D1B: PUSH R13                       [4155] 
+77D1D: PUSH R12                       [4154] 
+77D1F: PUSH RBP                       [55] 
+77D20: PUSH RBX                       [53] 
+77D21: MOV RBX,RDX                    [4889D3] 
+77D8E: POP RBX                        [5B] 
+77D8F: POP RBP                        [5D] 
+77D90: POP R12                        [415C] 
+77D92: POP R13                        [415D] 
+77D94: POP R14                        [415E] 
+
+========

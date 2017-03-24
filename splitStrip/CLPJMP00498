@@ -1,0 +1,16 @@
+
+
+412D14: SUB RSP,0x18                   [4883EC18] 
+412D18: MOV RAX,[0x0062ac38]           [488B05197F2100] 
+412D1F: MOVZX EDI,byte ptr [RAX]       [0FB638] 
+412D22: MOV RSI,[RAX + 0x8]            [488B7008] 
+412D26: XOR EAX,EAX                    [31C0] 
+412BF4: SUB RSP,0x8                    [4883EC08] 
+412BF8: CMP DIL,0x1                    [4080FF01] 
+412C30: MOV RCX,[RSI]                  [488B0E] 
+412C33: MOV EDX,0x41d13b               [BA3BD14100] 
+412C38: MOV ESI,0x2a                   [BE2A000000] 
+412C3D: MOV EDI,0x62ac00               [BF00AC6200] 
+412C42: XOR EAX,EAX                    [31C0] 
+
+========

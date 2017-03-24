@@ -1,0 +1,19 @@
+
+
+111844: PUSH R13                       [4155] 
+111846: PUSH R12                       [4154] 
+111848: PUSH RBP                       [55] 
+111849: PUSH RBX                       [53] 
+11184A: MOV RBX,RDI                    [4889FB] 
+11184D: SUB RSP,0x8                    [4883EC08] 
+111851: MOV EBP,[RDI]                  [8B2F] 
+107284: MOV EAX,[0x0036dee8]           [8B055E6C2600] 
+10728A: TEST EAX,EAX                   [85C0] 
+11185C: CMP EBP,EAX                    [39C5] 
+11187C: ADD RSP,0x8                    [4883C408] 
+111880: POP RBX                        [5B] 
+111881: POP RBP                        [5D] 
+111882: POP R12                        [415C] 
+111884: POP R13                        [415D] 
+
+========

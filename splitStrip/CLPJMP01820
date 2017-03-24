@@ -1,0 +1,16 @@
+
+
+11D944: PUSH R14                       [4156] 
+11D946: PUSH R13                       [4155] 
+11D948: MOV R13,[0x0036a980]           [4C8B2D31D02400] 
+11D94F: PUSH R12                       [4154] 
+11D951: TEST R13,R13                   [4D85ED] 
+11D954: PUSH RBP                       [55] 
+11D955: PUSH RBX                       [53] 
+11D958: NOP                            [0F1F840000000000] 
+11D960: MOV RDI,[R13 + 0x8]            [498B7D08] 
+11D964: MOV R14,[R13]                  [4D8B7500] 
+11D968: MOV EBP,0x1                    [BD01000000] 
+11D96D: XOR EBX,EBX                    [31DB] 
+
+========

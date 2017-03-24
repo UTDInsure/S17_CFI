@@ -1,0 +1,22 @@
+
+
+4073AC: MOV R13,[0x00627b78]           [4C8B2DC5072200] 
+4073B3: MOV dword ptr [0x00627bb0],0x0 [C705F307220000000000] 
+4073BD: TEST R13,R13                   [4D85ED] 
+4073C2: MOV R9D,[0x006261cc]           [448B0D03EE2100] 
+4073C9: TEST R9D,R9D                   [4585C9] 
+407A35: MOV RAX,[0x00627bc0]           [488B0584012200] 
+407A3C: SUB RAX,0x627be0               [482DE07B6200] 
+407A42: MOV [0x006261cc],EAX           [890584E72100] 
+4073D2: MOV RAX,[R13 + 0x10]           [498B4510] 
+4073D6: MOVSXD R14,[0x006261cc]        [4C6335EFED2100] 
+407403: CMP EBX,0xd                    [83FB0D] 
+407406: MOV RBP,[RAX + 0x8]            [488B6808] 
+40740A: CMOVNZ RBP,[RAX]               [480F4528] 
+40740E: CMP R13,RBP                    [4939ED] 
+4073E0: MOV R12,[RBP + 0x18]           [4C8B6518] 
+4073E4: MOV RDX,R14                    [4C89F2] 
+4073E7: MOV EDI,0x627be0               [BFE07B6200] 
+4073EC: MOV RSI,R12                    [4C89E6] 
+
+========

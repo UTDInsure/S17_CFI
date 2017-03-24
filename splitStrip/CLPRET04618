@@ -1,0 +1,27 @@
+
+
+BE584: PUSH R15                       [4157] 
+BE586: PUSH R14                       [4156] 
+BE588: PUSH R13                       [4155] 
+BE58A: PUSH R12                       [4154] 
+BE58C: PUSH RBP                       [55] 
+BE58D: PUSH RBX                       [53] 
+BE58E: MOV RBX,RDX                    [4889D3] 
+BE591: SUB RSP,0x28                   [4883EC28] 
+BE595: TEST byte ptr [RSI + 0x38],0x10 [F6463810] 
+BE599: MOV R13,[RSI]                  [4C8B2E] 
+BE59C: MOV [RSP + 0x8],RDI            [48897C2408] 
+BE5A1: MOV R10,[RDX + 0x8]            [4C8B5208] 
+BE5AB: TEST R10,R10                   [4D85D2] 
+BE5B4: MOV EDX,[RDX + 0x28]           [8B5228] 
+BE5B7: MOV RAX,R10                    [4C89D0] 
+BE5BA: CMP EDX,0x3f                   [83FA3F] 
+BE6B9: ADD RSP,0x28                   [4883C428] 
+BE6BD: POP RBX                        [5B] 
+BE6BE: POP RBP                        [5D] 
+BE6BF: POP R12                        [415C] 
+BE6C1: POP R13                        [415D] 
+BE6C3: POP R14                        [415E] 
+BE6C5: POP R15                        [415F] 
+
+========

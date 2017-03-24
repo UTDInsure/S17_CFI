@@ -1,0 +1,13 @@
+
+
+78FA4: PUSH RBP                       [55] 
+78FA5: PUSH RBX                       [53] 
+78FA6: MOV RBX,RDI                    [4889FB] 
+78FA9: SUB RSP,0x28                   [4883EC28] 
+78FAD: MOV EAX,[RDI]                  [8B07] 
+78FAF: TEST AL,0x80                   [A880] 
+79157: ADD RSP,0x28                   [4883C428] 
+7915B: POP RBX                        [5B] 
+7915C: POP RBP                        [5D] 
+
+========

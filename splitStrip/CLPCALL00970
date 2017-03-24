@@ -1,0 +1,23 @@
+
+
+E1634: PUSH R12                       [4154] 
+E1636: TEST RSI,RSI                   [4885F6] 
+E1639: MOV R12,RDI                    [4989FC] 
+E163C: PUSH RBP                       [55] 
+E163D: MOV RBP,RDX                    [4889D5] 
+E1640: PUSH RBX                       [53] 
+E1666: MOV RBX,[RSI]                  [488B1E] 
+E1669: TEST RBX,RBX                   [4885DB] 
+E1648: MOV RSI,[RBX]                  [488B33] 
+E164B: MOV RDI,R12                    [4C89E7] 
+E1654: TEST EAX,EAX                   [85C0] 
+E1658: LEA RSI,[RBX + 0x8]            [488D7308] 
+E165C: ADD RBX,0x10                   [4883C310] 
+E1660: TEST EAX,EAX                   [85C0] 
+E1662: CMOVNS RSI,RBX                 [480F49F3] 
+E1666: MOV RBX,[RSI]                  [488B1E] 
+E1669: TEST RBX,RBX                   [4885DB] 
+E1648: MOV RSI,[RBX]                  [488B33] 
+E164B: MOV RDI,R12                    [4C89E7] 
+
+========

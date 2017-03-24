@@ -1,0 +1,7 @@
+
+
+1DF74: SUB RSP,0x18                   [4883EC18] 
+1DF78: MOV EAX,[RSP + 0x20]           [8B442420] 
+1DF7C: MOV [RSP],EAX                  [890424] 
+
+========

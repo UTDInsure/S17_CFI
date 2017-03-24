@@ -1,0 +1,19 @@
+
+
+DE7F4: TEST RSI,RSI                   [4885F6] 
+DE820: SUB RSP,0x8                    [4883EC08] 
+DE824: MOV RSI,RDX                    [4889D6] 
+DE754: TEST RSI,RSI                   [4885F6] 
+DE7C0: XOR EDX,EDX                    [31D2] 
+DE7A0: XOR R10D,R10D                  [4531D2] 
+DE7A3: XOR ESI,ESI                    [31F6] 
+DE7A5: MOVSXD RDI,EDI                 [4863FF] 
+DE7A8: MOV EAX,0x118                  [B818010000] 
+DE7AF: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DE7DC: MOV RDX,[0x00368e68]           [488B1585A62800] 
+DE7E3: NEG EAX                        [F7D8] 
+DE7E5: MOV FS:[RDX],EAX               [648902] 
+DE7E8: OR RAX,-0x1                    [4883C8FF] 
+DE830: ADD RSP,0x8                    [4883C408] 
+
+========

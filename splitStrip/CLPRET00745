@@ -1,0 +1,16 @@
+
+
+40B474: PUSH RBP                       [55] 
+40B475: XOR EAX,EAX                    [31C0] 
+40B477: PUSH RBX                       [53] 
+40B478: MOV RBX,RDI                    [4889FB] 
+40B47B: SUB RSP,0x18                   [4883EC18] 
+405194: MOV RAX,[0x006279d8]           [488B053D282200] 
+40519B: TEST RAX,RAX                   [4885C0] 
+4051B0: XOR EAX,EAX                    [31C0] 
+40B488: TEST AL,0x1                    [A801] 
+40B48C: ADD RSP,0x18                   [4883C418] 
+40B490: POP RBX                        [5B] 
+40B491: POP RBP                        [5D] 
+
+========

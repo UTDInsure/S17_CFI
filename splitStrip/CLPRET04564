@@ -1,0 +1,10 @@
+
+
+BD1F4: SUB RSP,0x8                    [4883EC08] 
+BD1F8: MOV EAX,[RDI + 0x8]            [8B4708] 
+BD1FB: AND EAX,0x400ff                [25FF000400] 
+BD200: CMP EAX,0x6                    [83F806] 
+BD205: CMP EAX,0x3                    [83F803] 
+BD20A: ADD RSP,0x8                    [4883C408] 
+
+========

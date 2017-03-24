@@ -1,0 +1,8 @@
+
+
+DB344: TEST RSI,RSI                   [4885F6] 
+DB378: MOV RAX,[0x00368e68]           [488B05E9DA2800] 
+DB37F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DB386: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

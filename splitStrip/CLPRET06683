@@ -1,0 +1,12 @@
+
+
+100B24: CMP byte ptr [RDI + 0x2],0x0   [807F0200] 
+100B2A: MOVZX EAX,byte ptr [RDI + 0x1] [0FB64701] 
+100B2E: MOVSXD RSI,ESI                 [4863F6] 
+100B31: SHL EAX,0x3                    [C1E003] 
+100B34: CDQE                           [4898] 
+100B36: SHR RAX,0x4                    [48C1E804] 
+100B3A: CMP RSI,RAX                    [4839C6] 
+100B50: XOR EAX,EAX                    [31C0] 
+
+========

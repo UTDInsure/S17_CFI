@@ -1,0 +1,19 @@
+
+
+1A104: MOV RCX,RSI                    [4889F1] 
+1A107: AND ECX,0x7                    [83E107] 
+1A10A: MOV RDX,RDI                    [4889FA] 
+1A10F: NEG ECX                        [F7D9] 
+1A111: ADD ECX,0x8                    [83C108] 
+1A114: MOV AL,[RSI]                   [8A06] 
+1A116: TEST AL,AL                     [84C0] 
+1A118: MOV [RDX],AL                   [8802] 
+1A120: INC RSI                        [48FFC6] 
+1A123: INC RDX                        [48FFC2] 
+1A126: DEC ECX                        [FFC9] 
+1A114: MOV AL,[RSI]                   [8A06] 
+1A116: TEST AL,AL                     [84C0] 
+1A118: MOV [RDX],AL                   [8802] 
+1A1E8: MOV RAX,RDX                    [4889D0] 
+
+========

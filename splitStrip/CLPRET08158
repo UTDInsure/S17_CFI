@@ -1,0 +1,25 @@
+
+
+1D294: PUSH R15                       [4157] 
+1D296: PUSH R14                       [4156] 
+1D298: PUSH R13                       [4155] 
+1D29A: PUSH R12                       [4154] 
+1D29C: PUSH RBP                       [55] 
+1D29D: PUSH RBX                       [53] 
+1D29E: SUB RSP,0x18                   [4883EC18] 
+1D2A2: MOV RAX,[0x0024a7a0]           [488B05F7D42200] 
+1D2A9: MOV R13,[RAX]                  [4C8B28] 
+1D2AC: TEST R13,R13                   [4D85ED] 
+1D2B1: MOVSX EAX,DI                   [0FBFC7] 
+1D2B4: MOV EBP,EDI                    [89FD] 
+1D2B6: CMP EDI,EAX                    [39C7] 
+1D2BA: ADD RSP,0x18                   [4883C418] 
+1D2BE: XOR EAX,EAX                    [31C0] 
+1D2C0: POP RBX                        [5B] 
+1D2C1: POP RBP                        [5D] 
+1D2C2: POP R12                        [415C] 
+1D2C4: POP R13                        [415D] 
+1D2C6: POP R14                        [415E] 
+1D2C8: POP R15                        [415F] 
+
+========

@@ -1,0 +1,8 @@
+
+
+2A6F4: MOV RAX,[0x0024a7a0]           [488B05A5002200] 
+2A6FB: MOV RAX,[RAX]                  [488B00] 
+2A6FE: TEST RAX,RAX                   [4885C0] 
+2A920: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

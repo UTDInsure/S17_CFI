@@ -1,0 +1,28 @@
+
+
+E5E14: MOV RDI,[0xa8 + RDX]           [488BBAA8000000] 
+E5E1B: XOR ESI,ESI                    [31F6] 
+E5CF4: MOV RAX,[0x0036c450]           [488B0555672800] 
+E5CFB: CMP RDI,[RAX + 0x20]           [483B7820] 
+E5D01: CMP RDI,[RAX + 0x28]           [483B7828] 
+E5D05: MOV RDX,RAX                    [4889C2] 
+E5D57: SUB RDI,[RAX]                  [482B38] 
+E5D5A: TEST ESI,ESI                   [85F6] 
+E5D5C: MOV ECX,[RAX + 0x10]           [8B4810] 
+E5D61: MOV RAX,RDI                    [4889F8] 
+E5D64: SHR RDI,0x12                   [48C1EF12] 
+E5D68: SHR RAX,0x2                    [48C1E802] 
+E5D6C: MOVZX EAX,AX                   [0FB7C0] 
+E5D6F: IMUL RAX,RCX                   [480FAFC1] 
+E5D73: IMUL RDI,RCX                   [480FAFF9] 
+E5D77: SHR RAX,0x10                   [48C1E810] 
+E5D7B: ADD RAX,RDI                    [4801F8] 
+E5D7E: CMP RAX,[RDX + 0x8]            [483B4208] 
+E5D84: MOV RDX,[RDX + 0x18]           [488B5218] 
+E5D88: LEA RDX,[RDX + RAX*0x4]        [488D1482] 
+E5D8C: MOV EAX,[RDX]                  [8B02] 
+E5D8E: CMP EAX,-0x1                   [83F8FF] 
+E5D93: ADD EAX,0x1                    [83C001] 
+E5D96: MOV [RDX],EAX                  [8902] 
+
+========

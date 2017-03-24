@@ -1,0 +1,9 @@
+
+
+34C64: TEST RDI,RDI                   [4885FF] 
+34C6D: MOV R8,RDI                     [4989F8] 
+34C70: MOVZX EDI,byte ptr [R8]        [410FB638] 
+34C74: TEST DIL,DIL                   [4084FF] 
+34D0F: XOR EAX,EAX                    [31C0] 
+
+========

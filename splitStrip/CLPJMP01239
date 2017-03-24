@@ -1,0 +1,25 @@
+
+
+D7B44: PUSH R12                       [4154] 
+D7B46: PUSH RBP                       [55] 
+D7B47: MOV RBP,RDI                    [4889FD] 
+D7B4A: PUSH RBX                       [53] 
+D7B4B: SUB RSP,0x1000                 [4881EC00100000] 
+D7B52: TEST RDI,RDI                   [4885FF] 
+D7B57: MOV ESI,0x1000                 [BE00100000] 
+D7B5C: MOV RDI,RSP                    [4889E7] 
+D7454: PUSH R15                       [4157] 
+D7456: PUSH R14                       [4156] 
+D7458: PUSH R13                       [4155] 
+D745A: PUSH R12                       [4154] 
+D745C: MOV R12,RDI                    [4989FC] 
+D745F: PUSH RBP                       [55] 
+D7460: PUSH RBX                       [53] 
+D7461: MOV RBX,RSI                    [4889F3] 
+D7464: SUB RSP,0xf8                   [4881ECF8000000] 
+D746B: TEST RSI,RSI                   [4885F6] 
+D74B8: TEST RDI,RDI                   [4885FF] 
+D7492: MOV RDI,RSI                    [4889F7] 
+D7495: MOV [RSP],RSI                  [48893424] 
+
+========

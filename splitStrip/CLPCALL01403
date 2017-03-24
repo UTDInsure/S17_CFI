@@ -1,0 +1,11 @@
+
+
+10EC44: SUB RSP,0x8                    [4883EC08] 
+10EC48: MOV RDI,[RDI + 0x10]           [488B7F10] 
+10EC4C: MOV RCX,RSI                    [4889F1] 
+10EC4F: XOR EAX,EAX                    [31C0] 
+10EC51: MOV RSI,RDX                    [4889D6] 
+10EC54: MOV dword ptr [RDI + 0x68],0x2 [C7476802000000] 
+10EC5B: ADD RDI,0x68                   [4883C768] 
+
+========

@@ -1,0 +1,13 @@
+
+
+35634: MOVD EAX,XMM0                  [660F7EC0] 
+35638: MOV ECX,EAX                    [89C1] 
+3563A: SAR ECX,0x17                   [C1F917] 
+3563D: MOVZX ECX,CL                   [0FB6C9] 
+35640: SUB ECX,0x7f                   [83E97F] 
+35643: CMP ECX,0x16                   [83F916] 
+3568E: ADD ECX,-0x80                  [83C180] 
+35691: MOVSS [RDI],XMM0               [F30F1107] 
+356A1: TEST EAX,0x7fffff              [A9FFFF7F00] 
+
+========

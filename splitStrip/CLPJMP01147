@@ -1,0 +1,28 @@
+
+
+BD514: PUSH R15                       [4157] 
+BD516: MOV R15,RDI                    [4989FF] 
+BD519: PUSH R14                       [4156] 
+BD51B: XOR R14D,R14D                  [4531F6] 
+BD51E: PUSH R13                       [4155] 
+BD520: PUSH R12                       [4154] 
+BD522: PUSH RBP                       [55] 
+BD523: PUSH RBX                       [53] 
+BD524: SUB RSP,0x18                   [4883EC18] 
+BD528: MOV R13D,[0xac + RDI]          [448BAFAC000000] 
+BD52F: MOV dword ptr [RSP + 0xc],0x0  [C744240C00000000] 
+BD537: TEST R13D,R13D                 [4585ED] 
+BD540: MOV RAX,[0xb8 + R15]           [498B87B8000000] 
+BD547: XOR EBP,EBP                    [31ED] 
+BD549: XOR EBX,EBX                    [31DB] 
+BD54B: MOV R13,[RAX + R14*0x1]        [4E8B2C30] 
+BD54F: MOV R12D,[R13 + 0x14]          [458B6514] 
+BD553: TEST R12D,R12D                 [4585E4] 
+BD558: NOP                            [0F1F840000000000] 
+BD560: MOV RDX,[R13 + 0x18]           [498B5518] 
+BD564: ADD EBX,0x1                    [83C301] 
+BD567: MOV R12,[RDX + RBP*0x1]        [4C8B242A] 
+BD56B: ADD RBP,0x8                    [4883C508] 
+BD56F: MOV RDI,[R12 + 0x10]           [498B7C2410] 
+
+========

@@ -1,0 +1,9 @@
+
+
+18254: MOV RAX,[0x0024a830]           [488B05D5252300] 
+1825B: MOV RAX,[RAX]                  [488B00] 
+1825E: TEST RAX,RAX                   [4885C0] 
+18263: MOV dword ptr [RAX + 0x10],0x10000 [48C7401000000100] 
+1826B: XOR EAX,EAX                    [31C0] 
+
+========

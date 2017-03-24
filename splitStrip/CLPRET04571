@@ -1,0 +1,18 @@
+
+
+BDD24: MOV EDX,[RDI + 0x4]            [8B5704] 
+BDD27: XOR EAX,EAX                    [31C0] 
+BDD29: CMP EDX,[RSI + 0x4]            [3B5604] 
+BDD30: MOVSXD RAX,EDX                 [4863C2] 
+BDD33: LEA RAX,[-0x4 + RAX*0x4]       [488D0485FCFFFFFF] 
+BDD58: SUB EDX,0x1                    [83EA01] 
+BDD40: MOV RCX,[RDI + 0x8]            [488B4F08] 
+BDD44: MOV R8D,[RCX + RAX*0x1]        [448B0401] 
+BDD48: MOV RCX,[RSI + 0x8]            [488B4E08] 
+BDD4C: MOV ECX,[RCX + RAX*0x1]        [8B0C01] 
+BDD4F: SUB RAX,0x4                    [4883E804] 
+BDD53: CMP R8D,ECX                    [4139C8] 
+BDD58: SUB EDX,0x1                    [83EA01] 
+BDD5D: MOV EAX,0x1                    [B801000000] 
+
+========

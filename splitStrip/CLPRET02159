@@ -1,0 +1,22 @@
+
+
+456A4: PUSH RBX                       [53] 
+456A5: PUSH RBP                       [55] 
+456A6: LEA RBX,[RDX]                  [488D1A] 
+456A9: NEG RBX                        [48F7DB] 
+456AC: MOV RAX,[RSI]                  [488B06] 
+456AF: MOV R10,[RDI]                  [4C8B17] 
+456B2: LEA RDI,[RDI + RDX*0x8 + -0x10] [488D7CD7F0] 
+456B7: LEA RSI,[RSI + RDX*0x8]        [488D34D6] 
+456BB: MUL RCX                        [48F7E1] 
+456BE: BT EBX,0x0                     [0FBAE300] 
+456E8: ADD RBX,0x1                    [4883C301] 
+45778: MOV R10,[RDI + 0x8]            [4C8B5708] 
+4577C: ADD R10,RAX                    [4901C2] 
+4577F: MOV [RDI + 0x8],R10            [4C895708] 
+45783: MOV EAX,EBX                    [89D8] 
+45785: ADC RAX,RDX                    [4811D0] 
+45788: POP RBP                        [5D] 
+45789: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,23 @@
+
+
+BF907: MOV EAX,EBP                    [89E8] 
+BF909: AND EAX,[0x84 + R12]           [4123842484000000] 
+BF911: SHL RAX,0x4                    [48C1E004] 
+BF915: ADD RAX,[R12 + 0x40]           [4903442440] 
+BF91A: MOV EDX,[RAX]                  [8B10] 
+BF91C: TEST EDX,EDX                   [85D2] 
+BF920: MOV RBX,[RAX + 0x8]            [488B5808] 
+BF924: SUB EDX,0x1                    [83EA01] 
+BF927: LEA R13,[RBX + RDX*0x8 + 0x8]  [4C8D6CD308] 
+BF939: MOV R14,[RBX]                  [4C8B33] 
+BF93C: CMP [R14],EBP                  [41392E] 
+BF930: ADD RBX,0x8                    [4883C308] 
+BF934: CMP RBX,R13                    [4C39EB] 
+BF939: MOV R14,[RBX]                  [4C8B33] 
+BF93C: CMP [R14],EBP                  [41392E] 
+BF930: ADD RBX,0x8                    [4883C308] 
+BF934: CMP RBX,R13                    [4C39EB] 
+BF970: MOV ESI,0x1                    [BE01000000] 
+BF975: MOV EDI,0x58                   [BF58000000] 
+
+========

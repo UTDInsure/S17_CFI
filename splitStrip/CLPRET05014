@@ -1,0 +1,6 @@
+
+
+D7CE4: MOV EAX,0x5e                   [B85E000000] 
+D7CEB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

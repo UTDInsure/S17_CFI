@@ -1,0 +1,28 @@
+
+
+77874: PUSH R15                       [4157] 
+77876: PUSH R14                       [4156] 
+77878: MOV R14,RDX                    [4989D6] 
+7787B: PUSH R13                       [4155] 
+7787D: PUSH R12                       [4154] 
+7787F: MOV R12,RSI                    [4989F4] 
+77882: PUSH RBP                       [55] 
+77883: MOV RBP,RDI                    [4889FD] 
+77886: PUSH RBX                       [53] 
+77887: SUB RSP,0x8                    [4883EC08] 
+7788B: MOV R13,[RDI + 0x8]            [4C8B6F08] 
+7788F: MOV RBX,[RDI + 0x10]           [488B5F10] 
+77893: SUB RBX,R13                    [4C29EB] 
+77896: CMP RBX,RDX                    [4839D3] 
+7789B: TEST dword ptr [RDI],0x100     [F70700010000] 
+778A3: MOV R15,RSI                    [4989F7] 
+778A6: MOV RDI,RBP                    [4889EF] 
+77354: PUSH R12                       [4154] 
+77356: PUSH RBP                       [55] 
+77357: PUSH RBX                       [53] 
+77358: MOV RBX,RDI                    [4889FB] 
+7735B: SUB RSP,0x90                   [4881EC90000000] 
+77362: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+77369: MOV RSI,RSP                    [4889E6] 
+
+========

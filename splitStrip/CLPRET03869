@@ -1,0 +1,6 @@
+
+
+948B4: CMP RDI,RSI                    [4839F7] 
+948E8: XOR EAX,EAX                    [31C0] 
+
+========

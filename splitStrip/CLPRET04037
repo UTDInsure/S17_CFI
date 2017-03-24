@@ -1,0 +1,12 @@
+
+
+978A4: MOV EDX,[RDI]                  [8B17] 
+978A6: MOV RAX,RDI                    [4889F8] 
+978A9: TEST EDX,EDX                   [85D2] 
+978AD: CMP EDX,ESI                    [39F2] 
+978BC: ADD RAX,0x4                    [4883C004] 
+978C0: MOV EDX,[RAX]                  [8B10] 
+978C2: TEST EDX,EDX                   [85D2] 
+978B8: CMP EDX,ESI                    [39F2] 
+
+========

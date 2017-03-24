@@ -1,0 +1,8 @@
+
+
+40B344: TEST RSI,RSI                   [4885F6] 
+40B349: MOV RDX,[RDI]                  [488B17] 
+40B34C: CMP RSI,RDX                    [4839D6] 
+40B3A0: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,9 @@
+
+
+2A6B4: TEST EDI,EDI                   [85FF] 
+2A6B6: SETG DL                        [0F9FC2] 
+2A6B9: TEST ESI,ESI                   [85F6] 
+2A6BB: SETG AL                        [0F9FC0] 
+2A6BE: AND AL,DL                      [20D0] 
+
+========

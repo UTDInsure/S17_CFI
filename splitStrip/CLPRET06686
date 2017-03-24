@@ -1,0 +1,11 @@
+
+
+1013E4: TEST RDI,RDI                   [4885FF] 
+1013E7: MOV RDX,RDI                    [4889FA] 
+1013F0: LEA R8,[RDI + -0x18]           [4C8D47E8] 
+1013F4: LOCK                           [F0] 
+1013F5: ADD dword ptr [RDI + -0x14],-0x1 [8347ECFF] 
+1013F9: SETZ AL                        [0F94C0] 
+1013FC: TEST AL,AL                     [84C0] 
+
+========

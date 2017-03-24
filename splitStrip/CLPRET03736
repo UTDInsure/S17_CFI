@@ -1,0 +1,14 @@
+
+
+90C94: PUSH R12                       [4154] 
+90C96: TEST RSI,RSI                   [4885F6] 
+90C99: MOV R12D,EDX                   [4189D4] 
+90C9C: PUSH RBP                       [55] 
+90C9D: MOV RBP,RDI                    [4889FD] 
+90CA0: PUSH RBX                       [53] 
+90CA1: MOV RBX,RSI                    [4889F3] 
+90CDB: POP RBX                        [5B] 
+90CDC: POP RBP                        [5D] 
+90CDD: POP R12                        [415C] 
+
+========

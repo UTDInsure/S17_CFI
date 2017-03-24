@@ -1,0 +1,20 @@
+
+
+C8694: TEST RBP,RBP                   [4885ED] 
+C85E6: TEST RBP,RBP                   [4885ED] 
+C85EB: MOVZX EAX,byte ptr [R12 + 0x8] [410FB6442408] 
+C85F1: TEST R14,R14                   [4D85F6] 
+C85F4: CMOVZ R14,RBP                  [4C0F44F5] 
+C85F8: MOV EDX,EAX                    [89C2] 
+C85FA: AND EDX,0xfffffff7             [83E2F7] 
+C85FD: CMP DL,0x2                     [80FA02] 
+C8602: MOV RAX,R14                    [4C89F0] 
+C8605: ADD RSP,0x48                   [4883C448] 
+C8609: POP RBX                        [5B] 
+C860A: POP RBP                        [5D] 
+C860B: POP R12                        [415C] 
+C860D: POP R13                        [415D] 
+C860F: POP R14                        [415E] 
+C8611: POP R15                        [415F] 
+
+========

@@ -1,0 +1,7 @@
+
+
+1A404: TEST RDI,RDI                   [4885FF] 
+1A409: MOV [RDI + 0x22],SIL           [40887722] 
+1A40D: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,6 @@
+
+
+DD104: MOV EAX,0x132                  [B832010000] 
+DD10B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,23 @@
+
+
+47084: MOVSD [RSP + -0x8],XMM0        [F20F114424F8] 
+4708A: MOV RAX,[RSP + -0x8]           [488B4424F8] 
+4708F: MOV RSI,RAX                    [4889C6] 
+47092: SHR RSI,0x3f                   [48C1EE3F] 
+47096: MOV [RCX],ESI                  [8931] 
+47098: MOV RCX,RAX                    [4889C1] 
+4709B: MOV RSI,0xfffffffffffff        [48BEFFFFFFFFFFFF0F00] 
+470A5: SHR RCX,0x34                   [48C1E934] 
+470A9: AND RSI,RAX                    [4821C6] 
+470AC: SHR RAX,0x30                   [48C1E830] 
+470B0: AND ECX,0x7ff                  [81E1FF070000] 
+470B6: SUB ECX,0x3ff                  [81E9FF030000] 
+470BC: TEST EAX,0x7ff0                [A9F07F0000] 
+470C1: MOV [RDX],ECX                  [890A] 
+470C3: MOV [RDI],RSI                  [488937] 
+470F0: MOV RAX,0x10000000000000       [48B80000000000001000] 
+470FA: OR RAX,RSI                     [4809F0] 
+470FD: MOV [RDI],RAX                  [488907] 
+47100: MOV EAX,0x1                    [B801000000] 
+
+========

@@ -1,0 +1,28 @@
+
+
+A785C: MOVZX EDX,byte ptr [R15]       [410FB617] 
+A7860: LEA RAX,[R15 + 0x1]            [498D4701] 
+A7864: MOVSX RSI,DL                   [480FBEF2] 
+A7868: TEST byte ptr [RCX + RSI*0x2 + 0x1],0x20 [F644710120] 
+A7889: SUB EDX,0x30                   [83EA30] 
+A788C: CMP DL,0x9                     [80FA09] 
+A7895: LEA RAX,[R15 + 0x1]            [498D4701] 
+A7899: MOV [RSP + 0x68],RAX           [4889442468] 
+A789E: MOVSX EAX,byte ptr [R15]       [410FBE07] 
+A78A2: SUB EAX,0x30                   [83E830] 
+A78A5: CDQE                           [4898] 
+A78A7: LEA RDX,[RAX + RAX*0x4]        [488D1480] 
+A78AB: ADD RDX,RDX                    [4801D2] 
+A78AE: CMP RDX,0x1f                   [4883FA1F] 
+A78D7: LEA RDX,[RAX + -0x1]           [488D50FF] 
+A78DB: CMP RDX,0x1e                   [4883FA1E] 
+A6C92: XOR EAX,EAX                    [31C0] 
+A6C94: ADD RSP,0xc8                   [4881C4C8000000] 
+A6C9B: POP RBX                        [5B] 
+A6C9C: POP RBP                        [5D] 
+A6C9D: POP R12                        [415C] 
+A6C9F: POP R13                        [415D] 
+A6CA1: POP R14                        [415E] 
+A6CA3: POP R15                        [415F] 
+
+========

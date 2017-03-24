@@ -1,0 +1,20 @@
+
+
+F74A4: PUSH R13                       [4155] 
+F74A6: MOV ESI,0x1                    [BE01000000] 
+F74AB: XOR EAX,EAX                    [31C0] 
+F74AD: PUSH R12                       [4154] 
+F74AF: PUSH RBP                       [55] 
+F74B0: MOV EBP,EDI                    [89FD] 
+F74B2: PUSH RBX                       [53] 
+F74B3: SUB RSP,0x18                   [4883EC18] 
+F74B7: CMP dword ptr [0x0036e774],0x0 [833DB672270000] 
+F74C0: LOCK                           [F0] 
+F74C1: CMPXCHG [0x0036d450],ESI       [0FB135885F2700] 
+F74F3: MOV RDX,[0x0036a840]           [488B1546332700] 
+F74FA: MOV RCX,[0x0036d448]           [488B0D475F2700] 
+F7501: TEST RDX,RDX                   [4885D2] 
+F7600: MOV EDI,0x400                  [BF00040000] 
+F7605: MOV dword ptr [0x0036d448],0x400 [48C705385E270000040000] 
+
+========

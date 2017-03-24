@@ -1,0 +1,14 @@
+
+
+404AD4: PUSH R12                       [4154] 
+404AD6: PUSH RBP                       [55] 
+404AD7: MOV RBP,[0x006279d8]           [488B2DFA2E2200] 
+404ADE: PUSH RBX                       [53] 
+404ADF: TEST RBP,RBP                   [4885ED] 
+404BB0: POP RBX                        [5B] 
+404BB1: XOR R12D,R12D                  [4531E4] 
+404BB4: POP RBP                        [5D] 
+404BB5: MOV EAX,R12D                   [4489E0] 
+404BB8: POP R12                        [415C] 
+
+========

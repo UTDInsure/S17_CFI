@@ -1,0 +1,18 @@
+
+
+538ED: TEST byte ptr [R14 + 0x74],0x4 [41F6467404] 
+53901: CMP dword ptr [-0x10e0 + RBP],0x0 [83BD20EFFFFF00] 
+53908: MOV EDX,[RBX]                  [8B13] 
+57808: CMP dword ptr [-0x1118 + RBP],0x0 [83BDE8EEFFFF00] 
+57815: CMP EDX,0x30                   [83FA30] 
+57A52: MOV RAX,[RBX + 0x8]            [488B4308] 
+57A56: LEA RDX,[RAX + 0x8]            [488D5008] 
+57A5A: MOV [RBX + 0x8],RDX            [48895308] 
+57829: MOV RAX,[RAX]                  [488B00] 
+5782C: MOV ECX,[-0x1078 + RBP]        [8B8D88EFFFFF] 
+57832: MOV [RAX],CL                   [8808] 
+531CC: TEST R12,R12                   [4D85E4] 
+57005: MOV RDI,R12                    [4C89E7] 
+57008: MOV [-0x1078 + RBP],ECX        [898D88EFFFFF] 
+
+========

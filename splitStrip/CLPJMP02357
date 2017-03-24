@@ -1,0 +1,9 @@
+
+
+2F484: PUSH RBX                       [53] 
+2F485: MOV RBX,RSI                    [4889F3] 
+2F488: MOV RDX,RBX                    [4889DA] 
+2F48B: SUB RSP,0x1000                 [4881EC00100000] 
+2F492: MOV RSI,RSP                    [4889E6] 
+
+========

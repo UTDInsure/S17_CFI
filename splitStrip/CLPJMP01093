@@ -1,0 +1,20 @@
+
+
+B0264: PUSH R13                       [4155] 
+B0266: MOV ESI,0x1                    [BE01000000] 
+B026B: XOR EAX,EAX                    [31C0] 
+B026D: PUSH R12                       [4154] 
+B026F: PUSH RBP                       [55] 
+B0270: MOV RBP,RDI                    [4889FD] 
+B0273: PUSH RBX                       [53] 
+B0274: SUB RSP,0x18                   [4883EC18] 
+B0278: CMP dword ptr [0x0036e774],0x0 [833DF5E42B0000] 
+B0281: LOCK                           [F0] 
+B0282: CMPXCHG [0x0036bd08],ESI       [0FB1357FBA2B00] 
+B02B4: MOV RDX,[0x0036a788]           [488B15CDA42B00] 
+B02BB: MOV RCX,[0x0036bd00]           [488B0D3EBA2B00] 
+B02C2: TEST RDX,RDX                   [4885D2] 
+B03C0: MOV EDI,0x400                  [BF00040000] 
+B03C5: MOV dword ptr [0x0036bd00],0x400 [48C70530B92B0000040000] 
+
+========

@@ -1,0 +1,14 @@
+
+
+79D94: PUSH RBX                       [53] 
+79D95: MOV RDX,[RDI + 0x8]            [488B5708] 
+79D99: MOV RBX,RDI                    [4889FB] 
+79D9C: CMP RDX,[RDI + 0x18]           [483B5718] 
+79DA2: CMP [RDX + -0x1],SIL           [403872FF] 
+79DC8: SUB RDX,0x1                    [4883EA01] 
+79DCC: MOVZX EAX,SIL                  [400FB6C6] 
+79DD0: MOV [RDI + 0x8],RDX            [48895708] 
+79DBE: AND [RBX],0xffffffef           [8323EF] 
+79DC1: POP RBX                        [5B] 
+
+========

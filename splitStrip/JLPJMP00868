@@ -1,0 +1,17 @@
+
+
+58B33: CMP R14D,-0x1                  [4183FEFF] 
+58B37: MOV R11D,0xa                   [41BB0A000000] 
+58B43: MOV RAX,[0x00368e68]           [488B051E033100] 
+58B4A: MOV ESI,[-0x1e0 + RBP]         [8BB520FEFFFF] 
+58B50: MOV FS:[RAX],ESI               [648930] 
+58B53: MOV R9D,[-0x1fc + RBP]         [448B8D04FEFFFF] 
+58B5A: MOV EBX,0x1                    [BB01000000] 
+58B5F: TEST R9D,R9D                   [4585C9] 
+58378: TEST dword ptr [R15],0x8000    [41F70700800000] 
+58385: MOV EAX,[-0x284 + RBP]         [8B857CFDFFFF] 
+5838B: TEST EAX,EAX                   [85C0] 
+58393: CMP byte ptr [-0x1fd + RBP],0x0 [80BD03FEFFFF00] 
+5863B: MOV RDI,[-0x1f0 + RBP]         [488BBD10FEFFFF] 
+
+========

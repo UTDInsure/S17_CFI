@@ -1,0 +1,6 @@
+
+
+E02E4: MOV EAX,0x95                   [B895000000] 
+E02EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

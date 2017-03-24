@@ -1,0 +1,13 @@
+
+
+79844: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+7984B: PUSH RBX                       [53] 
+7984C: MOV RBX,RDI                    [4889FB] 
+79856: CMP EAX,-0x1                   [83F8FF] 
+7985B: MOV RAX,[RBX + 0x8]            [488B4308] 
+7985F: LEA RDX,[RAX + 0x1]            [488D5001] 
+79863: MOV [RBX + 0x8],RDX            [48895308] 
+79867: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+7986A: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,14 @@
+
+
+33044: PUSH RBP                       [55] 
+33045: PUSH RBX                       [53] 
+33046: MOV RBX,RDI                    [4889FB] 
+33049: SUB RSP,0x8                    [4883EC08] 
+3304D: TEST RDI,RDI                   [4885FF] 
+33188: MOV RBX,[0x0036a038]           [488B1DA96E3300] 
+3318F: ADD RSP,0x8                    [4883C408] 
+33193: MOV RAX,RBX                    [4889D8] 
+33196: POP RBX                        [5B] 
+33197: POP RBP                        [5D] 
+
+========

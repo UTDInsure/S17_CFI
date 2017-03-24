@@ -1,0 +1,10 @@
+
+
+11E124: MOV RDI,[0x0036d1d0]           [488B3DA5F02400] 
+11E12B: CMP RDI,0x1                    [4883FF01] 
+11E138: SUB RSP,0x8                    [4883EC08] 
+11C554: SUB RSP,0x8                    [4883EC08] 
+11C558: MOV RAX,[0x0036e340]           [488B05E11D2500] 
+11C55F: TEST RAX,RAX                   [4885C0] 
+
+========

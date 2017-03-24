@@ -1,0 +1,25 @@
+
+
+90034: PUSH R15                       [4157] 
+90036: MOV RAX,RDI                    [4889F8] 
+90039: PUSH R14                       [4156] 
+9003B: PUSH R13                       [4155] 
+9003D: PUSH R12                       [4154] 
+9003F: PUSH RBP                       [55] 
+90040: MOV RBP,RDI                    [4889FD] 
+90043: PUSH RBX                       [53] 
+90044: MOV RBX,RCX                    [4889CB] 
+90047: SUB RSP,0x38                   [4883EC38] 
+9004B: TEST RCX,RCX                   [4885C9] 
+90054: CMP RCX,RSI                    [4839F1] 
+90057: MOV R14,RSI                    [4989F6] 
+901D8: XOR EAX,EAX                    [31C0] 
+901DA: ADD RSP,0x38                   [4883C438] 
+901DE: POP RBX                        [5B] 
+901DF: POP RBP                        [5D] 
+901E0: POP R12                        [415C] 
+901E2: POP R13                        [415D] 
+901E4: POP R14                        [415E] 
+901E6: POP R15                        [415F] 
+
+========

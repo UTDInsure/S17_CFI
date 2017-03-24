@@ -1,0 +1,14 @@
+
+
+BDEB4: MOVZX EAX,byte ptr [RSI + 0x30] [0FB64630] 
+BDEB8: CMP AL,0xb                     [3C0B] 
+BDEBC: CMP AL,0x10                    [3C10] 
+BDEC0: MOV RAX,[RSI + 0x8]            [488B4608] 
+BDEC4: TEST RAX,RAX                   [4885C0] 
+BDED1: MOV RAX,[RSI + 0x10]           [488B4610] 
+BDED5: TEST RAX,RAX                   [4885C0] 
+BDEDA: MOV RDX,[RSI + 0x20]           [488B5620] 
+BDEDE: MOV [RAX + 0x20],RDX           [48895020] 
+BDEE2: XOR EAX,EAX                    [31C0] 
+
+========

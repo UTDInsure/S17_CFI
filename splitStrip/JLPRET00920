@@ -1,0 +1,11 @@
+
+
+94714: SHR ECX,0x10                   [C1E910] 
+94717: MOVZX EDX,CL                   [0FB6D1] 
+9471A: CMP EDX,0xff                   [81FAFF000000] 
+94720: MOV EAX,EDX                    [89D0] 
+94724: LEA EAX,[RCX*0x4]              [8D048D00000000] 
+9472B: POP RBX                        [5B] 
+9472C: AND EAX,0x3fc00                [2500FC0300] 
+
+========

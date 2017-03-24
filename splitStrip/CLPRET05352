@@ -1,0 +1,11 @@
+
+
+DDAB4: MOV RDI,[0x0036bfe0]           [488B3D25E52800] 
+DDABB: TEST RDI,RDI                   [4885FF] 
+DDAC0: SUB RSP,0x8                    [4883EC08] 
+DDD14: TEST RDI,RDI                   [4885FF] 
+DDD30: MOV EAX,0x1                    [B801000000] 
+DDACD: MOV dword ptr [0x0036bfe0],0x0 [48C70508E5280000000000] 
+DDAD8: ADD RSP,0x8                    [4883C408] 
+
+========

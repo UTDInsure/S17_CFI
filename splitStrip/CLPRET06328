@@ -1,0 +1,26 @@
+
+
+F1034: CMP EDI,0x3                    [83FF03] 
+F1037: MOV EAX,0x16                   [B816000000] 
+F103E: PUSH RBX                       [53] 
+F103F: MOVSXD RAX,EDI                 [4863C7] 
+F1042: MOV RBX,-0x6                   [48C7C3FAFFFFFF] 
+F1049: SUB RSP,0x20                   [4883EC20] 
+F104D: CMP EDI,0x2                    [83FF02] 
+F1050: CMOVNZ RBX,RAX                 [480F45D8] 
+F1054: MOV EAX,[0x0036e774]           [8B051AD72700] 
+F105A: TEST EAX,EAX                   [85C0] 
+F105E: MOV R10,RCX                    [4989CA] 
+F1061: MOVSXD RSI,ESI                 [4863F6] 
+F1064: MOV RDI,RBX                    [4889DF] 
+F1067: MOV EAX,0xe6                   [B8E6000000] 
+F106E: MOV EBX,EAX                    [89C3] 
+F1070: MOV EDX,EBX                    [89DA] 
+F1072: XOR EAX,EAX                    [31C0] 
+F1074: NEG EDX                        [F7DA] 
+F1076: CMP EBX,0xfffff000             [81FB00F0FFFF] 
+F107C: CMOVA EAX,EDX                  [0F47C2] 
+F107F: ADD RSP,0x20                   [4883C420] 
+F1083: POP RBX                        [5B] 
+
+========

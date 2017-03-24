@@ -1,0 +1,22 @@
+
+
+10BC64: PUSH R15                       [4157] 
+10BC66: PUSH R14                       [4156] 
+10BC68: PUSH R13                       [4155] 
+10BC6A: PUSH R12                       [4154] 
+10BC6C: PUSH RBP                       [55] 
+10BC6D: MOV RBP,RDI                    [4889FD] 
+10BC70: PUSH RBX                       [53] 
+10BC71: SUB RSP,0x28                   [4883EC28] 
+10BC75: MOV EBX,[RDI + 0x20]           [8B5F20] 
+10BC78: CMP EBX,0x3f                   [83FB3F] 
+10BD68: ADD RSP,0x28                   [4883C428] 
+10BD6C: XOR EAX,EAX                    [31C0] 
+10BD6E: POP RBX                        [5B] 
+10BD6F: POP RBP                        [5D] 
+10BD70: POP R12                        [415C] 
+10BD72: POP R13                        [415D] 
+10BD74: POP R14                        [415E] 
+10BD76: POP R15                        [415F] 
+
+========

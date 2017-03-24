@@ -1,0 +1,27 @@
+
+
+405BD4: PUSH RBP                       [55] 
+405BD5: MOV RBP,RDI                    [4889FD] 
+405BD8: PUSH RBX                       [53] 
+405BD9: MOVZX EBX,byte ptr [RDI]       [0FB61F] 
+405BDC: MOV EAX,EBX                    [89D8] 
+405BDE: AND EAX,0xfffffffe             [83E0FE] 
+405BE1: CMP AL,0xfe                    [3CFE] 
+405BE5: TEST BL,BL                     [84DB] 
+405BE7: MOV EAX,0x1                    [B801000000] 
+405C08: XOR EAX,EAX                    [31C0] 
+405C0A: MOVSX EDI,BL                   [0FBEFB] 
+405594: MOVSX EDI,DIL                  [400FBEFF] 
+405598: MOV EAX,0x2                    [B802000000] 
+40559D: MOV EDX,EDI                    [89FA] 
+40559F: AND EDX,0xe0                   [81E2E0000000] 
+4055A5: CMP EDX,0xc0                   [81FAC0000000] 
+4055AD: MOV EDX,EDI                    [89FA] 
+4055AF: MOV AL,0x3                     [B003] 
+4055B1: AND EDX,0xf0                   [81E2F0000000] 
+4055B7: CMP EDX,0xe0                   [81FAE0000000] 
+405C16: CMP EAX,0x1                    [83F801] 
+405BEE: POP RBX                        [5B] 
+405BEF: POP RBP                        [5D] 
+
+========

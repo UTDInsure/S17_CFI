@@ -1,0 +1,12 @@
+
+
+3D3B4: SUB RSP,0x8                    [4883EC08] 
+3D3B8: CMP R8D,0x400                  [4181F800040000] 
+3D3F0: TEST R8D,R8D                   [4585C0] 
+3D3F5: OR ECX,ESI                     [09F1] 
+3D3F7: XOR EAX,EAX                    [31C0] 
+3D3F9: TEST DL,DL                     [84D2] 
+3D3FB: CMOVNZ EAX,ECX                 [0F45C1] 
+3D3FE: ADD RSP,0x8                    [4883C408] 
+
+========

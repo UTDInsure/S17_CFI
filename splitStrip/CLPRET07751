@@ -1,0 +1,28 @@
+
+
+11CC74: TEST RSI,RSI                   [4885F6] 
+11CC79: SUB RSP,0x8                    [4883EC08] 
+42A34: PUSH RBP                       [55] 
+42A35: MOV RBP,RSP                    [4889E5] 
+42A38: PUSH R15                       [4157] 
+42A3A: PUSH R14                       [4156] 
+42A3C: PUSH R13                       [4155] 
+42A3E: MOV R13,RDI                    [4989FD] 
+42A41: PUSH R12                       [4154] 
+42A43: PUSH RBX                       [53] 
+42A44: SUB RSP,0xc8                   [4881ECC8000000] 
+42A4B: TEST RDI,RDI                   [4885FF] 
+42A4E: MOV [-0xd8 + RBP],RSI          [4889B528FFFFFF] 
+42F76: MOV RAX,[0x00368e68]           [488B05EB5E3200] 
+42F7D: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+42F84: XOR EAX,EAX                    [31C0] 
+42C71: LEA RSP,[RBP + -0x28]          [488D65D8] 
+42C75: POP RBX                        [5B] 
+42C76: POP R12                        [415C] 
+42C78: POP R13                        [415D] 
+42C7A: POP R14                        [415E] 
+42C7C: POP R15                        [415F] 
+42C7E: POP RBP                        [5D] 
+11CC86: ADD RSP,0x8                    [4883C408] 
+
+========

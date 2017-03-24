@@ -1,0 +1,6 @@
+
+
+DF4C4: CMP dword ptr [0x0036e774],0x0 [833DA9F2280000] 
+DF4D8: DEC dword ptr [0x0036c230]     [FF0D52CD2800] 
+
+========

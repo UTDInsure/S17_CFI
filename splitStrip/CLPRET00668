@@ -1,0 +1,23 @@
+
+
+4063D4: SUB RSP,0x8                    [4883EC08] 
+4063D8: CMP EDI,0x11                   [83FF11] 
+406408: MOV EDI,0x627b80               [BF807B6200] 
+40640D: XOR EAX,EAX                    [31C0] 
+40B2C4: PUSH RBP                       [55] 
+40B2C5: MOV RBP,RDI                    [4889FD] 
+40B2C8: PUSH RBX                       [53] 
+40B2C9: MOV RBX,RSI                    [4889F3] 
+40B2CC: SUB RSP,0x8                    [4883EC08] 
+40B2D0: TEST RSI,RSI                   [4885F6] 
+40B318: MOV RSI,[RDI]                  [488B37] 
+40B31B: MOV RDX,[RBP + 0x8]            [488B5508] 
+40B31F: CMP RSI,RDX                    [4839D6] 
+40B2EE: CMP byte ptr [RSI],0x0         [803E00] 
+40B331: MOV RAX,RSI                    [4889F0] 
+40B30A: ADD RSP,0x8                    [4883C408] 
+40B30E: POP RBX                        [5B] 
+40B30F: POP RBP                        [5D] 
+406418: ADD RSP,0x8                    [4883C408] 
+
+========

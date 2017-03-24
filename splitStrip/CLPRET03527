@@ -1,0 +1,19 @@
+
+
+87404: CMP RDX,0x3                    [4883FA03] 
+87408: MOV RAX,RDI                    [4889F8] 
+8740B: LEA RCX,[RDI + -0x1]           [488D4FFF] 
+874A0: AND EDX,0x3                    [83E203] 
+874B5: ADD RSI,0x1                    [4883C601] 
+874B9: MOVZX R8D,byte ptr [RSI + -0x1] [440FB646FF] 
+874BE: ADD RCX,0x1                    [4883C101] 
+874C2: SUB RDX,0x1                    [4883EA01] 
+874C6: MOV [RCX],R8B                  [448801] 
+874B0: TEST R8B,R8B                   [4584C0] 
+874B5: ADD RSI,0x1                    [4883C601] 
+874B9: MOVZX R8D,byte ptr [RSI + -0x1] [440FB646FF] 
+874BE: ADD RCX,0x1                    [4883C101] 
+874C2: SUB RDX,0x1                    [4883EA01] 
+874C6: MOV [RCX],R8B                  [448801] 
+
+========

@@ -1,0 +1,8 @@
+
+
+F0FC4: CMP dword ptr [RSI + 0x8],0x3b9ac9ff [48817E08FFC99A3B] 
+F1010: MOV RAX,[0x00368e68]           [488B05517E2700] 
+F1017: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+F101E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

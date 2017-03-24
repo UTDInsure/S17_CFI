@@ -1,0 +1,9 @@
+
+
+4129D4: SUB RSP,0x28                   [4883EC28] 
+4129D8: CMP EDI,0x1                    [83FF01] 
+4129DD: CMP EDI,0x2                    [83FF02] 
+4129E2: TEST EDI,EDI                   [85FF] 
+4129E6: ADD RSP,0x28                   [4883C428] 
+
+========

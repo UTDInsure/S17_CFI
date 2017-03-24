@@ -1,0 +1,7 @@
+
+
+2CD54: SUB RSP,0x8                    [4883EC08] 
+2CD58: SUB dword ptr [RSI + 0x30],0x1 [836E3001] 
+2CDA5: ADD RSP,0x8                    [4883C408] 
+
+========

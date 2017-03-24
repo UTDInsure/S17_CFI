@@ -1,0 +1,10 @@
+
+
+E3784: MOV EAX,0xbb                   [B8BB000000] 
+E378B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3794: MOV RCX,[0x00368e68]           [488B0DCD562800] 
+E379B: NEG EAX                        [F7D8] 
+E379D: MOV FS:[RCX],EAX               [648901] 
+E37A0: OR RAX,-0x1                    [4883C8FF] 
+
+========

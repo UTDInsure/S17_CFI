@@ -1,0 +1,7 @@
+
+
+FFD44: CMP EDX,0x3b                   [83FA3B] 
+FFD60: CMP EDX,0x36                   [83FA36] 
+FFD65: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

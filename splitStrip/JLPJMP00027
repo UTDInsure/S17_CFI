@@ -1,0 +1,16 @@
+
+
+16824: ADD RAX,0x10                   [4883C010] 
+16828: MOV RDX,[RAX]                  [488B10] 
+1682B: TEST RDX,RDX                   [4885D2] 
+167F8: SUB RDX,0x3                    [4883EA03] 
+167FC: CMP RDX,0x1e                   [4883FA1E] 
+16824: ADD RAX,0x10                   [4883C010] 
+16828: MOV RDX,[RAX]                  [488B10] 
+1682B: TEST RDX,RDX                   [4885D2] 
+167F8: SUB RDX,0x3                    [4883EA03] 
+167FC: CMP RDX,0x1e                   [4883FA1E] 
+16802: MOVSXD RDX,[RCX + RDX*0x4]     [48631491] 
+16806: ADD RDX,RCX                    [4801CA] 
+
+========

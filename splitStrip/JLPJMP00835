@@ -1,0 +1,19 @@
+
+
+587E5: MOVZX EBX,byte ptr [RDX + 0x1] [0FB65A01] 
+587E9: CMP BL,0x6c                    [80FB6C] 
+587F2: OR dword ptr [-0x218 + RBP],0x1 [838DE8FDFFFF01] 
+5830A: TEST BL,BL                     [84DB] 
+5D3B2: MOV EBX,0x2                    [BB02000000] 
+58378: TEST dword ptr [R15],0x8000    [41F70700800000] 
+58385: MOV EAX,[-0x284 + RBP]         [8B857CFDFFFF] 
+5838B: TEST EAX,EAX                   [85C0] 
+5860B: MOV RAX,[0x0036e738]           [488B0526613100] 
+58612: XOR ESI,ESI                    [31F6] 
+58614: LEA RDI,[-0x170 + RBP]         [488DBD90FEFFFF] 
+5861B: ROR RAX,0x11                   [48C1C811] 
+5861F: XOR RAX,FS:[0x30]              [644833042530000000] 
+5862E: CMP byte ptr [-0x1fd + RBP],0x0 [80BD03FEFFFF00] 
+5863B: MOV RDI,[-0x1f0 + RBP]         [488BBD10FEFFFF] 
+
+========

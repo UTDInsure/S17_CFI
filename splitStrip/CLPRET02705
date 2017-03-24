@@ -1,0 +1,17 @@
+
+
+71874: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+7187B: MOV RDX,[RAX + 0x20]           [488B5020] 
+7187F: MOV RSI,[RAX + 0x8]            [488B7008] 
+71883: CMP RDX,RSI                    [4839F2] 
+7188F: MOV ECX,[RDI]                  [8B0F] 
+71891: AND ECX,0xc00                  [81E1000C0000] 
+71897: CMP ECX,0xc00                  [81F9000C0000] 
+718B8: MOV RCX,[RAX + 0x28]           [488B4828] 
+718BC: AND [RDI],0xfffff7ff           [8127FFF7FFFF] 
+718C2: MOV [RAX],RDX                  [488910] 
+718C5: MOV [RAX + 0x20],RCX           [48894820] 
+718A2: CMP RSI,RDX                    [4839D6] 
+718A5: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

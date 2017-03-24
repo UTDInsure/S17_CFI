@@ -1,0 +1,11 @@
+
+
+2B1A4: PUSH R12                       [4154] 
+2B1A6: MOV R12D,ESI                   [4189F4] 
+2B1A9: PUSH RBP                       [55] 
+2B1AA: MOV RBP,RDI                    [4889FD] 
+2B1AD: PUSH RBX                       [53] 
+2B1AE: XOR EBX,EBX                    [31DB] 
+2B1B0: SUB RSP,0x1000                 [4881EC00100000] 
+
+========

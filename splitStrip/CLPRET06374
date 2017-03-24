@@ -1,0 +1,20 @@
+
+
+F1B64: MOV RCX,RSI                    [4889F1] 
+F1B67: AND ECX,0x7                    [83E107] 
+F1B6A: MOV R10,RDI                    [4989FA] 
+F1B6F: CMP RDX,0x8                    [4883FA08] 
+F1B79: SUB RCX,0x8                    [4883E908] 
+F1B7D: ADD RDX,RCX                    [4801CA] 
+F1B80: MOV AL,[RSI]                   [8A06] 
+F1B82: TEST AL,AL                     [84C0] 
+F1B84: MOV [RDI],AL                   [8807] 
+F1B8C: INC RSI                        [48FFC6] 
+F1B8F: INC RDI                        [48FFC7] 
+F1B92: INC ECX                        [FFC1] 
+F1B80: MOV AL,[RSI]                   [8A06] 
+F1B82: TEST AL,AL                     [84C0] 
+F1B84: MOV [RDI],AL                   [8807] 
+F1CAF: MOV RAX,R10                    [4C89D0] 
+
+========

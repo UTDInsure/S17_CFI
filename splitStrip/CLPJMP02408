@@ -1,0 +1,20 @@
+
+
+35964: PUSH R14                       [4156] 
+35966: PUSH R13                       [4155] 
+35968: PUSH R12                       [4154] 
+3596A: PUSH RBP                       [55] 
+3596B: PUSH RBX                       [53] 
+3596C: MOV RBX,[0x0024a7a0]           [488B1D2D4E2100] 
+35973: MOV RAX,[RBX]                  [488B03] 
+35976: TEST RAX,RAX                   [4885C0] 
+3597B: MOV RDX,[0x0024a810]           [488B158E4E2100] 
+35982: CMP [RAX + 0x19],SIL           [40387019] 
+35986: MOV EBP,ESI                    [89F5] 
+35988: MOV R13D,[RDX]                 [448B2A] 
+3598B: MOV RDX,[0x0024a858]           [488B15C64E2100] 
+35992: MOV R14D,[RDX]                 [448B32] 
+35997: MOV R12,RDI                    [4989FC] 
+3599A: LEA RDI,[0x405ea]              [488D3D49AC0000] 
+
+========

@@ -1,0 +1,21 @@
+
+
+114A64: PUSH R12                       [4154] 
+114A66: MOV R12,RSI                    [4989F4] 
+114A69: PUSH RBP                       [55] 
+114A6A: MOV RBP,RDI                    [4889FD] 
+114A6D: PUSH RBX                       [53] 
+114A6E: SUB RSP,0x10                   [4883EC10] 
+114A72: MOV RBX,[RSI]                  [488B1E] 
+114A75: TEST RBX,RBX                   [4885DB] 
+114A7A: XOR EAX,EAX                    [31C0] 
+114A7C: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+114A81: MOV RSI,RBX                    [4889DE] 
+114A84: MOV RDI,RBP                    [4889EF] 
+114A8D: CMP dword ptr [RBP],0x2        [837D0002] 
+114A93: ADD RSP,0x10                   [4883C410] 
+114A97: POP RBX                        [5B] 
+114A98: POP RBP                        [5D] 
+114A99: POP R12                        [415C] 
+
+========

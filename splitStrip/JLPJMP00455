@@ -1,0 +1,7 @@
+
+
+413B12: TEST EAX,EAX                   [85C0] 
+413BD8: LEA RDI,[RSP + 0x20]           [488D7C2420] 
+413BDD: MOV dword ptr [0x0062bb60],0x0 [C705797F210000000000] 
+
+========

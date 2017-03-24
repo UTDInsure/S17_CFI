@@ -1,0 +1,25 @@
+
+
+404E24: PUSH RBX                       [53] 
+404E25: MOV RBX,[0x006279d8]           [488B1DAC2B2200] 
+404E2C: TEST RBX,RBX                   [4885DB] 
+404E35: TEST byte ptr [0x824 + RBX],0x1 [F6832408000001] 
+404E42: MOV RAX,[RBX]                  [488B03] 
+404E45: CMP RAX,RBX                    [4839D8] 
+404E4A: NOP                            [660F1F440000] 
+404E50: MOV dword ptr [RAX + 0x20],-0x1 [48C74020FFFFFFFF] 
+404E58: MOV RAX,[RAX]                  [488B00] 
+404E5B: CMP RAX,RBX                    [4839D8] 
+404E50: MOV dword ptr [RAX + 0x20],-0x1 [48C74020FFFFFFFF] 
+404E58: MOV RAX,[RAX]                  [488B00] 
+404E5B: CMP RAX,RBX                    [4839D8] 
+404E60: MOV EDI,[0x820 + RBX]          [8BBB20080000] 
+404E66: XOR EAX,EAX                    [31C0] 
+40D224: PUSH RBX                       [53] 
+40D225: MOV ESI,EDI                    [89FE] 
+40D227: MOV EBX,EDI                    [89FB] 
+40D229: MOV EDI,0x1                    [BF01000000] 
+40D22E: SUB RSP,0x90                   [4881EC90000000] 
+40D235: MOV RDX,RSP                    [4889E2] 
+
+========

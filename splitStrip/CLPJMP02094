@@ -1,0 +1,17 @@
+
+
+1C254: PUSH R12                       [4154] 
+1C256: PUSH RBP                       [55] 
+1C257: PUSH RBX                       [53] 
+1C258: MOV RBX,[0x0024a7a0]           [488B1D41E52200] 
+1C25F: MOV R12,[RBX]                  [4C8B23] 
+1C262: MOV RDI,[R12 + 0x8]            [498B7C2408] 
+1C267: TEST RDI,RDI                   [4885FF] 
+1C28B: MOV RBP,[0x0024a880]           [488B2DEEE52200] 
+1C292: MOV dword ptr [0x318 + R12],0x1 [41C784241803000001000000] 
+1C29E: MOV RAX,[RBP]                  [488B4500] 
+1C2A2: MOV RAX,[RAX + 0x20]           [488B4020] 
+1C2A6: XOR ESI,ESI                    [31F6] 
+1C2A8: MOV RDI,[RAX + 0x10]           [488B7810] 
+
+========

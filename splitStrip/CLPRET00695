@@ -1,0 +1,14 @@
+
+
+407DE4: PUSH RBP                       [55] 
+407DE5: PUSH RBX                       [53] 
+407DE6: SUB RSP,0x98                   [4881EC98000000] 
+407DED: MOV EBX,[0x00626140]           [8B1D4DE32100] 
+407DF3: MOV EAX,[0x006261c0]           [8B05C7E32100] 
+407DF9: TEST EBX,EBX                   [85DB] 
+407F00: TEST EAX,EAX                   [85C0] 
+407F08: ADD RSP,0x98                   [4881C498000000] 
+407F0F: POP RBX                        [5B] 
+407F10: POP RBP                        [5D] 
+
+========

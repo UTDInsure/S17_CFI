@@ -1,0 +1,13 @@
+
+
+2F672: XOR ECX,ECX                    [31C9] 
+2F674: CMP R13,RSI                    [4939F5] 
+2F677: SETNC CL                       [0F93C1] 
+2F554: ADD RSP,0x8                    [4883C408] 
+2F558: MOV RAX,RCX                    [4889C8] 
+2F55B: POP RBX                        [5B] 
+2F55C: POP RBP                        [5D] 
+2F55D: POP R12                        [415C] 
+2F55F: POP R13                        [415D] 
+
+========

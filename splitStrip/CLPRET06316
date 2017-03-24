@@ -1,0 +1,15 @@
+
+
+F0EF4: NOT EDI                        [F7D7] 
+F0EF6: MOV ECX,0xe5                   [B9E5000000] 
+F0EFB: MOV R9,RSI                     [4989F1] 
+F0EFE: LEA R8D,[0x2 + RDI*0x8]        [448D04FD02000000] 
+F0F06: XOR ESI,ESI                    [31F6] 
+F0F08: MOV EAX,ECX                    [89C8] 
+F0F0A: MOVSXD RDI,R8D                 [4963F8] 
+F0F0F: CMP EAX,0xfffff000             [3D00F0FFFF] 
+F0F14: MOV RDX,RAX                    [4889C2] 
+F0F30: MOV [R9],R8D                   [458901] 
+F0F33: XOR EAX,EAX                    [31C0] 
+
+========

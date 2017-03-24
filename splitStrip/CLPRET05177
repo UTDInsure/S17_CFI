@@ -1,0 +1,27 @@
+
+
+DC0D4: PUSH R12                       [4154] 
+DC0D6: PUSH RBP                       [55] 
+DC0D7: PUSH RBX                       [53] 
+DC0D8: MOV EBX,EDI                    [89FB] 
+DC0DA: SUB RSP,0x10                   [4883EC10] 
+DC0DE: MOV EAX,[0x0036bfd0]           [8B05ECFE2800] 
+DC0E4: TEST EAX,EAX                   [85C0] 
+DC140: MOV EDI,EBX                    [89DF] 
+DBF04: SUB RSP,0x18                   [4883EC18] 
+DBF08: XOR EAX,EAX                    [31C0] 
+DBF0A: MOV ESI,0x540f                 [BE0F540000] 
+DBF0F: LEA RDX,[RSP + 0xc]            [488D54240C] 
+DC744: MOV EAX,0x10                   [B810000000] 
+DC74B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DBF1D: TEST EAX,EAX                   [85C0] 
+DBF21: MOV EAX,[RSP + 0xc]            [8B44240C] 
+DBF25: ADD RSP,0x18                   [4883C418] 
+DC14B: CMP EAX,-0x1                   [83F8FF] 
+DC16D: ADD RSP,0x10                   [4883C410] 
+DC171: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DC176: POP RBX                        [5B] 
+DC177: POP RBP                        [5D] 
+DC178: POP R12                        [415C] 
+
+========

@@ -1,0 +1,21 @@
+
+
+11B294: PUSH RBP                       [55] 
+11B295: MOV ECX,0xe                    [B90E000000] 
+11B29A: MOV RBP,RSI                    [4889F5] 
+11B29D: PUSH RBX                       [53] 
+11B29E: MOV RBX,RDI                    [4889FB] 
+11B2A1: LEA RDI,[0x1379a1]             [488D3DF9C60100] 
+11B2A8: MOV RSI,RBX                    [4889DE] 
+11B2AB: SUB RSP,0x8                    [4883EC08] 
+11B2AF: CMPSB.REPE RDI,RSI             [F3A6] 
+11B310: LEA RDI,[0x137992]             [488D3D7BC60100] 
+11B317: XOR ESI,ESI                    [31F6] 
+D6C44: MOV EAX,0x15                   [B815000000] 
+D6C4B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+11B322: TEST EAX,EAX                   [85C0] 
+11B326: LEA RBX,[0x137992]             [488D1D65C60100] 
+11B2F2: MOV RSI,RBP                    [4889EE] 
+11B2F5: MOV RDI,RBX                    [4889DF] 
+
+========

@@ -1,0 +1,19 @@
+
+
+7A5E4: PUSH RBX                       [53] 
+7A5E5: MOV RBX,RDI                    [4889FB] 
+7A5E8: SUB RSP,0x10                   [4883EC10] 
+7A5EC: MOV EAX,[RSI]                  [8B06] 
+7A5EE: MOV [RDI + 0x8],RSI            [48897708] 
+7A5F2: TEST AH,0x8                    [F6C408] 
+7A5F7: TEST AH,0x1                    [F6C401] 
+7A5FA: MOV RAX,[RSI + 0x8]            [488B4608] 
+7A600: SUB RAX,[RSI + 0x18]           [482B4618] 
+7A604: MOV [RBX + 0x10],EAX           [894310] 
+7A607: MOV RAX,[RSI + 0x60]           [488B4660] 
+7A60B: MOV [RBX],RAX                  [488903] 
+7A60E: MOV [RSI + 0x60],RBX           [48895E60] 
+7A612: ADD RSP,0x10                   [4883C410] 
+7A616: POP RBX                        [5B] 
+
+========

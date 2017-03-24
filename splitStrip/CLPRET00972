@@ -1,0 +1,7 @@
+
+
+412CC4: TEST RDI,RDI                   [4885FF] 
+412CC7: MOV EAX,0x418b16               [B8168B4100] 
+412CCE: TEST byte ptr [RDI + 0x10],0xc [F647100C] 
+
+========

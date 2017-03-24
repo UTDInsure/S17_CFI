@@ -1,0 +1,16 @@
+
+
+70B24: MOV RDX,[0xa0 + RDI]           [488B97A0000000] 
+70B2B: MOV RAX,RSI                    [4889F0] 
+70B2E: SUB RAX,[RDX + 0x10]           [482B4210] 
+70B32: MOV RDX,[RDI + 0x60]           [488B5760] 
+70B36: SAR RAX,0x2                    [48C1F802] 
+70B3A: TEST RDX,RDX                   [4885D2] 
+70B3F: NOP                            [90] 
+70B40: MOVSXD RCX,[RDX + 0x10]        [48634A10] 
+70B44: MOV RDX,[RDX]                  [488B12] 
+70B47: CMP RAX,RCX                    [4839C8] 
+70B4A: CMOVG RAX,RCX                  [480F4FC1] 
+70B4E: TEST RDX,RDX                   [4885D2] 
+
+========

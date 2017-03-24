@@ -1,0 +1,10 @@
+
+
+69EC4: PUSH RBX                       [53] 
+69EC5: MOV RBX,RDI                    [4889FB] 
+D8494: MOV EAX,0x57                   [B857000000] 
+D849B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+69ED1: TEST EAX,EAX                   [85C0] 
+69EFD: POP RBX                        [5B] 
+
+========

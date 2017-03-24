@@ -1,0 +1,19 @@
+
+
+6A6A9: AND [RBX + 0x74],0xffffffeb    [836374EB] 
+6A6AD: TEST dword ptr [RBX],0x8000    [F70300800000] 
+6A6B3: MOV RSI,RAX                    [4889C6] 
+6A6B8: MOV RDX,[0x88 + RBX]           [488B9388000000] 
+6A6BF: MOV EAX,[RDX + 0x4]            [8B4204] 
+6A6C2: LEA ECX,[RAX + -0x1]           [8D48FF] 
+6A6C5: TEST ECX,ECX                   [85C9] 
+6A6C7: MOV [RDX + 0x4],ECX            [894A04] 
+6A6CC: MOV dword ptr [RDX + 0x8],0x0  [48C7420800000000] 
+6A6D4: CMP dword ptr [0x0036e774],0x0 [833D9940300000] 
+6A6E4: DEC dword ptr [RDX]            [FF0A] 
+6A702: MOV RDI,RSI                    [4889F7] 
+22014: SUB RSP,0x18                   [4883EC18] 
+22018: MOV RAX,[0x0036a8f0]           [488B05D1883400] 
+2201F: TEST RAX,RAX                   [4885C0] 
+
+========

@@ -1,0 +1,7 @@
+
+
+410E24: MOV EAX,[0x0062bae8]           [8B05BEAC2100] 
+410E2A: TEST EAX,EAX                   [85C0] 
+410F60: XOR EAX,EAX                    [31C0] 
+
+========

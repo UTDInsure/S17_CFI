@@ -1,0 +1,28 @@
+
+
+E1684: PUSH RBP                       [55] 
+E1685: MOV RBP,RSP                    [4889E5] 
+E1688: PUSH R15                       [4157] 
+E168A: PUSH R14                       [4156] 
+E168C: PUSH R13                       [4155] 
+E168E: PUSH R12                       [4154] 
+E1690: PUSH RBX                       [53] 
+E1691: MOV RBX,RSI                    [4889F3] 
+E1694: SUB RSP,0x38                   [4883EC38] 
+E1698: MOV [RBP + -0x40],RDI          [48897DC0] 
+E169C: MOV [RBP + -0x48],RDX          [488955B8] 
+E16A0: SUB RSP,0x150                  [4881EC50010000] 
+E16A7: LEA R12,[RSP + 0xf]            [4C8D64240F] 
+E16AC: AND R12,-0x10                  [4983E4F0] 
+E16B0: TEST RSI,RSI                   [4885F6] 
+E16B9: MOV R13,[RSI]                  [4C8B2E] 
+E16BC: TEST R13,R13                   [4D85ED] 
+E16C5: MOV RAX,R13                    [4C89E8] 
+E16C8: XOR R14D,R14D                  [4531F6] 
+E16CB: MOV dword ptr [RBP + -0x34],0x28 [C745CC28000000] 
+E1702: MOV RSI,[RAX]                  [488B30] 
+E1705: MOV RDI,[RBP + -0x40]          [488B7DC0] 
+E1709: MOV R15D,R14D                  [4589F7] 
+E170C: MOV RAX,[RBP + -0x48]          [488B45B8] 
+
+========

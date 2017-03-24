@@ -1,0 +1,14 @@
+
+
+4083D8: MOVZX EDX,byte ptr [RAX]       [0FB610] 
+4083DB: CMP DL,0x20                    [80FA20] 
+4083BD: CMP DL,0x2b                    [80FA2B] 
+4085B0: MOV RDI,[0x00627448]           [488B3D91EE2100] 
+4085B7: TEST RDI,RDI                   [4885FF] 
+4085CF: CMP byte ptr [RAX],0x0         [803800] 
+4085E8: MOV RDI,RAX                    [4889C7] 
+4085EB: XOR EAX,EAX                    [31C0] 
+402894: PUSH RBX                       [53] 
+402895: MOV RBX,RDI                    [4889FB] 
+
+========

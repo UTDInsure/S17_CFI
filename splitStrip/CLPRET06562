@@ -1,0 +1,16 @@
+
+
+FC594: PUSH RBP                       [55] 
+FC595: PUSH RBX                       [53] 
+FC596: MOV RBX,RDI                    [4889FB] 
+FC599: SUB RSP,0x8                    [4883EC08] 
+FC59D: MOV RAX,[RBX + 0x20]           [488B4320] 
+FC5A1: ADD RAX,[RBX + 0x28]           [48034328] 
+FC5A5: MOV RDI,[RDI + 0x30]           [488B7F30] 
+FC5A9: CMP RDI,RAX                    [4839C7] 
+FC628: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+FC61D: ADD RSP,0x8                    [4883C408] 
+FC621: POP RBX                        [5B] 
+FC622: POP RBP                        [5D] 
+
+========

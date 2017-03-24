@@ -1,0 +1,11 @@
+
+
+96454: CMP RDX,0x3                    [4883FA03] 
+96420: MOV R8D,[RDI]                  [448B07] 
+96423: MOV ECX,[RSI]                  [8B0E] 
+96425: CMP R8D,ECX                    [4139C8] 
+96490: CMP R8D,ECX                    [4139C8] 
+96493: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+96484: MOV EAX,0x1                    [B801000000] 
+
+========

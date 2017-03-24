@@ -1,0 +1,16 @@
+
+
+22804: PUSH R12                       [4154] 
+22806: TEST RDI,RDI                   [4885FF] 
+22809: PUSH RBP                       [55] 
+2280A: MOV RBP,RDI                    [4889FD] 
+2280D: PUSH RBX                       [53] 
+228C0: MOV RBX,[0x0024a8a0]           [488B1DD97F2200] 
+228C7: MOV RDI,[RBX + 0x58]           [488B7B58] 
+228CB: TEST RDI,RDI                   [4885FF] 
+228E9: POP RBX                        [5B] 
+228EA: POP RBP                        [5D] 
+228EB: XOR EAX,EAX                    [31C0] 
+228ED: POP R12                        [415C] 
+
+========

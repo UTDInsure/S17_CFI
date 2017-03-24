@@ -1,0 +1,24 @@
+
+
+DF504: PUSH R13                       [4155] 
+DF506: PUSH R12                       [4154] 
+DF508: PUSH RBP                       [55] 
+DF509: PUSH RBX                       [53] 
+DF50A: SUB RSP,0x8                    [4883EC08] 
+DF50E: TEST RDI,RDI                   [4885FF] 
+DF51A: TEST EDX,EDX                   [85D2] 
+DF51C: MOV [0x0036c240],ESI           [89351ECD2800] 
+DF524: TEST EDX,0xfffffc07            [F7C207FCFFFF] 
+DF5A8: MOV [0x003691f4],EDX           [8915469C2800] 
+DF52C: MOV EBP,0x2                    [BD02000000] 
+DF531: MOV EDI,[0x003691f8]           [8B3DC19C2800] 
+DF537: CMP EDI,-0x1                   [83FFFF] 
+DF540: MOV EAX,[0x0036c244]           [8B05FECC2800] 
+DF546: TEST EAX,EAX                   [85C0] 
+DF596: ADD RSP,0x8                    [4883C408] 
+DF59A: POP RBX                        [5B] 
+DF59B: POP RBP                        [5D] 
+DF59C: POP R12                        [415C] 
+DF59E: POP R13                        [415D] 
+
+========

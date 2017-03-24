@@ -1,0 +1,10 @@
+
+
+414FE4: MOV RDI,[0x0062ba50]           [488B3D656A2100] 
+414FEB: XOR EAX,EAX                    [31C0] 
+414D04: PUSH RBP                       [55] 
+414D05: MOV RBP,RDI                    [4889FD] 
+414D08: PUSH RBX                       [53] 
+414D09: SUB RSP,0x18                   [4883EC18] 
+
+========

@@ -1,0 +1,26 @@
+
+
+AFE4: MOV RAX,[0x298 + RDI]          [488B8798020000] 
+AFEB: TEST RAX,RAX                   [4885C0] 
+AFF0: MOV RAX,[RAX + 0x8]            [488B4008] 
+AFF4: MOV ECX,[RAX]                  [8B08] 
+AFF6: MOV [0x2ec + RDI],ECX          [898FEC020000] 
+AFFC: MOV EDX,[RAX + 0x8]            [8B5008] 
+AFFF: MOV R8D,[RAX + 0x4]            [448B4004] 
+B003: LEA ESI,[RDX + -0x1]           [8D72FF] 
+B006: TEST ESI,EDX                   [85D6] 
+B00A: MOV [0x2f0 + RDI],ESI          [89B7F0020000] 
+B010: LEA RSI,[RAX + 0x10]           [488D7010] 
+B014: MOV EAX,[RAX + 0xc]            [8B400C] 
+B017: ADD EDX,EDX                    [01D2] 
+B019: MOV [0x2f8 + RDI],RSI          [4889B7F8020000] 
+B020: MOV [0x2f4 + RDI],EAX          [8987F4020000] 
+B026: LEA RAX,[RSI + RDX*0x4]        [488D0496] 
+B02A: MOV EDX,R8D                    [4489C2] 
+B02D: SHL RDX,0x2                    [48C1E202] 
+B031: MOV [0x300 + RDI],RAX          [48898700030000] 
+B038: LEA RAX,[RAX + RCX*0x4]        [488D0488] 
+B03C: SUB RAX,RDX                    [4829D0] 
+B03F: MOV [0x308 + RDI],RAX          [48898708030000] 
+
+========

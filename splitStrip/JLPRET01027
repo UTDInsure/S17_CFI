@@ -1,0 +1,18 @@
+
+
+A7AE1: MOVZX EDX,byte ptr [R15]       [410FB617] 
+A7AE5: LEA RAX,[R15 + 0x1]            [498D4701] 
+A7AE9: MOVSX RSI,DL                   [480FBEF2] 
+A7AED: TEST byte ptr [RCX + RSI*0x2 + 0x1],0x20 [F644710120] 
+A7B0E: SUB EDX,0x30                   [83EA30] 
+A7B11: CMP DL,0x9                     [80FA09] 
+A6C92: XOR EAX,EAX                    [31C0] 
+A6C94: ADD RSP,0xc8                   [4881C4C8000000] 
+A6C9B: POP RBX                        [5B] 
+A6C9C: POP RBP                        [5D] 
+A6C9D: POP R12                        [415C] 
+A6C9F: POP R13                        [415D] 
+A6CA1: POP R14                        [415E] 
+A6CA3: POP R15                        [415F] 
+
+========

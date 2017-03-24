@@ -1,0 +1,6 @@
+
+
+412AB4: TEST EDI,EDI                   [85FF] 
+412AE0: MOV dword ptr [0x0062ba30],0x1 [C705468F210001000000] 
+
+========

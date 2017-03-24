@@ -1,0 +1,27 @@
+
+
+7C2A4: PUSH R13                       [4155] 
+7C2A6: PUSH R12                       [4154] 
+7C2A8: PUSH RBP                       [55] 
+7C2A9: PUSH RBX                       [53] 
+7C2AA: SUB RSP,0x8                    [4883EC08] 
+7C2AE: MOV RAX,[0x00368e60]           [488B05ABCB2E00] 
+7C2B5: MOV RDX,[0x00369678]           [488B15BCD32E00] 
+7C2BC: MOV RBX,[RAX + 0x18]           [488B5818] 
+7C2C0: LEA RAX,[0x369678]             [488D05B1D32E00] 
+7C2C7: CMP RDX,RAX                    [4839C2] 
+7C2D0: MOV RAX,[RDX + 0x8]            [488B4208] 
+7C2D4: TEST AL,0x2                    [A802] 
+7C2D8: MOV RCX,RAX                    [4889C1] 
+7C2DB: AND RCX,-0x8                   [4883E1F8] 
+7C2DF: CMP RCX,0x1f                   [4883F91F] 
+7C2E5: TEST AL,0x1                    [A801] 
+7C2E9: XOR EAX,EAX                    [31C0] 
+7C2EB: TEST byte ptr [0x00369624],0x2 [F60532D32E0002] 
+7C3B9: ADD RSP,0x8                    [4883C408] 
+7C3BD: POP RBX                        [5B] 
+7C3BE: POP RBP                        [5D] 
+7C3BF: POP R12                        [415C] 
+7C3C1: POP R13                        [415D] 
+
+========

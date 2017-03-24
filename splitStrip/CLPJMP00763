@@ -1,0 +1,26 @@
+
+
+391F4: TEST RDI,RDI                   [4885FF] 
+391F7: PUSH RBX                       [53] 
+39240: MOV RAX,[0x00368dc0]           [488B0579FB3200] 
+39247: MOV RAX,FS:[RAX]               [64488B00] 
+3924B: MOV RBX,[RAX]                  [488B18] 
+3924E: MOV RAX,[RBX + 0x28]           [488B4328] 
+39252: TEST RAX,RAX                   [4885C0] 
+3926A: LEA RAX,[0x366d40]             [488D05CFDA3200] 
+39271: CMP RBX,RAX                    [4839C3] 
+39276: MOV RDI,RBX                    [4889DF] 
+A14F4: PUSH RBP                       [55] 
+A14F5: MOV RBP,RSP                    [4889E5] 
+A14F8: PUSH R13                       [4155] 
+A14FA: PUSH R12                       [4154] 
+A14FC: PUSH RBX                       [53] 
+A14FD: MOV RBX,RDI                    [4889FB] 
+A1500: SUB RSP,0x8                    [4883EC08] 
+A1504: MOV EDX,[0x0036e770]           [8B1566D22C00] 
+A150A: TEST EDX,EDX                   [85D2] 
+A1512: CMP dword ptr [RBX + 0x28],0x0 [48837B2800] 
+A151D: MOV ESI,0x20                   [BE20000000] 
+A1522: MOV EDI,0x1                    [BF01000000] 
+
+========

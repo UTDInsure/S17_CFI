@@ -1,0 +1,6 @@
+
+
+F3F24: TEST EDX,EDX                   [85D2] 
+F4080: XOR EAX,EAX                    [31C0] 
+
+========

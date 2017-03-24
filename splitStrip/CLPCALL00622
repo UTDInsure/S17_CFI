@@ -1,0 +1,21 @@
+
+
+786D4: PUSH R12                       [4154] 
+786D6: CMP dword ptr [RDI + 0x70],-0x1 [837F70FF] 
+786DA: PUSH RBP                       [55] 
+786DB: PUSH RBX                       [53] 
+786DC: MOV RBX,RDI                    [4889FB] 
+786E1: MOV EAX,[RDI]                  [8B07] 
+786E3: MOV RBP,[0x00368e68]           [488B2D7E072F00] 
+786EA: MOV ECX,0x3                    [B903000000] 
+786EF: MOV [RDI + 0x70],ESI           [897770] 
+786F2: MOV dword ptr [0x90 + RDI],-0x1 [48C78790000000FFFFFFFF] 
+786FD: XOR ESI,ESI                    [31F6] 
+786FF: MOV EDX,0x1                    [BA01000000] 
+78704: AND EAX,0xfffffff3             [83E0F3] 
+78707: MOV R12D,FS:[RBP]              [64448B6500] 
+7870C: OR EAX,0x40                    [83C840] 
+7870F: MOV [RDI],EAX                  [8907] 
+78711: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

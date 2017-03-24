@@ -1,0 +1,23 @@
+
+
+1D624: PUSH R13                       [4155] 
+1D626: MOV EAX,ECX                    [89C8] 
+1D628: SHR EAX,0x1f                   [C1E81F] 
+1D62B: PUSH R12                       [4154] 
+1D62D: MOV R12D,ECX                   [4189CC] 
+1D630: PUSH RBP                       [55] 
+1D631: PUSH RBX                       [53] 
+1D632: SUB RSP,0x8                    [4883EC08] 
+1D636: TEST AL,AL                     [84C0] 
+1D63E: MOV EAX,R8D                    [4489C0] 
+1D641: MOV R13D,R8D                   [4589C5] 
+1D644: SHR EAX,0x1f                   [C1E81F] 
+1D647: TEST AL,AL                     [84C0] 
+1D750: ADD RSP,0x8                    [4883C408] 
+1D754: XOR EAX,EAX                    [31C0] 
+1D756: POP RBX                        [5B] 
+1D757: POP RBP                        [5D] 
+1D758: POP R12                        [415C] 
+1D75A: POP R13                        [415D] 
+
+========

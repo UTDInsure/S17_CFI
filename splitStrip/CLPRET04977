@@ -1,0 +1,6 @@
+
+
+D70D4: MOV EAX,0x49                   [B849000000] 
+D70DB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

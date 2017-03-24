@@ -1,0 +1,9 @@
+
+
+B3F14: MOV EAX,[0x0036e770]           [8B0556A82B00] 
+B3F1A: TEST EAX,EAX                   [85C0] 
+B3F1E: MOV EDI,EDI                    [89FF] 
+B3F20: MOV EAX,0x69                   [B869000000] 
+B3F27: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

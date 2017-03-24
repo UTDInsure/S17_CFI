@@ -1,0 +1,21 @@
+
+
+75C04: PUSH R14                       [4156] 
+75C06: PUSH R13                       [4155] 
+75C08: PUSH R12                       [4154] 
+75C0A: PUSH RBP                       [55] 
+75C0B: PUSH RBX                       [53] 
+75C0C: MOV RBX,RDX                    [4889D3] 
+75C0F: SUB RSP,0x90                   [4881EC90000000] 
+75C16: MOV EAX,[RDX]                  [8B02] 
+75C18: TEST AH,0x20                   [F6C420] 
+75C21: AND EAX,0x8000                 [2500800000] 
+75C26: MOV RBP,RDI                    [4889FD] 
+75C29: MOV R12,RSI                    [4989F4] 
+75C8B: TEST RBP,RBP                   [4885ED] 
+75C8E: MOV R13D,[RBX + 0x70]          [448B6B70] 
+75C92: SETZ R14B                      [410F94C6] 
+75DC0: TEST R13D,R13D                 [4585ED] 
+75DC9: MOV EDI,0x1e                   [BF1E000000] 
+
+========

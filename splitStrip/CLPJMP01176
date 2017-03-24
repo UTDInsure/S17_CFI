@@ -1,0 +1,22 @@
+
+
+C0094: PUSH R15                       [4157] 
+C0096: MOVSXD R15,ESI                 [4C63FE] 
+C0099: SHL R15,0x4                    [49C1E704] 
+C009D: PUSH R14                       [4156] 
+C009F: PUSH R13                       [4155] 
+C00A1: PUSH R12                       [4154] 
+C00A3: PUSH RBP                       [55] 
+C00A4: PUSH RBX                       [53] 
+C00A5: SUB RSP,0x48                   [4883EC48] 
+C00A9: ADD R15,[RDI + 0x38]           [4C037F38] 
+C00AD: MOV dword ptr [RSP + 0x30],0x0 [48C744243000000000] 
+C00B6: MOV dword ptr [RSP + 0x38],0x0 [48C744243800000000] 
+C00BF: MOV [RSP],ESI                  [893424] 
+C00C2: MOV [RSP + 0x10],RDX           [4889542410] 
+C00C7: MOV [RSP + 0x20],RCX           [48894C2420] 
+C00CC: MOV EBX,[R15 + 0x4]            [418B5F04] 
+C00D0: TEST EBX,EBX                   [85DB] 
+C02AF: XOR EDI,EDI                    [31FF] 
+
+========

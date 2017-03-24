@@ -1,0 +1,11 @@
+
+
+D31EF: TEST RBP,RBP                   [4885ED] 
+D31F8: CMP byte ptr [RBP],0x0         [807D0000] 
+D3ECC: MOV R12D,[RSP + 0x58]          [448B642458] 
+D3ED1: TEST R12D,R12D                 [4585E4] 
+D32C5: XOR R12D,R12D                  [4531E4] 
+D32C8: TEST R14D,R14D                 [4585F6] 
+D2B2C: MOV RDI,R10                    [4C89D7] 
+
+========

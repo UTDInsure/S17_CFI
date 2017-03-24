@@ -1,0 +1,15 @@
+
+
+40EED4: PUSH RBP                       [55] 
+40EED5: PUSH RBX                       [53] 
+40EED6: MOV RBX,RDI                    [4889FB] 
+40EED9: SUB RSP,0x18                   [4883EC18] 
+40EEDD: CMP RDI,0x8                    [4883FF08] 
+40EFF0: MOV ECX,[0x006279e0]           [8B0DEA892100] 
+40EFF6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+40EFFB: TEST ECX,ECX                   [85C9] 
+40EFE2: ADD RSP,0x18                   [4883C418] 
+40EFE6: POP RBX                        [5B] 
+40EFE7: POP RBP                        [5D] 
+
+========

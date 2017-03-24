@@ -1,0 +1,13 @@
+
+
+7A9A4: MOV RDX,FS:[0x10]              [64488B142510000000] 
+7A9AD: CMP RDX,[0x0036b788]           [483B15D40D2F00] 
+7A9B6: MOV ESI,0x1                    [BE01000000] 
+7A9BB: XOR EAX,EAX                    [31C0] 
+7A9BD: CMP dword ptr [0x0036e774],0x0 [833DB03D2F0000] 
+7A9C6: LOCK                           [F0] 
+7A9C7: CMPXCHG [0x0036b780],ESI       [0FB135B20D2F00] 
+7A9F9: MOV [0x0036b788],RDX           [488915880D2F00] 
+7AA00: ADD dword ptr [0x0036b784],0x1 [83057D0D2F0001] 
+
+========

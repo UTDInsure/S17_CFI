@@ -1,0 +1,9 @@
+
+
+96164: MOV R8D,[RDI]                  [448B07] 
+96167: TEST R8D,R8D                   [4585C0] 
+9616C: MOV R9D,[RSI]                  [448B0E] 
+9616F: XOR EAX,EAX                    [31C0] 
+96171: TEST R9D,R9D                   [4585C9] 
+
+========

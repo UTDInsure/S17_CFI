@@ -1,0 +1,10 @@
+
+
+100684: TEST RDI,RDI                   [4885FF] 
+100687: MOV EAX,0x2                    [B802000000] 
+10068E: LEA EDX,[RSI + -0x1]           [8D56FF] 
+100691: CMP EDX,0x7ff                  [81FAFF070000] 
+1006B0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1006B5: NOP                            [0F1F00] 
+
+========

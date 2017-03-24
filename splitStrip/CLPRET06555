@@ -1,0 +1,19 @@
+
+
+FB4A4: PUSH RBX                       [53] 
+FB4A5: XOR EAX,EAX                    [31C0] 
+FB4A7: MOV R9,RDI                     [4989F9] 
+FB4AA: MOV RBX,RCX                    [4889CB] 
+FB4AD: MOV ECX,0x10                   [B910000000] 
+FB4B2: MOV R11D,ESI                   [4189F3] 
+FB4B5: ADD RSP,-0x80                  [4883C480] 
+FB4B9: CMP R8W,0x2                    [664183F802] 
+FB4BE: MOV RDI,RSP                    [4889E7] 
+FB4C1: MOV R10,RSP                    [4989E2] 
+FB4C4: STOSQ.REP RDI                  [F348AB] 
+FB4C9: CMP R8W,0xa                    [664183F80A] 
+FB518: SUB RSP,-0x80                  [4883EC80] 
+FB51C: XOR EAX,EAX                    [31C0] 
+FB51E: POP RBX                        [5B] 
+
+========

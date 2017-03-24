@@ -1,0 +1,28 @@
+
+
+E0F64: LEA RSI,[0x36c310]             [488D35A5B32800] 
+E0F6B: SUB RSP,0x8                    [4883EC08] 
+E0F84: TEST RSI,RSI                   [4885F6] 
+E0F87: PUSH RBX                       [53] 
+E0F88: MOV RBX,RSI                    [4889F3] 
+E0F91: XOR EAX,EAX                    [31C0] 
+E0F93: CMP dword ptr [RSI],0x0        [48833E00] 
+E0F9B: MOV RAX,RDI                    [4889F8] 
+E0F9E: MOV R8D,0x3                    [41B803000000] 
+E0FA4: MOV ESI,0xaaaaaaab             [BEABAAAAAA] 
+E0FA9: OR RAX,0x1                     [4883C801] 
+E0FAD: CMP RDI,0x3                    [4883FF03] 
+E0FB1: CMOVNC R8,RAX                  [4C0F43C0] 
+E0FB5: CMP R8D,0x9                    [4183F809] 
+E0FB9: MOV EDI,R8D                    [4489C7] 
+E100D: XOR EDX,EDX                    [31D2] 
+E100F: MOV ECX,0x3                    [B903000000] 
+E1014: MOV EAX,EDI                    [89F8] 
+E1016: DIV ECX                        [F7F1] 
+E1018: TEST EDX,EDX                   [85D2] 
+E101C: MOV [RBX + 0x8],EDI            [897B08] 
+E101F: MOV dword ptr [RBX + 0xc],0x0  [C7430C00000000] 
+E1026: ADD EDI,0x1                    [83C701] 
+E1029: MOV ESI,0x18                   [BE18000000] 
+
+========

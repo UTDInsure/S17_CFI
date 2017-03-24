@@ -1,0 +1,9 @@
+
+
+1D764: SUB RSP,0x8                    [4883EC08] 
+1D768: MOVSX EAX,word ptr [RDI + 0xa] [0FBF470A] 
+1D76C: MOVSX R9D,word ptr [RDI + 0x8] [440FBF4F08] 
+1D771: SUB R8D,EAX                    [4129C0] 
+1D774: SUB ECX,R9D                    [4429C9] 
+
+========

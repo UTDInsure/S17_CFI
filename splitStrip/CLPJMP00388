@@ -1,0 +1,11 @@
+
+
+40CC14: MOV EDX,[0x0062ba44]           [8B152AEE2100] 
+40CC1A: XOR EAX,EAX                    [31C0] 
+40CC1C: TEST EDX,EDX                   [85D2] 
+40CC24: PUSH R12                       [4154] 
+40CC26: PUSH RBP                       [55] 
+40CC27: MOV RBP,RDI                    [4889FD] 
+40CC2A: PUSH RBX                       [53] 
+
+========

@@ -1,0 +1,18 @@
+
+
+F3044: SUB RSP,0x8                    [4883EC08] 
+D7454: PUSH R15                       [4157] 
+D7456: PUSH R14                       [4156] 
+D7458: PUSH R13                       [4155] 
+D745A: PUSH R12                       [4154] 
+D745C: MOV R12,RDI                    [4989FC] 
+D745F: PUSH RBP                       [55] 
+D7460: PUSH RBX                       [53] 
+D7461: MOV RBX,RSI                    [4889F3] 
+D7464: SUB RSP,0xf8                   [4881ECF8000000] 
+D746B: TEST RSI,RSI                   [4885F6] 
+D74B8: TEST RDI,RDI                   [4885FF] 
+D7492: MOV RDI,RSI                    [4889F7] 
+D7495: MOV [RSP],RSI                  [48893424] 
+
+========

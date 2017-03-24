@@ -1,0 +1,21 @@
+
+
+89724: PUSH R12                       [4154] 
+89726: MOV RAX,RSI                    [4889F0] 
+89729: SUB RAX,RDI                    [4829F8] 
+8972C: PUSH RBP                       [55] 
+8972D: CMP RAX,RDX                    [4839D0] 
+89730: PUSH RBX                       [53] 
+89737: CMP RDX,0xf                    [4883FA0F] 
+8973B: MOV RBX,RSI                    [4889F3] 
+8973E: MOV RBP,RDI                    [4889FD] 
+897AB: MOV RSI,RBP                    [4889EE] 
+897AE: LEA R8,[RBX + RDX*0x1]         [4C8D0413] 
+897B2: MOV RDI,RBX                    [4889DF] 
+897B5: SUB RSI,RBX                    [4829DE] 
+897B8: TEST RDX,RDX                   [4885D2] 
+897D0: POP RBX                        [5B] 
+897D1: POP RBP                        [5D] 
+897D2: POP R12                        [415C] 
+
+========

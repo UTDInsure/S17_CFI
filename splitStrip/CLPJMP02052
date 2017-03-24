@@ -1,0 +1,6 @@
+
+
+184F4: SUB RSP,0x8                    [4883EC08] 
+184F8: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+
+========

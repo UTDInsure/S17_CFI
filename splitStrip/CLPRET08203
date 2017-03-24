@@ -1,0 +1,13 @@
+
+
+1EF74: PUSH R12                       [4154] 
+1EF76: PUSH RBP                       [55] 
+1EF77: PUSH RBX                       [53] 
+1EF78: MOV RBX,[0x0024a7a0]           [488B1D21B82200] 
+1EF7F: CMP dword ptr [RBX],0x0        [48833B00] 
+1F030: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1F025: POP RBX                        [5B] 
+1F026: POP RBP                        [5D] 
+1F027: POP R12                        [415C] 
+
+========

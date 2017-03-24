@@ -1,0 +1,12 @@
+
+
+2ECD4: LEA EDX,[0x80 + RDI]           [8D9780000000] 
+2ECDA: MOVSXD RAX,EDI                 [4863C7] 
+2ECDD: CMP EDX,0x17f                  [81FA7F010000] 
+2ECE5: MOV RDX,[0x00368dc0]           [488B15D4A03300] 
+2ECEC: MOV RDX,FS:[RDX]               [64488B12] 
+2ECF0: MOV RDX,[RDX]                  [488B12] 
+2ECF3: MOV RDX,[RDX + 0x48]           [488B5248] 
+2ECF7: MOV EAX,[0x200 + RDX + RAX*0x4] [8B848200020000] 
+
+========

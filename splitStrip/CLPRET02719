@@ -1,0 +1,27 @@
+
+
+718D4: PUSH R15                       [4157] 
+718D6: PUSH R14                       [4156] 
+718D8: PUSH R13                       [4155] 
+718DA: PUSH R12                       [4154] 
+718DC: MOV R12D,ESI                   [4189F4] 
+718DF: PUSH RBP                       [55] 
+718E0: MOV RBP,RDI                    [4889FD] 
+718E3: PUSH RBX                       [53] 
+718E4: SUB RSP,0x18                   [4883EC18] 
+718E8: MOV EDX,[RDI]                  [8B17] 
+718EA: CMP ESI,-0x1                   [83FEFF] 
+718ED: SETZ R13B                      [410F94C5] 
+718F1: TEST DL,0x8                    [F6C208] 
+718F6: XOR R13D,0x1                   [4183F501] 
+718FA: MOVZX EAX,R13B                 [410FB6C5] 
+718FE: NEG EAX                        [F7D8] 
+71900: ADD RSP,0x18                   [4883C418] 
+71904: POP RBX                        [5B] 
+71905: POP RBP                        [5D] 
+71906: POP R12                        [415C] 
+71908: POP R13                        [415D] 
+7190A: POP R14                        [415E] 
+7190C: POP R15                        [415F] 
+
+========

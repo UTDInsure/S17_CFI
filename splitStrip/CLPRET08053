@@ -1,0 +1,6 @@
+
+
+18814: TEST RDI,RDI                   [4885FF] 
+18819: MOVZX EAX,byte ptr [RDI + 0x23] [0FB64723] 
+
+========

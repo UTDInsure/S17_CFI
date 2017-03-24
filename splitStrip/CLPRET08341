@@ -1,0 +1,10 @@
+
+
+227E4: MOV RAX,[0x0024a7a0]           [488B05B57F2200] 
+227EB: MOV RDX,[RAX]                  [488B10] 
+227EE: XOR EAX,EAX                    [31C0] 
+227F0: LEA RCX,[0x520 + RDX]          [488D8A20050000] 
+227F7: TEST RDX,RDX                   [4885D2] 
+227FA: CMOVNZ RAX,RCX                 [480F45C1] 
+
+========

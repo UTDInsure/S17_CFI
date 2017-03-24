@@ -1,0 +1,13 @@
+
+
+414C74: TEST EDI,EDI                   [85FF] 
+414C76: MOV EAX,[0x0062ba70]           [8B05F46D2100] 
+414C7E: TEST EDI,EDI                   [85FF] 
+414C80: MOV EDX,0x1                    [BA01000000] 
+414C85: CMOVLE EDI,EDX                 [0F4EFA] 
+414C88: LEA EDX,[RAX + -0x1]           [8D50FF] 
+414C8B: CMP EDI,EAX                    [39C7] 
+414C8D: CMOVGE EDI,EDX                 [0F4DFA] 
+414C90: LEA EAX,[RDI + -0x1]           [8D47FF] 
+
+========

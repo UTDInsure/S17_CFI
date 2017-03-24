@@ -1,0 +1,15 @@
+
+
+93A14: ADD RAX,0x1                    [4883C001] 
+93A18: MOVZX ECX,byte ptr [RAX]       [0FB608] 
+93A1B: CMP CL,DIL                     [4038F9] 
+93A14: ADD RAX,0x1                    [4883C001] 
+93A18: MOVZX ECX,byte ptr [RAX]       [0FB608] 
+93A1B: CMP CL,DIL                     [4038F9] 
+93A24: TEST CL,CL                     [84C9] 
+93A28: LEA RCX,[RAX + 0x1]            [488D4801] 
+93A3C: MOVZX ESI,byte ptr [RCX]       [0FB631] 
+93A3F: TEST SIL,SIL                   [4084F6] 
+93A44: MOV [RDX],RCX                  [48890A] 
+
+========

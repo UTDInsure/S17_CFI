@@ -1,0 +1,14 @@
+
+
+224A4: MOV RAX,[0x00368e68]           [488B05BD693400] 
+224AB: MOV dword ptr FS:[RAX],0x7     [64C70007000000] 
+224B2: ADD RSP,0x18                   [4883C418] 
+224B6: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+224BD: POP RBX                        [5B] 
+224BE: POP RBP                        [5D] 
+224BF: POP R12                        [415C] 
+224C1: POP R13                        [415D] 
+224C3: POP R14                        [415E] 
+224C5: POP R15                        [415F] 
+
+========

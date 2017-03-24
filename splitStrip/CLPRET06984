@@ -1,0 +1,19 @@
+
+
+1097A4: PUSH R13                       [4155] 
+1097A6: PUSH R12                       [4154] 
+1097A8: MOV R12,RSI                    [4989F4] 
+1097AB: PUSH RBP                       [55] 
+1097AC: MOV EBP,EDX                    [89D5] 
+1097AE: PUSH RBX                       [53] 
+1097AF: SUB RSP,0x8                    [4883EC08] 
+1097B3: MOV RBX,[RDI + 0x18]           [488B5F18] 
+1097B7: TEST EBP,EBP                   [85ED] 
+109820: MOV EAX,0x1                    [B801000000] 
+1097DC: ADD RSP,0x8                    [4883C408] 
+1097E0: POP RBX                        [5B] 
+1097E1: POP RBP                        [5D] 
+1097E2: POP R12                        [415C] 
+1097E4: POP R13                        [415D] 
+
+========

@@ -1,0 +1,16 @@
+
+
+11D534: PUSH R13                       [4155] 
+11D536: MOV R13,RDI                    [4989FD] 
+11D539: PUSH R12                       [4154] 
+11D53B: XOR R12D,R12D                  [4531E4] 
+11D53E: PUSH RBP                       [55] 
+11D53F: PUSH RBX                       [53] 
+11D540: XOR EBX,EBX                    [31DB] 
+11D542: SUB RSP,0x8                    [4883EC08] 
+11D546: CMP dword ptr [RDI + 0x18],0x0 [48837F1800] 
+11D54B: MOV RDX,[RDI + 0x10]           [488B5710] 
+11D5AE: TEST RDX,RDX                   [4885D2] 
+11D5B3: MOV RDI,[RDX + 0x18]           [488B7A18] 
+
+========

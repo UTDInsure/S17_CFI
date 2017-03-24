@@ -1,0 +1,9 @@
+
+
+40DB34: MOV R10D,[0x00628478]          [448B153DA92100] 
+40DB3B: XOR EAX,EAX                    [31C0] 
+40DB3D: TEST R10D,R10D                 [4585D2] 
+40DB42: MOV EAX,[0x0062baec]           [8B05A4DF2100] 
+40DB48: TEST EAX,EAX                   [85C0] 
+
+========

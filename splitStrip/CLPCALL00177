@@ -1,0 +1,21 @@
+
+
+2E8C4: PUSH R12                       [4154] 
+2E8C6: MOV R9D,ECX                    [4189C9] 
+2E8C9: MOV R12,RSI                    [4989F4] 
+2E8CC: PUSH RBP                       [55] 
+2E8CD: MOV RBP,RDI                    [4889FD] 
+2E8D0: PUSH RBX                       [53] 
+2E8D1: SUB RSP,0x50                   [4883EC50] 
+2E8D5: MOV EAX,[0x0036e770]           [8B0595FE3300] 
+2E8DB: TEST EAX,EAX                   [85C0] 
+2EA06: MOV [RSP + 0x38],R8            [4C89442438] 
+2EA0B: MOV [RSP + 0x28],RDX           [4889542428] 
+2EA10: XOR ESI,ESI                    [31F6] 
+2EA12: MOV RAX,[0x0036e6e0]           [488B05C7FC3300] 
+2EA19: MOV [RSP + 0x34],ECX           [894C2434] 
+2EA1D: MOV EDI,0x1                    [BF01000000] 
+2EA22: ROR RAX,0x11                   [48C1C811] 
+2EA26: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

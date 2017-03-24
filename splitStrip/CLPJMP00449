@@ -1,0 +1,16 @@
+
+
+410BD4: MOV EAX,[0x00628708]           [8B052E7B2100] 
+410BDA: TEST EAX,EAX                   [85C0] 
+410BDE: ADD EAX,0x1                    [83C001] 
+410BE1: CMP EAX,0x64                   [83F864] 
+410BE4: MOV [0x00628708],EAX           [89051E7B2100] 
+410BF0: MOV RAX,[0x00628700]           [488B05097B2100] 
+410BF7: PUSH RBX                       [53] 
+410BF8: MOV dword ptr [0x00628708],0x0 [C705067B210000000000] 
+410C02: LEA RBX,[RAX + 0x1]            [488D5801] 
+410C06: XOR EAX,EAX                    [31C0] 
+413C44: SUB RSP,0x18                   [4883EC18] 
+413C48: LEA RDI,[RSP + 0x8]            [488D7C2408] 
+
+========

@@ -1,0 +1,14 @@
+
+
+1A1F4: CMP RDX,0x20                   [4883FA20] 
+1A1F8: MOV RAX,RDI                    [4889F8] 
+1A270: MOV [RSP + -0x8],RAX           [48894424F8] 
+1A275: MOV ECX,ESI                    [89F1] 
+1A277: AND ECX,0x7                    [83E107] 
+1A2B0: CMP RDX,0x400                  [4881FA00040000] 
+1A330: MOV RCX,RDX                    [4889D1] 
+1A333: SHR RCX,0x3                    [48C1E903] 
+1A340: AND EDX,0x7                    [83E207] 
+1A343: MOV RAX,[RSP + -0x8]           [488B4424F8] 
+
+========

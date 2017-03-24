@@ -1,0 +1,7 @@
+
+
+BD2E4: PUSH RBX                       [53] 
+BD2E5: MOV RBX,RDI                    [4889FB] 
+BD2E8: MOV RDI,[RDI + 0x10]           [488B7F10] 
+
+========

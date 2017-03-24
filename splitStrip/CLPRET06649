@@ -1,0 +1,18 @@
+
+
+1007A4: CMP EDX,0x1                    [83FA01] 
+1007A7: PUSH RBX                       [53] 
+1007A8: MOV ECX,EDX                    [89D1] 
+1007AC: NEG EDX                        [F7DA] 
+1007AE: AND EDX,0x7                    [83E207] 
+1007B1: TEST RDI,RDI                   [4885FF] 
+1007B4: LEA EBX,[RCX + RDX*0x1]        [8D1C11] 
+1007B9: CMP EBX,ESI                    [39F3] 
+1007BD: MOV ESI,ECX                    [89CE] 
+100634: CMP EDX,0x1                    [83FA01] 
+100670: MOVSXD RSI,ESI                 [4863F6] 
+100673: MOV byte ptr [RDI + RSI*0x1],0x0 [C6043700] 
+1007C8: MOV EAX,EBX                    [89D8] 
+1007CA: POP RBX                        [5B] 
+
+========

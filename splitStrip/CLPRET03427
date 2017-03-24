@@ -1,0 +1,24 @@
+
+
+82494: PUSH RBP                       [55] 
+82495: PUSH RBX                       [53] 
+82496: MOV RBX,RDI                    [4889FB] 
+82499: SUB RSP,0x18                   [4883EC18] 
+8249D: MOV EDI,[0x0036b868]           [8B3DC5932E00] 
+824A3: TEST EDI,EDI                   [85FF] 
+824AB: CMP RBX,-0x32                  [4883FBCE] 
+824B5: MOV RAX,[0x0036b890]           [488B05D4932E00] 
+824BC: MOV RBP,[0x00368ee0]           [488B2D1D6A2E00] 
+824C3: LEA RDI,[RBX + 0x31]           [488D7B31] 
+824C7: TEST RAX,RAX                   [4885C0] 
+824CA: MOV [RBP],RAX                  [48894500] 
+824DA: LEA RDI,[0x82490]              [488D3DAFFFFFFF] 
+824E1: TEST RAX,RAX                   [4885C0] 
+824E4: MOV [RBP],RDI                  [48897D00] 
+825C0: XOR ECX,ECX                    [31C9] 
+82561: ADD RSP,0x18                   [4883C418] 
+82565: MOV RAX,RCX                    [4889C8] 
+82568: POP RBX                        [5B] 
+82569: POP RBP                        [5D] 
+
+========

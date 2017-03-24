@@ -1,0 +1,26 @@
+
+
+6A844: PUSH R14                       [4156] 
+6A846: LEA RDX,[0x1375e7]             [488D159ACD0C00] 
+6A84D: PUSH R13                       [4155] 
+6A84F: MOV R13,RSI                    [4989F5] 
+6A852: MOV ESI,0x200                  [BE00020000] 
+6A857: PUSH R12                       [4154] 
+6A859: PUSH RBP                       [55] 
+6A85A: MOV RBP,RDI                    [4889FD] 
+6A85D: PUSH RBX                       [53] 
+6A85E: SUB RSP,0x200                  [4881EC00020000] 
+6A865: MOV RDI,RSP                    [4889E7] 
+6A868: MOV R12,RSP                    [4989E4] 
+765A4: PUSH R13                       [4155] 
+765A6: PUSH R12                       [4154] 
+765A8: MOV R12,RSI                    [4989F4] 
+765AB: PUSH RBP                       [55] 
+765AC: PUSH RBX                       [53] 
+765AD: SUB RSP,0x48                   [4883EC48] 
+765B1: TEST RSI,RSI                   [4885F6] 
+765BA: MOV R13,RDI                    [4989FD] 
+765BD: MOV EDI,0x28                   [BF28000000] 
+765C2: MOV RBP,RDX                    [4889D5] 
+
+========

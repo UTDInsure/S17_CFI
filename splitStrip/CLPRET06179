@@ -1,0 +1,14 @@
+
+
+EE8B4: PUSH RBP                       [55] 
+EE8B5: MOV EBP,EDX                    [89D5] 
+EE8B7: PUSH RBX                       [53] 
+EE8B8: MOV RBX,RDI                    [4889FB] 
+EE8BB: SUB RSP,0x8                    [4883EC08] 
+EE8BF: TEST RDI,RDI                   [4885FF] 
+EE924: TEST RSI,RSI                   [4885F6] 
+EE908: ADD RSP,0x8                    [4883C408] 
+EE90C: POP RBX                        [5B] 
+EE90D: POP RBP                        [5D] 
+
+========

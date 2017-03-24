@@ -1,0 +1,12 @@
+
+
+77CE4: SUB RSP,0x8                    [4883EC08] 
+77CE8: TEST byte ptr [RDI + 0x74],0x2 [F6477402] 
+77CEC: MOV EDI,[RDI + 0x70]           [8B7F70] 
+77CFF: NOP                            [90] 
+D6B71: MOV EAX,0x0                    [B800000000] 
+D6B78: CMP RAX,0xfffff001             [483D01F0FFFF] 
+77D09: CDQE                           [4898] 
+77CFA: ADD RSP,0x8                    [4883C408] 
+
+========

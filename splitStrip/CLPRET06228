@@ -1,0 +1,7 @@
+
+
+F01C4: MOV R9D,[0x0036e770]           [448B0DA5E52700] 
+F01CB: XOR EAX,EAX                    [31C0] 
+F01CD: TEST R9D,R9D                   [4585C9] 
+
+========

@@ -1,0 +1,12 @@
+
+
+417C14: SUB RSP,0x8                    [4883EC08] 
+417C18: MOV RDX,[0x006273e0]           [488B15C1F72000] 
+417C1F: MOV EDI,0x41e629               [BF29E64100] 
+417C24: MOV ECX,0x6                    [B906000000] 
+417C29: MOV RSI,RDX                    [4889D6] 
+417C2C: CMPSB.REPE RDI,RSI             [F3A6] 
+417C30: MOV EAX,0x2                    [B802000000] 
+417C35: ADD RSP,0x8                    [4883C408] 
+
+========

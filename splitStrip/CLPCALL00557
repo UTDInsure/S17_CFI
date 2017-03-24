@@ -1,0 +1,18 @@
+
+
+769D4: PUSH R12                       [4154] 
+769D6: XOR EAX,EAX                    [31C0] 
+769D8: MOV R12,RDX                    [4989D4] 
+769DB: PUSH RBP                       [55] 
+769DC: MOV RBP,RSI                    [4889F5] 
+769DF: PUSH RBX                       [53] 
+769E0: MOV RBX,RSI                    [4889F3] 
+769E3: IMUL RBX,RDX                   [480FAFDA] 
+769E7: TEST RBX,RBX                   [4885DB] 
+769F8: MOV RDX,RBX                    [4889DA] 
+769FB: MOV RSI,RDI                    [4889FE] 
+769FE: MOV RDI,RCX                    [4889CF] 
+79944: SUB RSP,0x8                    [4883EC08] 
+79948: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

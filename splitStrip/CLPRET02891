@@ -1,0 +1,10 @@
+
+
+75F44: MOV EDX,[RDI]                  [8B17] 
+75F46: MOV EAX,0x1                    [B801000000] 
+75F4B: TEST DL,0x8                    [F6C208] 
+75F50: AND EDX,0x804                  [81E204080000] 
+75F58: CMP dword ptr [RDI + 0x18],0x0 [48837F1800] 
+75F68: XOR EAX,EAX                    [31C0] 
+
+========

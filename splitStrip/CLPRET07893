@@ -1,0 +1,8 @@
+
+
+13CD4: MOV RAX,[0x0024a7a0]           [488B05C56A2300] 
+13CDB: MOV RAX,[RAX]                  [488B00] 
+13CDE: MOV RDX,[0x548 + RAX]          [488B9048050000] 
+13CE5: TEST RDX,RDX                   [4885D2] 
+
+========

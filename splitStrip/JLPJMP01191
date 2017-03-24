@@ -1,0 +1,17 @@
+
+
+C747A: MOVSXD RDX,[R13 + 0x34]        [49635534] 
+C747E: CMP EDX,[RSP + 0x7c]           [3B54247C] 
+C7488: MOV RAX,[R13]                  [498B4500] 
+C748C: LEA ECX,[RDX + 0x1]            [8D4A01] 
+C748F: MOV [R13 + 0x34],ECX           [41894D34] 
+C7493: MOV ECX,[0xe8 + RSP]           [8B8C24E8000000] 
+C749A: MOV [RAX + RDX*0x4],ECX        [890C90] 
+C7302: MOV RAX,[RSP + 0x28]           [488B442428] 
+C7307: MOVZX EAX,byte ptr [RAX + 0x8] [0FB64008] 
+C730B: CMP AL,0x2                     [3C02] 
+C8178: MOV RAX,[RSP + 0x58]           [488B442458] 
+C817D: MOV dword ptr [RAX],0x7        [C70007000000] 
+C768C: MOV RDI,R15                    [4C89FF] 
+
+========

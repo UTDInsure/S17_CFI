@@ -1,0 +1,10 @@
+
+
+2EBC4: MOV RAX,[0x00368e00]           [488B0535A23300] 
+2EBCB: MOVSXD RDI,EDI                 [4863FF] 
+2EBCE: MOV RAX,FS:[RAX]               [64488B00] 
+2EBD2: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+2EBD6: AND AX,0x200                   [66250002] 
+2EBDA: MOVZX EAX,AX                   [0FB7C0] 
+
+========

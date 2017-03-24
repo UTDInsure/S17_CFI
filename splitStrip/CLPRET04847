@@ -1,0 +1,20 @@
+
+
+D6294: AND RDI,-0x8                   [4883E7F8] 
+D6298: ADD RDI,RSI                    [4801F7] 
+D629B: CMP RSI,RDI                    [4839FE] 
+D62A4: PUSH RBX                       [53] 
+D62A5: XOR EAX,EAX                    [31C0] 
+D62A7: MOV R11,0x5555555555555555     [49BB5555555555555555] 
+D62B1: MOV R10,0x3333333333333333     [49BA3333333333333333] 
+D62BB: MOV R9,0xf0f0f0f0f0f0f0f       [49B90F0F0F0F0F0F0F0F] 
+D62C5: MOV R8,0xff00ff00ff00ff        [49B8FF00FF00FF00FF00] 
+D62CF: MOV RCX,0xffff0000ffff         [48B9FFFF0000FFFF0000] 
+D62D9: NOP                            [0F1F8000000000] 
+D62E0: ADD RSI,0x8                    [4883C608] 
+D62E4: MOV RDX,[RSI + -0x8]           [488B56F8] 
+D62E8: TEST RDX,RDX                   [4885D2] 
+D6347: CMP RDI,RSI                    [4839F7] 
+D634C: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,14 @@
+
+
+20F94: TEST RDI,RDI                   [4885FF] 
+20F99: MOV EAX,EDX                    [89D0] 
+20F9B: SHR EAX,0x1f                   [C1E81F] 
+20F9E: TEST AL,AL                     [84C0] 
+20FA2: TEST ESI,ESI                   [85F6] 
+20FA6: MOVSX R9D,word ptr [RDI + 0x4] [440FBF4F04] 
+20FAB: CMP ESI,R9D                    [4439CE] 
+20FB0: ADD EDX,ESI                    [01F2] 
+20FB2: CMP ESI,EDX                    [39D6] 
+21011: XOR EAX,EAX                    [31C0] 
+
+========

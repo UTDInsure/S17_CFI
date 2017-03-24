@@ -1,0 +1,13 @@
+
+
+40D2F4: SUB RSP,0x8                    [4883EC08] 
+40D2F8: MOV EDX,[0x0062bb0c]           [8B150EE82100] 
+40D2FE: XOR EAX,EAX                    [31C0] 
+40D300: TEST EDX,EDX                   [85D2] 
+403CC4: MOV RDI,[0x00627940]           [488B3D753C2200] 
+403CCB: CMP byte ptr [RDI],0x0         [803F00] 
+403CD8: SUB RSP,0x8                    [4883EC08] 
+403CDC: MOV ESI,[0x0062ba70]           [8B358E7D2200] 
+403CE2: MOV EDX,0x413de0               [BAE03D4100] 
+
+========

@@ -1,0 +1,17 @@
+
+
+18374: MOV [RSP + -0x10],RSI          [48897424F0] 
+18379: MOV RSI,FS:[0x8]               [64488B342508000000] 
+18382: MOV [RSP + -0x8],RDI           [48897C24F8] 
+18387: MOV RDI,[RAX + 0x8]            [488B7808] 
+1838B: MOV RAX,[RSI]                  [488B06] 
+1838E: CMP [RDI + 0x10],RAX           [48394710] 
+183BD: SUB RSP,0x48                   [4883EC48] 
+183C1: MOV [RSP + 0x8],RDX            [4889542408] 
+183C6: MOV [RSP + 0x10],RCX           [48894C2410] 
+183CB: MOV [RSP + 0x18],R8            [4C89442418] 
+183D0: MOV [RSP + 0x20],R9            [4C894C2420] 
+183D5: MOV [RSP + 0x28],R10           [4C89542428] 
+183DA: MOV [RSP + 0x30],R11           [4C895C2430] 
+
+========

@@ -1,0 +1,16 @@
+
+
+11DA74: PUSH R12                       [4154] 
+11DA76: LEA R12,[0x13ca70]             [4C8D25F3EF0100] 
+11DA7D: PUSH RBP                       [55] 
+11DA7E: MOV RBP,[0x00368ef8]           [488B2D73B42400] 
+11DA85: PUSH RBX                       [53] 
+11DA86: MOV RBX,[RBP]                  [488B5D00] 
+11DA8A: TEST RBX,RBX                   [4885DB] 
+11DA8F: NOP                            [90] 
+11DA90: MOV RDI,[RBX + 0x8]            [488B7B08] 
+11DA94: MOV RAX,[RBX]                  [488B03] 
+11DA97: CMP RDI,R12                    [4C39E7] 
+11DA9A: MOV [RBP],RAX                  [48894500] 
+
+========

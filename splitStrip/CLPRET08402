@@ -1,0 +1,13 @@
+
+
+2A6B4: TEST EDI,EDI                   [85FF] 
+2A6B6: SETG DL                        [0F9FC2] 
+2A6B9: TEST ESI,ESI                   [85F6] 
+2A6BB: SETG AL                        [0F9FC0] 
+2A6BE: AND AL,DL                      [20D0] 
+2A6C2: MOV RDX,[0x0024a7a0]           [488B15D7002200] 
+2A6C9: MOV RDX,[RDX]                  [488B12] 
+2A6CC: MOVSX ECX,word ptr [RDX + 0x64] [0FBF4A64] 
+2A6D0: CMP ECX,EDI                    [39F9] 
+
+========

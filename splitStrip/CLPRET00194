@@ -1,0 +1,20 @@
+
+
+13714: MOVZX EAX,word ptr [0x2b0 + RDI] [0FB787B0020000] 
+1371B: SUB RSI,[RDI]                  [482B37] 
+1371E: LEA RDX,[RAX*0x8]              [488D14C500000000] 
+13726: SHL RAX,0x6                    [48C1E006] 
+1372A: SUB RAX,RDX                    [4829D0] 
+1372D: SUB RAX,0x38                   [4883E838] 
+1373C: CMP RAX,-0x38                  [4883F8C8] 
+13742: MOV RDX,RAX                    [4889C2] 
+13745: ADD RDX,[0x2a0 + RDI]          [480397A0020000] 
+1374C: CMP dword ptr [RDX],0x1        [833A01] 
+13751: MOV RCX,RSI                    [4889F1] 
+13754: SUB RCX,[RDX + 0x10]           [482B4A10] 
+13758: CMP RCX,[RDX + 0x28]           [483B4A28] 
+13738: SUB RAX,0x38                   [4883E838] 
+1373C: CMP RAX,-0x38                  [4883F8C8] 
+13768: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,12 @@
+
+
+B29F4: MOV R8D,[0x0036e774]           [448B0579BD2B00] 
+B29FB: MOV RSI,RDI                    [4889FE] 
+B29FE: TEST R8D,R8D                   [4585C0] 
+B2A03: XOR R10D,R10D                  [4531D2] 
+B2A06: XOR EDX,EDX                    [31D2] 
+B2A08: MOV RDI,-0x1                   [48C7C7FFFFFFFF] 
+B2A0F: MOV EAX,0x3d                   [B83D000000] 
+B2A16: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

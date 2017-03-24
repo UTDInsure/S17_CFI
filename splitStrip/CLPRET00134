@@ -1,0 +1,25 @@
+
+
+10AD4: PUSH RBP                       [55] 
+10AD5: MOV RBP,RSP                    [4889E5] 
+10AD8: PUSH R15                       [4157] 
+10ADA: PUSH R14                       [4156] 
+10ADC: PUSH R13                       [4155] 
+10ADE: PUSH R12                       [4154] 
+10AE0: PUSH RBX                       [53] 
+10AE1: MOV RBX,RDI                    [4889FB] 
+10AE4: SUB RSP,0x78                   [4883EC78] 
+10AE8: MOV RAX,[RDI + 0x68]           [488B4768] 
+10AEC: MOV [RBP + -0x6c],ESI          [897594] 
+10AEF: MOV [RBP + -0x70],EDX          [895590] 
+10AF2: TEST RAX,RAX                   [4885C0] 
+10E66: LEA RSP,[RBP + -0x28]          [488D65D8] 
+10E6A: XOR EAX,EAX                    [31C0] 
+10E6C: POP RBX                        [5B] 
+10E6D: POP R12                        [415C] 
+10E6F: POP R13                        [415D] 
+10E71: POP R14                        [415E] 
+10E73: POP R15                        [415F] 
+10E75: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,14 @@
+
+
+77794: SUB RSP,0x8                    [4883EC08] 
+77798: MOV RDX,RSI                    [4889F2] 
+7779B: MOV ESI,[RDI + 0x70]           [8B7770] 
+7779E: MOV EDI,0x1                    [BF01000000] 
+D64F4: CMP EDI,0x1                    [83FF01] 
+D64F7: MOV EAX,ESI                    [89F0] 
+D6518: MOV RAX,[0x00368e68]           [488B0549292900] 
+D651F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D6526: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+777AC: ADD RSP,0x8                    [4883C408] 
+
+========

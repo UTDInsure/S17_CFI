@@ -1,0 +1,27 @@
+
+
+F4274: SUB RSP,0x8                    [4883EC08] 
+F4278: CMP RSI,RDX                    [4839D6] 
+DCD74: PUSH R12                       [4154] 
+DCD76: MOV R12,RDI                    [4989FC] 
+DCD79: PUSH RBP                       [55] 
+DCD7A: MOV RBP,RSI                    [4889F5] 
+DCD7D: PUSH RBX                       [53] 
+DCD7E: SUB RSP,0x190                  [4881EC90010000] 
+DCD85: MOV RDI,RSP                    [4889E7] 
+DCD88: MOV RBX,RSP                    [4889E3] 
+B2964: MOV EAX,0x3f                   [B83F000000] 
+B296B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B2974: MOV RCX,[0x00368e68]           [488B0DED642B00] 
+B297B: NEG EAX                        [F7D8] 
+B297D: MOV FS:[RCX],EAX               [648901] 
+B2980: OR RAX,-0x1                    [4883C8FF] 
+DCD94: TEST EAX,EAX                   [85C0] 
+DCDE0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DCDCA: ADD RSP,0x190                  [4881C490010000] 
+DCDD1: POP RBX                        [5B] 
+DCDD2: POP RBP                        [5D] 
+DCDD3: POP R12                        [415C] 
+F4286: ADD RSP,0x8                    [4883C408] 
+
+========

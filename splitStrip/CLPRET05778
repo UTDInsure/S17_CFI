@@ -1,0 +1,12 @@
+
+
+E4874: CMP dword ptr [0x0036e774],0x0 [833DF99E280000] 
+E4881: MOV R10,RCX                    [4989CA] 
+E4884: MOV EAX,0x2c                   [B82C000000] 
+E488B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E48CF: MOV RCX,[0x00368e68]           [488B0D92452800] 
+E48D6: NEG EAX                        [F7D8] 
+E48D8: MOV FS:[RCX],EAX               [648901] 
+E48DB: OR RAX,-0x1                    [4883C8FF] 
+
+========

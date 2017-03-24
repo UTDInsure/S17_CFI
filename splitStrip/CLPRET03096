@@ -1,0 +1,12 @@
+
+
+794A4: MOV RAX,[RDI + 0x28]           [488B4728] 
+794A8: CMP RAX,[RDI + 0x20]           [483B4720] 
+794AC: PUSH RBX                       [53] 
+794AD: MOV RBX,RDI                    [4889FB] 
+794F0: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+794F7: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+79503: CMP EAX,-0x1                   [83F8FF] 
+794DE: POP RBX                        [5B] 
+
+========

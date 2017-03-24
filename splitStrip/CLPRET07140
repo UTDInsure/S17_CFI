@@ -1,0 +1,22 @@
+
+
+10DEE4: PUSH R14                       [4156] 
+10DEE6: PUSH R13                       [4155] 
+10DEE8: XOR R13D,R13D                  [4531ED] 
+10DEEB: PUSH R12                       [4154] 
+10DEED: MOV R12,RDI                    [4989FC] 
+10DEF0: PUSH RBP                       [55] 
+10DEF1: PUSH RBX                       [53] 
+10DEF2: SUB RSP,0x70                   [4883EC70] 
+10DEF6: MOV RBX,[RDI + 0x40]           [488B5F40] 
+10DEFA: MOV RSI,[RBX + 0x8]            [488B7308] 
+10DEFE: CMP [RDI + 0x8],RSI            [48397708] 
+10DF7D: ADD RSP,0x70                   [4883C470] 
+10DF81: MOV EAX,R13D                   [4489E8] 
+10DF84: POP RBX                        [5B] 
+10DF85: POP RBP                        [5D] 
+10DF86: POP R12                        [415C] 
+10DF88: POP R13                        [415D] 
+10DF8A: POP R14                        [415E] 
+
+========

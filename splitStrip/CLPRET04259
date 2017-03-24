@@ -1,0 +1,23 @@
+
+
+AE094: PUSH R14                       [4156] 
+AE096: MOV ECX,[0x0036e770]           [8B0DD4062C00] 
+AE09C: PUSH R13                       [4155] 
+AE09E: TEST ECX,ECX                   [85C9] 
+AE0A0: PUSH R12                       [4154] 
+AE0A2: PUSH RBP                       [55] 
+AE0A3: MOV RBP,RDI                    [4889FD] 
+AE0A6: PUSH RBX                       [53] 
+AE0AD: MOV R13,[RBP + 0x28]           [4C8B6D28] 
+AE0B1: TEST R13,R13                   [4D85ED] 
+AE0BA: MOV EDX,[R13 + 0x10]           [418B5510] 
+AE0BE: TEST EDX,EDX                   [85D2] 
+AE0C2: MOV EAX,[0x0036e770]           [8B05A8062C00] 
+AE0C8: TEST EAX,EAX                   [85C0] 
+AE0ED: POP RBX                        [5B] 
+AE0EE: POP RBP                        [5D] 
+AE0EF: POP R12                        [415C] 
+AE0F1: POP R13                        [415D] 
+AE0F3: POP R14                        [415E] 
+
+========

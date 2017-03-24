@@ -1,0 +1,18 @@
+
+
+BE354: PUSH RBP                       [55] 
+BE355: PUSH RBX                       [53] 
+BE356: MOV RBX,RSI                    [4889F3] 
+BE359: SUB RSP,0x8                    [4883EC08] 
+BE35D: CMP byte ptr [RSI + 0x30],0x10 [807E3010] 
+BE3C8: MOV RAX,[RSI + 0x8]            [488B4608] 
+BE3CC: MOV RDX,[RAX + 0x18]           [488B5018] 
+BE3D0: MOV EAX,[RAX + 0x38]           [8B4038] 
+BE3D3: MOV [RSI + 0x18],RDX           [48895618] 
+BE3D7: MOV [RSI + 0x38],EAX           [894638] 
+BE3DA: ADD RSP,0x8                    [4883C408] 
+BE3DE: POP RBX                        [5B] 
+BE3DF: XOR EAX,EAX                    [31C0] 
+BE3E1: POP RBP                        [5D] 
+
+========

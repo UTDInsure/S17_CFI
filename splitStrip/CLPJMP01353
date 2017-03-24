@@ -1,0 +1,13 @@
+
+
+EB414: PUSH RBP                       [55] 
+EB415: MOV RBP,RDI                    [4889FD] 
+EB418: PUSH RBX                       [53] 
+EB419: SUB RSP,0x8                    [4883EC08] 
+EB41D: MOV RDI,[RDI + 0x18]           [488B7F18] 
+EB421: TEST RDI,RDI                   [4885FF] 
+EB445: MOV EAX,[RBP + 0x8]            [8B4508] 
+EB448: TEST EAX,EAX                   [85C0] 
+EB44C: MOV RDI,[RBP]                  [488B7D00] 
+
+========

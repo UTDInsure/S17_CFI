@@ -1,0 +1,9 @@
+
+
+413F04: PUSH RBX                       [53] 
+413F05: MOV RBX,RDI                    [4889FB] 
+413F08: MOVSX EDI,byte ptr [RDI]       [0FBE3F] 
+413F0B: TEST DIL,DIL                   [4084FF] 
+413F27: POP RBX                        [5B] 
+
+========

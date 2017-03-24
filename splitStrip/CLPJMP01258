@@ -1,0 +1,11 @@
+
+
+DD914: SUB RSP,0x8                    [4883EC08] 
+DD918: MOV EDI,0x1                    [BF01000000] 
+DD864: PUSH RBX                       [53] 
+DD865: MOV EBX,EDI                    [89FB] 
+DD867: SUB RSP,0x10                   [4883EC10] 
+DD86B: CMP dword ptr [0x0036bfe8],0x0 [48833D75E7280000] 
+DD8B8: MOV EDI,0x1fc0                 [BFC01F0000] 
+
+========

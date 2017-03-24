@@ -1,0 +1,18 @@
+
+
+40EB34: PUSH RBX                       [53] 
+40EB35: XOR EAX,EAX                    [31C0] 
+404C84: PUSH RBX                       [53] 
+404C85: MOV RBX,[0x006279d8]           [488B1D4C2D2200] 
+404C8C: TEST RBX,RBX                   [4885DB] 
+404C91: TEST byte ptr [0x824 + RBX],0x1 [F6832408000001] 
+404CF0: MOV EDI,[0x820 + RBX]          [8BBB20080000] 
+404CF6: XOR EAX,EAX                    [31C0] 
+40D224: PUSH RBX                       [53] 
+40D225: MOV ESI,EDI                    [89FE] 
+40D227: MOV EBX,EDI                    [89FB] 
+40D229: MOV EDI,0x1                    [BF01000000] 
+40D22E: SUB RSP,0x90                   [4881EC90000000] 
+40D235: MOV RDX,RSP                    [4889E2] 
+
+========

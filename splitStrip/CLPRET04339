@@ -1,0 +1,7 @@
+
+
+B2B74: MOV R10,RCX                    [4989CA] 
+B2B77: MOV EAX,0x3d                   [B83D000000] 
+B2B7E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

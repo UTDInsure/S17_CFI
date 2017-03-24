@@ -1,0 +1,9 @@
+
+
+10ED64: MOV RSI,[RCX + 0x1c]           [488B711C] 
+10ED68: MOV RDI,[RCX + 0x24]           [488B7924] 
+10ED6C: MOV EAX,0x1                    [B801000000] 
+10ED71: MOV [RDX],RSI                  [488932] 
+10ED74: MOV [RDX + 0x8],RDI            [48897A08] 
+
+========

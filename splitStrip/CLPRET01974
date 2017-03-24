@@ -1,0 +1,21 @@
+
+
+39F24: MOV EAX,[RDI]                  [8B07] 
+39F26: MOV [RSI],EAX                  [8906] 
+39F28: MOVZX EAX,word ptr [RDI + 0x4] [0FB74704] 
+39F2C: MOV [RSI + 0x4],AX             [66894604] 
+39F30: MOVZX EAX,word ptr [RDI + 0xa] [0FB7470A] 
+39F34: MOVZX EDX,word ptr [RDI + 0x6] [0FB75706] 
+39F38: SHL RAX,0x20                   [48C1E020] 
+39F3C: OR RAX,RDX                     [4809D0] 
+39F3F: MOVZX EDX,word ptr [RDI + 0x8] [0FB75708] 
+39F43: SHL EDX,0x10                   [C1E210] 
+39F46: OR RAX,RDX                     [4809D0] 
+39F49: MOV [RSI + 0x10],RAX           [48894610] 
+39F4D: MOVZX EAX,word ptr [RDI + 0xc] [0FB7470C] 
+39F51: MOV [RSI + 0xc],AX             [6689460C] 
+39F55: MOV EAX,0x1                    [B801000000] 
+39F5A: MOV [RSI + 0xe],AX             [6689460E] 
+39F5E: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,20 @@
+
+
+C6697: TEST dword ptr [RSP + 0x50],0x1000000 [48F744245000000001] 
+C66AA: MOV RDX,[RSP + 0x50]           [488B542450] 
+C66AF: TEST DL,0x20                   [F6C220] 
+C66B8: TEST DL,0x10                   [F6C210] 
+C66C1: CMP AL,0x9                     [3C09] 
+C6D88: TEST dword ptr [RSP + 0x50],0x20000 [48F744245000000200] 
+C6D97: MOV RAX,[RSP + 0x58]           [488B442458] 
+C6D9C: MOV dword ptr [RAX],0x10       [C70010000000] 
+C6DA2: XOR EAX,EAX                    [31C0] 
+C6A4D: ADD RSP,0x158                  [4881C458010000] 
+C6A54: POP RBX                        [5B] 
+C6A55: POP RBP                        [5D] 
+C6A56: POP R12                        [415C] 
+C6A58: POP R13                        [415D] 
+C6A5A: POP R14                        [415E] 
+C6A5C: POP R15                        [415F] 
+
+========

@@ -1,0 +1,18 @@
+
+
+DCC74: SUB RSP,0x18                   [4883EC18] 
+DCC78: MOV EDI,0x7                    [BF07000000] 
+DCC7D: MOV RSI,RSP                    [4889E6] 
+DC194: MOV EAX,0x61                   [B861000000] 
+DC19B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DC1A4: MOV RCX,[0x00368e68]           [488B0DBDCC2800] 
+DC1AB: NEG EAX                        [F7D8] 
+DC1AD: MOV FS:[RCX],EAX               [648901] 
+DC1B0: OR RAX,-0x1                    [4883C8FF] 
+DCC89: MOV EDX,0x100                  [BA00010000] 
+DCC8E: TEST EAX,EAX                   [85C0] 
+DCC90: CMOVNS EDX,[RSP]               [0F491424] 
+DCC94: ADD RSP,0x18                   [4883C418] 
+DCC98: MOV EAX,EDX                    [89D0] 
+
+========

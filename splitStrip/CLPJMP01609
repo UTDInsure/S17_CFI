@@ -1,0 +1,24 @@
+
+
+10BF34: PUSH RBP                       [55] 
+10BF35: MOV RBP,RDI                    [4889FD] 
+10BF38: PUSH RBX                       [53] 
+10BF39: SUB RSP,0x8                    [4883EC08] 
+10BF3D: MOV RBX,[RDI + 0x10]           [488B5F10] 
+10BF41: MOV EAX,[RBX + 0x4]            [8B4304] 
+10BF44: TEST EAX,EAX                   [85C0] 
+10BF88: MOV EDI,[RBX]                  [8B3B] 
+D7224: CMP dword ptr [0x0036e774],0x0 [833D4975290000] 
+D7231: MOV EAX,0x3                    [B803000000] 
+D7238: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D7279: MOV RCX,[0x00368e68]           [488B0DE81B2900] 
+D7280: NEG EAX                        [F7D8] 
+D7282: MOV FS:[RCX],EAX               [648901] 
+D7285: OR RAX,-0x1                    [4883C8FF] 
+10BF48: MOV RAX,[0xd0 + RBX]           [488B83D0000000] 
+10BF4F: MOV RAX,[RAX + 0x38]           [488B4038] 
+10BF53: TEST RAX,RAX                   [4885C0] 
+10BF58: LEA RDI,[0xc8 + RBX]           [488DBBC8000000] 
+10BF65: MOV RDI,RBX                    [4889DF] 
+
+========

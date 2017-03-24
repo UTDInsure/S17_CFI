@@ -1,0 +1,26 @@
+
+
+46964: PUSH R14                       [4156] 
+46966: MOV R14,RSI                    [4989F6] 
+46969: PUSH R13                       [4155] 
+4696B: PUSH R12                       [4154] 
+4696D: MOV R12,RDX                    [4989D4] 
+46970: PUSH RBP                       [55] 
+46971: MOV RBP,RDI                    [4889FD] 
+46974: PUSH RBX                       [53] 
+46975: MOV RCX,[RSI]                  [488B0E] 
+46978: CMP RCX,0x1                    [4883F901] 
+46A40: TEST RDX,RDX                   [4885D2] 
+46A30: XOR EAX,EAX                    [31C0] 
+4698B: MOV [RBP + R12*0x8],RAX        [4A8944E500] 
+46990: ADD RBP,0x8                    [4883C508] 
+46994: CMP R12,0x1                    [4983FC01] 
+46998: LEA R13,[R12*0x8]              [4E8D2CE500000000] 
+469A0: MOV EBX,0x1                    [BB01000000] 
+46A00: POP RBX                        [5B] 
+46A01: POP RBP                        [5D] 
+46A02: POP R12                        [415C] 
+46A04: POP R13                        [415D] 
+46A06: POP R14                        [415E] 
+
+========

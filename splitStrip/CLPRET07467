@@ -1,0 +1,16 @@
+
+
+114934: MOV EDX,[RDI + 0x28]           [8B5728] 
+114937: XOR EAX,EAX                    [31C0] 
+114939: CMP EDX,0x3                    [83FA03] 
+11493E: SUB EDX,0x4                    [83EA04] 
+114941: MOV [RDI + 0x28],EDX           [895728] 
+114944: MOV RDX,[RDI + 0x18]           [488B5718] 
+114948: MOV EAX,[RDX]                  [8B02] 
+11494A: ADD RDX,0x4                    [4883C204] 
+11494E: BSWAP EAX                      [0FC8] 
+114950: MOV [RSI],EAX                  [8906] 
+114952: MOV [RDI + 0x18],RDX           [48895718] 
+114956: MOV EAX,0x1                    [B801000000] 
+
+========

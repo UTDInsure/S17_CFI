@@ -1,0 +1,9 @@
+
+
+10F6AC: MOV RSI,[RDI + 0x30]           [488B7730] 
+10F6B0: MOV RDI,[RDI + 0x38]           [488B7F38] 
+10F6B4: MOV EAX,0x1                    [B801000000] 
+10F6B9: MOV [RDX],RSI                  [488932] 
+10F6BC: MOV [RDX + 0x8],RDI            [48897A08] 
+
+========

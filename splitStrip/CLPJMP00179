@@ -1,0 +1,14 @@
+
+
+403A34: MOV EAX,[0x0062bb28]           [8B05EE802200] 
+403A3A: PUSH RBX                       [53] 
+403A3B: TEST EAX,EAX                   [85C0] 
+403A3F: MOV EAX,[0x0062bb00]           [8B05BB802200] 
+403A45: TEST EAX,EAX                   [85C0] 
+403A49: MOV EAX,[0x0062baf4]           [8B05A5802200] 
+403A4F: TEST EAX,EAX                   [85C0] 
+403AE2: MOV RDI,[0x006279a8]           [488B3DBF3E2200] 
+403AE9: MOV EDX,0x413de0               [BAE03D4100] 
+403AEE: MOV ESI,0x1                    [BE01000000] 
+
+========

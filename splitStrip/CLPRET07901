@@ -1,0 +1,26 @@
+
+
+13F44: MOV RDX,RSI                    [4889F2] 
+13F47: PUSH RBX                       [53] 
+13F48: MOV RBX,[RDI + 0x10]           [488B5F10] 
+13F4C: AND EDX,0xff00                 [81E200FF0000] 
+13F52: MOV R8,[RDI + 0x18]            [4C8B4718] 
+13F56: SHR RDX,0x8                    [48C1EA08] 
+13F5A: CMP RSI,0x20                   [4883FE20] 
+13F5E: MOV EDI,EDX                    [89D7] 
+13FB0: TEST EDX,EDX                   [85D2] 
+13FB4: MOV RAX,R8                     [4C89C0] 
+13FB7: MOV RCX,R8                     [4C89C1] 
+13FBA: OR RAX,RBX                     [4809D8] 
+13FBD: MOVZX EBX,BH                   [0FB6DF] 
+13FC0: MOVZX ECX,CH                   [0FB6CD] 
+13FC3: TEST EBX,EBX                   [85DB] 
+13FC5: MOV EDX,EBX                    [89DA] 
+13FC7: CMOVZ RDX,RCX                  [480F44D1] 
+13FCB: XOR AH,AH                      [30E4] 
+13FCD: SHL EDX,0x8                    [C1E208] 
+13FD0: MOVSXD RDX,EDX                 [4863D2] 
+13FD3: OR RAX,RDX                     [4809D0] 
+13FD6: POP RBX                        [5B] 
+
+========

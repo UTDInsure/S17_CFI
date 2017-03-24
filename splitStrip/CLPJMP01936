@@ -1,0 +1,20 @@
+
+
+15D94: MOV RAX,[0x0024a7a0]           [488B05054A2300] 
+15D9B: PUSH RBX                       [53] 
+15D9C: MOV RAX,[RAX]                  [488B00] 
+15D9F: MOV EDX,[0x2dc + RAX]          [8B90DC020000] 
+15DA5: TEST EDX,EDX                   [85D2] 
+15DA9: NEG EDX                        [F7DA] 
+15DAB: MOV [0x2dc + RAX],EDX          [8990DC020000] 
+15DB1: MOV RBX,[0x0024a880]           [488B1DC84A2300] 
+15DB8: MOV RAX,[RBX]                  [488B03] 
+15DBB: MOV RDX,[RAX + 0x20]           [488B5020] 
+15DBF: XOR EAX,EAX                    [31C0] 
+15DC1: MOV RDI,[0x948 + RDX]          [488BBA48090000] 
+15DC8: TEST RDI,RDI                   [4885FF] 
+15DE2: MOV RDI,[0x950 + RDX]          [488BBA50090000] 
+15DE9: AND EAX,0x1                    [83E001] 
+15DEC: TEST RDI,RDI                   [4885FF] 
+
+========

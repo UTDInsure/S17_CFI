@@ -1,0 +1,24 @@
+
+
+1098C4: PUSH RBX                       [53] 
+1098C5: MOV RBX,RSI                    [4889F3] 
+1098C8: SUB RSP,0x10                   [4883EC10] 
+1098CC: MOV RAX,[RDI + 0x18]           [488B4718] 
+1098D0: CMP dword ptr [RAX + 0x68],0x3 [4883786803] 
+1098D5: MOV RCX,[RAX + 0x58]           [488B4858] 
+1098DB: MOV RDX,[RAX + 0x60]           [488B5060] 
+1098DF: SUB RDX,RCX                    [4829CA] 
+1098E2: CMP RDX,0x3                    [4883FA03] 
+109920: MOV EDX,[RCX]                  [8B11] 
+109922: ADD RCX,0x4                    [4883C104] 
+109926: BSWAP EDX                      [0FCA] 
+109928: MOVSXD RDX,EDX                 [4863D2] 
+10992B: MOV [RSI],RDX                  [488916] 
+10992E: MOV [RAX + 0x58],RCX           [48894858] 
+109932: MOV EDX,0x1                    [BA01000000] 
+109937: SUB dword ptr [RAX + 0x68],0x4 [4883686804] 
+10993C: ADD RSP,0x10                   [4883C410] 
+109940: MOV EAX,EDX                    [89D0] 
+109942: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,8 @@
+
+
+415334: MOV dword ptr [RSI],0xffffffff [C706FFFFFFFF] 
+41533A: MOV RAX,RBX                    [4889D8] 
+4152D8: ADD RSP,0x10                   [4883C410] 
+4152DC: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,28 @@
+
+
+34784: CMP RDI,-0x1                   [4883FFFF] 
+3478A: ADD ESI,0x1                    [83C601] 
+3478D: TEST ESI,ESI                   [85F6] 
+34791: TEST EDX,EDX                   [85D2] 
+34793: PUSH RBX                       [53] 
+34794: MOV EBX,EDX                    [89D3] 
+34798: MOV EAX,ESI                    [89F0] 
+3479A: MOV R9,[RDI + 0x8]             [4C8B4F08] 
+3479E: MOV R10,[RDI + 0x18]           [4C8B5718] 
+347A2: IMUL EAX,EDX                   [0FAFC2] 
+347A5: XOR EDX,EDX                    [31D2] 
+347A7: LEA R11,[R9 + R9*0x2]          [4F8D1C49] 
+347AB: CDQE                           [4898] 
+347AD: DIV R9                         [49F7F1] 
+347B0: XOR R9D,R9D                    [4531C9] 
+347B3: LEA R8,[RDX + RDX*0x2]         [4C8D0452] 
+347CD: CMP [R10 + R8*0x4],ESI         [43393482] 
+347C0: ADD R8,R11                     [4D01D8] 
+347C3: ADD R9,0x1                     [4983C101] 
+347C7: CMP R9,[RDI + 0x10]            [4C3B4F10] 
+347E8: MOV RAX,[0x00368e68]           [488B0579463300] 
+347EF: MOV dword ptr FS:[RAX],0x2a    [64C7002A000000] 
+347F6: MOV RAX,RCX                    [4889C8] 
+347F9: POP RBX                        [5B] 
+
+========

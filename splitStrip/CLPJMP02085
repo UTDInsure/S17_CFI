@@ -1,0 +1,20 @@
+
+
+1AFA4: PUSH R14                       [4156] 
+1AFA6: TEST RDI,RDI                   [4885FF] 
+1AFA9: PUSH R13                       [4155] 
+1AFAB: PUSH R12                       [4154] 
+1AFAD: PUSH RBP                       [55] 
+1AFAE: PUSH RBX                       [53] 
+1AFAF: MOV RBX,RDI                    [4889FB] 
+1AFB4: TEST RSI,RSI                   [4885F6] 
+1AFB7: MOV RBP,RSI                    [4889F5] 
+1AFBC: TEST RDX,RDX                   [4885D2] 
+1AFBF: MOV R12,RDX                    [4989D4] 
+1AFC4: TEST CL,CL                     [84C9] 
+1AFC6: MOV R14D,[RSI]                 [448B36] 
+1AFC9: MOV R13D,[RDX]                 [448B2A] 
+1B008: MOV EDX,R13D                   [4489EA] 
+1B00B: MOV ESI,R14D                   [4489F6] 
+
+========

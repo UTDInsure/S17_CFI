@@ -1,0 +1,26 @@
+
+
+1F0B4: PUSH R15                       [4157] 
+1F0B6: MOVSX R15,DX                   [4C0FBFFA] 
+1F0BA: PUSH R14                       [4156] 
+1F0BC: MOV R14,RDI                    [4989FE] 
+1F0BF: PUSH R13                       [4155] 
+1F0C1: PUSH R12                       [4154] 
+1F0C3: PUSH RBP                       [55] 
+1F0C4: PUSH RBX                       [53] 
+1F0C5: SUB RSP,0x28                   [4883EC28] 
+1F0C9: CMP CX,DX                      [6639D1] 
+1F0CC: MOVSX EDI,word ptr [RDI + 0x6] [0FBF7F06] 
+1F0D0: MOV [RSP + 0x16],CX            [66894C2416] 
+1F0DB: MOV EAX,EDX                    [89D0] 
+1F0DD: SHR AX,0xf                     [66C1E80F] 
+1F0E1: TEST AL,AL                     [84C0] 
+1F20E: ADD RSP,0x28                   [4883C428] 
+1F212: POP RBX                        [5B] 
+1F213: POP RBP                        [5D] 
+1F214: POP R12                        [415C] 
+1F216: POP R13                        [415D] 
+1F218: POP R14                        [415E] 
+1F21A: POP R15                        [415F] 
+
+========

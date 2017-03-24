@@ -1,0 +1,11 @@
+
+
+406634: PUSH R12                       [4154] 
+406636: MOV R12,RSI                    [4989F4] 
+406639: PUSH RBP                       [55] 
+40663A: MOV RBP,RDI                    [4889FD] 
+40663D: PUSH RBX                       [53] 
+40663E: MOV RBX,[RDI]                  [488B1F] 
+406641: MOV RDI,RBX                    [4889DF] 
+
+========

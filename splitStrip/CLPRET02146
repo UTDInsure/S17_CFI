@@ -1,0 +1,21 @@
+
+
+45514: LEA R8,[RSI + 0x8]             [4C8D4608] 
+45518: MOV RSI,[RSI]                  [488B36] 
+4551B: MOV RAX,RSI                    [4889F0] 
+4551E: SUB RAX,RCX                    [4829C8] 
+45521: LEA RCX,[RDI + 0x8]            [488D4F08] 
+45525: CMP RSI,RAX                    [4839C6] 
+45528: MOV [RDI],RAX                  [488907] 
+4552D: CMP RCX,R8                     [4C39C1] 
+45532: SUB RDX,0x1                    [4883EA01] 
+45536: TEST RDX,RDX                   [4885D2] 
+4553B: XOR EAX,EAX                    [31C0] 
+4553D: NOP                            [0F1F00] 
+45540: MOV RSI,[R8 + RAX*0x8]         [498B34C0] 
+45544: MOV [RCX + RAX*0x8],RSI        [488934C1] 
+45548: ADD RAX,0x1                    [4883C001] 
+4554C: CMP RAX,RDX                    [4839D0] 
+45551: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,7 @@
+
+
+CC554: MOV EDX,[RSI + 0x10]           [8B5610] 
+CC557: CMP [RDI + 0x10],EDX           [395710] 
+CC55A: MOV EAX,0x1                    [B801000000] 
+
+========

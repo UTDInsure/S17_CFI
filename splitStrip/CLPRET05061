@@ -1,0 +1,25 @@
+
+
+DA344: PUSH R15                       [4157] 
+DA346: PUSH R14                       [4156] 
+DA348: PUSH R13                       [4155] 
+DA34A: PUSH R12                       [4154] 
+DA34C: PUSH RBP                       [55] 
+DA34D: PUSH RBX                       [53] 
+DA34E: MOV EBX,ESI                    [89F3] 
+DA350: SUB RSP,0x28                   [4883EC28] 
+DA354: TEST ESI,0xffffff00            [F7C600FFFFFF] 
+DA35A: MOV [RSP],RDX                  [48891424] 
+DA630: MOV RAX,[0x00368e68]           [488B0531E82800] 
+DA637: XOR R12D,R12D                  [4531E4] 
+DA63A: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DA599: ADD RSP,0x28                   [4883C428] 
+DA59D: MOV RAX,R12                    [4C89E0] 
+DA5A0: POP RBX                        [5B] 
+DA5A1: POP RBP                        [5D] 
+DA5A2: POP R12                        [415C] 
+DA5A4: POP R13                        [415D] 
+DA5A6: POP R14                        [415E] 
+DA5A8: POP R15                        [415F] 
+
+========

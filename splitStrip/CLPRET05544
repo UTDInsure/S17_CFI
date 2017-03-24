@@ -1,0 +1,6 @@
+
+
+E3264: MOV EAX,0xc4                   [B8C4000000] 
+E326B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

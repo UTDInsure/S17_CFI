@@ -1,0 +1,19 @@
+
+
+412C64: SUB RSP,0x8                    [4883EC08] 
+412C68: XOR EAX,EAX                    [31C0] 
+4058C4: MOVZX ECX,DIL                  [400FB6CF] 
+4058C8: SUB RSP,0x8                    [4883EC08] 
+4058CC: CMP RCX,0x7f                   [4883F97F] 
+4058DC: TEST byte ptr [0x627a60 + RCX],0x2 [F681607A620002] 
+4058E5: CMP RCX,0x1b                   [4883F91B] 
+4058EF: CMP RCX,0x7f                   [4883F97F] 
+4058F5: MOV RAX,RCX                    [4889C8] 
+4058F8: XOR RAX,0x40                   [4883F040] 
+4058FC: TEST byte ptr [0x627a60 + RAX],0x2 [F680607A620002] 
+405905: MOV RDX,[0x00627a48]           [488B153C212200] 
+40590C: MOV ESI,0x20                   [BE20000000] 
+405911: MOV EDI,0x627a20               [BF207A6200] 
+405916: XOR EAX,EAX                    [31C0] 
+
+========

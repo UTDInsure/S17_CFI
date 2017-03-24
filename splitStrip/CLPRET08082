@@ -1,0 +1,24 @@
+
+
+1A2F4: TEST RSI,RSI                   [4885F6] 
+1A2FD: TEST RDI,RDI                   [4885FF] 
+1A306: MOVSX RAX,word ptr [RDI + 0x2] [480FBF4702] 
+1A30B: TEST EDX,EDX                   [85D2] 
+1A30D: PUSH RBX                       [53] 
+1A30E: MOVSX R11,word ptr [RDI]       [4C0FBF1F] 
+1A312: MOVSX EBX,AX                   [0FBFD8] 
+1A317: TEST EDX,EDX                   [85D2] 
+1A31F: MOV RCX,[RDI + 0x30]           [488B4F30] 
+1A323: SHL R11,0x4                    [49C1E304] 
+1A327: LEA R8,[RAX*0x8]               [4C8D04C500000000] 
+1A32F: MOV RCX,[RCX + R11*0x1]        [4A8B0C19] 
+1A333: MOV RAX,[RCX + RAX*0x8]        [488B04C1] 
+1A337: MOV [RSI],AL                   [8806] 
+1A339: MOVSX EAX,word ptr [RDI + 0x6] [0FBF4706] 
+1A33D: CMP EBX,EAX                    [39C3] 
+1A3B9: MOV EDX,0x1                    [BA01000000] 
+1A3BE: MOV EAX,0x1                    [B801000000] 
+1A380: MOV byte ptr [RSI + RDX*0x1],0x0 [C6041600] 
+1A384: POP RBX                        [5B] 
+
+========

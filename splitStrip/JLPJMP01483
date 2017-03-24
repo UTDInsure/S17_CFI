@@ -1,0 +1,17 @@
+
+
+31BBD: CMP dword ptr [RSP + 0x50],0x0 [48837C245000] 
+31BC9: CMP dword ptr [RSP + 0x58],0x0 [48837C245800] 
+31BD5: MOV RBX,RBP                    [4889EB] 
+30F17: ADD RBX,0x1                    [4883C301] 
+30F1B: MOV RAX,RBX                    [4889D8] 
+30F1E: SUB RAX,[RSP]                  [482B0424] 
+30F22: CMP RAX,R14                    [4C39F0] 
+31220: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+31228: LEA RAX,[RDX + 0x1]            [488D4201] 
+3122C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+312C0: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+312C8: LEA RSI,[RAX + RAX*0x1]        [488D3400] 
+312CC: MOV [0x1e8 + R12],RSI          [4989B424E8010000] 
+
+========

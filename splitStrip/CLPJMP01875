@@ -1,0 +1,8 @@
+
+
+11E2B4: MOV RDI,[0x0036e968]           [488B3DAD062500] 
+11E2BB: CMP RDI,-0x1                   [4883FFFF] 
+11E2C1: SUB RSP,0x8                    [4883EC08] 
+11E2C5: MOV dword ptr [0x0036e968],-0x1 [48C70598062500FFFFFFFF] 
+
+========

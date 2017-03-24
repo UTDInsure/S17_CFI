@@ -1,0 +1,17 @@
+
+
+30504: PUSH R15                       [4157] 
+30506: PUSH R14                       [4156] 
+30508: PUSH R13                       [4155] 
+3050A: PUSH R12                       [4154] 
+3050C: PUSH RBP                       [55] 
+3050D: PUSH RBX                       [53] 
+3050E: SUB RSP,0x8                    [4883EC08] 
+30512: MOV RAX,[0x0024a880]           [488B0567A32100] 
+30519: MOV R12,[RAX]                  [4C8B20] 
+3051C: TEST R12,R12                   [4D85E4] 
+30525: XOR EDX,EDX                    [31D2] 
+30527: XOR ESI,ESI                    [31F6] 
+30529: MOV R13,RDI                    [4989FD] 
+
+========

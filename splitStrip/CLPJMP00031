@@ -1,0 +1,23 @@
+
+
+5594: PUSH R15                       [4157] 
+5596: MOV R15,RCX                    [4989CF] 
+5599: PUSH R14                       [4156] 
+559B: MOV R14,R9                     [4D89CE] 
+559E: PUSH R13                       [4155] 
+55A0: MOV R13,RDX                    [4989D5] 
+55A3: PUSH R12                       [4154] 
+55A5: MOV R12D,EDI                   [4189FC] 
+55A8: PUSH RBP                       [55] 
+55A9: PUSH RBX                       [53] 
+55AA: MOV RBX,R8                     [4C89C3] 
+55AD: SUB RSP,0x8                    [4883EC08] 
+55B1: CMP ESI,-0x1                   [83FEFF] 
+55B4: MOV RBP,[RSP + 0x40]           [488B6C2440] 
+55BB: MOV EDI,ESI                    [89F7] 
+18BF4: MOV EAX,0x3                    [B803000000] 
+18BFB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+55C6: TEST RBX,RBX                   [4885DB] 
+55E1: MOV RDI,RBX                    [4889DF] 
+
+========

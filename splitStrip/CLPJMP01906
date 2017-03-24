@@ -1,0 +1,16 @@
+
+
+14674: PUSH R15                       [4157] 
+14676: PUSH R14                       [4156] 
+14678: PUSH R13                       [4155] 
+1467A: PUSH R12                       [4154] 
+1467C: PUSH RBP                       [55] 
+1467D: PUSH RBX                       [53] 
+1467E: MOV RBX,RDI                    [4889FB] 
+14681: SUB RSP,0x18                   [4883EC18] 
+14685: TEST RDI,RDI                   [4885FF] 
+1468E: MOVZX R13D,SIL                 [440FB6EE] 
+14692: MOV RBP,RSI                    [4889F5] 
+14695: MOV RDI,R13                    [4C89EF] 
+
+========

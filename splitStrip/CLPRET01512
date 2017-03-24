@@ -1,0 +1,21 @@
+
+
+343D4: PUSH R13                       [4155] 
+343D6: PUSH R12                       [4154] 
+343D8: MOV R12,RSI                    [4989F4] 
+343DB: PUSH RBP                       [55] 
+343DC: MOV RBP,RDX                    [4889D5] 
+343DF: PUSH RBX                       [53] 
+343E0: MOV RBX,RDI                    [4889FB] 
+343E3: SUB RSP,0x28                   [4883EC28] 
+343E7: TEST RDI,RDI                   [4885FF] 
+34458: LEA RAX,[0x365920]             [488D05C1143300] 
+3445F: MOV [R12],RAX                  [49890424] 
+34463: MOV dword ptr [RBP],0x2        [48C7450002000000] 
+3446B: ADD RSP,0x28                   [4883C428] 
+3446F: POP RBX                        [5B] 
+34470: POP RBP                        [5D] 
+34471: POP R12                        [415C] 
+34473: POP R13                        [415D] 
+
+========

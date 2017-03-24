@@ -1,0 +1,7 @@
+
+
+7A6B4: MOV RAX,[RDI + 0x8]            [488B4708] 
+7A6B8: TEST RAX,RAX                   [4885C0] 
+7A6E1: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

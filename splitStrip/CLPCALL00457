@@ -1,0 +1,20 @@
+
+
+73244: PUSH RBP                       [55] 
+73245: PUSH RBX                       [53] 
+73246: MOV RBX,RDI                    [4889FB] 
+73249: SUB RSP,0x8                    [4883EC08] 
+7324D: MOV EAX,[RDI]                  [8B07] 
+7324F: TEST AL,0x8                    [A808] 
+73278: TEST AH,0x8                    [F6C408] 
+7327B: MOV EBP,ESI                    [89F5] 
+7327F: MOV RDX,[0xa0 + RDI]           [488B97A0000000] 
+73286: CMP dword ptr [RDX + 0x18],0x0 [48837A1800] 
+71094: PUSH RBX                       [53] 
+71095: MOV RSI,[0xa0 + RDI]           [488BB7A0000000] 
+7109C: MOV RBX,RDI                    [4889FB] 
+7109F: CMP dword ptr [RSI + 0x30],0x0 [48837E3000] 
+710B0: TEST byte ptr [RDI],0x2        [F60702] 
+710B5: MOV RAX,[0x140 + RSI]          [488B8640010000] 
+
+========

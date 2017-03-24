@@ -1,0 +1,14 @@
+
+
+34924: SUB RSP,0x8                    [4883EC08] 
+34928: MOV RAX,[0x0024a7a0]           [488B05715E2100] 
+3492F: MOV RDI,[RAX]                  [488B38] 
+34932: TEST RDI,RDI                   [4885FF] 
+34544: PUSH RBX                       [53] 
+34545: MOV RBX,[0x0024a878]           [488B1D2C632100] 
+3454C: MOV RAX,[0x2d8 + RBX]          [488B83D8020000] 
+34553: TEST RAX,RAX                   [4885C0] 
+34558: POP RBX                        [5B] 
+34959: MOV RDI,RAX                    [4889C7] 
+
+========

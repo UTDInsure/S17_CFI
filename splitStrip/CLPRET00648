@@ -1,0 +1,10 @@
+
+
+4060B4: XOR EAX,EAX                    [31C0] 
+4060B6: CMP RDI,[0x006237a0]           [483B3DE3D62100] 
+4060C8: MOV EDX,0x1c3                  [BAC3010000] 
+4060CD: MOV ESI,0x6237a0               [BEA0376200] 
+405444: SUB EDX,0x1                    [83EA01] 
+405483: XOR EAX,EAX                    [31C0] 
+
+========

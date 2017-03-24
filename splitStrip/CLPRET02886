@@ -1,0 +1,20 @@
+
+
+75C04: PUSH R14                       [4156] 
+75C06: PUSH R13                       [4155] 
+75C08: PUSH R12                       [4154] 
+75C0A: PUSH RBP                       [55] 
+75C0B: PUSH RBX                       [53] 
+75C0C: MOV RBX,RDX                    [4889D3] 
+75C0F: SUB RSP,0x90                   [4881EC90000000] 
+75C16: MOV EAX,[RDX]                  [8B02] 
+75C18: TEST AH,0x20                   [F6C420] 
+75E70: ADD RSP,0x90                   [4881C490000000] 
+75E77: XOR EAX,EAX                    [31C0] 
+75E79: POP RBX                        [5B] 
+75E7A: POP RBP                        [5D] 
+75E7B: POP R12                        [415C] 
+75E7D: POP R13                        [415D] 
+75E7F: POP R14                        [415E] 
+
+========

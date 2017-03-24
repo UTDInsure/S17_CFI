@@ -1,0 +1,16 @@
+
+
+DBE54: MOV ECX,0x10                   [B910000000] 
+DBE59: MOV R8,RSI                     [4989F0] 
+DBE5C: LEA RDX,[RSP + -0x38]          [488D5424C8] 
+DBE61: MOV ESI,0x5401                 [BE01540000] 
+DBE66: MOVSXD RDI,EDI                 [4863FF] 
+DBE69: MOV EAX,ECX                    [89C8] 
+DBE6D: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DBE73: MOV RDX,RAX                    [4889C2] 
+DBEED: MOV RAX,[0x00368e68]           [488B0574CF2800] 
+DBEF4: NEG EDX                        [F7DA] 
+DBEF6: MOV FS:[RAX],EDX               [648910] 
+DBEF9: OR EAX,0xffffffff              [83C8FF] 
+
+========

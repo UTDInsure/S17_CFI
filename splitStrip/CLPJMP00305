@@ -1,0 +1,14 @@
+
+
+408844: PUSH RBP                       [55] 
+408845: PUSH RBX                       [53] 
+408846: SUB RSP,0x8                    [4883EC08] 
+40884A: MOV R9D,[0x006283e0]           [448B0D8FFB2100] 
+408851: TEST R9D,R9D                   [4585C9] 
+408856: MOV RDI,[0x006283e8]           [488B3D8BFB2100] 
+40885D: TEST RDI,RDI                   [4885FF] 
+408862: MOV RBX,[RDI]                  [488B1F] 
+408865: MOVSX EBP,byte ptr [RDI + 0x8] [0FBE6F08] 
+408869: MOV [0x006283e8],RBX           [48891D78FB2100] 
+
+========

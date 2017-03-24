@@ -1,0 +1,23 @@
+
+
+443C4: PUSH R15                       [4157] 
+443C6: PUSH R14                       [4156] 
+443C8: PUSH R13                       [4155] 
+443CA: PUSH R12                       [4154] 
+443CC: PUSH RBP                       [55] 
+443CD: PUSH RBX                       [53] 
+443CE: SUB RSP,0x28                   [4883EC28] 
+443D2: MOV RBP,[RDI]                  [488B2F] 
+443D5: MOV [RSP + 0x8],RDI            [48897C2408] 
+443DA: MOV [RSP + 0x10],RDX           [4889542410] 
+443DF: CMP byte ptr [RBP],0x0         [807D0000] 
+444FF: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+4448F: ADD RSP,0x28                   [4883C428] 
+44493: POP RBX                        [5B] 
+44494: POP RBP                        [5D] 
+44495: POP R12                        [415C] 
+44497: POP R13                        [415D] 
+44499: POP R14                        [415E] 
+4449B: POP R15                        [415F] 
+
+========

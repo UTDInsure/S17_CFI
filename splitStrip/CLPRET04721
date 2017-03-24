@@ -1,0 +1,10 @@
+
+
+CC244: MOV EAX,0x90                   [B890000000] 
+CC24B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+CC254: MOV RCX,[0x00368e68]           [488B0D0DCC2900] 
+CC25B: NEG EAX                        [F7D8] 
+CC25D: MOV FS:[RCX],EAX               [648901] 
+CC260: OR RAX,-0x1                    [4883C8FF] 
+
+========

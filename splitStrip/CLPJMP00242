@@ -1,0 +1,28 @@
+
+
+406154: PUSH R15                       [4157] 
+406156: PUSH R14                       [4156] 
+406158: PUSH R13                       [4155] 
+40615A: PUSH R12                       [4154] 
+40615C: MOV R12,RCX                    [4989CC] 
+40615F: PUSH RBP                       [55] 
+406160: MOV RBP,R8                     [4C89C5] 
+406163: PUSH RBX                       [53] 
+406164: MOV RBX,RSI                    [4889F3] 
+406167: SUB RSP,0x18                   [4883EC18] 
+40616B: CMP EDX,0x1                    [83FA01] 
+40616E: MOV [RSP + 0x8],RDI            [48897C2408] 
+4061E0: XOR EAX,EAX                    [31C0] 
+4061E2: MOV EDI,ESI                    [89F7] 
+4058C4: MOVZX ECX,DIL                  [400FB6CF] 
+4058C8: SUB RSP,0x8                    [4883EC08] 
+4058CC: CMP RCX,0x7f                   [4883F97F] 
+4058DC: TEST byte ptr [0x627a60 + RCX],0x2 [F681607A620002] 
+4058E5: CMP RCX,0x1b                   [4883F91B] 
+4058EF: CMP RCX,0x7f                   [4883F97F] 
+405905: MOV RDX,[0x00627a48]           [488B153C212200] 
+40590C: MOV ESI,0x20                   [BE20000000] 
+405911: MOV EDI,0x627a20               [BF207A6200] 
+405916: XOR EAX,EAX                    [31C0] 
+
+========

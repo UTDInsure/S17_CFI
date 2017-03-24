@@ -1,0 +1,9 @@
+
+
+22394: PUSH RBX                       [53] 
+22395: CMP byte ptr [RDI + 0x26],0x0  [807F2600] 
+22399: MOV RBX,RDI                    [4889FB] 
+2239E: CMP byte ptr [RBX + 0x27],0x0  [807B2700] 
+223B0: MOV RDI,RBX                    [4889DF] 
+
+========

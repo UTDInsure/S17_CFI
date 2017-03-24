@@ -1,0 +1,6 @@
+
+
+FEAD4: TEST ECX,ECX                   [85C9] 
+FEB0D: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

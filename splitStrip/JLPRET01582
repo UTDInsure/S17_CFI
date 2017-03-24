@@ -1,0 +1,13 @@
+
+
+C60F4: AND DH,0x20                    [80E620] 
+C60F7: MOV EAX,0x1                    [B801000000] 
+C6102: MOV byte ptr [RBP + 0x8],0x8   [C6450808] 
+C5F46: ADD RSP,0x20                   [4883C420] 
+C5F4A: POP RBX                        [5B] 
+C5F4B: POP RBP                        [5D] 
+C5F4C: POP R12                        [415C] 
+C5F4E: POP R13                        [415D] 
+C5F50: POP R14                        [415E] 
+
+========

@@ -1,0 +1,6 @@
+
+
+1CB84: TEST RDI,RDI                   [4885FF] 
+1CBF8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

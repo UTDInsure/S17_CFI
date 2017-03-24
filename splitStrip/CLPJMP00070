@@ -1,0 +1,19 @@
+
+
+12A94: PUSH R12                       [4154] 
+12A96: MOV EDX,0x1000                 [BA00100000] 
+12A9B: LEA RDI,[0x1c257]              [488D3DB5970000] 
+12AA2: MOV EAX,0x59                   [B859000000] 
+12AA7: PUSH RBP                       [55] 
+12AA8: PUSH RBX                       [53] 
+12AA9: SUB RSP,0x1000                 [4881EC00100000] 
+12AB0: MOV RSI,RSP                    [4889E6] 
+12AB5: TEST EAX,EAX                   [85C0] 
+12AB9: CMP EAX,0xfffff000             [3D00F0FFFF] 
+12B48: MOVZX EDX,byte ptr [RSP]       [0FB61424] 
+12B4C: CMP DL,0x5b                    [80FA5B] 
+12B55: CMP DL,0x2f                    [80FA2F] 
+12B5E: CMP EAX,0x1                    [83F801] 
+12B8B: MOV EDI,0x2                    [BF02000000] 
+
+========

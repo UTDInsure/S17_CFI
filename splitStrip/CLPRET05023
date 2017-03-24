@@ -1,0 +1,27 @@
+
+
+D8044: PUSH R15                       [4157] 
+D8046: PUSH R14                       [4156] 
+D8048: PUSH R13                       [4155] 
+D804A: PUSH R12                       [4154] 
+D804C: PUSH RBP                       [55] 
+D804D: MOV RBP,RSI                    [4889F5] 
+D8050: PUSH RBX                       [53] 
+D8051: SUB RSP,0x198                  [4881EC98010000] 
+D8058: MOV RBX,[0x00368e68]           [488B1D090E2900] 
+D805F: TEST RSI,RSI                   [4885F6] 
+D8062: MOV dword ptr [RSP + 0xc],0x0  [C744240C00000000] 
+D806A: MOV R14D,FS:[RBX]              [64448B33] 
+D8070: CMP RDX,0x9                    [4883FA09] 
+D8074: MOV R12,RDX                    [4989D4] 
+D8079: MOV dword ptr FS:[RBX],0x22    [64C70322000000] 
+D8080: MOV EAX,0x22                   [B822000000] 
+D8085: ADD RSP,0x198                  [4881C498010000] 
+D808C: POP RBX                        [5B] 
+D808D: POP RBP                        [5D] 
+D808E: POP R12                        [415C] 
+D8090: POP R13                        [415D] 
+D8092: POP R14                        [415E] 
+D8094: POP R15                        [415F] 
+
+========

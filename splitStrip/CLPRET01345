@@ -1,0 +1,28 @@
+
+
+2BAC4: SUB RSP,0x8                    [4883EC08] 
+2BAC8: MOV RSI,[RSI]                  [488B36] 
+2BACB: MOV RDI,[RDI]                  [488B3F] 
+83C84: MOV ECX,ESI                    [89F1] 
+83C86: MOV EAX,EDI                    [89F8] 
+83C88: AND RCX,0x3f                   [4883E13F] 
+83C8C: AND RAX,0x3f                   [4883E03F] 
+83C90: CMP ECX,0x30                   [83F930] 
+83C95: CMP EAX,0x30                   [83F830] 
+83C9A: MOVLPD XMM1,[RDI]              [660F120F] 
+83C9E: MOVLPD XMM2,[RSI]              [660F1216] 
+83CA2: MOVHPD XMM1,[RDI + 0x8]        [660F164F08] 
+83CA7: MOVHPD XMM2,[RSI + 0x8]        [660F165608] 
+83CAC: PXOR XMM0,XMM0                 [660FEFC0] 
+83CB0: PCMPEQB XMM0,XMM1              [660F74C1] 
+83CB4: PCMPEQB XMM1,XMM2              [660F74CA] 
+83CB8: PSUBB XMM1,XMM0                [660FF8C8] 
+83CBC: PMOVMSKB EDX,XMM1              [660FD7D1] 
+83CC0: SUB EDX,0xffff                 [81EAFFFF0000] 
+850A0: BSF RDX,RDX                    [480FBCD2] 
+850A4: MOVZX ECX,byte ptr [RSI + RDX*0x1] [0FB60C16] 
+850A8: MOVZX EAX,byte ptr [RDI + RDX*0x1] [0FB60417] 
+850AC: SUB EAX,ECX                    [29C8] 
+2BAD7: ADD RSP,0x8                    [4883C408] 
+
+========

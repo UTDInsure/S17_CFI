@@ -1,0 +1,9 @@
+
+
+17894: PUSH RBX                       [53] 
+17895: MOV RBX,[0x0024a830]           [488B1D942F2300] 
+1789C: MOV EDX,ESI                    [89F2] 
+1789E: MOV ESI,EDI                    [89FE] 
+178A0: MOV RDI,[RBX]                  [488B3B] 
+
+========

@@ -1,0 +1,22 @@
+
+
+777C4: PUSH R13                       [4155] 
+777C6: MOV R13,RDX                    [4989D5] 
+777C9: PUSH R12                       [4154] 
+777CB: MOV R12,RDI                    [4989FC] 
+777CE: PUSH RBP                       [55] 
+777CF: PUSH RBX                       [53] 
+777D0: SUB RSP,0x8                    [4883EC08] 
+777D4: TEST RDX,RDX                   [4885D2] 
+77850: XOR EAX,EAX                    [31C0] 
+7781F: MOV RDX,[0x90 + R12]           [498B942490000000] 
+77827: TEST RDX,RDX                   [4885D2] 
+7782C: ADD RDX,RAX                    [4801C2] 
+7782F: MOV [0x90 + R12],RDX           [4989942490000000] 
+77837: ADD RSP,0x8                    [4883C408] 
+7783B: POP RBX                        [5B] 
+7783C: POP RBP                        [5D] 
+7783D: POP R12                        [415C] 
+7783F: POP R13                        [415D] 
+
+========

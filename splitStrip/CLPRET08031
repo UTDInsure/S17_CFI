@@ -1,0 +1,6 @@
+
+
+186B4: TEST RDI,RDI                   [4885FF] 
+186B9: MOV EAX,[RDI + 0x40]           [8B4740] 
+
+========

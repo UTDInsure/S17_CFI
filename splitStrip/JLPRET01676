@@ -1,0 +1,14 @@
+
+
+10C634: SUB EBX,EAX                    [29C3] 
+10C636: CDQE                           [4898] 
+10C638: ADD RBP,RAX                    [4801C5] 
+10C63B: TEST EBX,EBX                   [85DB] 
+10C684: ADD RSP,0x8                    [4883C408] 
+10C688: MOV EAX,R13D                   [4489E8] 
+10C68B: POP RBX                        [5B] 
+10C68C: POP RBP                        [5D] 
+10C68D: POP R12                        [415C] 
+10C68F: POP R13                        [415D] 
+
+========

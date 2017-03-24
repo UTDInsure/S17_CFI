@@ -1,0 +1,14 @@
+
+
+4025DD: XOR EBP,EBP                    [31ED] 
+4025DF: MOV R9,RDX                     [4989D1] 
+4025E2: POP RSI                        [5E] 
+4025E3: MOV RDX,RSP                    [4889E2] 
+4025E6: AND RSP,-0x10                  [4883E4F0] 
+4025EA: PUSH RAX                       [50] 
+4025EB: PUSH RSP                       [54] 
+4025EC: MOV R8,0x418120                [49C7C020814100] 
+4025F3: MOV RCX,0x4180b0               [48C7C1B0804100] 
+4025FA: MOV RDI,0x4020a0               [48C7C7A0204000] 
+
+========

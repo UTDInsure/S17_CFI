@@ -1,0 +1,19 @@
+
+
+108AB4: MOV RAX,[RSI + 0x30]           [488B4630] 
+108AB8: MOV EDX,[0x0036def0]           [8B1532542600] 
+108ABE: MOV [RDI + 0x18],RAX           [48894718] 
+108AC2: MOV RAX,[RSI + 0x38]           [488B4638] 
+108AC6: MOV [RDI + 0x20],RAX           [48894720] 
+108ACA: MOV RAX,[RSI + 0x40]           [488B4640] 
+108ACE: MOV [RDI + 0x28],RAX           [48894728] 
+108AD2: MOV RAX,[RDI + 0x38]           [488B4738] 
+108AD6: MOV [RAX + 0x28],EDX           [895028] 
+108AD9: MOVSXD RDX,[RDI + 0x18]        [48635718] 
+108ADD: MOV dword ptr [RAX + 0x38],0x0 [C7403800000000] 
+108AE4: MOV EAX,0x2                    [B802000000] 
+108AE9: CMP EDX,0x3                    [83FA03] 
+108AF0: LEA RAX,[0x368b80]             [488D0589002600] 
+108AF7: SUB RSP,0x8                    [4883EC08] 
+
+========

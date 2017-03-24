@@ -1,0 +1,9 @@
+
+
+FEAD4: TEST ECX,ECX                   [85C9] 
+FEAD8: MOV EAX,[RDX]                  [8B02] 
+FEADA: CMP EAX,-0x1                   [83F8FF] 
+FEADF: CMP EAX,EDI                    [39F8] 
+FEB36: XOR EAX,EAX                    [31C0] 
+
+========

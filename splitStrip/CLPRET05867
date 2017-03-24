@@ -1,0 +1,26 @@
+
+
+E5984: PUSH RBP                       [55] 
+E5985: MOV EDX,0x1                    [BA01000000] 
+E598A: XOR EAX,EAX                    [31C0] 
+E598C: MOV RBP,RSP                    [4889E5] 
+E598F: LOCK                           [F0] 
+E5990: CMPXCHG [0x00369220],RDX       [480FB11588382800] 
+E599E: SUB RDI,[0x00369260]           [482B3DBB382800] 
+E59A5: CMP RDI,[0x00369270]           [483B3DC4382800] 
+E59B2: MOV RCX,[0x00369280]           [488B0DC7382800] 
+E59B9: MOV RAX,[0x00369238]           [488B0578382800] 
+E59C0: SHR RDI,CL                     [48D3EF] 
+E59C3: MOVSXD RDI,EDI                 [4863FF] 
+E59C6: LEA R8,[RAX + RDI*0x8]         [4C8D04F8] 
+E59CA: MOV RAX,[R8]                   [498B00] 
+E59CD: TEST RAX,RAX                   [4885C0] 
+E5A50: MOV RDX,[0x00369248]           [488B15F1372800] 
+E5A57: MOV RAX,[RDX + 0x10]           [488B4210] 
+E5A5B: ADD RAX,0x1                    [4883C001] 
+E5A5F: CMP RAX,[0x00369258]           [483B05F2372800] 
+E5A66: MOV [RDX + 0x10],RAX           [48894210] 
+E5A6C: MOV dword ptr [0x00369220],0x2 [48C705A937280002000000] 
+E5A77: POP RBP                        [5D] 
+
+========

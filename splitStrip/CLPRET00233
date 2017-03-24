@@ -1,0 +1,8 @@
+
+
+16DC4: MOV RDX,[RDI]                  [488B17] 
+16DC7: MOV RAX,[RDX]                  [488B02] 
+16DCA: TEST RAX,RAX                   [4885C0] 
+16DE1: XOR EAX,EAX                    [31C0] 
+
+========

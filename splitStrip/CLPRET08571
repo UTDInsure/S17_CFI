@@ -1,0 +1,11 @@
+
+
+2EFA4: PUSH RBX                       [53] 
+2EFA5: SUB RSP,0x40                   [4883EC40] 
+2EFA9: MOV RAX,[0x0024a880]           [488B05D0B82100] 
+2EFB0: MOV RBX,[RAX]                  [488B18] 
+2EFB3: TEST RBX,RBX                   [4885DB] 
+2F08E: ADD RSP,0x40                   [4883C440] 
+2F092: POP RBX                        [5B] 
+
+========

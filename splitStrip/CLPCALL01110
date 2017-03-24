@@ -1,0 +1,16 @@
+
+
+F10E4: PUSH RBP                       [55] 
+F10E5: MOV RBP,RSP                    [4889E5] 
+F10E8: PUSH R13                       [4155] 
+F10EA: PUSH R12                       [4154] 
+F10EC: PUSH RBX                       [53] 
+F10ED: MOV RBX,RSI                    [4889F3] 
+F10F0: SUB RSP,0x8                    [4883EC08] 
+F10F4: MOVSXD RDX,[RSI + 0x10]        [48635610] 
+F10F8: CMP EDX,-0x1                   [83FAFF] 
+F10FD: MOV RAX,[RSI]                  [488B06] 
+F1100: MOV R12,RDI                    [4989FC] 
+F1103: LEA R13,[RAX + RDX*0x8]        [4C8D2CD0] 
+
+========

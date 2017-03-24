@@ -1,0 +1,28 @@
+
+
+34174: PUSH R15                       [4157] 
+34176: MOV R15,RDI                    [4989FF] 
+34179: PUSH R14                       [4156] 
+3417B: PUSH R13                       [4155] 
+3417D: PUSH R12                       [4154] 
+3417F: MOV R12D,ESI                   [4189F4] 
+34182: PUSH RBP                       [55] 
+34183: PUSH RBX                       [53] 
+34184: MOV RBX,RDX                    [4889D3] 
+34187: SUB RSP,0x18                   [4883EC18] 
+3418B: MOV RAX,[0x0024a7a0]           [488B050E662100] 
+34192: MOV R14,[0x0024b5d8]           [4C8B353F742100] 
+34199: MOV RDX,[RAX]                  [488B10] 
+3419C: TEST RDX,RDX                   [4885D2] 
+341A1: MOV RAX,[0x0024a880]           [488B05D8662100] 
+341A8: CMP dword ptr [RAX],0x0        [48833800] 
+344CA: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+3425E: ADD RSP,0x18                   [4883C418] 
+34262: POP RBX                        [5B] 
+34263: POP RBP                        [5D] 
+34264: POP R12                        [415C] 
+34266: POP R13                        [415D] 
+34268: POP R14                        [415E] 
+3426A: POP R15                        [415F] 
+
+========

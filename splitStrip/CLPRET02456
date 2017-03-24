@@ -1,0 +1,8 @@
+
+
+6E6A4: CMP EDX,0x2                    [83FA02] 
+6E760: MOV RAX,[0x00368e68]           [488B0501A72F00] 
+6E767: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+6E76E: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

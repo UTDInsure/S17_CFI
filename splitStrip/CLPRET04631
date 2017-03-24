@@ -1,0 +1,13 @@
+
+
+BED34: PUSH R12                       [4154] 
+BED36: TEST RSI,RSI                   [4885F6] 
+BED39: MOV R12,RSI                    [4989F4] 
+BED3C: PUSH RBP                       [55] 
+BED3D: PUSH RBX                       [53] 
+BEEB0: XOR EAX,EAX                    [31C0] 
+BEEB2: POP RBX                        [5B] 
+BEEB3: POP RBP                        [5D] 
+BEEB4: POP R12                        [415C] 
+
+========

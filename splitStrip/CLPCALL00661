@@ -1,0 +1,27 @@
+
+
+7A334: SUB RSP,0x8                    [4883EC08] 
+7A338: MOV EDI,0x1                    [BF01000000] 
+79E74: PUSH R15                       [4157] 
+79E76: PUSH R14                       [4156] 
+79E78: PUSH R13                       [4155] 
+79E7A: XOR R13D,R13D                  [4531ED] 
+79E7D: PUSH R12                       [4154] 
+79E7F: PUSH RBP                       [55] 
+79E80: MOV EBP,EDI                    [89FD] 
+79E82: PUSH RBX                       [53] 
+79E83: SUB RSP,0x28                   [4883EC28] 
+79E87: TEST EDI,EDI                   [85FF] 
+79F16: MOV RBX,[0x0036a040]           [488B1D23012F00] 
+79F1D: XOR R15D,R15D                  [4531FF] 
+79F20: MOV R14D,[0x0036b778]          [448B3551182F00] 
+79F27: TEST RBX,RBX                   [4885DB] 
+7A077: TEST EBP,EBP                   [85ED] 
+7A084: TEST R13D,R13D                 [4585ED] 
+7A089: MOV RAX,[0x0036e738]           [488B05A8462F00] 
+7A090: MOV RDI,RSP                    [4889E7] 
+7A093: XOR ESI,ESI                    [31F6] 
+7A095: ROR RAX,0x11                   [48C1C811] 
+7A099: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

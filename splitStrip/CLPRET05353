@@ -1,0 +1,17 @@
+
+
+DDB14: MOV EDX,[0x0036e770]           [8B15560C2900] 
+DDB1A: PUSH RBX                       [53] 
+DDB1B: MOV RBX,RDI                    [4889FB] 
+DDB1E: TEST EDX,EDX                   [85D2] 
+DDB60: MOV RAX,[0x0036e6f8]           [488B05910B2900] 
+DDB67: LEA RSI,[0xddae0]              [488D3572FFFFFF] 
+DDB6E: LEA RDI,[0x36c088]             [488D3D13E52800] 
+DDB75: ROR RAX,0x11                   [48C1C811] 
+DDB79: XOR RAX,FS:[0x30]              [644833042530000000] 
+DDB88: MOV RDX,[0x0036a7c0]           [488B1531CC2800] 
+DDB33: TEST RDX,RDX                   [4885D2] 
+DDBC0: XOR EAX,EAX                    [31C0] 
+DDBC2: POP RBX                        [5B] 
+
+========

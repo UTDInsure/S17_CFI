@@ -1,0 +1,12 @@
+
+
+35D74: MOV EAX,[0x0036e770]           [8B05F6893300] 
+35D7A: TEST EAX,EAX                   [85C0] 
+35D80: SUB RSP,0x8                    [4883EC08] 
+35D84: MOV RAX,[0x0036e6f0]           [488B0565893300] 
+35D8B: MOV RSI,RSP                    [4889E6] 
+35D8E: ROR RAX,0x11                   [48C1C811] 
+35D92: XOR RAX,FS:[0x30]              [644833042530000000] 
+35DA1: ADD RSP,0x8                    [4883C408] 
+
+========

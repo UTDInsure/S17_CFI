@@ -1,0 +1,7 @@
+
+
+100884: TEST EDX,EDX                   [85D2] 
+1008E0: CMP EDX,0x1                    [83FA01] 
+1008D1: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

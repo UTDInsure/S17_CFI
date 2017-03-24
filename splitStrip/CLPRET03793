@@ -1,0 +1,10 @@
+
+
+93894: MOVSX EAX,byte ptr [RDI]       [0FBE07] 
+93897: TEST AL,AL                     [84C0] 
+9389B: CMP EAX,ESI                    [39F0] 
+9389F: CMP EAX,EDX                    [39D0] 
+938A3: CMP EAX,ECX                    [39C8] 
+938A5: MOV EAX,0x0                    [B800000000] 
+
+========

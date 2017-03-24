@@ -1,0 +1,8 @@
+
+
+406D84: PUSH RBP                       [55] 
+406D85: PUSH RBX                       [53] 
+406D86: MOV RBX,RDI                    [4889FB] 
+406D89: SUB RSP,0x18                   [4883EC18] 
+
+========

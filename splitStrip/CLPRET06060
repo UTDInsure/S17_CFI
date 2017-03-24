@@ -1,0 +1,17 @@
+
+
+E76F4: MOV RAX,[RSI]                  [488B06] 
+E76F7: MOV EDX,[0xd0 + RAX]           [8B90D0000000] 
+E76FD: ADD EDX,0x1                    [83C201] 
+E7700: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E7705: MOV EAX,EDI                    [89F8] 
+E7707: MOV ECX,[RDX]                  [8B0A] 
+E7709: SHR EAX,CL                     [D3E8] 
+E770B: MOV ECX,EAX                    [89C1] 
+E770D: CMP ECX,[RDX + 0x4]            [3B4A04] 
+E7710: MOV EAX,EDI                    [89F8] 
+E7714: ADD ECX,0x5                    [83C105] 
+E7717: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+E771A: TEST ECX,ECX                   [85C9] 
+
+========

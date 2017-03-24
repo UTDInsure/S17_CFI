@@ -1,0 +1,13 @@
+
+
+4B3C2: MOV RAX,[RBX + 0x28]           [488B4328] 
+4B3C6: CMP RAX,[RBX + 0x30]           [483B4330] 
+4BA98: MOV ESI,0x25                   [BE25000000] 
+4BA9D: MOV RDI,RBX                    [4889DF] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+79562: MOV dword ptr [0xc0 + RDI],0xffffffff [C787C0000000FFFFFFFF] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

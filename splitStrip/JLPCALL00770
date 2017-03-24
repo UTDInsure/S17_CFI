@@ -1,0 +1,18 @@
+
+
+74AA3: TEST dword ptr [RBX],0x8000    [F70300800000] 
+74AA9: MOV RSI,RAX                    [4889C6] 
+74AAE: MOV RDX,[0x88 + RBX]           [488B9388000000] 
+74AB5: MOV EAX,[RDX + 0x4]            [8B4204] 
+74AB8: LEA ECX,[RAX + -0x1]           [8D48FF] 
+74ABB: TEST ECX,ECX                   [85C9] 
+74ABD: MOV [RDX + 0x4],ECX            [894A04] 
+74AC2: MOV dword ptr [RDX + 0x8],0x0  [48C7420800000000] 
+74ACA: CMP dword ptr [0x0036e774],0x0 [833DA39C2F0000] 
+74ADA: DEC dword ptr [RDX]            [FF0A] 
+74AF8: MOV RDI,RSI                    [4889F7] 
+22014: SUB RSP,0x18                   [4883EC18] 
+22018: MOV RAX,[0x0036a8f0]           [488B05D1883400] 
+2201F: TEST RAX,RAX                   [4885C0] 
+
+========

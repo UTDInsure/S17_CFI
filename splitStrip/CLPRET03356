@@ -1,0 +1,23 @@
+
+
+7FC44: PUSH R12                       [4154] 
+7FC46: MOV RAX,[0x00368ed0]           [488B0583922E00] 
+7FC4D: MOV R12,RSI                    [4989F4] 
+7FC50: PUSH RBP                       [55] 
+7FC51: PUSH RBX                       [53] 
+7FC52: MOV RAX,[RAX]                  [488B00] 
+7FC55: MOV RBX,RDI                    [4889FB] 
+7FC58: TEST RAX,RAX                   [4885C0] 
+7FC61: CMP RDI,0x10                   [4883FF10] 
+7FC6B: CMP RDI,0x1f                   [4883FF1F] 
+7FD80: MOV RAX,-0x41                  [48C7C0BFFFFFFF] 
+7FD87: MOV EBX,0x20                   [BB20000000] 
+7FC92: CMP R12,RAX                    [4939C4] 
+7FDD8: MOV RAX,[0x00368e68]           [488B0589902E00] 
+7FDDF: MOV dword ptr FS:[RAX],0xc     [64C7000C000000] 
+7FDE6: XOR EAX,EAX                    [31C0] 
+7FD77: POP RBX                        [5B] 
+7FD78: POP RBP                        [5D] 
+7FD79: POP R12                        [415C] 
+
+========

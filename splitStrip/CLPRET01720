@@ -1,0 +1,10 @@
+
+
+36764: MOV EAX,0x83                   [B883000000] 
+3676B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+36774: MOV RCX,[0x00368e68]           [488B0DED263300] 
+3677B: NEG EAX                        [F7D8] 
+3677D: MOV FS:[RCX],EAX               [648901] 
+36780: OR RAX,-0x1                    [4883C8FF] 
+
+========

@@ -1,0 +1,15 @@
+
+
+34584: PUSH RBP                       [55] 
+34585: PUSH RBX                       [53] 
+34586: MOV RBX,RDI                    [4889FB] 
+34589: SUB RSP,0x8                    [4883EC08] 
+3458D: TEST RDI,RDI                   [4885FF] 
+34592: MOV RAX,[0x0024a7a0]           [488B0507622100] 
+34599: CMP dword ptr [RAX],0x0        [48833800] 
+3460E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+34613: ADD RSP,0x8                    [4883C408] 
+34617: POP RBX                        [5B] 
+34618: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,24 @@
+
+
+170E4: LEA RCX,[RSI + RDX*0x1 + -0x1] [488D4C16FF] 
+170E9: LEA R8,[0x1b6e0]               [4C8D05F0450000] 
+170F0: MOVSXD RDI,EDI                 [4863FF] 
+170F3: MOV RSI,-0x3333333333333333    [48BECDCCCCCCCCCCCCCC] 
+170FD: MOV byte ptr [RCX],0x0         [C60100] 
+17100: MOV RAX,RDI                    [4889F8] 
+17103: SUB RCX,0x1                    [4883E901] 
+17107: MUL RSI                        [48F7E6] 
+1710A: SHR RDX,0x3                    [48C1EA03] 
+1710E: LEA RAX,[RDX + RDX*0x4]        [488D0492] 
+17112: ADD RAX,RAX                    [4801C0] 
+17115: SUB RDI,RAX                    [4829C7] 
+17118: TEST RDX,RDX                   [4885D2] 
+1711B: MOVZX EAX,byte ptr [R8 + RDI*0x1] [410FB60438] 
+17120: MOV RDI,RDX                    [4889D7] 
+17123: MOV [RCX],AL                   [8801] 
+17127: MOV EAX,0x2072                 [B872200000] 
+1712C: MOV dword ptr [RCX + -0x6],0x6f727245 [C741FA4572726F] 
+17133: MOV [RCX + -0x2],AX            [668941FE] 
+17137: LEA RAX,[RCX + -0x6]           [488D41FA] 
+
+========

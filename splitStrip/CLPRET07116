@@ -1,0 +1,20 @@
+
+
+10C614: PUSH R13                       [4155] 
+10C616: MOV R13D,EDX                   [4189D5] 
+10C619: PUSH R12                       [4154] 
+10C61B: MOV R12,RDI                    [4989FC] 
+10C61E: PUSH RBP                       [55] 
+10C61F: MOV RBP,RSI                    [4889F5] 
+10C622: PUSH RBX                       [53] 
+10C623: MOV EBX,EDX                    [89D3] 
+10C625: SUB RSP,0x8                    [4883EC08] 
+10C629: TEST EDX,EDX                   [85D2] 
+10C684: ADD RSP,0x8                    [4883C408] 
+10C688: MOV EAX,R13D                   [4489E8] 
+10C68B: POP RBX                        [5B] 
+10C68C: POP RBP                        [5D] 
+10C68D: POP R12                        [415C] 
+10C68F: POP R13                        [415D] 
+
+========

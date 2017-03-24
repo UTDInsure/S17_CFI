@@ -1,0 +1,17 @@
+
+
+E75D4: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E75DC: MOV RAX,[RSI]                  [488B06] 
+E75DF: MOV EDX,[0xc8 + RAX]           [8B90C8000000] 
+E75E5: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E75EA: MOV EAX,EDI                    [89F8] 
+E75EC: MOV ECX,[RDX]                  [8B0A] 
+E75EE: SHR EAX,CL                     [D3E8] 
+E75F0: MOV ECX,EAX                    [89C1] 
+E75F2: XOR EAX,EAX                    [31C0] 
+E75F4: CMP ECX,[RDX + 0x4]            [3B4A04] 
+E75F9: ADD ECX,0x5                    [83C105] 
+E75FC: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+E75FF: TEST ECX,ECX                   [85C9] 
+
+========

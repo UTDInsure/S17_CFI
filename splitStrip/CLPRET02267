@@ -1,0 +1,19 @@
+
+
+4CD04: PUSH R13                       [4155] 
+4CD06: PUSH R12                       [4154] 
+4CD08: PUSH RBP                       [55] 
+4CD09: PUSH RBX                       [53] 
+4CD0A: MOV RBX,RDI                    [4889FB] 
+4CD0D: SUB RSP,0x2128                 [4881EC28210000] 
+4CD14: MOV ECX,[0xc0 + RDI]           [8B8FC0000000] 
+4CD1A: TEST ECX,ECX                   [85C9] 
+4CE70: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+4CE75: CMP ECX,EAX                    [39C1] 
+4CE5F: ADD RSP,0x2128                 [4881C428210000] 
+4CE66: POP RBX                        [5B] 
+4CE67: POP RBP                        [5D] 
+4CE68: POP R12                        [415C] 
+4CE6A: POP R13                        [415D] 
+
+========

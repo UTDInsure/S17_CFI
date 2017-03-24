@@ -1,0 +1,24 @@
+
+
+36DD4: PUSH RBP                       [55] 
+36DD5: PUSH RBX                       [53] 
+36DD6: SUB RSP,0x28                   [4883EC28] 
+36DDA: MOV EAX,[0x0036e774]           [8B0594793300] 
+36DE0: TEST EAX,EAX                   [85C0] 
+36D34: SUB RSP,0x10                   [4883EC10] 
+36D38: TEST RDI,RDI                   [4885FF] 
+36D3B: MOV R8,RSI                     [4989F0] 
+36D98: XOR EDI,EDI                    [31FF] 
+36D4F: MOV ECX,0x80                   [B980000000] 
+36D54: MOV R10D,0x8                   [41BA08000000] 
+36D5A: MOV RSI,R8                     [4C89C6] 
+36D5D: MOV EAX,ECX                    [89C8] 
+36D61: CMP RAX,0xfffff000             [483D00F0FFFF] 
+36D67: MOV RDX,RAX                    [4889C2] 
+36D6C: CMP EDX,-0x1                   [83FAFF] 
+36D7D: ADD RSP,0x10                   [4883C410] 
+36DED: ADD RSP,0x28                   [4883C428] 
+36DF1: POP RBX                        [5B] 
+36DF2: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,11 @@
+
+
+F2FD4: CMP RDX,RCX                    [4839CA] 
+F2FD9: MOV EAX,0x59                   [B859000000] 
+F2FE0: CMP RAX,0xfffff000             [483D00F0FFFF] 
+F2FEA: MOV RDX,[0x00368e68]           [488B15775E2700] 
+F2FF1: NEG EAX                        [F7D8] 
+F2FF3: MOV FS:[RDX],EAX               [648902] 
+F2FF6: OR RAX,-0x1                    [4883C8FF] 
+
+========

@@ -1,0 +1,15 @@
+
+
+18B54: LEA RAX,[RSP + 0x8]            [488D442408] 
+18B59: CMP ESI,0x9                    [83FE09] 
+18B5C: MOV [RSP + -0x28],RDX          [48895424D8] 
+18B61: MOV dword ptr [RSP + -0x50],0x10 [C74424B010000000] 
+18B69: MOV [RSP + -0x48],RAX          [48894424B8] 
+18B6E: LEA RAX,[RSP + -0x38]          [488D4424C8] 
+18B73: MOV [RSP + -0x40],RAX          [48894424C0] 
+18B7A: MOVSXD RSI,ESI                 [4863F6] 
+18B7D: MOVSXD RDI,EDI                 [4863FF] 
+18B80: MOV EAX,0x48                   [B848000000] 
+18B87: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

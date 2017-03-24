@@ -1,0 +1,14 @@
+
+
+2F6E6: MOV RAX,R13                    [4C89E8] 
+2F6E9: XOR EDX,EDX                    [31D2] 
+2F6EB: DIV RSI                        [48F7F6] 
+2F6EE: MOV RCX,RAX                    [4889C1] 
+2F554: ADD RSP,0x8                    [4883C408] 
+2F558: MOV RAX,RCX                    [4889C8] 
+2F55B: POP RBX                        [5B] 
+2F55C: POP RBP                        [5D] 
+2F55D: POP R12                        [415C] 
+2F55F: POP R13                        [415D] 
+
+========

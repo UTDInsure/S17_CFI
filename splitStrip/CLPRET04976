@@ -1,0 +1,10 @@
+
+
+D70D4: MOV EAX,0x49                   [B849000000] 
+D70DB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D70E4: MOV RCX,[0x00368e68]           [488B0D7D1D2900] 
+D70EB: NEG EAX                        [F7D8] 
+D70ED: MOV FS:[RCX],EAX               [648901] 
+D70F0: OR RAX,-0x1                    [4883C8FF] 
+
+========

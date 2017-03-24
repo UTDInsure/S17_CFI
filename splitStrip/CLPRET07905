@@ -1,0 +1,21 @@
+
+
+14D14: PUSH R15                       [4157] 
+14D16: PUSH R14                       [4156] 
+14D18: PUSH R13                       [4155] 
+14D1A: PUSH R12                       [4154] 
+14D1C: PUSH RBP                       [55] 
+14D1D: PUSH RBX                       [53] 
+14D1E: MOV RBX,RDI                    [4889FB] 
+14D21: SUB RSP,0x18                   [4883EC18] 
+14D25: TEST RDI,RDI                   [4885FF] 
+15318: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+14E89: ADD RSP,0x18                   [4883C418] 
+14E8D: POP RBX                        [5B] 
+14E8E: POP RBP                        [5D] 
+14E8F: POP R12                        [415C] 
+14E91: POP R13                        [415D] 
+14E93: POP R14                        [415E] 
+14E95: POP R15                        [415F] 
+
+========

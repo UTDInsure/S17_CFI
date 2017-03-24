@@ -1,0 +1,28 @@
+
+
+D13B4: PUSH R15                       [4157] 
+D13B6: PUSH R14                       [4156] 
+D13B8: PUSH R13                       [4155] 
+D13BA: PUSH R12                       [4154] 
+D13BC: PUSH RBP                       [55] 
+D13BD: PUSH RBX                       [53] 
+D13BE: SUB RSP,0x1a8                  [4881ECA8010000] 
+D13C5: TEST RDI,RDI                   [4885FF] 
+D13C8: MOV [RSP + 0x30],RDI           [48897C2430] 
+D13CD: MOV [RSP + 0x18],RDX           [4889542418] 
+D13D2: MOV [RSP + 0x20],RCX           [48894C2420] 
+D13D7: MOV [RSP + 0x40],R8D           [4489442440] 
+D13DC: MOV [RSP + 0x28],R9            [4C894C2428] 
+D13E1: MOV dword ptr [RSP + 0x5c],0x0 [C744245C00000000] 
+D13EB: MOV RAX,[RSP + 0x30]           [488B442430] 
+D13F0: CMP byte ptr [RAX],0x0         [803800] 
+D13F5: XOR EAX,EAX                    [31C0] 
+D13F7: ADD RSP,0x1a8                  [4881C4A8010000] 
+D13FE: POP RBX                        [5B] 
+D13FF: POP RBP                        [5D] 
+D1400: POP R12                        [415C] 
+D1402: POP R13                        [415D] 
+D1404: POP R14                        [415E] 
+D1406: POP R15                        [415F] 
+
+========

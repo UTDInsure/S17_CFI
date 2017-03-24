@@ -1,0 +1,8 @@
+
+
+79234: MOV RDX,[RDI + 0x60]           [488B5760] 
+79238: MOV RAX,RSI                    [4889F0] 
+7923B: SUB RAX,[RDI + 0x18]           [482B4718] 
+7923F: TEST RDX,RDX                   [4885D2] 
+
+========

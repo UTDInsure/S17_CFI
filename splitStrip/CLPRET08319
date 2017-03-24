@@ -1,0 +1,13 @@
+
+
+22204: TEST RDI,RDI                   [4885FF] 
+22209: MOV RAX,RSI                    [4889F0] 
+2220C: MOVZX EDX,AH                   [0FB6D4] 
+2220F: TEST EDX,EDX                   [85D2] 
+22211: MOV EAX,EDX                    [89D0] 
+22215: OR RSI,0xff00                  [4881CE00FF0000] 
+2221C: XOR EAX,EAX                    [31C0] 
+2221E: NOT RSI                        [48F7D6] 
+22221: AND [RDI + 0x10],RSI           [48217710] 
+
+========

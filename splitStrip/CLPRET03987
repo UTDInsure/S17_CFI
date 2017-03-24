@@ -1,0 +1,11 @@
+
+
+96454: CMP RDX,0x3                    [4883FA03] 
+9645A: XOR EAX,EAX                    [31C0] 
+9645C: TEST RDX,RDX                   [4885D2] 
+96461: MOV ECX,[RSI]                  [8B0E] 
+96463: CMP [RDI],ECX                  [390F] 
+96469: NOP                            [0F1F8000000000] 
+96470: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,10 @@
+
+
+D7354: MOV EAX,0x125                  [B825010000] 
+D735B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D7364: MOV RCX,[0x00368e68]           [488B0DFD1A2900] 
+D736B: NEG EAX                        [F7D8] 
+D736D: MOV FS:[RCX],EAX               [648901] 
+D7370: OR RAX,-0x1                    [4883C8FF] 
+
+========

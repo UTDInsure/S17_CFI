@@ -1,0 +1,16 @@
+
+
+878C4: MOV EAX,[0x0036e770]           [8B05A66E2E00] 
+878CA: TEST EAX,EAX                   [85C0] 
+878E0: SUB RSP,0x8                    [4883EC08] 
+878E4: LEA RSI,[0x87930]              [488D3545000000] 
+878EB: MOV RAX,[0x0036e718]           [488B05266E2E00] 
+878F2: LEA RDI,[0x36b984]             [488D3D8B402E00] 
+878F9: ROR RAX,0x11                   [48C1C811] 
+878FD: XOR RAX,FS:[0x30]              [644833042530000000] 
+8790C: TEST EAX,EAX                   [85C0] 
+87910: LEA RAX,[0x36b920]             [488D0509402E00] 
+87917: MOV [0x0036b908],RAX           [488905EA3F2E00] 
+8791E: ADD RSP,0x8                    [4883C408] 
+
+========

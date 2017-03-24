@@ -1,0 +1,15 @@
+
+
+95DF4: PUSH RBP                       [55] 
+95DF5: MOV RBP,RSI                    [4889F5] 
+95DF8: PUSH RBX                       [53] 
+95DF9: MOV RBX,RDI                    [4889FB] 
+95DFC: SUB RSP,0x8                    [4883EC08] 
+95E00: MOV ESI,[RDI]                  [8B37] 
+95E02: TEST ESI,ESI                   [85F6] 
+95E35: XOR EAX,EAX                    [31C0] 
+95E2E: ADD RSP,0x8                    [4883C408] 
+95E32: POP RBX                        [5B] 
+95E33: POP RBP                        [5D] 
+
+========

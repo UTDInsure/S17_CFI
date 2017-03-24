@@ -1,0 +1,24 @@
+
+
+898E4: MOV RCX,RSI                    [4889F1] 
+898E7: AND ECX,0x7                    [83E107] 
+898EA: MOV RDX,RDI                    [4889FA] 
+898EF: NEG ECX                        [F7D9] 
+898F1: ADD ECX,0x8                    [83C108] 
+898F4: MOV AL,[RSI]                   [8A06] 
+898F6: TEST AL,AL                     [84C0] 
+898F8: MOV [RDX],AL                   [8802] 
+89900: INC RSI                        [48FFC6] 
+89903: INC RDX                        [48FFC2] 
+89906: DEC ECX                        [FFC9] 
+8990A: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+89914: NOP                            [6666662E0F1F840000000000] 
+89920: MOV RAX,[RSI]                  [488B06] 
+89923: ADD RSI,0x8                    [4883C608] 
+89927: MOV R9,RAX                     [4989C1] 
+8992A: ADD R9,R8                      [4D01C1] 
+899B0: MOV [RDX],AL                   [8802] 
+899B2: TEST AL,AL                     [84C0] 
+899C8: MOV RAX,RDX                    [4889D0] 
+
+========

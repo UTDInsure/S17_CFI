@@ -1,0 +1,6 @@
+
+
+B41E4: MOV EAX,0x78                   [B878000000] 
+B41EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

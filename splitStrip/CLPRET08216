@@ -1,0 +1,10 @@
+
+
+1F394: TEST RDI,RDI                   [4885FF] 
+1F399: TEST ESI,ESI                   [85F6] 
+1F39D: MOVSX EAX,word ptr [RDI + 0x4] [0FBF4704] 
+1F3A1: CMP ESI,EAX                    [39C6] 
+1F3A5: TEST EDX,EDX                   [85D2] 
+1F3C0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

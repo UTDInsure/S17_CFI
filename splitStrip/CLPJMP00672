@@ -1,0 +1,14 @@
+
+
+24724: PUSH R13                       [4155] 
+24726: MOV R13,RSI                    [4989F5] 
+24729: PUSH R12                       [4154] 
+2472B: MOV R12,RDI                    [4989FC] 
+2472E: PUSH RBP                       [55] 
+2472F: MOV RBP,RDX                    [4889D5] 
+24732: SUB RBP,RDI                    [4829FD] 
+24735: PUSH RBX                       [53] 
+24736: LEA RDI,[RBP + 0x10]           [488D7D10] 
+2473A: SUB RSP,0x8                    [4883EC08] 
+
+========

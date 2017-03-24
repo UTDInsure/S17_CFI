@@ -1,0 +1,8 @@
+
+
+407DD4: MOV R12D,0x626120              [41BC20616200] 
+407CD0: MOV RDX,RBP                    [4889EA] 
+407CD3: MOV ESI,0x800                  [BE00080000] 
+407CD8: MOV RDI,RBX                    [4889DF] 
+
+========

@@ -1,0 +1,25 @@
+
+
+397E4: TEST RDI,RDI                   [4885FF] 
+397E9: TEST RSI,RSI                   [4885F6] 
+397EE: MOV EAX,[RDI + 0x18]           [8B4718] 
+397F1: MOV RDX,[RDI + 0x10]           [488B5710] 
+397F5: TEST EAX,EAX                   [85C0] 
+397F9: MOV RCX,[RDI]                  [488B0F] 
+397FC: MOV R8,[RDI + 0x8]             [4C8B4708] 
+39800: MOV R9,[RDI + 0x28]            [4C8B4F28] 
+39804: MOV EAX,[RCX]                  [8B01] 
+39806: ADD EAX,[R8]                   [410300] 
+39809: ADD RCX,0x4                    [4883C104] 
+3980D: MOV [RCX + -0x4],EAX           [8941FC] 
+39810: SHR EAX,1                      [D1E8] 
+39812: CMP R9,RCX                     [4939C9] 
+39815: MOV [RSI],EAX                  [8906] 
+39819: ADD R8,0x4                     [4983C004] 
+3981D: MOV [RDI],RCX                  [48890F] 
+39820: CMP R9,R8                      [4D39C1] 
+39823: CMOVA RDX,R8                   [490F47D0] 
+39827: XOR EAX,EAX                    [31C0] 
+39829: MOV [RDI + 0x8],RDX            [48895708] 
+
+========

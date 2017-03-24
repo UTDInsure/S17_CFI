@@ -1,0 +1,27 @@
+
+
+364B4: PUSH RBP                       [55] 
+364B5: MOV EBP,EDI                    [89FD] 
+364B7: PUSH RBX                       [53] 
+364B8: SUB RSP,0x88                   [4881EC88000000] 
+364BF: TEST ESI,ESI                   [85F6] 
+364C3: MOV EAX,EDI                    [89F8] 
+364C5: MOV RBX,RSP                    [4889E3] 
+364C8: MOV [RSP],RAX                  [48890424] 
+364CC: LEA RAX,[RSP + 0x8]            [488D442408] 
+364D1: NOP                            [0F1F8000000000] 
+364D8: LEA RCX,[0x80 + RSP]           [488D8C2480000000] 
+364E0: ADD RAX,0x8                    [4883C008] 
+364E4: MOV dword ptr [RAX + -0x8],0x0 [48C740F800000000] 
+364EC: CMP RAX,RCX                    [4839C8] 
+364F1: MOV RDI,RBX                    [4889DF] 
+36214: MOV EAX,[0x0036e774]           [8B055A853300] 
+3621A: TEST EAX,EAX                   [85C0] 
+3621E: MOV ESI,0x8                    [BE08000000] 
+36223: MOV EAX,0x82                   [B882000000] 
+3622A: CMP RAX,0xfffff000             [483D00F0FFFF] 
+364FD: ADD RSP,0x88                   [4881C488000000] 
+36504: POP RBX                        [5B] 
+36505: POP RBP                        [5D] 
+
+========

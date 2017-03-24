@@ -1,0 +1,25 @@
+
+
+113DA4: SUB RSP,0x8                    [4883EC08] 
+113C04: PUSH RBP                       [55] 
+113C05: MOV RBP,RSI                    [4889F5] 
+113C08: PUSH RBX                       [53] 
+113C09: MOV RBX,RDI                    [4889FB] 
+113C0C: SUB RSP,0x18                   [4883EC18] 
+113C10: MOV EDX,[RDI]                  [8B17] 
+113C12: TEST EDX,EDX                   [85D2] 
+113C30: MOV RAX,[RSI]                  [488B06] 
+113C33: MOV RSI,RSP                    [4889E6] 
+113C36: MOV RDX,RAX                    [4889C2] 
+113C39: MOV [RSP + 0x8],RAX            [4889442408] 
+113C3E: MOV RAX,[RDI + 0x8]            [488B4708] 
+113C42: SAR RDX,0x20                   [48C1FA20] 
+113C46: MOV [RSP],RDX                  [48891424] 
+113C51: TEST EAX,EAX                   [85C0] 
+113C55: ADD RSP,0x18                   [4883C418] 
+113C59: XOR EAX,EAX                    [31C0] 
+113C5B: POP RBX                        [5B] 
+113C5C: POP RBP                        [5D] 
+113DB1: ADD RSP,0x8                    [4883C408] 
+
+========

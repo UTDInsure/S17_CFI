@@ -1,0 +1,14 @@
+
+
+DD864: PUSH RBX                       [53] 
+DD865: MOV EBX,EDI                    [89FB] 
+DD867: SUB RSP,0x10                   [4883EC10] 
+DD86B: CMP dword ptr [0x0036bfe8],0x0 [48833D75E7280000] 
+DD875: MOV RDI,[0x0036bfe0]           [488B3D64E72800] 
+DD87C: TEST RDI,RDI                   [4885FF] 
+DD881: TEST EBX,EBX                   [85DB] 
+DD883: LEA RAX,[0x36bfe0]             [488D0556E72800] 
+DD88C: ADD RSP,0x10                   [4883C410] 
+DD890: POP RBX                        [5B] 
+
+========

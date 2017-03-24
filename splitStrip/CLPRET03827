@@ -1,0 +1,19 @@
+
+
+939F4: TEST RDI,RDI                   [4885FF] 
+939F7: MOV RAX,RDI                    [4889F8] 
+939FA: MOV R8D,ESI                    [4189F0] 
+939FF: MOVZX EDI,byte ptr [RAX]       [0FB638] 
+93A02: CMP DIL,SIL                    [4038F7] 
+93A6E: MOV ECX,EDI                    [89F9] 
+93A24: TEST CL,CL                     [84C9] 
+93A28: LEA RCX,[RAX + 0x1]            [488D4801] 
+93A3C: MOVZX ESI,byte ptr [RCX]       [0FB631] 
+93A3F: TEST SIL,SIL                   [4084F6] 
+93A30: CMP R8B,SIL                    [4138F0] 
+93A33: LEA RDI,[RCX + 0x1]            [488D7901] 
+93A50: MOV byte ptr [RCX],0x0         [C60100] 
+93A53: MOV RCX,RDI                    [4889F9] 
+93A56: MOV [RDX],RCX                  [48890A] 
+
+========

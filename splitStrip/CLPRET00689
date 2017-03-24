@@ -1,0 +1,21 @@
+
+
+407B64: PUSH RBP                       [55] 
+407B65: MOV RBP,RDI                    [4889FD] 
+407B68: PUSH RBX                       [53] 
+407B69: SUB RSP,0x18                   [4883EC18] 
+407B6D: MOVSX ECX,byte ptr [0x00627be0] [0FBE0D6C002200] 
+407B74: LEA EAX,[RCX + -0x30]          [8D41D0] 
+407B77: CMP AL,0x9                     [3C09] 
+407BF5: MOV ESI,0x627be0               [BEE07B6200] 
+407BFA: XOR EBX,EBX                    [31DB] 
+407BA8: MOV dword ptr [RBP],0x0        [48C7450000000000] 
+407BB0: CMP byte ptr [RSI],0x2e        [803E2E] 
+407BB3: LEA RAX,[RSI + 0x1]            [488D4601] 
+407BB7: MOV [RSP + 0x8],RAX            [4889442408] 
+407BBE: ADD RSP,0x18                   [4883C418] 
+407BC2: MOV RAX,RBX                    [4889D8] 
+407BC5: POP RBX                        [5B] 
+407BC6: POP RBP                        [5D] 
+
+========

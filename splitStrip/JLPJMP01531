@@ -1,0 +1,23 @@
+
+
+32944: MOV [RDX],BL                   [881A] 
+32946: MOVZX EBX,byte ptr [RBP]       [0FB65D00] 
+3294A: ADD RDX,0x1                    [4883C201] 
+3294E: MOV ECX,0x1                    [B901000000] 
+32953: TEST BL,BL                     [84DB] 
+32957: NOP                            [660F1F840000000000] 
+32960: TEST R9B,R9B                   [4584C9] 
+3297E: XOR EAX,EAX                    [31C0] 
+32980: TEST R8B,R8B                   [4584C0] 
+3298D: CMP R13D,EAX                   [4139C5] 
+32990: MOV byte ptr [RDX],0x0         [C60200] 
+32993: CMOVL R13D,EAX                 [440F4CE8] 
+32997: MOVZX ECX,byte ptr [RBP]       [0FB64D00] 
+3299B: LEA EDX,[RCX + -0x21]          [8D51DF] 
+3299E: CMP DL,0x5d                    [80FA5D] 
+329A7: LEA RAX,[0x3e45c]              [488D05AEBA0000] 
+329AE: MOVZX EDX,DL                   [0FB6D2] 
+329B1: MOVSXD RDX,[RAX + RDX*0x4]     [48631490] 
+329B5: ADD RDX,RAX                    [4801C2] 
+
+========

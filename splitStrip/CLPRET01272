@@ -1,0 +1,23 @@
+
+
+23DA4: PUSH RBP                       [55] 
+23DA5: MOV RBP,RSI                    [4889F5] 
+23DA8: PUSH RBX                       [53] 
+23DA9: MOV RBX,RDI                    [4889FB] 
+23DAC: SUB RSP,0x18                   [4883EC18] 
+23DB0: MOV EDI,[0x0036e770]           [8B3DBAA93400] 
+23DB6: TEST EDI,EDI                   [85FF] 
+23DBA: MOV ESI,[0x0036a8f8]           [8B35386B3400] 
+23DC0: TEST ESI,ESI                   [85F6] 
+23DC8: LEA RDX,[RSP + 0xc]            [488D54240C] 
+23DCD: MOV RSI,RBP                    [4889EE] 
+23DD0: MOV RDI,RBX                    [4889DF] 
+2B554: CMP dword ptr [0x0036a920],0x0 [48833DC4F3330000] 
+2B5D0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+23DDC: TEST EAX,EAX                   [85C0] 
+23DE0: MOV EAX,[RSP + 0xc]            [8B44240C] 
+23DE4: ADD RSP,0x18                   [4883C418] 
+23DE8: POP RBX                        [5B] 
+23DE9: POP RBP                        [5D] 
+
+========

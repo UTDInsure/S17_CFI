@@ -1,0 +1,14 @@
+
+
+416B04: SUB RSP,0x8                    [4883EC08] 
+416B08: XOR EAX,EAX                    [31C0] 
+416B0A: MOV EDI,0x6273b0               [BFB0736200] 
+416084: PUSH RBP                       [55] 
+416085: MOV RBP,RDI                    [4889FD] 
+416088: PUSH RBX                       [53] 
+416089: SUB RSP,0x8                    [4883EC08] 
+41608D: MOV RDI,[RDI]                  [488B3F] 
+416090: TEST RDI,RDI                   [4885FF] 
+4160A3: MOV RBX,[RDI]                  [488B1F] 
+
+========

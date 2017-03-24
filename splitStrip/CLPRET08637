@@ -1,0 +1,19 @@
+
+
+35B94: PUSH R14                       [4156] 
+35B96: TEST ESI,ESI                   [85F6] 
+35B98: PUSH R13                       [4155] 
+35B9A: PUSH R12                       [4154] 
+35B9C: PUSH RBP                       [55] 
+35B9D: MOV EBP,ESI                    [89F5] 
+35B9F: PUSH RBX                       [53] 
+35BA6: TEST RDI,RDI                   [4885FF] 
+35BA9: MOV RBX,RDI                    [4889FB] 
+35C30: POP RBX                        [5B] 
+35C31: POP RBP                        [5D] 
+35C32: POP R12                        [415C] 
+35C34: POP R13                        [415D] 
+35C36: XOR EAX,EAX                    [31C0] 
+35C38: POP R14                        [415E] 
+
+========

@@ -1,0 +1,19 @@
+
+
+1DB84: PUSH R15                       [4157] 
+1DB86: PUSH R14                       [4156] 
+1DB88: PUSH R13                       [4155] 
+1DB8A: PUSH R12                       [4154] 
+1DB8C: PUSH RBP                       [55] 
+1DB8D: MOVSXD RBP,ESI                 [4863EE] 
+1DB90: PUSH RBX                       [53] 
+1DB91: MOV EBX,EDI                    [89FB] 
+1DB93: SUB RSP,0x8                    [4883EC08] 
+1DB97: TEST EDI,EDI                   [85FF] 
+1DB9F: TEST EBP,EBP                   [85ED] 
+1DBA7: XOR ECX,ECX                    [31C9] 
+1DBA9: XOR EDX,EDX                    [31D2] 
+1DBAB: MOV R8D,0x10                   [41B810000000] 
+1DBB1: MOV ESI,EBP                    [89EE] 
+
+========

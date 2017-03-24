@@ -1,0 +1,7 @@
+
+
+D6224: MOV EAX,[RSI]                  [8B06] 
+D6226: MOV [0x108 + RDI],EAX          [898708010000] 
+D622C: XOR EAX,EAX                    [31C0] 
+
+========

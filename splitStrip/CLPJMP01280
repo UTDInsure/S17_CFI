@@ -1,0 +1,8 @@
+
+
+E1064: TEST RDI,RDI                   [4885FF] 
+E1067: PUSH RBX                       [53] 
+E1068: MOV RBX,RDI                    [4889FB] 
+E106D: MOV RDI,[RDI]                  [488B3F] 
+
+========

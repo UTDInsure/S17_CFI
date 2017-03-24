@@ -1,0 +1,9 @@
+
+
+963AB: CMP RDX,0x3                    [4883FA03] 
+96390: CMP [RDI],ESI                  [3937] 
+96394: CMP [RDI + 0x4],ESI            [397704] 
+96399: CMP [RDI + 0x8],ESI            [397708] 
+963F8: LEA RAX,[RDI + 0x8]            [488D4708] 
+
+========

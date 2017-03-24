@@ -1,0 +1,13 @@
+
+
+520D4: TEST RSI,RSI                   [4885F6] 
+520D9: MOVZX EAX,byte ptr [RDI + 0xc] [0FB6470C] 
+520DD: AND EAX,0x1                    [83E001] 
+520E0: CMP AL,0x1                     [3C01] 
+520E2: SBB EAX,EAX                    [19C0] 
+520E4: XOR AL,AL                      [30C0] 
+520E6: ADD EAX,0x107                  [0507010000] 
+520EB: MOV [RDX],EAX                  [8902] 
+520ED: MOV EAX,0x1                    [B801000000] 
+
+========

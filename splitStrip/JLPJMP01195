@@ -1,0 +1,23 @@
+
+
+C8694: TEST RBP,RBP                   [4885ED] 
+C85E6: TEST RBP,RBP                   [4885ED] 
+C8618: TEST R14,R14                   [4D85F6] 
+C861D: MOV R8,[RSP + 0x18]            [4C8B442418] 
+C8622: MOV RSI,[RSP + 0x20]           [488B742420] 
+C8627: MOV RCX,RBP                    [4889E9] 
+C862A: MOV RDI,[RSP + 0x28]           [488B7C2428] 
+C862F: MOV RDX,R14                    [4C89F2] 
+C8632: MOV byte ptr [RSP + 0x38],0x10 [C644243810] 
+BE3F4: PUSH RBX                       [53] 
+BE3F5: MOV RBX,RDI                    [4889FB] 
+BE3F8: SUB RSP,0x20                   [4883EC20] 
+BE3FC: MOVSXD RAX,[RSI]               [486306] 
+BE3FF: CMP EAX,0xf                    [83F80F] 
+BE46C: MOV EDI,0x3c8                  [BFC8030000] 
+BE471: MOV [RSP + 0x18],R8            [4C89442418] 
+BE476: MOV [RSP + 0x10],RCX           [48894C2410] 
+BE47B: MOV [RSP + 0x8],RDX            [4889542408] 
+BE480: MOV [RSP],RSI                  [48893424] 
+
+========

@@ -1,0 +1,11 @@
+
+
+40B2C4: PUSH RBP                       [55] 
+40B2C5: MOV RBP,RDI                    [4889FD] 
+40B2C8: PUSH RBX                       [53] 
+40B2C9: MOV RBX,RSI                    [4889F3] 
+40B2CC: SUB RSP,0x8                    [4883EC08] 
+40B2D0: TEST RSI,RSI                   [4885F6] 
+40B2D5: MOV RDI,RSI                    [4889F7] 
+
+========

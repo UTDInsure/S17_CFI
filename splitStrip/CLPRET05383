@@ -1,0 +1,16 @@
+
+
+DE7F4: TEST RSI,RSI                   [4885F6] 
+DE820: SUB RSP,0x8                    [4883EC08] 
+DE824: MOV RSI,RDX                    [4889D6] 
+DE754: TEST RSI,RSI                   [4885F6] 
+DE759: MOV RAX,[RSI + 0x8]            [488B4608] 
+DE75D: CMP RAX,0xf423f                [483D3F420F00] 
+DE765: MOV RDX,[RSI + 0x18]           [488B5618] 
+DE769: CMP RDX,0xf423f                [4881FA3F420F00] 
+DE7C8: MOV RAX,[0x00368e68]           [488B0599A62800] 
+DE7CF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DE7D6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DE830: ADD RSP,0x8                    [4883C408] 
+
+========

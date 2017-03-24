@@ -1,0 +1,17 @@
+
+
+118814: PUSH RBX                       [53] 
+118815: MOV RBX,RDI                    [4889FB] 
+118818: MOV EDI,[RDI + 0x18]           [8B7F18] 
+11881B: TEST EDI,EDI                   [85FF] 
+11881F: MOV RSI,[RBX + 0x10]           [488B7310] 
+118823: MOV RDI,[RBX]                  [488B3B] 
+E0184: MOV EAX,0xb                    [B80B000000] 
+E018B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E0194: MOV RCX,[0x00368e68]           [488B0DCD8C2800] 
+E019B: NEG EAX                        [F7D8] 
+E019D: MOV FS:[RCX],EAX               [648901] 
+E01A0: OR RAX,-0x1                    [4883C8FF] 
+11882F: MOV RDI,RBX                    [4889DF] 
+
+========

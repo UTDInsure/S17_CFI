@@ -1,0 +1,16 @@
+
+
+F24B8: AND [RBX + 0x74],0xffffffeb    [836374EB] 
+F24BC: TEST dword ptr [RBX],0x8000    [F70300800000] 
+F24C2: MOV RSI,RAX                    [4889C6] 
+F24C7: MOV RDX,[0x88 + RBX]           [488B9388000000] 
+F24CE: MOV EAX,[RDX + 0x4]            [8B4204] 
+F24D1: LEA ECX,[RAX + -0x1]           [8D48FF] 
+F24D4: TEST ECX,ECX                   [85C9] 
+F24D6: MOV [RDX + 0x4],ECX            [894A04] 
+F2511: MOV RDI,RSI                    [4889F7] 
+22014: SUB RSP,0x18                   [4883EC18] 
+22018: MOV RAX,[0x0036a8f0]           [488B05D1883400] 
+2201F: TEST RAX,RAX                   [4885C0] 
+
+========

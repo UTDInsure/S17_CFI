@@ -1,0 +1,16 @@
+
+
+20644: MOV RAX,[0x0024a7a0]           [488B0555A12200] 
+2064B: MOV RAX,[RAX]                  [488B00] 
+2064E: TEST RAX,RAX                   [4885C0] 
+20653: MOV RAX,[0x308 + RAX]          [488B8008030000] 
+2065A: TEST RAX,RAX                   [4885C0] 
+2065F: MOV RDX,RDI                    [4889FA] 
+20662: OR RDX,[RAX + 0x20]            [480B5020] 
+20666: AND EDI,0xff00                 [81E700FF0000] 
+2066E: XOR DH,DH                      [30F6] 
+20670: OR RDX,RDI                     [4809FA] 
+20673: MOV [RAX + 0x20],RDX           [48895020] 
+20677: XOR EAX,EAX                    [31C0] 
+
+========

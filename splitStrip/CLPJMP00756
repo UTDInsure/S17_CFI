@@ -1,0 +1,14 @@
+
+
+388A4: PUSH RBX                       [53] 
+388A5: MOV ESI,0x1                    [BE01000000] 
+388AA: XOR EAX,EAX                    [31C0] 
+388AC: CMP dword ptr [0x0036e774],0x0 [833DC15E330000] 
+388B5: LOCK                           [F0] 
+388B6: CMPXCHG [0x0036ac48],ESI       [0FB1358B233300] 
+388E8: MOV RBX,[0x00368ea8]           [488B1DB9053300] 
+388EF: MOV RDI,[RBX]                  [488B3B] 
+388F2: CMP RDI,[0x0036ac38]           [483B3D3F233300] 
+38940: TEST RDI,RDI                   [4885FF] 
+
+========

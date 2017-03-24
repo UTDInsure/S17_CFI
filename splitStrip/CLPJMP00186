@@ -1,0 +1,8 @@
+
+
+403C84: SUB RSP,0x8                    [4883EC08] 
+403C88: MOV EDX,EDI                    [89FA] 
+403C8A: MOV RDI,[0x006279a0]           [488B3D0F3D2200] 
+403C91: XOR ESI,ESI                    [31F6] 
+
+========

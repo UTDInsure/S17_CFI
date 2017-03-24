@@ -1,0 +1,24 @@
+
+
+109954: PUSH RBP                       [55] 
+109955: MOV EDX,0x0                    [BA00000000] 
+10995A: MOV EAX,0x80000000             [B800000080] 
+10995F: PUSH RBX                       [53] 
+109960: MOV RBX,RDI                    [4889FB] 
+109963: SUB RSP,0x8                    [4883EC08] 
+109967: CMP ESI,0x1                    [83FE01] 
+10996A: MOV RBP,[RDI + 0x20]           [488B6F20] 
+10996E: CMOVNZ EAX,EDX                 [0F45C2] 
+109971: MOV RDX,[RDI + 0x30]           [488B5730] 
+109975: MOV RSI,[RDI + 0x18]           [488B7718] 
+109979: MOV RDI,[RDI]                  [488B3F] 
+10997C: MOV RCX,RBP                    [4889E9] 
+10997F: SUB RCX,RDX                    [4829D1] 
+109982: SUB RBP,RSI                    [4829F5] 
+109985: SUB RCX,0x4                    [4883E904] 
+109989: OR EAX,ECX                     [09C8] 
+10998B: BSWAP EAX                      [0FC8] 
+10998D: MOV [RDX],EAX                  [8902] 
+10998F: MOV EDX,EBP                    [89EA] 
+
+========

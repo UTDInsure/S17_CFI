@@ -1,0 +1,28 @@
+
+
+188C4: LEA RAX,[0x18860]              [488D0595FFFFFF] 
+188CB: SUB RSP,0xc8                   [4881ECC8000000] 
+188D2: SHR RSI,1                      [48D1EE] 
+188D5: MOV [0x00223130],RSI           [48893554A82000] 
+188DC: MOV [0x00223138],RDI           [48893D55A82000] 
+188E3: MOV [RSP + 0x20],RAX           [4889442420] 
+188E8: LEA RAX,[RSP + 0x20]           [488D442420] 
+188ED: MOV [0x00223128],RDX           [48891534A82000] 
+188F4: MOV [0x00223120],ECX           [890D26A82000] 
+188FA: MOV dword ptr [0xa8 + RSP],0x10000000 [C78424A800000000000010] 
+18905: LEA RSI,[0x80 + RAX]           [488DB080000000] 
+1890C: NOP                            [0F1F4000] 
+18910: MOV dword ptr [RSI],-0x1       [48C706FFFFFFFF] 
+18917: SUB RSI,0x8                    [4883EE08] 
+1891B: CMP RSI,RAX                    [4839C6] 
+18920: XOR EDX,EDX                    [31D2] 
+18922: MOV EDI,0x1b                   [BF1B000000] 
+19074: LEA EAX,[RDI + -0x20]          [8D47E0] 
+19077: CMP EAX,0x1                    [83F801] 
+1908E: MOV dword ptr [0x00223160],0x16 [C705C8A0200016000000] 
+19098: OR EAX,0xffffffff              [83C8FF] 
+18930: TEST EAX,EAX                   [85C0] 
+18985: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1897D: ADD RSP,0xc8                   [4881C4C8000000] 
+
+========

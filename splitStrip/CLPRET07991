@@ -1,0 +1,7 @@
+
+
+170C4: TEST RDI,RDI                   [4885FF] 
+170DA: TEST RSI,RSI                   [4885F6] 
+170F0: XOR EAX,EAX                    [31C0] 
+
+========

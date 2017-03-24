@@ -1,0 +1,21 @@
+
+
+217C4: PUSH R13                       [4155] 
+217C6: PUSH R12                       [4154] 
+217C8: PUSH RBP                       [55] 
+217C9: XOR EBP,EBP                    [31ED] 
+217CB: MOV EAX,EBP                    [89E8] 
+217CD: PUSH RBX                       [53] 
+217CE: CPUID                          [0FA2] 
+217D0: SUB RSP,0x8                    [4883EC08] 
+217D4: CMP EBX,0x756e6547             [81FB47656E75] 
+217DC: CMP ECX,0x6c65746e             [81F96E74656C] 
+217EC: CMP EBX,0x68747541             [81FB41757468] 
+217F4: CMP ECX,0x444d4163             [81F963414D44] 
+21808: ADD RSP,0x8                    [4883C408] 
+2180C: POP RBX                        [5B] 
+2180D: POP RBP                        [5D] 
+2180E: POP R12                        [415C] 
+21810: POP R13                        [415D] 
+
+========

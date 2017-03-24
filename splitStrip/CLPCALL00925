@@ -1,0 +1,28 @@
+
+
+DEDE4: MOV RDI,[0x0036c148]           [488B3D5DD32800] 
+DEDEB: MOV EAX,0x1                    [B801000000] 
+DEDF0: TEST RDI,RDI                   [4885FF] 
+DEDF5: SUB RSP,0x8                    [4883EC08] 
+6BF54: PUSH R12                       [4154] 
+6BF56: PUSH RBP                       [55] 
+6BF57: PUSH RBX                       [53] 
+6BF58: MOV EDX,[RDI]                  [8B17] 
+6BF5A: MOV RBX,RDI                    [4889FB] 
+6BF5D: TEST DH,0x20                   [F6C620] 
+6BF60: MOV ECX,EDX                    [89D1] 
+78CF4: PUSH RBP                       [55] 
+78CF5: PUSH RBX                       [53] 
+78CF6: MOV RBX,RDI                    [4889FB] 
+78CF9: SUB RSP,0x28                   [4883EC28] 
+78CFD: TEST byte ptr [RDI],0x80       [F60780] 
+78D06: MOV EBP,[0x0036e770]           [8B2D645A2F00] 
+78D0C: TEST EBP,EBP                   [85ED] 
+78EF0: MOV RAX,[0x0036e730]           [488B0539582F00] 
+78EF7: MOV RDI,RSP                    [4889E7] 
+78EFA: XOR EDX,EDX                    [31D2] 
+78EFC: ROR RAX,0x11                   [48C1C811] 
+78F00: XOR RAX,FS:[0x30]              [644833042530000000] 
+78F09: LEA RSI,[0x78c40]              [488D3530FDFFFF] 
+
+========

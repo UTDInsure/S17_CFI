@@ -1,0 +1,26 @@
+
+
+101CA4: PUSH R15                       [4157] 
+101CA6: PUSH R14                       [4156] 
+101CA8: PUSH R13                       [4155] 
+101CAA: PUSH R12                       [4154] 
+101CAC: MOV R12,RSI                    [4989F4] 
+101CAF: PUSH RBP                       [55] 
+101CB0: PUSH RBX                       [53] 
+101CB1: SUB RSP,0x78                   [4883EC78] 
+101CB5: CMP EDI,0x2                    [83FF02] 
+101CB8: MOV [RSP + 0x8],RDX            [4889542408] 
+101CBD: MOV [RSP + 0x10],ECX           [894C2410] 
+101CC7: CMP EDI,0xa                    [83FF0A] 
+101E80: MOV RAX,[0x00368e68]           [488B05E16F2600] 
+101E87: MOV dword ptr FS:[RAX],0x61    [64C70061000000] 
+101E8E: XOR EAX,EAX                    [31C0] 
+101E90: ADD RSP,0x78                   [4883C478] 
+101E94: POP RBX                        [5B] 
+101E95: POP RBP                        [5D] 
+101E96: POP R12                        [415C] 
+101E98: POP R13                        [415D] 
+101E9A: POP R14                        [415E] 
+101E9C: POP R15                        [415F] 
+
+========

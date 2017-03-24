@@ -1,0 +1,9 @@
+
+
+33DD2: MOV RDX,[R12]                  [498B1424] 
+33DD6: TEST RDX,RDX                   [4885D2] 
+33EE0: MOV EBX,0x1                    [BB01000000] 
+33EE5: CMP R14,[RSP + 0x10]           [4C3B742410] 
+33EEC: MOV RDI,R14                    [4C89F7] 
+
+========

@@ -1,0 +1,8 @@
+
+
+76034: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7603A: TEST EAX,EAX                   [85C0] 
+76058: MOV RAX,[RDI + 0x28]           [488B4728] 
+7605C: SUB RAX,[RDI + 0x20]           [482B4720] 
+
+========

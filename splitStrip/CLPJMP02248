@@ -1,0 +1,7 @@
+
+
+2B134: PUSH RBX                       [53] 
+2B135: MOV ESI,0x2f                   [BE2F000000] 
+2B13A: MOV RBX,RDI                    [4889FB] 
+
+========

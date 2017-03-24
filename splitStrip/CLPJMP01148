@@ -1,0 +1,14 @@
+
+
+BD614: PUSH R12                       [4154] 
+BD616: TEST RDI,RDI                   [4885FF] 
+BD619: PUSH RBP                       [55] 
+BD61A: MOV RBP,RDI                    [4889FD] 
+BD61D: PUSH RBX                       [53] 
+BD620: MOV EAX,[RDI]                  [8B07] 
+BD622: XOR EBX,EBX                    [31DB] 
+BD624: XOR R12D,R12D                  [4531E4] 
+BD627: TEST EAX,EAX                   [85C0] 
+BD662: MOV RDI,[RBP + 0x8]            [488B7D08] 
+
+========

@@ -1,0 +1,24 @@
+
+
+F67A4: PUSH R15                       [4157] 
+F67A6: XOR EAX,EAX                    [31C0] 
+F67A8: PUSH R14                       [4156] 
+F67AA: PUSH R13                       [4155] 
+F67AC: MOV R13D,ESI                   [4189F5] 
+F67AF: MOV ESI,0x1                    [BE01000000] 
+F67B4: PUSH R12                       [4154] 
+F67B6: MOV R12D,EDI                   [4189FC] 
+F67B9: PUSH RBP                       [55] 
+F67BA: PUSH RBX                       [53] 
+F67BB: SUB RSP,0x28                   [4883EC28] 
+F67BF: MOV dword ptr [RSP + 0x14],0x0 [C744241400000000] 
+F67C7: CMP dword ptr [0x0036e774],0x0 [833DA67F270000] 
+F67D0: LOCK                           [F0] 
+F67D1: CMPXCHG [0x0036d370],ESI       [0FB135986B2700] 
+F6803: MOV RCX,[0x0036a828]           [488B0D1E402700] 
+F680A: MOV R8,[0x0036d368]            [4C8B05576B2700] 
+F6811: TEST RCX,RCX                   [4885C9] 
+F6940: MOV EDI,0x400                  [BF00040000] 
+F6945: MOV dword ptr [0x0036d368],0x400 [48C705186A270000040000] 
+
+========

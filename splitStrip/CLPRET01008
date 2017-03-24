@@ -1,0 +1,25 @@
+
+
+413F04: PUSH RBX                       [53] 
+413F05: MOV RBX,RDI                    [4889FB] 
+413F08: MOVSX EDI,byte ptr [RDI]       [0FBE3F] 
+413F0B: TEST DIL,DIL                   [4084FF] 
+413F10: ADD RBX,0x1                    [4883C301] 
+413F14: XOR EAX,EAX                    [31C0] 
+413DE4: MOV EAX,[0x0062bb68]           [8B057E7D2100] 
+413DEA: PUSH RBX                       [53] 
+413DEB: MOV EBX,EDI                    [89FB] 
+413DED: TEST EAX,EAX                   [85C0] 
+413DF1: MOV RDX,[0x00627370]           [488B1578352100] 
+413DF8: CMP RDX,0x62b15f               [4881FA5FB16200] 
+413E13: LEA RAX,[RDX + 0x1]            [488D4201] 
+413E17: MOV [RDX],BL                   [881A] 
+413E19: MOV dword ptr [0x0062bb70],0x0 [C7054D7D210000000000] 
+413E23: MOV [0x00627370],RAX           [48890546352100] 
+413E2A: MOV EAX,EBX                    [89D8] 
+413E2C: POP RBX                        [5B] 
+413F1F: MOVSX EDI,byte ptr [RBX]       [0FBE3B] 
+413F22: TEST DIL,DIL                   [4084FF] 
+413F27: POP RBX                        [5B] 
+
+========

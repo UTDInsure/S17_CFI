@@ -1,0 +1,7 @@
+
+
+E4E24: SUB EDI,0x1                    [83EF01] 
+E4E27: XOR EAX,EAX                    [31C0] 
+E4E29: CMP DI,0x12                    [6683FF12] 
+
+========

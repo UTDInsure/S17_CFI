@@ -1,0 +1,7 @@
+
+
+71784: MOV RDX,[RSI + 0x8]            [488B5608] 
+71788: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+7178D: CMP RDX,RDI                    [4839FA] 
+
+========

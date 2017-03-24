@@ -1,0 +1,10 @@
+
+
+79DE4: MOV RAX,[RDI + 0x8]            [488B4708] 
+79DE8: CMP RAX,[RDI + 0x18]           [483B4718] 
+79DEC: PUSH RBX                       [53] 
+79DED: MOV RBX,RDI                    [4889FB] 
+79E08: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+79E0F: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+
+========

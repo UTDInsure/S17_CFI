@@ -1,0 +1,21 @@
+
+
+F3364: MOV R8,RDI                     [4989F8] 
+F3367: MOV RAX,RDI                    [4889F8] 
+F336A: XOR ECX,ECX                    [31C9] 
+F336C: SUB R8,RSI                     [4929F0] 
+F336F: SAR R8,0x2                     [49C1F802] 
+F3373: LEA R9,[RSI + R8*0x4 + -0x4]   [4E8D4C86FC] 
+F3378: NOP                            [0F1F840000000000] 
+F3380: CMP RCX,RDX                    [4839D1] 
+F3385: MOV R8D,[RSI + RCX*0x4]        [448B048E] 
+F3389: MOV [R9 + RCX*0x4 + 0x4],R8D   [4589448904] 
+F338E: ADD RCX,0x1                    [4883C101] 
+F3392: TEST R8D,R8D                   [4585C0] 
+F3380: CMP RCX,RDX                    [4839D1] 
+F3385: MOV R8D,[RSI + RCX*0x4]        [448B048E] 
+F3389: MOV [R9 + RCX*0x4 + 0x4],R8D   [4589448904] 
+F338E: ADD RCX,0x1                    [4883C101] 
+F3392: TEST R8D,R8D                   [4585C0] 
+
+========

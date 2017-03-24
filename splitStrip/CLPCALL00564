@@ -1,0 +1,14 @@
+
+
+76BF4: PUSH RBX                       [53] 
+76BF5: MOV RDX,[RDI + 0x28]           [488B5728] 
+76BF9: MOV RBX,RDI                    [4889FB] 
+76BFC: MOV RSI,[RDI + 0x20]           [488B7720] 
+76C00: CMP RDX,RSI                    [4839F2] 
+76C37: MOV RSI,[RBX + 0x8]            [488B7308] 
+76C3B: SUB RSI,[RBX + 0x10]           [482B7310] 
+76C50: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+76C57: MOV EDX,0x1                    [BA01000000] 
+76C5C: MOV RDI,RBX                    [4889DF] 
+
+========

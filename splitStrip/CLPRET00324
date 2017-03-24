@@ -1,0 +1,7 @@
+
+
+18624: TEST RDI,RDI                   [4885FF] 
+18648: MOV dword ptr [0x00223160],0x16 [C7050EAB200016000000] 
+18652: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

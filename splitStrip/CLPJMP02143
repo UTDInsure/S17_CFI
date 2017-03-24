@@ -1,0 +1,7 @@
+
+
+1EF04: PUSH RBX                       [53] 
+1EF05: MOV ESI,0x2                    [BE02000000] 
+1EF0A: MOV RBX,RDI                    [4889FB] 
+
+========

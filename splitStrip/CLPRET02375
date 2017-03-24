@@ -1,0 +1,25 @@
+
+
+6C1F4: PUSH R14                       [4156] 
+6C1F6: PUSH R13                       [4155] 
+6C1F8: PUSH R12                       [4154] 
+6C1FA: MOV R12D,EDI                   [4189FC] 
+6C1FD: PUSH RBP                       [55] 
+6C1FE: PUSH RBX                       [53] 
+6C1FF: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+6C202: CMP AL,0x72                    [3C72] 
+6C20A: CMP AL,0x77                    [3C77] 
+6C20E: CMP AL,0x61                    [3C61] 
+6C210: MOV EBX,0x400                  [BB00040000] 
+6C215: MOV EBP,0x1004                 [BD04100000] 
+6C21C: MOV RAX,[0x00368e68]           [488B0545CC2F00] 
+6C223: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+6C22A: XOR R13D,R13D                  [4531ED] 
+6C22D: POP RBX                        [5B] 
+6C22E: POP RBP                        [5D] 
+6C22F: POP R12                        [415C] 
+6C231: MOV RAX,R13                    [4C89E8] 
+6C234: POP R13                        [415D] 
+6C236: POP R14                        [415E] 
+
+========

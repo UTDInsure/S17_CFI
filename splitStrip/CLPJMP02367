@@ -1,0 +1,17 @@
+
+
+30254: PUSH R15                       [4157] 
+30256: PUSH R14                       [4156] 
+30258: PUSH R13                       [4155] 
+3025A: PUSH R12                       [4154] 
+3025C: PUSH RBP                       [55] 
+3025D: PUSH RBX                       [53] 
+3025E: SUB RSP,0x8                    [4883EC08] 
+30262: MOV RAX,[0x0024a880]           [488B0517A62100] 
+30269: MOV RBP,[RAX]                  [488B28] 
+3026C: TEST RBP,RBP                   [4885ED] 
+30275: MOV EDX,0x1                    [BA01000000] 
+3027A: MOV ESI,0x1                    [BE01000000] 
+3027F: MOV R13,RDI                    [4989FD] 
+
+========

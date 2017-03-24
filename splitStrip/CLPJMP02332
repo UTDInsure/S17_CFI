@@ -1,0 +1,8 @@
+
+
+2E454: SUB RSP,0x8                    [4883EC08] 
+2E458: MOV RAX,[0x0024a7a0]           [488B0541C32100] 
+2E45F: MOV ESI,EDI                    [89FE] 
+2E461: MOV RDI,[RAX]                  [488B38] 
+
+========

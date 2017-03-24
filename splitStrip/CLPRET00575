@@ -1,0 +1,21 @@
+
+
+4051C4: PUSH R13                       [4155] 
+4051C6: MOV R13,RDI                    [4989FD] 
+4051C9: PUSH R12                       [4154] 
+4051CB: XOR R12D,R12D                  [4531E4] 
+4051CE: PUSH RBP                       [55] 
+4051CF: XOR EBP,EBP                    [31ED] 
+4051D1: PUSH RBX                       [53] 
+4051D2: MOV EBX,0x627a60               [BB607A6200] 
+4051D7: SUB RSP,0x8                    [4883EC08] 
+4051DB: MOVSX EAX,byte ptr [R13]       [410FBE4500] 
+4051E0: TEST AL,AL                     [84C0] 
+40525C: CMP RBX,0x627b60               [4881FB607B6200] 
+405279: ADD RSP,0x8                    [4883C408] 
+40527D: POP RBX                        [5B] 
+40527E: POP RBP                        [5D] 
+40527F: POP R12                        [415C] 
+405281: POP R13                        [415D] 
+
+========

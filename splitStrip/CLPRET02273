@@ -1,0 +1,20 @@
+
+
+4CF54: PUSH RBP                       [55] 
+4CF55: PUSH RBX                       [53] 
+4CF56: MOV RBX,R10                    [4C89D3] 
+4CF59: SUB RSP,0x8                    [4883EC08] 
+4CF5D: MOV EAX,[R10 + 0x30]           [418B4230] 
+4CF61: TEST EAX,EAX                   [85C0] 
+4CF65: CMP dword ptr [R10 + 0x2c],0x66 [41837A2C66] 
+4D078: MOV EAX,[R10 + 0x28]           [418B4228] 
+4D07C: MOV EBP,0x30                   [BD30000000] 
+4D081: LEA EDX,[RAX + -0x1]           [8D50FF] 
+4D084: TEST EAX,EAX                   [85C0] 
+4D086: MOV [R10 + 0x28],EDX           [41895228] 
+4D090: ADD RSP,0x8                    [4883C408] 
+4D094: MOV EAX,EBP                    [89E8] 
+4D096: POP RBX                        [5B] 
+4D097: POP RBP                        [5D] 
+
+========

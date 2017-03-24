@@ -1,0 +1,12 @@
+
+
+1B054: TEST RDI,RDI                   [4885FF] 
+1B059: TEST EDX,EDX                   [85D2] 
+1B05D: MOVSX EAX,word ptr [RDI + 0x6] [0FBF4706] 
+1B061: CMP EDX,EAX                    [39C2] 
+1B065: TEST ESI,ESI                   [85F6] 
+1B069: MOVSX EAX,word ptr [RDI + 0x4] [0FBF4704] 
+1B06D: CMP ESI,EAX                    [39C6] 
+1B090: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

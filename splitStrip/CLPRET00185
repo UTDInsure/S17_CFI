@@ -1,0 +1,28 @@
+
+
+12DA4: PUSH R15                       [4157] 
+12DA6: MOV RAX,[0x00222960]           [488B05B3FB2000] 
+12DAD: MOV R8,RDI                     [4989F8] 
+12DB0: PUSH R14                       [4156] 
+12DB2: TEST RAX,RAX                   [4885C0] 
+12DB5: PUSH R13                       [4155] 
+12DB7: PUSH R12                       [4154] 
+12DB9: PUSH RBP                       [55] 
+12DBA: PUSH RBX                       [53] 
+12DBB: MOV EBX,ESI                    [89F3] 
+12DBD: MOV [RSP + -0x4],ESI           [897424FC] 
+12DC1: MOV [RSP + -0x10],RAX          [48894424F0] 
+12E3D: TEST byte ptr [RSP + -0x4],0x8 [F64424FC08] 
+12E48: CMP R8,[0x00222d38]            [4C3B05E9FE2000] 
+12E55: CMP R8,[0x00222d48]            [4C3B05ECFE2000] 
+12E62: XOR ECX,ECX                    [31C9] 
+12E64: NOP                            [0F1F4000] 
+12E68: POP RBX                        [5B] 
+12E69: POP RBP                        [5D] 
+12E6A: POP R12                        [415C] 
+12E6C: POP R13                        [415D] 
+12E6E: POP R14                        [415E] 
+12E70: MOV EAX,ECX                    [89C8] 
+12E72: POP R15                        [415F] 
+
+========

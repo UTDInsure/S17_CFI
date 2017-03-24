@@ -1,0 +1,20 @@
+
+
+F59F4: PUSH R13                       [4155] 
+F59F6: XOR EAX,EAX                    [31C0] 
+F59F8: PUSH R12                       [4154] 
+F59FA: PUSH RBP                       [55] 
+F59FB: MOV EBP,ESI                    [89F5] 
+F59FD: MOV ESI,0x1                    [BE01000000] 
+F5A02: PUSH RBX                       [53] 
+F5A03: MOV RBX,RDI                    [4889FB] 
+F5A06: SUB RSP,0x38                   [4883EC38] 
+F5A0A: MOV dword ptr [RSP + 0x24],0x0 [C744242400000000] 
+F5A12: CMP dword ptr [0x0036e774],0x0 [833D5B8D270000] 
+F5A1B: LOCK                           [F0] 
+F5A1C: CMPXCHG [0x0036d2a8],ESI       [0FB13585782700] 
+F5A4E: CMP dword ptr [0x0036a818],0x0 [48833DC24D270000] 
+F5BD0: MOV EDI,0x400                  [BF00040000] 
+F5BD5: MOV dword ptr [0x0036d2a0],0x400 [48C705C076270000040000] 
+
+========

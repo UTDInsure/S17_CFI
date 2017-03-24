@@ -1,0 +1,16 @@
+
+
+6CAF4: PUSH RBP                       [55] 
+6CAF5: PUSH RBX                       [53] 
+6CAF6: MOV RBX,RDI                    [4889FB] 
+6CAF9: SUB RSP,0x8                    [4883EC08] 
+6CAFD: MOV RAX,[0xf0 + RDI]           [488B87F0000000] 
+6CB04: TEST RAX,RAX                   [4885C0] 
+6CB09: MOV RBP,RDX                    [4889D5] 
+6CB0C: MOV RDI,[0xe0 + RDI]           [488BBFE0000000] 
+6CB19: CMP RBP,RAX                    [4839C5] 
+6CB21: ADD RSP,0x8                    [4883C408] 
+6CB25: POP RBX                        [5B] 
+6CB26: POP RBP                        [5D] 
+
+========

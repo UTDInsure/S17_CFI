@@ -1,0 +1,11 @@
+
+
+70264: MOV RDX,[0x0036a710]           [488B15A5A42F00] 
+7026B: MOV RCX,[RDX + 0x28]           [488B4A28] 
+7026F: CMP RCX,[RDX + 0x30]           [483B4A30] 
+70275: LEA RAX,[RCX + 0x1]            [488D4101] 
+70279: MOV [RDX + 0x28],RAX           [48894228] 
+7027D: MOV [RCX],DIL                  [408839] 
+70280: MOVZX EAX,DIL                  [400FB6C7] 
+
+========

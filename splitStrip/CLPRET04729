@@ -1,0 +1,10 @@
+
+
+CC304: MOV EAX,0x93                   [B893000000] 
+CC30B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+CC314: MOV RCX,[0x00368e68]           [488B0D4DCB2900] 
+CC31B: NEG EAX                        [F7D8] 
+CC31D: MOV FS:[RCX],EAX               [648901] 
+CC320: OR RAX,-0x1                    [4883C8FF] 
+
+========

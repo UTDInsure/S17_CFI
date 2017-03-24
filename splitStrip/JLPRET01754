@@ -1,0 +1,27 @@
+
+
+313BA: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+313C2: LEA RAX,[RDX + 0x1]            [488D4201] 
+313C6: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+313D4: MOV RCX,[0x1e0 + R12]          [498B8C24E0010000] 
+313DC: MOV RSI,RAX                    [4889C6] 
+313DF: MOV [0x1f0 + R12],RSI          [4989B424F0010000] 
+313E7: MOV RBX,RBP                    [4889EB] 
+313EA: MOV byte ptr [RCX + RDX*0x1],0x25 [C6041125] 
+313EE: MOVZX EAX,byte ptr [RBP]       [0FB64500] 
+30F0F: TEST AL,AL                     [84C0] 
+31220: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+31228: LEA RAX,[RDX + 0x1]            [488D4201] 
+3122C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+3123A: MOV RAX,[0x1e0 + R12]          [498B8424E0010000] 
+31242: MOV byte ptr [RAX + RDX*0x1],0x0 [C6041000] 
+31246: MOV RAX,[0x1e0 + R12]          [498B8424E0010000] 
+3124E: ADD RSP,0x128                  [4881C428010000] 
+31255: POP RBX                        [5B] 
+31256: POP RBP                        [5D] 
+31257: POP R12                        [415C] 
+31259: POP R13                        [415D] 
+3125B: POP R14                        [415E] 
+3125D: POP R15                        [415F] 
+
+========

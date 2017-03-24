@@ -1,0 +1,8 @@
+
+
+304A4: MOV RAX,[0x0024a880]           [488B05D5A32100] 
+304AB: MOV RAX,[RAX]                  [488B00] 
+304AE: TEST RAX,RAX                   [4885C0] 
+304B3: MOV RAX,[0xc8 + RAX]           [488B80C8000000] 
+
+========

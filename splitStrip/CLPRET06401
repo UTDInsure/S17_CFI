@@ -1,0 +1,16 @@
+
+
+F2F74: SUB RSP,0x8                    [4883EC08] 
+F2F78: CMP RDX,RCX                    [4839CA] 
+F2F7D: MOV ECX,R8D                    [4489C1] 
+E45A4: MOV EAX,[0x0036e774]           [8B05CAA12800] 
+E45AA: TEST EAX,EAX                   [85C0] 
+E45AE: XOR R9D,R9D                    [4531C9] 
+E45B1: XOR R8D,R8D                    [4531C0] 
+E45B4: MOVSXD R10,ECX                 [4C63D1] 
+E45B7: MOVSXD RDI,EDI                 [4863FF] 
+E45BA: MOV EAX,0x2d                   [B82D000000] 
+E45C1: CMP RAX,0xfffff000             [483D00F0FFFF] 
+F2F89: ADD RSP,0x8                    [4883C408] 
+
+========

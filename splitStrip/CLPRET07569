@@ -1,0 +1,11 @@
+
+
+119004: MOV R10,RCX                    [4989CA] 
+119007: MOV EAX,0xb5                   [B8B5000000] 
+11900E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+119017: MOV RCX,[0x00368e68]           [488B0D4AFE2400] 
+11901E: NEG EAX                        [F7D8] 
+119020: MOV FS:[RCX],EAX               [648901] 
+119023: OR RAX,-0x1                    [4883C8FF] 
+
+========

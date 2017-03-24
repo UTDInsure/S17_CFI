@@ -1,0 +1,16 @@
+
+
+891A4: CMP RCX,RDX                    [4839D1] 
+891AD: NOP                            [0F1F00] 
+891B4: MOVD XMM8,ESI                  [66440F6EC6] 
+891B9: MOV RAX,RDI                    [4889F8] 
+891BC: PUNPCKLBW XMM8,XMM8            [66450F60C0] 
+891C1: PUNPCKLWD XMM8,XMM8            [66450F61C0] 
+891C6: PSHUFD XMM8,XMM8,0x0           [66450F70C000] 
+891CC: CMP RDX,0x40                   [4883FA40] 
+891D2: CMP RDX,0x10                   [4883FA10] 
+891DC: CMP RDX,0x20                   [4883FA20] 
+891E0: MOVDQU [RDI],XMM8              [F3440F7F07] 
+891E5: MOVDQU [RDI + RDX*0x1 + -0x10],XMM8 [F3440F7F4417F0] 
+
+========

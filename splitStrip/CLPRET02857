@@ -1,0 +1,24 @@
+
+
+74F94: PUSH RBX                       [53] 
+74F95: MOV EAX,[RDI]                  [8B07] 
+74F97: MOV RBX,RDI                    [4889FB] 
+74F9A: AND EAX,0x8000                 [2500800000] 
+74FFB: MOV ECX,0x3                    [B903000000] 
+75000: XOR EDX,EDX                    [31D2] 
+75002: XOR ESI,ESI                    [31F6] 
+75004: MOV RDI,RBX                    [4889DF] 
+6E6A4: CMP EDX,0x2                    [83FA02] 
+6E760: MOV RAX,[0x00368e68]           [488B0501A72F00] 
+6E767: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+6E76E: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+75010: MOV EAX,[RBX]                  [8B03] 
+75012: MOV EDX,EAX                    [89C2] 
+75014: AND EDX,0xffffffcf             [83E2CF] 
+75017: TEST AH,0x80                   [F6C480] 
+7501A: MOV [RBX],EDX                  [8913] 
+7501E: MOV RDX,[0x88 + RBX]           [488B9388000000] 
+75025: SUB dword ptr [RDX + 0x4],0x1  [836A0401] 
+75061: POP RBX                        [5B] 
+
+========

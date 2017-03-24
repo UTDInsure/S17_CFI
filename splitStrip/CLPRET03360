@@ -1,0 +1,10 @@
+
+
+7FEC4: SUB RSP,0x8                    [4883EC08] 
+7FEC8: MOV RAX,[0x00368ee8]           [488B0519902E00] 
+7FECF: MOV RAX,[RAX]                  [488B00] 
+7FED2: TEST RAX,RAX                   [4885C0] 
+7FED7: TEST RDI,RDI                   [4885FF] 
+7FF0A: ADD RSP,0x8                    [4883C408] 
+
+========

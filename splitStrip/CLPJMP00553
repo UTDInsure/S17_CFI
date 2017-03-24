@@ -1,0 +1,8 @@
+
+
+4146D4: PUSH RBX                       [53] 
+4146D5: MOV RBX,RDI                    [4889FB] 
+4146D8: MOV RDI,[RDI]                  [488B3F] 
+4146DB: TEST RDI,RDI                   [4885FF] 
+
+========

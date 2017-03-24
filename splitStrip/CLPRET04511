@@ -1,0 +1,11 @@
+
+
+BBB24: MOVSXD RSI,ESI                 [4863F6] 
+BBB27: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+BBB2E: LEA RSI,[RSI + RSI*0x4]        [488D34B6] 
+BBB32: LEA RAX,[RAX + RSI*0x4]        [488D04B0] 
+BBB36: MOV ESI,[RAX + 0x8]            [8B7008] 
+BBB39: CMP ESI,R8D                    [4439C6] 
+BBB88: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

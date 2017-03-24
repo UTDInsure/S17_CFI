@@ -1,0 +1,6 @@
+
+
+E4324: MOV EAX,0x134                  [B834010000] 
+E432B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

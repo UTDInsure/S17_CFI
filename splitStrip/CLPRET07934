@@ -1,0 +1,17 @@
+
+
+15BC4: SUB RSP,0x8                    [4883EC08] 
+15BC8: TEST RDI,RDI                   [4885FF] 
+15BD1: MOVZX ECX,word ptr [RDI + 0xc] [0FB74F0C] 
+15BD5: MOVSX RAX,word ptr [RDI]       [480FBF07] 
+15BD9: MOVSX RDX,word ptr [RDI + 0x2] [480FBF5702] 
+15BDE: TEST CL,0x40                   [F6C140] 
+15C50: CMP AX,[RDI + 0x4]             [663B4704] 
+15C56: AND ECX,0xffffffbf             [83E1BF] 
+15C59: MOV [RDI + 0xc],CX             [66894F0C] 
+15BE9: MOVSX RSI,word ptr [RDI + 0x6] [480FBF7706] 
+15BEE: CMP DX,SI                      [6639F2] 
+15C60: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+15C65: ADD RSP,0x8                    [4883C408] 
+
+========

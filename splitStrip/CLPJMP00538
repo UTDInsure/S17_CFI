@@ -1,0 +1,25 @@
+
+
+4142D4: PUSH R12                       [4154] 
+4142D6: PUSH RBP                       [55] 
+4142D7: XOR EBP,EBP                    [31ED] 
+4142D9: PUSH RBX                       [53] 
+4142DA: MOV RBX,RDI                    [4889FB] 
+4142DD: SUB RSP,0x10                   [4883EC10] 
+4142E1: MOV R9D,[0x00627434]           [448B0D4C312100] 
+4142E8: ADD dword ptr [0x0062bb64],0x1 [83057578210001] 
+4142EF: TEST R9D,R9D                   [4585C9] 
+4142F4: MOV R8D,[0x0062ba34]           [448B0539772100] 
+4142FB: TEST R8D,R8D                   [4585C0] 
+4143E0: MOV EDI,[0x0062bb48]           [8B3D62772100] 
+4143E6: TEST EDI,EDI                   [85FF] 
+4143EA: XOR EAX,EAX                    [31C0] 
+4143EC: MOV [RSP + 0x8],RSI            [4889742408] 
+403E84: SUB RSP,0x8                    [4883EC08] 
+403E88: MOV EAX,[0x0062790c]           [8B057E3A2200] 
+403E8E: TEST AL,0x8                    [A808] 
+403F28: MOV RDI,[0x00627978]           [488B3D493A2200] 
+403F2F: MOV EDX,0x413de0               [BAE03D4100] 
+403F34: MOV ESI,0x1                    [BE01000000] 
+
+========

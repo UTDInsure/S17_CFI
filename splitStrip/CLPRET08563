@@ -1,0 +1,13 @@
+
+
+2E904: PUSH RBP                       [55] 
+2E905: PUSH RBX                       [53] 
+2E906: MOV RBX,RDI                    [4889FB] 
+2E909: SUB RSP,0x8                    [4883EC08] 
+2E90D: TEST RDI,RDI                   [4885FF] 
+2E98D: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2E94C: ADD RSP,0x8                    [4883C408] 
+2E950: POP RBX                        [5B] 
+2E951: POP RBP                        [5D] 
+
+========

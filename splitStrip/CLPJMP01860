@@ -1,0 +1,19 @@
+
+
+11E194: MOV RDI,[0x0036de40]           [488B3DA5FC2400] 
+11E19B: TEST RDI,RDI                   [4885FF] 
+11E1A0: SUB RSP,0x8                    [4883EC08] 
+11E1A4: MOV dword ptr [0x0036de40],0x0 [48C70591FC240000000000] 
+1045F4: PUSH R12                       [4154] 
+1045F6: TEST RDI,RDI                   [4885FF] 
+1045F9: MOV R12,RDI                    [4989FC] 
+1045FC: PUSH RBP                       [55] 
+1045FD: PUSH RBX                       [53] 
+104600: MOV RBX,[R12 + 0x8]            [498B5C2408] 
+104605: TEST RBX,RBX                   [4885DB] 
+104613: MOV RDI,[RBX + 0x28]           [488B7B28] 
+104617: TEST RDI,RDI                   [4885FF] 
+10462C: MOV RBP,[RBX]                  [488B2B] 
+10462F: MOV RDI,RBX                    [4889DF] 
+
+========

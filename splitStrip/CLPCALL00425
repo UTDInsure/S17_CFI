@@ -1,0 +1,14 @@
+
+
+715C4: PUSH RBX                       [53] 
+715C5: MOV RDX,[0xa0 + RDI]           [488B97A0000000] 
+715CC: MOV RBX,RDI                    [4889FB] 
+715CF: MOV EAX,ESI                    [89F0] 
+715D1: MOV RCX,[RDX]                  [488B0A] 
+715D4: CMP RCX,[RDX + 0x10]           [483B4A10] 
+715DA: CMP [RCX + -0x4],ESI           [3971FC] 
+715DF: MOV RDX,[0xd8 + RBX]           [488B93D8000000] 
+715E6: MOV ESI,EAX                    [89C6] 
+715E8: MOV RDI,RBX                    [4889DF] 
+
+========

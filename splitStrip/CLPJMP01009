@@ -1,0 +1,15 @@
+
+
+95864: PUSH RBP                       [55] 
+95865: PUSH RBX                       [53] 
+95866: MOV RBX,RDI                    [4889FB] 
+95869: SUB RSP,0x8                    [4883EC08] 
+958C4: CMP dword ptr [RDI],0x0        [833F00] 
+958CD: CMP dword ptr [RDI + 0x4],0x0  [837F0400] 
+958D7: CMP dword ptr [RDI + 0x8],0x0  [837F0800] 
+958E1: CMP dword ptr [RDI + 0xc],0x0  [837F0C00] 
+95B10: MOV RAX,0x3                    [48C7C003000000] 
+95876: LEA RBP,[0x4 + RAX*0x4]        [488D2C8504000000] 
+9587E: MOV RDI,RBP                    [4889EF] 
+
+========

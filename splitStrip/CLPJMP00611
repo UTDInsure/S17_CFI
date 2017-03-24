@@ -1,0 +1,19 @@
+
+
+417304: PUSH R14                       [4156] 
+417306: XOR EAX,EAX                    [31C0] 
+417308: MOV R14D,ECX                   [4189CE] 
+41730B: PUSH R13                       [4155] 
+41730D: MOV R13,RSI                    [4989F5] 
+417310: MOV ESI,0x1                    [BE01000000] 
+417315: PUSH R12                       [4154] 
+417317: MOV R12,RDI                    [4989FC] 
+41731A: MOV EDI,0x30                   [BF30000000] 
+41731F: PUSH RBP                       [55] 
+417320: MOV RBP,RDX                    [4889D5] 
+417323: PUSH RBX                       [53] 
+402854: SUB RSP,0x8                    [4883EC08] 
+402858: MOV ESI,ESI                    [89F6] 
+40285A: MOVSXD RDI,EDI                 [4863FF] 
+
+========

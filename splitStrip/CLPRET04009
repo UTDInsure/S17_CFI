@@ -1,0 +1,17 @@
+
+
+96574: SUB RSI,RDI                    [4829FE] 
+96577: LEA RAX,[RDI + -0x4]           [488D47FC] 
+9657B: SAR RSI,0x2                    [48C1FE02] 
+9657F: LEA RCX,[0x4 + RSI*0x4]        [488D0CB504000000] 
+96587: NOP                            [660F1F840000000000] 
+96590: MOV EDX,[RAX + RCX*0x1]        [8B1408] 
+96593: ADD RAX,0x4                    [4883C004] 
+96597: TEST EDX,EDX                   [85D2] 
+96599: MOV [RAX],EDX                  [8910] 
+96590: MOV EDX,[RAX + RCX*0x1]        [8B1408] 
+96593: ADD RAX,0x4                    [4883C004] 
+96597: TEST EDX,EDX                   [85D2] 
+96599: MOV [RAX],EDX                  [8910] 
+
+========

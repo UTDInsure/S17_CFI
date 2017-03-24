@@ -1,0 +1,16 @@
+
+
+E45A4: MOV EAX,[0x0036e774]           [8B05CAA12800] 
+E45AA: TEST EAX,EAX                   [85C0] 
+E45AE: XOR R9D,R9D                    [4531C9] 
+E45B1: XOR R8D,R8D                    [4531C0] 
+E45B4: MOVSXD R10,ECX                 [4C63D1] 
+E45B7: MOVSXD RDI,EDI                 [4863FF] 
+E45BA: MOV EAX,0x2d                   [B82D000000] 
+E45C1: CMP RAX,0xfffff000             [483D00F0FFFF] 
+E45CA: MOV RDX,[0x00368e68]           [488B1597482800] 
+E45D1: NEG EAX                        [F7D8] 
+E45D3: MOV FS:[RDX],EAX               [648902] 
+E45D6: OR RAX,-0x1                    [4883C8FF] 
+
+========

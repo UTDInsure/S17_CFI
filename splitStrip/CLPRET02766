@@ -1,0 +1,21 @@
+
+
+73664: PUSH R15                       [4157] 
+73666: XOR EAX,EAX                    [31C0] 
+73668: PUSH R14                       [4156] 
+7366A: PUSH R13                       [4155] 
+7366C: PUSH R12                       [4154] 
+7366E: PUSH RBP                       [55] 
+7366F: MOV RBP,RDX                    [4889D5] 
+73672: PUSH RBX                       [53] 
+73673: SUB RSP,0x8                    [4883EC08] 
+73677: TEST RDX,RDX                   [4885D2] 
+73734: ADD RSP,0x8                    [4883C408] 
+73738: POP RBX                        [5B] 
+73739: POP RBP                        [5D] 
+7373A: POP R12                        [415C] 
+7373C: POP R13                        [415D] 
+7373E: POP R14                        [415E] 
+73740: POP R15                        [415F] 
+
+========

@@ -1,0 +1,8 @@
+
+
+2A424: SUB RSP,0x8                    [4883EC08] 
+2A428: TEST RDI,RDI                   [4885FF] 
+2A470: XOR EAX,EAX                    [31C0] 
+2A472: ADD RSP,0x8                    [4883C408] 
+
+========

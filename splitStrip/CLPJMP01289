@@ -1,0 +1,27 @@
+
+
+E14E4: PUSH R15                       [4157] 
+E14E6: PUSH R14                       [4156] 
+E14E8: PUSH R13                       [4155] 
+E14EA: PUSH R12                       [4154] 
+E14EC: MOV R12,RSI                    [4989F4] 
+E14EF: PUSH RBP                       [55] 
+E14F0: PUSH RBX                       [53] 
+E14F1: SUB RSP,0x28                   [4883EC28] 
+E14F5: TEST RSI,RSI                   [4885F6] 
+E14F8: MOV [RSP + 0x10],RDI           [48897C2410] 
+E14FD: MOV [RSP + 0x18],RDX           [4889542418] 
+E1508: MOV RAX,[RSI]                  [488B06] 
+E150B: TEST RAX,RAX                   [4885C0] 
+E1514: AND [RAX + 0x18],0xfe          [806018FE] 
+E1518: MOV RBX,[RSI]                  [488B1E] 
+E151B: XOR R8D,R8D                    [4531C0] 
+E151E: XOR R13D,R13D                  [4531ED] 
+E1521: XOR EDX,EDX                    [31D2] 
+E1523: XOR R14D,R14D                  [4531F6] 
+E159D: TEST RBX,RBX                   [4885DB] 
+E15A2: MOV R15D,R13D                  [4589EF] 
+E15A5: MOV RBP,R12                    [4C89E5] 
+E15A8: MOV EDI,0x20                   [BF20000000] 
+
+========

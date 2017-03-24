@@ -1,0 +1,14 @@
+
+
+D7D14: MOVSXD R8,R8D                  [4D63C0] 
+D7D17: MOV R10D,ECX                   [4189CA] 
+D7D1A: MOV EDX,EDX                    [89D2] 
+D7D1C: MOVSXD RDI,EDI                 [4863FF] 
+D7D1F: MOV EAX,0x104                  [B804010000] 
+D7D26: CMP RAX,0xfffff000             [483D00F0FFFF] 
+D7D30: MOV RDX,[0x00368e68]           [488B1531112900] 
+D7D37: NEG EAX                        [F7D8] 
+D7D39: MOV FS:[RDX],EAX               [648902] 
+D7D3C: OR RAX,-0x1                    [4883C8FF] 
+
+========

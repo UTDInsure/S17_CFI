@@ -1,0 +1,23 @@
+
+
+11CCB4: SUB RSP,0x8                    [4883EC08] 
+11CCB8: AND R8D,0x3                    [4183E003] 
+CA2D4: PUSH R14                       [4156] 
+CA2D6: MOV EAX,0x2                    [B802000000] 
+CA2DB: PUSH R13                       [4155] 
+CA2DD: PUSH R12                       [4154] 
+CA2DF: PUSH RBP                       [55] 
+CA2E0: MOV RBP,RDI                    [4889FD] 
+CA2E3: PUSH RBX                       [53] 
+CA2E4: SUB RSP,0x30                   [4883EC30] 
+CA2E8: TEST R8D,0xfffffff8            [41F7C0F8FFFFFF] 
+CA2EF: MOV RBX,[RDI]                  [488B1F] 
+CA2F4: ADD RSP,0x30                   [4883C430] 
+CA2F8: POP RBX                        [5B] 
+CA2F9: POP RBP                        [5D] 
+CA2FA: POP R12                        [415C] 
+CA2FC: POP R13                        [415D] 
+CA2FE: POP R14                        [415E] 
+11CCC5: ADD RSP,0x8                    [4883C408] 
+
+========

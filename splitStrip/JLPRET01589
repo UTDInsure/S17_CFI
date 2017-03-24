@@ -1,0 +1,12 @@
+
+
+C618C: TEST EDX,0x402                 [F7C202040000] 
+C6192: MOV EAX,0x1                    [B801000000] 
+C5F46: ADD RSP,0x20                   [4883C420] 
+C5F4A: POP RBX                        [5B] 
+C5F4B: POP RBP                        [5D] 
+C5F4C: POP R12                        [415C] 
+C5F4E: POP R13                        [415D] 
+C5F50: POP R14                        [415E] 
+
+========

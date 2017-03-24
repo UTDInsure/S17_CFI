@@ -1,0 +1,14 @@
+
+
+CC594: SUB RSP,0x8                    [4883EC08] 
+CC598: ADD RSI,0x8                    [4883C608] 
+CC59C: ADD RDI,0x8                    [4883C708] 
+CC5A0: MOV EDX,0x10                   [BA10000000] 
+88BB4: TEST RDX,RDX                   [4885D2] 
+88BBD: CMP RDX,0x1                    [4883FA01] 
+88C81: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+88C84: MOVZX EDX,byte ptr [RSI]       [0FB616] 
+88C87: SUB EAX,EDX                    [29D0] 
+CC5AE: ADD RSP,0x8                    [4883C408] 
+
+========

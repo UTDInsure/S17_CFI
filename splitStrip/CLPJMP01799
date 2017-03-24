@@ -1,0 +1,9 @@
+
+
+11D714: MOV RDI,[0x0036e388]           [488B3D6D0C2500] 
+11D71B: TEST RDI,RDI                   [4885FF] 
+11D720: LEA RAX,[0x13d500]             [488D05D9FD0100] 
+11D727: CMP RDI,RAX                    [4839C7] 
+11D72C: SUB RSP,0x8                    [4883EC08] 
+
+========

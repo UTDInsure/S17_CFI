@@ -1,0 +1,8 @@
+
+
+D6364: ADD RDI,0x3f                   [4883C73F] 
+D6368: SUB RSP,0x8                    [4883EC08] 
+D636C: SHR RDI,0x6                    [48C1EF06] 
+D6370: SHL RDI,0x3                    [48C1E703] 
+
+========

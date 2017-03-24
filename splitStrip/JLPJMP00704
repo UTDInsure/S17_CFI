@@ -1,0 +1,22 @@
+
+
+4C620: CMP dword ptr [-0x4e0 + RBP],-0x1 [4883BD20FBFFFFFF] 
+4C62A: MOV RAX,[-0x4a0 + RBP]         [488B8560FBFFFF] 
+4C631: LEA RDX,[RAX + 0x1]            [488D5001] 
+4C635: MOV [-0x4a0 + RBP],RDX         [48899560FBFFFF] 
+4C63C: MOVZX EAX,byte ptr [RAX + 0x1] [0FB64001] 
+4C640: LEA EDX,[RAX + -0x20]          [8D50E0] 
+4C643: MOV [-0x4c8 + RBP],AL          [888538FBFFFF] 
+4C649: XOR EAX,EAX                    [31C0] 
+4C64B: CMP DL,0x5a                    [80FA5A] 
+4C650: MOVSX EAX,byte ptr [-0x4c8 + RBP] [0FBE8538FBFFFF] 
+4C657: LEA RDX,[0x12f8a0]             [488D1542320E00] 
+4C65E: SUB EAX,0x20                   [83E820] 
+4C661: CDQE                           [4898] 
+4C663: MOVZX EDX,byte ptr [RDX + RAX*0x1] [0FB61402] 
+4C667: LEA RAX,[0x12f820]             [488D05B2310E00] 
+4C66E: MOVSXD RAX,[RAX + RDX*0x4]     [48630490] 
+4C672: ADD RAX,R12                    [4C01E0] 
+4C675: MOV dword ptr [-0x548 + RBP],0x1 [C785B8FAFFFF01000000] 
+
+========

@@ -1,0 +1,24 @@
+
+
+16144: PUSH R15                       [4157] 
+16146: PUSH R14                       [4156] 
+16148: PUSH R13                       [4155] 
+1614A: PUSH R12                       [4154] 
+1614C: MOV R12,RDI                    [4989FC] 
+1614F: PUSH RBP                       [55] 
+16150: PUSH RBX                       [53] 
+16151: SUB RSP,0x28                   [4883EC28] 
+16155: TEST byte ptr [0x00221cc0],0x1 [F60564BB200001] 
+16162: MOV R14,[0x002230f0]           [4C8B3587CF2000] 
+16169: TEST R14,R14                   [4D85F6] 
+16172: CMP R14,-0x1                   [4983FEFF] 
+16240: XOR EAX,EAX                    [31C0] 
+16242: ADD RSP,0x28                   [4883C428] 
+16246: POP RBX                        [5B] 
+16247: POP RBP                        [5D] 
+16248: POP R12                        [415C] 
+1624A: POP R13                        [415D] 
+1624C: POP R14                        [415E] 
+1624E: POP R15                        [415F] 
+
+========

@@ -1,0 +1,22 @@
+
+
+78224: PUSH RBP                       [55] 
+78225: MOV RBP,RSP                    [4889E5] 
+78228: PUSH R15                       [4157] 
+7822A: PUSH R14                       [4156] 
+7822C: PUSH R13                       [4155] 
+7822E: PUSH R12                       [4154] 
+78230: MOV R12,RDI                    [4989FC] 
+78233: PUSH RBX                       [53] 
+78234: SUB RSP,0x38                   [4883EC38] 
+78238: CMP dword ptr [RDI + 0x70],-0x1 [837F70FF] 
+78298: LEA RSP,[RBP + -0x28]          [488D65D8] 
+7829C: XOR EAX,EAX                    [31C0] 
+7829E: POP RBX                        [5B] 
+7829F: POP R12                        [415C] 
+782A1: POP R13                        [415D] 
+782A3: POP R14                        [415E] 
+782A5: POP R15                        [415F] 
+782A7: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,17 @@
+
+
+6E8C4: PUSH R12                       [4154] 
+6E8C6: MOV R12D,EDX                   [4189D4] 
+6E8C9: PUSH RBP                       [55] 
+6E8CA: MOV RBP,RSI                    [4889F5] 
+6E8CD: PUSH RBX                       [53] 
+6E8CE: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+6E8D4: MOV RBX,RDI                    [4889FB] 
+6E8D7: TEST EAX,EAX                   [85C0] 
+6E910: CMP dword ptr [RDI + 0x48],0x0 [48837F4800] 
+79514: PUSH RBX                       [53] 
+79515: TEST dword ptr [RDI],0x100     [F70700010000] 
+7951B: MOV RBX,RDI                    [4889FB] 
+79529: MOV RDI,[RBX + 0x48]           [488B7B48] 
+
+========

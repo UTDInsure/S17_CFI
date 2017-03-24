@@ -1,0 +1,20 @@
+
+
+24184: PUSH R13                       [4155] 
+24186: XOR EAX,EAX                    [31C0] 
+24188: MOV R13,RDI                    [4989FD] 
+2418B: PUSH R12                       [4154] 
+2418D: MOV R12,RSI                    [4989F4] 
+24190: MOV ESI,0x1                    [BE01000000] 
+24195: PUSH RBP                       [55] 
+24196: PUSH RBX                       [53] 
+24197: SUB RSP,0x8                    [4883EC08] 
+2419B: CMP dword ptr [0x0036e774],0x0 [833DD2A5340000] 
+241B0: CMPXCHG [0x0036e368],ESI       [0FB135B1A13400] 
+241D7: TEST R12,R12                   [4D85E4] 
+24206: MOV RSI,R12                    [4C89E6] 
+24209: MOV RDI,R13                    [4C89EF] 
+2BA94: CMP dword ptr [0x0036a920],0x0 [48833D84EE330000] 
+2BA9E: SUB RSP,0x8                    [4883EC08] 
+
+========

@@ -1,0 +1,23 @@
+
+
+88BB4: TEST RDX,RDX                   [4885D2] 
+88BBD: CMP RDX,0x1                    [4883FA01] 
+88BC7: SUB RSI,RDI                    [4829FE] 
+88BCA: MOV R10,RDX                    [4989D2] 
+88BCD: CMP R10,0x20                   [4983FA20] 
+88CB3: MOV R11,RDX                    [4989D3] 
+88CB6: ADD R11,RDI                    [4901FB] 
+88CB9: MOV R8,RDI                     [4989F8] 
+88CBC: AND R8,0xf                     [4983E00F] 
+88CC2: MOVDQU XMM1,[RDI]              [F30F6F0F] 
+88CC6: MOVDQU XMM0,[RDI + RSI*0x1]    [F30F6F0437] 
+88CCB: PCMPEQB XMM1,XMM0              [660F74C8] 
+88CCF: PMOVMSKB EDX,XMM1              [660FD7D1] 
+88CD3: SUB EDX,0xffff                 [81EAFFFF0000] 
+88E40: BSF ECX,EDX                    [0FBCCA] 
+88E43: MOVZX EAX,byte ptr [RDI + RCX*0x1] [0FB6040F] 
+88E47: ADD RSI,RDI                    [4801FE] 
+88E4A: MOVZX EDX,byte ptr [RSI + RCX*0x1] [0FB6140E] 
+88C87: SUB EAX,EDX                    [29D0] 
+
+========

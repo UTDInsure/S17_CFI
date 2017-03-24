@@ -1,0 +1,20 @@
+
+
+24264: PUSH R14                       [4156] 
+24266: MOV R14D,ESI                   [4189F6] 
+24269: PUSH R13                       [4155] 
+2426B: MOV R13,RDI                    [4989FD] 
+2426E: PUSH R12                       [4154] 
+24270: PUSH RBP                       [55] 
+24271: LEA RBP,[0x36e370]             [488D2DF8A03400] 
+24278: PUSH RBX                       [53] 
+242A5: MOV RBX,[RBP]                  [488B5D00] 
+242A9: TEST RBX,RBX                   [4885DB] 
+242AE: MOV [RBP],R13                  [4C896D00] 
+242B2: POP RBX                        [5B] 
+242B3: POP RBP                        [5D] 
+242B4: POP R12                        [415C] 
+242B6: POP R13                        [415D] 
+242B8: POP R14                        [415E] 
+
+========

@@ -1,0 +1,7 @@
+
+
+F0284: MOV EDX,[0x0036e770]           [8B15E6E42700] 
+F028A: XOR EAX,EAX                    [31C0] 
+F028C: TEST EDX,EDX                   [85D2] 
+
+========

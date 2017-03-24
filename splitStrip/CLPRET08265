@@ -1,0 +1,7 @@
+
+
+207F4: CMP EDI,0x3                    [83FF03] 
+207F7: MOV EAX,EDI                    [89F8] 
+20840: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

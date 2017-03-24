@@ -1,0 +1,17 @@
+
+
+33A54: TEST RDI,RDI                   [4885FF] 
+33A57: PUSH RBX                       [53] 
+33A58: MOV RBX,RDI                    [4889FB] 
+33A5D: MOV EAX,[RDI]                  [8B07] 
+33A5F: CMP EAX,0x2                    [83F802] 
+33A64: CMP EAX,0x3                    [83F803] 
+33A69: CMP EAX,0x1                    [83F801] 
+33A9A: MOV RDI,[RBX + 0x8]            [488B7B08] 
+33A54: TEST RDI,RDI                   [4885FF] 
+33A57: PUSH RBX                       [53] 
+33A58: MOV RBX,RDI                    [4889FB] 
+33A7A: POP RBX                        [5B] 
+33A6E: MOV RDI,RBX                    [4889DF] 
+
+========

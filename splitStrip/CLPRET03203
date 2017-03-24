@@ -1,0 +1,11 @@
+
+
+7A6B4: MOV RAX,[RDI + 0x8]            [488B4708] 
+7A6B8: TEST RAX,RAX                   [4885C0] 
+7A6BD: TEST dword ptr [RAX],0x100     [F70000010000] 
+7A6C3: MOV RDX,[RAX + 0x8]            [488B5008] 
+7A6C9: SUB EDX,[RAX + 0x18]           [2B5018] 
+7A6CC: MOV EAX,[RDI + 0x10]           [8B4710] 
+7A6CF: SUB EAX,EDX                    [29D0] 
+
+========

@@ -1,0 +1,19 @@
+
+
+4052F4: PUSH R12                       [4154] 
+4052F6: PUSH RBP                       [55] 
+4052F7: MOV RBP,RSI                    [4889F5] 
+4052FA: PUSH RBX                       [53] 
+4052FB: MOV RBX,RDI                    [4889FB] 
+4052FE: SUB RSP,0x10                   [4883EC10] 
+405302: TEST RDI,RDI                   [4885FF] 
+405307: MOV EAX,[0x006279e0]           [8B05D3262200] 
+40530D: MOVZX EDI,byte ptr [RDI]       [0FB63F] 
+405310: TEST EAX,EAX                   [85C0] 
+405378: TEST DIL,DIL                   [4084FF] 
+405333: CMP DIL,0x2a                   [4080FF2A] 
+40533D: MOV ESI,0x6e                   [BE6E000000] 
+405342: MOV RDI,RBX                    [4889DF] 
+405345: MOV [RSP + 0x8],RDX            [4889542408] 
+
+========

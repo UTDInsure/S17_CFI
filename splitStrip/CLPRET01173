@@ -1,0 +1,14 @@
+
+
+417F04: MOV RCX,[0x0062b9f8]           [488B0DED3A2100] 
+417F0B: MOV ESI,[0x0062ba00]           [8B35EF3A2100] 
+417F11: XOR EAX,EAX                    [31C0] 
+417F25: TEST EDI,EDI                   [85FF] 
+417F29: TEST RCX,RCX                   [4885C9] 
+417F3A: XOR EAX,EAX                    [31C0] 
+417F22: SUB EDI,0x1                    [83EF01] 
+417F25: TEST EDI,EDI                   [85FF] 
+417F40: MOV [0x0062b9f8],RCX           [48890DB13A2100] 
+417F47: MOV [0x0062ba00],ESI           [8935B33A2100] 
+
+========

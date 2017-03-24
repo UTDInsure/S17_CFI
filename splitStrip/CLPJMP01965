@@ -1,0 +1,8 @@
+
+
+171C4: SUB RSP,0x8                    [4883EC08] 
+171C8: MOV RAX,[0x0024a830]           [488B0561362300] 
+171CF: MOV RSI,RDI                    [4889FE] 
+171D2: MOV RDI,[RAX]                  [488B38] 
+
+========

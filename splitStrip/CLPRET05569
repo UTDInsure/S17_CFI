@@ -1,0 +1,13 @@
+
+
+E3474: CMP RDI,0x10                   [4883FF10] 
+E3478: MOV RAX,[0x00368e60]           [488B05E1592800] 
+E3481: CMP RDI,0x1a                   [4883FF1A] 
+E3487: MOV RAX,[RAX + 0x68]           [488B4068] 
+E348B: MOV RDX,[RAX]                  [488B10] 
+E348E: TEST RDX,RDX                   [4885D2] 
+E34B0: MOV RAX,[0x00368e68]           [488B05B1592800] 
+E34B7: MOV dword ptr FS:[RAX],0x2     [64C70002000000] 
+E34BE: XOR EAX,EAX                    [31C0] 
+
+========

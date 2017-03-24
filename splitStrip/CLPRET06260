@@ -1,0 +1,7 @@
+
+
+F05C4: MOV R11D,[0x0036e770]          [448B1DA5E12700] 
+F05CB: XOR EAX,EAX                    [31C0] 
+F05CD: TEST R11D,R11D                 [4585DB] 
+
+========

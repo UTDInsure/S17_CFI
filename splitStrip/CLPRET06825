@@ -1,0 +1,23 @@
+
+
+1068C4: PUSH R14                       [4156] 
+1068C6: PUSH R13                       [4155] 
+1068C8: MOV R13D,EDI                   [4189FD] 
+1068CB: PUSH R12                       [4154] 
+1068CD: PUSH RBP                       [55] 
+1068CE: PUSH RBX                       [53] 
+1068CF: MOV RBX,RSI                    [4889F3] 
+1068D2: SUB RSP,0x10                   [4883EC10] 
+1068D6: TEST RSI,RSI                   [4885F6] 
+1068DF: CMP word ptr [RSI],0x2         [66833E02] 
+106AB0: MOV RAX,[0x00368e68]           [488B05B1232600] 
+106AB7: MOV dword ptr FS:[RAX],0x61    [64C70061000000] 
+106ABE: ADD RSP,0x10                   [4883C410] 
+106AC2: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+106AC7: POP RBX                        [5B] 
+106AC8: POP RBP                        [5D] 
+106AC9: POP R12                        [415C] 
+106ACB: POP R13                        [415D] 
+106ACD: POP R14                        [415E] 
+
+========

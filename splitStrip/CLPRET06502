@@ -1,0 +1,6 @@
+
+
+F4EF4: MOV EAX,EDI                    [89F8] 
+F4EF6: ROR AX,0x8                     [66C1C808] 
+
+========

@@ -1,0 +1,14 @@
+
+
+E0F64: LEA RSI,[0x36c310]             [488D35A5B32800] 
+E0F6B: SUB RSP,0x8                    [4883EC08] 
+E0F84: TEST RSI,RSI                   [4885F6] 
+E0F87: PUSH RBX                       [53] 
+E0F88: MOV RBX,RSI                    [4889F3] 
+E1045: MOV RAX,[0x00368e68]           [488B051C7E2800] 
+E104C: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+E1053: XOR EAX,EAX                    [31C0] 
+E1055: POP RBX                        [5B] 
+E0F78: ADD RSP,0x8                    [4883C408] 
+
+========

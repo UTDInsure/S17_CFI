@@ -1,0 +1,19 @@
+
+
+D63B4: SUB RSP,0x8                    [4883EC08] 
+D63B8: MOV RDI,RSP                    [4889E7] 
+D63BB: XOR ESI,ESI                    [31F6] 
+D63BD: MOV EDX,0x38                   [BA38000000] 
+D63C2: ADD RDX,FS:[0x0]               [644803142500000000] 
+D63CB: MOV RAX,[0x0036e348]           [488B05767F2900] 
+D63D2: ROR RAX,0x11                   [48C1C811] 
+D63D6: XOR RAX,FS:[0x30]              [644833042530000000] 
+D63E5: MOV EDX,[RSP]                  [8B1424] 
+D63E8: ADD RSP,0x8                    [4883C408] 
+D63EC: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D63F7: MOV RCX,[0x00368e68]           [488B0D6A2A2900] 
+D63FE: NEG EAX                        [F7D8] 
+D6400: MOV FS:[RCX],EAX               [648901] 
+D6403: OR RAX,-0x1                    [4883C8FF] 
+
+========

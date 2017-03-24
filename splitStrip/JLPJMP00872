@@ -1,0 +1,20 @@
+
+
+58BBD: MOV R13D,[-0x218 + RBP]        [448BADE8FDFFFF] 
+58BC4: AND R13D,0x8                   [4183E508] 
+59985: TEST dword ptr [-0x218 + RBP],0x2100 [F785E8FDFFFF00210000] 
+59995: MOV EAX,[-0x228 + RBP]         [8B85D8FDFFFF] 
+5999B: TEST EAX,EAX                   [85C0] 
+599A3: MOV EDX,[-0x188 + RBP]         [8B9578FEFFFF] 
+599A9: CMP EDX,0x30                   [83FA30] 
+599B2: MOV EAX,EDX                    [89D0] 
+599B4: ADD RAX,[-0x178 + RBP]         [48038588FEFFFF] 
+599BB: ADD EDX,0x8                    [83C208] 
+599BE: MOV [-0x188 + RBP],EDX         [899578FEFFFF] 
+599C4: MOV RAX,[RAX]                  [488B00] 
+599C7: MOV [-0x230 + RBP],RAX         [488985D0FDFFFF] 
+599CE: MOV RBX,[-0x230 + RBP]         [488B9DD0FDFFFF] 
+599D5: TEST RBX,RBX                   [4885DB] 
+599DE: MOV EDI,0x190                  [BF90010000] 
+
+========

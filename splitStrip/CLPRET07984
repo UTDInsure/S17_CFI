@@ -1,0 +1,8 @@
+
+
+16DC4: MOV RAX,[0x0024a7a0]           [488B05D5392300] 
+16DCB: MOV RAX,[RAX]                  [488B00] 
+16DCE: TEST RAX,RAX                   [4885C0] 
+16DE0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

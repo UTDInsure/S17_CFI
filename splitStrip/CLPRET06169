@@ -1,0 +1,17 @@
+
+
+ED134: PUSH RBP                       [55] 
+ED135: PUSH RBX                       [53] 
+ED136: MOV RBX,RSI                    [4889F3] 
+ED139: SUB RSP,0x8                    [4883EC08] 
+ED13D: TEST RDI,RDI                   [4885FF] 
+ED1A0: XOR EBP,EBP                    [31ED] 
+ED159: TEST RBX,RBX                   [4885DB] 
+ED15E: MOV RDX,[RBX]                  [488B13] 
+ED161: TEST RDX,RDX                   [4885D2] 
+ED191: ADD RSP,0x8                    [4883C408] 
+ED195: MOV RAX,RBP                    [4889E8] 
+ED198: POP RBX                        [5B] 
+ED199: POP RBP                        [5D] 
+
+========

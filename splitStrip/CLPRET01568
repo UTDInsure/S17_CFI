@@ -1,0 +1,13 @@
+
+
+356B4: MOVD EDX,XMM0                  [660F7EC2] 
+356B8: MOV EAX,EDX                    [89D0] 
+356BA: AND EAX,0x7f800000             [250000807F] 
+356BF: SAR EAX,0x17                   [C1F817] 
+356C2: TEST EAX,EAX                   [85C0] 
+356C6: CMP EAX,0xff                   [3DFF000000] 
+35733: MOVAPS XMM1,XMM0               [0F28C8] 
+35736: ADDSS XMM1,XMM0                [F30F58C8] 
+356F9: MOVAPS XMM0,XMM1               [0F28C1] 
+
+========

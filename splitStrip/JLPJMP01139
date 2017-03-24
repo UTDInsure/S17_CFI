@@ -1,0 +1,12 @@
+
+
+BF907: MOV EAX,EBP                    [89E8] 
+BF909: AND EAX,[0x84 + R12]           [4123842484000000] 
+BF911: SHL RAX,0x4                    [48C1E004] 
+BF915: ADD RAX,[R12 + 0x40]           [4903442440] 
+BF91A: MOV EDX,[RAX]                  [8B10] 
+BF91C: TEST EDX,EDX                   [85D2] 
+BF970: MOV ESI,0x1                    [BE01000000] 
+BF975: MOV EDI,0x58                   [BF58000000] 
+
+========

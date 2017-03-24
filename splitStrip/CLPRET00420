@@ -1,0 +1,18 @@
+
+
+195A4: MOVQ XMM1,RSI                  [66480F6ECE] 
+195A9: MOV RCX,RDI                    [4889F9] 
+195AC: PUNPCKLBW XMM1,XMM1            [660F60C9] 
+195B0: TEST RDX,RDX                   [4885D2] 
+195B9: PUNPCKLBW XMM1,XMM1            [660F60C9] 
+195BD: AND RCX,0x3f                   [4883E13F] 
+195C1: PSHUFD XMM1,XMM1,0x0           [660F70C900] 
+195C6: CMP RCX,0x30                   [4883F930] 
+195CC: MOVDQU XMM0,[RDI]              [F30F6F07] 
+195D0: PCMPEQB XMM0,XMM1              [660F74C1] 
+195D4: PMOVMSKB EAX,XMM0              [660FD7C0] 
+195D8: TEST EAX,EAX                   [85C0] 
+195E0: SUB RDX,0x10                   [4883EA10] 
+198E0: XOR RAX,RAX                    [4831C0] 
+
+========

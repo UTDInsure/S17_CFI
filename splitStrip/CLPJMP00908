@@ -1,0 +1,21 @@
+
+
+7AE64: SUB RSP,0x8                    [4883EC08] 
+7AE68: TEST byte ptr [RDI],0x8        [F60708] 
+7A7C4: PUSH R15                       [4157] 
+7A7C6: PUSH R14                       [4156] 
+7A7C8: PUSH R13                       [4155] 
+7A7CA: PUSH R12                       [4154] 
+7A7CC: MOV R12D,ESI                   [4189F4] 
+7A7CF: PUSH RBP                       [55] 
+7A7D0: PUSH RBX                       [53] 
+7A7D1: MOV RBX,RDI                    [4889FB] 
+7A7D4: SUB RSP,0x8                    [4883EC08] 
+7A7D8: MOV RBP,[RDI + 0x8]            [488B6F08] 
+7A7DC: MOV R13,[RDI + 0x18]           [4C8B6F18] 
+7A7E0: CMP RBP,R13                    [4C39ED] 
+7A7E5: TEST dword ptr [RDI],0x100     [F70700010000] 
+7A7F1: CMP dword ptr [RBX + 0x48],0x0 [48837B4800] 
+7A8C8: MOV EDI,0x80                   [BF80000000] 
+
+========

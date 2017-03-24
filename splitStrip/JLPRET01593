@@ -1,0 +1,16 @@
+
+
+C61CC: TEST EDX,0x800008              [F7C208008000] 
+C61D4: MOVSXD RAX,[RBX + 0x38]        [48634338] 
+C61D8: TEST EAX,EAX                   [85C0] 
+C61FC: MOV byte ptr [RBP + 0x8],0xc   [C645080C] 
+C6200: MOV dword ptr [RBP],0x10       [C7450010000000] 
+C6207: MOV EAX,0x1                    [B801000000] 
+C5F46: ADD RSP,0x20                   [4883C420] 
+C5F4A: POP RBX                        [5B] 
+C5F4B: POP RBP                        [5D] 
+C5F4C: POP R12                        [415C] 
+C5F4E: POP R13                        [415D] 
+C5F50: POP R14                        [415E] 
+
+========

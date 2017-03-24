@@ -1,0 +1,25 @@
+
+
+415424: MOV RDI,RBX                    [4889DF] 
+415427: XOR EAX,EAX                    [31C0] 
+414CA4: MOV RAX,RDI                    [4889F8] 
+414CA7: MOV ESI,0x1                    [BE01000000] 
+414CC3: MOVZX EDX,byte ptr [RAX + 0x1] [0FB65001] 
+414CC7: LEA RCX,[RAX + 0x1]            [488D4801] 
+414CCB: CMP DL,0x3a                    [80FA3A] 
+414CE8: CMP ESI,0x1                    [83FE01] 
+414CED: MOV RAX,RCX                    [4889C8] 
+415432: MOVZX EDX,byte ptr [RAX + 0x1] [0FB65001] 
+415436: LEA RBX,[RAX + 0x1]            [488D5801] 
+41539E: TEST DL,DL                     [84D2] 
+4154C6: MOV RDX,[0x0062b180]           [488B15B35C2100] 
+4154CD: CMP RDX,0x62b1a0               [4881FAA0B16200] 
+4154D6: TEST EBP,EBP                   [85ED] 
+415540: ADD RSP,0x18                   [4883C418] 
+415544: MOV EAX,0x62b1a0               [B8A0B16200] 
+415549: POP RBX                        [5B] 
+41554A: POP RBP                        [5D] 
+41554B: POP R12                        [415C] 
+41554D: POP R13                        [415D] 
+
+========

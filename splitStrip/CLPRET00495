@@ -1,0 +1,8 @@
+
+
+402714: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+402717: MOV RAX,RDI                    [4889F8] 
+40271A: CMP DL,0x9                     [80FA09] 
+40272C: CMP DL,0x20                    [80FA20] 
+
+========

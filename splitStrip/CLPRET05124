@@ -1,0 +1,13 @@
+
+
+DBC74: TEST ESI,0xffffeff0            [F7C6F0EFFFFF] 
+DBCA0: TEST ESI,ESI                   [85F6] 
+DBCA2: MOV [RDI + 0x34],ESI           [897734] 
+DBC8A: MOV EAX,[RDI + 0x8]            [8B4708] 
+DBC8D: AND [RDI],0x7fffffff           [8127FFFFFF7F] 
+DBC93: AND EAX,0xffffeff0             [25F0EFFFFF] 
+DBC98: OR EAX,ESI                     [09F0] 
+DBC9A: MOV [RDI + 0x8],EAX            [894708] 
+DBC9D: XOR EAX,EAX                    [31C0] 
+
+========

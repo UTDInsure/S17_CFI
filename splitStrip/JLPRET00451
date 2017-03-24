@@ -1,0 +1,16 @@
+
+
+80814: XOR EDX,EDX                    [31D2] 
+80816: CMP EBX,0x2000000              [81FB00000002] 
+80822: MOV [0x00369150],RBX           [48891D27892E00] 
+80829: MOV dword ptr [0x00369174],0x1 [C70541892E0001000000] 
+80833: MOV DL,0x1                     [B201] 
+80790: CMP dword ptr [0x0036e774],0x0 [833DDDDF2E0000] 
+80799: LOCK                           [F0] 
+8079A: DEC dword ptr [0x00369620]     [FF0D808E2E00] 
+807CA: ADD RSP,0x8                    [4883C408] 
+807CE: MOV EAX,EDX                    [89D0] 
+807D0: POP RBX                        [5B] 
+807D1: POP RBP                        [5D] 
+
+========

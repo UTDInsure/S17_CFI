@@ -1,0 +1,23 @@
+
+
+11B824: PUSH RBP                       [55] 
+11B825: XOR EAX,EAX                    [31C0] 
+11B827: MOV ESI,0x40045431             [BE31540440] 
+11B82C: PUSH RBX                       [53] 
+11B82D: SUB RSP,0x18                   [4883EC18] 
+11B831: MOV RBX,[0x00368e68]           [488B1D30D62400] 
+11B838: LEA RDX,[RSP + 0xc]            [488D54240C] 
+11B83D: MOV dword ptr [RSP + 0xc],0x0  [C744240C00000000] 
+11B845: MOV EBP,FS:[RBX]               [648B2B] 
+DC744: MOV EAX,0x10                   [B810000000] 
+DC74B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+11B851: TEST EAX,EAX                   [85C0] 
+11B855: CMP dword ptr FS:[RBX],0x16    [64833B16] 
+11B859: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+11B860: MOV FS:[RBX],EBP               [64892B] 
+11B863: XOR EAX,EAX                    [31C0] 
+11B865: ADD RSP,0x18                   [4883C418] 
+11B869: POP RBX                        [5B] 
+11B86A: POP RBP                        [5D] 
+
+========

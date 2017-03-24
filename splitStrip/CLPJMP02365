@@ -1,0 +1,18 @@
+
+
+2FC04: PUSH R15                       [4157] 
+2FC06: MOV ECX,0x1                    [B901000000] 
+2FC0B: PUSH R14                       [4156] 
+2FC0D: PUSH R13                       [4155] 
+2FC0F: PUSH R12                       [4154] 
+2FC11: XOR R12D,R12D                  [4531E4] 
+2FC14: PUSH RBP                       [55] 
+2FC15: MOV RBP,RDI                    [4889FD] 
+2FC18: MOV RDI,RSI                    [4889F7] 
+2FC1B: MOV ESI,0x1                    [BE01000000] 
+2FC20: PUSH RBX                       [53] 
+2FC21: SUB RSP,0x18                   [4883EC18] 
+2FC25: LEA RDX,[RSP + 0xc]            [488D54240C] 
+2FC2A: MOV dword ptr [RSP + 0xc],0xffffffff [C744240CFFFFFFFF] 
+
+========

@@ -1,0 +1,7 @@
+
+
+2AB04: SUB RSP,0x8                    [4883EC08] 
+2AB08: MOV RAX,RSI                    [4889F0] 
+2AB0B: MOV RSI,RDX                    [4889D6] 
+
+========

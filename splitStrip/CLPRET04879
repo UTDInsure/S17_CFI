@@ -1,0 +1,16 @@
+
+
+D6654: CMP EDI,0x1                    [83FF01] 
+D6657: MOV EAX,ESI                    [89F0] 
+D6659: MOV RSI,RDX                    [4889D6] 
+D665E: MOVSXD RDI,EAX                 [4863F8] 
+D6661: MOVSXD R10,R8D                 [4D63D0] 
+D6664: MOV RDX,RCX                    [4889CA] 
+D6667: MOV EAX,0x106                  [B806010000] 
+D666E: CMP RAX,0xfffff000             [483D00F0FFFF] 
+D6694: MOV RDX,[0x00368e68]           [488B15CD272900] 
+D669B: NEG EAX                        [F7D8] 
+D669D: MOV FS:[RDX],EAX               [648902] 
+D66A0: OR RAX,-0x1                    [4883C8FF] 
+
+========

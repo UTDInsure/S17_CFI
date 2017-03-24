@@ -1,0 +1,7 @@
+
+
+1F374: TEST RDI,RDI                   [4885FF] 
+1F379: MOV [RDI + 0x23],SIL           [40887723] 
+1F37D: XOR EAX,EAX                    [31C0] 
+
+========

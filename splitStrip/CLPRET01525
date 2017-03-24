@@ -1,0 +1,11 @@
+
+
+34814: CMP RDI,-0x1                   [4883FFFF] 
+34818: PUSH RBX                       [53] 
+34819: MOV RBX,RDI                    [4889FB] 
+34868: MOV RAX,[0x00368e68]           [488B05F9453300] 
+3486F: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+34876: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+3487B: POP RBX                        [5B] 
+
+========

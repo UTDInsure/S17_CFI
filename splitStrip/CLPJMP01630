@@ -1,0 +1,17 @@
+
+
+10E0F4: PUSH R15                       [4157] 
+10E0F6: MOV R15,RDI                    [4989FF] 
+10E0F9: MOV EDI,0x48                   [BF48000000] 
+10E0FE: PUSH R14                       [4156] 
+10E100: MOV R14D,ESI                   [4189F6] 
+10E103: PUSH R13                       [4155] 
+10E105: PUSH R12                       [4154] 
+10E107: MOV R12D,ECX                   [4189CC] 
+10E10A: PUSH RBP                       [55] 
+10E10B: MOV RBP,R8                     [4C89C5] 
+10E10E: PUSH RBX                       [53] 
+10E10F: SUB RSP,0x218                  [4881EC18020000] 
+10E116: MOV [RSP + 0xc],EDX            [8954240C] 
+
+========

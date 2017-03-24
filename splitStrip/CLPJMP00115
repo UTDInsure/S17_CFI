@@ -1,0 +1,9 @@
+
+
+1A354: LEA RAX,[0x1b6f0]              [488D0595130000] 
+1A35B: MOV RCX,RDX                    [4889D1] 
+1A35E: AND ECX,0x7                    [83E107] 
+1A361: MOVSXD RCX,[RAX + RCX*0x4]     [48630C88] 
+1A365: ADD RAX,RCX                    [4801C8] 
+
+========

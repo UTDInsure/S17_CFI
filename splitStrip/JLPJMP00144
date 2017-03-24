@@ -1,0 +1,8 @@
+
+
+4083EC: CMP byte ptr [RAX],0x21        [803821] 
+4083F1: MOV RDI,[0x00628430]           [488B3D38002200] 
+4083F8: TEST RDI,RDI                   [4885FF] 
+4083FD: MOV [RSP + 0x8],RAX            [4889442408] 
+
+========

@@ -1,0 +1,17 @@
+
+
+31DCE: MOVZX EAX,byte ptr [RBP + 0x1] [0FB64501] 
+31DD2: LEA RBX,[RBP + 0x1]            [488D5D01] 
+31DD6: LEA EDX,[RAX + -0x41]          [8D50BF] 
+31DD9: CMP DL,0x19                    [80FA19] 
+31DE2: LEA EDX,[RAX + -0x61]          [8D509F] 
+31DE5: CMP DL,0x19                    [80FA19] 
+30F0F: TEST AL,AL                     [84C0] 
+31220: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+31228: LEA RAX,[RDX + 0x1]            [488D4201] 
+3122C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+312C0: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+312C8: LEA RSI,[RAX + RAX*0x1]        [488D3400] 
+312CC: MOV [0x1e8 + R12],RSI          [4989B424E8010000] 
+
+========

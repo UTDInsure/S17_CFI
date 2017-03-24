@@ -1,0 +1,10 @@
+
+
+71264: PUSH RBX                       [53] 
+71265: MOV ECX,[0xc0 + RDI]           [8B8FC0000000] 
+7126B: MOV RBX,RDI                    [4889FB] 
+7126E: TEST ECX,ECX                   [85C9] 
+712D0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+712D5: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,10 @@
+
+
+E2F74: TEST RDI,RDI                   [4885FF] 
+E2F77: PUSH RBX                       [53] 
+E2F78: MOV RBX,RDI                    [4889FB] 
+E3028: LEA RBX,[0x1368b1]             [488D1D82380500] 
+E302F: MOV RAX,RBX                    [4889D8] 
+E3032: POP RBX                        [5B] 
+
+========

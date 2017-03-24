@@ -1,0 +1,14 @@
+
+
+8EF14: PUSH RBP                       [55] 
+8EF15: MOV RBP,RDI                    [4889FD] 
+8EF18: PUSH RBX                       [53] 
+8EF19: SUB RSP,0x8                    [4883EC08] 
+8EF1D: MOV RBX,[RDI]                  [488B1F] 
+8EF20: TEST RBX,RBX                   [4885DB] 
+8EFA0: XOR EAX,EAX                    [31C0] 
+8EF51: ADD RSP,0x8                    [4883C408] 
+8EF55: POP RBX                        [5B] 
+8EF56: POP RBP                        [5D] 
+
+========

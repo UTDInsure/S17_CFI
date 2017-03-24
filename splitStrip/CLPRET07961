@@ -1,0 +1,22 @@
+
+
+167B4: MOV RAX,[0x0024a7a0]           [488B05E53F2300] 
+167BB: PUSH RBX                       [53] 
+167BC: MOVSX RBX,DI                   [480FBFDF] 
+167C0: MOV R8,[RAX]                   [4C8B00] 
+167C3: TEST R8,R8                     [4D85C0] 
+167CC: MOV RAX,[0x0024a880]           [488B05AD402300] 
+167D3: TEST DI,DI                     [6685FF] 
+167D6: MOV RAX,[RAX]                  [488B00] 
+167D9: MOV RAX,[RAX + 0x18]           [488B4018] 
+167DD: MOVZX R11D,word ptr [RAX + 0x1a] [440FB7581A] 
+167E2: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+167E9: MOV R9,[0x0024a7f0]            [4C8B0D00402300] 
+167F0: MOVSX R10D,DI                  [440FBFD7] 
+167F4: CMP R10D,[R9]                  [453B11] 
+16800: CMP R11W,DI                    [664139FB] 
+16806: MOV R9D,[0x2d8 + R8]           [458B88D8020000] 
+1680D: TEST R9D,R9D                   [4585C9] 
+167F9: POP RBX                        [5B] 
+
+========

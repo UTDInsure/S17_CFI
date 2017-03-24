@@ -1,0 +1,6 @@
+
+
+E3DA4: MOV EAX,0xfd                   [B8FD000000] 
+E3DAB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,13 @@
+
+
+412444: TEST EDI,EDI                   [85FF] 
+412450: SUB RSP,0x8                    [4883EC08] 
+412454: XOR EAX,EAX                    [31C0] 
+412456: MOV RDI,RSI                    [4889F7] 
+412459: MOV dword ptr [0x0062abe0],0x1 [C7057D87210001000000] 
+408944: PUSH RBP                       [55] 
+408945: MOV RBP,RDI                    [4889FD] 
+408948: PUSH RBX                       [53] 
+408949: SUB RSP,0x8                    [4883EC08] 
+
+========

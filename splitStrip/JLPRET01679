@@ -1,0 +1,10 @@
+
+
+10ED24: MOV RAX,[RDX]                  [488B02] 
+10ED27: MOV RDX,[RDX + 0x8]            [488B5208] 
+10ED2B: MOV dword ptr [RCX + 0x18],0x1 [C7411801000000] 
+10ED32: MOV [RCX + 0x8],RAX            [48894108] 
+10ED36: MOV [RCX + 0x10],RDX           [48895110] 
+10ED3A: MOV EAX,0x1                    [B801000000] 
+
+========

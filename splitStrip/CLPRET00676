@@ -1,0 +1,9 @@
+
+
+406B34: PUSH RBX                       [53] 
+406B35: MOV RBX,[0x00627bc0]           [488B1D84102200] 
+406B3C: CMP RBX,0x627be0               [4881FBE07B6200] 
+406BC0: MOV EAX,0x1                    [B801000000] 
+406BC5: POP RBX                        [5B] 
+
+========

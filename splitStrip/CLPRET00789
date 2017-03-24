@@ -1,0 +1,11 @@
+
+
+40D3A4: SUB RSP,0x8                    [4883EC08] 
+40D3A8: XOR EAX,EAX                    [31C0] 
+40D334: MOV ECX,[0x0062baac]           [8B0D72E72100] 
+40D33A: TEST ECX,ECX                   [85C9] 
+40D33E: XOR EAX,EAX                    [31C0] 
+40D3B3: TEST EAX,EAX                   [85C0] 
+40D3D2: ADD RSP,0x8                    [4883C408] 
+
+========

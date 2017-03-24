@@ -1,0 +1,9 @@
+
+
+17CF4: CMP EDI,0x1                    [83FF01] 
+17CF7: MOV EAX,ESI                    [89F0] 
+17CF9: MOV RSI,RDX                    [4889D6] 
+17D20: MOV dword ptr [0x00223160],0x16 [C70536B4200016000000] 
+17D2A: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,23 @@
+
+
+1BF94: TEST RDI,RDI                   [4885FF] 
+1BF97: MOV EAX,0xf4240                [B840420F00] 
+1BFA2: PUSH R15                       [4157] 
+1BFA4: PUSH R14                       [4156] 
+1BFA6: PUSH R13                       [4155] 
+1BFA8: PUSH R12                       [4154] 
+1BFAA: PUSH RBP                       [55] 
+1BFAB: PUSH RBX                       [53] 
+1BFAC: SUB RSP,0x18                   [4883EC18] 
+1BFB0: MOVZX EBP,byte ptr [RDI]       [0FB62F] 
+1BFB3: TEST BPL,BPL                   [4084ED] 
+1C156: XOR EAX,EAX                    [31C0] 
+1C0FC: ADD RSP,0x18                   [4883C418] 
+1C100: POP RBX                        [5B] 
+1C101: POP RBP                        [5D] 
+1C102: POP R12                        [415C] 
+1C104: POP R13                        [415D] 
+1C106: POP R14                        [415E] 
+1C108: POP R15                        [415F] 
+
+========

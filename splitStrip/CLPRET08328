@@ -1,0 +1,9 @@
+
+
+222D4: TEST RDI,RDI                   [4885FF] 
+222DD: PUSH RBX                       [53] 
+222DE: MOV RBX,[RDI + 0x48]           [488B5F48] 
+222E2: TEST RBX,RBX                   [4885DB] 
+22380: POP RBX                        [5B] 
+
+========

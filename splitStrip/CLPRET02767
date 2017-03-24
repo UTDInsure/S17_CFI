@@ -1,0 +1,8 @@
+
+
+73804: MOV RDX,[RDI + 0x48]           [488B5748] 
+73808: MOV ECX,[RDX + 0x58]           [8B4A58] 
+7380B: TEST ECX,ECX                   [85C9] 
+73820: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

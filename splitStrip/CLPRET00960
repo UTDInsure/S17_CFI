@@ -1,0 +1,14 @@
+
+
+4129D4: SUB RSP,0x28                   [4883EC28] 
+4129D8: CMP EDI,0x1                    [83FF01] 
+4129DD: CMP EDI,0x2                    [83FF02] 
+4129F0: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+4129F3: TEST AL,AL                     [84C0] 
+4129F7: MOVZX EDX,byte ptr [RSI + 0x1] [0FB65601] 
+4129FB: TEST DL,DL                     [84D2] 
+412A7C: MOV [0x006261c9],AL            [880547372100] 
+412A82: MOV [0x006261c8],AL            [880540372100] 
+4129E6: ADD RSP,0x28                   [4883C428] 
+
+========

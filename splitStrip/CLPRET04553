@@ -1,0 +1,23 @@
+
+
+BCF64: PUSH RBP                       [55] 
+BCF65: MOV RBP,RDI                    [4889FD] 
+BCF68: PUSH RBX                       [53] 
+BCF69: SUB RSP,0x8                    [4883EC08] 
+BCF6D: TEST ESI,ESI                   [85F6] 
+BCF71: CMP ESI,[RDI + 0x40]           [3B7740] 
+BCF7A: CMP dword ptr [RDI + 0x68],0x1 [837F6801] 
+BCFD8: MOV RAX,[RDI + 0x8]            [488B4708] 
+BCFDC: MOVSXD RSI,ESI                 [4863F6] 
+BCFDF: MOV RCX,[RDI + 0x58]           [488B4F58] 
+BCFE3: MOVZX EDX,byte ptr [RAX + RSI*0x1] [0FB61430] 
+BCFE7: MOVZX EAX,DL                   [0FB6C2] 
+BCFEA: SHR RAX,0x6                    [48C1E806] 
+BCFEE: MOV RCX,[RCX + RAX*0x8]        [488B0CC1] 
+BCFF2: MOV EAX,0x1                    [B801000000] 
+BCFF7: BT RCX,RDX                     [480FA3D1] 
+BCFBD: ADD RSP,0x8                    [4883C408] 
+BCFC1: POP RBX                        [5B] 
+BCFC2: POP RBP                        [5D] 
+
+========

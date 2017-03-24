@@ -1,0 +1,15 @@
+
+
+B4294: MOV EAX,[0x0036e770]           [8B05D6A42B00] 
+B429A: TEST EAX,EAX                   [85C0] 
+B429E: MOV EDX,EDX                    [89D2] 
+B42A0: MOV ESI,ESI                    [89F6] 
+B42A2: MOV EDI,EDI                    [89FF] 
+B42A4: MOV EAX,0x77                   [B877000000] 
+B42AB: CMP RAX,0xfffff000             [483D00F0FFFF] 
+B42B4: MOV RDX,[0x00368e68]           [488B15AD4B2B00] 
+B42BB: NEG EAX                        [F7D8] 
+B42BD: MOV FS:[RDX],EAX               [648902] 
+B42C0: OR RAX,-0x1                    [4883C8FF] 
+
+========

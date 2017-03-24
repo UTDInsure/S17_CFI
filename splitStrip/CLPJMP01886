@@ -1,0 +1,28 @@
+
+
+11E404: PUSH R15                       [4157] 
+11E406: PUSH R14                       [4156] 
+11E408: PUSH R13                       [4155] 
+11E40A: PUSH R12                       [4154] 
+11E40C: PUSH RBP                       [55] 
+11E40D: PUSH RBX                       [53] 
+11E40E: SUB RSP,0x8                    [4883EC08] 
+11E412: MOV R13,[0x00368de8]           [4C8B2DCFA92400] 
+11E419: MOV R14,[0x00368e60]           [4C8B3540AA2400] 
+11E420: MOV RDI,[0x988 + R13]          [498BBD88090000] 
+11E427: MOV RBP,[0xa8 + R14]           [498BAEA8000000] 
+11E42E: CMP RDI,RBP                    [4839EF] 
+11E44C: XOR R12D,R12D                  [4531E4] 
+11E44F: CMP dword ptr [0x900 + R13],0x0 [4983BD0009000000] 
+11E457: LEA RBP,[R13 + 0x10]           [498D6D10] 
+11E461: MOV R15,[RBP + -0x10]          [4C8B7DF0] 
+11E465: TEST R15,R15                   [4D85FF] 
+11E46A: NOP                            [660F1F440000] 
+11E470: MOV RAX,[R15 + 0x38]           [498B4738] 
+11E474: MOV RDI,[RAX + 0x8]            [488B7808] 
+11E478: MOV dword ptr [RAX + 0x8],0x0  [48C7400800000000] 
+11E480: TEST RDI,RDI                   [4885FF] 
+11E4B1: TEST byte ptr [0x316 + R15],0x1 [41F6871603000001] 
+11E540: MOV RDI,[0x3b8 + R15]          [498BBFB8030000] 
+
+========

@@ -1,0 +1,13 @@
+
+
+414F74: XOR EAX,EAX                    [31C0] 
+417FA4: MOV EAX,[0x0062ba04]           [8B055A3A2100] 
+414F7F: TEST EAX,EAX                   [85C0] 
+415230: MOV EDI,0x41caf5               [BFF5CA4100] 
+415235: XOR EAX,EAX                    [31C0] 
+414D04: PUSH RBP                       [55] 
+414D05: MOV RBP,RDI                    [4889FD] 
+414D08: PUSH RBX                       [53] 
+414D09: SUB RSP,0x18                   [4883EC18] 
+
+========

@@ -1,0 +1,25 @@
+
+
+415D74: PUSH R14                       [4156] 
+415D76: PUSH R13                       [4155] 
+415D78: PUSH R12                       [4154] 
+415D7A: PUSH RBP                       [55] 
+415D7B: PUSH RBX                       [53] 
+415D7C: SUB RSP,0x10                   [4883EC10] 
+415D80: MOV EDX,[0x0062bac0]           [8B153A5D2100] 
+415D86: TEST EDX,EDX                   [85D2] 
+415D8E: TEST EDI,EDI                   [85FF] 
+415D90: MOV R14D,[0x0062b9f0]          [448B35595C2100] 
+415D99: TEST R14D,R14D                 [4585F6] 
+415DA2: MOV dword ptr [0x0062b9f0],0x1 [C705445C210001000000] 
+415DAC: MOV EAX,[0x0062ba90]           [8B05DE5C2100] 
+415DB2: TEST EAX,EAX                   [85C0] 
+415DBA: CMP dword ptr [0x0062ba70],0x1 [833DAF5C210001] 
+415DC1: MOV EBX,0x1                    [BB01000000] 
+415E30: XOR EAX,EAX                    [31C0] 
+403C14: SUB RSP,0x8                    [4883EC08] 
+403C18: MOV RDI,[0x006279b0]           [488B3D913D2200] 
+403C1F: MOV EDX,0x413de0               [BAE03D4100] 
+403C24: MOV ESI,0x1                    [BE01000000] 
+
+========

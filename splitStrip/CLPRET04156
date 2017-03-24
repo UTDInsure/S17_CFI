@@ -1,0 +1,8 @@
+
+
+A2AB4: TEST RDI,RDI                   [4885FF] 
+A2B90: MOV RAX,[0x00368e68]           [488B05D1622C00] 
+A2B97: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+A2B9E: XOR EAX,EAX                    [31C0] 
+
+========

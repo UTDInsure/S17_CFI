@@ -1,0 +1,16 @@
+
+
+B58E4: XOR EAX,EAX                    [31C0] 
+B58E6: AND ESI,0x40                   [83E640] 
+B58E9: NOP                            [0F1F8000000000] 
+B58F0: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+B58F3: TEST DL,DL                     [84D2] 
+B58F7: TEST ESI,ESI                   [85F6] 
+B58FB: CMP DL,0x5c                    [80FA5C] 
+B5950: CMP byte ptr [RDI + 0x1],0x0   [807F0100] 
+B5956: ADD RDI,0x2                    [4883C702] 
+B58F0: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+B58F3: TEST DL,DL                     [84D2] 
+B5921: XOR EAX,EAX                    [31C0] 
+
+========

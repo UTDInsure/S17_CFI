@@ -1,0 +1,15 @@
+
+
+95C34: CMP RDX,0x3                    [4883FA03] 
+95CA0: XOR R8D,R8D                    [4531C0] 
+95CA3: XOR EAX,EAX                    [31C0] 
+95CA5: TEST RDX,RDX                   [4885D2] 
+95CAA: MOV EAX,[RDI]                  [8B07] 
+95CAC: MOV R8D,[RSI]                  [448B06] 
+95CAF: CMP EAX,R8D                    [4439C0] 
+95CB4: SUB RDX,0x1                    [4883EA01] 
+95CB8: XOR ECX,ECX                    [31C9] 
+95CBA: TEST EAX,EAX                   [85C0] 
+95C98: SUB EAX,R8D                    [4429C0] 
+
+========

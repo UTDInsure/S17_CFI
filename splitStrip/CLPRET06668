@@ -1,0 +1,19 @@
+
+
+100884: TEST EDX,EDX                   [85D2] 
+100888: MOV DL,0x2                     [B202] 
+10088A: NOP                            [660F1F440000] 
+100890: CMP EDX,ESI                    [39F2] 
+100894: MOVSXD R10,EDX                 [4C63D2] 
+100897: ADD R10,RDI                    [4901FA] 
+10089A: MOVZX EAX,byte ptr [R10]       [410FB602] 
+10089E: TEST AL,AL                     [84C0] 
+1008A2: ADD EDX,0x1                    [83C201] 
+1008A5: TEST CL,CL                     [84C9] 
+1008A9: MOVSXD RAX,EDX                 [4863C2] 
+1008AC: MOV dword ptr [R8],0x0         [41C70000000000] 
+1008B3: ADD RDI,RAX                    [4801C7] 
+1008B6: MOV EAX,EDX                    [89D0] 
+1008B8: MOV [R9],RDI                   [498939] 
+
+========

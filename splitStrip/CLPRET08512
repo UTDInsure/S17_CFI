@@ -1,0 +1,6 @@
+
+
+2DF84: TEST RDI,RDI                   [4885FF] 
+2DF89: MOV RAX,[RDI + -0x8]           [488B47F8] 
+
+========

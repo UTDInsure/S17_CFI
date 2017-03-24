@@ -1,0 +1,11 @@
+
+
+11C2E4: MOV RAX,[0x00368de8]           [488B05FDCA2400] 
+11C2EB: CMP dword ptr [0x970 + RAX],0x0 [4883B87009000000] 
+11C2F5: SUB RSP,0x8                    [4883EC08] 
+11C2F9: MOV RAX,[0x00368e60]           [488B0560CB2400] 
+11C300: MOV RSI,RDI                    [4889FE] 
+11C303: MOV RDI,[RSP + 0x8]            [488B7C2408] 
+11C312: ADD RSP,0x8                    [4883C408] 
+
+========

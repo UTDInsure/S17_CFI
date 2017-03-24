@@ -1,0 +1,8 @@
+
+
+1F424: TEST RDI,RDI                   [4885FF] 
+1F427: PUSH RBX                       [53] 
+1F428: MOV RBX,RDI                    [4889FB] 
+1F452: POP RBX                        [5B] 
+
+========

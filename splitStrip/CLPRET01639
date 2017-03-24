@@ -1,0 +1,22 @@
+
+
+36214: MOV EAX,[0x0036e774]           [8B055A853300] 
+3621A: TEST EAX,EAX                   [85C0] 
+36244: SUB RSP,0x18                   [4883EC18] 
+36248: MOV [RSP + 0x8],RDI            [48897C2408] 
+F08C4: MOV EAX,FS:[0x308]             [648B042508030000] 
+F08CC: MOV R11D,EAX                   [4189C3] 
+F08CF: OR R11D,0x2                    [4183CB02] 
+F08D3: CMP R11D,EAX                   [4139C3] 
+36256: MOV ESI,0x8                    [BE08000000] 
+3625B: MOV R8D,EAX                    [4189C0] 
+3625E: MOV RDI,[RSP + 0x8]            [488B7C2408] 
+36263: MOV EAX,0x82                   [B882000000] 
+3626A: CMP RAX,0xfffff000             [483D00F0FFFF] 
+36272: MOV EDI,R8D                    [4489C7] 
+36275: MOV [RSP + 0x8],EAX            [89442408] 
+F0924: TEST EDI,0x2                   [F7C702000000] 
+36282: MOV EAX,[RSP + 0x8]            [8B442408] 
+36286: ADD RSP,0x18                   [4883C418] 
+
+========

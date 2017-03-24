@@ -1,0 +1,18 @@
+
+
+61CCA: MOV R12D,[RCX + 0x4]           [448B6104] 
+61CCE: CMP R12D,0x68                  [4183FC68] 
+636ED: LEA RAX,[RCX + 0x8]            [488D4108] 
+636F1: OR dword ptr [-0x148 + RBP],0x200 [818DB8FEFFFF00020000] 
+636FB: MOV R12D,[RCX + 0x8]           [448B6108] 
+636FF: MOV [-0x168 + RBP],RAX         [48898598FEFFFF] 
+61437: TEST R12D,R12D                 [4585E4] 
+673BF: MOV EBX,0x2                    [BB02000000] 
+61260: TEST dword ptr [R15],0x8000    [41F70700800000] 
+6126D: NOP                            [0F1F00] 
+61270: MOV R15D,[-0x1dc + RBP]        [448BBD24FEFFFF] 
+61277: TEST R15D,R15D                 [4585FF] 
+61280: CMP byte ptr [-0x189 + RBP],0x0 [80BD77FEFFFF00] 
+61C13: MOV RDI,[-0x140 + RBP]         [488BBDC0FEFFFF] 
+
+========

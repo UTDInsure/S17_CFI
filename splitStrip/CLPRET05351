@@ -1,0 +1,6 @@
+
+
+DDAB4: MOV RDI,[0x0036bfe0]           [488B3D25E52800] 
+DDABB: TEST RDI,RDI                   [4885FF] 
+
+========

@@ -1,0 +1,13 @@
+
+
+20BB4: PUSH RBX                       [53] 
+20BB5: MOV RBX,[0x0024a7a0]           [488B1DE49B2200] 
+20BBC: MOV RDI,[RBX]                  [488B3B] 
+20BBF: TEST RDI,RDI                   [4885FF] 
+20BC4: MOV RDX,[0x308 + RDI]          [488B9708030000] 
+20BCB: TEST RDX,RDX                   [4885D2] 
+20BD0: XOR EAX,EAX                    [31C0] 
+20BD2: CMP byte ptr [RDX + 0x1],0x0   [807A0100] 
+20BD8: POP RBX                        [5B] 
+
+========

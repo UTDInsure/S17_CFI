@@ -1,0 +1,17 @@
+
+
+85AD4: MOV RAX,RDI                    [4889F8] 
+85AD7: MOV R9,RDI                     [4989F9] 
+85AE3: MOVZX ECX,byte ptr [R9]        [410FB609] 
+85AE7: LEA R8,[R9 + 0x1]              [4D8D4101] 
+85AEB: TEST CL,CL                     [84C9] 
+85AEF: CMP RDX,0x3                    [4883FA03] 
+85AF3: LEA R8,[R9 + -0x1]             [4D8D41FF] 
+85B50: TEST RDX,RDX                   [4885D2] 
+85B55: MOVZX ECX,byte ptr [RSI]       [0FB60E] 
+85B58: LEA R9,[RSI + 0x1]             [4C8D4E01] 
+85B5C: LEA R10,[R8 + 0x1]             [4D8D5001] 
+85B60: TEST CL,CL                     [84C9] 
+85B62: MOV [R8 + 0x1],CL              [41884801] 
+
+========

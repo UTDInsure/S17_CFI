@@ -1,0 +1,20 @@
+
+
+4AC9F: TEST byte ptr [RBX + 0x74],0x4 [F6437404] 
+4ACAE: MOVSXD RAX,[-0x4e4 + RBP]      [4863851CFBFFFF] 
+4ACB5: IMUL RAX,RAX,0x48              [486BC048] 
+4ACB9: ADD RAX,[-0x4d0 + RBP]         [48038530FBFFFF] 
+4AD30: CMP dword ptr [-0x568 + RBP],0x0 [83BD98FAFFFF00] 
+4AD37: MOV EDX,[R15]                  [418B17] 
+4AD3C: CMP EDX,0x30                   [83FA30] 
+4AD41: MOV EAX,EDX                    [89D0] 
+4AD43: ADD RAX,[R15 + 0x10]           [49034710] 
+4AD47: ADD EDX,0x8                    [83C208] 
+4AD4A: MOV [R15],EDX                  [418917] 
+4AD4D: MOVSXD RDX,[-0x4a8 + RBP]      [48639558FBFFFF] 
+4AD54: MOV RAX,[RAX]                  [488B00] 
+4AD57: MOV [RAX],RDX                  [488910] 
+48801: CMP dword ptr [-0x4c0 + RBP],0x0 [4883BD40FBFFFF00] 
+48D18: MOV RDI,[-0x4c0 + RBP]         [488BBD40FBFFFF] 
+
+========

@@ -1,0 +1,16 @@
+
+
+11D334: SUB RSP,0x8                    [4883EC08] 
+11D338: MOV R10D,[0x0036e770]          [448B1531142500] 
+11D33F: MOV RDX,RDI                    [4889FA] 
+11D342: TEST R10D,R10D                 [4585D2] 
+11D347: MOV EAX,0x27                   [B827000000] 
+11D34E: MOV ESI,0x9                    [BE09000000] 
+11D353: MOVSXD RDI,EAX                 [4863F8] 
+11D356: MOV EAX,0x3e                   [B83E000000] 
+11D35D: MOV RAX,[0x0036e748]           [488B05E4132500] 
+11D364: MOV RDI,RDX                    [4889D7] 
+11D367: ROR RAX,0x11                   [48C1C811] 
+11D36B: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

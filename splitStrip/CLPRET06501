@@ -1,0 +1,6 @@
+
+
+F4EE4: MOV EAX,EDI                    [89F8] 
+F4EE6: BSWAP EAX                      [0FC8] 
+
+========

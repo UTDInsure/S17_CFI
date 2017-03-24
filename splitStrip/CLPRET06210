@@ -1,0 +1,7 @@
+
+
+F0004: MOV EAX,[RDI + 0x18]           [8B4718] 
+F0007: AND EAX,0x8                    [83E008] 
+F0038: XOR EAX,EAX                    [31C0] 
+
+========

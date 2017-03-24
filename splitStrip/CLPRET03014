@@ -1,0 +1,20 @@
+
+
+77564: PUSH RBX                       [53] 
+77565: MOV RSI,[RDI + 0x8]            [488B7708] 
+77569: MOV RBX,RDI                    [4889FB] 
+7756C: CMP RSI,[RDI + 0x10]           [483B7710] 
+77572: SUB RSI,[RDI + 0x38]           [482B7738] 
+77576: MOV EDI,[RDI + 0x70]           [8B7F70] 
+77579: XOR EDX,EDX                    [31D2] 
+E36C4: CMP dword ptr [0x0036e774],0x0 [833DA9B0280000] 
+E36D1: MOV EAX,0x8                    [B808000000] 
+E36D8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+77584: MOV RSI,[RBX + 0x8]            [488B7308] 
+77588: SUB RSI,[RBX + 0x38]           [482B7338] 
+7758C: CMP RAX,RSI                    [4839F0] 
+775C0: OR dword ptr [RBX],0x20        [830B20] 
+775C3: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+775C8: POP RBX                        [5B] 
+
+========

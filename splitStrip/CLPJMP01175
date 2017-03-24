@@ -1,0 +1,27 @@
+
+
+BFE84: PUSH R14                       [4156] 
+BFE86: XOR EAX,EAX                    [31C0] 
+BFE88: PUSH R13                       [4155] 
+BFE8A: PUSH R12                       [4154] 
+BFE8C: MOV R12,RSI                    [4989F4] 
+BFE8F: PUSH RBP                       [55] 
+BFE90: PUSH RBX                       [53] 
+BFE91: SUB RSP,0x10                   [4883EC10] 
+BFE95: MOV R10D,[RSI + 0x4]           [448B5604] 
+BFE99: TEST R10D,R10D                 [4585D2] 
+BFEA2: MOV R11D,[RDX + 0x4]           [448B5A04] 
+BFEA6: TEST R11D,R11D                 [4585DB] 
+BFEAF: MOV ECX,[RDI + 0x4]            [8B4F04] 
+BFEB2: LEA ESI,[R10 + R11*0x1]        [438D341A] 
+BFEB6: MOV EAX,[RDI]                  [8B07] 
+BFEB8: MOV RBP,RDI                    [4889FD] 
+BFEBB: LEA EDI,[RSI + RCX*0x1]        [8D3C0E] 
+BFEBE: CMP EDI,EAX                    [39C7] 
+C003E: LEA EBX,[RSI + RAX*0x1]        [8D1C06] 
+C0041: MOV RDI,[RBP + 0x8]            [488B7D08] 
+C0045: MOV [RSP + 0x8],RDX            [4889542408] 
+C004A: MOVSXD RSI,EBX                 [4863F3] 
+C004D: SHL RSI,0x2                    [48C1E602] 
+
+========

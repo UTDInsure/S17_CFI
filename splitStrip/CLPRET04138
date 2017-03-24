@@ -1,0 +1,20 @@
+
+
+A12B4: PUSH R13                       [4155] 
+A12B6: PUSH R12                       [4154] 
+A12B8: PUSH RBP                       [55] 
+A12B9: MOV RBP,RDI                    [4889FD] 
+A12BC: PUSH RBX                       [53] 
+A12BD: MOV RBX,RSI                    [4889F3] 
+A12C0: SUB RSP,0x8                    [4883EC08] 
+A12C4: CMP RDI,RSI                    [4839F7] 
+A12C9: TEST RDX,RDX                   [4885D2] 
+A12CC: MOV R12,RDX                    [4989D4] 
+A12D1: ADD RSP,0x8                    [4883C408] 
+A12D5: XOR EAX,EAX                    [31C0] 
+A12D7: POP RBX                        [5B] 
+A12D8: POP RBP                        [5D] 
+A12D9: POP R12                        [415C] 
+A12DB: POP R13                        [415D] 
+
+========

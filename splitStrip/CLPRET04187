@@ -1,0 +1,21 @@
+
+
+A3734: PUSH RBX                       [53] 
+A3735: MOV RBX,RSI                    [4889F3] 
+A3738: SUB RSP,0xd0                   [4881ECD0000000] 
+A373F: TEST RDI,RDI                   [4885FF] 
+A3860: MOV dword ptr [RSP],0xa001     [C7042401A00000] 
+A37A4: MOV RDI,RSP                    [4889E7] 
+E3AF4: MOV EAX,0x9f                   [B89F000000] 
+E3AFB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3B04: MOV RCX,[0x00368e68]           [488B0D5D532800] 
+E3B0B: NEG EAX                        [F7D8] 
+E3B0D: MOV FS:[RCX],EAX               [648901] 
+E3B10: OR RAX,-0x1                    [4883C8FF] 
+A37B0: TEST EAX,EAX                   [85C0] 
+A37B8: TEST RBX,RBX                   [4885DB] 
+A3870: XOR EAX,EAX                    [31C0] 
+A37FC: ADD RSP,0xd0                   [4881C4D0000000] 
+A3803: POP RBX                        [5B] 
+
+========

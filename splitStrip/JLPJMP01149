@@ -1,0 +1,15 @@
+
+
+C46CE: CMP [RSP + 0x40],EBX           [395C2440] 
+C4451: CMP [RSP + 0x40],EBX           [395C2440] 
+C4457: XOR EAX,EAX                    [31C0] 
+C4459: MOV EDI,[0x8c + RSP]           [8BBC248C000000] 
+C4460: CMP [RSP + 0x40],EDI           [397C2440] 
+C447A: CMP byte ptr [0x93 + RSP],0x0  [80BC249300000000] 
+C448D: MOV RDI,[RSP + 0x70]           [488B7C2470] 
+C4492: CMP byte ptr [RDI + RAX*0x1],0x0 [803C0700] 
+C4AB8: MOV R14,R12                    [4D89E6] 
+C4ABB: MOV RDI,[0x198 + RSP]          [488BBC2498010000] 
+C4AC3: MOV dword ptr [RSP + 0x44],0x1 [C744244401000000] 
+
+========

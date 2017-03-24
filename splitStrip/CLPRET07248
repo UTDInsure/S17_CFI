@@ -1,0 +1,20 @@
+
+
+112524: PUSH R13                       [4155] 
+112526: MOV R13D,EDX                   [4189D5] 
+112529: PUSH R12                       [4154] 
+11252B: MOV R12,RDI                    [4989FC] 
+11252E: PUSH RBP                       [55] 
+11252F: MOV RBP,RSI                    [4889F5] 
+112532: PUSH RBX                       [53] 
+112533: MOV EBX,EDX                    [89D3] 
+112535: SUB RSP,0x8                    [4883EC08] 
+112539: TEST EDX,EDX                   [85D2] 
+112580: ADD RSP,0x8                    [4883C408] 
+112584: MOV EAX,R13D                   [4489E8] 
+112587: POP RBX                        [5B] 
+112588: POP RBP                        [5D] 
+112589: POP R12                        [415C] 
+11258B: POP R13                        [415D] 
+
+========

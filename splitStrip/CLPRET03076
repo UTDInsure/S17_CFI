@@ -1,0 +1,18 @@
+
+
+78A24: PUSH R12                       [4154] 
+78A26: PUSH RBP                       [55] 
+78A27: PUSH RBX                       [53] 
+78A28: MOV ECX,[RDI]                  [8B0F] 
+78A2A: MOV RBX,RDI                    [4889FB] 
+78A2D: TEST CL,0x8                    [F6C108] 
+78BA0: MOV RAX,[0x00368e68]           [488B05C1022F00] 
+78BA7: OR ECX,0x20                    [83C920] 
+78BAA: MOV [RDI],ECX                  [890F] 
+78BAC: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+78BB3: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+78A86: POP RBX                        [5B] 
+78A87: POP RBP                        [5D] 
+78A88: POP R12                        [415C] 
+
+========

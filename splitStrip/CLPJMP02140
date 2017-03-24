@@ -1,0 +1,11 @@
+
+
+1EB24: PUSH R14                       [4156] 
+1EB26: PUSH R13                       [4155] 
+1EB28: PUSH R12                       [4154] 
+1EB2A: PUSH RBP                       [55] 
+1EB2B: MOV RBP,RDI                    [4889FD] 
+1EB2E: PUSH RBX                       [53] 
+1EB2F: SUB RSP,0x60                   [4883EC60] 
+
+========

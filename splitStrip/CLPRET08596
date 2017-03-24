@@ -1,0 +1,8 @@
+
+
+340B4: MOV RAX,[0x0024a880]           [488B05C5672100] 
+340BB: MOV RAX,[RAX]                  [488B00] 
+340BE: TEST RAX,RAX                   [4885C0] 
+34166: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

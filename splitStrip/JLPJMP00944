@@ -1,0 +1,19 @@
+
+
+61D58: MOV R12D,[-0x148 + RBP]        [448BA5B8FEFFFF] 
+61D5F: AND R12D,0x8                   [4183E408] 
+61D69: TEST dword ptr [-0x148 + RBP],0x2100 [F785B8FEFFFF00210000] 
+61D79: MOV R9D,[-0x158 + RBP]         [448B8DA8FEFFFF] 
+61D80: TEST R9D,R9D                   [4585C9] 
+61D89: MOV EDX,[-0x108 + RBP]         [8B95F8FEFFFF] 
+61D8F: CMP EDX,0x30                   [83FA30] 
+61D98: MOV EAX,EDX                    [89D0] 
+61D9A: ADD RAX,[-0xf8 + RBP]          [48038508FFFFFF] 
+61DA1: ADD EDX,0x8                    [83C208] 
+61DA4: MOV [-0x108 + RBP],EDX         [8995F8FEFFFF] 
+61DAA: MOV RAX,[RAX]                  [488B00] 
+61DAD: MOV [-0x178 + RBP],RAX         [48898588FEFFFF] 
+61DB4: CMP dword ptr [-0x178 + RBP],0x0 [4883BD88FEFFFF00] 
+61DC2: MOV EDI,0x190                  [BF90010000] 
+
+========

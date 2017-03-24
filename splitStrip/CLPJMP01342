@@ -1,0 +1,20 @@
+
+
+E9494: PUSH R13                       [4155] 
+E9496: MOV ESI,0x1                    [BE01000000] 
+E949B: XOR EAX,EAX                    [31C0] 
+E949D: PUSH R12                       [4154] 
+E949F: PUSH RBP                       [55] 
+E94A0: MOV RBP,RDI                    [4889FD] 
+E94A3: PUSH RBX                       [53] 
+E94A4: SUB RSP,0x18                   [4883EC18] 
+E94A8: CMP dword ptr [0x0036e774],0x0 [833DC552280000] 
+E94B1: LOCK                           [F0] 
+E94B2: CMPXCHG [0x0036c788],ESI       [0FB135CF322800] 
+E94E4: MOV RDX,[0x0036a7f8]           [488B150D132800] 
+E94EB: MOV RCX,[0x0036c780]           [488B0D8E322800] 
+E94F2: TEST RDX,RDX                   [4885D2] 
+E95F0: MOV EDI,0x400                  [BF00040000] 
+E95F5: MOV dword ptr [0x0036c780],0x400 [48C7058031280000040000] 
+
+========

@@ -1,0 +1,9 @@
+
+
+F0FC4: CMP dword ptr [RSI + 0x8],0x3b9ac9ff [48817E08FFC99A3B] 
+F0FCE: TEST EDI,EDI                   [85FF] 
+F0FD2: XOR EDI,EDI                    [31FF] 
+F0FD4: MOV EAX,0xe3                   [B8E3000000] 
+F0FDB: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

@@ -1,0 +1,27 @@
+
+
+35B24: PUSH RBX                       [53] 
+35B25: MOV EBX,EDI                    [89FB] 
+35B27: SUB RSP,0x20                   [4883EC20] 
+35B2B: FLD tword ptr [RSP + 0x30]     [DB6C2430] 
+35B2F: FLD ST0                        [D9C0] 
+35B31: FSTP tword ptr [RSP]           [DB3C24] 
+35B34: FSTP tword ptr [RSP + 0x10]    [DB7C2410] 
+35904: MOV EAX,[RSP + 0x10]           [8B442410] 
+35908: OR EAX,0xffff8000              [0D0080FFFF] 
+3590D: INC EAX                        [FFC0] 
+3590F: SHR EAX,0x1f                   [C1E81F] 
+35B41: TEST EAX,EAX                   [85C0] 
+35B43: FLD tword ptr [RSP + 0x10]     [DB6C2410] 
+35B47: FLD ST0                        [D9C0] 
+35B4B: FSTP ST0                       [DDD8] 
+35B4D: FLDZ                           [D9EE] 
+35B4F: FXCH                           [D9C9] 
+35B51: FUCOMI ST0,ST1                 [DBE9] 
+35B53: FSTP ST1                       [DDD9] 
+35B57: FLD ST0                        [D9C0] 
+35B5B: FSTP ST1                       [DDD9] 
+35B62: ADD RSP,0x20                   [4883C420] 
+35B66: POP RBX                        [5B] 
+
+========

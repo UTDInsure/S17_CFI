@@ -1,0 +1,6 @@
+
+
+40D3E4: MOV ESI,[0x0062bac0]           [8B35D6E62100] 
+40D3EA: TEST ESI,ESI                   [85F6] 
+
+========

@@ -1,0 +1,9 @@
+
+
+F0004: MOV EAX,[RDI + 0x18]           [8B4718] 
+F0007: AND EAX,0x8                    [83E008] 
+F000C: MOVSXD RDX,[RDI + 0x8]         [48635708] 
+F0010: LEA ECX,[RDX + -0x1]           [8D4AFF] 
+F0013: CMP ECX,0xfe                   [81F9FE000000] 
+
+========

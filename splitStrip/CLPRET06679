@@ -1,0 +1,13 @@
+
+
+100A24: PUSH R12                       [4154] 
+100A26: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+100A2B: PUSH RBP                       [55] 
+100A2C: PUSH RBX                       [53] 
+100A2D: CMP byte ptr [RDI + 0x2],0x0   [807F0200] 
+100A31: MOV RBX,RDI                    [4889FB] 
+100AE8: POP RBX                        [5B] 
+100AE9: POP RBP                        [5D] 
+100AEA: POP R12                        [415C] 
+
+========

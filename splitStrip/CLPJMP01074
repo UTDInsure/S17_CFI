@@ -1,0 +1,20 @@
+
+
+AFDB4: PUSH R13                       [4155] 
+AFDB6: MOV EAX,0x1                    [B801000000] 
+AFDBB: MOV R13D,ESI                   [4189F5] 
+AFDBE: PUSH R12                       [4154] 
+AFDC0: MOV R12,RDX                    [4989D4] 
+AFDC3: PUSH RBP                       [55] 
+AFDC4: MOV RBP,RDI                    [4889FD] 
+AFDC7: PUSH RBX                       [53] 
+AFDC8: MOV RBX,RCX                    [4889CB] 
+AFDCB: SUB RSP,0x18                   [4883EC18] 
+AFDCF: MOV EDX,[RCX]                  [8B11] 
+AFDD1: TEST EDX,EDX                   [85D2] 
+AFDD3: CMOVG EAX,[RCX]                [0F4F01] 
+AFDD6: CDQE                           [4898] 
+AFDD8: LEA RDI,[RAX*0x4]              [488D3C8500000000] 
+AFDE0: MOV [RSP],RAX                  [48890424] 
+
+========

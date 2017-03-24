@@ -1,0 +1,9 @@
+
+
+17684: SUB RSP,0x8                    [4883EC08] 
+17688: MOV RAX,[0x0024a830]           [488B05A1312300] 
+1768F: MOV EDX,ESI                    [89F2] 
+17691: MOV ESI,EDI                    [89FE] 
+17693: MOV RDI,[RAX]                  [488B38] 
+
+========

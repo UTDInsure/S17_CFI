@@ -1,0 +1,8 @@
+
+
+937F4: MOVSX EAX,byte ptr [RDI]       [0FBE07] 
+937F7: TEST AL,AL                     [84C0] 
+937FB: CMP EAX,ESI                    [39F0] 
+937FD: MOV EAX,0x0                    [B800000000] 
+
+========

@@ -1,0 +1,8 @@
+
+
+35904: MOV EAX,[RSP + 0x10]           [8B442410] 
+35908: OR EAX,0xffff8000              [0D0080FFFF] 
+3590D: INC EAX                        [FFC0] 
+3590F: SHR EAX,0x1f                   [C1E81F] 
+
+========

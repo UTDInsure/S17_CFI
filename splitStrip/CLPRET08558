@@ -1,0 +1,24 @@
+
+
+2E794: MOV RAX,[0x0024a7a0]           [488B0505C02100] 
+2E79B: MOV RDX,[RAX]                  [488B10] 
+2E79E: XOR EAX,EAX                    [31C0] 
+2E7A0: TEST RDX,RDX                   [4885D2] 
+2E7A5: SUB RSP,0x8                    [4883EC08] 
+2E7A9: MOV RSI,[0x88 + RDX]           [488BB288000000] 
+2E4F4: PUSH R12                       [4154] 
+2E4F6: TEST RSI,RSI                   [4885F6] 
+2E4F9: PUSH RBP                       [55] 
+2E4FA: PUSH RBX                       [53] 
+2E4FB: MOV RBX,RSI                    [4889F3] 
+2E500: MOVZX EAX,word ptr [RSI + 0x12] [0FB74612] 
+2E504: MOV EBP,EDI                    [89FD] 
+2E506: MOV R12D,0x1                   [41BC01000000] 
+2E50C: CMP EAX,EDI                    [39F8] 
+2E520: POP RBX                        [5B] 
+2E521: POP RBP                        [5D] 
+2E522: MOV EAX,R12D                   [4489E0] 
+2E525: POP R12                        [415C] 
+2E7B9: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,12 @@
+
+
+35CE4: SUB RSP,0x8                    [4883EC08] 
+35CE8: TEST RSI,RSI                   [4885F6] 
+35CED: MOVZX R8D,byte ptr [RSI]       [440FB606] 
+35CF1: XOR EAX,EAX                    [31C0] 
+35CF3: TEST R8B,R8B                   [4584C0] 
+35CF8: MOV RCX,[RDI]                  [488B0F] 
+35CFB: TEST RCX,RCX                   [4885C9] 
+35D24: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,22 @@
+
+
+F8464: PUSH R14                       [4156] 
+F8466: XOR EAX,EAX                    [31C0] 
+F8468: PUSH R13                       [4155] 
+F846A: PUSH R12                       [4154] 
+F846C: MOV R12,RSI                    [4989F4] 
+F846F: MOV ESI,0x1                    [BE01000000] 
+F8474: PUSH RBP                       [55] 
+F8475: MOV EBP,EDI                    [89FD] 
+F8477: PUSH RBX                       [53] 
+F8478: SUB RSP,0x10                   [4883EC10] 
+F847C: CMP dword ptr [0x0036e774],0x0 [833DF162270000] 
+F8485: LOCK                           [F0] 
+F8486: CMPXCHG [0x0036d588],ESI       [0FB135FB502700] 
+F84B8: MOV RCX,[0x0036a860]           [488B0DA1232700] 
+F84BF: MOV R8,[0x0036d580]            [4C8B05BA502700] 
+F84C6: TEST RCX,RCX                   [4885C9] 
+F85C8: MOV EDI,0x400                  [BF00040000] 
+F85CD: MOV dword ptr [0x0036d580],0x400 [48C705A84F270000040000] 
+
+========

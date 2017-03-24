@@ -1,0 +1,22 @@
+
+
+70644: PUSH R13                       [4155] 
+70646: MOV R13D,ESI                   [4189F5] 
+70649: PUSH R12                       [4154] 
+7064B: PUSH RBP                       [55] 
+7064C: MOV RBP,RDI                    [4889FD] 
+7064F: PUSH RBX                       [53] 
+70650: LEA RBX,[0xf0 + RDI]           [488D9FF0000000] 
+70657: SUB RSP,0x8                    [4883EC08] 
+7065B: MOV RDX,[0xa0 + RDI]           [488B97A0000000] 
+70662: CMP [RDX + 0x30],RBX           [48395A30] 
+70696: MOV [RDX + 0x20],RBX           [48895A20] 
+7069A: MOV [RDX + 0x28],RBX           [48895A28] 
+7069E: ADD RSP,0x8                    [4883C408] 
+706A2: POP RBX                        [5B] 
+706A3: POP RBP                        [5D] 
+706A4: POP R12                        [415C] 
+706A6: MOV EAX,R13D                   [4489E8] 
+706A9: POP R13                        [415D] 
+
+========

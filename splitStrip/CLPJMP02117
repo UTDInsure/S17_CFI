@@ -1,0 +1,8 @@
+
+
+1E024: PUSH RBX                       [53] 
+1E025: MOV RBX,RDI                    [4889FB] 
+1E028: MOV RDI,RSI                    [4889F7] 
+1E02B: MOV RSI,RDX                    [4889D6] 
+
+========

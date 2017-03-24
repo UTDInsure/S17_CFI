@@ -1,0 +1,25 @@
+
+
+109524: PUSH RBP                       [55] 
+109525: MOV RBP,RDI                    [4889FD] 
+109528: PUSH RBX                       [53] 
+109529: MOV RBX,RSI                    [4889F3] 
+10952C: SUB RSP,0x8                    [4883EC08] 
+109530: TEST RBX,RBX                   [4885DB] 
+109535: MOV RDX,[RBP + 0x58]           [488B5558] 
+109539: MOV RAX,[RBP + 0x60]           [488B4560] 
+10953D: SUB RAX,RDX                    [4829D0] 
+109540: TEST EAX,EAX                   [85C0] 
+109544: CDQE                           [4898] 
+109546: CMP RBX,RAX                    [4839C3] 
+109549: CMOVLE RAX,RBX                 [480F4EC3] 
+10954D: SUB RBX,RAX                    [4829C3] 
+109550: ADD RDX,RAX                    [4801C2] 
+109553: TEST RBX,RBX                   [4885DB] 
+109556: MOV [RBP + 0x58],RDX           [48895558] 
+10955C: ADD RSP,0x8                    [4883C408] 
+109560: MOV EAX,0x1                    [B801000000] 
+109565: POP RBX                        [5B] 
+109566: POP RBP                        [5D] 
+
+========

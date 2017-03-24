@@ -1,0 +1,19 @@
+
+
+BBD14: PUSH RBP                       [55] 
+BBD15: MOV EBP,ESI                    [89F5] 
+BBD17: PUSH RBX                       [53] 
+BBD18: MOV RBX,RDI                    [4889FB] 
+BBD1B: SUB RSP,0x8                    [4883EC08] 
+BBD1F: MOVSXD RDX,[RDI + 0x4]         [48635704] 
+BBD23: CMP [RDI],EDX                  [3917] 
+BBD27: MOV RAX,[RDI + 0x8]            [488B4708] 
+BBD2B: LEA ECX,[RDX + 0x1]            [8D4A01] 
+BBD2E: MOV [RBX + 0x4],ECX            [894B04] 
+BBD31: MOV [RAX + RDX*0x4],EBP        [892C90] 
+BBD34: MOV EAX,0x1                    [B801000000] 
+BBD39: ADD RSP,0x8                    [4883C408] 
+BBD3D: POP RBX                        [5B] 
+BBD3E: POP RBP                        [5D] 
+
+========

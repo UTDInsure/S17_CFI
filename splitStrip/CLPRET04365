@@ -1,0 +1,22 @@
+
+
+B3314: MOV EAX,EDI                    [89F8] 
+B3316: SHR EAX,0x1f                   [C1E81F] 
+B3319: TEST AL,AL                     [84C0] 
+B3321: PUSH R12                       [4154] 
+B3323: PUSH RBP                       [55] 
+B3324: PUSH RBX                       [53] 
+B3325: MOV RBX,RSI                    [4889F3] 
+B3328: SUB RSP,0xb0                   [4881ECB0000000] 
+B332F: TEST RSI,RSI                   [4885F6] 
+B3338: TEST RDX,RDX                   [4885D2] 
+B333B: MOV RBP,RDX                    [4889D5] 
+B33D8: MOV RAX,[0x00368e68]           [488B05895A2B00] 
+B33DF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B33A9: ADD RSP,0xb0                   [4881C4B0000000] 
+B33B0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+B33B5: POP RBX                        [5B] 
+B33B6: POP RBP                        [5D] 
+B33B7: POP R12                        [415C] 
+
+========

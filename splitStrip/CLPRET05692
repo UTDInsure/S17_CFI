@@ -1,0 +1,8 @@
+
+
+E4084: CMP dword ptr [0x0036e774],0x0 [833DE9A6280000] 
+E4091: MOV R10,RCX                    [4989CA] 
+E4094: MOV EAX,0x114                  [B814010000] 
+E409B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

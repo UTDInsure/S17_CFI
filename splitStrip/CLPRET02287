@@ -1,0 +1,20 @@
+
+
+51584: PUSH R14                       [4156] 
+51586: MOV RAX,[0x0036e4d0]           [488B0543CF3100] 
+5158D: PUSH R13                       [4155] 
+5158F: PUSH R12                       [4154] 
+51591: PUSH RBP                       [55] 
+51592: MOV RBP,[RDI]                  [488B2F] 
+51595: PUSH RBX                       [53] 
+51596: MOVZX EDX,byte ptr [RBP]       [0FB65500] 
+5159A: MOV R9,[RAX + RDX*0x8]         [4C8B0CD0] 
+5159E: TEST R9,R9                     [4D85C9] 
+51649: POP RBX                        [5B] 
+5164A: POP RBP                        [5D] 
+5164B: POP R12                        [415C] 
+5164D: POP R13                        [415D] 
+5164F: MOV EAX,0x1                    [B801000000] 
+51654: POP R14                        [415E] 
+
+========

@@ -1,0 +1,8 @@
+
+
+182B4: SUB RSP,0x8                    [4883EC08] 
+182B8: MOV RAX,[0x0024a830]           [488B0571252300] 
+182BF: MOV ESI,EDI                    [89FE] 
+182C1: MOV RDI,[RAX]                  [488B38] 
+
+========

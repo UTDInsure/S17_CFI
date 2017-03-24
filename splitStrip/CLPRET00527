@@ -1,0 +1,8 @@
+
+
+404394: MOV RDX,[0x006279d8]           [488B153D362200] 
+40439B: TEST RDX,RDX                   [4885D2] 
+4043C8: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+4043CF: NOP                            [90] 
+
+========

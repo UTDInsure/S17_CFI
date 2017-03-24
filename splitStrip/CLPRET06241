@@ -1,0 +1,12 @@
+
+
+F0384: MOV R10D,[0x0036e770]          [448B15E5E32700] 
+F038B: XOR EAX,EAX                    [31C0] 
+F038D: TEST R10D,R10D                 [4585D2] 
+F0398: SUB RSP,0x8                    [4883EC08] 
+F039C: MOV RAX,[0x0036e618]           [488B0575E22700] 
+F03A3: ROR RAX,0x11                   [48C1C811] 
+F03A7: XOR RAX,FS:[0x30]              [644833042530000000] 
+F03B6: ADD RSP,0x8                    [4883C408] 
+
+========

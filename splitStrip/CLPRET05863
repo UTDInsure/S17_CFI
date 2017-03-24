@@ -1,0 +1,11 @@
+
+
+E5914: PUSH RBX                       [53] 
+E5915: MOV RBX,[0x00369220]           [488B1D04392800] 
+E591C: MOV dword ptr [0x00369220],0x3 [48C705F938280003000000] 
+E5927: TEST EBX,EBX                   [85DB] 
+E5934: MOVSXD RBX,EBX                 [4863DB] 
+E5937: MOV [0x00369220],RBX           [48891DE2382800] 
+E593E: POP RBX                        [5B] 
+
+========

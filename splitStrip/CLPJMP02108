@@ -1,0 +1,21 @@
+
+
+1CC24: PUSH R15                       [4157] 
+1CC26: PUSH R14                       [4156] 
+1CC28: MOV R14,RSI                    [4989F6] 
+1CC2B: PUSH R13                       [4155] 
+1CC2D: MOV R13,RDI                    [4989FD] 
+1CC30: PUSH R12                       [4154] 
+1CC32: MOV R12,RDX                    [4989D4] 
+1CC35: PUSH RBP                       [55] 
+1CC36: PUSH RBX                       [53] 
+1CC37: SUB RSP,0x58                   [4883EC58] 
+1CC3B: TEST RSI,RSI                   [4885F6] 
+1CC44: TEST R12,R12                   [4D85E4] 
+1CC4D: MOV RBP,[0x0024a7a0]           [488B2D4CDB2200] 
+1CC54: MOV RBX,[RBP]                  [488B5D00] 
+1CC58: TEST RBX,RBX                   [4885DB] 
+1CC61: MOV R15,[RBX + 0x20]           [4C8B7B20] 
+1CC65: MOV RDI,R14                    [4C89F7] 
+
+========

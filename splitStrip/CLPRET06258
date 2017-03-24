@@ -1,0 +1,7 @@
+
+
+F0584: MOV R9D,[0x0036e770]           [448B0DE5E12700] 
+F058B: XOR EAX,EAX                    [31C0] 
+F058D: TEST R9D,R9D                   [4585C9] 
+
+========

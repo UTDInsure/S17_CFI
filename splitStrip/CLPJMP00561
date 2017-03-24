@@ -1,0 +1,8 @@
+
+
+414DF4: PUSH RBX                       [53] 
+414DF5: LEA EAX,[RDI + -0x42]          [8D47BE] 
+414DF8: SUB RSP,0x20                   [4883EC20] 
+414DFC: CMP EAX,0x36                   [83F836] 
+
+========

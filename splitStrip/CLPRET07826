@@ -1,0 +1,6 @@
+
+
+11E194: MOV RDI,[0x0036de40]           [488B3DA5FC2400] 
+11E19B: TEST RDI,RDI                   [4885FF] 
+
+========

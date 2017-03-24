@@ -1,0 +1,28 @@
+
+
+7B3F4: TEST RDI,RDI                   [4885FF] 
+7B3F7: MOV RAX,RDI                    [4889F8] 
+7B3FC: MOV RCX,[RAX + -0x8]           [488B48F8] 
+7B400: LEA RDI,[RDI + -0x10]          [488D7FF0] 
+7B404: MOV RDX,RCX                    [4889CA] 
+7B407: AND ECX,0x2                    [83E102] 
+7B40A: AND RDX,-0x8                   [4883E2F8] 
+7B40E: CMP RCX,0x1                    [4883F901] 
+7B412: SBB RCX,RCX                    [4819C9] 
+7B415: AND RCX,-0x8                   [4883E1F8] 
+7B419: ADD RCX,0x11                   [4883C111] 
+7B41D: SUB RDX,RCX                    [4829CA] 
+7B420: CMP RDX,RSI                    [4839F2] 
+7B440: MOV RCX,RDX                    [4889D1] 
+7B443: SUB RCX,RSI                    [4829F1] 
+7B446: CMP RCX,0xff                   [4881F9FF000000] 
+7B430: MOV byte ptr [RAX + RDX*0x1],0xff [C60410FF] 
+7B434: SUB RDX,0xff                   [4881EAFF000000] 
+7B43B: CMP RSI,RDX                    [4839D6] 
+7B456: MOV RDX,RDI                    [4889FA] 
+7B459: SHR RDI,0x3                    [48C1EF03] 
+7B45D: SHR RDX,0xb                    [48C1EA0B] 
+7B461: XOR EDI,EDX                    [31D7] 
+7B463: MOV [RAX + RSI*0x1],DIL        [40883C30] 
+
+========

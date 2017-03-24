@@ -1,0 +1,10 @@
+
+
+711E4: PUSH RBX                       [53] 
+711E5: MOV EAX,[RDI]                  [8B07] 
+711E7: MOV RBX,RDI                    [4889FB] 
+711EA: TEST AH,0x1                    [F6C401] 
+71250: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+71257: MOV RDI,[RAX + 0x40]           [488B7840] 
+
+========

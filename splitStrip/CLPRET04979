@@ -1,0 +1,21 @@
+
+
+D7104: PUSH RBX                       [53] 
+D7105: MOV RAX,RDX                    [4889D0] 
+D7108: MOV R8D,0x1                    [41B801000000] 
+D710E: SUB RSP,0x20                   [4883EC20] 
+D7112: CMP ESI,0x1                    [83FE01] 
+D7115: MOV dword ptr [RSP],0x0        [48C7042400000000] 
+D711D: MOV RDX,RSP                    [4889E2] 
+D7120: MOV dword ptr [RSP + 0x8],0x0  [48C744240800000000] 
+D7129: MOV dword ptr [RSP + 0x18],0x0 [48C744241800000000] 
+D7132: MOV [RSP + 0x2],R8W            [664489442402] 
+D7138: MOV [RSP + 0x10],RAX           [4889442410] 
+D71B0: TEST ESI,ESI                   [85F6] 
+D71C8: MOV RAX,[0x00368e68]           [488B05991C2900] 
+D71CF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D71D6: ADD RSP,0x20                   [4883C420] 
+D71DA: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+D71DF: POP RBX                        [5B] 
+
+========

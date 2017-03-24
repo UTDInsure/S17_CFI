@@ -1,0 +1,7 @@
+
+
+10F644: CMP ESI,0xf                    [83FE0F] 
+10F647: MOV RDI,[RDI + 0x10]           [488B7F10] 
+10F814: XOR EAX,EAX                    [31C0] 
+
+========

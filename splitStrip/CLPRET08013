@@ -1,0 +1,7 @@
+
+
+18594: TEST RDI,RDI                   [4885FF] 
+18599: MOV dword ptr [RDI + 0x10],0x0 [48C7471000000000] 
+185A1: XOR EAX,EAX                    [31C0] 
+
+========

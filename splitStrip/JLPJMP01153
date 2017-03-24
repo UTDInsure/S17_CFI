@@ -1,0 +1,8 @@
+
+
+C4740: CMP EBX,[RSP + 0x54]           [3B5C2454] 
+C4AB8: MOV R14,R12                    [4D89E6] 
+C4ABB: MOV RDI,[0x198 + RSP]          [488BBC2498010000] 
+C4AC3: MOV dword ptr [RSP + 0x44],0x1 [C744244401000000] 
+
+========

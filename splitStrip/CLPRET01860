@@ -1,0 +1,26 @@
+
+
+37574: PUSH R15                       [4157] 
+37576: XOR R15D,R15D                  [4531FF] 
+37579: PUSH R14                       [4156] 
+3757B: MOV R14,RDX                    [4989D6] 
+3757E: PUSH R13                       [4155] 
+37580: MOV R13,RCX                    [4989CD] 
+37583: PUSH R12                       [4154] 
+37585: MOV R12,R8                     [4D89C4] 
+37588: PUSH RBP                       [55] 
+37589: PUSH RBX                       [53] 
+3758A: SUB RSP,0x18                   [4883EC18] 
+3758E: TEST RDX,RDX                   [4885D2] 
+37591: MOV [RSP],RDI                  [48893C24] 
+37595: MOV [RSP + 0x8],RSI            [4889742408] 
+375D8: ADD RSP,0x18                   [4883C418] 
+375DC: XOR EAX,EAX                    [31C0] 
+375DE: POP RBX                        [5B] 
+375DF: POP RBP                        [5D] 
+375E0: POP R12                        [415C] 
+375E2: POP R13                        [415D] 
+375E4: POP R14                        [415E] 
+375E6: POP R15                        [415F] 
+
+========

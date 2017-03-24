@@ -1,0 +1,27 @@
+
+
+700F4: PUSH RBX                       [53] 
+700F5: MOV RBX,[0x0036a710]           [488B1D14A62F00] 
+700FC: MOV R8D,EDI                    [4189F8] 
+700FF: MOV EAX,[RBX]                  [8B03] 
+70101: MOV RDI,RBX                    [4889DF] 
+70104: AND EAX,0x8000                 [2500800000] 
+7010B: MOV RDX,[0x88 + RBX]           [488B9388000000] 
+70112: MOV R9,FS:[0x10]               [644C8B0C2510000000] 
+7011B: CMP R9,[RDX + 0x8]             [4C3B4A08] 
+701E0: MOV RDI,RBX                    [4889DF] 
+7016C: ADD dword ptr [RDX + 0x4],0x1  [83420401] 
+70170: MOV RDX,[RDI + 0x28]           [488B5728] 
+70174: CMP RDX,[RDI + 0x30]           [483B5730] 
+701E5: MOVZX ESI,R8B                  [410FB6F0] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+7957A: ADD RSP,0x8                    [4883C408] 
+701F2: MOV EDX,EAX                    [89C2] 
+70189: TEST dword ptr [RBX],0x8000    [F70300800000] 
+701D4: MOV EAX,EDX                    [89D0] 
+701D6: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,16 @@
+
+
+2D7E4: PUSH R13                       [4155] 
+2D7E6: PUSH R12                       [4154] 
+2D7E8: MOV R12,RDI                    [4989FC] 
+2D7EB: PUSH RBP                       [55] 
+2D7EC: PUSH RBX                       [53] 
+2D7ED: SUB RSP,0x8                    [4883EC08] 
+2D7F1: TEST RDI,RDI                   [4885FF] 
+2D8E0: ADD RSP,0x8                    [4883C408] 
+2D8E4: POP RBX                        [5B] 
+2D8E5: POP RBP                        [5D] 
+2D8E6: POP R12                        [415C] 
+2D8E8: POP R13                        [415D] 
+
+========

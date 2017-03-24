@@ -1,0 +1,13 @@
+
+
+108584: MOV EAX,[RDI + 0x10]           [8B4710] 
+108587: TEST EAX,EAX                   [85C0] 
+1085C0: MOV EAX,[RDI + 0x30]           [8B4730] 
+1085C3: TEST EAX,EAX                   [85C0] 
+1085E8: CMP EAX,0x5                    [83F805] 
+1085F1: LEA RDX,[0x132f50]             [488D1558A90200] 
+1085F8: MOV ECX,EAX                    [89C1] 
+1085FA: MOVSXD RCX,[RDX + RCX*0x4]     [48630C8A] 
+1085FE: ADD RDX,RCX                    [4801CA] 
+
+========

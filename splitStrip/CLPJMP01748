@@ -1,0 +1,26 @@
+
+
+118D74: PUSH R15                       [4157] 
+118D76: MOV R15D,EDI                   [4189FF] 
+118D79: MOV RDI,RSI                    [4889F7] 
+118D7C: PUSH R14                       [4156] 
+118D7E: MOV R14,R8                     [4D89C6] 
+118D81: PUSH R13                       [4155] 
+118D83: MOV R13,RDX                    [4989D5] 
+118D86: PUSH R12                       [4154] 
+118D88: PUSH RBP                       [55] 
+118D89: MOV RBP,RCX                    [4889CD] 
+118D8C: PUSH RBX                       [53] 
+118D8D: SUB RSP,0x38                   [4883EC38] 
+118D91: MOV [RSP + 0x8],RSI            [4889742408] 
+118D96: MOV RSI,RDX                    [4889D6] 
+1151F4: XOR EAX,EAX                    [31C0] 
+1151F6: TEST RSI,RSI                   [4885F6] 
+1151FB: LEA RAX,[0x1344a8]             [488D05A6F20100] 
+115202: LEA RDX,[RSI + 0x7]            [488D5607] 
+115206: AND ESI,0x7                    [83E607] 
+115209: MOVSXD RCX,[RAX + RSI*0x4]     [48630CB0] 
+11520D: SHR RDX,0x3                    [48C1EA03] 
+115211: ADD RAX,RCX                    [4801C8] 
+
+========

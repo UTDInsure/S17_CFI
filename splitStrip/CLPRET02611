@@ -1,0 +1,15 @@
+
+
+70B64: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+70B6B: AND [RDI],0xfffffeff           [8127FFFEFFFF] 
+70B71: MOV RDX,[RAX + 0x8]            [488B5008] 
+70B75: MOV RCX,[RAX + 0x50]           [488B4850] 
+70B79: MOV [RAX + 0x50],RDX           [48895050] 
+70B7D: MOV RDX,[RAX + 0x40]           [488B5040] 
+70B81: MOV [RAX + 0x8],RCX            [48894808] 
+70B85: MOV RCX,[RAX + 0x10]           [488B4810] 
+70B89: MOV [RAX],RDX                  [488910] 
+70B8C: MOV [RAX + 0x10],RDX           [48895010] 
+70B90: MOV [RAX + 0x40],RCX           [48894840] 
+
+========

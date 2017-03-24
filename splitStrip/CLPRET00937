@@ -1,0 +1,12 @@
+
+
+412024: PUSH RBX                       [53] 
+412025: SUB RSP,0x30                   [4883EC30] 
+412029: CMP EDI,0x1                    [83FF01] 
+41202C: MOV [RSP + 0x8],RSI            [4889742408] 
+412033: CMP EDI,0x2                    [83FF02] 
+412038: TEST EDI,EDI                   [85FF] 
+41203C: ADD RSP,0x30                   [4883C430] 
+412040: POP RBX                        [5B] 
+
+========

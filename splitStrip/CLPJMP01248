@@ -1,0 +1,12 @@
+
+
+D96B4: PUSH RBX                       [53] 
+D96B5: MOV EAX,[RSI]                  [8B06] 
+D96B7: MOV RBX,RDI                    [4889FB] 
+D96BA: LEA EAX,[0x100 + RAX + RDX*0x1] [8D841000010000] 
+D96C1: CMP EAX,0xfffe                 [3DFEFF0000] 
+D96C6: MOV [RSI],EAX                  [8906] 
+D96CA: MOV RDI,[RDI]                  [488B3F] 
+D96CD: MOVSXD RSI,EAX                 [4863F0] 
+
+========

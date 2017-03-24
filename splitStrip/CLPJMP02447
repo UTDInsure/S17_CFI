@@ -1,0 +1,20 @@
+
+
+36984: PUSH R13                       [4155] 
+36986: PUSH R12                       [4154] 
+36988: PUSH RBP                       [55] 
+36989: MOV RBP,RDI                    [4889FD] 
+3698C: PUSH RBX                       [53] 
+3698D: SUB RSP,0x8                    [4883EC08] 
+36991: MOV R12,[0x0024a7a0]           [4C8B25083E2100] 
+36998: MOV RDI,[R12]                  [498B3C24] 
+3699C: TEST RDI,RDI                   [4885FF] 
+369A5: MOV RAX,[0x0024a880]           [488B05D43E2100] 
+369AC: CMP dword ptr [RAX],0x0        [48833800] 
+369B6: TEST ESI,ESI                   [85F6] 
+369B8: MOV R13D,ESI                   [4189F5] 
+369BD: TEST RBP,RBP                   [4885ED] 
+36A60: MOV EDI,ESI                    [89F7] 
+36A62: MOV EBX,0xffffffff             [BBFFFFFFFF] 
+
+========

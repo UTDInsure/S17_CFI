@@ -1,0 +1,18 @@
+
+
+1AD24: TEST RDI,RDI                   [4885FF] 
+1AD29: MOV RAX,[0x0024a7a0]           [488B0570FA2200] 
+1AD30: MOV RDX,[RAX]                  [488B10] 
+1AD33: TEST RDX,RDX                   [4885D2] 
+1AD38: MOV R8D,[0x408 + RDX]          [448B8208040000] 
+1AD3F: TEST R8D,R8D                   [4585C0] 
+1AD44: MOV RCX,[0x510 + RDX]          [488B8A10050000] 
+1AD4B: LEA R8,[0x450 + RDX]           [4C8D8250040000] 
+1AD52: LEA RSI,[0x4f8 + RDX]          [488DB2F8040000] 
+1AD59: LEA RAX,[RCX + -0x18]          [488D41E8] 
+1AD5D: CMP RCX,R8                     [4C39C1] 
+1AD60: CMOVBE RAX,RSI                 [480F46C6] 
+1AD64: CMP word ptr [RAX],-0x1        [668338FF] 
+1ADA0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

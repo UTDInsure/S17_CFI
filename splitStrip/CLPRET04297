@@ -1,0 +1,23 @@
+
+
+AF184: PUSH R14                       [4156] 
+AF186: MOVSXD RDI,EDI                 [4863FF] 
+AF189: MOV EAX,0x4e                   [B84E000000] 
+AF18E: PUSH R13                       [4155] 
+AF190: PUSH R12                       [4154] 
+AF192: PUSH RBP                       [55] 
+AF193: PUSH RBX                       [53] 
+AF194: MOV RBX,RSI                    [4889F3] 
+AF199: CMP RAX,0xfffff000             [483D00F0FFFF] 
+AF1FA: MOV RDX,[0x00368e68]           [488B15679C2B00] 
+AF201: NEG EAX                        [F7D8] 
+AF203: OR R14,-0x1                    [4983CEFF] 
+AF207: MOV FS:[RDX],EAX               [648902] 
+AF1EE: POP RBX                        [5B] 
+AF1EF: POP RBP                        [5D] 
+AF1F0: POP R12                        [415C] 
+AF1F2: POP R13                        [415D] 
+AF1F4: MOV RAX,R14                    [4C89F0] 
+AF1F7: POP R14                        [415E] 
+
+========

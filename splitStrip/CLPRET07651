@@ -1,0 +1,28 @@
+
+
+11A024: SUB RSP,0x8                    [4883EC08] 
+11A028: MOV EDI,[0x003692f0]           [8B3DC2F22400] 
+11A02E: TEST EDI,EDI                   [85FF] 
+11A032: XOR EDX,EDX                    [31D2] 
+11A034: XOR ESI,ESI                    [31F6] 
+E36C4: CMP dword ptr [0x0036e774],0x0 [833DA9B0280000] 
+E36E1: SUB RSP,0x8                    [4883EC08] 
+F08C4: MOV EAX,FS:[0x308]             [648B042508030000] 
+F08CC: MOV R11D,EAX                   [4189C3] 
+F08CF: OR R11D,0x2                    [4183CB02] 
+F08D3: CMP R11D,EAX                   [4139C3] 
+E36EE: MOV [RSP],RAX                  [48890424] 
+E36F2: MOV EAX,0x8                    [B808000000] 
+E36F9: MOV RDI,[RSP]                  [488B3C24] 
+E36FD: MOV RDX,RAX                    [4889C2] 
+F0924: TEST EDI,0x2                   [F7C702000000] 
+E3709: MOV RAX,RDX                    [4889D0] 
+E370C: ADD RSP,0x8                    [4883C408] 
+E3710: CMP RAX,0xfffff001             [483D01F0FFFF] 
+11A03F: MOV ECX,0xffffffff             [B9FFFFFFFF] 
+11A044: MOV dword ptr [0x0036e300],0x0 [48C705B142250000000000] 
+11A04F: MOV EAX,0x1                    [B801000000] 
+11A054: MOV [0x0036e180],CX            [66890D25412500] 
+11A05B: ADD RSP,0x8                    [4883C408] 
+
+========

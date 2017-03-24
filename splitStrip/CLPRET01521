@@ -1,0 +1,8 @@
+
+
+34784: CMP RDI,-0x1                   [4883FFFF] 
+3478A: ADD ESI,0x1                    [83C601] 
+3478D: TEST ESI,ESI                   [85F6] 
+34800: MOV RAX,RCX                    [4889C8] 
+
+========

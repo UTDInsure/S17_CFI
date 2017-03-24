@@ -1,0 +1,12 @@
+
+
+98634: SUB RSP,0x8                    [4883EC08] 
+98638: CMP R8D,0x400                  [4181F800040000] 
+98643: CMP R8D,0x800                  [4181F800080000] 
+98660: OR EDX,ECX                     [09CA] 
+98662: XOR EAX,EAX                    [31C0] 
+98664: TEST DIL,DIL                   [4084FF] 
+98667: CMOVZ EAX,EDX                  [0F44C2] 
+9866A: ADD RSP,0x8                    [4883C408] 
+
+========

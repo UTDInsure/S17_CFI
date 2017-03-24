@@ -1,0 +1,19 @@
+
+
+40A5D4: PUSH R15                       [4157] 
+40A5D6: MOV R15,RDX                    [4989D7] 
+40A5D9: PUSH R14                       [4156] 
+40A5DB: PUSH R13                       [4155] 
+40A5DD: PUSH R12                       [4154] 
+40A5DF: PUSH RBP                       [55] 
+40A5E0: PUSH RBX                       [53] 
+40A5E1: MOV RBX,RDI                    [4889FB] 
+40A5E4: SUB RSP,0x48                   [4883EC48] 
+40A5E8: TEST RCX,RCX                   [4885C9] 
+40A5EB: MOV [RSP + 0x10],RSI           [4889742410] 
+40A5F0: MOV [RSP + 0x28],RCX           [48894C2428] 
+40A5F5: MOV [RSP + 0x24],R8D           [4489442424] 
+40A7EB: MOV R14,[RSP + 0x10]           [4C8B742410] 
+40A7F0: MOV RDI,R14                    [4C89F7] 
+
+========

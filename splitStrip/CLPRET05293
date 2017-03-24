@@ -1,0 +1,10 @@
+
+
+DCFC4: MOV EAX,0xa1                   [B8A1000000] 
+DCFCB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DCFD4: MOV RCX,[0x00368e68]           [488B0D8DBE2800] 
+DCFDB: NEG EAX                        [F7D8] 
+DCFDD: MOV FS:[RCX],EAX               [648901] 
+DCFE0: OR RAX,-0x1                    [4883C8FF] 
+
+========

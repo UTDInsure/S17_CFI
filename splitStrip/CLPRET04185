@@ -1,0 +1,6 @@
+
+
+A3704: MOV EAX,0xa4                   [B8A4000000] 
+A370B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

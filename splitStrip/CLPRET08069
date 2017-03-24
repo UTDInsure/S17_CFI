@@ -1,0 +1,16 @@
+
+
+19DF4: TEST RSI,RSI                   [4885F6] 
+19DFD: TEST RDI,RDI                   [4885FF] 
+19E02: MOV EAX,EDX                    [89D0] 
+19E04: SHR EAX,0x1f                   [C1E81F] 
+19E07: TEST EDX,EDX                   [85D2] 
+19E09: MOV R10D,EAX                   [4189C2] 
+19E0E: MOVSX RCX,word ptr [RDI + 0x2] [480FBF4F02] 
+19E13: MOVSX R9D,word ptr [RDI + 0x6] [440FBF4F06] 
+19E18: CMP ECX,R9D                    [4439C9] 
+19E80: XOR EDX,EDX                    [31D2] 
+19E82: XOR EAX,EAX                    [31C0] 
+19E84: MOV dword ptr [RSI + RDX*0x1],0x0 [48C7041600000000] 
+
+========

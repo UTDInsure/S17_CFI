@@ -1,0 +1,13 @@
+
+
+6F374: SUB RSP,0x8                    [4883EC08] 
+6F378: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+6F37F: TEST RAX,RAX                   [4885C0] 
+6F384: MOV RDX,[RAX]                  [488B10] 
+6F387: CMP RDX,[RAX + 0x8]            [483B5008] 
+6F38D: LEA RCX,[RDX + 0x4]            [488D4A04] 
+6F391: MOV [RAX],RCX                  [488908] 
+6F394: MOV EAX,[RDX]                  [8B02] 
+6F396: ADD RSP,0x8                    [4883C408] 
+
+========

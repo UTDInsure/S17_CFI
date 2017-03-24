@@ -1,0 +1,8 @@
+
+
+DB394: TEST EDI,EDI                   [85FF] 
+DB3C8: MOV RAX,[0x00368e68]           [488B0599DA2800] 
+DB3CF: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+DB3D6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

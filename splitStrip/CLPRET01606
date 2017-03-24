@@ -1,0 +1,25 @@
+
+
+35C74: XOR EAX,EAX                    [31C0] 
+35C76: TEST ESI,ESI                   [85F6] 
+35C78: PUSH RBX                       [53] 
+35C79: MOV RBX,RDI                    [4889FB] 
+35C7E: LEA RDX,[RDI + 0x48]           [488D5748] 
+35C82: XOR ESI,ESI                    [31F6] 
+35C84: XOR EDI,EDI                    [31FF] 
+36184: MOV R10D,0x8                   [41BA08000000] 
+3618A: MOVSXD RDI,EDI                 [4863FF] 
+3618D: MOV EAX,0xe                    [B80E000000] 
+36194: CMP RAX,0xfffff000             [483D00F0FFFF] 
+3619E: MOV RDX,[0x00368e68]           [488B15C32C3300] 
+361A5: NEG EAX                        [F7D8] 
+361A7: MOV FS:[RDX],EAX               [648902] 
+361AA: OR RAX,-0x1                    [4883C8FF] 
+35C8F: TEST EAX,EAX                   [85C0] 
+35C91: SETZ AL                        [0F94C0] 
+35C94: MOVZX EAX,AL                   [0FB6C0] 
+35C97: MOV [RBX + 0x40],EAX           [894340] 
+35C9A: XOR EAX,EAX                    [31C0] 
+35C9C: POP RBX                        [5B] 
+
+========

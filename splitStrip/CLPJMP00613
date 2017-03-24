@@ -1,0 +1,21 @@
+
+
+417444: PUSH R14                       [4156] 
+417446: XOR EAX,EAX                    [31C0] 
+417448: PUSH R13                       [4155] 
+41744A: PUSH R12                       [4154] 
+41744C: MOV R12,RDI                    [4989FC] 
+41744F: PUSH RBP                       [55] 
+417450: PUSH RBX                       [53] 
+417451: SUB RSP,0x410                  [4881EC10040000] 
+417458: MOV RDI,[0x006273e0]           [488B3D81FF2000] 
+40C1A4: PUSH R15                       [4157] 
+40C1A6: PUSH R14                       [4156] 
+40C1A8: PUSH R13                       [4155] 
+40C1AA: PUSH R12                       [4154] 
+40C1AC: PUSH RBP                       [55] 
+40C1AD: MOV RBP,RDI                    [4889FD] 
+40C1B0: PUSH RBX                       [53] 
+40C1B1: SUB RSP,0x8                    [4883EC08] 
+
+========

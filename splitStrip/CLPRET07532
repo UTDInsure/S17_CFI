@@ -1,0 +1,10 @@
+
+
+117C14: CMP RDI,-0x1                   [4883FFFF] 
+117C1A: MOV RAX,[RDI]                  [488B07] 
+117C1D: MOV EAX,[RAX + 0x8]            [8B4008] 
+117C20: CMP EAX,[RSI]                  [3B06] 
+117C44: MOV [RSI],EAX                  [8906] 
+117C46: OR EAX,0xffffffff              [83C8FF] 
+
+========

@@ -1,0 +1,7 @@
+
+
+11DD94: MOV RAX,[0x0036b760]           [488B05C5D92400] 
+11DD9B: MOV byte ptr [0x0036b768],0x1  [C605C6D9240001] 
+11DDA2: TEST RAX,RAX                   [4885C0] 
+
+========

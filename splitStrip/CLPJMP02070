@@ -1,0 +1,18 @@
+
+
+19F64: PUSH R13                       [4155] 
+19F66: MOV R13,RDX                    [4989D5] 
+19F69: PUSH R12                       [4154] 
+19F6B: MOV R12,RDI                    [4989FC] 
+19F6E: PUSH RBP                       [55] 
+19F6F: MOV RBP,RSI                    [4889F5] 
+19F72: PUSH RBX                       [53] 
+19F73: SUB RSP,0x8                    [4883EC08] 
+19F77: MOV RAX,[0x0024a860]           [488B05E2082300] 
+19F7E: CMP RDX,0x9                    [4883FA09] 
+19F82: MOV EBX,[RAX]                  [8B18] 
+19F90: CMP RDX,0xa                    [4883FA0A] 
+19F9A: CMP RDX,0xd                    [4883FA0D] 
+19F9E: NOP                            [6690] 
+
+========

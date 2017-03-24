@@ -1,0 +1,13 @@
+
+
+413B12: TEST EAX,EAX                   [85C0] 
+413B1A: XOR EAX,EAX                    [31C0] 
+413D84: MOV RDX,[0x00627370]           [488B15E5352100] 
+413D8B: SUB RDX,0x62ad60               [4881EA60AD6200] 
+413D92: TEST EDX,EDX                   [85D2] 
+413B25: MOV RDX,[RSP + 0x18]           [488B542418] 
+413B2A: MOV RSI,[RSP + 0x10]           [488B742410] 
+413B2F: MOV EDI,[RSP + 0xc]            [8B7C240C] 
+413B33: MOV dword ptr [0x0062bb60],0x1 [C7052380210001000000] 
+
+========

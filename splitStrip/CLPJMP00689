@@ -1,0 +1,15 @@
+
+
+2CD54: SUB RSP,0x8                    [4883EC08] 
+2CD58: SUB dword ptr [RSI + 0x30],0x1 [836E3001] 
+2CD5E: CMP dword ptr [RSI + 0x18],0x2 [837E1802] 
+2CD99: MOV RDI,RSI                    [4889F7] 
+2D484: PUSH RBX                       [53] 
+2D485: MOV RAX,[RDI + 0x20]           [488B4720] 
+2D489: MOV RBX,RDI                    [4889FB] 
+2D48C: TEST RAX,RAX                   [4885C0] 
+2D497: MOV EAX,[RBX + 0x18]           [8B4318] 
+2D49A: TEST EAX,EAX                   [85C0] 
+2D4E0: MOV RDI,[RBX + 0x8]            [488B7B08] 
+
+========

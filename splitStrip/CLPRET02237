@@ -1,0 +1,17 @@
+
+
+47214: MOV RAX,[RDI]                  [488B07] 
+47217: ADD SI,0x3ff                   [6681C6FF03] 
+4721C: SHL RDX,0x3f                   [48C1E23F] 
+47220: AND ESI,0x7ff                  [81E6FF070000] 
+47226: SHL RSI,0x34                   [48C1E634] 
+4722A: MOV ECX,EAX                    [89C1] 
+4722C: OR RDX,RSI                     [4809F2] 
+4722F: MOV RSI,0xfffff00000000        [48BE00000000FFFF0F00] 
+47239: AND RAX,RSI                    [4821F0] 
+4723C: OR RDX,RCX                     [4809CA] 
+4723F: OR RDX,RAX                     [4809C2] 
+47242: MOV [RSP + -0x8],RDX           [48895424F8] 
+47247: MOVSD XMM0,[RSP + -0x8]        [F20F104424F8] 
+
+========

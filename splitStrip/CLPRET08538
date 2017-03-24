@@ -1,0 +1,14 @@
+
+
+2E4F4: PUSH R12                       [4154] 
+2E4F6: TEST RSI,RSI                   [4885F6] 
+2E4F9: PUSH RBP                       [55] 
+2E4FA: PUSH RBX                       [53] 
+2E4FB: MOV RBX,RSI                    [4889F3] 
+2E550: POP RBX                        [5B] 
+2E551: XOR R12D,R12D                  [4531E4] 
+2E554: POP RBP                        [5D] 
+2E555: MOV EAX,R12D                   [4489E0] 
+2E558: POP R12                        [415C] 
+
+========

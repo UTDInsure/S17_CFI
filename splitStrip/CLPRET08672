@@ -1,0 +1,27 @@
+
+
+36B74: MOV RAX,[0x0024a7a0]           [488B05253C2100] 
+36B7B: MOV RAX,[RAX]                  [488B00] 
+36B7E: TEST RAX,RAX                   [4885C0] 
+36B83: TEST RDI,RDI                   [4885FF] 
+36B86: MOV RSI,RDI                    [4889FE] 
+36B8B: SUB RSP,0x8                    [4883EC08] 
+36B8F: MOV RDI,[0x88 + RAX]           [488BB888000000] 
+36AD4: PUSH R13                       [4155] 
+36AD6: PUSH R12                       [4154] 
+36AD8: MOV R12,RSI                    [4989F4] 
+36ADB: PUSH RBP                       [55] 
+36ADC: PUSH RBX                       [53] 
+36ADD: SUB RSP,0x8                    [4883EC08] 
+36AE1: TEST RSI,RSI                   [4885F6] 
+36AE6: MOVZX EBP,byte ptr [RSI]       [0FB62E] 
+36AE9: XOR EAX,EAX                    [31C0] 
+36AEB: TEST BPL,BPL                   [4084ED] 
+36B22: ADD RSP,0x8                    [4883C408] 
+36B26: POP RBX                        [5B] 
+36B27: POP RBP                        [5D] 
+36B28: POP R12                        [415C] 
+36B2A: POP R13                        [415D] 
+36B9F: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,9 @@
+
+
+2F624: PUSH R12                       [4154] 
+2F626: PUSH RBP                       [55] 
+2F627: MOV RBP,RDI                    [4889FD] 
+2F62A: LEA RDI,[0x3dbe4]              [488D3DB3E50000] 
+2F631: PUSH RBX                       [53] 
+
+========

@@ -1,0 +1,28 @@
+
+
+D7044: PUSH RBP                       [55] 
+D7045: PUSH RBX                       [53] 
+D7046: SUB RSP,0x68                   [4883EC68] 
+D704A: LEA RAX,[0x80 + RSP]           [488D842480000000] 
+D7052: MOV [RSP + 0x40],RDX           [4889542440] 
+D7057: MOV dword ptr [RSP + 0x18],0x10 [C744241810000000] 
+D705F: MOV [RSP + 0x20],RAX           [4889442420] 
+D7064: LEA RAX,[RSP + 0x30]           [488D442430] 
+D7069: MOV [RSP + 0x28],RAX           [4889442428] 
+D706E: MOV EAX,[0x0036e774]           [8B0500772900] 
+D7074: TEST EAX,EAX                   [85C0] 
+D6F84: CMP ESI,0x9                    [83FE09] 
+D6FA0: LEA RDX,[RSP + -0x18]          [488D5424E8] 
+D6FA5: MOV ESI,0x10                   [BE10000000] 
+D6FAA: MOVSXD RDI,EDI                 [4863FF] 
+D6FAD: MOV EAX,0x48                   [B848000000] 
+D6FB4: CMP EAX,0xfffff000             [3D00F0FFFF] 
+D6FE0: MOV RDX,[0x00368e68]           [488B15811E2900] 
+D6FE7: NEG EAX                        [F7D8] 
+D6FE9: MOV FS:[RDX],EAX               [648902] 
+D6FEC: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+D7081: ADD RSP,0x68                   [4883C468] 
+D7085: POP RBX                        [5B] 
+D7086: POP RBP                        [5D] 
+
+========

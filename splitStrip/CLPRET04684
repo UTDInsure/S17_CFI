@@ -1,0 +1,7 @@
+
+
+C97E4: MOV RDX,[0x00368fb0]           [488B15C5F72900] 
+C97EB: MOV RAX,[RDX]                  [488B02] 
+C97EE: MOV [RDX],RDI                  [48893A] 
+
+========

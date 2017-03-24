@@ -1,0 +1,6 @@
+
+
+CC1E4: MOV EAX,0x8e                   [B88E000000] 
+CC1EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

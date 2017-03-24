@@ -1,0 +1,14 @@
+
+
+2F0A4: MOV RAX,[0x0024a7a0]           [488B05F5B62100] 
+2F0AB: CMP dword ptr [RAX],0x0        [48833800] 
+2F0B5: PUSH RBX                       [53] 
+2F0B6: SUB RSP,0x40                   [4883EC40] 
+2F0BA: MOV RAX,[0x0024a880]           [488B05BFB72100] 
+2F0C1: MOV RBX,[RAX]                  [488B18] 
+2F0C4: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2F0C9: TEST RBX,RBX                   [4885DB] 
+2F1A9: ADD RSP,0x40                   [4883C440] 
+2F1AD: POP RBX                        [5B] 
+
+========

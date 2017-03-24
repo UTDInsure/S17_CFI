@@ -1,0 +1,10 @@
+
+
+18084: PUSH R12                       [4154] 
+18086: MOV R12D,R8D                   [4589C4] 
+18089: PUSH RBP                       [55] 
+1808A: MOV RBP,RCX                    [4889CD] 
+1808D: PUSH RBX                       [53] 
+1808E: MOV RBX,RDI                    [4889FB] 
+
+========

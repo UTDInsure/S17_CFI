@@ -1,0 +1,22 @@
+
+
+37614: PUSH R15                       [4157] 
+37616: MOV RAX,RDX                    [4889D0] 
+37619: PUSH R14                       [4156] 
+3761B: PUSH R13                       [4155] 
+3761D: PUSH R12                       [4154] 
+3761F: PUSH RBP                       [55] 
+37620: PUSH RBX                       [53] 
+37621: SUB RSP,0x448                  [4881EC48040000] 
+37628: TEST RSI,RSI                   [4885F6] 
+3762B: MOV [RSP + 0x30],RDI           [48897C2430] 
+37630: MOV [RSP],RDX                  [48891424] 
+377E8: ADD RSP,0x448                  [4881C448040000] 
+377EF: POP RBX                        [5B] 
+377F0: POP RBP                        [5D] 
+377F1: POP R12                        [415C] 
+377F3: POP R13                        [415D] 
+377F5: POP R14                        [415E] 
+377F7: POP R15                        [415F] 
+
+========

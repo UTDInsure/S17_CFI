@@ -1,0 +1,20 @@
+
+
+76D14: LEA RAX,[0x3686a0]             [488D0585192F00] 
+76D1B: PUSH RBX                       [53] 
+76D1C: LEA RCX,[0x3681e0]             [488D0DBD142F00] 
+76D23: MOV RBX,RDI                    [4889FB] 
+76D26: MOV [0xd8 + RDI],RAX           [488987D8000000] 
+76D2D: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+76D34: MOV [0x140 + RAX],RCX          [48898840010000] 
+76CD4: PUSH RBX                       [53] 
+76CD5: MOV RBX,RDI                    [4889FB] 
+79A14: PUSH R12                       [4154] 
+79A16: MOV R12,RDX                    [4989D4] 
+79A19: PUSH RBP                       [55] 
+79A1A: MOV RBP,RSI                    [4889F5] 
+79A1D: PUSH RBX                       [53] 
+79A1E: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+79A25: MOV RBX,RDI                    [4889FB] 
+
+========

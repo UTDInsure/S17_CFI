@@ -1,0 +1,7 @@
+
+
+16FA4: SUB RSP,0x8                    [4883EC08] 
+16FA8: MOV RSI,RDI                    [4889FE] 
+16FAB: MOV EDI,0x8                    [BF08000000] 
+
+========

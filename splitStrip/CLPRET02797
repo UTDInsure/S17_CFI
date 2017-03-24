@@ -1,0 +1,11 @@
+
+
+741F4: MOV ESI,[RDI]                  [8B37] 
+741F6: MOV R8,RDI                     [4989F8] 
+741F9: MOV EAX,ESI                    [89F0] 
+741FB: AND EAX,0x8000                 [2500800000] 
+742C0: SHR ESI,0x4                    [C1EE04] 
+742C3: AND ESI,0x1                    [83E601] 
+742C6: MOV EAX,ESI                    [89F0] 
+
+========

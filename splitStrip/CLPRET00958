@@ -1,0 +1,15 @@
+
+
+412744: PUSH RBP                       [55] 
+412745: MOV EAX,EDI                    [89F8] 
+412747: PUSH RBX                       [53] 
+412748: SUB RSP,0x258                  [4881EC58020000] 
+41274F: CMP EDI,0x1                    [83FF01] 
+412758: CMP EAX,0x2                    [83F802] 
+41275B: MOV RDI,RSI                    [4889F7] 
+412760: TEST EAX,EAX                   [85C0] 
+412764: ADD RSP,0x258                  [4881C458020000] 
+41276B: POP RBX                        [5B] 
+41276C: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,7 @@
+
+
+DB314: MOV R10,RCX                    [4989CA] 
+DB317: MOV EAX,0x28                   [B828000000] 
+DB31E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,9 @@
+
+
+2D494: PUSH RBX                       [53] 
+2D495: MOV RBX,[0x0024a7b8]           [488B1D1CD32100] 
+2D49C: MOV RDI,[RBX]                  [488B3B] 
+2D49F: TEST RDI,RDI                   [4885FF] 
+2D4B9: POP RBX                        [5B] 
+
+========

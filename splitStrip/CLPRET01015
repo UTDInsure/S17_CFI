@@ -1,0 +1,10 @@
+
+
+414894: CMP EDI,-0x2                   [83FFFE] 
+414900: MOV EAX,[0x0062ba70]           [8B056A712100] 
+414906: LEA EDI,[RAX + -0x1]           [8D78FF] 
+414909: MOV RAX,[0x0062b168]           [488B0558682100] 
+414910: MOVSXD RDI,EDI                 [4863FF] 
+414913: MOV RAX,[RAX + RDI*0x8]        [488B04F8] 
+
+========

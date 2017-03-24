@@ -1,0 +1,20 @@
+
+
+31EEF: MOV EAX,[0x1d8 + R12]          [418B8424D8010000] 
+31EF7: TEST EAX,EAX                   [85C0] 
+31EFF: SUB EAX,0x1                    [83E801] 
+31F02: MOV [0x1d8 + R12],EAX          [41898424D8010000] 
+31F0A: CDQE                           [4898] 
+31F0C: ADD RAX,0x9                    [4883C009] 
+31F10: SHL RAX,0x4                    [48C1E004] 
+31F14: ADD RAX,R12                    [4C01E0] 
+31F17: CMP byte ptr [RAX + 0x10],0x0  [80781000] 
+31F21: MOV EBX,0x80                   [BB80000000] 
+31F26: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+31F2E: LEA RAX,[RDX + 0x1]            [488D4201] 
+31F32: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+322E8: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+322F0: LEA RSI,[RAX + RAX*0x1]        [488D3400] 
+322F4: MOV [0x1e8 + R12],RSI          [4989B424E8010000] 
+
+========

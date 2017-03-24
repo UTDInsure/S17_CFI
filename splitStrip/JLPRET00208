@@ -1,0 +1,14 @@
+
+
+22504: MOV RAX,[0x00368e68]           [488B055D693400] 
+2250B: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+22512: ADD RSP,0x18                   [4883C418] 
+22516: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+2251D: POP RBX                        [5B] 
+2251E: POP RBP                        [5D] 
+2251F: POP R12                        [415C] 
+22521: POP R13                        [415D] 
+22523: POP R14                        [415E] 
+22525: POP R15                        [415F] 
+
+========

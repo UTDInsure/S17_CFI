@@ -1,0 +1,9 @@
+
+
+20F94: TEST RDI,RDI                   [4885FF] 
+20F99: MOV EAX,EDX                    [89D0] 
+20F9B: SHR EAX,0x1f                   [C1E81F] 
+20F9E: TEST AL,AL                     [84C0] 
+21018: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

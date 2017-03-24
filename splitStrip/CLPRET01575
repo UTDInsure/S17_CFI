@@ -1,0 +1,22 @@
+
+
+35794: MOVD EAX,XMM0                  [660F7EC0] 
+35798: MOV EDX,EAX                    [89C2] 
+3579A: MOV dword ptr [RDI],0x0        [C70700000000] 
+357A0: AND EDX,0x7fffffff             [81E2FFFFFF7F] 
+357A8: CMP EDX,0x7f7fffff             [81FAFFFF7F7F] 
+357B0: XOR ECX,ECX                    [31C9] 
+357B2: CMP EDX,0x7fffff               [81FAFFFF7F00] 
+357BA: MULSS XMM0,[0x0013dd50]        [F30F59058E851000] 
+357C2: MOV ECX,0xffffffe7             [B9E7FFFFFF] 
+357C7: MOVD EAX,XMM0                  [660F7EC0] 
+357CB: MOV EDX,EAX                    [89C2] 
+357CD: AND EDX,0x7fffffff             [81E2FFFFFF7F] 
+357D3: SAR EDX,0x17                   [C1FA17] 
+357D6: AND EAX,0x807fffff             [25FFFF7F80] 
+357DB: LEA EDX,[RCX + RDX*0x1 + -0x7e] [8D541182] 
+357DF: OR EAX,0x3f000000              [0D0000003F] 
+357E4: MOVD XMM0,EAX                  [660F6EC0] 
+357E8: MOV [RDI],EDX                  [8917] 
+
+========

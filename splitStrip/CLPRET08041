@@ -1,0 +1,6 @@
+
+
+18754: TEST RDI,RDI                   [4885FF] 
+18759: MOVZX EAX,byte ptr [RDI + 0x26] [0FB64726] 
+
+========

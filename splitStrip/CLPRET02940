@@ -1,0 +1,12 @@
+
+
+76804: SUB RSP,0x8                    [4883EC08] 
+76808: TEST RDI,RDI                   [4885FF] 
+7680D: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+7681B: TEST EAX,EAX                   [85C0] 
+7681D: SETNZ AL                       [0F95C0] 
+76820: ADD RSP,0x8                    [4883C408] 
+76824: MOVZX EAX,AL                   [0FB6C0] 
+76827: NEG EAX                        [F7D8] 
+
+========

@@ -1,0 +1,15 @@
+
+
+D5A78: TEST EAX,EAX                   [85C0] 
+D5A7C: NOP                            [0F1F4000] 
+D5DD3: MOV RAX,[0x00368e68]           [488B058E302900] 
+D5DDA: MOV EAX,FS:[RAX]               [648B00] 
+D5DDD: LEA RSP,[RBP + -0x28]          [488D65D8] 
+D5DE1: POP RBX                        [5B] 
+D5DE2: POP R12                        [415C] 
+D5DE4: POP R13                        [415D] 
+D5DE6: POP R14                        [415E] 
+D5DE8: POP R15                        [415F] 
+D5DEA: POP RBP                        [5D] 
+
+========

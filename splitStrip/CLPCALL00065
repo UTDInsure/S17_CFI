@@ -1,0 +1,22 @@
+
+
+18074: PUSH R13                       [4155] 
+18076: PUSH R12                       [4154] 
+18078: PUSH RBP                       [55] 
+18079: MOV RBP,RDI                    [4889FD] 
+1807C: PUSH RBX                       [53] 
+1807D: MOV RBX,RSI                    [4889F3] 
+18080: SUB RSP,0x28                   [4883EC28] 
+18084: MOV RAX,[0x290 + RSI]          [488B8690020000] 
+1808B: MOV R12,[RSI]                  [4C8B26] 
+1808E: MOV R13,[RDI + 0x8]            [4C8B6F08] 
+18092: ADD R12,[RAX + 0x8]            [4C036008] 
+18096: MOV RAX,[RDI]                  [488B07] 
+18099: CMP R12,RAX                    [4939C4] 
+180B0: LEA RDI,[0x222968]             [488D3DB1A82000] 
+180C1: MOV RAX,[RBP]                  [488B4500] 
+180C5: CMP R12,RAX                    [4939C4] 
+180CA: NOP                            [660F1F440000] 
+180D0: LEA RDI,[0x222968]             [488D3D91A82000] 
+
+========

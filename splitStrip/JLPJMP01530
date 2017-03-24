@@ -1,0 +1,15 @@
+
+
+32944: MOV [RDX],BL                   [881A] 
+32946: MOVZX EBX,byte ptr [RBP]       [0FB65D00] 
+3294A: ADD RDX,0x1                    [4883C201] 
+3294E: MOV ECX,0x1                    [B901000000] 
+32953: TEST BL,BL                     [84DB] 
+32924: TEST CL,CL                     [84C9] 
+32928: LEA EAX,[RBX + -0x20]          [8D43E0] 
+3292B: CMP AL,0x58                    [3C58] 
+32933: MOVZX EAX,AL                   [0FB6C0] 
+32936: MOVSXD RAX,[R15 + RAX*0x4]     [49630487] 
+3293A: ADD RAX,R15                    [4C01F8] 
+
+========

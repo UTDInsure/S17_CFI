@@ -1,0 +1,10 @@
+
+
+E37B4: MOV EAX,0x7a                   [B87A000000] 
+E37BB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E37C4: MOV RCX,[0x00368e68]           [488B0D9D562800] 
+E37CB: NEG EAX                        [F7D8] 
+E37CD: MOV FS:[RCX],EAX               [648901] 
+E37D0: OR RAX,-0x1                    [4883C8FF] 
+
+========

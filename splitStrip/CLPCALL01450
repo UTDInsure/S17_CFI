@@ -1,0 +1,11 @@
+
+
+111BF4: SUB RSP,0x68                   [4883EC68] 
+111BF8: MOV RAX,[RDI + 0x8]            [488B4708] 
+111BFC: MOV [RSP + 0x20],ESI           [89742420] 
+111C00: MOV dword ptr [RSP + 0x8],0x1  [C744240801000000] 
+111C08: MOV RSI,RSP                    [4889E6] 
+111C0B: MOV dword ptr [RSP + 0x10],0x1 [C744241001000000] 
+111C13: MOV dword ptr [RSP + 0x18],0x1 [C744241801000000] 
+
+========

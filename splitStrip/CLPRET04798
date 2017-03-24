@@ -1,0 +1,14 @@
+
+
+D4484: PUSH RBP                       [55] 
+D4485: MOV RBP,RDI                    [4889FD] 
+D4488: PUSH RBX                       [53] 
+D4489: SUB RSP,0x8                    [4883EC08] 
+D448D: TEST RDI,RDI                   [4885FF] 
+D4492: MOV RDX,[RDI + 0x8]            [488B5708] 
+D4496: TEST RDX,RDX                   [4885D2] 
+D44DD: ADD RSP,0x8                    [4883C408] 
+D44E1: POP RBX                        [5B] 
+D44E2: POP RBP                        [5D] 
+
+========

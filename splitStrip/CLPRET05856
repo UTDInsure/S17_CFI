@@ -1,0 +1,10 @@
+
+
+E5144: MOV EAX,0x1d                   [B81D000000] 
+E514B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E5154: MOV RCX,[0x00368e68]           [488B0D0D3D2800] 
+E515B: NEG EAX                        [F7D8] 
+E515D: MOV FS:[RCX],EAX               [648901] 
+E5160: OR RAX,-0x1                    [4883C8FF] 
+
+========

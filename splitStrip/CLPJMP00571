@@ -1,0 +1,20 @@
+
+
+4159D4: PUSH R12                       [4154] 
+4159D6: MOV R12D,EDX                   [4189D4] 
+4159D9: PUSH RBP                       [55] 
+4159DA: MOV RBP,RSI                    [4889F5] 
+4159DD: PUSH RBX                       [53] 
+4159DE: MOV RBX,RDI                    [4889FB] 
+4159E1: SUB RSP,0x10                   [4883EC10] 
+4159E5: TEST RSI,RSI                   [4885F6] 
+415B08: MOV dword ptr [RDI],0x0        [48C70700000000] 
+415A0A: MOV RDI,[RBX + 0x8]            [488B7B08] 
+415A0E: TEST RDI,RDI                   [4885FF] 
+415A1C: TEST RBP,RBP                   [4885ED] 
+415A1F: MOV dword ptr [RBX + 0x8],0x0  [48C7430800000000] 
+415A5C: MOV [RBX + 0x10],R12D          [44896310] 
+415A60: MOV RDI,RBP                    [4889EF] 
+415A63: MOV [RSP + 0x8],RBP            [48896C2408] 
+
+========

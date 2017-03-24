@@ -1,0 +1,7 @@
+
+
+DADC4: CMP EDX,0x4                    [83FA04] 
+DADC9: MOV [RSI + 0x66],DX            [66895666] 
+DADCD: XOR EAX,EAX                    [31C0] 
+
+========

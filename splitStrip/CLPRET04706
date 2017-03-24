@@ -1,0 +1,9 @@
+
+
+CA524: TEST EDX,EDX                   [85D2] 
+CA528: AND [RDI + 0x38],0xf9          [806738F9] 
+CA52C: MOV dword ptr [RSI],0x0        [C70600000000] 
+CA532: MOV dword ptr [RSI + 0x10],0x0 [48C7461000000000] 
+CA53A: MOV dword ptr [RSI + 0x8],0x0  [48C7460800000000] 
+
+========

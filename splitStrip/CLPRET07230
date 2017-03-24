@@ -1,0 +1,15 @@
+
+
+1120F4: MOV RAX,[0x00368e68]           [488B056D6D2500] 
+1120FB: CMP dword ptr FS:[RAX],0x18    [64833818] 
+112108: SUB RSP,0x18                   [4883EC18] 
+11210C: XOR ESI,ESI                    [31F6] 
+11210E: MOV RDI,RSP                    [4889E7] 
+112111: MOV dword ptr [RSP],0x0        [48C7042400000000] 
+112119: MOV dword ptr [RSP + 0x8],0x2faf080 [48C744240880F0FA02] 
+B2EC4: CMP dword ptr [0x0036e774],0x0 [833DA9B82B0000] 
+B2ED1: MOV EAX,0x23                   [B823000000] 
+B2ED8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+11212B: ADD RSP,0x18                   [4883C418] 
+
+========

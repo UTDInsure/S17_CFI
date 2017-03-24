@@ -1,0 +1,14 @@
+
+
+40F3C4: PUSH RBP                       [55] 
+40F3C5: XOR EBP,EBP                    [31ED] 
+40F3C7: PUSH RBX                       [53] 
+40F3C8: MOV RBX,RDI                    [4889FB] 
+40F3CB: SUB RSP,0x8                    [4883EC08] 
+40F3CF: CMP RDI,0x7f                   [4883FF7F] 
+40F3D5: XOR EAX,EAX                    [31C0] 
+40F054: SUB RSP,0x8                    [4883EC08] 
+40F058: MOVSX ESI,DIL                  [400FBEF7] 
+40F05C: MOV RDI,[0x006286a8]           [488B3D45962100] 
+
+========

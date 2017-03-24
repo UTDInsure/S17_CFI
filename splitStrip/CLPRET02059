@@ -1,0 +1,12 @@
+
+
+3FC34: SUB RSP,0x8                    [4883EC08] 
+3FC38: CMP R8D,0x400                  [4181F800040000] 
+3FC43: CMP R8D,0x800                  [4181F800080000] 
+3FC60: OR EDX,ECX                     [09CA] 
+3FC62: XOR EAX,EAX                    [31C0] 
+3FC64: TEST DIL,DIL                   [4084FF] 
+3FC67: CMOVZ EAX,EDX                  [0F44C2] 
+3FC6A: ADD RSP,0x8                    [4883C408] 
+
+========

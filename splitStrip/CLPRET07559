@@ -1,0 +1,18 @@
+
+
+118F14: PUSH R14                       [4156] 
+118F16: CMP RSI,0x400                  [4881FE00040000] 
+118F1D: PUSH R13                       [4155] 
+118F1F: MOV R13,RCX                    [4989CD] 
+118F22: MOV ECX,0xffffffff             [B9FFFFFFFF] 
+118F27: PUSH R12                       [4154] 
+118F29: PUSH RBP                       [55] 
+118F2A: PUSH RBX                       [53] 
+118F96: POP RBX                        [5B] 
+118F97: POP RBP                        [5D] 
+118F98: POP R12                        [415C] 
+118F9A: POP R13                        [415D] 
+118F9C: MOV EAX,ECX                    [89C8] 
+118F9E: POP R14                        [415E] 
+
+========

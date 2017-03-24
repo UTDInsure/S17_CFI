@@ -1,0 +1,23 @@
+
+
+35DE4: PUSH R14                       [4156] 
+35DE6: LEA RAX,[RDI + -0x1]           [488D47FF] 
+35DEA: PUSH R13                       [4155] 
+35DEC: PUSH R12                       [4154] 
+35DEE: PUSH RBP                       [55] 
+35DEF: XOR EBP,EBP                    [31ED] 
+35DF1: CMP RAX,-0x3                   [4883F8FD] 
+35DF5: PUSH RBX                       [53] 
+35DF6: MOV RBX,RDI                    [4889FB] 
+35DFF: LEA RAX,[RSI + -0x1]           [488D46FF] 
+35E03: MOV R12,RSI                    [4989F4] 
+35E06: MOV EBP,0x1                    [BD01000000] 
+35E0B: CMP RAX,-0x3                   [4883F8FD] 
+35E90: POP RBX                        [5B] 
+35E91: MOV EAX,EBP                    [89E8] 
+35E93: POP RBP                        [5D] 
+35E94: POP R12                        [415C] 
+35E96: POP R13                        [415D] 
+35E98: POP R14                        [415E] 
+
+========

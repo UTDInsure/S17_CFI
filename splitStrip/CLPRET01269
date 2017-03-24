@@ -1,0 +1,23 @@
+
+
+23214: PUSH RBP                       [55] 
+23215: PUSH RBX                       [53] 
+23216: MOV RBX,RDI                    [4889FB] 
+23219: SUB RSP,0x8                    [4883EC08] 
+2321D: MOV RDI,[RDI]                  [488B3F] 
+23220: TEST RDI,RDI                   [4885FF] 
+23225: SUB dword ptr [RBX + 0x10],0x1 [836B1001] 
+2322B: MOV RBP,[RBX + 0x40]           [488B6B40] 
+2322F: TEST RBP,RBP                   [4885ED] 
+2BB74: SUB RSP,0x8                    [4883EC08] 
+2BB78: MOV [0x0036a928],RDI           [48893DA9ED3300] 
+2BB7F: MOV RDI,[0x0036a930]           [488B3DAAED3300] 
+2BB86: LEA RSI,[0x2bae0]              [488D3553FFFFFF] 
+E1B24: TEST RDI,RDI                   [4885FF] 
+2BB96: ADD RSP,0x8                    [4883C408] 
+23262: MOV dword ptr [RBX],0x0        [48C70300000000] 
+23269: ADD RSP,0x8                    [4883C408] 
+2326D: POP RBX                        [5B] 
+2326E: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,12 @@
+
+
+354F4: MOV RDX,0x7fffffffffffffff     [48BAFFFFFFFFFFFFFF7F] 
+354FE: SUB RSP,0x8                    [4883EC08] 
+35502: MOVQ RAX,XMM0                  [66480F7EC0] 
+35507: AND RAX,RDX                    [4821D0] 
+3550A: MOV RDX,0x7fefffffffffffff     [48BAFFFFFFFFFFFFEF7F] 
+35514: CMP RAX,RDX                    [4839D0] 
+35517: MOVAPD XMM1,XMM0               [660F28C8] 
+3552D: ADD RSP,0x8                    [4883C408] 
+
+========

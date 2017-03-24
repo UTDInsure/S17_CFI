@@ -1,0 +1,13 @@
+
+
+77F14: PUSH R12                       [4154] 
+77F16: PUSH RBP                       [55] 
+77F17: PUSH RBX                       [53] 
+77F18: MOV EAX,[RDI + 0x70]           [8B4770] 
+77F1B: MOV RBX,RDI                    [4889FB] 
+77F1E: CMP EAX,-0x1                   [83F8FF] 
+78032: POP RBX                        [5B] 
+78033: POP RBP                        [5D] 
+78034: POP R12                        [415C] 
+
+========

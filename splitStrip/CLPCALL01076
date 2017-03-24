@@ -1,0 +1,11 @@
+
+
+F0144: MOV ESI,[0x0036e770]           [8B3526E62700] 
+F014A: XOR EAX,EAX                    [31C0] 
+F014C: TEST ESI,ESI                   [85F6] 
+F0158: SUB RSP,0x8                    [4883EC08] 
+F015C: MOV RAX,[0x0036e5d0]           [488B056DE42700] 
+F0163: ROR RAX,0x11                   [48C1C811] 
+F0167: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

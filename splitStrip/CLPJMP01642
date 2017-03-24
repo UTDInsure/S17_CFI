@@ -1,0 +1,18 @@
+
+
+10F304: PUSH R15                       [4157] 
+10F306: MOV R15,RDI                    [4989FF] 
+10F309: MOV EDI,0x18                   [BF18000000] 
+10F30E: PUSH R14                       [4156] 
+10F310: PUSH R13                       [4155] 
+10F312: MOV R13,RSI                    [4989F5] 
+10F315: PUSH R12                       [4154] 
+10F317: MOV R12,RDX                    [4989D4] 
+10F31A: PUSH RBP                       [55] 
+10F31B: MOV RBP,RCX                    [4889CD] 
+10F31E: PUSH RBX                       [53] 
+10F31F: SUB RSP,0x78                   [4883EC78] 
+10F323: MOV [RSP + 0x8],R8D            [4489442408] 
+10F328: MOV [RSP + 0xc],R9D            [44894C240C] 
+
+========

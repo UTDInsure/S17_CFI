@@ -1,0 +1,6 @@
+
+
+100B24: CMP byte ptr [RDI + 0x2],0x0   [807F0200] 
+100B50: XOR EAX,EAX                    [31C0] 
+
+========

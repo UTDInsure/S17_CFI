@@ -1,0 +1,20 @@
+
+
+1EF74: PUSH R12                       [4154] 
+1EF76: PUSH RBP                       [55] 
+1EF77: PUSH RBX                       [53] 
+1EF78: MOV RBX,[0x0024a7a0]           [488B1D21B82200] 
+1EF7F: CMP dword ptr [RBX],0x0        [48833B00] 
+1EF89: MOV RAX,[0x0024a880]           [488B05F0B82200] 
+1EF90: MOV RBP,RDI                    [4889FD] 
+1EF93: MOV RAX,[RAX]                  [488B00] 
+1EF96: MOV RDX,[RAX + 0x20]           [488B5020] 
+1EF9A: CMP dword ptr [0x140 + RDX],0x0 [4883BA4001000000] 
+1EFA4: MOV RAX,[RAX + 0x10]           [488B4010] 
+1EFA8: CMP byte ptr [RAX + 0x18],0x0  [80781800] 
+1F030: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1F025: POP RBX                        [5B] 
+1F026: POP RBP                        [5D] 
+1F027: POP R12                        [415C] 
+
+========

@@ -1,0 +1,10 @@
+
+
+2ED54: MOV RAX,[0x00368dc0]           [488B0565A03300] 
+2ED5B: MOVSXD RDI,EDI                 [4863FF] 
+2ED5E: MOV RAX,FS:[RAX]               [64488B00] 
+2ED62: MOV RAX,[RAX]                  [488B00] 
+2ED65: MOV RAX,[RAX + 0x48]           [488B4048] 
+2ED69: MOV EAX,[0x200 + RAX + RDI*0x4] [8B84B800020000] 
+
+========

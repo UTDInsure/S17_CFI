@@ -1,0 +1,6 @@
+
+
+1151F4: XOR EAX,EAX                    [31C0] 
+1151F6: TEST RSI,RSI                   [4885F6] 
+
+========

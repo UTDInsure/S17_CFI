@@ -1,0 +1,10 @@
+
+
+76BB4: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+76BBB: PUSH RBX                       [53] 
+76BBC: MOV RBX,RDI                    [4889FB] 
+76BC9: TEST RAX,RAX                   [4885C0] 
+76BE0: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+76BE7: POP RBX                        [5B] 
+
+========

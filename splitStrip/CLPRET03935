@@ -1,0 +1,17 @@
+
+
+95CF4: CMP RDX,0x3                    [4883FA03] 
+95CF8: MOV RAX,RDI                    [4889F8] 
+95CFB: LEA RCX,[RDI + -0x4]           [488D4FFC] 
+95D90: AND EDX,0x3                    [83E203] 
+95DA5: ADD RSI,0x4                    [4883C604] 
+95DA9: MOV R8D,[RSI + -0x4]           [448B46FC] 
+95DAD: ADD RCX,0x4                    [4883C104] 
+95DB1: SUB RDX,0x1                    [4883EA01] 
+95DB5: MOV [RCX],R8D                  [448901] 
+95DA0: TEST R8D,R8D                   [4585C0] 
+95D78: ADD RCX,0x4                    [4883C104] 
+95D7C: SUB RDX,0x1                    [4883EA01] 
+95D80: MOV dword ptr [RCX],0x0        [C70100000000] 
+
+========

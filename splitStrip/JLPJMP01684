@@ -1,0 +1,18 @@
+
+
+338AA: MOV EAX,[0x1d8 + R12]          [418B8424D8010000] 
+338B2: TEST EAX,EAX                   [85C0] 
+338BA: SUB EAX,0x1                    [83E801] 
+338BD: LEA RDI,[0x24bd14]             [488D3D50842100] 
+338C4: MOV [0x1d8 + R12],EAX          [41898424D8010000] 
+338CC: CDQE                           [4898] 
+338CE: ADD RAX,0x9                    [4883C009] 
+338D2: SHL RAX,0x4                    [48C1E004] 
+338D6: ADD RAX,R12                    [4C01E0] 
+338D9: CMP byte ptr [RAX + 0x10],0x0  [80781000] 
+338DF: MOV RDI,[RAX + 0x8]            [488B7808] 
+338E3: LEA RAX,[0x24bd14]             [488D052A842100] 
+338EA: TEST RDI,RDI                   [4885FF] 
+338ED: CMOVZ RDI,RAX                  [480F44F8] 
+
+========

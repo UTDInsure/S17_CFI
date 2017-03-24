@@ -1,0 +1,21 @@
+
+
+1F56F: MOV RAX,[RDI]                  [488B07] 
+1F572: MOV R8D,0x7fffffff             [41B8FFFFFF7F] 
+1F578: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+1F57B: SUB EAX,0x30                   [83E830] 
+1F57E: MOV RDX,[RDI]                  [488B17] 
+1F581: LEA RCX,[RDX + 0x1]            [488D4A01] 
+1F585: MOV [RDI],RCX                  [48890F] 
+1F588: MOVZX EDX,byte ptr [RDX + 0x1] [0FB65201] 
+1F58C: SUB EDX,0x30                   [83EA30] 
+1F58F: CMP EDX,0x9                    [83FA09] 
+1F594: TEST EAX,EAX                   [85C0] 
+1F57E: MOV RDX,[RDI]                  [488B17] 
+1F581: LEA RCX,[RDX + 0x1]            [488D4A01] 
+1F585: MOV [RDI],RCX                  [48890F] 
+1F588: MOVZX EDX,byte ptr [RDX + 0x1] [0FB65201] 
+1F58C: SUB EDX,0x30                   [83EA30] 
+1F58F: CMP EDX,0x9                    [83FA09] 
+
+========

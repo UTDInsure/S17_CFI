@@ -1,0 +1,13 @@
+
+
+189A4: CMP EDI,0x1                    [83FF01] 
+189A7: MOV RAX,RSI                    [4889F0] 
+189AC: MOV RDI,RAX                    [4889C7] 
+189AF: MOV RSI,RDX                    [4889D6] 
+189B2: MOV EAX,0x4                    [B804000000] 
+189B9: CMP RAX,0xfffff000             [483D00F0FFFF] 
+189D8: NEG EAX                        [F7D8] 
+189DA: MOV [0x00223160],EAX           [890580A72000] 
+189E0: OR RAX,-0x1                    [4883C8FF] 
+
+========

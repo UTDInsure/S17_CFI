@@ -1,0 +1,11 @@
+
+
+2DFA4: MOV RAX,[0x0024a880]           [488B05D5C82100] 
+2DFAB: MOV RAX,[RAX]                  [488B00] 
+2DFAE: TEST RAX,RAX                   [4885C0] 
+2DFB3: MOV RAX,[RAX + 0x20]           [488B4020] 
+2DFB7: CMP dword ptr [0x1a0 + RAX],0x0 [4883B8A001000000] 
+2DFC1: CMP dword ptr [0xa8 + RAX],0x0 [4883B8A800000000] 
+2DFCB: MOV EAX,0x1                    [B801000000] 
+
+========

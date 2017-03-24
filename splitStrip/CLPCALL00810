@@ -1,0 +1,12 @@
+
+
+AE044: CMP ESI,0x1                    [83FE01] 
+AE050: SUB RSP,0x8                    [4883EC08] 
+AE054: MOV RAX,[0x00368e18]           [488B05BDAD2B00] 
+AE05B: MOV RSI,RDI                    [4889FE] 
+AE05E: XOR EDI,EDI                    [31FF] 
+AE060: MOV RAX,[RAX]                  [488B00] 
+AE063: ROR RAX,0x11                   [48C1C811] 
+AE067: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

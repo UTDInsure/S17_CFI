@@ -1,0 +1,7 @@
+
+
+937F4: MOVSX EAX,byte ptr [RDI]       [0FBE07] 
+937F7: TEST AL,AL                     [84C0] 
+9382E: XOR EAX,EAX                    [31C0] 
+
+========

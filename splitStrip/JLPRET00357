@@ -1,0 +1,26 @@
+
+
+6BA04: MOVZX EAX,byte ptr [RBX + 0xc] [0FB6430C] 
+6BA08: TEST AL,0x4                    [A804] 
+6BB3D: TEST AL,0x2                    [A802] 
+6BB41: MOV dword ptr [RBX + 0x34],0x400 [C7433400040000] 
+6B950: CMP dword ptr [RBX + 0x30],-0x1 [837B30FF] 
+6B9A0: MOV RAX,[RBX + 0x38]           [488B4338] 
+6B9A4: TEST RAX,RAX                   [4885C0] 
+6B9A9: ADD R13,RAX                    [4901C5] 
+6B9AC: TEST EDX,EDX                   [85D2] 
+6B9AE: MOV [RBX + 0x30],R12D          [44896330] 
+6B9B4: NOP                            [0F1F4000] 
+6B9B8: MOV RAX,[RSP + 0x8]            [488B442408] 
+6B9BD: SUB RAX,0x4                    [4883E804] 
+6B9C1: MOV [RBX + 0x20],RAX           [48894320] 
+6B9C5: MOV [RBX + 0x18],RAX           [48894318] 
+6B9C9: ADD RSP,0x10                   [4883C410] 
+6B9CD: POP RBX                        [5B] 
+6B9CE: POP RBP                        [5D] 
+6B9CF: POP R12                        [415C] 
+6B9D1: MOV RAX,R13                    [4C89E8] 
+6B9D4: POP R13                        [415D] 
+6B9D6: POP R14                        [415E] 
+
+========

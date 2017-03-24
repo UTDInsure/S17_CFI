@@ -1,0 +1,16 @@
+
+
+8ECE4: LEA RAX,[RSI + -0x10]          [488D46F0] 
+8ECE8: LEA RCX,[RDI + -0x8]           [488D4FF8] 
+8ECEC: MOV RSI,[RSI + -0x8]           [488B76F8] 
+8ECF0: ADD RDX,0x6                    [4883C206] 
+8ECF4: MOV RDI,RCX                    [4889CF] 
+8ECF7: MOV R8,RAX                     [4989C0] 
+8ECFA: SUB RDX,0x8                    [4883EA08] 
+8ECFE: MOV R9,[R8]                    [4D8B08] 
+8ED01: MOV [RDI],RSI                  [488937] 
+8ED04: LEA RDI,[RCX + -0x40]          [488D79C0] 
+8ED0E: NOP                            [6690] 
+8ED10: MOV [RDI + 0x38],R9            [4C894F38] 
+
+========

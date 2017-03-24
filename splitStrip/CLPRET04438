@@ -1,0 +1,9 @@
+
+
+B4884: TEST EDI,EDI                   [85FF] 
+B4888: MOV RAX,[RSI]                  [488B06] 
+B488B: CMP RAX,0xadf5                 [483DF5AD0000] 
+B4895: CMP RAX,0x1badface             [483DCEFAAD1B] 
+B48E0: XOR EAX,EAX                    [31C0] 
+
+========

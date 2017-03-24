@@ -1,0 +1,26 @@
+
+
+6B924: OR byte ptr [RBX + 0xc],0x4    [804B0C04] 
+6B928: MOV ECX,[RDX + 0x4]            [8B4A04] 
+6B92B: CMP ECX,0x6c                   [83F96C] 
+6B8E8: LEA RSI,[RDX + 0x8]            [488D7208] 
+6B8F0: OR byte ptr [RBX + 0xc],0x1    [804B0C01] 
+6B8F4: LEA RAX,[RSI + 0x4]            [488D4604] 
+6B8F8: MOV EDX,[RSI]                  [8B16] 
+6B7DF: CMP dword ptr [0x0036e4c8],0x0 [48833DE12C300000] 
+6B7E7: MOV [RSP + 0x8],RAX            [4889442408] 
+6B7EC: MOV [RBX + 0x8],EDX            [895308] 
+6B7EF: MOV dword ptr [RBX + 0x40],0xffffffff [C74340FFFFFFFF] 
+6BC08: CMP EDX,0xff                   [81FAFF000000] 
+6BC14: MOV RAX,[0x0036a750]           [488B0535EB2F00] 
+6BC1B: MOVSXD RCX,EDX                 [4863CA] 
+6BC1E: MOV RAX,[RAX + RCX*0x8]        [488B04C8] 
+6BC22: TEST RAX,RAX                   [4885C0] 
+6B7FC: LEA ECX,[RDX + -0x41]          [8D4ABF] 
+6B7FF: MOV dword ptr [RBX + 0x38],0x1 [48C7433801000000] 
+6B807: CMP ECX,0x37                   [83F937] 
+6B810: LEA RSI,[0x13085c]             [488D3545500C00] 
+6B817: MOVSXD RAX,[RSI + RCX*0x4]     [4863048E] 
+6B81B: ADD RSI,RAX                    [4801C6] 
+
+========

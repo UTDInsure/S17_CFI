@@ -1,0 +1,11 @@
+
+
+F0444: MOV ECX,[0x0036e770]           [8B0D26E32700] 
+F044A: XOR EAX,EAX                    [31C0] 
+F044C: TEST ECX,ECX                   [85C9] 
+F0458: SUB RSP,0x8                    [4883EC08] 
+F045C: MOV RAX,[0x0036e630]           [488B05CDE12700] 
+F0463: ROR RAX,0x11                   [48C1C811] 
+F0467: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

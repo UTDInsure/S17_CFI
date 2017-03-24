@@ -1,0 +1,17 @@
+
+
+52D55: CMP dword ptr [-0x10c8 + RBP],0x0 [83BD38EFFFFF00] 
+52D5C: MOV EAX,0x30                   [B830000000] 
+52D61: CMOVNZ EAX,[-0x10f4 + RBP]     [0F45850CEFFFFF] 
+52D68: MOV [-0x10f4 + RBP],EAX        [89850CEFFFFF] 
+52D6E: MOV RAX,[-0x1070 + RBP]        [488B8590EFFFFF] 
+52D75: LEA RDX,[RAX + 0x4]            [488D5004] 
+52D79: MOV EAX,[RAX + 0x4]            [8B4004] 
+52D7C: MOV [-0x1070 + RBP],RDX        [48899590EFFFFF] 
+52D83: LEA EDX,[RAX + -0x20]          [8D50E0] 
+52D86: MOV [-0x10c0 + RBP],EAX        [898540EFFFFF] 
+52D8C: XOR EAX,EAX                    [31C0] 
+52D8E: CMP EDX,0x5a                   [83FA5A] 
+52B64: ADD RAX,R13                    [4C01E8] 
+
+========

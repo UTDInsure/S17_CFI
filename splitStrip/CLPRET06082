@@ -1,0 +1,25 @@
+
+
+E8D44: PUSH R12                       [4154] 
+E8D46: MOV RAX,RDI                    [4889F8] 
+E8D49: MOV RDI,RDX                    [4889D7] 
+E8D4C: MOV RDX,RCX                    [4889CA] 
+E8D4F: MOV R12,R8                     [4D89C4] 
+E8D52: PUSH RBP                       [55] 
+E8D53: MOV RBP,RSI                    [4889F5] 
+E8D56: MOV RSI,RAX                    [4889C6] 
+E8D59: PUSH RBX                       [53] 
+E8D5A: LEA RBX,[RDI + RCX*0x1 + -0x1] [488D5C0FFF] 
+E8D5F: MOV byte ptr [RBX],0x0         [C60300] 
+87404: CMP RDX,0x3                    [4883FA03] 
+87408: MOV RAX,RDI                    [4889F8] 
+8740B: LEA RCX,[RDI + -0x1]           [488D4FFF] 
+874A0: AND EDX,0x3                    [83E203] 
+E8D6B: CMP byte ptr [RBX],0x0         [803B00] 
+E8D6E: MOV RDI,RAX                    [4889C7] 
+E8D71: MOV EAX,0x22                   [B822000000] 
+E8D78: POP RBX                        [5B] 
+E8D79: POP RBP                        [5D] 
+E8D7A: POP R12                        [415C] 
+
+========

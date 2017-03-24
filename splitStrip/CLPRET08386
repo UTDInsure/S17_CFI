@@ -1,0 +1,6 @@
+
+
+2A114: CMP EDI,0x2                    [83FF02] 
+2A138: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

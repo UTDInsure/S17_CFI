@@ -1,0 +1,15 @@
+
+
+93904: XOR EAX,EAX                    [31C0] 
+93914: MOVSX ECX,byte ptr [RDI + RAX*0x1] [0FBE0C07] 
+93918: CMP ECX,ESI                    [39F1] 
+9391C: CMP ECX,EDX                    [39D1] 
+93910: ADD RAX,0x1                    [4883C001] 
+93914: MOVSX ECX,byte ptr [RDI + RAX*0x1] [0FBE0C07] 
+93918: CMP ECX,ESI                    [39F1] 
+93910: ADD RAX,0x1                    [4883C001] 
+93914: MOVSX ECX,byte ptr [RDI + RAX*0x1] [0FBE0C07] 
+93918: CMP ECX,ESI                    [39F1] 
+9391C: CMP ECX,EDX                    [39D1] 
+
+========

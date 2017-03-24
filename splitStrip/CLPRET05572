@@ -1,0 +1,14 @@
+
+
+E34F4: PUSH RBP                       [55] 
+E34F5: PUSH RBX                       [53] 
+E34F6: MOV RBX,RSI                    [4889F3] 
+E34F9: SUB RSP,0x8                    [4883EC08] 
+E34FD: TEST RSI,RSI                   [4885F6] 
+E3502: MOV RBP,[RSI]                  [488B2E] 
+E3505: TEST RBP,RBP                   [4885ED] 
+E353B: ADD RSP,0x8                    [4883C408] 
+E353F: POP RBX                        [5B] 
+E3540: POP RBP                        [5D] 
+
+========

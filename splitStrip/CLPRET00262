@@ -1,0 +1,28 @@
+
+
+17484: TEST ECX,ECX                   [85C9] 
+17488: MOV RAX,RDI                    [4889F8] 
+1748B: LEA RDI,[0x1b6e0]              [488D3D4E420000] 
+17492: MOV ECX,EDX                    [89D1] 
+17494: NOP                            [0F1F4000] 
+17498: XOR EDX,EDX                    [31D2] 
+1749A: SUB RSI,0x1                    [4883EE01] 
+1749E: DIV RCX                        [48F7F1] 
+174A1: MOVZX EDX,byte ptr [RDI + RDX*0x1] [0FB61417] 
+174A5: TEST RAX,RAX                   [4885C0] 
+174A8: MOV [RSI],DL                   [8816] 
+17498: XOR EDX,EDX                    [31D2] 
+1749A: SUB RSI,0x1                    [4883EE01] 
+1749E: DIV RCX                        [48F7F1] 
+174A1: MOVZX EDX,byte ptr [RDI + RDX*0x1] [0FB61417] 
+174A5: TEST RAX,RAX                   [4885C0] 
+174A8: MOV [RSI],DL                   [8816] 
+17498: XOR EDX,EDX                    [31D2] 
+1749A: SUB RSI,0x1                    [4883EE01] 
+1749E: DIV RCX                        [48F7F1] 
+174A1: MOVZX EDX,byte ptr [RDI + RDX*0x1] [0FB61417] 
+174A5: TEST RAX,RAX                   [4885C0] 
+174A8: MOV [RSI],DL                   [8816] 
+174AC: MOV RAX,RSI                    [4889F0] 
+
+========

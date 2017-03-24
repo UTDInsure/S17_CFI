@@ -1,0 +1,9 @@
+
+
+79AD4: SUB RSP,0x8                    [4883EC08] 
+79AD8: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+79ADF: MOV ECX,EDX                    [89D1] 
+79AE1: XOR EDX,EDX                    [31D2] 
+79AEA: ADD RSP,0x8                    [4883C408] 
+
+========

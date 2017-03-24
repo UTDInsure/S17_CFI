@@ -1,0 +1,16 @@
+
+
+2E5C4: PUSH R12                       [4154] 
+2E5C6: LEA RAX,[0x367ae0]             [488D0513953300] 
+2E5CD: MOV R12,RDI                    [4989FC] 
+2E5D0: PUSH RBP                       [55] 
+2E5D1: CMP RDI,RAX                    [4839C7] 
+2E5D4: PUSH RBX                       [53] 
+2E5D7: MOV EDX,[0x0036e770]           [8B1593013400] 
+2E5DD: TEST EDX,EDX                   [85D2] 
+2E638: MOV RAX,[0x0036e708]           [488B05C9003400] 
+2E63F: LEA RDI,[0x36a940]             [488D3DFAC23300] 
+2E646: ROR RAX,0x11                   [48C1C811] 
+2E64A: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

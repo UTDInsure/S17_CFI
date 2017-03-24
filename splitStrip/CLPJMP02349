@@ -1,0 +1,27 @@
+
+
+2EC44: PUSH RBX                       [53] 
+2EC45: SUB RSP,0x40                   [4883EC40] 
+2EC49: MOV RAX,[0x0024a880]           [488B0530BC2100] 
+2EC50: MOV RBX,[RAX]                  [488B18] 
+2EC53: TEST RBX,RBX                   [4885DB] 
+2EC5C: MOV RAX,[0x88 + RBX]           [488B8388000000] 
+2EC63: MOV RDI,RSP                    [4889E7] 
+2EC66: MOV [RSP],RAX                  [48890424] 
+2EC6A: MOV RAX,[0x90 + RBX]           [488B8390000000] 
+2EC71: MOV [RSP + 0x8],RAX            [4889442408] 
+2EC76: MOV RAX,[0x98 + RBX]           [488B8398000000] 
+2EC7D: AND [RSP + 0xc],0xffffff7f     [8164240C7FFFFFFF] 
+2EC85: MOV [RSP + 0x10],RAX           [4889442410] 
+2EC8A: MOV RAX,[0xa0 + RBX]           [488B83A0000000] 
+2EC91: MOV [RSP + 0x18],RAX           [4889442418] 
+2EC96: MOV RAX,[0xa8 + RBX]           [488B83A8000000] 
+2EC9D: MOV [RSP + 0x20],RAX           [4889442420] 
+2ECA2: MOV RAX,[0xb0 + RBX]           [488B83B0000000] 
+2ECA9: MOV [RSP + 0x28],RAX           [4889442428] 
+2ECAE: MOV RAX,[0xb8 + RBX]           [488B83B8000000] 
+2ECB5: MOV [RSP + 0x30],RAX           [4889442430] 
+2ECBA: MOV EAX,[0xc0 + RBX]           [8B83C0000000] 
+2ECC0: MOV [RSP + 0x38],EAX           [89442438] 
+
+========

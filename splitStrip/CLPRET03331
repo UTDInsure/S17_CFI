@@ -1,0 +1,22 @@
+
+
+7E8E4: PUSH RBP                       [55] 
+7E8E5: MOV RBP,RSI                    [4889F5] 
+7E8E8: PUSH RBX                       [53] 
+7E8E9: MOV RBX,RDI                    [4889FB] 
+7E8EC: SUB RSP,0x8                    [4883EC08] 
+7E8F0: CMP RDI,0x10                   [4883FF10] 
+7EA28: MOV RDI,RBP                    [4889EF] 
+7EA2B: XOR ESI,ESI                    [31F6] 
+7E5D4: CMP RDI,-0x1                   [4883FFFF] 
+7E5D8: PUSH RBX                       [53] 
+7E5D9: MOV RBX,RDI                    [4889FB] 
+7E6A0: MOV RAX,[0x00368e68]           [488B05C1A72E00] 
+7E6A7: MOV dword ptr FS:[RAX],0xc     [64C7000C000000] 
+7E6AE: XOR EAX,EAX                    [31C0] 
+7E6B0: POP RBX                        [5B] 
+7EA36: ADD RSP,0x8                    [4883C408] 
+7EA3A: POP RBX                        [5B] 
+7EA3B: POP RBP                        [5D] 
+
+========

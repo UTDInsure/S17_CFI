@@ -1,0 +1,8 @@
+
+
+1DC54: XOR EAX,EAX                    [31C0] 
+1DC56: TEST RDI,RDI                   [4885FF] 
+1DC5B: TEST byte ptr [RDI + 0xc],0x10 [F6470C10] 
+1DC61: SUB RSP,0x8                    [4883EC08] 
+
+========

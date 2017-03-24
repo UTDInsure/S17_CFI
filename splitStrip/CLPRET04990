@@ -1,0 +1,6 @@
+
+
+D72C4: MOV EAX,0x21                   [B821000000] 
+D72CB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

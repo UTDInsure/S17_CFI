@@ -1,0 +1,6 @@
+
+
+D83D4: MOV EAX,0x58                   [B858000000] 
+D83DB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

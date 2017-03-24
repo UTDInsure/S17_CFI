@@ -1,0 +1,19 @@
+
+
+2EFD4: MOV RAX,[0x00368dc0]           [488B05E59D3300] 
+2EFDB: MOV RDX,[0x00368e00]           [488B151E9E3300] 
+2EFE2: MOV RAX,FS:[RAX]               [64488B00] 
+2EFE6: MOV RAX,[RAX]                  [488B00] 
+2EFE9: MOV RSI,[RAX + 0x40]           [488B7040] 
+2EFED: MOV RDI,[RAX + 0x48]           [488B7848] 
+2EFF1: LEA RCX,[0x100 + RSI]          [488D8E00010000] 
+2EFF8: MOV FS:[RDX],RCX               [6448890A] 
+2EFFC: MOV RDX,[0x00368ed8]           [488B15D59E3300] 
+2F003: LEA RCX,[0x200 + RDI]          [488D8F00020000] 
+2F00A: MOV FS:[RDX],RCX               [6448890A] 
+2F00E: MOV RDX,[RAX + 0x58]           [488B5058] 
+2F012: MOV RAX,[0x00368f20]           [488B05079F3300] 
+2F019: ADD RDX,0x200                  [4881C200020000] 
+2F020: MOV FS:[RAX],RDX               [64488910] 
+
+========

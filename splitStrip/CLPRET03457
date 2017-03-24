@@ -1,0 +1,7 @@
+
+
+83794: MOV RAX,[RDI + 0x8]            [488B4708] 
+83798: TEST RAX,RAX                   [4885C0] 
+837B3: XOR EAX,EAX                    [31C0] 
+
+========

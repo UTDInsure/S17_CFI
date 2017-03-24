@@ -1,0 +1,19 @@
+
+
+1EA64: PUSH RBP                       [55] 
+1EA65: PUSH RBX                       [53] 
+1EA66: MOV RBX,RDI                    [4889FB] 
+1EA69: SUB RSP,0xd8                   [4881ECD8000000] 
+1EA70: TEST AL,AL                     [84C0] 
+1EA72: MOV [RSP + 0x40],R8            [4C89442440] 
+1EA77: MOV [RSP + 0x48],R9            [4C894C2448] 
+1EAB5: LEA RAX,[0xf0 + RSP]           [488D8424F0000000] 
+1EABD: MOV RDI,RBX                    [4889DF] 
+1EAC0: MOV RBP,RCX                    [4889CD] 
+1EAC3: MOV [RSP + 0x10],RAX           [4889442410] 
+1EAC8: LEA RAX,[RSP + 0x20]           [488D442420] 
+1EACD: MOV dword ptr [RSP + 0x8],0x20 [C744240820000000] 
+1EAD5: MOV dword ptr [RSP + 0xc],0x30 [C744240C30000000] 
+1EADD: MOV [RSP + 0x18],RAX           [4889442418] 
+
+========

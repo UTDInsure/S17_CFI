@@ -1,0 +1,7 @@
+
+
+BDD24: MOV EDX,[RDI + 0x4]            [8B5704] 
+BDD27: XOR EAX,EAX                    [31C0] 
+BDD29: CMP EDX,[RSI + 0x4]            [3B5604] 
+
+========

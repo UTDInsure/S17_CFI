@@ -1,0 +1,24 @@
+
+
+6FBB4: PUSH R13                       [4155] 
+6FBB6: LEA R13,[0x130980]             [4C8D2DC30D0C00] 
+6FBBD: PUSH R12                       [4154] 
+6FBBF: MOV R12,RDI                    [4989FC] 
+6FBC2: PUSH RBP                       [55] 
+6FBC3: PUSH RBX                       [53] 
+6FBC4: SUB RSP,0x48                   [4883EC48] 
+6FBC8: CMP ESI,0x20                   [83FE20] 
+6FBCD: CMP ESI,0x30                   [83FE30] 
+6FBD0: LEA R13,[0x130940]             [4C8D2D690D0C00] 
+6FBFB: XOR EBP,EBP                    [31ED] 
+6FBFD: CMP EDX,0xf                    [83FA0F] 
+6FC00: MOV EBX,EDX                    [89D3] 
+6FC50: TEST EBX,EBX                   [85DB] 
+6FC3B: ADD RSP,0x48                   [4883C448] 
+6FC3F: MOV RAX,RBP                    [4889E8] 
+6FC42: POP RBX                        [5B] 
+6FC43: POP RBP                        [5D] 
+6FC44: POP R12                        [415C] 
+6FC46: POP R13                        [415D] 
+
+========

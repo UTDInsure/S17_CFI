@@ -1,0 +1,25 @@
+
+
+412E34: PUSH R13                       [4155] 
+412E36: MOV RSI,RDI                    [4889FE] 
+412E39: PUSH R12                       [4154] 
+412E3B: PUSH RBP                       [55] 
+412E3C: PUSH RBX                       [53] 
+412E3D: SUB RSP,0x48                   [4883EC48] 
+412E41: TEST RDI,RDI                   [4885FF] 
+412E44: MOV [RSP + 0x8],RDI            [48897C2408] 
+412E4B: MOV RCX,[0x0062ac38]           [488B0DE67D2100] 
+412E52: TEST RCX,RCX                   [4885C9] 
+412ED0: MOV dword ptr [RSP + 0x30],0x0 [48C744243000000000] 
+412ED9: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+412EDC: MOV RDX,RDI                    [4889FA] 
+412EDF: XOR EBP,EBP                    [31ED] 
+412EE1: NOP                            [0F1F8000000000] 
+412EE8: TEST AL,AL                     [84C0] 
+412E7D: ADD RSP,0x48                   [4883C448] 
+412E81: POP RBX                        [5B] 
+412E82: POP RBP                        [5D] 
+412E83: POP R12                        [415C] 
+412E85: POP R13                        [415D] 
+
+========

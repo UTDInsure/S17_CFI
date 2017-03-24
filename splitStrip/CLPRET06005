@@ -1,0 +1,15 @@
+
+
+E70C4: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E70CC: MOV RAX,[RSI]                  [488B06] 
+E70CF: MOV EDX,[0xc8 + RAX]           [8B90C8000000] 
+E70D5: ADD EDX,0x2                    [83C202] 
+E70D8: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E70DD: MOV EAX,EDI                    [89F8] 
+E70DF: MOV ECX,[RDX]                  [8B0A] 
+E70E1: SHR EAX,CL                     [D3E8] 
+E70E3: MOV ECX,EAX                    [89C1] 
+E70E5: XOR EAX,EAX                    [31C0] 
+E70E7: CMP ECX,[RDX + 0x4]            [3B4A04] 
+
+========

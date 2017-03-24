@@ -1,0 +1,10 @@
+
+
+6A044: MOV RDX,[0x88 + RDI]           [488B9788000000] 
+6A04B: SUB dword ptr [RDX + 0x4],0x1  [836A0401] 
+6A051: MOV dword ptr [RDX + 0x8],0x0  [48C7420800000000] 
+6A059: CMP dword ptr [0x0036e774],0x0 [833D1447300000] 
+6A062: LOCK                           [F0] 
+6A063: DEC dword ptr [RDX]            [FF0A] 
+
+========

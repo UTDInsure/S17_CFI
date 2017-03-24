@@ -1,0 +1,21 @@
+
+
+1E064: SUB RSP,0xd8                   [4881ECD8000000] 
+1E06B: TEST AL,AL                     [84C0] 
+1E06D: MOV [RSP + 0x28],RSI           [4889742428] 
+1E072: MOV [RSP + 0x30],RDX           [4889542430] 
+1E077: MOV [RSP + 0x38],RCX           [48894C2438] 
+1E07C: MOV [RSP + 0x40],R8            [4C89442440] 
+1E081: MOV [RSP + 0x48],R9            [4C894C2448] 
+1E0BF: LEA RAX,[0xe0 + RSP]           [488D8424E0000000] 
+1E0C7: MOV RSI,RDI                    [4889FE] 
+1E0CA: LEA RDX,[RSP + 0x8]            [488D542408] 
+1E0CF: MOV [RSP + 0x10],RAX           [4889442410] 
+1E0D4: LEA RAX,[RSP + 0x20]           [488D442420] 
+1E0D9: MOV dword ptr [RSP + 0x8],0x8  [C744240808000000] 
+1E0E1: MOV dword ptr [RSP + 0xc],0x30 [C744240C30000000] 
+1E0E9: MOV [RSP + 0x18],RAX           [4889442418] 
+1E0EE: MOV RAX,[0x0024a830]           [488B053BC72200] 
+1E0F5: MOV RDI,[RAX]                  [488B38] 
+
+========

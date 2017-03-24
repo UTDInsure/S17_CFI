@@ -1,0 +1,6 @@
+
+
+E0284: MOV EAX,0x1b                   [B81B000000] 
+E028B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

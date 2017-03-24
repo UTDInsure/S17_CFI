@@ -1,0 +1,15 @@
+
+
+CFB64: MOVZX EDX,word ptr [RDI]       [0FB717] 
+CFB67: CMP DX,0xa                     [6683FA0A] 
+CFB6D: CMP DX,0x2                     [6683FA02] 
+CFB71: MOV EAX,0xf                    [B80F000000] 
+CFB80: MOV RDX,[0x0036bf98]           [488B1511C42900] 
+CFB87: MOV ESI,[RDI + 0x4]            [8B7704] 
+CFB8A: MOV ECX,[RDX + 0x4]            [8B4A04] 
+CFB8D: LEA RAX,[RDX + 0xc]            [488D420C] 
+CFB91: AND ECX,ESI                    [21F1] 
+CFB93: CMP ECX,[RDX]                  [3B0A] 
+CFBB1: MOV EAX,[RDX + 0x8]            [8B4208] 
+
+========

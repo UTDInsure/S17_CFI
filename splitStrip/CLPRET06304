@@ -1,0 +1,17 @@
+
+
+F0BB4: NOP                            [0F1F4000] 
+F0BB8: MOV RDX,[0x0036e558]           [488B1599D92700] 
+F0BBF: MOV [RDI],RDX                  [488917] 
+F0BC2: MOV RAX,RDX                    [4889D0] 
+F0BC5: CMP dword ptr FS:[0x18],0x0    [64833C251800000000] 
+F0BD1: CMPXCHG [0x0036e558],RDI       [480FB13D7FD92700] 
+F0BD9: CMP RDX,RAX                    [4839C2] 
+F0BB8: MOV RDX,[0x0036e558]           [488B1599D92700] 
+F0BBF: MOV [RDI],RDX                  [488917] 
+F0BC2: MOV RAX,RDX                    [4889D0] 
+F0BC5: CMP dword ptr FS:[0x18],0x0    [64833C251800000000] 
+F0BD1: CMPXCHG [0x0036e558],RDI       [480FB13D7FD92700] 
+F0BD9: CMP RDX,RAX                    [4839C2] 
+
+========

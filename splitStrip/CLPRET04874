@@ -1,0 +1,10 @@
+
+
+D65F4: TEST EDI,EDI                   [85FF] 
+D65F6: MOV R9D,ESI                    [4189F1] 
+D65F9: MOV RSI,RDX                    [4889D6] 
+D6620: MOV RAX,[0x00368e68]           [488B0541282900] 
+D6627: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D662E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

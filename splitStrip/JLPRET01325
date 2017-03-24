@@ -1,0 +1,9 @@
+
+
+B4AC4: MOV EAX,0xff                   [B8FF000000] 
+B49A5: ADD RSP,0x90                   [4881C490000000] 
+B49AC: POP RBX                        [5B] 
+B49AD: POP RBP                        [5D] 
+B49AE: POP R12                        [415C] 
+
+========

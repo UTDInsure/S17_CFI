@@ -1,0 +1,7 @@
+
+
+43054: MOV EDI,EDI                    [89FF] 
+43056: LEA RAX,[0x134a16]             [488D05B9190F00] 
+4305D: TEST RDI,RDI                   [4885FF] 
+
+========

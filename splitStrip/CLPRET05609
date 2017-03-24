@@ -1,0 +1,8 @@
+
+
+E3984: MOVSXD RSI,ESI                 [4863F6] 
+E3987: MOVSXD RDI,EDI                 [4863FF] 
+E398A: MOV EAX,0x122                  [B822010000] 
+E3991: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

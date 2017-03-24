@@ -1,0 +1,14 @@
+
+
+D65F4: TEST EDI,EDI                   [85FF] 
+D65F6: MOV R9D,ESI                    [4189F1] 
+D65F9: MOV RSI,RDX                    [4889D6] 
+D65FE: MOV R10,[R8]                   [4D8B10] 
+D6601: MOV EAX,R10D                   [4489D0] 
+D6604: CMP R10,RAX                    [4939C2] 
+D6609: MOV EDX,ECX                    [89CA] 
+D660B: MOVSXD RDI,R9D                 [4963F9] 
+D660E: MOV EAX,0x103                  [B803010000] 
+D6615: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

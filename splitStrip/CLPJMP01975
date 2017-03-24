@@ -1,0 +1,8 @@
+
+
+173A4: SUB RSP,0x8                    [4883EC08] 
+173A8: MOV RAX,[0x0024a830]           [488B0581342300] 
+173AF: MOV RSI,RDI                    [4889FE] 
+173B2: MOV RDI,[RAX]                  [488B38] 
+
+========

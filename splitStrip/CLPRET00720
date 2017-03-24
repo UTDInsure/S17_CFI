@@ -1,0 +1,7 @@
+
+
+40ABB4: MOV EAX,[0x0062ba44]           [8B058A0E2200] 
+40ABBA: TEST EAX,EAX                   [85C0] 
+40ABBE: MOV EAX,0x1                    [B801000000] 
+
+========

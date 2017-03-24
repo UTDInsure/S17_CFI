@@ -1,0 +1,6 @@
+
+
+D6414: MOV EAX,0x84                   [B884000000] 
+D641B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

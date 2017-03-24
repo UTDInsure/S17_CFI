@@ -1,0 +1,16 @@
+
+
+EEB74: PUSH RBP                       [55] 
+EEB75: PUSH RBX                       [53] 
+EEB76: MOV RBX,RDX                    [4889D3] 
+EEB79: SUB RSP,0x8                    [4883EC08] 
+EEB7D: CMP EDI,-0x3                   [83FFFD] 
+EEB86: MOV RBP,RSI                    [4889F5] 
+EEB8F: CMP EDI,-0x2                   [83FFFE] 
+EEB94: CMP EDI,0x3f                   [83FF3F] 
+EEC70: ADD RSP,0x8                    [4883C408] 
+EEC74: MOV EAX,0x7                    [B807000000] 
+EEC79: POP RBX                        [5B] 
+EEC7A: POP RBP                        [5D] 
+
+========

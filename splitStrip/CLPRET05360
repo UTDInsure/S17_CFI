@@ -1,0 +1,19 @@
+
+
+DDBD4: MOV RAX,RDI                    [4889F8] 
+DDBD7: LEA RCX,[RDI + 0x1]            [488D4F01] 
+DDBDB: MOV RDX,RDI                    [4889FA] 
+DDBF4: MOVZX ESI,byte ptr [RDX]       [0FB632] 
+DDBF7: CMP SIL,0x5c                   [4080FE5C] 
+DDBFD: MOVZX R8D,byte ptr [RDX + 0x1] [440FB64201] 
+DDC02: CMP R8B,0x30                   [4180F830] 
+DDC38: MOVZX EDI,byte ptr [RDX + 0x2] [0FB67A02] 
+DDC3C: CMP DIL,0x34                   [4080FF34] 
+DDC42: CMP DIL,0x31                   [4080FF31] 
+DDBE0: MOV [RCX + -0x1],SIL           [408871FF] 
+DDBE4: MOV RSI,RDX                    [4889D6] 
+DDBE7: ADD RCX,0x1                    [4883C101] 
+DDBEB: CMP byte ptr [RSI],0x0         [803E00] 
+DDBEE: LEA RDX,[RSI + 0x1]            [488D5601] 
+
+========

@@ -1,0 +1,21 @@
+
+
+B8684: MOV EAX,[0x0036becc]           [8B0542382B00] 
+B868A: TEST EAX,EAX                   [85C0] 
+B8692: CMP R15,[-0x2860 + RBP]        [4C3BBDA0D7FFFF] 
+B869B: MOV EDX,[R15]                  [418B17] 
+B869E: CMP EDX,0x2e                   [83FA2E] 
+B86A7: CMP EDX,0x2f                   [83FA2F] 
+B8EA0: MOV EAX,[-0x2868 + RBP]        [8B8598D7FFFF] 
+B8EA6: TEST EAX,EAX                   [85C0] 
+B8660: MOV dword ptr [-0x2868 + RBP],0x1 [C78598D7FFFF01000000] 
+B866A: MOV EAX,[-0x2868 + RBP]        [8B8598D7FFFF] 
+B8670: LEA RSP,[RBP + -0x28]          [488D65D8] 
+B8674: POP RBX                        [5B] 
+B8675: POP R12                        [415C] 
+B8677: POP R13                        [415D] 
+B8679: POP R14                        [415E] 
+B867B: POP R15                        [415F] 
+B867D: POP RBP                        [5D] 
+
+========

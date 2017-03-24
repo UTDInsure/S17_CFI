@@ -1,0 +1,23 @@
+
+
+698F4: SUB RSP,0x98                   [4881EC98000000] 
+698FB: MOV RSI,RDI                    [4889FE] 
+698FE: MOV EDI,0x1                    [BF01000000] 
+69903: MOV RDX,RSP                    [4889E2] 
+D64A4: CMP EDI,0x1                    [83FF01] 
+D64A7: MOV RAX,RSI                    [4889F0] 
+D64AC: MOV RDI,RAX                    [4889C7] 
+D64AF: MOV RSI,RDX                    [4889D6] 
+D64B2: MOV EAX,0x4                    [B804000000] 
+D64B9: CMP RAX,0xfffff000             [483D00F0FFFF] 
+6990F: XOR EDX,EDX                    [31D2] 
+69911: TEST EAX,EAX                   [85C0] 
+69915: MOV EAX,[RSP + 0x18]           [8B442418] 
+69919: XOR EDX,EDX                    [31D2] 
+6991B: AND EAX,0xf000                 [2500F00000] 
+69920: CMP EAX,0x4000                 [3D00400000] 
+69925: SETZ DL                        [0F94C2] 
+69928: MOV EAX,EDX                    [89D0] 
+6992A: ADD RSP,0x98                   [4881C498000000] 
+
+========

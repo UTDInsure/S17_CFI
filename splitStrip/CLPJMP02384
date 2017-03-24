@@ -1,0 +1,13 @@
+
+
+340B4: MOV RAX,[0x0024a880]           [488B05C5672100] 
+340BB: MOV RAX,[RAX]                  [488B00] 
+340BE: TEST RAX,RAX                   [4885C0] 
+340C7: PUSH R12                       [4154] 
+340C9: PUSH RBP                       [55] 
+340CA: PUSH RBX                       [53] 
+340CB: MOV RAX,[RAX + 0x10]           [488B4010] 
+340CF: MOV EBX,EDI                    [89FB] 
+340D1: CMP byte ptr [RAX + 0x19],0x0  [80781900] 
+
+========

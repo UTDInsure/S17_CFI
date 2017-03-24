@@ -1,0 +1,21 @@
+
+
+A2D54: LEA RDX,[0x36e500]             [488D15A5B72C00] 
+A2D5B: SUB RSP,0x8                    [4883EC08] 
+A2D5F: MOV ESI,0x1                    [BE01000000] 
+A48A4: PUSH R12                       [4154] 
+A48A6: PUSH RBP                       [55] 
+A48A7: MOV RBP,RDI                    [4889FD] 
+A48AA: PUSH RBX                       [53] 
+A48AB: SUB RSP,0x10                   [4883EC10] 
+A48AF: TEST RDI,RDI                   [4885FF] 
+A4A80: MOV RAX,[0x00368e68]           [488B05E1432C00] 
+A4A87: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+A4A8E: XOR EAX,EAX                    [31C0] 
+A49D2: ADD RSP,0x10                   [4883C410] 
+A49D6: POP RBX                        [5B] 
+A49D7: POP RBP                        [5D] 
+A49D8: POP R12                        [415C] 
+A2D6D: ADD RSP,0x8                    [4883C408] 
+
+========

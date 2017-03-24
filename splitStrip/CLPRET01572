@@ -1,0 +1,8 @@
+
+
+35794: MOVD EAX,XMM0                  [660F7EC0] 
+35798: MOV EDX,EAX                    [89C2] 
+3579A: MOV dword ptr [RDI],0x0        [C70700000000] 
+357A0: AND EDX,0x7fffffff             [81E2FFFFFF7F] 
+
+========

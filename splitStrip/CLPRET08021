@@ -1,0 +1,6 @@
+
+
+18614: TEST RDI,RDI                   [4885FF] 
+18619: MOVSX EAX,word ptr [RDI + 0xa] [0FBF470A] 
+
+========

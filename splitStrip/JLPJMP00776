@@ -1,0 +1,26 @@
+
+
+52E60: MOV RAX,[-0x1070 + RBP]        [488B8590EFFFFF] 
+52E67: LEA RDX,[RAX + 0x4]            [488D5004] 
+52E6B: MOV EAX,[RAX + 0x4]            [8B4004] 
+52E6E: MOV [-0x1070 + RBP],RDX        [48899590EFFFFF] 
+52E75: MOV [-0x1000 + RBP],RDX        [48899500F0FFFF] 
+52E7C: SUB EAX,0x30                   [83E830] 
+52E7F: CMP EAX,0x9                    [83F809] 
+52E88: MOV EDX,[RBX]                  [8B13] 
+52E8A: CMP EDX,0x30                   [83FA30] 
+5725F: MOV EAX,EDX                    [89D0] 
+57261: ADD EDX,0x8                    [83C208] 
+57264: ADD RAX,[RBX + 0x10]           [48034310] 
+57268: MOV [RBX],EDX                  [8913] 
+52E9F: MOV EAX,[RAX]                  [8B00] 
+52EA1: TEST EAX,EAX                   [85C0] 
+52EA3: MOV [-0x10d0 + RBP],EAX        [898530EFFFFF] 
+52EAF: CMP dword ptr [-0x10d0 + RBP],0x1fffffde [81BD30EFFFFFDEFFFF1F] 
+535A4: MOV RAX,[0x00368e68]           [488B05BD583100] 
+535AB: MOV dword ptr FS:[RAX],0x4b    [64C7004B000000] 
+5325B: MOV dword ptr [-0x1078 + RBP],0xffffffff [C78588EFFFFFFFFFFFFF] 
+53265: CMP dword ptr [-0x10b8 + RBP],0x0 [4883BD48EFFFFF00] 
+554EB: MOV RDI,[-0x10b8 + RBP]        [488BBD48EFFFFF] 
+
+========

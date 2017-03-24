@@ -1,0 +1,8 @@
+
+
+2D594: PUSH RBX                       [53] 
+2D595: MOV RBX,RDI                    [4889FB] 
+2D598: MOV RDI,[RDI + 0x8]            [488B7F08] 
+2D59C: TEST RDI,RDI                   [4885FF] 
+
+========

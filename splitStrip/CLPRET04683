@@ -1,0 +1,28 @@
+
+
+C6644: PUSH R15                       [4157] 
+C6646: PUSH R14                       [4156] 
+C6648: PUSH R13                       [4155] 
+C664A: PUSH R12                       [4154] 
+C664C: MOV R12,RSI                    [4989F4] 
+C664F: PUSH RBP                       [55] 
+C6650: PUSH RBX                       [53] 
+C6651: SUB RSP,0x158                  [4881EC58010000] 
+C6658: MOVZX EAX,byte ptr [RDX + 0x8] [0FB64208] 
+C665C: MOV [RSP + 0x50],RCX           [48894C2450] 
+C6661: MOV RCX,[RSI]                  [488B0E] 
+C6664: MOV [RSP + 0x48],RDI           [48897C2448] 
+C6669: MOV [RSP + 0x28],RDX           [4889542428] 
+C666E: MOV [RSP + 0x58],R9            [4C894C2458] 
+C6673: CMP AL,0x24                    [3C24] 
+C6675: MOV [RSP + 0x20],RCX           [48894C2420] 
+C6A4B: XOR EAX,EAX                    [31C0] 
+C6A4D: ADD RSP,0x158                  [4881C458010000] 
+C6A54: POP RBX                        [5B] 
+C6A55: POP RBP                        [5D] 
+C6A56: POP R12                        [415C] 
+C6A58: POP R13                        [415D] 
+C6A5A: POP R14                        [415E] 
+C6A5C: POP R15                        [415F] 
+
+========

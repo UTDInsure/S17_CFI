@@ -1,0 +1,25 @@
+
+
+114B64: PUSH R13                       [4155] 
+114B66: XOR EAX,EAX                    [31C0] 
+114B68: MOV R13,RCX                    [4989CD] 
+114B6B: PUSH R12                       [4154] 
+114B6D: MOV R12D,EDX                   [4189D4] 
+114B70: PUSH RBP                       [55] 
+114B71: MOV RBP,RDI                    [4889FD] 
+114B74: PUSH RBX                       [53] 
+114B75: MOV RBX,RSI                    [4889F3] 
+114B78: SUB RSP,0x18                   [4883EC18] 
+114B7C: CMP dword ptr [RSI],0x0        [48833E00] 
+114B80: LEA RSI,[RSP + 0xc]            [488D74240C] 
+114B85: SETNZ AL                       [0F95C0] 
+114B88: MOV [RSP + 0xc],EAX            [8944240C] 
+113F64: PUSH RBX                       [53] 
+113F65: MOV RBX,RSI                    [4889F3] 
+113F68: SUB RSP,0x10                   [4883EC10] 
+113F6C: MOV EAX,[RDI]                  [8B07] 
+113F6E: CMP EAX,0x1                    [83F801] 
+113F88: MOV RAX,[RDI + 0x8]            [488B4708] 
+113F8C: LEA RSI,[RSP + 0x8]            [488D742408] 
+
+========

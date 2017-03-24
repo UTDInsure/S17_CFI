@@ -1,0 +1,15 @@
+
+
+E13B4: CMP R9D,0x1                    [4183F901] 
+E13B8: MOV RAX,[RDI + 0x10]           [488B4710] 
+E1468: OR byte ptr [RDI + 0x18],0x1   [804F1801] 
+E146C: TEST RAX,RAX                   [4885C0] 
+E13F5: MOV RAX,[RDI + 0x8]            [488B4708] 
+E13F9: TEST RAX,RAX                   [4885C0] 
+E13FE: AND [RAX + 0x18],0xfe          [806018FE] 
+E1402: TEST RSI,RSI                   [4885F6] 
+E1407: MOV RAX,[RSI]                  [488B06] 
+E140A: MOVZX R9D,byte ptr [RAX + 0x18] [440FB64818] 
+E140F: TEST R9B,0x1                   [41F6C101] 
+
+========

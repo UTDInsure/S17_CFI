@@ -1,0 +1,8 @@
+
+
+E3FE4: CMP dword ptr [0x0036e774],0x0 [833D89A7280000] 
+E3FF1: MOV R10,RCX                    [4989CA] 
+E3FF4: MOV EAX,0x113                  [B813010000] 
+E3FFB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

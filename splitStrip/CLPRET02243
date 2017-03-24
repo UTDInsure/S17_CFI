@@ -1,0 +1,9 @@
+
+
+47524: TEST RCX,RCX                   [4885C9] 
+47529: CMP RSI,RDI                    [4839FE] 
+47585: CMP RSI,RDI                    [4839FE] 
+47588: MOV RAX,RDI                    [4889F8] 
+4758B: CMOVNC RAX,RSI                 [480F43C6] 
+
+========

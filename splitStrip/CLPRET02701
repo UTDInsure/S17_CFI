@@ -1,0 +1,26 @@
+
+
+71784: MOV RDX,[RSI + 0x8]            [488B5608] 
+71788: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+7178D: CMP RDX,RDI                    [4839FA] 
+71792: MOVSXD RCX,[RSI + 0x10]        [48634E10] 
+71796: MOV EAX,[RDX]                  [8B02] 
+71798: TEST ECX,ECX                   [85C9] 
+7179C: TEST AH,0x1                    [F6C401] 
+717A1: AND AH,0xfe                    [80E4FE] 
+717A4: MOV [RDX],EAX                  [8902] 
+717A6: MOV RAX,[0xa0 + RDX]           [488B82A0000000] 
+717AD: MOV RDX,[RAX + 0x8]            [488B5008] 
+717B1: MOV RSI,[RAX + 0x50]           [488B7050] 
+717B5: MOV [RAX + 0x50],RDX           [48895050] 
+717B9: MOV [RAX + 0x8],RSI            [48897008] 
+717BD: MOV RDX,[RAX + 0x40]           [488B5040] 
+717C1: MOV RSI,[RAX + 0x10]           [488B7010] 
+717C5: MOV [RAX],RDX                  [488910] 
+717C8: MOV [RAX + 0x10],RDX           [48895010] 
+717CC: MOV [RAX + 0x40],RSI           [48897040] 
+717D0: LEA RDX,[RDX + RCX*0x4]        [488D148A] 
+717D4: MOV [RAX],RDX                  [488910] 
+717D7: XOR EAX,EAX                    [31C0] 
+
+========

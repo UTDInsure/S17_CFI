@@ -1,0 +1,7 @@
+
+
+936C4: MOV [RDI],ECX                  [890F] 
+936C6: MOV [RDI + 0x4],R8D            [44894704] 
+936CA: MOV RAX,RDI                    [4889F8] 
+
+========

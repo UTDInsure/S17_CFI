@@ -1,0 +1,6 @@
+
+
+6F724: TEST ESI,ESI                   [85F6] 
+6F7A0: XOR EAX,EAX                    [31C0] 
+
+========

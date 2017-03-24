@@ -1,0 +1,21 @@
+
+
+4043E4: PUSH R15                       [4157] 
+4043E6: PUSH R14                       [4156] 
+4043E8: PUSH R13                       [4155] 
+4043EA: PUSH R12                       [4154] 
+4043EC: PUSH RBP                       [55] 
+4043ED: PUSH RBX                       [53] 
+4043EE: SUB RSP,0xa8                   [4881ECA8000000] 
+4043F5: MOV R13,[0x006279d8]           [4C8B2DDC352200] 
+4043FC: TEST R13,R13                   [4D85ED] 
+404844: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+4046F8: ADD RSP,0xa8                   [4881C4A8000000] 
+4046FF: POP RBX                        [5B] 
+404700: POP RBP                        [5D] 
+404701: POP R12                        [415C] 
+404703: POP R13                        [415D] 
+404705: POP R14                        [415E] 
+404707: POP R15                        [415F] 
+
+========

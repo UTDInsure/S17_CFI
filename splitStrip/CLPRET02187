@@ -1,0 +1,20 @@
+
+
+45DA4: MOV EAX,EDX                    [89D0] 
+45DA6: AND EAX,0x3                    [83E003] 
+45DCD: CMP EAX,0x2                    [83F802] 
+45E30: MOV R11,[RSI]                  [4C8B1E] 
+45E33: MOV R8,[RSI + 0x8]             [4C8B4608] 
+45E37: XOR EAX,EAX                    [31C0] 
+45E39: SHRD RAX,R11,CL                [4C0FADD8] 
+45E3D: MOV R9,[RSI + 0x10]            [4C8B4E10] 
+45E41: LEA RSI,[RSI + 0x20]           [488D7620] 
+45E45: SUB RDX,0x4                    [4883EA04] 
+45E8C: SHRD R11,R8,CL                 [4D0FADC3] 
+45E90: MOV [RDI],R11                  [4C891F] 
+45E93: SHRD R8,R9,CL                  [4D0FADC8] 
+45E97: MOV [RDI + 0x8],R8             [4C894708] 
+45E9B: SHR R9,CL                      [49D3E9] 
+45E9E: MOV [RDI + 0x10],R9            [4C894F10] 
+
+========

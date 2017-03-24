@@ -1,0 +1,20 @@
+
+
+40B604: PUSH R15                       [4157] 
+40B606: PUSH R14                       [4156] 
+40B608: PUSH R13                       [4155] 
+40B60A: PUSH R12                       [4154] 
+40B60C: PUSH RBP                       [55] 
+40B60D: PUSH RBX                       [53] 
+40B60E: MOV RBX,RDI                    [4889FB] 
+40B611: SUB RSP,0xc8                   [4881ECC8000000] 
+40B618: CMP RDI,[0x00627440]           [483B3D21BE2100] 
+40B625: XOR EAX,EAX                    [31C0] 
+404A24: MOV EAX,[0x00623670]           [8B0546EC2100] 
+404A2A: TEST EAX,EAX                   [85C0] 
+404A2E: SUB RSP,0x8                    [4883EC08] 
+404A32: MOV R8D,[0x006279d0]           [448B05972F2200] 
+404A39: MOV EDI,EAX                    [89C7] 
+404A3B: TEST R8D,R8D                   [4585C0] 
+
+========

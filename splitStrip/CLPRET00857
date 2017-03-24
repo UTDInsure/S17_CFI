@@ -1,0 +1,6 @@
+
+
+410914: CMP RDI,-0x1                   [4883FFFF] 
+410A23: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

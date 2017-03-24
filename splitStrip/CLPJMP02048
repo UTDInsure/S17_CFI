@@ -1,0 +1,7 @@
+
+
+18414: SUB RSP,0x8                    [4883EC08] 
+18418: MOVSXD RSI,ESI                 [4863F6] 
+1841B: XOR EDX,EDX                    [31D2] 
+
+========

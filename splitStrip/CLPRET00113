@@ -1,0 +1,22 @@
+
+
+FDF4: TEST RSI,RSI                   [4885F6] 
+FDF9: LEA RAX,[RSI + RSI*0x8]        [488D04F6] 
+FDFD: LEA RDX,[0x222060]             [488D155C222100] 
+FE04: SHL RAX,0x4                    [48C1E004] 
+FE08: LEA RAX,[RDX + RAX*0x1 + 0x68] [488D440268] 
+FE0D: CMP dword ptr [RAX + 0x8],0x0  [4883780800] 
+FE5E: TEST RDI,RDI                   [4885FF] 
+FE61: MOV dword ptr [RAX],0x1        [C70001000000] 
+FE69: MOV RDX,[0x00221fe8]           [488B1578212100] 
+FE70: MOV RDI,[RDX + 0x20]           [488B7A20] 
+FE1F: LEA RDX,[RSI + RSI*0x8]        [488D14F6] 
+FE23: LEA RCX,[0x222060]             [488D0D36222100] 
+FE2A: MOV [RAX + 0x20],RDI           [48897820] 
+FE2E: SHL RDX,0x4                    [48C1E204] 
+FE32: MOV RDX,[RCX + RDX*0x1]        [488B1411] 
+FE36: LEA RCX,[0xfde0]               [488D0DA3FFFFFF] 
+FE3D: MOV [RAX + 0x10],RCX           [48894810] 
+FE41: MOV [RAX + 0x8],RDX            [48895008] 
+
+========

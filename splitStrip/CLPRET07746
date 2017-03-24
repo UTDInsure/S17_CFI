@@ -1,0 +1,9 @@
+
+
+11CBC4: MOV RAX,[0x00368e60]           [488B0595C22400] 
+11CBCB: MOV R8,RSI                     [4989F0] 
+11CBCE: MOV RSI,[0xb8 + RAX]           [488BB0B8000000] 
+11CBD5: TEST RSI,RSI                   [4885F6] 
+11CC68: XOR EAX,EAX                    [31C0] 
+
+========

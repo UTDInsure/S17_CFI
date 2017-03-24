@@ -1,0 +1,11 @@
+
+
+1C1A4: PUSH RBX                       [53] 
+1C1A5: MOV RBX,[0x0024a880]           [488B1DD4E62200] 
+1C1AC: MOV RAX,[RBX]                  [488B03] 
+1C1AF: MOV RAX,[RAX + 0x20]           [488B4020] 
+1C1B3: MOV RSI,[0xe0 + RAX]           [488BB0E0000000] 
+1C1BA: TEST RSI,RSI                   [4885F6] 
+1C1BF: LEA RDI,[0x36f7e]              [488D3DB8AD0100] 
+
+========

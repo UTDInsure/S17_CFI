@@ -1,0 +1,19 @@
+
+
+F4FC4: PUSH R14                       [4156] 
+F4FC6: MOV R14D,EDI                   [4189FE] 
+F4FC9: SHR R14D,0x10                  [41C1EE10] 
+F4FCD: PUSH R13                       [4155] 
+F4FCF: MOVZX R14D,R14B                [450FB6F6] 
+F4FD3: PUSH R12                       [4154] 
+F4FD5: MOVZX R12D,DIL                 [440FB6E7] 
+F4FD9: PUSH RBP                       [55] 
+F4FDA: PUSH RBX                       [53] 
+F4FDB: MOV EBX,EDI                    [89FB] 
+F4FDD: MOVZX EAX,BH                   [0FB6C7] 
+F4FE0: SHR EBX,0x18                   [C1EB18] 
+F4FE3: SUB RSP,0x10                   [4883EC10] 
+F4FE7: MOV R13D,EAX                   [4189C5] 
+F4FEA: LEA RDI,[0x368d90]             [488D3D9F3D2700] 
+
+========

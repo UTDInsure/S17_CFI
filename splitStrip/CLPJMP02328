@@ -1,0 +1,17 @@
+
+
+2DE54: PUSH RBP                       [55] 
+2DE55: PUSH RBX                       [53] 
+2DE56: MOV RBX,RDI                    [4889FB] 
+2DE59: SUB RSP,0x8                    [4883EC08] 
+2DE5D: MOV RAX,[0x0024a7a0]           [488B053CC92100] 
+2DE64: MOV RDX,[0x0024a880]           [488B1515CA2100] 
+2DE6B: MOV RCX,[RAX]                  [488B08] 
+2DE6E: MOV RBP,[RDX]                  [488B2A] 
+2DE71: TEST RCX,RCX                   [4885C9] 
+2DE76: MOV [RCX + 0x20],RDI           [48897920] 
+2DE7A: TEST RBX,RBX                   [4885DB] 
+2DE7D: MOV [RDX],RBX                  [48891A] 
+2DE82: MOV EDI,[0xc4 + RBX]           [8BBBC4000000] 
+
+========

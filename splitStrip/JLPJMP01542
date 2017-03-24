@@ -1,0 +1,20 @@
+
+
+329E4: TEST R8B,R8B                   [4584C0] 
+329E7: MOV byte ptr [RDX],0x2e        [C6022E] 
+329EA: LEA RSI,[RDX + 0x1]            [488D7201] 
+329EE: LEA RAX,[RBP + 0x1]            [488D4501] 
+329F2: MOVZX EBX,byte ptr [RBP + 0x1] [0FB65D01] 
+32B18: MOV RDX,RSI                    [4889F2] 
+32B1B: MOV RBP,RAX                    [4889C5] 
+32B1E: XOR R13D,R13D                  [4531ED] 
+32B21: MOV R9D,0x1                    [41B901000000] 
+32920: TEST BL,BL                     [84DB] 
+32924: TEST CL,CL                     [84C9] 
+32928: LEA EAX,[RBX + -0x20]          [8D43E0] 
+3292B: CMP AL,0x58                    [3C58] 
+32933: MOVZX EAX,AL                   [0FB6C0] 
+32936: MOVSXD RAX,[R15 + RAX*0x4]     [49630487] 
+3293A: ADD RAX,R15                    [4C01F8] 
+
+========

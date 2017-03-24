@@ -1,0 +1,9 @@
+
+
+69F64: MOV RDX,[0x88 + RDI]           [488B9788000000] 
+69F6B: MOV R9,RDI                     [4989F9] 
+69F6E: MOV R8,FS:[0x10]               [644C8B042510000000] 
+69F77: CMP R8,[RDX + 0x8]             [4C3B4208] 
+69FBF: ADD dword ptr [RDX + 0x4],0x1  [83420401] 
+
+========

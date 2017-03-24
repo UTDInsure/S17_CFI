@@ -1,0 +1,24 @@
+
+
+BF8C4: PUSH R15                       [4157] 
+BF8C6: MOV R15,RDX                    [4989D7] 
+BF8C9: PUSH R14                       [4156] 
+BF8CB: PUSH R13                       [4155] 
+BF8CD: PUSH R12                       [4154] 
+BF8CF: PUSH RBP                       [55] 
+BF8D0: PUSH RBX                       [53] 
+BF8D1: SUB RSP,0x18                   [4883EC18] 
+BF8D5: MOV EDX,[RDX + 0x4]            [8B5204] 
+BF8D8: MOV [RSP + 0x8],RDI            [48897C2408] 
+BF8DD: CMP EDX,0x0                    [83FA00] 
+BFACC: MOV dword ptr [RDI],0x0        [C70700000000] 
+BFAD2: XOR EAX,EAX                    [31C0] 
+BF958: ADD RSP,0x18                   [4883C418] 
+BF95C: POP RBX                        [5B] 
+BF95D: POP RBP                        [5D] 
+BF95E: POP R12                        [415C] 
+BF960: POP R13                        [415D] 
+BF962: POP R14                        [415E] 
+BF964: POP R15                        [415F] 
+
+========

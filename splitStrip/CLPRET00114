@@ -1,0 +1,11 @@
+
+
+FDF4: TEST RSI,RSI                   [4885F6] 
+FDF9: LEA RAX,[RSI + RSI*0x8]        [488D04F6] 
+FDFD: LEA RDX,[0x222060]             [488D155C222100] 
+FE04: SHL RAX,0x4                    [48C1E004] 
+FE08: LEA RAX,[RDX + RAX*0x1 + 0x68] [488D440268] 
+FE0D: CMP dword ptr [RAX + 0x8],0x0  [4883780800] 
+FE14: TEST RDI,RDI                   [4885FF] 
+
+========

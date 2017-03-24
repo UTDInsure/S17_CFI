@@ -1,0 +1,15 @@
+
+
+DC614: MOV ECX,0xc                    [B90C000000] 
+DC619: MOV RSI,RDI                    [4889FE] 
+DC61C: MOV EAX,ECX                    [89C8] 
+DC620: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DC626: MOV RDX,RAX                    [4889C2] 
+DC654: MOV RAX,[0x00368e68]           [488B050DC82800] 
+DC65B: NEG EDX                        [F7DA] 
+DC65D: MOV FS:[RAX],EDX               [648910] 
+DC660: MOV RAX,[0x00368eb8]           [488B0551C82800] 
+DC667: MOV dword ptr [RAX],-0x1       [48C700FFFFFFFF] 
+DC66E: XOR EAX,EAX                    [31C0] 
+
+========

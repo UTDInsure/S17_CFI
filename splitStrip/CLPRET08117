@@ -1,0 +1,20 @@
+
+
+1AE34: PUSH RBP                       [55] 
+1AE35: MOV RBP,RDI                    [4889FD] 
+1AE38: PUSH RBX                       [53] 
+1AE39: SUB RSP,0x18                   [4883EC18] 
+1AE3D: MOV RBX,[0x0024a7a0]           [488B1D5CF92200] 
+1AE44: MOV RDI,[RBX]                  [488B3B] 
+1AE47: TEST RDI,RDI                   [4885FF] 
+1AE4C: TEST RSI,RSI                   [4885F6] 
+1AE51: MOV RAX,[0x440 + RDI]          [488B8740040000] 
+1AE58: MOV [RSI],RAX                  [488906] 
+1AE5B: TEST RBP,RBP                   [4885ED] 
+1AE60: CMP byte ptr [0x404 + RDI],0x0 [80BF0404000000] 
+1AE81: ADD RSP,0x18                   [4883C418] 
+1AE85: XOR EAX,EAX                    [31C0] 
+1AE87: POP RBX                        [5B] 
+1AE88: POP RBP                        [5D] 
+
+========

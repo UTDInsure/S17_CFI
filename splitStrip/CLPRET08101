@@ -1,0 +1,15 @@
+
+
+1ACA4: CMP dword ptr [0x408 + RDI],-0x1 [83BF08040000FF] 
+1ACAD: CMP dword ptr [0x440 + RDI],0x0 [4883BF4004000000] 
+1ACC0: SUB RSP,0x8                    [4883EC08] 
+1ACC4: XOR ESI,ESI                    [31F6] 
+1AB74: TEST SIL,SIL                   [4084F6] 
+1AB77: PUSH RBX                       [53] 
+1AB78: MOV RBX,RDI                    [4889FB] 
+1AB7D: CMP byte ptr [0x404 + RDI],0x0 [80BF0404000000] 
+1ABAB: POP RBX                        [5B] 
+1ABAC: NOP                            [0F1F4000] 
+1ACCF: ADD RSP,0x8                    [4883C408] 
+
+========

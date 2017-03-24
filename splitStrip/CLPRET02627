@@ -1,0 +1,11 @@
+
+
+70EE4: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+70EEB: PUSH RBX                       [53] 
+70EEC: MOV RBX,RDI                    [4889FB] 
+70EF6: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+70EFB: CMP EAX,EDX                    [39D0] 
+70F12: MOV EAX,EDX                    [89D0] 
+70F14: POP RBX                        [5B] 
+
+========

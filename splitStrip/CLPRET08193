@@ -1,0 +1,6 @@
+
+
+1DC54: XOR EAX,EAX                    [31C0] 
+1DC56: TEST RDI,RDI                   [4885FF] 
+
+========

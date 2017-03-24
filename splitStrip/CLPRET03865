@@ -1,0 +1,13 @@
+
+
+94844: XOR EAX,EAX                    [31C0] 
+94846: PUSH RBX                       [53] 
+94847: CPUID                          [0FA2] 
+94849: CMP EBX,0x756e6547             [81FB47656E75] 
+94859: XOR EAX,EAX                    [31C0] 
+9485B: CMP EBX,0x68747541             [81FB41757468] 
+94863: CMP ECX,0x444d4163             [81F963414D44] 
+9486B: CMP EDX,0x69746e65             [81FA656E7469] 
+94873: POP RBX                        [5B] 
+
+========

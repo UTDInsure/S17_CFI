@@ -1,0 +1,8 @@
+
+
+187B4: TEST RDI,RDI                   [4885FF] 
+187B9: MOV EAX,[RDI + 0x2c]           [8B472C] 
+187BC: TEST EAX,EAX                   [85C0] 
+187BE: SETZ AL                        [0F94C0] 
+
+========

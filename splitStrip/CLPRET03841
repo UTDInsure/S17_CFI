@@ -1,0 +1,13 @@
+
+
+93B44: MOV RAX,[RDI]                  [488B07] 
+93B47: MOV R8D,ESI                    [4189F0] 
+93B4A: MOV R9D,EDX                    [4189D1] 
+93B4D: MOV R10D,ECX                   [4189CA] 
+93B50: TEST RAX,RAX                   [4885C0] 
+93B55: MOVZX R11D,byte ptr [RAX]      [440FB618] 
+93B59: TEST R11B,R11B                 [4584DB] 
+93B92: XOR EDX,EDX                    [31D2] 
+93B94: MOV [RDI],RDX                  [488917] 
+
+========

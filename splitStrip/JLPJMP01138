@@ -1,0 +1,8 @@
+
+
+BD22C: MOV RDI,[RDI]                  [488B3F] 
+BD184: PUSH RBX                       [53] 
+BD185: MOV RBX,RDI                    [4889FB] 
+BD188: MOV RDI,[RDI]                  [488B3F] 
+
+========

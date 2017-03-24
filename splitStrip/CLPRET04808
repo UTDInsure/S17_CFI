@@ -1,0 +1,8 @@
+
+
+D5344: CMP dword ptr [0x0036e774],0x0 [833D2994290000] 
+D5351: MOV R10,RCX                    [4989CA] 
+D5354: MOV EAX,0x12                   [B812000000] 
+D535B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

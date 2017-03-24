@@ -1,0 +1,27 @@
+
+
+DD334: PUSH RBX                       [53] 
+DD335: SUB RSP,0x10                   [4883EC10] 
+DD339: MOV RAX,[0x00368e28]           [488B05E8BA2800] 
+DD340: MOV [RSP + 0xc],EDI            [897C240C] 
+DD344: MOV EAX,[RAX]                  [8B00] 
+DD346: TEST EAX,EAX                   [85C0] 
+DD34A: MOVSXD RAX,EDI                 [4863C7] 
+DD34D: CMP RAX,RDI                    [4839F8] 
+DD352: LEA RDI,[0x136a05]             [488D3DAC960500] 
+DD359: XOR EAX,EAX                    [31C0] 
+DD35B: MOV EDX,0x1a4                  [BAA4010000] 
+DD360: MOV ESI,0x241                  [BE41020000] 
+D6921: MOV EAX,0x2                    [B802000000] 
+D6928: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D6969: MOV RCX,[0x00368e68]           [488B0DF8242900] 
+D6970: NEG EAX                        [F7D8] 
+D6972: MOV FS:[RCX],EAX               [648901] 
+D6975: OR RAX,-0x1                    [4883C8FF] 
+DD36E: TEST EAX,EAX                   [85C0] 
+DD370: MOV EBX,EAX                    [89C3] 
+DD3E0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+DD39F: ADD RSP,0x10                   [4883C410] 
+DD3A3: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,7 @@
+
+
+100974: TEST EDX,EDX                   [85D2] 
+100978: CMP ECX,0x7f                   [83F97F] 
+1009C0: XOR EAX,EAX                    [31C0] 
+
+========

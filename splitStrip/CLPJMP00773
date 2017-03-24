@@ -1,0 +1,15 @@
+
+
+445E4: PUSH RBP                       [55] 
+445E5: PUSH RBX                       [53] 
+445E6: MOV EBX,EDI                    [89FB] 
+445E8: SUB RSP,0x18                   [4883EC18] 
+445EC: MOV RBP,[0x003695f0]           [488B2DFD4F3200] 
+445F3: TEST RBP,RBP                   [4885ED] 
+445F8: CMP [RBP],EDI                  [397D00] 
+44699: TEST RSI,RSI                   [4885F6] 
+4469C: MOV RDI,RBP                    [4889EF] 
+446A1: MOV RDX,[RDI + 0x10]           [488B5710] 
+446A5: MOV [0x003695f0],RDX           [488915444F3200] 
+
+========

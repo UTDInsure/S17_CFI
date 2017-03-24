@@ -1,0 +1,6 @@
+
+
+B32E4: MOV EAX,0x3b                   [B83B000000] 
+B32EB: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

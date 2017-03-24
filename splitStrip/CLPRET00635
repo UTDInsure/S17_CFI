@@ -1,0 +1,20 @@
+
+
+405F74: PUSH R12                       [4154] 
+405F76: PUSH RBP                       [55] 
+405F77: MOV RBP,RDI                    [4889FD] 
+405F7A: PUSH RBX                       [53] 
+405F7B: SUB RSP,0x8                    [4883EC08] 
+405F7F: MOV R9D,[0x006279e0]           [448B0D5A1A2200] 
+405F86: MOV RBX,[RDI]                  [488B1F] 
+405F89: TEST R9D,R9D                   [4585C9] 
+405FB0: TEST ESI,ESI                   [85F6] 
+406010: CMP RBX,RDX                    [4839D3] 
+406070: XOR EAX,EAX                    [31C0] 
+405FA1: MOV [RBP],RBX                  [48895D00] 
+405FA5: ADD RSP,0x8                    [4883C408] 
+405FA9: POP RBX                        [5B] 
+405FAA: POP RBP                        [5D] 
+405FAB: POP R12                        [415C] 
+
+========

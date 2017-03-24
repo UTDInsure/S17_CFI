@@ -1,0 +1,6 @@
+
+
+CC244: MOV EAX,0x90                   [B890000000] 
+CC24B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

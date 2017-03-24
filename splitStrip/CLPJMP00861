@@ -1,0 +1,15 @@
+
+
+73F74: PUSH RBP                       [55] 
+73F75: PUSH RBX                       [53] 
+73F76: MOV RBX,RDI                    [4889FB] 
+73F79: SUB RSP,0x8                    [4883EC08] 
+73F7D: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+73F84: MOV RBP,[0xf0 + RDI]           [488BAFF0000000] 
+73F8B: MOV RDI,[RAX + 0x18]           [488B7818] 
+73F8F: MOV RAX,[RAX + 0x20]           [488B4020] 
+73F93: SUB RAX,RDI                    [4829F8] 
+73F96: SAR RAX,0x2                    [48C1F802] 
+73F9A: LEA RSI,[0x4 + RAX*0x4]        [488D348504000000] 
+
+========

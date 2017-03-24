@@ -1,0 +1,27 @@
+
+
+A8564: MOVZX EAX,byte ptr [RSP + 0x71] [0FB6442471] 
+A8569: AND EAX,0x18                   [83E018] 
+A856C: CMP AL,0x10                    [3C10] 
+A8574: MOV RAX,[RSP]                  [488B0424] 
+A8578: XOR EDI,EDI                    [31FF] 
+A857A: MOV dword ptr [RSP + 0x74],0x0 [C744247400000000] 
+A8582: MOV EAX,[0x1d0 + RAX]          [8B80D0010000] 
+A8588: TEST EAX,EAX                   [85C0] 
+A858A: MOV [RSP + 0x20],EAX           [89442420] 
+A85F0: CMP [RSP + 0x20],EDI           [397C2420] 
+A943B: MOVZX EAX,byte ptr [RSP + 0x71] [0FB6442471] 
+A9440: MOV dword ptr [RSP + 0x74],0xffffffff [C7442474FFFFFFFF] 
+A9448: MOV EDX,EAX                    [89C2] 
+A944A: AND EDX,0x18                   [83E218] 
+A944D: CMP DL,0x8                     [80FA08] 
+A6C92: XOR EAX,EAX                    [31C0] 
+A6C94: ADD RSP,0xc8                   [4881C4C8000000] 
+A6C9B: POP RBX                        [5B] 
+A6C9C: POP RBP                        [5D] 
+A6C9D: POP R12                        [415C] 
+A6C9F: POP R13                        [415D] 
+A6CA1: POP R14                        [415E] 
+A6CA3: POP R15                        [415F] 
+
+========

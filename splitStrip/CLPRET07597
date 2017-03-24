@@ -1,0 +1,24 @@
+
+
+1198D4: SUB RSP,0x8                    [4883EC08] 
+1198D8: MOV ESI,0x1                    [BE01000000] 
+1198DD: XOR EAX,EAX                    [31C0] 
+1198DF: CMP dword ptr [0x0036e774],0x0 [833D8E4E250000] 
+1198F4: CMPXCHG [0x0036e9b8],ESI       [0FB135BD502500] 
+11991B: MOV RAX,[0x0036a728]           [488B05060E2500] 
+119928: CMP dword ptr [0x0036e774],0x0 [833D454E250000] 
+11993C: DEC dword ptr [0x0036e9b8]     [FF0D76502500] 
+119944: LEA RDI,[0x36e9b8]             [488D3D6D502500] 
+11994B: SUB RSP,0x80                   [4881EC80000000] 
+F08A4: PUSH RSI                       [56] 
+F08A5: PUSH RDX                       [52] 
+F08A6: MOV dword ptr [RDI],0x0        [C70700000000] 
+F08AC: MOV ESI,0x81                   [BE81000000] 
+F08B1: MOV EDX,0x1                    [BA01000000] 
+F08B6: MOV EAX,0xca                   [B8CA000000] 
+F08BD: POP RDX                        [5A] 
+F08BE: POP RSI                        [5E] 
+11995B: ADD RSP,0x80                   [4881C480000000] 
+119962: ADD RSP,0x8                    [4883C408] 
+
+========

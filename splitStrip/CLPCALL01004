@@ -1,0 +1,20 @@
+
+
+E3624: MOV RAX,-0x16                  [48C7C0EAFFFFFF] 
+E362B: TEST RDI,RDI                   [4885FF] 
+E3630: TEST RSI,RSI                   [4885F6] 
+E3635: SUB RSI,0x10                   [4883EE10] 
+E3639: MOV [RSI + 0x8],RCX            [48894E08] 
+E363D: MOV [RSI],RDI                  [48893E] 
+E3640: MOV RDI,RDX                    [4889D7] 
+E3643: MOV RDX,R8                     [4C89C2] 
+E3646: MOV R8,R9                      [4D89C8] 
+E3649: MOV R10,[RSP + 0x8]            [4C8B542408] 
+E364E: MOV EAX,0x38                   [B838000000] 
+E3655: TEST RAX,RAX                   [4885C0] 
+E365D: XOR EBP,EBP                    [31ED] 
+E365F: TEST RDI,0x10000               [48F7C700000100] 
+E368D: POP RAX                        [58] 
+E368E: POP RDI                        [5F] 
+
+========

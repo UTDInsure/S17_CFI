@@ -1,0 +1,12 @@
+
+
+21E94: LEA RSI,[0x13cf40]             [488D35A5B01100] 
+21E9B: SUB RSP,0x8                    [4883EC08] 
+21E9F: MOV EDX,0x25c                  [BA5C020000] 
+21EA4: MOV EDI,0x1                    [BF01000000] 
+D6BD4: CMP dword ptr [0x0036e774],0x0 [833D997B290000] 
+D6BE1: MOV EAX,0x1                    [B801000000] 
+D6BE8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+21EB2: ADD RSP,0x8                    [4883C408] 
+
+========

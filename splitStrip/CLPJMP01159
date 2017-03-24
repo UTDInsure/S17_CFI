@@ -1,0 +1,25 @@
+
+
+BEF34: PUSH R15                       [4157] 
+BEF36: MOV R15,RSI                    [4989F7] 
+BEF39: PUSH R14                       [4156] 
+BEF3B: PUSH R13                       [4155] 
+BEF3D: PUSH R12                       [4154] 
+BEF3F: PUSH RBP                       [55] 
+BEF40: PUSH RBX                       [53] 
+BEF41: MOVSXD RBX,EDX                 [4863DA] 
+BEF44: SHL RBX,0x4                    [48C1E304] 
+BEF48: SUB RSP,0x48                   [4883EC48] 
+BEF4C: MOV RBP,RBX                    [4889DD] 
+BEF4F: ADD RBP,[RSI + 0x28]           [48036E28] 
+BEF53: MOV [RSP + 0x10],RDI           [48897C2410] 
+BEF58: MOV [RSP + 0x18],EDX           [89542418] 
+BEF5C: MOV [RSP + 0x1c],ECX           [894C241C] 
+BEF60: MOV EAX,[RBP + 0x4]            [8B4504] 
+BEF63: MOV dword ptr [RSP + 0x24],0x0 [C744242400000000] 
+BEF6B: ADD EAX,0x1                    [83C001] 
+BEF6E: MOV [RSP + 0x20],EAX           [89442420] 
+BEF72: CDQE                           [4898] 
+BEF74: LEA RDI,[RAX*0x4]              [488D3C8500000000] 
+
+========

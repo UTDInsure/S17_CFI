@@ -1,0 +1,12 @@
+
+
+E3884: MOV EAX,[0x0036e774]           [8B05EAAE2800] 
+E388A: TEST EAX,EAX                   [85C0] 
+E388E: MOV R9D,0x8                    [41B908000000] 
+E3894: MOVSXD R10,ECX                 [4C63D1] 
+E3897: MOVSXD RDX,EDX                 [4863D2] 
+E389A: MOVSXD RDI,EDI                 [4863FF] 
+E389D: MOV EAX,0x119                  [B819010000] 
+E38A4: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

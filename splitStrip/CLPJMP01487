@@ -1,0 +1,6 @@
+
+
+FCFF4: SUB RSP,0x8                    [4883EC08] 
+FCFF8: MOV EDI,0x400                  [BF00040000] 
+
+========

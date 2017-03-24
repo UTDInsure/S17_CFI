@@ -1,0 +1,19 @@
+
+
+F1AF4: SUB RSP,0x8                    [4883EC08] 
+F1AF8: LEA R9,[RDI + RDX*0x1]         [4C8D0C17] 
+F1AFC: MOV RCX,RDI                    [4889F9] 
+F1B0B: SUB RDX,0x1                    [4883EA01] 
+F1B0F: CMP RCX,R9                     [4C39C9] 
+F1B14: CMP byte ptr [RCX],0x0         [803900] 
+F1B17: LEA R8,[RCX + 0x1]             [4C8D4101] 
+F1B1D: LEA R8,[RCX + -0x1]            [4C8D41FF] 
+F1B21: LEA R9,[RDX + 0x1]             [4C8D4A01] 
+F1B25: XOR ECX,ECX                    [31C9] 
+F1B39: MOVZX EDX,byte ptr [RSI + RCX*0x1] [0FB6140E] 
+F1B3D: TEST DL,DL                     [84D2] 
+F1B3F: MOV [R8 + RCX*0x1 + 0x1],DL    [4188540801] 
+F1B46: MOV RAX,RDI                    [4889F8] 
+F1B49: ADD RSP,0x8                    [4883C408] 
+
+========

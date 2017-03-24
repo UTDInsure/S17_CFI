@@ -1,0 +1,9 @@
+
+
+DBC74: TEST ESI,0xffffeff0            [F7C6F0EFFFFF] 
+DBCA0: TEST ESI,ESI                   [85F6] 
+DBCA2: MOV [RDI + 0x34],ESI           [897734] 
+DBCA7: OR dword ptr [RDI],0x80000000  [810F00000080] 
+DBCAD: XOR EAX,EAX                    [31C0] 
+
+========

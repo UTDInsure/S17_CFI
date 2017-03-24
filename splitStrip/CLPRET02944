@@ -1,0 +1,14 @@
+
+
+76884: PUSH RBX                       [53] 
+76885: MOV EAX,[RDI]                  [8B07] 
+76887: MOV RBX,RDI                    [4889FB] 
+7688A: AND EAX,0x8000                 [2500800000] 
+768EB: MOV RAX,[RBX + 0x8]            [488B4308] 
+768EF: CMP RAX,[RBX + 0x10]           [483B4310] 
+768F5: MOVZX EDX,byte ptr [RAX]       [0FB610] 
+768F8: TEST dword ptr [RBX],0x8000    [F70300800000] 
+76943: MOV EAX,EDX                    [89D0] 
+76945: POP RBX                        [5B] 
+
+========

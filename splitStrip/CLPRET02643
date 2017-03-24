@@ -1,0 +1,9 @@
+
+
+71094: PUSH RBX                       [53] 
+71095: MOV RSI,[0xa0 + RDI]           [488BB7A0000000] 
+7109C: MOV RBX,RDI                    [4889FB] 
+7109F: CMP dword ptr [RSI + 0x30],0x0 [48837E3000] 
+710A6: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,20 @@
+
+
+40DEA4: PUSH R14                       [4156] 
+40DEA6: CMP RDI,-0x1                   [4883FFFF] 
+40DEAA: PUSH R13                       [4155] 
+40DEAC: MOV R13,RDI                    [4989FD] 
+40DEAF: PUSH R12                       [4154] 
+40DEB1: PUSH RBP                       [55] 
+40DEB2: PUSH RBX                       [53] 
+40DFC8: XOR EAX,EAX                    [31C0] 
+4108F4: MOV dword ptr [0x006286c0],0x1 [C705C27D210001000000] 
+4108FE: MOV dword ptr [0x006286d4],0x0 [C705CC7D210000000000] 
+40DFD3: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+40DFDA: POP RBX                        [5B] 
+40DFDB: POP RBP                        [5D] 
+40DFDC: POP R12                        [415C] 
+40DFDE: POP R13                        [415D] 
+40DFE0: POP R14                        [415E] 
+
+========

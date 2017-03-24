@@ -1,0 +1,16 @@
+
+
+10EC84: PUSH RBP                       [55] 
+10EC85: MOV RBP,RDI                    [4889FD] 
+10EC88: PUSH RBX                       [53] 
+10EC89: SUB RSP,0x8                    [4883EC08] 
+10EC8D: MOV RBX,[RDI + 0x10]           [488B5F10] 
+10EC91: MOV EAX,[RBX + 0x4]            [8B4304] 
+10EC94: TEST EAX,EAX                   [85C0] 
+10EC98: MOV RAX,[RBX + 0x70]           [488B4370] 
+10EC9C: MOV RAX,[RAX + 0x38]           [488B4038] 
+10ECA0: TEST RAX,RAX                   [4885C0] 
+10ECA5: LEA RDI,[RBX + 0x68]           [488D7B68] 
+10ECAF: MOV RDI,RBX                    [4889DF] 
+
+========

@@ -1,0 +1,24 @@
+
+
+59778: MOV R11D,0x8                   [41BB08000000] 
+5977E: NOP                            [6690] 
+58868: CMP R14D,-0x1                  [4183FEFF] 
+58872: MOV RAX,[R15 + 0x8]            [498B4708] 
+58876: CMP RAX,[R15 + 0x10]           [493B4710] 
+5C647: MOV RDI,R15                    [4C89FF] 
+5C64A: MOV [-0x1d0 + RBP],R11D        [44899D30FEFFFF] 
+79654: PUSH RBX                       [53] 
+79655: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7965B: MOV RBX,RDI                    [4889FB] 
+7965E: TEST EAX,EAX                   [85C0] 
+79662: MOV dword ptr [0xc0 + RDI],0xffffffff [C787C0000000FFFFFFFF] 
+7966C: TEST dword ptr [RBX],0x800     [F70300080000] 
+79700: MOV RDI,RBX                    [4889DF] 
+794A4: MOV RAX,[RDI + 0x28]           [488B4728] 
+794A8: CMP RAX,[RDI + 0x20]           [483B4720] 
+794AC: PUSH RBX                       [53] 
+794AD: MOV RBX,RDI                    [4889FB] 
+794F0: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+794F7: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+
+========

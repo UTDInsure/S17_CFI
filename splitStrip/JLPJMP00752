@@ -1,0 +1,19 @@
+
+
+52BBB: MOV RAX,[-0x1070 + RBP]        [488B8590EFFFFF] 
+52BC2: LEA RDX,[RAX + 0x4]            [488D5004] 
+52BC6: MOV EAX,[RAX + 0x4]            [8B4004] 
+52BC9: MOV [-0x1070 + RBP],RDX        [48899590EFFFFF] 
+52BD0: LEA EDX,[RAX + -0x20]          [8D50E0] 
+52BD3: MOV [-0x10c0 + RBP],EAX        [898540EFFFFF] 
+52BD9: XOR EAX,EAX                    [31C0] 
+52BDB: CMP EDX,0x5a                   [83FA5A] 
+52BE0: LEA RAX,[0x12fca0]             [488D05B9D00D00] 
+52BE7: MOVZX EDX,byte ptr [RAX + RDX*0x1] [0FB61410] 
+52BEB: LEA RAX,[0x12fa20]             [488D052ECE0D00] 
+52BF2: MOVSXD RAX,[RAX + RDX*0x4]     [48630490] 
+52BF6: ADD RAX,R13                    [4C01E8] 
+52BF9: MOV dword ptr [-0x1118 + RBP],0x1 [C785E8EEFFFF01000000] 
+52C03: MOV dword ptr [-0x1100 + RBP],0x0 [C78500EFFFFF00000000] 
+
+========

@@ -1,0 +1,22 @@
+
+
+119C64: MOVZX EAX,word ptr [RDI]       [0FB707] 
+119C67: MOV R9,RDI                     [4989F9] 
+119C6A: SUB EAX,0x1                    [83E801] 
+119C6D: CMP AX,0x7                     [6683F807] 
+119C90: MOV R10,RSI                    [4989F2] 
+119C93: SUB RSP,0x8                    [4883EC08] 
+119C97: MOV ESI,0x1                    [BE01000000] 
+119C9C: XOR EAX,EAX                    [31C0] 
+119C9E: CMP dword ptr [0x0036e774],0x0 [833DCF4A250000] 
+119CB3: CMPXCHG [0x0036e9b8],ESI       [0FB135FE4C2500] 
+119CDA: MOV RAX,[0x0036a728]           [488B05470A2500] 
+119CE1: MOV RSI,R10                    [4C89D6] 
+119CE4: MOV RDI,R9                     [4C89CF] 
+119CEE: MOV EDX,EAX                    [89C2] 
+119CF0: CMP dword ptr [0x0036e774],0x0 [833D7D4A250000] 
+119D04: DEC dword ptr [0x0036e9b8]     [FF0DAE4C2500] 
+119D2A: MOV EAX,EDX                    [89D0] 
+119D2C: ADD RSP,0x8                    [4883C408] 
+
+========

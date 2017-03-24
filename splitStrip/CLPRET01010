@@ -1,0 +1,25 @@
+
+
+4140D4: PUSH R15                       [4157] 
+4140D6: PUSH R14                       [4156] 
+4140D8: PUSH R13                       [4155] 
+4140DA: MOV R13,RSI                    [4989F5] 
+4140DD: PUSH R12                       [4154] 
+4140DF: PUSH RBP                       [55] 
+4140E0: XOR EBP,EBP                    [31ED] 
+4140E2: PUSH RBX                       [53] 
+4140E3: MOV RBX,RDI                    [4889FB] 
+4140E6: SUB RSP,0x28                   [4883EC28] 
+4140EA: MOV R12,RSP                    [4989E4] 
+4140ED: MOVZX EAX,byte ptr [RBX]       [0FB603] 
+4140F0: TEST AL,AL                     [84C0] 
+414114: ADD RSP,0x28                   [4883C428] 
+414118: MOV EAX,EBP                    [89E8] 
+41411A: POP RBX                        [5B] 
+41411B: POP RBP                        [5D] 
+41411C: POP R12                        [415C] 
+41411E: POP R13                        [415D] 
+414120: POP R14                        [415E] 
+414122: POP R15                        [415F] 
+
+========

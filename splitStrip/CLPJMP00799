@@ -1,0 +1,15 @@
+
+
+6CA94: SUB RSP,0x8                    [4883EC08] 
+6CA98: MOV EDX,0x1                    [BA01000000] 
+6C9B4: PUSH R13                       [4155] 
+6C9B6: MOV R13D,EDX                   [4189D5] 
+6C9B9: PUSH R12                       [4154] 
+6C9BB: MOV R12,RSI                    [4989F4] 
+6C9BE: PUSH RBP                       [55] 
+6C9BF: MOV RBP,RDI                    [4889FD] 
+6C9C2: MOV EDI,0x238                  [BF38020000] 
+6C9C7: PUSH RBX                       [53] 
+6C9C8: SUB RSP,0x18                   [4883EC18] 
+
+========

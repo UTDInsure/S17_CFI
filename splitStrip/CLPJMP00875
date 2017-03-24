@@ -1,0 +1,9 @@
+
+
+76434: PUSH RBX                       [53] 
+76435: MOV EDX,[RDI + 0x8]            [8B5708] 
+76438: MOV RBX,RDI                    [4889FB] 
+7643B: TEST EDX,EDX                   [85D2] 
+7643F: MOV RDI,[RDI]                  [488B3F] 
+
+========

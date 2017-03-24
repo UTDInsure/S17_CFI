@@ -1,0 +1,13 @@
+
+
+4158AD: CMP byte ptr [RDI],0x0         [803F00] 
+4158B0: MOV dword ptr [0x0062b180],0x62b1a0 [48C705C5582100A0B16200] 
+4158BB: MOV EAX,0x4182d2               [B8D2824100] 
+4158D7: MOV dword ptr [0x0062ba48],0x0 [C7056761210000000000] 
+4158E1: ADD RSP,0x8                    [4883C408] 
+4158E5: POP RBX                        [5B] 
+4158E6: POP RBP                        [5D] 
+4158E7: POP R12                        [415C] 
+4158E9: POP R13                        [415D] 
+
+========

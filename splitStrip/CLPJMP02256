@@ -1,0 +1,15 @@
+
+
+2B614: PUSH R12                       [4154] 
+2B616: MOV R12,RDX                    [4989D4] 
+2B619: PUSH RBP                       [55] 
+2B61A: MOV RBP,RDI                    [4889FD] 
+2B61D: PUSH RBX                       [53] 
+2B61E: MOV EBX,ESI                    [89F3] 
+2B643: TEST EBX,EBX                   [85DB] 
+2B628: ADD RBP,0x8                    [4883C508] 
+2B62C: MOV RDI,[RBP + -0x8]           [488B7DF8] 
+2B630: MOV RSI,R12                    [4C89E6] 
+2B633: SUB EBX,0x1                    [83EB01] 
+
+========

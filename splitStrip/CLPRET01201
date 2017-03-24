@@ -1,0 +1,22 @@
+
+
+1F4F9: MOV RCX,[0x00367b48]           [488B0D48863400] 
+1F500: MOV R8,[0x00367b58]            [4C8B0551863400] 
+1F507: XOR R10D,R10D                  [4531D2] 
+1F50A: MOV AL,[RSI]                   [8A06] 
+1F50C: TEST AL,AL                     [84C0] 
+1F545: MOV EDX,R10D                   [4489D2] 
+1F548: SUB EDX,EDI                    [29FA] 
+1F557: LEA EAX,[RDX + RDI*0x1]        [8D043A] 
+1F55A: DEC EAX                        [FFC8] 
+1F55E: INC RDI                        [48FFC7] 
+1F561: MOV byte ptr [RDI + -0x1],0x2f [C647FF2F] 
+1F557: LEA EAX,[RDX + RDI*0x1]        [8D043A] 
+1F55A: DEC EAX                        [FFC8] 
+1F55E: INC RDI                        [48FFC7] 
+1F561: MOV byte ptr [RDI + -0x1],0x2f [C647FF2F] 
+1F557: LEA EAX,[RDX + RDI*0x1]        [8D043A] 
+1F55A: DEC EAX                        [FFC8] 
+1F567: MOV byte ptr [RDI],0x0         [C60700] 
+
+========

@@ -1,0 +1,17 @@
+
+
+40741C: MOV RAX,[0x00627bc0]           [488B059D072200] 
+407423: MOV dword ptr [0x00627bb0],0x0 [C7058307220000000000] 
+40742D: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+407430: TEST AL,0xdf                   [A8DF] 
+407451: CMP AL,0x20                    [3C20] 
+407367: XOR EAX,EAX                    [31C0] 
+407112: ADD RSP,0x28                   [4883C428] 
+407116: POP RBX                        [5B] 
+407117: POP RBP                        [5D] 
+407118: POP R12                        [415C] 
+40711A: POP R13                        [415D] 
+40711C: POP R14                        [415E] 
+40711E: POP R15                        [415F] 
+
+========

@@ -1,0 +1,20 @@
+
+
+15E14: PUSH R14                       [4156] 
+15E16: PUSH R13                       [4155] 
+15E18: PUSH R12                       [4154] 
+15E1A: PUSH RBP                       [55] 
+15E1B: PUSH RBX                       [53] 
+15E1C: MOV RBX,[0x0024a7a0]           [488B1D7D492300] 
+15E23: MOV RAX,[RBX]                  [488B03] 
+15E26: TEST RAX,RAX                   [4885C0] 
+15E2F: MOV R11D,[0x2d8 + RAX]         [448B98D8020000] 
+15E36: TEST R11D,R11D                 [4585DB] 
+15E80: XOR EAX,EAX                    [31C0] 
+15E82: POP RBX                        [5B] 
+15E83: POP RBP                        [5D] 
+15E84: POP R12                        [415C] 
+15E86: POP R13                        [415D] 
+15E88: POP R14                        [415E] 
+
+========

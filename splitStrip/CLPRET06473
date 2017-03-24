@@ -1,0 +1,7 @@
+
+
+F4B64: CMP RDI,0x3ff                  [4881FFFF030000] 
+F4B6D: MOV RAX,RDI                    [4889F8] 
+F4B70: SAR RAX,0x6                    [48C1F806] 
+
+========

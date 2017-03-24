@@ -1,0 +1,6 @@
+
+
+E33B4: MOV EAX,0xc6                   [B8C6000000] 
+E33BB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

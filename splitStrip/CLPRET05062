@@ -1,0 +1,19 @@
+
+
+DA7D4: PUSH R14                       [4156] 
+DA7D6: PUSH R13                       [4155] 
+DA7D8: PUSH R12                       [4154] 
+DA7DA: MOV R12,RDI                    [4989FC] 
+DA7DD: PUSH RBP                       [55] 
+DA7DE: PUSH RBX                       [53] 
+DA7DF: MOV RBP,[RDI]                  [488B2F] 
+DA7E2: TEST RBP,RBP                   [4885ED] 
+DAAC8: XOR EBX,EBX                    [31DB] 
+DAACA: MOV RAX,RBX                    [4889D8] 
+DAACD: POP RBX                        [5B] 
+DAACE: POP RBP                        [5D] 
+DAACF: POP R12                        [415C] 
+DAAD1: POP R13                        [415D] 
+DAAD3: POP R14                        [415E] 
+
+========

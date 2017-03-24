@@ -1,0 +1,14 @@
+
+
+77544: SUB RSP,0x8                    [4883EC08] 
+77548: MOV EDI,[RDI + 0x70]           [8B7F70] 
+E36C4: CMP dword ptr [0x0036e774],0x0 [833DA9B0280000] 
+E36D1: MOV EAX,0x8                    [B808000000] 
+E36D8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3719: MOV RCX,[0x00368e68]           [488B0D48572800] 
+E3720: NEG EAX                        [F7D8] 
+E3722: MOV FS:[RCX],EAX               [648901] 
+E3725: OR RAX,-0x1                    [4883C8FF] 
+77554: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,17 @@
+
+
+82204: PUSH RBX                       [53] 
+82205: MOV RDX,[RDI + 0x18]           [488B5718] 
+82209: MOV EAX,0xd8675309             [B8095367D8] 
+8220E: ADD RDX,[RDI + 0x10]           [48035710] 
+82212: XOR RDX,[RDI + 0x8]            [48335708] 
+82216: CMP RDX,RAX                    [4839C2] 
+8221B: MOV EAX,0xfedabeeb             [B8EBBEDAFE] 
+82220: CMP RDX,RAX                    [4839C2] 
+82250: MOV RAX,[RDI]                  [488B07] 
+82253: MOV EBX,0x3                    [BB03000000] 
+82258: CMP byte ptr [RDI + RAX*0x1 + 0x30],0xd7 [807C0730D7] 
+8222A: MOV dword ptr [0x0036b86c],0x0 [C70538962E0000000000] 
+82234: MOV EDI,EBX                    [89DF] 
+
+========

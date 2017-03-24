@@ -1,0 +1,6 @@
+
+
+69F04: MOV EAX,0x52                   [B852000000] 
+69F0B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

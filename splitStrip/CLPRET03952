@@ -1,0 +1,22 @@
+
+
+95E44: MOVQ XMM1,RSI                  [66480F6ECE] 
+95E49: MOV RCX,RDI                    [4889F9] 
+95E4C: PUNPCKLDQ XMM1,XMM1            [660F62C9] 
+95E50: PXOR XMM2,XMM2                 [660FEFD2] 
+95E54: PUNPCKLDQ XMM1,XMM1            [660F62C9] 
+95E58: AND RCX,0x3f                   [4883E13F] 
+95E5C: CMP RCX,0x30                   [4883F930] 
+95E62: MOVDQU XMM0,[RDI]              [F30F6F07] 
+95E66: PCMPEQD XMM2,XMM0              [660F76D0] 
+95E6A: PCMPEQD XMM0,XMM1              [660F76C1] 
+95E6E: PMOVMSKB ECX,XMM2              [660FD7CA] 
+95E72: PMOVMSKB EAX,XMM0              [660FD7C0] 
+95E76: ADD RDI,0x10                   [4883C710] 
+95E7A: TEST RAX,RAX                   [4885C0] 
+95EA0: TEST RCX,RCX                   [4885C9] 
+960A6: TEST CL,0xf                    [F6C10F] 
+960E0: TEST RAX,0x1                   [48A901000000] 
+96150: XOR RAX,RAX                    [4831C0] 
+
+========

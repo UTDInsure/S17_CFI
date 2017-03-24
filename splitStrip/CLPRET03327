@@ -1,0 +1,8 @@
+
+
+7D0B4: TEST RDI,RDI                   [4885FF] 
+7D0B7: PUSH RBX                       [53] 
+7D0B8: MOV RBX,RDI                    [4889FB] 
+7D173: POP RBX                        [5B] 
+
+========

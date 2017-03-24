@@ -1,0 +1,17 @@
+
+
+EB164: PUSH RBP                       [55] 
+EB165: MOV RBP,RSI                    [4889F5] 
+EB168: PUSH RBX                       [53] 
+EB169: MOV RBX,RDI                    [4889FB] 
+EB16C: SUB RSP,0x8                    [4883EC08] 
+EB170: MOV RAX,[RDI + 0x38]           [488B4738] 
+EB174: SUB RAX,[RDI + 0x30]           [482B4730] 
+EB178: CMP RAX,[RDI + 0x20]           [483B4720] 
+EB187: MOV RAX,[RBX + 0x8]            [488B4308] 
+EB18B: MOV [RBX + 0x8],RBP            [48896B08] 
+EB18F: ADD RSP,0x8                    [4883C408] 
+EB193: POP RBX                        [5B] 
+EB194: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,12 @@
+
+
+17744: PUSH RBP                       [55] 
+17745: MOV RBP,RDX                    [4889D5] 
+17748: MOV EDX,ESI                    [89F2] 
+1774A: MOV ESI,EDI                    [89FE] 
+1774C: PUSH RBX                       [53] 
+1774D: SUB RSP,0x8                    [4883EC08] 
+17751: MOV RBX,[0x0024a830]           [488B1DD8302300] 
+17758: MOV RDI,[RBX]                  [488B3B] 
+
+========

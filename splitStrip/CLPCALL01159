@@ -1,0 +1,28 @@
+
+
+FBBF4: MOV RDI,[0x0036d7c8]           [488B3DCD1B2700] 
+FBBFB: XOR EAX,EAX                    [31C0] 
+FBBFD: TEST byte ptr [RDI],0x30       [F60730] 
+FBC06: PUSH R13                       [4155] 
+FBC08: PUSH R12                       [4154] 
+FBC0A: PUSH RBP                       [55] 
+FBC0B: PUSH RBX                       [53] 
+FBC0C: SUB RSP,0x8                    [4883EC08] 
+FBC10: MOV RAX,[RDI + 0x8]            [488B4708] 
+FBC14: CMP RAX,[RDI + 0x10]           [483B4710] 
+FBDAD: NOP                            [0F1F00] 
+79654: PUSH RBX                       [53] 
+79655: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7965B: MOV RBX,RDI                    [4889FB] 
+7965E: TEST EAX,EAX                   [85C0] 
+79662: MOV dword ptr [0xc0 + RDI],0xffffffff [C787C0000000FFFFFFFF] 
+7966C: TEST dword ptr [RBX],0x800     [F70300080000] 
+79700: MOV RDI,RBX                    [4889DF] 
+794A4: MOV RAX,[RDI + 0x28]           [488B4728] 
+794A8: CMP RAX,[RDI + 0x20]           [483B4720] 
+794AC: PUSH RBX                       [53] 
+794AD: MOV RBX,RDI                    [4889FB] 
+794F0: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+794F7: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+
+========

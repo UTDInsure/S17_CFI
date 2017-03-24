@@ -1,0 +1,6 @@
+
+
+20F54: TEST RDI,RDI                   [4885FF] 
+20F82: XOR EAX,EAX                    [31C0] 
+
+========

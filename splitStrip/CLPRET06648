@@ -1,0 +1,15 @@
+
+
+1007A4: CMP EDX,0x1                    [83FA01] 
+1007A7: PUSH RBX                       [53] 
+1007A8: MOV ECX,EDX                    [89D1] 
+1007AC: NEG EDX                        [F7DA] 
+1007AE: AND EDX,0x7                    [83E207] 
+1007B1: TEST RDI,RDI                   [4885FF] 
+1007B4: LEA EBX,[RCX + RDX*0x1]        [8D1C11] 
+1007B9: CMP EBX,ESI                    [39F3] 
+1007D0: MOV EBX,0xffffffff             [BBFFFFFFFF] 
+1007C8: MOV EAX,EBX                    [89D8] 
+1007CA: POP RBX                        [5B] 
+
+========

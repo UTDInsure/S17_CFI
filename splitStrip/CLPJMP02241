@@ -1,0 +1,15 @@
+
+
+2A484: PUSH R15                       [4157] 
+2A486: MOV R15D,ECX                   [4189CF] 
+2A489: PUSH R14                       [4156] 
+2A48B: PUSH R13                       [4155] 
+2A48D: PUSH R12                       [4154] 
+2A48F: MOV R12D,EDX                   [4189D4] 
+2A492: PUSH RBP                       [55] 
+2A493: MOV EBP,ESI                    [89F5] 
+2A495: PUSH RBX                       [53] 
+2A496: MOV RBX,RDI                    [4889FB] 
+2A499: SUB RSP,0x8                    [4883EC08] 
+
+========

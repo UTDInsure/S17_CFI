@@ -1,0 +1,7 @@
+
+
+407C14: MOV RAX,[0x00627b78]           [488B055DFF2100] 
+407C1B: TEST RAX,RAX                   [4885C0] 
+407C30: XOR EAX,EAX                    [31C0] 
+
+========

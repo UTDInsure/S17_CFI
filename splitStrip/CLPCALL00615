@@ -1,0 +1,20 @@
+
+
+780C4: PUSH RBX                       [53] 
+780C5: CMP dword ptr [RDI + 0x70],-0x1 [837F70FF] 
+780C9: MOV RBX,RDI                    [4889FB] 
+780CE: MOV R10D,[0xc0 + RDI]          [448B97C0000000] 
+780D5: TEST R10D,R10D                 [4585D2] 
+78138: MOV RSI,[RDI + 0x20]           [488B7720] 
+7813C: MOV RDX,[RDI + 0x28]           [488B5728] 
+78140: SUB RDX,RSI                    [4829F2] 
+78754: XOR EAX,EAX                    [31C0] 
+78756: TEST RDX,RDX                   [4885D2] 
+78759: PUSH RBX                       [53] 
+7875A: MOV RBX,RDX                    [4889D3] 
+7875F: POP RBX                        [5B] 
+780F9: TEST byte ptr [RBX],0x40       [F60340] 
+78110: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+78117: MOV RDI,RBX                    [4889DF] 
+
+========

@@ -1,0 +1,9 @@
+
+
+19254: MOV AL,[RDI]                   [8A07] 
+19256: CMP AL,[RSI]                   [3A06] 
+19267: MOV EAX,0x1                    [B801000000] 
+1926C: MOV ECX,0xffffffff             [B9FFFFFFFF] 
+19271: CMOVC EAX,ECX                  [0F42C1] 
+
+========

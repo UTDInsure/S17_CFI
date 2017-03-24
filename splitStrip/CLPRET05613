@@ -1,0 +1,14 @@
+
+
+E39B4: SUB RSP,0x8                    [4883EC08] 
+E39B8: MOV EDX,0x8                    [BA08000000] 
+D6B64: CMP dword ptr [0x0036e774],0x0 [833D097C290000] 
+D6B71: MOV EAX,0x0                    [B800000000] 
+D6B78: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E39C6: CMP RAX,0x8                    [4883F808] 
+E39CA: SETNZ AL                       [0F95C0] 
+E39CD: ADD RSP,0x8                    [4883C408] 
+E39D1: MOVZX EAX,AL                   [0FB6C0] 
+E39D4: NEG EAX                        [F7D8] 
+
+========

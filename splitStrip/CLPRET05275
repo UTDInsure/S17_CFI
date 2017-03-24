@@ -1,0 +1,10 @@
+
+
+DCD44: MOV EAX,0xaa                   [B8AA000000] 
+DCD4B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DCD54: MOV RCX,[0x00368e68]           [488B0D0DC12800] 
+DCD5B: NEG EAX                        [F7D8] 
+DCD5D: MOV FS:[RCX],EAX               [648901] 
+DCD60: OR RAX,-0x1                    [4883C8FF] 
+
+========

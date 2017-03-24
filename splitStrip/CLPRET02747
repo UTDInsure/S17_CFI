@@ -1,0 +1,17 @@
+
+
+72F54: PUSH RBP                       [55] 
+72F55: PUSH RBX                       [53] 
+72F56: MOV RBX,RDI                    [4889FB] 
+72F59: SUB RSP,0x28                   [4883EC28] 
+72F5D: MOV EAX,[RDI]                  [8B07] 
+72F5F: TEST AL,0x4                    [A804] 
+72F67: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+72F6E: MOV RDX,[RAX]                  [488B10] 
+72F71: CMP RDX,[RAX + 0x8]            [483B5008] 
+73020: MOV EAX,[RDX]                  [8B02] 
+73022: ADD RSP,0x28                   [4883C428] 
+73026: POP RBX                        [5B] 
+73027: POP RBP                        [5D] 
+
+========

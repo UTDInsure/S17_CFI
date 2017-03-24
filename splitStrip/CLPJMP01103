@@ -1,0 +1,20 @@
+
+
+B18E4: PUSH R13                       [4155] 
+B18E6: MOV ESI,0x1                    [BE01000000] 
+B18EB: XOR EAX,EAX                    [31C0] 
+B18ED: PUSH R12                       [4154] 
+B18EF: PUSH RBP                       [55] 
+B18F0: MOV RBP,RDI                    [4889FD] 
+B18F3: PUSH RBX                       [53] 
+B18F4: SUB RSP,0x18                   [4883EC18] 
+B18F8: CMP dword ptr [0x0036e774],0x0 [833D75CE2B0000] 
+B1901: LOCK                           [F0] 
+B1902: CMPXCHG [0x0036be38],ESI       [0FB1352FA52B00] 
+B1934: MOV RDX,[0x0036a7a0]           [488B15658E2B00] 
+B193B: MOV RCX,[0x0036be30]           [488B0DEEA42B00] 
+B1942: TEST RDX,RDX                   [4885D2] 
+B1A40: MOV EDI,0x400                  [BF00040000] 
+B1A45: MOV dword ptr [0x0036be30],0x400 [48C705E0A32B0000040000] 
+
+========

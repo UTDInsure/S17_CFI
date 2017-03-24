@@ -1,0 +1,10 @@
+
+
+F36B4: SUB RSP,0x8                    [4883EC08] 
+F36B8: CMP RCX,RDX                    [4839D1] 
+965A4: CMP RDX,0x3                    [4883FA03] 
+96648: AND EDX,0x3                    [83E203] 
+9664B: MOV RAX,RDI                    [4889F8] 
+F36C6: ADD RSP,0x8                    [4883C408] 
+
+========

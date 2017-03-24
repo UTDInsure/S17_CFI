@@ -1,0 +1,18 @@
+
+
+225D4: PUSH R14                       [4156] 
+225D6: TEST RDI,RDI                   [4885FF] 
+225D9: PUSH R13                       [4155] 
+225DB: PUSH R12                       [4154] 
+225DD: MOV R12,RDI                    [4989FC] 
+225E0: PUSH RBP                       [55] 
+225E1: PUSH RBX                       [53] 
+225E8: TEST byte ptr [RDI + 0xc],0x10 [F6470C10] 
+225F2: MOVSX ESI,word ptr [RDI + 0x6] [0FBF7706] 
+225F6: MOVSX ECX,word ptr [RDI + 0xa] [0FBF4F0A] 
+225FA: MOVSX EDX,word ptr [RDI + 0x8] [0FBF5708] 
+225FE: MOVSX EDI,word ptr [RDI + 0x4] [0FBF7F04] 
+22602: ADD ESI,0x1                    [83C601] 
+22605: ADD EDI,0x1                    [83C701] 
+
+========

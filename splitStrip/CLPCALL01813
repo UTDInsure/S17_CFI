@@ -1,0 +1,11 @@
+
+
+11D274: MOV ECX,[0x0036e770]           [8B0DF6142500] 
+11D27A: XOR EAX,EAX                    [31C0] 
+11D27C: TEST ECX,ECX                   [85C9] 
+11D288: SUB RSP,0x8                    [4883EC08] 
+11D28C: MOV RAX,[0x0036e680]           [488B05ED132500] 
+11D293: ROR RAX,0x11                   [48C1C811] 
+11D297: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

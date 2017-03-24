@@ -1,0 +1,18 @@
+
+
+7AAA4: MOV RAX,[RDI + 0x28]           [488B4728] 
+7AAA8: MOV RCX,[RDI + 0x10]           [488B4F10] 
+7AAAC: CMP RAX,RCX                    [4839C8] 
+7AAB1: MOV [RDI + 0x10],RAX           [48894710] 
+7AAB5: MOV RCX,RAX                    [4889C1] 
+7AAB8: MOV EDX,[RDI]                  [8B17] 
+7AABA: AND EDX,0xc00                  [81E2000C0000] 
+7AAC0: CMP EDX,0xc00                  [81FA000C0000] 
+7AAD8: MOV RDX,[RDI + 0x30]           [488B5730] 
+7AADC: AND [RDI],0xfffff7ff           [8127FFF7FFFF] 
+7AAE2: MOV [RDI + 0x8],RAX            [48894708] 
+7AAE6: MOV [RDI + 0x28],RDX           [48895728] 
+7AACC: CMP RAX,RCX                    [4839C8] 
+7AAF0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

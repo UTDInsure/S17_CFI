@@ -1,0 +1,16 @@
+
+
+1197C4: PUSH R12                       [4154] 
+1197C6: MOV R12,RSI                    [4989F4] 
+1197C9: PUSH RBP                       [55] 
+1197CA: MOV RBP,RDI                    [4889FD] 
+1197CD: PUSH RBX                       [53] 
+1197CE: MOV RBX,RDX                    [4889D3] 
+1197DB: TEST EAX,EAX                   [85C0] 
+119808: MOV dword ptr [RBX],0x0        [48C70300000000] 
+11980F: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+119814: POP RBX                        [5B] 
+119815: POP RBP                        [5D] 
+119816: POP R12                        [415C] 
+
+========

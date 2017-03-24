@@ -1,0 +1,20 @@
+
+
+79744: PUSH RBP                       [55] 
+79745: MOV RBP,RSI                    [4889F5] 
+79748: PUSH RBX                       [53] 
+79749: MOV RBX,RDI                    [4889FB] 
+7974C: SUB RSP,0x18                   [4883EC18] 
+79750: MOV RDI,[RDI + 0x38]           [488B7F38] 
+79754: MOV EAX,[RBX]                  [8B03] 
+79756: TEST RDI,RDI                   [4885FF] 
+7975F: TEST ECX,ECX                   [85C9] 
+79761: MOV [RBX + 0x38],RBP           [48896B38] 
+79765: MOV [RBX + 0x40],RDX           [48895340] 
+7976B: OR EAX,0x1                     [83C801] 
+7976E: MOV [RBX],EAX                  [8903] 
+79770: ADD RSP,0x18                   [4883C418] 
+79774: POP RBX                        [5B] 
+79775: POP RBP                        [5D] 
+
+========

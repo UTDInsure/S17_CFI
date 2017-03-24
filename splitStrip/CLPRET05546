@@ -1,0 +1,6 @@
+
+
+E3294: MOV EAX,0xc7                   [B8C7000000] 
+E329B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

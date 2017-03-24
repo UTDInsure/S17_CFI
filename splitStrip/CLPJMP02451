@@ -1,0 +1,22 @@
+
+
+36C04: PUSH R14                       [4156] 
+36C06: PUSH R13                       [4155] 
+36C08: PUSH R12                       [4154] 
+36C0A: PUSH RBP                       [55] 
+36C0B: PUSH RBX                       [53] 
+36C0C: MOV EBX,EDI                    [89FB] 
+36C0E: SUB RSP,0x10                   [4883EC10] 
+36C12: TEST EDI,EDI                   [85FF] 
+36C1A: TEST SIL,SIL                   [4084F6] 
+36C1D: MOV dword ptr [RSP + 0xc],0x0  [C744240C00000000] 
+36C25: MOV R12D,0xffffffff            [41BCFFFFFFFF] 
+36C2B: LEA R14,[RSP + 0xc]            [4C8D74240C] 
+36C30: MOV RBP,[0x0024a7a0]           [488B2D693B2100] 
+36D17: MOV RAX,[RBP]                  [488B4500] 
+36D1B: XOR ECX,ECX                    [31C9] 
+36D1D: MOV RDX,R14                    [4C89F2] 
+36D20: MOV ESI,EBX                    [89DE] 
+36D22: MOV RDI,[0x88 + RAX]           [488BB888000000] 
+
+========

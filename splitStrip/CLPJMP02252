@@ -1,0 +1,8 @@
+
+
+2B284: SUB RSP,0x98                   [4881EC98000000] 
+2B28B: MOV RSI,RDI                    [4889FE] 
+2B28E: MOV EDI,0x1                    [BF01000000] 
+2B293: MOV RDX,RSP                    [4889E2] 
+
+========

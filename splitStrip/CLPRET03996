@@ -1,0 +1,10 @@
+
+
+96504: CMP RDX,0x3                    [4883FA03] 
+96508: MOV RAX,RDI                    [4889F8] 
+9650B: MOV RCX,RDI                    [4889F9] 
+96547: TEST RDX,RDX                   [4885D2] 
+9654C: CMP RDX,0x1                    [4883FA01] 
+96550: MOV [RCX],ESI                  [8931] 
+
+========

@@ -1,0 +1,17 @@
+
+
+10DA44: PUSH R15                       [4157] 
+10DA46: MOV R15,RSI                    [4989F7] 
+10DA49: PUSH R14                       [4156] 
+10DA4B: PUSH R13                       [4155] 
+10DA4D: MOV R13,RDI                    [4989FD] 
+10DA50: MOV EDI,0x48                   [BF48000000] 
+10DA55: PUSH R12                       [4154] 
+10DA57: MOV R12,R8                     [4D89C4] 
+10DA5A: PUSH RBP                       [55] 
+10DA5B: MOV RBP,RCX                    [4889CD] 
+10DA5E: PUSH RBX                       [53] 
+10DA5F: SUB RSP,0x128                  [4881EC28010000] 
+10DA66: MOV [RSP + 0x4],EDX            [89542404] 
+
+========

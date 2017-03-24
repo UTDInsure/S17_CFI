@@ -1,0 +1,11 @@
+
+
+76074: MOV EDX,[RDI]                  [8B17] 
+76076: MOV EAX,EDX                    [89D0] 
+76078: AND EAX,0x8000                 [2500800000] 
+7607D: CMP EAX,0x1                    [83F801] 
+76080: SBB EAX,EAX                    [19C0] 
+76082: ADD EAX,0x2                    [83C002] 
+76085: TEST ESI,ESI                   [85F6] 
+
+========

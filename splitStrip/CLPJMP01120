@@ -1,0 +1,11 @@
+
+
+B5AE4: PUSH RBP                       [55] 
+B5AE5: MOV RBP,RDI                    [4889FD] 
+B5AE8: PUSH RBX                       [53] 
+B5AE9: SUB RSP,0x8                    [4883EC08] 
+B5AED: MOV RDI,[RDI + 0x8]            [488B7F08] 
+B5AF1: TEST RDI,RDI                   [4885FF] 
+B5AF6: CMP dword ptr [RBP],0x0        [48837D0000] 
+
+========

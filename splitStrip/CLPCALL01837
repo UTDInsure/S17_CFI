@@ -1,0 +1,10 @@
+
+
+11DFD4: MOV EAX,[0x0036e770]           [8B0596072500] 
+11DFDA: TEST EAX,EAX                   [85C0] 
+11DFE0: SUB RSP,0x8                    [4883EC08] 
+11DFE4: MOV RAX,[0x0036e760]           [488B0575072500] 
+11DFEB: ROR RAX,0x11                   [48C1C811] 
+11DFEF: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

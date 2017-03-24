@@ -1,0 +1,11 @@
+
+
+F06F4: MOV R10D,[0x0036e770]          [448B1575E02700] 
+F06FB: XOR EAX,EAX                    [31C0] 
+F06FD: TEST R10D,R10D                 [4585D2] 
+F0708: SUB RSP,0x8                    [4883EC08] 
+F070C: MOV RAX,[0x0036e6c0]           [488B05ADDF2700] 
+F0713: ROR RAX,0x11                   [48C1C811] 
+F0717: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

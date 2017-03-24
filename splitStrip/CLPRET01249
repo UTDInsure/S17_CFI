@@ -1,0 +1,8 @@
+
+
+225B4: CMP RDI,-0x1                   [4883FFFF] 
+225D6: MOV RAX,[0x00368e68]           [488B058B683400] 
+225DD: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+225E4: MOV EAX,EDI                    [89F8] 
+
+========

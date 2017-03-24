@@ -1,0 +1,20 @@
+
+
+BDD74: TEST EDI,EDI                   [85FF] 
+BDD78: SUB EDI,0x1                    [83EF01] 
+BDD7B: MOV RSI,[RSI]                  [488B36] 
+BDD7E: XOR ECX,ECX                    [31C9] 
+BDD8B: CMP EDI,ECX                    [39CF] 
+BDD8F: LEA EAX,[RCX + RDI*0x1]        [8D0439] 
+BDD92: SHR EAX,1                      [D1E8] 
+BDD94: MOV R8D,EAX                    [4189C0] 
+BDD97: CMP EDX,[RSI + R8*0x4]         [423B1486] 
+BDD88: LEA ECX,[RAX + 0x1]            [8D4801] 
+BDD8B: CMP EDI,ECX                    [39CF] 
+BDDB6: MOV EDI,ECX                    [89CF] 
+BDDB8: XOR EAX,EAX                    [31C0] 
+BDDBA: ADD ECX,0x1                    [83C101] 
+BDDBD: CMP EDX,[RSI + RDI*0x4]        [3B14BE] 
+BDDC0: CMOVZ EAX,ECX                  [0F44C1] 
+
+========

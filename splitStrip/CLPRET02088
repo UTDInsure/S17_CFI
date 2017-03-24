@@ -1,0 +1,9 @@
+
+
+44514: TEST RDI,RDI                   [4885FF] 
+44517: PUSH RBX                       [53] 
+44518: LEA RAX,[0x1368b1]             [488D0592230F00] 
+4451F: MOV RBX,RDI                    [4889FB] 
+44590: POP RBX                        [5B] 
+
+========

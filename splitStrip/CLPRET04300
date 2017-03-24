@@ -1,0 +1,21 @@
+
+
+AF224: PUSH RBP                       [55] 
+AF225: MOV ESI,EDI                    [89FE] 
+AF227: PUSH RBX                       [53] 
+AF228: MOV EBX,EDI                    [89FB] 
+AF22A: MOV EDI,0x1                    [BF01000000] 
+AF22F: SUB RSP,0x98                   [4881EC98000000] 
+AF236: MOV RDX,RSP                    [4889E2] 
+D64F4: CMP EDI,0x1                    [83FF01] 
+D64F7: MOV EAX,ESI                    [89F0] 
+D6518: MOV RAX,[0x00368e68]           [488B0549292900] 
+D651F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D6526: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+AF242: TEST EAX,EAX                   [85C0] 
+AF2A1: XOR EAX,EAX                    [31C0] 
+AF289: ADD RSP,0x98                   [4881C498000000] 
+AF290: POP RBX                        [5B] 
+AF291: POP RBP                        [5D] 
+
+========

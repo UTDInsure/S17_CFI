@@ -1,0 +1,21 @@
+
+
+40B434: SUB RSP,0x8                    [4883EC08] 
+40B44D: XOR EAX,EAX                    [31C0] 
+4049A4: CMP dword ptr [0x006279d8],0x0 [48833D2C30220000] 
+404A00: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+40B458: CMP EAX,-0x1                   [83F8FF] 
+40B45D: XOR EAX,EAX                    [31C0] 
+413D84: MOV RDX,[0x00627370]           [488B15E5352100] 
+413D8B: SUB RDX,0x62ad60               [4881EA60AD6200] 
+413D92: TEST EDX,EDX                   [85D2] 
+413D96: CMP dword ptr [0x00627434],0x1 [833D9736210001] 
+413D9D: PUSH RBX                       [53] 
+413D9E: MOVSXD RBX,EDX                 [4863DA] 
+413DA1: MOV RDX,RBX                    [4889DA] 
+413DA4: MOV ESI,0x62ad60               [BE60AD6200] 
+413DA9: SBB EDI,EDI                    [19FF] 
+413DAB: NOT EDI                        [F7D7] 
+413DAD: ADD EDI,0x2                    [83C702] 
+
+========

@@ -1,0 +1,18 @@
+
+
+DCB94: CMP EDI,-0x1                   [83FFFF] 
+DCB99: MOV EAX,[0x0036e770]           [8B05D11B2900] 
+DCB9F: TEST EAX,EAX                   [85C0] 
+DCBE1: SUB RSP,0x38                   [4883EC38] 
+DCBE5: MOV EAX,EDI                    [89F8] 
+DCBE7: MOV [RSP + 0x10],RAX           [4889442410] 
+DCBEC: MOV dword ptr [RSP],0x77       [C7042477000000] 
+DCBF3: MOV RDI,RSP                    [4889E7] 
+DCBF6: MOV dword ptr [RSP + 0x8],-0x1 [48C7442408FFFFFFFF] 
+DCBFF: MOV dword ptr [RSP + 0x18],-0x1 [48C7442418FFFFFFFF] 
+DCC08: MOV RAX,[0x0036e758]           [488B05491B2900] 
+DCC0F: ROR RAX,0x11                   [48C1C811] 
+DCC13: XOR RAX,FS:[0x30]              [644833042530000000] 
+DCC22: ADD RSP,0x38                   [4883C438] 
+
+========

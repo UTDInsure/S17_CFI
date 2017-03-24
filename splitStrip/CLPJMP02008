@@ -1,0 +1,13 @@
+
+
+17B54: PUSH R12                       [4154] 
+17B56: MOV R12D,ECX                   [4189CC] 
+17B59: PUSH RBP                       [55] 
+17B5A: MOV RBP,RDX                    [4889D5] 
+17B5D: MOV EDX,ESI                    [89F2] 
+17B5F: MOV ESI,EDI                    [89FE] 
+17B61: PUSH RBX                       [53] 
+17B62: MOV RBX,[0x0024a830]           [488B1DC72C2300] 
+17B69: MOV RDI,[RBX]                  [488B3B] 
+
+========

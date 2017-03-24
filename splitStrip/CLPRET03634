@@ -1,0 +1,20 @@
+
+
+899D4: CMP RDX,0x3                    [4883FA03] 
+899DE: MOV R8,RDX                     [4989D0] 
+899E1: MOV RAX,RDI                    [4889F8] 
+899E4: SHR R8,0x2                     [49C1E802] 
+89A27: MOVZX ECX,byte ptr [RSI]       [0FB60E] 
+89A2A: TEST CL,CL                     [84C9] 
+89A2C: MOV [RAX],CL                   [8808] 
+899F0: MOVZX ECX,byte ptr [RSI + 0x1] [0FB64E01] 
+899F4: TEST CL,CL                     [84C9] 
+899F6: MOV [RAX + 0x1],CL             [884801] 
+89AA8: ADD RAX,0x2                    [4883C002] 
+89AAC: SUB RDI,RAX                    [4829C7] 
+89AAF: ADD RDX,RDI                    [4801FA] 
+89A3A: TEST RDX,RDX                   [4885D2] 
+89A3D: LEA RCX,[RDX + -0x1]           [488D4AFF] 
+89A56: SUB RAX,0x1                    [4883E801] 
+
+========

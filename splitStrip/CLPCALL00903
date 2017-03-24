@@ -1,0 +1,16 @@
+
+
+DCA14: MOV EAX,[0x0036e770]           [8B05561D2900] 
+DCA1A: TEST EAX,EAX                   [85C0] 
+DCA43: SUB RSP,0x38                   [4883EC38] 
+DCA47: MOV EAX,EDI                    [89F8] 
+DCA49: MOV [RSP + 0x8],RAX            [4889442408] 
+DCA4E: MOV EAX,ESI                    [89F0] 
+DCA50: MOV dword ptr [RSP],0x71       [C7042471000000] 
+DCA57: MOV [RSP + 0x10],RAX           [4889442410] 
+DCA5C: MOV RDI,RSP                    [4889E7] 
+DCA5F: MOV RAX,[0x0036e758]           [488B05F21C2900] 
+DCA66: ROR RAX,0x11                   [48C1C811] 
+DCA6A: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

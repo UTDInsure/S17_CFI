@@ -1,0 +1,22 @@
+
+
+7FA04: PUSH RBX                       [53] 
+7FA05: MOV EDI,0x8a8                  [BFA8080000] 
+7F744: PUSH RBP                       [55] 
+7F745: MOV RBP,RDI                    [4889FD] 
+7F748: PUSH RBX                       [53] 
+7F749: SUB RSP,0x8                    [4883EC08] 
+7F74D: MOV RAX,[0x00368ee0]           [488B058C972E00] 
+7F754: MOV RAX,[RAX]                  [488B00] 
+7F757: TEST RAX,RAX                   [4885C0] 
+7F8B4: MOV RSI,[RSP + 0x18]           [488B742418] 
+7F8BF: NOP                            [90] 
+7F813: ADD RSP,0x8                    [4883C408] 
+7F817: POP RBX                        [5B] 
+7F818: POP RBP                        [5D] 
+7FA13: TEST RAX,RAX                   [4885C0] 
+7FA16: MOV RBX,RAX                    [4889C3] 
+7FC2D: XOR EAX,EAX                    [31C0] 
+7FC2F: POP RBX                        [5B] 
+
+========

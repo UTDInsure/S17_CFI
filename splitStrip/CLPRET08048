@@ -1,0 +1,6 @@
+
+
+187D4: TEST RDI,RDI                   [4885FF] 
+187E0: XOR EAX,EAX                    [31C0] 
+
+========

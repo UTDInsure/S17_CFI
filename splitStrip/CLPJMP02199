@@ -1,0 +1,25 @@
+
+
+228F4: PUSH R13                       [4155] 
+228F6: PUSH R12                       [4154] 
+228F8: PUSH RBP                       [55] 
+228F9: PUSH RBX                       [53] 
+228FA: SUB RSP,0x8                    [4883EC08] 
+228FE: MOV R13,[0x0024a7a0]           [4C8B2D9B7E2200] 
+22905: MOV RAX,[R13]                  [498B4500] 
+22909: TEST RAX,RAX                   [4885C0] 
+22912: MOV RDX,[0x2d0 + RAX]          [488B90D0020000] 
+22919: MOV RBX,RDI                    [4889FB] 
+2291C: MOV EBP,[0x2e4 + RAX]          [8BA8E4020000] 
+22922: MOV R12D,[0x2e8 + RAX]         [448BA0E8020000] 
+22929: XOR RDI,[RDX]                  [48333A] 
+2292C: TEST RDI,-0x100                [48F7C700FFFFFF] 
+22939: MOVSX ESI,word ptr [RAX + 0x64] [0FBF7064] 
+2293D: MOV RAX,[0x0024a880]           [488B053C7F2200] 
+22944: MOV RDX,[0x0024a820]           [488B15D57E2200] 
+2294B: MOV RAX,[RAX]                  [488B00] 
+2294E: SUB ESI,EBP                    [29EE] 
+22950: MOV RAX,[RAX + 0x20]           [488B4020] 
+22954: MOV RDI,[RAX + 0x38]           [488B7838] 
+
+========

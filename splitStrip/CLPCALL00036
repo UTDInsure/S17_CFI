@@ -1,0 +1,28 @@
+
+
+F494: PUSH R14                       [4156] 
+F496: PUSH R13                       [4155] 
+F498: MOV R13,RCX                    [4989CD] 
+F49B: PUSH R12                       [4154] 
+F49D: MOV R12,RDX                    [4989D4] 
+F4A0: PUSH RBP                       [55] 
+F4A1: MOV EBP,ESI                    [89F5] 
+F4A3: PUSH RBX                       [53] 
+F4A4: MOVZX EAX,byte ptr [0x314 + RDI] [0FB68714030000] 
+F4AB: MOV RBX,RDI                    [4889FB] 
+F4AE: MOV RCX,[RDI + 0x8]            [488B4F08] 
+F4B2: OR EAX,0x8                     [83C808] 
+F4B5: MOV [0x314 + RDI],AL           [888714030000] 
+F4BB: MOVZX EDX,byte ptr [RCX]       [0FB611] 
+F4BE: TEST DL,DL                     [84D2] 
+F4C6: MOV RAX,[0xa0 + RBX]           [488B83A0000000] 
+F4CD: TEST RAX,RAX                   [4885C0] 
+F4D2: TEST byte ptr [0x00221cc0],0x2 [F605E727210002] 
+F4DF: TEST RAX,RAX                   [4885C0] 
+F4E4: MOV RAX,[RAX + 0x8]            [488B4008] 
+F4E8: ADD RAX,[RBX]                  [480303] 
+F4EB: MOV RDX,R13                    [4C89EA] 
+F4EE: MOV RSI,R12                    [4C89E6] 
+F4F1: MOV EDI,EBP                    [89EF] 
+
+========

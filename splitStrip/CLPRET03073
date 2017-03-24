@@ -1,0 +1,9 @@
+
+
+78754: XOR EAX,EAX                    [31C0] 
+78756: TEST RDX,RDX                   [4885D2] 
+78759: PUSH RBX                       [53] 
+7875A: MOV RBX,RDX                    [4889D3] 
+7875F: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,21 @@
+
+
+4072CC: MOV R8D,[0x00627bb0]           [448B05DD082200] 
+4072D3: TEST R8D,R8D                   [4585C0] 
+4072DC: CMP EBX,0xf                    [83FB0F] 
+4072E5: MOV RSI,[0x00627b90]           [488B35A4082200] 
+4072EC: MOV EDI,EBX                    [89DF] 
+4072EE: XOR EAX,EAX                    [31C0] 
+4063D4: SUB RSP,0x8                    [4883EC08] 
+4063D8: CMP EDI,0x11                   [83FF11] 
+406408: MOV EDI,0x627b80               [BF807B6200] 
+40640D: XOR EAX,EAX                    [31C0] 
+40B2C4: PUSH RBP                       [55] 
+40B2C5: MOV RBP,RDI                    [4889FD] 
+40B2C8: PUSH RBX                       [53] 
+40B2C9: MOV RBX,RSI                    [4889F3] 
+40B2CC: SUB RSP,0x8                    [4883EC08] 
+40B2D0: TEST RSI,RSI                   [4885F6] 
+40B2D5: MOV RDI,RSI                    [4889F7] 
+
+========

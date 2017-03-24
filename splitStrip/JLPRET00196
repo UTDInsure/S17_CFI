@@ -1,0 +1,17 @@
+
+
+2199F: MOV RAX,R8                     [4C89C0] 
+219A2: CQO                            [4899] 
+219A4: IDIV RCX                       [48F7F9] 
+219A7: MOV R8,RAX                     [4989C0] 
+219AA: ADD R12,R8                     [4D01C4] 
+219AD: CMP ESI,0x80000000             [81FE00000080] 
+218A7: TEST R13,R13                   [4D85ED] 
+218D8: TEST R12,R12                   [4D85E4] 
+21808: ADD RSP,0x8                    [4883C408] 
+2180C: POP RBX                        [5B] 
+2180D: POP RBP                        [5D] 
+2180E: POP R12                        [415C] 
+21810: POP R13                        [415D] 
+
+========

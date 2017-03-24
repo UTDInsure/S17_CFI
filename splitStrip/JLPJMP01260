@@ -1,0 +1,8 @@
+
+
+D33BF: TEST R15,R15                   [4D85FF] 
+D33C8: TEST RBP,RBP                   [4885ED] 
+D33D1: CMP byte ptr [R15],0x0         [41803F00] 
+D3202: MOV RDI,R10                    [4C89D7] 
+
+========

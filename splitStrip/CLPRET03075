@@ -1,0 +1,16 @@
+
+
+78784: PUSH RBP                       [55] 
+78785: PUSH RBX                       [53] 
+78786: MOV RBX,RDI                    [4889FB] 
+78789: SUB RSP,0x8                    [4883EC08] 
+7878D: MOV EAX,[RDI]                  [8B07] 
+7878F: TEST AL,0x4                    [A804] 
+78797: MOV RDX,[RDI + 0x8]            [488B5708] 
+7879B: CMP RDX,[RDI + 0x10]           [483B5710] 
+78910: MOVZX EAX,byte ptr [RDX]       [0FB602] 
+78913: ADD RSP,0x8                    [4883C408] 
+78917: POP RBX                        [5B] 
+78918: POP RBP                        [5D] 
+
+========

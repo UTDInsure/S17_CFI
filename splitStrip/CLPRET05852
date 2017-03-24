@@ -1,0 +1,10 @@
+
+
+E50E4: MOV EAX,0x1e                   [B81E000000] 
+E50EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E50F4: MOV RCX,[0x00368e68]           [488B0D6D3D2800] 
+E50FB: NEG EAX                        [F7D8] 
+E50FD: MOV FS:[RCX],EAX               [648901] 
+E5100: OR RAX,-0x1                    [4883C8FF] 
+
+========

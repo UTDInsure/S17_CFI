@@ -1,0 +1,6 @@
+
+
+39D94: TEST RDI,RDI                   [4885FF] 
+39DB8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

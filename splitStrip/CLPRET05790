@@ -1,0 +1,25 @@
+
+
+E49A4: PUSH R12                       [4154] 
+E49A6: MOV R12D,ESI                   [4189F4] 
+E49A9: MOV ESI,EDI                    [89FE] 
+E49AB: MOV EDI,0x1                    [BF01000000] 
+E49B0: PUSH RBP                       [55] 
+E49B1: PUSH RBX                       [53] 
+E49B2: SUB RSP,0x90                   [4881EC90000000] 
+E49B9: MOV RBX,[0x00368e68]           [488B1DA8442800] 
+E49C0: MOV RDX,RSP                    [4889E2] 
+E49C3: MOV EBP,FS:[RBX]               [648B2B] 
+D64F4: CMP EDI,0x1                    [83FF01] 
+D64F7: MOV EAX,ESI                    [89F0] 
+D6518: MOV RAX,[0x00368e68]           [488B0549292900] 
+D651F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D6526: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+E49CF: TEST EAX,EAX                   [85C0] 
+E49D1: MOV FS:[RBX],EBP               [64892B] 
+E49E8: ADD RSP,0x90                   [4881C490000000] 
+E49EF: POP RBX                        [5B] 
+E49F0: POP RBP                        [5D] 
+E49F1: POP R12                        [415C] 
+
+========

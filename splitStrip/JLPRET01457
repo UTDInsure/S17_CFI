@@ -1,0 +1,22 @@
+
+
+B5754: MOV RDX,RSP                    [4889E2] 
+B5757: MOV ESI,EBX                    [89DE] 
+B5759: MOV EDI,0x1                    [BF01000000] 
+D64F4: CMP EDI,0x1                    [83FF01] 
+D64F7: MOV EAX,ESI                    [89F0] 
+D6518: MOV RAX,[0x00368e68]           [488B0549292900] 
+D651F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D6526: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+B5767: TEST EAX,EAX                   [85C0] 
+B576F: MOV EAX,[RSP + 0x18]           [8B442418] 
+B5773: AND EAX,0xf000                 [2500F00000] 
+B5778: CMP EAX,0x6000                 [3D00600000] 
+B577F: CMP EAX,0x8000                 [3D00800000] 
+B5812: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+B5694: ADD RSP,0x90                   [4881C490000000] 
+B569B: POP RBX                        [5B] 
+B569C: POP RBP                        [5D] 
+B569D: POP R12                        [415C] 
+
+========

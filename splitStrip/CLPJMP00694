@@ -1,0 +1,22 @@
+
+
+2D484: PUSH RBX                       [53] 
+2D485: MOV RAX,[RDI + 0x20]           [488B4720] 
+2D489: MOV RBX,RDI                    [4889FB] 
+2D48C: TEST RAX,RAX                   [4885C0] 
+2D497: MOV EAX,[RBX + 0x18]           [8B4318] 
+2D49A: TEST EAX,EAX                   [85C0] 
+2D49E: CMP EAX,0x1                    [83F801] 
+2D4C8: MOV RSI,[RBX + 0x10]           [488B7310] 
+2D4CC: MOV RDI,[RBX + 0x8]            [488B7B08] 
+E0184: MOV EAX,0xb                    [B80B000000] 
+E018B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E0194: MOV RCX,[0x00368e68]           [488B0DCD8C2800] 
+E019B: NEG EAX                        [F7D8] 
+E019D: MOV FS:[RCX],EAX               [648901] 
+E01A0: OR RAX,-0x1                    [4883C8FF] 
+2D4D9: MOV EAX,[RBX + 0x18]           [8B4318] 
+2D4A3: CMP EAX,0x2                    [83F802] 
+2D4B4: MOV RDI,RBX                    [4889DF] 
+
+========

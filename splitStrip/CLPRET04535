@@ -1,0 +1,27 @@
+
+
+BC514: PUSH R15                       [4157] 
+BC516: PUSH R14                       [4156] 
+BC518: MOV R14,RDI                    [4989FE] 
+BC51B: PUSH R13                       [4155] 
+BC51D: PUSH R12                       [4154] 
+BC51F: PUSH RBP                       [55] 
+BC520: PUSH RBX                       [53] 
+BC521: SUB RSP,0x38                   [4883EC38] 
+BC525: CMP dword ptr [RDI + 0x68],0x10 [837F6810] 
+BC52F: MOV EBX,[RDI + 0x34]           [8B5F34] 
+BC532: CMP [RDI + 0x40],EBX           [395F40] 
+BC535: CMOVLE EBX,[RDI + 0x40]        [0F4E5F40] 
+BC539: MOV R13D,[RDI + 0x2c]          [448B6F2C] 
+BC53D: CMP EBX,R13D                   [4439EB] 
+BC611: MOV [R14 + 0x2c],R13D          [45896E2C] 
+BC615: MOV [R14 + 0x30],R13D          [45896E30] 
+BC619: ADD RSP,0x38                   [4883C438] 
+BC61D: POP RBX                        [5B] 
+BC61E: POP RBP                        [5D] 
+BC61F: POP R12                        [415C] 
+BC621: POP R13                        [415D] 
+BC623: POP R14                        [415E] 
+BC625: POP R15                        [415F] 
+
+========

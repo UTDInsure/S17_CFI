@@ -1,0 +1,12 @@
+
+
+36854: LEA ECX,[RSI + -0x1]           [8D4EFF] 
+36857: MOV EDX,0x1                    [BA01000000] 
+3685C: MOVSXD RAX,ECX                 [4863C1] 
+3685F: SHL RDX,CL                     [48D3E2] 
+36862: SHR RAX,0x6                    [48C1E806] 
+36866: TEST [RDI + RAX*0x8],RDX       [488514C7] 
+3686A: SETNZ AL                       [0F95C0] 
+3686D: MOVZX EAX,AL                   [0FB6C0] 
+
+========

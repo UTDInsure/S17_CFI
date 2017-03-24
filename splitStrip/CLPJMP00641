@@ -1,0 +1,21 @@
+
+
+225B4: CMP RDI,-0x1                   [4883FFFF] 
+225BA: SUB RSP,0x8                    [4883EC08] 
+23084: PUSH R15                       [4157] 
+23086: PUSH R14                       [4156] 
+23088: PUSH R13                       [4155] 
+2308A: MOV R13,RDI                    [4989FD] 
+2308D: PUSH R12                       [4154] 
+2308F: LEA R12,[RDI + 0x48]           [4C8D6748] 
+23093: PUSH RBP                       [55] 
+23094: PUSH RBX                       [53] 
+23095: SUB RSP,0x8                    [4883EC08] 
+23099: MOV R14,[RDI + 0x8]            [4C8B7708] 
+2309D: MOV R15,[RDI]                  [4C8B3F] 
+230A0: MOV RBX,[R12 + -0x8]           [498B5C24F8] 
+230A5: TEST RBX,RBX                   [4885DB] 
+230D1: TEST byte ptr [R12 + -0x28],0x1 [41F64424D801] 
+23100: MOV RDI,R13                    [4C89EF] 
+
+========

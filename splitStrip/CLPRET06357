@@ -1,0 +1,16 @@
+
+
+F1994: MOV RCX,RSI                    [4889F1] 
+F1997: AND ECX,0x7                    [83E107] 
+F19C3: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+F19CD: CMP RDX,0x20                   [4883FA20] 
+F1A82: CMP RDX,0x8                    [4883FA08] 
+F1A88: MOV RAX,[RSI]                  [488B06] 
+F1A8B: ADD RSI,0x8                    [4883C608] 
+F1A8F: MOV R9,RAX                     [4989C1] 
+F1A92: ADD R9,R8                      [4D01C1] 
+F1AB0: MOV [RDI],AL                   [8807] 
+F1AB2: TEST AL,AL                     [84C0] 
+F1ADF: MOV RAX,RDI                    [4889F8] 
+
+========

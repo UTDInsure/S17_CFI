@@ -1,0 +1,7 @@
+
+
+E01E4: CMP dword ptr [0x0036e774],0x0 [833D89E5280000] 
+E01F1: MOV EAX,0x1a                   [B81A000000] 
+E01F8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

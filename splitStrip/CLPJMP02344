@@ -1,0 +1,16 @@
+
+
+2E904: PUSH RBP                       [55] 
+2E905: PUSH RBX                       [53] 
+2E906: MOV RBX,RDI                    [4889FB] 
+2E909: SUB RSP,0x8                    [4883EC08] 
+2E90D: TEST RDI,RDI                   [4885FF] 
+2E912: MOV RAX,[0x0024a880]           [488B0567BF2100] 
+2E919: TEST SIL,SIL                   [4084F6] 
+2E91C: MOV EBP,ESI                    [89F5] 
+2E91E: MOV RAX,[RAX]                  [488B00] 
+2E921: MOV RAX,[RAX + 0x20]           [488B4020] 
+2E958: MOV RSI,[0x2c8 + RAX]          [488BB0C8020000] 
+2E95F: LEA RDI,[0x3dbb7]              [488D3D51F20000] 
+
+========

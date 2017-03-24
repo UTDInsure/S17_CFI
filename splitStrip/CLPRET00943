@@ -1,0 +1,6 @@
+
+
+4122B4: TEST EDI,EDI                   [85FF] 
+4122BC: CMP EDI,0x2                    [83FF02] 
+
+========

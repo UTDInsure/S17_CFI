@@ -1,0 +1,27 @@
+
+
+410384: PUSH R13                       [4155] 
+410386: MOV R13D,EDI                   [4189FD] 
+410389: PUSH R12                       [4154] 
+41038B: MOV R12,RSI                    [4989F4] 
+41038E: PUSH RBP                       [55] 
+41038F: PUSH RBX                       [53] 
+410390: MOV EBX,EDI                    [89FB] 
+410392: SUB RSP,0x8                    [4883EC08] 
+410396: MOVZX EAX,byte ptr [0x006286b8] [0FB6051B832100] 
+41039D: TEST AL,AL                     [84C0] 
+4103A5: CMP BL,0xd                     [80FB0D] 
+4104D0: MOV R8D,[0x0062bb30]           [448B0559B62100] 
+4104D7: TEST R8D,R8D                   [4585C0] 
+4104E0: MOV EDI,[0x00628694]           [8B3DAE812100] 
+4104E6: TEST EDI,EDI                   [85FF] 
+410519: MOV byte ptr [0x006286b8],0xd  [C605988121000D] 
+410520: MOV [0x006286b0],R12           [4C892589812100] 
+410527: XOR EAX,EAX                    [31C0] 
+410430: ADD RSP,0x8                    [4883C408] 
+410434: POP RBX                        [5B] 
+410435: POP RBP                        [5D] 
+410436: POP R12                        [415C] 
+410438: POP R13                        [415D] 
+
+========

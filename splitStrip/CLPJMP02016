@@ -1,0 +1,9 @@
+
+
+17D94: PUSH RBP                       [55] 
+17D95: MOV RBP,RCX                    [4889CD] 
+17D98: PUSH RBX                       [53] 
+17D99: MOV RBX,RDI                    [4889FB] 
+17D9C: SUB RSP,0x8                    [4883EC08] 
+
+========

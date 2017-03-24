@@ -1,0 +1,26 @@
+
+
+105174: PUSH R13                       [4155] 
+105176: MOV R13,RDX                    [4989D5] 
+105179: PUSH R12                       [4154] 
+10517B: MOV R12,RSI                    [4989F4] 
+10517E: PUSH RBP                       [55] 
+10517F: MOV RBP,RCX                    [4889CD] 
+105182: PUSH RBX                       [53] 
+105183: MOV RBX,RDI                    [4889FB] 
+105186: SUB RSP,0x8                    [4883EC08] 
+10518A: TEST R9D,R9D                   [4585C9] 
+105193: MOV RAX,[RDI]                  [488B07] 
+105196: MOV RDX,0x100000001            [48BA0100000001000000] 
+1051A0: CMP [RAX + 0x8],RDX            [48395008] 
+105250: CMP [RAX + 0x10],RDX           [48395010] 
+1051B0: MOV RDI,[RAX]                  [488B38] 
+1051B3: TEST RDI,RDI                   [4885FF] 
+105210: ADD RSP,0x8                    [4883C408] 
+105214: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+105219: POP RBX                        [5B] 
+10521A: POP RBP                        [5D] 
+10521B: POP R12                        [415C] 
+10521D: POP R13                        [415D] 
+
+========

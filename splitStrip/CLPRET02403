@@ -1,0 +1,20 @@
+
+
+6CEE4: PUSH R13                       [4155] 
+6CEE6: MOV R13,RDX                    [4989D5] 
+6CEE9: PUSH R12                       [4154] 
+6CEEB: MOV R12,RSI                    [4989F4] 
+6CEEE: PUSH RBP                       [55] 
+6CEEF: MOV RBP,RSI                    [4889F5] 
+6CEF2: IMUL RBP,RDX                   [480FAFEA] 
+6CEF6: PUSH RBX                       [53] 
+6CEF7: SUB RSP,0x8                    [4883EC08] 
+6CEFB: TEST RBP,RBP                   [4885ED] 
+6CFF0: ADD RSP,0x8                    [4883C408] 
+6CFF4: XOR EAX,EAX                    [31C0] 
+6CFF6: POP RBX                        [5B] 
+6CFF7: POP RBP                        [5D] 
+6CFF8: POP R12                        [415C] 
+6CFFA: POP R13                        [415D] 
+
+========

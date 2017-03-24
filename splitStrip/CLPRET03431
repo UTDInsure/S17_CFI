@@ -1,0 +1,28 @@
+
+
+826D4: PUSH R15                       [4157] 
+826D6: MOV R15,RDX                    [4989D7] 
+826D9: PUSH R14                       [4156] 
+826DB: PUSH R13                       [4155] 
+826DD: PUSH R12                       [4154] 
+826DF: MOV R12,RSI                    [4989F4] 
+826E2: PUSH RBP                       [55] 
+826E3: MOV RBP,RDI                    [4889FD] 
+826E6: PUSH RBX                       [53] 
+826E7: SUB RSP,0x8                    [4883EC08] 
+826EB: TEST RSI,RSI                   [4885F6] 
+826F4: MOV R11D,[0x0036b868]          [448B1D6D912E00] 
+826FB: TEST R11D,R11D                 [4585DB] 
+82704: CMP R12,-0x32                  [4983FCCE] 
+828F0: MOV RAX,[0x00368e68]           [488B0571652E00] 
+828F7: MOV dword ptr FS:[RAX],0xc     [64C7000C000000] 
+828FE: XOR EAX,EAX                    [31C0] 
+8284F: ADD RSP,0x8                    [4883C408] 
+82853: POP RBX                        [5B] 
+82854: POP RBP                        [5D] 
+82855: POP R12                        [415C] 
+82857: POP R13                        [415D] 
+82859: POP R14                        [415E] 
+8285B: POP R15                        [415F] 
+
+========

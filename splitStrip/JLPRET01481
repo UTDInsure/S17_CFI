@@ -1,0 +1,17 @@
+
+
+B5864: MOV RBP,[0x00368e68]           [488B2DFD352B00] 
+B586B: MOV RSI,RSP                    [4889E6] 
+B586E: MOV EDI,EBX                    [89DF] 
+B5870: MOV R12D,FS:[RBP]              [64448B6500] 
+D66E4: MOV EAX,0x8a                   [B88A000000] 
+D66EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B587E: MOV EDX,EAX                    [89C2] 
+B5880: MOV RAX,[RSP + 0x40]           [488B442440] 
+B5885: TEST EDX,EDX                   [85D2] 
+B5694: ADD RSP,0x90                   [4881C490000000] 
+B569B: POP RBX                        [5B] 
+B569C: POP RBP                        [5D] 
+B569D: POP R12                        [415C] 
+
+========

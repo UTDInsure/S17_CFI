@@ -1,0 +1,7 @@
+
+
+F02C4: MOV ECX,[0x0036e770]           [8B0DA6E42700] 
+F02CA: XOR EAX,EAX                    [31C0] 
+F02CC: TEST ECX,ECX                   [85C9] 
+
+========

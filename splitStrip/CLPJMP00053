@@ -1,0 +1,10 @@
+
+
+120D4: PUSH RBP                       [55] 
+120D5: PUSH RBX                       [53] 
+120D6: SUB RSP,0x18                   [4883EC18] 
+120DA: MOV RBP,[0x00222fa0]           [488B2DBF0E2100] 
+120E1: MOV RDI,[0x00222fb0]           [488B3DC80E2100] 
+120E8: MOV RSI,RBP                    [4889EE] 
+
+========

@@ -1,0 +1,11 @@
+
+
+10A2D4: SUB RSP,0x48                   [4883EC48] 
+10A2D8: TEST DL,0x7                    [F6C207] 
+10A2DB: MOV R9,RSI                     [4989F1] 
+10A2DE: MOV dword ptr [RSP + 0x1c],0x1 [C744241C01000000] 
+10A2E6: MOV ESI,EDX                    [89D6] 
+10A2E8: MOV EAX,0x3                    [B803000000] 
+10A2EF: ADD RSP,0x48                   [4883C448] 
+
+========

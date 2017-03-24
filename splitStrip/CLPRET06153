@@ -1,0 +1,22 @@
+
+
+EC2D4: PUSH RBX                       [53] 
+EC2D5: MOV RBX,RDI                    [4889FB] 
+EC2D8: SUB RSP,0x10                   [4883EC10] 
+EC2DC: MOV RAX,[RDI + 0x38]           [488B4738] 
+EC2E0: MOV RDX,RAX                    [4889C2] 
+EC2E3: SUB RDX,[RDI + 0x30]           [482B5730] 
+EC2E7: CMP RDX,[RDI + 0x20]           [483B5720] 
+EC2ED: XOR EDX,EDX                    [31D2] 
+EC2EF: CMP dword ptr [RBX + 0x28],0x0 [48837B2800] 
+EC2F4: CMOVNS RDX,[RBX + 0x28]        [480F495328] 
+EC2F9: ADD RDX,RSI                    [4801F2] 
+EC2FC: CMP RDX,[RBX + 0x10]           [483B5310] 
+EC320: CMP [RBX + 0x40],RAX           [48394340] 
+EC326: LEA RDX,[RAX + 0x1]            [488D5001] 
+EC32A: MOV [RBX + 0x38],RDX           [48895338] 
+EC32E: MOV byte ptr [RAX],0x20        [C60020] 
+EC331: ADD RSP,0x10                   [4883C410] 
+EC335: POP RBX                        [5B] 
+
+========

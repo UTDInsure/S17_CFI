@@ -1,0 +1,10 @@
+
+
+11D7C4: SUB RSP,0x8                    [4883EC08] 
+11D7C8: MOV RDI,[0x0036a930]           [488B3D61D12400] 
+11D7CF: LEA RSI,[0x11d790]             [488D35BAFFFFFF] 
+E1B54: TEST RDI,RDI                   [4885FF] 
+11D7DF: MOV dword ptr [0x0036a930],0x0 [48C70546D1240000000000] 
+11D7EA: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,21 @@
+
+
+157A4: PUSH R15                       [4157] 
+157A6: PUSH R14                       [4156] 
+157A8: PUSH R13                       [4155] 
+157AA: PUSH R12                       [4154] 
+157AC: PUSH RBP                       [55] 
+157AD: PUSH RBX                       [53] 
+157AE: MOV RBX,RDI                    [4889FB] 
+157B1: SUB RSP,0x18                   [4883EC18] 
+157B5: TEST RDI,RDI                   [4885FF] 
+159C3: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1599F: ADD RSP,0x18                   [4883C418] 
+159A3: POP RBX                        [5B] 
+159A4: POP RBP                        [5D] 
+159A5: POP R12                        [415C] 
+159A7: POP R13                        [415D] 
+159A9: POP R14                        [415E] 
+159AB: POP R15                        [415F] 
+
+========

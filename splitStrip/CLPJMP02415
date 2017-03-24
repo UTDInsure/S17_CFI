@@ -1,0 +1,16 @@
+
+
+35D84: SUB RSP,0x28                   [4883EC28] 
+35D88: MOV RDI,[0x418 + RDI]          [488BBF18040000] 
+35D8F: XOR R9D,R9D                    [4531C9] 
+35D92: MOV [RSP + 0x18],ESI           [89742418] 
+35D96: XOR R8D,R8D                    [4531C0] 
+35D99: XOR ECX,ECX                    [31C9] 
+35D9B: XOR EDX,EDX                    [31D2] 
+35D9D: XOR ESI,ESI                    [31F6] 
+35D9F: MOV dword ptr [RSP + 0x10],0x0 [C744241000000000] 
+35DA7: MOV dword ptr [RSP + 0x8],0x0  [C744240800000000] 
+35DAF: MOV dword ptr [RSP],0x0        [C7042400000000] 
+35DB6: XOR EAX,EAX                    [31C0] 
+
+========

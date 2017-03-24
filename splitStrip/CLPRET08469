@@ -1,0 +1,9 @@
+
+
+2D184: PUSH RBX                       [53] 
+2D185: MOV RBX,[0x0024a8a0]           [488B1D14D72100] 
+2D18C: CMP byte ptr [RBX + 0x21],0x0  [807B2100] 
+2D1B0: MOV RAX,[RBX + 0x28]           [488B4328] 
+2D1B4: POP RBX                        [5B] 
+
+========

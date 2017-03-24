@@ -1,0 +1,16 @@
+
+
+21D51: TEST EAX,EAX                   [85C0] 
+21D55: MOV RAX,FS:[0x300]             [64488B042500030000] 
+21D5E: MOV [RSP + 0x68],RAX           [4889442468] 
+21D63: MOV RAX,FS:[0x2f8]             [64488B0425F8020000] 
+21D6C: MOV [RSP + 0x70],RAX           [4889442470] 
+21D71: LEA RAX,[RSP + 0x20]           [488D442420] 
+21D76: MOV FS:[0x300],RAX             [644889042500030000] 
+21D7F: MOV RAX,[0x00368ea8]           [488B0522713400] 
+21D86: MOV RSI,[RSP + 0x8]            [488B742408] 
+21D8B: MOV EDI,[RSP + 0x14]           [8B7C2414] 
+21D8F: MOV RDX,[RAX]                  [488B10] 
+21D92: MOV RAX,[RSP + 0x18]           [488B442418] 
+
+========

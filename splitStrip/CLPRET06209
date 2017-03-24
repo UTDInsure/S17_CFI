@@ -1,0 +1,21 @@
+
+
+EFFD4: SUB RSP,0x8                    [4883EC08] 
+EFFD8: MOV RAX,[0x00368da0]           [488B05C18D2700] 
+EFFDF: MOV EDX,0x106                  [BA06010000] 
+EFFE4: MOV RSI,[RAX]                  [488B30] 
+EE8B4: PUSH RBP                       [55] 
+EE8B5: MOV EBP,EDX                    [89D5] 
+EE8B7: PUSH RBX                       [53] 
+EE8B8: MOV RBX,RDI                    [4889FB] 
+EE8BB: SUB RSP,0x8                    [4883EC08] 
+EE8BF: TEST RDI,RDI                   [4885FF] 
+EE8C4: MOV EAX,[RDI + 0x1c]           [8B471C] 
+EE8C7: TEST AL,0x2                    [A802] 
+EE8CB: TEST RSI,RSI                   [4885F6] 
+EE908: ADD RSP,0x8                    [4883C408] 
+EE90C: POP RBX                        [5B] 
+EE90D: POP RBP                        [5D] 
+EFFF0: ADD RSP,0x8                    [4883C408] 
+
+========

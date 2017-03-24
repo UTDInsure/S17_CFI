@@ -1,0 +1,12 @@
+
+
+411864: LEA EAX,[RDI + -0x61]          [8D479F] 
+411867: CMP EAX,0x19                   [83F819] 
+41186C: LEA EAX,[RDI + -0x41]          [8D47BF] 
+41186F: CMP EAX,0x19                   [83F819] 
+411874: SUB EDI,0x27                   [83EF27] 
+411877: MOVSXD RDI,EDI                 [4863FF] 
+41187A: LEA RAX,[RDI + RDI*0x2]        [488D047F] 
+41187E: LEA RAX,[0x62a6e0 + RAX*0x8]   [488D04C5E0A66200] 
+
+========

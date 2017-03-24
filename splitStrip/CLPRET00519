@@ -1,0 +1,12 @@
+
+
+403E84: SUB RSP,0x8                    [4883EC08] 
+403E88: MOV EAX,[0x0062790c]           [8B057E3A2200] 
+403E8E: TEST AL,0x8                    [A808] 
+403E96: TEST AL,0x4                    [A804] 
+403E9A: TEST AL,0x2                    [A802] 
+403E9E: TEST AL,0x1                    [A801] 
+403EBC: MOV dword ptr [0x0062790c],0x0 [C705463A220000000000] 
+403EC6: ADD RSP,0x8                    [4883C408] 
+
+========

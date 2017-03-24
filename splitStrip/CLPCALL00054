@@ -1,0 +1,18 @@
+
+
+13834: PUSH RBP                       [55] 
+13835: MOV ESI,0xb                    [BE0B000000] 
+1383A: MOV RBP,RSP                    [4889E5] 
+1383D: PUSH R15                       [4157] 
+1383F: PUSH R14                       [4156] 
+13841: PUSH R13                       [4155] 
+13843: PUSH R12                       [4154] 
+13845: PUSH RBX                       [53] 
+13846: SUB RSP,0x58                   [4883EC58] 
+1384A: MOV ECX,[RDI + 0x8]            [8B4F08] 
+1384D: MOV [RBP + -0x40],RDI          [48897DC0] 
+13851: MOV R12,[RDI]                  [4C8B27] 
+13854: MOV RDI,[RDI + 0x18]           [488B7F18] 
+13858: MOV [RBP + -0x34],ECX          [894DCC] 
+
+========

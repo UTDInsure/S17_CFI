@@ -1,0 +1,10 @@
+
+
+20714: PUSH RBX                       [53] 
+20715: MOV RBX,[0x0024a7a0]           [488B1D84A02200] 
+2071C: MOV RAX,[RBX]                  [488B03] 
+2071F: TEST RAX,RAX                   [4885C0] 
+20780: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+20785: POP RBX                        [5B] 
+
+========

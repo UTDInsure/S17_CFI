@@ -1,0 +1,20 @@
+
+
+DD5C4: SUB RSP,0x48                   [4883EC48] 
+DD5C8: MOV EAX,EDI                    [89F8] 
+DD5CA: XOR EDI,EDI                    [31FF] 
+DD5CC: LEA RDX,[RSP + 0x20]           [488D542420] 
+DD5D1: MOV [RSP + 0x18],RAX           [4889442418] 
+DD5D6: MOV EAX,ESI                    [89F0] 
+DD5D8: MOV RSI,RSP                    [4889E6] 
+DD5DB: MOV dword ptr [RSP + 0x10],0x0 [48C744241000000000] 
+DD5E4: MOV dword ptr [RSP],0x0        [48C7042400000000] 
+DD5EC: MOV [RSP + 0x8],RAX            [4889442408] 
+A61C4: MOV EAX,0x26                   [B826000000] 
+A61CB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DD5FA: TEST EAX,EAX                   [85C0] 
+DD5FC: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+DD611: MOV EAX,EDX                    [89D0] 
+DD613: ADD RSP,0x48                   [4883C448] 
+
+========

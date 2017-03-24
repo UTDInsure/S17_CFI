@@ -1,0 +1,10 @@
+
+
+20034: PUSH RBX                       [53] 
+20035: MOV RBX,[0x0024a7a0]           [488B1D64A72200] 
+2003C: MOV RAX,[RBX]                  [488B03] 
+2003F: TEST RAX,RAX                   [4885C0] 
+20086: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2008B: POP RBX                        [5B] 
+
+========

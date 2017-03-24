@@ -1,0 +1,16 @@
+
+
+310DC: TEST R10B,R10B                 [4584D2] 
+310E5: MOV byte ptr [RDX],0x2d        [C6022D] 
+310E8: ADD RBP,0x1                    [4883C501] 
+310EC: MOVZX EBX,byte ptr [RBP]       [0FB65D00] 
+310F0: ADD RDX,0x1                    [4883C201] 
+30FE0: TEST BL,BL                     [84DB] 
+30FE4: TEST CL,CL                     [84C9] 
+30FE8: LEA EAX,[RBX + -0x20]          [8D43E0] 
+30FEB: CMP AL,0x58                    [3C58] 
+30FF3: MOVZX EAX,AL                   [0FB6C0] 
+30FF6: MOVSXD RAX,[R15 + RAX*0x4]     [49630487] 
+30FFA: ADD RAX,R15                    [4C01F8] 
+
+========

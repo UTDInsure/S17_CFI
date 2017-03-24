@@ -1,0 +1,6 @@
+
+
+186F4: TEST RDI,RDI                   [4885FF] 
+186F9: MOVZX EAX,byte ptr [RDI + 0x21] [0FB64721] 
+
+========

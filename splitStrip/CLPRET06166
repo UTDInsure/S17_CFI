@@ -1,0 +1,28 @@
+
+
+ED094: TEST ESI,ESI                   [85F6] 
+ED096: LEA EAX,[RSI + -0x1]           [8D46FF] 
+ED09F: PUSH R14                       [4156] 
+ED0A1: LEA RAX,[RAX + RAX*0x2]        [488D0440] 
+ED0A5: PUSH R13                       [4155] 
+ED0A7: SHL RAX,0x4                    [48C1E004] 
+ED0AB: MOV R13,RDI                    [4989FD] 
+ED0AE: LEA R14,[RDI + RAX*0x1 + 0x30] [4C8D740730] 
+ED0B3: PUSH R12                       [4154] 
+ED0B5: MOV R12,RDX                    [4989D4] 
+ED0B8: PUSH RBP                       [55] 
+ED0B9: PUSH RBX                       [53] 
+ED0BA: MOV EAX,[R13 + 0x8]            [418B4508] 
+ED0BE: MOV RBX,[R13]                  [498B5D00] 
+ED0C2: TEST EAX,EAX                   [85C0] 
+ED0C4: LEA EDX,[RAX + -0x1]           [8D50FF] 
+ED107: ADD R13,0x30                   [4983C530] 
+ED10B: CMP R13,R14                    [4D39F5] 
+ED110: XOR EAX,EAX                    [31C0] 
+ED11B: POP RBX                        [5B] 
+ED11C: POP RBP                        [5D] 
+ED11D: POP R12                        [415C] 
+ED11F: POP R13                        [415D] 
+ED121: POP R14                        [415E] 
+
+========

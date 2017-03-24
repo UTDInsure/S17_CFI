@@ -1,0 +1,18 @@
+
+
+73244: PUSH RBP                       [55] 
+73245: PUSH RBX                       [53] 
+73246: MOV RBX,RDI                    [4889FB] 
+73249: SUB RSP,0x8                    [4883EC08] 
+7324D: MOV EAX,[RDI]                  [8B07] 
+7324F: TEST AL,0x8                    [A808] 
+73253: OR EAX,0x20                    [83C820] 
+73256: MOV [RDI],EAX                  [8907] 
+73258: MOV RAX,[0x00368e68]           [488B05095C2F00] 
+7325F: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+73266: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+7326B: ADD RSP,0x8                    [4883C408] 
+7326F: POP RBX                        [5B] 
+73270: POP RBP                        [5D] 
+
+========

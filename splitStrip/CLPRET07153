@@ -1,0 +1,12 @@
+
+
+10F604: SUB RSP,0x8                    [4883EC08] 
+10F608: MOV RDI,[RDI + 0x10]           [488B7F10] 
+10F60C: MOV RCX,RSI                    [4889F1] 
+10F60F: XOR EAX,EAX                    [31C0] 
+10F611: MOV RSI,RDX                    [4889D6] 
+10F614: MOV dword ptr [RDI + 0x58],0x2 [C7475802000000] 
+10F61B: ADD RDI,0x58                   [4883C758] 
+10F625: ADD RSP,0x8                    [4883C408] 
+
+========

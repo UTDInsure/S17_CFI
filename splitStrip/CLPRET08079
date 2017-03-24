@@ -1,0 +1,19 @@
+
+
+1A2F4: TEST RSI,RSI                   [4885F6] 
+1A2FD: TEST RDI,RDI                   [4885FF] 
+1A306: MOVSX RAX,word ptr [RDI + 0x2] [480FBF4702] 
+1A30B: TEST EDX,EDX                   [85D2] 
+1A30D: PUSH RBX                       [53] 
+1A30E: MOVSX R11,word ptr [RDI]       [4C0FBF1F] 
+1A312: MOVSX EBX,AX                   [0FBFD8] 
+1A390: MOVSX EDX,word ptr [RDI + 0x6] [0FBF5706] 
+1A394: SUB EDX,EBX                    [29DA] 
+1A396: ADD EDX,0x1                    [83C201] 
+1A317: TEST EDX,EDX                   [85D2] 
+1A3B3: XOR EDX,EDX                    [31D2] 
+1A3B5: XOR EAX,EAX                    [31C0] 
+1A380: MOV byte ptr [RSI + RDX*0x1],0x0 [C6041600] 
+1A384: POP RBX                        [5B] 
+
+========

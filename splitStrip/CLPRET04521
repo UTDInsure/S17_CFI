@@ -1,0 +1,22 @@
+
+
+BBC04: PUSH R12                       [4154] 
+BBC06: MOV R12,RSI                    [4989F4] 
+BBC09: PUSH RBP                       [55] 
+BBC0A: MOV RBP,RDX                    [4889D5] 
+BBC0D: PUSH RBX                       [53] 
+BBC0E: MOV RBX,RDI                    [4889FB] 
+BBC1B: MOV RSI,RBX                    [4889DE] 
+BBC1E: MOV RDI,RBP                    [4889EF] 
+BBC28: TEST EAX,EAX                   [85C0] 
+BBC2C: MOV RAX,[RBX + 0x8]            [488B4308] 
+BBC30: TEST RAX,RAX                   [4885C0] 
+BBC18: MOV RBX,RAX                    [4889C3] 
+BBC1B: MOV RSI,RBX                    [4889DE] 
+BBC1E: MOV RDI,RBP                    [4889EF] 
+BBC28: TEST EAX,EAX                   [85C0] 
+BBC5E: POP RBX                        [5B] 
+BBC5F: POP RBP                        [5D] 
+BBC60: POP R12                        [415C] 
+
+========

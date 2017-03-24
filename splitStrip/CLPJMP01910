@@ -1,0 +1,19 @@
+
+
+153D4: PUSH R12                       [4154] 
+153D6: TEST RSI,RSI                   [4885F6] 
+153D9: PUSH RBP                       [55] 
+153DA: PUSH RBX                       [53] 
+153DB: MOV RBX,RSI                    [4889F3] 
+153E0: TEST RDI,RDI                   [4885FF] 
+153E3: MOV R12,RDI                    [4989FC] 
+153E8: TEST EDX,EDX                   [85D2] 
+153EC: MOV EBP,EDX                    [89D5] 
+15410: TEST EBP,EBP                   [85ED] 
+153F0: MOVZX ESI,byte ptr [RBX]       [0FB633] 
+153F3: TEST SIL,SIL                   [4084F6] 
+153F8: MOV RDI,R12                    [4C89E7] 
+153FB: ADD RBX,0x1                    [4883C301] 
+153FF: SUB EBP,0x1                    [83ED01] 
+
+========

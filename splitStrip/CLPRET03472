@@ -1,0 +1,23 @@
+
+
+83894: MOV RCX,RDI                    [4889F9] 
+83897: AND ECX,0x7                    [83E107] 
+8389A: MOV RAX,RDI                    [4889F8] 
+8389D: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+838C0: MOV RCX,[RAX]                  [488B08] 
+838C3: ADD RAX,0x8                    [4883C008] 
+838C7: MOV RDX,R8                     [4C89C2] 
+838CA: ADD RDX,RCX                    [4801CA] 
+83930: SUB RAX,0x8                    [4883E808] 
+83934: TEST CL,CL                     [84C9] 
+83975: MOV RCX,RSI                    [4889F1] 
+83978: AND ECX,0x7                    [83E107] 
+8397B: MOV RDX,RAX                    [4889C2] 
+83980: NEG ECX                        [F7D9] 
+83982: ADD ECX,0x8                    [83C108] 
+83985: MOV AL,[RSI]                   [8A06] 
+83987: TEST AL,AL                     [84C0] 
+83989: MOV [RDX],AL                   [8802] 
+83A48: MOV RAX,RDI                    [4889F8] 
+
+========

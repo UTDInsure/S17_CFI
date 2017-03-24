@@ -1,0 +1,27 @@
+
+
+C02D4: PUSH R12                       [4154] 
+C02D6: MOV R12,RDX                    [4989D4] 
+C02D9: PUSH RBP                       [55] 
+C02DA: MOV RBP,RDI                    [4889FD] 
+C02DD: PUSH RBX                       [53] 
+C02DE: MOV EDX,[RDI + 0x78]           [8B5778] 
+C02E1: MOV EBX,ESI                    [89F3] 
+C02E3: MOV ESI,ECX                    [89CE] 
+BCF64: PUSH RBP                       [55] 
+BCF65: MOV RBP,RDI                    [4889FD] 
+BCF68: PUSH RBX                       [53] 
+BCF69: SUB RSP,0x8                    [4883EC08] 
+BCF6D: TEST ESI,ESI                   [85F6] 
+BCFC8: MOV EAX,[RBP + 0x4c]           [8B454C] 
+BCFCB: ADD RSP,0x8                    [4883C408] 
+BCFCF: POP RBX                        [5B] 
+BCFD0: POP RBP                        [5D] 
+C02EE: TEST EBX,EBX                   [85DB] 
+C033C: XOR EAX,EAX                    [31C0] 
+C033E: NOP                            [6690] 
+C0340: POP RBX                        [5B] 
+C0341: POP RBP                        [5D] 
+C0342: POP R12                        [415C] 
+
+========

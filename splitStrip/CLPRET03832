@@ -1,0 +1,14 @@
+
+
+93A84: PUSH RBP                       [55] 
+93A85: MOV RBP,RDI                    [4889FD] 
+93A88: PUSH RBX                       [53] 
+93A89: SUB RSP,0x8                    [4883EC08] 
+93A8D: MOV RBX,[RDI]                  [488B1F] 
+93A90: TEST RBX,RBX                   [4885DB] 
+93ABC: ADD RSP,0x8                    [4883C408] 
+93AC0: MOV RAX,RBX                    [4889D8] 
+93AC3: POP RBX                        [5B] 
+93AC4: POP RBP                        [5D] 
+
+========

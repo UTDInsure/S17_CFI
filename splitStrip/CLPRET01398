@@ -1,0 +1,20 @@
+
+
+2E824: MOV ECX,[RDI]                  [8B0F] 
+2E826: MOV EDX,ESI                    [89F2] 
+2E828: XOR EAX,EAX                    [31C0] 
+2E82A: SHR EDX,CL                     [D3EA] 
+2E82C: CMP EDX,[RDI + 0x4]            [3B5704] 
+2E831: ADD EDX,0x5                    [83C205] 
+2E834: MOV EDX,[RDI + RDX*0x4]        [8B1497] 
+2E837: TEST EDX,EDX                   [85D2] 
+2E83B: MOV ECX,[RDI + 0x8]            [8B4F08] 
+2E83E: MOV R8D,ESI                    [4189F0] 
+2E841: SHR R8D,CL                     [41D3E8] 
+2E844: MOV ECX,R8D                    [4489C1] 
+2E847: AND ECX,[RDI + 0xc]            [234F0C] 
+2E84A: LEA RDX,[RDX + RCX*0x4]        [488D148A] 
+2E84E: MOV EDX,[RDI + RDX*0x1]        [8B1417] 
+2E851: TEST EDX,EDX                   [85D2] 
+
+========

@@ -1,0 +1,10 @@
+
+
+2E5D4: PUSH R12                       [4154] 
+2E5D6: TEST RDI,RDI                   [4885FF] 
+2E5D9: PUSH RBP                       [55] 
+2E5DA: PUSH RBX                       [53] 
+2E5DB: MOV RBX,RDI                    [4889FB] 
+2E5E0: MOV EBP,ESI                    [89F5] 
+
+========

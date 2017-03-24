@@ -1,0 +1,13 @@
+
+
+10CCA4: PUSH R14                       [4156] 
+10CCA6: MOV R14D,EDX                   [4189D6] 
+10CCA9: PUSH R13                       [4155] 
+10CCAB: MOV R13D,ESI                   [4189F5] 
+10CCAE: PUSH R12                       [4154] 
+10CCB0: MOV R12D,EDI                   [4189FC] 
+10CCB3: MOV EDI,0x150                  [BF50010000] 
+10CCB8: PUSH RBP                       [55] 
+10CCB9: PUSH RBX                       [53] 
+
+========

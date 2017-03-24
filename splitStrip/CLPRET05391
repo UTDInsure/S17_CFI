@@ -1,0 +1,6 @@
+
+
+DE874: MOV EAX,0x4d                   [B84D000000] 
+DE87B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

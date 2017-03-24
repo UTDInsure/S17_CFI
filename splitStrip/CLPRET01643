@@ -1,0 +1,7 @@
+
+
+362A4: MOV ESI,0x8                    [BE08000000] 
+362A9: MOV EAX,0x82                   [B882000000] 
+362B0: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

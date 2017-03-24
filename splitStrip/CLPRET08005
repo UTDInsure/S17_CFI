@@ -1,0 +1,7 @@
+
+
+18474: TEST RSI,RSI                   [4885F6] 
+18480: TEST RDX,RDX                   [4885D2] 
+1848C: XOR EAX,EAX                    [31C0] 
+
+========

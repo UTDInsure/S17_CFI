@@ -1,0 +1,8 @@
+
+
+FDF4: TEST RSI,RSI                   [4885F6] 
+FE50: MOV RAX,[0x00221fe8]           [488B0591212100] 
+FE57: CMP dword ptr [RAX + 0x8],0x0  [4883780800] 
+FE14: TEST RDI,RDI                   [4885FF] 
+
+========

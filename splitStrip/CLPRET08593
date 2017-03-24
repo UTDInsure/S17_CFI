@@ -1,0 +1,23 @@
+
+
+30784: PUSH R15                       [4157] 
+30786: PUSH R14                       [4156] 
+30788: PUSH R13                       [4155] 
+3078A: PUSH R12                       [4154] 
+3078C: PUSH RBP                       [55] 
+3078D: PUSH RBX                       [53] 
+3078E: MOV RBX,RDI                    [4889FB] 
+30791: SUB RSP,0x48                   [4883EC48] 
+30795: TEST RDI,RDI                   [4885FF] 
+30798: MOV [RSP + 0x28],RSI           [4889742428] 
+3079D: MOV [RSP + 0x30],RDX           [4889542430] 
+30AE2: ADD RSP,0x48                   [4883C448] 
+30AE6: XOR EAX,EAX                    [31C0] 
+30AE8: POP RBX                        [5B] 
+30AE9: POP RBP                        [5D] 
+30AEA: POP R12                        [415C] 
+30AEC: POP R13                        [415D] 
+30AEE: POP R14                        [415E] 
+30AF0: POP R15                        [415F] 
+
+========

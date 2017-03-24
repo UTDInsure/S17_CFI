@@ -1,0 +1,18 @@
+
+
+10A114: PUSH RBP                       [55] 
+10A115: MOV EDX,0x8                    [BA08000000] 
+10A11A: MOV RBP,RSI                    [4889F5] 
+10A11D: PUSH RBX                       [53] 
+10A11E: MOV RBX,RDI                    [4889FB] 
+10A121: SUB RSP,0x8                    [4883EC08] 
+114074: TEST EDX,EDX                   [85D2] 
+114076: MOV EAX,0x1                    [B801000000] 
+10A12E: XOR EDX,EDX                    [31D2] 
+10A130: TEST EAX,EAX                   [85C0] 
+10A14D: ADD RSP,0x8                    [4883C408] 
+10A151: MOV EAX,EDX                    [89D0] 
+10A153: POP RBX                        [5B] 
+10A154: POP RBP                        [5D] 
+
+========

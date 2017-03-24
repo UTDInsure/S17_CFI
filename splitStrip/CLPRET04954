@@ -1,0 +1,20 @@
+
+
+D6DB4: PUSH R13                       [4155] 
+D6DB6: PUSH R12                       [4154] 
+D6DB8: PUSH RBP                       [55] 
+D6DB9: PUSH RBX                       [53] 
+D6DBA: MOV EBX,ECX                    [89CB] 
+D6DBC: SUB RSP,0x98                   [4881EC98000000] 
+D6DC3: TEST ECX,0xfffffcff            [F7C1FFFCFFFF] 
+D6F20: MOV RAX,[0x00368e68]           [488B05411F2900] 
+D6F27: MOV R12D,0xffffffff            [41BCFFFFFFFF] 
+D6F2D: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+D6DF1: ADD RSP,0x98                   [4881C498000000] 
+D6DF8: MOV EAX,R12D                   [4489E0] 
+D6DFB: POP RBX                        [5B] 
+D6DFC: POP RBP                        [5D] 
+D6DFD: POP R12                        [415C] 
+D6DFF: POP R13                        [415D] 
+
+========

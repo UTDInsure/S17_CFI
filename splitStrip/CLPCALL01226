@@ -1,0 +1,23 @@
+
+
+1083C4: PUSH RBP                       [55] 
+1083C5: MOV RBP,RDI                    [4889FD] 
+1083C8: PUSH RBX                       [53] 
+1083C9: MOV RBX,RSI                    [4889F3] 
+1083CC: SUB RSP,0x8                    [4883EC08] 
+108374: PUSH RBP                       [55] 
+108375: MOV RBP,RDI                    [4889FD] 
+108378: PUSH RBX                       [53] 
+108379: MOV RBX,RSI                    [4889F3] 
+10837C: SUB RSP,0x8                    [4883EC08] 
+113FF4: PUSH RBX                       [53] 
+113FF5: MOV RBX,RSI                    [4889F3] 
+113FF8: SUB RSP,0x10                   [4883EC10] 
+113FFC: MOV EAX,[RDI]                  [8B07] 
+113FFE: CMP EAX,0x1                    [83F801] 
+114048: MOVSXD RAX,[RSI]               [486306] 
+11404B: LEA RSI,[RSP + 0x8]            [488D742408] 
+114050: MOV [RSP + 0x8],RAX            [4889442408] 
+114055: MOV RAX,[RDI + 0x8]            [488B4708] 
+
+========

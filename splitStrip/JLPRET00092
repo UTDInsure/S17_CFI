@@ -1,0 +1,25 @@
+
+
+405D24: MOVZX EAX,byte ptr [RBX + 0x1] [0FB64301] 
+405D28: AND EBP,0x3                    [83E503] 
+405D2B: SHL EBP,0x18                   [C1E518] 
+405D2E: AND EAX,0x3f                   [83E03F] 
+405D31: SHL EAX,0x12                   [C1E012] 
+405D34: OR EBP,EAX                     [09C5] 
+405D36: MOVZX EAX,byte ptr [RBX + 0x4] [0FB64304] 
+405D3A: AND EAX,0x3f                   [83E03F] 
+405D3D: OR EBP,EAX                     [09C5] 
+405D3F: MOVZX EAX,byte ptr [RBX + 0x2] [0FB64302] 
+405D43: AND EAX,0x3f                   [83E03F] 
+405D46: SHL EAX,0xc                    [C1E00C] 
+405D49: OR EBP,EAX                     [09C5] 
+405D4B: MOVZX EAX,byte ptr [RBX + 0x3] [0FB64303] 
+405D4F: POP RBX                        [5B] 
+405D50: AND EAX,0x3f                   [83E03F] 
+405D53: SHL EAX,0x6                    [C1E006] 
+405D56: OR EBP,EAX                     [09C5] 
+405D58: MOVSXD RAX,EBP                 [4863C5] 
+405D5B: POP RBP                        [5D] 
+405D5C: POP R12                        [415C] 
+
+========

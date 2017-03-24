@@ -1,0 +1,13 @@
+
+
+B3E54: MOV EDX,FS:[0x2d4]             [648B1425D4020000] 
+B3E5C: CMP EDX,0x0                    [83FA00] 
+B3E5F: MOV EAX,EDX                    [89D0] 
+B3E73: MOV ECX,0x27                   [B927000000] 
+B3E78: MOV EAX,ECX                    [89C8] 
+B3E7C: TEST EDX,EDX                   [85D2] 
+B3E7E: MOV RSI,RAX                    [4889C6] 
+B3E83: MOV FS:[0x2d0],ESI             [64893425D0020000] 
+B3E8B: MOV EAX,ESI                    [89F0] 
+
+========

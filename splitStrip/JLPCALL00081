@@ -1,0 +1,18 @@
+
+
+54B4A: CMP dword ptr [-0x10c0 + RBP],0x0 [83BD40EFFFFF00] 
+54B57: MOV RAX,[0x00368e68]           [488B050A433100] 
+54B5E: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+5325B: MOV dword ptr [-0x1078 + RBP],0xffffffff [C78588EFFFFFFFFFFFFF] 
+53265: CMP dword ptr [-0x10b8 + RBP],0x0 [4883BD48EFFFFF00] 
+53273: TEST R12,R12                   [4D85E4] 
+52749: TEST dword ptr [R14],0x8000    [41F70600800000] 
+5275F: MOV EDX,[-0x107c + RBP]        [8B9584EFFFFF] 
+52765: TEST EDX,EDX                   [85D2] 
+527E8: MOV RAX,[0x0036e738]           [488B0549BF3100] 
+527EF: LEA RDI,[-0x1020 + RBP]        [488DBDE0EFFFFF] 
+527F6: XOR ESI,ESI                    [31F6] 
+527F8: ROR RAX,0x11                   [48C1C811] 
+527FC: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

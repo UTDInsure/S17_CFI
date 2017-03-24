@@ -1,0 +1,7 @@
+
+
+AEC94: TEST RDI,RDI                   [4885FF] 
+AEC99: PUSH RBX                       [53] 
+AEC9A: MOV EBX,[RDI]                  [8B1F] 
+
+========

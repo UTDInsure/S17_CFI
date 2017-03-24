@@ -1,0 +1,10 @@
+
+
+1AB44: MOV EAX,0x26                   [B826000000] 
+1AB4B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+1AB54: LEA RCX,[0x223160]             [488D0D05862000] 
+1AB5B: NEG EAX                        [F7D8] 
+1AB5D: MOV [RCX],EAX                  [8901] 
+1AB5F: OR RAX,-0x1                    [4883C8FF] 
+
+========

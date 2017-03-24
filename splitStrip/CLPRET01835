@@ -1,0 +1,22 @@
+
+
+37094: SUB RSP,0xa8                   [4881ECA8000000] 
+3709B: MOV R8D,EDI                    [4189F8] 
+3709E: XOR EAX,EAX                    [31C0] 
+370A0: LEA RDX,[RSP + 0x8]            [488D542408] 
+370A5: MOV ECX,0x10                   [B910000000] 
+370AA: MOV RSI,RSP                    [4889E6] 
+370AD: MOV dword ptr [RSP],0x1        [48C7042401000000] 
+370B5: MOV dword ptr [0x88 + RSP],0x0 [C784248800000000000000] 
+370C0: MOV RDI,RDX                    [4889D7] 
+370C3: XOR EDX,EDX                    [31D2] 
+370C5: STOSQ.REP RDI                  [F348AB] 
+370C8: MOV EDI,R8D                    [4489C7] 
+36154: LEA EAX,[RDI + -0x20]          [8D47E0] 
+36157: CMP EAX,0x1                    [83F801] 
+3616E: MOV RAX,[0x00368e68]           [488B05F32C3300] 
+36175: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+3617C: OR EAX,0xffffffff              [83C8FF] 
+370D4: ADD RSP,0xa8                   [4881C4A8000000] 
+
+========

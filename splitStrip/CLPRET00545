@@ -1,0 +1,23 @@
+
+
+404AD4: PUSH R12                       [4154] 
+404AD6: PUSH RBP                       [55] 
+404AD7: MOV RBP,[0x006279d8]           [488B2DFA2E2200] 
+404ADE: PUSH RBX                       [53] 
+404ADF: TEST RBP,RBP                   [4885ED] 
+404AE8: MOV RBX,RDI                    [4889FB] 
+404AEB: XOR EAX,EAX                    [31C0] 
+404394: MOV RDX,[0x006279d8]           [488B153D362200] 
+40439B: TEST RDX,RDX                   [4885D2] 
+4043A0: MOV EAX,[0x0062baac]           [8B0506772200] 
+4043A6: TEST EAX,EAX                   [85C0] 
+4043C8: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+4043CF: NOP                            [90] 
+404AF6: TEST RBX,RBX                   [4885DB] 
+404BA0: POP RBX                        [5B] 
+404BA1: MOV R12D,0x1                   [41BC01000000] 
+404BA7: POP RBP                        [5D] 
+404BA8: MOV EAX,R12D                   [4489E0] 
+404BAB: POP R12                        [415C] 
+
+========

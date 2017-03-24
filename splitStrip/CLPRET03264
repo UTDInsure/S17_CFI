@@ -1,0 +1,8 @@
+
+
+7AFD4: MOV RAX,[RDI + 0x10]           [488B4710] 
+7AFD8: CMP [RDI + 0x28],RAX           [48394728] 
+7AFDC: CMOVNC RAX,[RDI + 0x28]        [480F434728] 
+7AFE1: SUB RAX,[RDI + 0x18]           [482B4718] 
+
+========

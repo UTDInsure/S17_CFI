@@ -1,0 +1,24 @@
+
+
+36794: PUSH R12                       [4154] 
+36796: MOV R12D,ESI                   [4189F4] 
+36799: XOR ESI,ESI                    [31F6] 
+3679B: PUSH RBP                       [55] 
+3679C: PUSH RBX                       [53] 
+3679D: MOV EBX,EDI                    [89FB] 
+3679F: SUB RSP,0xa0                   [4881ECA0000000] 
+367A6: MOV RDX,RSP                    [4889E2] 
+367A9: MOV RBP,RSP                    [4889E5] 
+36154: LEA EAX,[RDI + -0x20]          [8D47E0] 
+36157: CMP EAX,0x1                    [83F801] 
+3616E: MOV RAX,[0x00368e68]           [488B05F32C3300] 
+36175: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+3617C: OR EAX,0xffffffff              [83C8FF] 
+367B5: TEST EAX,EAX                   [85C0] 
+36840: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+36800: ADD RSP,0xa0                   [4881C4A0000000] 
+36807: POP RBX                        [5B] 
+36808: POP RBP                        [5D] 
+36809: POP R12                        [415C] 
+
+========

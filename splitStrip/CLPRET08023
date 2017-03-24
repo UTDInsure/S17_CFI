@@ -1,0 +1,6 @@
+
+
+18634: TEST RDI,RDI                   [4885FF] 
+18639: MOVSX EAX,word ptr [RDI + 0x8] [0FBF4708] 
+
+========

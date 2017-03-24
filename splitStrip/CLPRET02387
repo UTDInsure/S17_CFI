@@ -1,0 +1,9 @@
+
+
+6CAB4: MOV RAX,[0xe8 + RDI]           [488B87E8000000] 
+6CABB: TEST RAX,RAX                   [4885C0] 
+6CAC0: SUB RSP,0x8                    [4883EC08] 
+6CAC4: MOV RDI,[0xe0 + RDI]           [488BBFE0000000] 
+6CAD1: ADD RSP,0x8                    [4883C408] 
+
+========

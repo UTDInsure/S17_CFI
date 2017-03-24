@@ -1,0 +1,16 @@
+
+
+BBD14: PUSH RBP                       [55] 
+BBD15: MOV EBP,ESI                    [89F5] 
+BBD17: PUSH RBX                       [53] 
+BBD18: MOV RBX,RDI                    [4889FB] 
+BBD1B: SUB RSP,0x8                    [4883EC08] 
+BBD1F: MOVSXD RDX,[RDI + 0x4]         [48635704] 
+BBD23: CMP [RDI],EDX                  [3917] 
+BBD40: LEA ESI,[RDX + RDX*0x1 + 0x2]  [8D741202] 
+BBD44: MOV [RDI],ESI                  [8937] 
+BBD46: MOV RDI,[RDI + 0x8]            [488B7F08] 
+BBD4A: MOVSXD RSI,ESI                 [4863F6] 
+BBD4D: SHL RSI,0x2                    [48C1E602] 
+
+========

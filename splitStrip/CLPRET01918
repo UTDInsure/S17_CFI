@@ -1,0 +1,9 @@
+
+
+397E4: TEST RDI,RDI                   [4885FF] 
+397E9: TEST RSI,RSI                   [4885F6] 
+39868: MOV RAX,[0x00368e68]           [488B05F9F53200] 
+3986F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+39876: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

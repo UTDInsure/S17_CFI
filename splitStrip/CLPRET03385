@@ -1,0 +1,16 @@
+
+
+80ED4: PUSH R12                       [4154] 
+80ED6: MOV R8D,[0x00369124]           [448B0547822E00] 
+80EDD: MOV dword ptr [0x0036b7e8],0x1 [C70501A92E0001000000] 
+80EE7: PUSH RBP                       [55] 
+80EE8: TEST R8D,R8D                   [4585C0] 
+80EEB: PUSH RBX                       [53] 
+80EEC: MOV RBX,RDI                    [4889FB] 
+80EF5: CMP dword ptr [RBX],0x444c4541 [48813B41454C44] 
+813F7: POP RBX                        [5B] 
+813F8: POP RBP                        [5D] 
+813F9: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+813FE: POP R12                        [415C] 
+
+========

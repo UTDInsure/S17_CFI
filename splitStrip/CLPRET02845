@@ -1,0 +1,18 @@
+
+
+74C64: MOV RAX,[RDI + 0x28]           [488B4728] 
+74C68: CMP RAX,[RDI + 0x30]           [483B4730] 
+74C6C: PUSH RBX                       [53] 
+74C6D: MOV RBX,RDI                    [4889FB] 
+74C72: MOV byte ptr [RAX],0x0         [C60000] 
+74C75: MOV RAX,[0xf0 + RBX]           [488B83F0000000] 
+74C7C: MOV RDX,[RBX + 0x20]           [488B5320] 
+74C80: MOV [RAX],RDX                  [488910] 
+74C83: MOV RAX,[RBX + 0x28]           [488B4328] 
+74C87: SUB RAX,[RBX + 0x20]           [482B4320] 
+74C8B: MOV RDX,[0xf8 + RBX]           [488B93F8000000] 
+74C92: MOV [RDX],RAX                  [488902] 
+74C95: XOR EAX,EAX                    [31C0] 
+74C97: POP RBX                        [5B] 
+
+========

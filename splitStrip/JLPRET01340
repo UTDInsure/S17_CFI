@@ -1,0 +1,12 @@
+
+
+DCC34: MOV RAX,[0x00368e60]           [488B0525C22800] 
+DCC3B: MOV RAX,[RAX + 0x18]           [488B4018] 
+DCC3F: TEST RAX,RAX                   [4885C0] 
+B4ED1: CDQE                           [4898] 
+B4E30: ADD RSP,0x30                   [4883C430] 
+B4E34: POP RBX                        [5B] 
+B4E35: POP RBP                        [5D] 
+B4E36: POP R12                        [415C] 
+
+========

@@ -1,0 +1,7 @@
+
+
+10ED84: MOV EAX,[RCX]                  [8B01] 
+10ED86: MOV [RDX],EAX                  [8902] 
+10ED88: MOV EAX,0x1                    [B801000000] 
+
+========

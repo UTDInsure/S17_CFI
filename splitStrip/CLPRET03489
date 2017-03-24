@@ -1,0 +1,25 @@
+
+
+85104: MOV RCX,RSI                    [4889F1] 
+85107: AND ECX,0x7                    [83E107] 
+8510A: MOV RDX,RDI                    [4889FA] 
+8512A: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+85134: NOP                            [6666662E0F1F840000000000] 
+85140: MOV RAX,[RSI]                  [488B06] 
+85143: ADD RSI,0x8                    [4883C608] 
+85147: MOV R9,RAX                     [4989C1] 
+8514A: ADD R9,R8                      [4D01C1] 
+85153: XOR R9,RAX                     [4931C1] 
+85156: OR R9,R8                       [4D09C1] 
+85159: INC R9                         [49FFC1] 
+8515E: MOV [RDX],RAX                  [488902] 
+85161: ADD RDX,0x8                    [4883C208] 
+85165: MOV RAX,[RSI]                  [488B06] 
+85168: ADD RSI,0x8                    [4883C608] 
+8516C: MOV R9,RAX                     [4989C1] 
+8516F: ADD R9,R8                      [4D01C1] 
+851D0: MOV [RDX],AL                   [8802] 
+851D2: TEST AL,AL                     [84C0] 
+851E8: MOV RAX,RDI                    [4889F8] 
+
+========

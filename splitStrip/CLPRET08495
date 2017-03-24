@@ -1,0 +1,8 @@
+
+
+2DD44: MOV ESI,[0x0024bba4]           [8B355ADE2100] 
+2DD4A: CMP EDI,ESI                    [39F7] 
+2DD80: MOV EAX,[0x0024bba0]           [8B051ADE2100] 
+2DD86: CMP EAX,-0x1                   [83F8FF] 
+
+========

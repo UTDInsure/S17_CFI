@@ -1,0 +1,17 @@
+
+
+412264: TEST EDI,EDI                   [85FF] 
+412270: PUSH RBX                       [53] 
+412271: MOV RBX,RSI                    [4889F3] 
+412274: XOR EAX,EAX                    [31C0] 
+412276: XOR ESI,ESI                    [31F6] 
+412278: MOV RDI,RBX                    [4889DF] 
+41227B: SUB RSP,0x10                   [4883EC10] 
+40ABB4: MOV EAX,[0x0062ba44]           [8B058A0E2200] 
+40ABBA: TEST EAX,EAX                   [85C0] 
+40ABBE: MOV EAX,0x1                    [B801000000] 
+412288: TEST EAX,EAX                   [85C0] 
+4122A3: ADD RSP,0x10                   [4883C410] 
+4122A7: POP RBX                        [5B] 
+
+========

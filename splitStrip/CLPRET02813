@@ -1,0 +1,8 @@
+
+
+743F4: TEST dword ptr [RDI],0x2000    [F70700200000] 
+74408: MOV RAX,[0x00368e68]           [488B05594A2F00] 
+7440F: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+74416: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

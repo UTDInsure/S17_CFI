@@ -1,0 +1,15 @@
+
+
+B82D4: PUSH RBP                       [55] 
+B82D5: MOV RBP,RDI                    [4889FD] 
+B82D8: PUSH RBX                       [53] 
+B82D9: MOV RBX,RDI                    [4889FB] 
+B82DC: SUB RSP,0x8                    [4883EC08] 
+B82E0: MOV EDX,[RBX + 0x4]            [8B5304] 
+B82E3: TEST EDX,EDX                   [85D2] 
+B8318: ADD RSP,0x8                    [4883C408] 
+B831C: MOV RAX,RBP                    [4889E8] 
+B831F: POP RBX                        [5B] 
+B8320: POP RBP                        [5D] 
+
+========

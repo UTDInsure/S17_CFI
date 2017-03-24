@@ -1,0 +1,28 @@
+
+
+19DE4: PUSH R12                       [4154] 
+19DE6: MOV RCX,RDI                    [4889F9] 
+19DE9: MOV RAX,RDI                    [4889F8] 
+19DEC: SUB RCX,RSI                    [4829F1] 
+19DEF: PUSH RBP                       [55] 
+19DF0: PUSH RBX                       [53] 
+19DF1: SUB RSP,0x10                   [4883EC10] 
+19DF5: CMP RCX,RDX                    [4839D1] 
+19DFE: CMP RDX,0xf                    [4883FA0F] 
+19E02: MOV RBX,RDI                    [4889FB] 
+19E05: MOV RBP,RSI                    [4889F5] 
+19E7E: MOV RSI,RBP                    [4889EE] 
+19E81: LEA R8,[RBX + RDX*0x1]         [4C8D0413] 
+19E85: MOV RCX,RBX                    [4889D9] 
+19E88: SUB RSI,RBX                    [4829DE] 
+19E8B: TEST RDX,RDX                   [4885D2] 
+19E90: MOVZX EDX,byte ptr [RSI + RCX*0x1] [0FB6140E] 
+19E94: ADD RCX,0x1                    [4883C101] 
+19E98: MOV [RCX + -0x1],DL            [8851FF] 
+19E9B: CMP RCX,R8                     [4C39C1] 
+19EA0: ADD RSP,0x10                   [4883C410] 
+19EA4: POP RBX                        [5B] 
+19EA5: POP RBP                        [5D] 
+19EA6: POP R12                        [415C] 
+
+========

@@ -1,0 +1,20 @@
+
+
+A14F4: PUSH RBP                       [55] 
+A14F5: MOV RBP,RSP                    [4889E5] 
+A14F8: PUSH R13                       [4155] 
+A14FA: PUSH R12                       [4154] 
+A14FC: PUSH RBX                       [53] 
+A14FD: MOV RBX,RDI                    [4889FB] 
+A1500: SUB RSP,0x8                    [4883EC08] 
+A1504: MOV EDX,[0x0036e770]           [8B1566D22C00] 
+A150A: TEST EDX,EDX                   [85D2] 
+A1678: MOV RAX,[0x0036e708]           [488B0589D02C00] 
+A167F: LEA RDI,[0x36a940]             [488D3DBA922C00] 
+A1686: ROR RAX,0x11                   [48C1C811] 
+A168A: XOR RAX,FS:[0x30]              [644833042530000000] 
+A1512: CMP dword ptr [RBX + 0x28],0x0 [48837B2800] 
+A151D: MOV ESI,0x20                   [BE20000000] 
+A1522: MOV EDI,0x1                    [BF01000000] 
+
+========

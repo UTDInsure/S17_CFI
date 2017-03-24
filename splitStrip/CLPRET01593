@@ -1,0 +1,9 @@
+
+
+35A74: MOV [RSP + -0x4],EDI           [897C24FC] 
+35A78: FILD dword ptr [RSP + -0x4]    [DB4424FC] 
+35A7C: FLD tword ptr [RSP + 0x8]      [DB6C2408] 
+35A80: FSCALE                         [D9FD] 
+35A82: FSTP ST1                       [DDD9] 
+
+========

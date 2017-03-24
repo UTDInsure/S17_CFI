@@ -1,0 +1,28 @@
+
+
+113654: PUSH R14                       [4156] 
+113656: MOV R14,RSI                    [4989F6] 
+113659: PUSH R13                       [4155] 
+11365B: PUSH R12                       [4154] 
+11365D: MOV R12,RDI                    [4989FC] 
+113660: PUSH RBP                       [55] 
+113661: PUSH RBX                       [53] 
+113662: SUB RSP,0x20                   [4883EC20] 
+856D4: PXOR XMM8,XMM8                 [66450FEFC0] 
+856D9: PXOR XMM9,XMM9                 [66450FEFC9] 
+856DE: PXOR XMM10,XMM10               [66450FEFD2] 
+856E3: PXOR XMM11,XMM11               [66450FEFDB] 
+856E8: MOV RAX,RDI                    [4889F8] 
+856EB: MOV RCX,RDI                    [4889F9] 
+856EE: AND RCX,0xfff                  [4881E1FF0F0000] 
+856F5: CMP RCX,0xfcf                  [4881F9CF0F0000] 
+856FE: MOVDQU XMM12,[RAX]             [F3440F6F20] 
+85703: PCMPEQB XMM12,XMM8             [66450F74E0] 
+85708: PMOVMSKB EDX,XMM12             [66410FD7D4] 
+8570D: TEST EDX,EDX                   [85D2] 
+85711: BSF EAX,EDX                    [0FBCC2] 
+11366F: MOV RBX,RAX                    [4889C3] 
+113672: SHR RBX,1                      [48D1EB] 
+113675: MOV EDI,EBX                    [89DF] 
+
+========

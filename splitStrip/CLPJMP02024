@@ -1,0 +1,10 @@
+
+
+17F84: PUSH R12                       [4154] 
+17F86: MOV R12D,R8D                   [4589C4] 
+17F89: PUSH RBP                       [55] 
+17F8A: MOV RBP,RCX                    [4889CD] 
+17F8D: PUSH RBX                       [53] 
+17F8E: MOV RBX,RDI                    [4889FB] 
+
+========

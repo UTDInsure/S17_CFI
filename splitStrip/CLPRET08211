@@ -1,0 +1,6 @@
+
+
+1F374: TEST RDI,RDI                   [4885FF] 
+1F380: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

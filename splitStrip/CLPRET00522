@@ -1,0 +1,13 @@
+
+
+404094: MOV EAX,[0x00625c60]           [8B05C61B2200] 
+40409A: OR EAX,EDI                     [09F8] 
+40409C: TEST DIL,0x20                  [40F6C720] 
+4040A0: CMOVNZ EDI,EAX                 [0F45F8] 
+4040A3: MOV EAX,EDI                    [89F8] 
+4040A5: OR EAX,0x8                     [83C808] 
+4040A8: TEST DIL,0x40                  [40F6C740] 
+4040AC: CMOVZ EAX,EDI                  [0F44C7] 
+4040AF: AND EAX,0xffffff9f             [83E09F] 
+
+========

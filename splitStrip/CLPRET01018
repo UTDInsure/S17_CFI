@@ -1,0 +1,10 @@
+
+
+414894: CMP EDI,-0x2                   [83FFFE] 
+414899: CMP EDI,-0x1                   [83FFFF] 
+41489E: CMP EDI,-0x3                   [83FFFD] 
+4148A3: MOV RAX,[0x0062b168]           [488B05BE682100] 
+4148AA: MOVSXD RDI,EDI                 [4863FF] 
+4148AD: MOV RAX,[RAX + RDI*0x8]        [488B04F8] 
+
+========

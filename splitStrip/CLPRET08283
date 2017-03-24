@@ -1,0 +1,25 @@
+
+
+20C74: MOV RAX,[0x0024a7a0]           [488B05259B2200] 
+20C7B: MOV RAX,[RAX]                  [488B00] 
+20C7E: TEST RAX,RAX                   [4885C0] 
+20C87: PUSH R15                       [4157] 
+20C89: PUSH R14                       [4156] 
+20C8B: PUSH R13                       [4155] 
+20C8D: PUSH R12                       [4154] 
+20C8F: PUSH RBP                       [55] 
+20C90: PUSH RBX                       [53] 
+20C91: SUB RSP,0x18                   [4883EC18] 
+20C95: MOV R14,[0x308 + RAX]          [4C8BB008030000] 
+20C9C: TEST R14,R14                   [4D85F6] 
+20CA5: TEST EDI,EDI                   [85FF] 
+20EB0: ADD RSP,0x18                   [4883C418] 
+20EB4: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+20EB9: POP RBX                        [5B] 
+20EBA: POP RBP                        [5D] 
+20EBB: POP R12                        [415C] 
+20EBD: POP R13                        [415D] 
+20EBF: POP R14                        [415E] 
+20EC1: POP R15                        [415F] 
+
+========

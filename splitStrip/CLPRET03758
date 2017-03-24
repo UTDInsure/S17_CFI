@@ -1,0 +1,21 @@
+
+
+914D4: PUSH R14                       [4156] 
+914D6: MOV R14,RDI                    [4989FE] 
+914D9: PUSH R13                       [4155] 
+914DB: MOV R13,RSI                    [4989F5] 
+914DE: PUSH R12                       [4154] 
+914E0: PUSH RBP                       [55] 
+914E1: PUSH RBX                       [53] 
+914E2: MOV RBP,[RSI]                  [488B2E] 
+914E5: MOV RBX,[RDI]                  [488B1F] 
+914E8: TEST RBP,RBP                   [4885ED] 
+9154D: XOR EBX,EBX                    [31DB] 
+91524: MOV [R13],RBX                  [49895D00] 
+91528: POP RBX                        [5B] 
+91529: POP RBP                        [5D] 
+9152A: POP R12                        [415C] 
+9152C: POP R13                        [415D] 
+9152E: POP R14                        [415E] 
+
+========

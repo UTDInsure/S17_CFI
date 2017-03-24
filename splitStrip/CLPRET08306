@@ -1,0 +1,7 @@
+
+
+21574: MOVZX EAX,word ptr [0x2c2 + RDI] [0FB787C2020000] 
+2157B: CMP AX,-0x1                    [6683F8FF] 
+21648: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,27 @@
+
+
+129A4: PUSH R12                       [4154] 
+129A6: MOV R12,RDI                    [4989FC] 
+129A9: PUSH RBP                       [55] 
+129AA: MOV RBP,[0x00222f90]           [488B2DDF052100] 
+129B1: PUSH RBX                       [53] 
+129B2: MOV RBX,[0x448 + RDI]          [488B9F48040000] 
+129CF: MOV RAX,[RBP]                  [488B4500] 
+129D3: CMP RBX,RAX                    [4839C3] 
+129C0: SUB RBX,RAX                    [4829C3] 
+129C3: MOV RAX,[RBP + 0x8]            [488B4508] 
+129C7: TEST RAX,RAX                   [4885C0] 
+129CC: MOV RBP,RAX                    [4889C5] 
+129CF: MOV RAX,[RBP]                  [488B4500] 
+129D3: CMP RBX,RAX                    [4839C3] 
+129D8: SHL RBX,0x4                    [48C1E304] 
+129DC: ADD RBP,RBX                    [4801DD] 
+129DF: MOV [RBP + 0x18],R12           [4C896518] 
+129E3: MOV RAX,[0x00222fc0]           [488B05D6052100] 
+129EA: ADD RAX,0x1                    [4883C001] 
+129EE: MOV [RBP + 0x10],RAX           [48894510] 
+129F2: POP RBX                        [5B] 
+129F3: POP RBP                        [5D] 
+129F4: POP R12                        [415C] 
+
+========

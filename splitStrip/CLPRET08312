@@ -1,0 +1,18 @@
+
+
+21574: MOVZX EAX,word ptr [0x2c2 + RDI] [0FB787C2020000] 
+2157B: CMP AX,-0x1                    [6683F8FF] 
+21585: MOVZX EDX,word ptr [0x2c0 + RDI] [0FB797C0020000] 
+2158C: CMP DX,-0x1                    [6683FAFF] 
+21592: TEST DX,DX                     [6685D2] 
+21597: SUB EDX,0x1                    [83EA01] 
+2159A: CMP AX,DX                      [6639D0] 
+2159D: MOV [0x2c0 + RDI],DX           [668997C0020000] 
+215A4: MOVSX ECX,DX                   [0FBFCA] 
+215D8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+215DD: MOV [0x2c2 + RDI],AX           [668987C2020000] 
+215E4: MOVSXD RAX,ECX                 [4863C1] 
+215E7: MOV [0x9c + RDI + RAX*0x4],ESI [89B4879C000000] 
+215EE: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,17 @@
+
+
+D1174: PUSH RBX                       [53] 
+D1175: MOV RBX,RDI                    [4889FB] 
+D1178: SUB RSP,0x10                   [4883EC10] 
+D117C: MOV RAX,[R8]                   [498B00] 
+D117F: MOVSX ECX,byte ptr [RCX + RAX*0x1 + 0x1] [0FBE4C0101] 
+D1184: LEA RDI,[RAX + 0x1]            [488D7801] 
+D1188: MOV EAX,0x5                    [B805000000] 
+D118D: TEST CL,CL                     [84C9] 
+D1191: CMP CL,0xa                     [80F90A] 
+D11C0: MOV [R8],RDI                   [498938] 
+D11C3: ADD RSP,0x10                   [4883C410] 
+D11C7: XOR AL,AL                      [30C0] 
+D11C9: POP RBX                        [5B] 
+
+========

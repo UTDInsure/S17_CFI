@@ -1,0 +1,15 @@
+
+
+BF314: PUSH R12                       [4154] 
+BF316: PUSH RBP                       [55] 
+BF317: MOV RBP,RSI                    [4889F5] 
+BF31A: PUSH RBX                       [53] 
+BF31B: MOV RBX,RDI                    [4889FB] 
+BF31E: MOVSXD RDI,[RSI + 0x4]         [48637E04] 
+BF322: MOV [RBX + 0x4],EDI            [897B04] 
+BF325: MOVSXD R12,[RSI + 0x4]         [4C636604] 
+BF329: TEST R12D,R12D                 [4585E4] 
+BF32E: MOV [RBX],EDI                  [893B] 
+BF330: SHL RDI,0x2                    [48C1E702] 
+
+========

@@ -1,0 +1,18 @@
+
+
+CC364: MOV R9,RSI                     [4989F1] 
+CC367: MOV ECX,0xcc                   [B9CC000000] 
+CC36C: MOV ESI,0x7fffffff             [BEFFFFFF7F] 
+CC371: CMP R9,0x7fffffff              [4981F9FFFFFF7F] 
+CC378: MOV R10,RDX                    [4989D2] 
+CC37B: MOVSXD RDI,EDI                 [4863FF] 
+CC37E: CMOVBE RSI,R9                  [490F46F1] 
+CC382: MOV EAX,ECX                    [89C8] 
+CC386: CMP RAX,0xfffff000             [483D00F0FFFF] 
+CC38C: MOV R8,RAX                     [4989C0] 
+CC3BB: MOV RAX,[0x00368e68]           [488B05A6CA2900] 
+CC3C2: NEG R8D                        [41F7D8] 
+CC3C5: MOV FS:[RAX],R8D               [64448900] 
+CC3C9: OR EAX,0xffffffff              [83C8FF] 
+
+========

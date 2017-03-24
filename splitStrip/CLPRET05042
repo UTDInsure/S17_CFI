@@ -1,0 +1,8 @@
+
+
+D84C4: MOVSXD RDX,EDX                 [4863D2] 
+D84C7: MOVSXD RDI,EDI                 [4863FF] 
+D84CA: MOV EAX,0x107                  [B807010000] 
+D84D1: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

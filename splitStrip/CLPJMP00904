@@ -1,0 +1,20 @@
+
+
+7A7C4: PUSH R15                       [4157] 
+7A7C6: PUSH R14                       [4156] 
+7A7C8: PUSH R13                       [4155] 
+7A7CA: PUSH R12                       [4154] 
+7A7CC: MOV R12D,ESI                   [4189F4] 
+7A7CF: PUSH RBP                       [55] 
+7A7D0: PUSH RBX                       [53] 
+7A7D1: MOV RBX,RDI                    [4889FB] 
+7A7D4: SUB RSP,0x8                    [4883EC08] 
+7A7D8: MOV RBP,[RDI + 0x8]            [488B6F08] 
+7A7DC: MOV R13,[RDI + 0x18]           [4C8B6F18] 
+7A7E0: CMP RBP,R13                    [4C39ED] 
+7A7E5: TEST dword ptr [RDI],0x100     [F70700010000] 
+7A872: MOV R14,[RBX + 0x10]           [4C8B7310] 
+7A876: SUB R14,R13                    [4D29EE] 
+7A879: LEA RDI,[R14 + R14*0x1]        [4B8D3C36] 
+
+========

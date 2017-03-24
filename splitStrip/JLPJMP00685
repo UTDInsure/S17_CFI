@@ -1,0 +1,11 @@
+
+
+4BDEA: CMP byte ptr [-0x4c8 + RBP],0x0 [80BD38FBFFFF00] 
+4BDF7: MOV RAX,[0x00368e68]           [488B056AD03100] 
+4BDFE: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+47F03: MOV dword ptr [-0x4a8 + RBP],0xffffffff [C78558FBFFFFFFFFFFFF] 
+47F0D: CMP dword ptr [-0x4f0 + RBP],0x0 [4883BD10FBFFFF00] 
+47F17: CMP dword ptr [-0x4c0 + RBP],0x0 [4883BD40FBFFFF00] 
+47F25: MOV RDI,[-0x4c0 + RBP]         [488BBD40FBFFFF] 
+
+========

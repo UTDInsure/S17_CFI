@@ -1,0 +1,8 @@
+
+
+F2ED4: CMP RDX,RCX                    [4839CA] 
+F2ED9: MOVSXD RDI,EDI                 [4863FF] 
+F2EDC: XOR EAX,EAX                    [31C0] 
+F2EE0: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

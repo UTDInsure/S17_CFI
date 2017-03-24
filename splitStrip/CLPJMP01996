@@ -1,0 +1,12 @@
+
+
+177E4: PUSH RBP                       [55] 
+177E5: MOV RBP,RDX                    [4889D5] 
+177E8: MOV EDX,ESI                    [89F2] 
+177EA: MOV ESI,EDI                    [89FE] 
+177EC: PUSH RBX                       [53] 
+177ED: SUB RSP,0x8                    [4883EC08] 
+177F1: MOV RBX,[0x0024a830]           [488B1D38302300] 
+177F8: MOV RDI,[RBX]                  [488B3B] 
+
+========

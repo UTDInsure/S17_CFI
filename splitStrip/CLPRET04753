@@ -1,0 +1,21 @@
+
+
+CC5C4: MOVZX ECX,word ptr [RDI]       [0FB70F] 
+CC5C7: CMP CX,0x2                     [6683F902] 
+CC5CD: CMP CX,0xa                     [6683F90A] 
+CC5D1: MOV EAX,EDX                    [89D0] 
+CC625: MOV ECX,[RSI + 0x10]           [8B4E10] 
+CC628: LEA R8,[RDI + 0x8]             [4C8D4708] 
+CC62C: MOV R9D,0xff00                 [41B900FF0000] 
+CC632: CMP ECX,0x7                    [83F907] 
+CC686: MOV RDX,R8                     [4C89C2] 
+CC689: MOV RAX,RSI                    [4889F0] 
+CC669: MOVZX EDX,byte ptr [RDX]       [0FB612] 
+CC66C: XOR DL,[RAX]                   [3210] 
+CC66E: MOV EAX,R9D                    [4489C8] 
+CC671: SAR EAX,CL                     [D3F8] 
+CC673: MOVZX EDX,DL                   [0FB6D2] 
+CC676: TEST EDX,EAX                   [85C2] 
+CC68E: MOV EAX,[RSI + 0x14]           [8B4614] 
+
+========

@@ -1,0 +1,13 @@
+
+
+6AE44: MOV RDX,[RDI]                  [488B17] 
+6AE47: MOV R9D,0x7fffffff             [41B9FFFFFF7F] 
+6AE4D: MOVZX EAX,byte ptr [RDX]       [0FB602] 
+6AE50: ADD RDX,0x1                    [4883C201] 
+6AE54: SUB EAX,0x30                   [83E830] 
+6AE7C: MOV [RDI],RDX                  [488917] 
+6AE7F: MOVZX ECX,byte ptr [RDX]       [0FB60A] 
+6AE82: SUB ECX,0x30                   [83E930] 
+6AE85: CMP ECX,0x9                    [83F909] 
+
+========

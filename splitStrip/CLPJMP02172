@@ -1,0 +1,16 @@
+
+
+21044: PUSH R12                       [4154] 
+21046: PUSH RBP                       [55] 
+21047: PUSH RBX                       [53] 
+21048: SUB RSP,0xa0                   [4881ECA0000000] 
+2104F: MOV RAX,[0x0024a7a0]           [488B054A972200] 
+21056: MOV RDX,[0x0024a8a0]           [488B1543982200] 
+2105D: MOV RBP,[RAX]                  [488B28] 
+21060: MOV EAX,[RDX + 0x4]            [8B4204] 
+21063: LEA ECX,[RAX + 0x1]            [8D4801] 
+21066: TEST EAX,EAX                   [85C0] 
+21068: MOV [RDX + 0x4],ECX            [894A04] 
+21077: MOV EDI,0x1                    [BF01000000] 
+
+========

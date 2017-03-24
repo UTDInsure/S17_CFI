@@ -1,0 +1,9 @@
+
+
+404D14: SUB RSP,0x8                    [4883EC08] 
+404D18: MOV RCX,[0x006279d8]           [488B0DB92C2200] 
+404D1F: TEST RCX,RCX                   [4885C9] 
+404DC8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+404DCD: ADD RSP,0x8                    [4883C408] 
+
+========

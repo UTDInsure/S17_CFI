@@ -1,0 +1,15 @@
+
+
+F1B64: MOV RCX,RSI                    [4889F1] 
+F1B67: AND ECX,0x7                    [83E107] 
+F1B6A: MOV R10,RDI                    [4989FA] 
+F1B96: MOV R8,-0x101010101010101      [49B8FFFEFEFEFEFEFEFE] 
+F1BA0: CMP RDX,0x20                   [4883FA20] 
+F1C52: CMP RDX,0x8                    [4883FA08] 
+F1CB3: TEST RDX,RDX                   [4885D2] 
+F1CA7: MOV AL,[RSI]                   [8A06] 
+F1CA9: TEST AL,AL                     [84C0] 
+F1CAB: MOV [RDI],AL                   [8807] 
+F1CAF: MOV RAX,R10                    [4C89D0] 
+
+========

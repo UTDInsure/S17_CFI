@@ -1,0 +1,7 @@
+
+
+DBC04: MOV EAX,[RDI]                  [8B07] 
+DBC06: TEST EAX,EAX                   [85C0] 
+DBC18: XOR EAX,EAX                    [31C0] 
+
+========

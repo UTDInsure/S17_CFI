@@ -1,0 +1,22 @@
+
+
+F32A4: PUSH R12                       [4154] 
+F32A6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+F32AB: MOV R12,RCX                    [4989CC] 
+F32AE: PUSH RBP                       [55] 
+F32AF: MOV RBP,RDX                    [4889D5] 
+F32B2: PUSH RBX                       [53] 
+F32B3: MOV RBX,RDX                    [4889D3] 
+F32B6: OR RDX,RCX                     [4809CA] 
+F32B9: IMUL RBX,RCX                   [480FAFD9] 
+F32BD: CMP RDX,RAX                    [4839C2] 
+F32C2: CMP RBX,RSI                    [4839F3] 
+F32C7: XOR EAX,EAX                    [31C0] 
+F32C9: TEST RBX,RBX                   [4885DB] 
+F32D8: MOV RDX,RBX                    [4889DA] 
+F32DB: MOV RSI,RDI                    [4889FE] 
+F32DE: MOV RDI,R8                     [4C89C7] 
+79944: SUB RSP,0x8                    [4883EC08] 
+79948: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

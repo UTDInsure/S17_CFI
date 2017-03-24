@@ -1,0 +1,9 @@
+
+
+412AF4: MOV EAX,[0x0062bae0]           [8B05E68F2100] 
+412AFA: MOV EDX,[0x0062ba70]           [8B15708F2100] 
+412B00: ADD EDX,EAX                    [01C2] 
+412B02: TEST EAX,EAX                   [85C0] 
+412B04: CMOVLE EAX,EDX                 [0F4EC2] 
+
+========

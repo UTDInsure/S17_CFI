@@ -1,0 +1,8 @@
+
+
+20C74: MOV RAX,[0x0024a7a0]           [488B05259B2200] 
+20C7B: MOV RAX,[RAX]                  [488B00] 
+20C7E: TEST RAX,RAX                   [4885C0] 
+20ECB: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

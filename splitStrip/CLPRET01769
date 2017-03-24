@@ -1,0 +1,20 @@
+
+
+36C74: TEST RDI,RDI                   [4885FF] 
+36C79: TEST RSI,RSI                   [4885F6] 
+36C7E: TEST RDX,RDX                   [4885D2] 
+36C83: XOR EAX,EAX                    [31C0] 
+36C85: NOP                            [0F1F00] 
+36C88: MOV RCX,[RDX + RAX*0x1 + 0x78] [488B4C0278] 
+36C8D: OR RCX,[RSI + RAX*0x1 + 0x78]  [480B4C0678] 
+36C92: MOV [RDI + RAX*0x1 + 0x78],RCX [48894C0778] 
+36C97: SUB RAX,0x8                    [4883E808] 
+36C9B: CMP RAX,-0x80                  [4883F880] 
+36C88: MOV RCX,[RDX + RAX*0x1 + 0x78] [488B4C0278] 
+36C8D: OR RCX,[RSI + RAX*0x1 + 0x78]  [480B4C0678] 
+36C92: MOV [RDI + RAX*0x1 + 0x78],RCX [48894C0778] 
+36C97: SUB RAX,0x8                    [4883E808] 
+36C9B: CMP RAX,-0x80                  [4883F880] 
+36CA1: XOR EAX,EAX                    [31C0] 
+
+========

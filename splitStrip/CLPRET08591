@@ -1,0 +1,22 @@
+
+
+305C4: PUSH R15                       [4157] 
+305C6: PUSH R14                       [4156] 
+305C8: PUSH R13                       [4155] 
+305CA: PUSH R12                       [4154] 
+305CC: PUSH RBP                       [55] 
+305CD: PUSH RBX                       [53] 
+305CE: SUB RSP,0x8                    [4883EC08] 
+305D2: MOV RAX,[0x0024a880]           [488B05A7A22100] 
+305D9: MOV RBP,[RAX]                  [488B28] 
+305DC: TEST RBP,RBP                   [4885ED] 
+30681: MOV EAX,0xfffffffe             [B8FEFFFFFF] 
+30618: ADD RSP,0x8                    [4883C408] 
+3061C: POP RBX                        [5B] 
+3061D: POP RBP                        [5D] 
+3061E: POP R12                        [415C] 
+30620: POP R13                        [415D] 
+30622: POP R14                        [415E] 
+30624: POP R15                        [415F] 
+
+========

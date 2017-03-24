@@ -1,0 +1,9 @@
+
+
+E3734: SUB RSP,0x8                    [4883EC08] 
+E3738: XOR ESI,ESI                    [31F6] 
+E3754: MOV EAX,0xa6                   [B8A6000000] 
+E375B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E3743: ADD RSP,0x8                    [4883C408] 
+
+========

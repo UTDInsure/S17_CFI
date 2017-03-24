@@ -1,0 +1,13 @@
+
+
+411BC4: SUB RSP,0x8                    [4883EC08] 
+411BC8: XOR EAX,EAX                    [31C0] 
+4118C4: SUB RSP,0x8                    [4883EC08] 
+4118C8: CMP EDI,0x27                   [83FF27] 
+4119D0: MOV EAX,0x62abc0               [B8C0AB6200] 
+4119D5: ADD RSP,0x8                    [4883C408] 
+411BD3: TEST RAX,RAX                   [4885C0] 
+411C0B: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+411BE8: ADD RSP,0x8                    [4883C408] 
+
+========

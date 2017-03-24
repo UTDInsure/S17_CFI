@@ -1,0 +1,14 @@
+
+
+B58E4: XOR EAX,EAX                    [31C0] 
+B58E6: AND ESI,0x40                   [83E640] 
+B58E9: NOP                            [0F1F8000000000] 
+B58F0: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+B58F3: TEST DL,DL                     [84D2] 
+B58F7: TEST ESI,ESI                   [85F6] 
+B5900: CMP DL,0x7d                    [80FA7D] 
+B5928: TEST RAX,RAX                   [4885C0] 
+B592B: LEA RDX,[RAX + -0x1]           [488D50FF] 
+B5960: MOV RAX,RDI                    [4889F8] 
+
+========

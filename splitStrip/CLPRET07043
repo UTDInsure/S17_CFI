@@ -1,0 +1,19 @@
+
+
+10AE84: LEA RCX,[RDI + 0x8]            [488D4F08] 
+10AE88: LEA RDX,[0x133f80]             [488D15F1900200] 
+10AE8F: NOP                            [90] 
+10AE90: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+10AE93: ADD RDI,0x1                    [4883C701] 
+10AE97: AND EAX,0x7f                   [83E07F] 
+10AE9A: MOVZX EAX,byte ptr [RDX + RAX*0x1] [0FB60402] 
+10AE9E: MOV [RDI + -0x1],AL            [8847FF] 
+10AEA1: CMP RDI,RCX                    [4839CF] 
+10AE90: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+10AE93: ADD RDI,0x1                    [4883C701] 
+10AE97: AND EAX,0x7f                   [83E07F] 
+10AE9A: MOVZX EAX,byte ptr [RDX + RAX*0x1] [0FB60402] 
+10AE9E: MOV [RDI + -0x1],AL            [8847FF] 
+10AEA1: CMP RDI,RCX                    [4839CF] 
+
+========

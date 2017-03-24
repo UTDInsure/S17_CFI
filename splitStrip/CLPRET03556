@@ -1,0 +1,25 @@
+
+
+88174: PUSH R15                       [4157] 
+88176: PUSH R14                       [4156] 
+88178: PUSH R13                       [4155] 
+8817A: PUSH R12                       [4154] 
+8817C: PUSH RBP                       [55] 
+8817D: MOV RBP,RDI                    [4889FD] 
+88180: PUSH RBX                       [53] 
+88181: SUB RSP,0x68                   [4883EC68] 
+88185: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+88188: TEST AL,AL                     [84C0] 
+88606: MOV R13,RSI                    [4989F5] 
+88609: MOV R9D,0x1                    [41B901000000] 
+881D0: CMP byte ptr [R13],0x0         [41807D0000] 
+88250: ADD RSP,0x68                   [4883C468] 
+88254: XOR EAX,EAX                    [31C0] 
+88256: POP RBX                        [5B] 
+88257: POP RBP                        [5D] 
+88258: POP R12                        [415C] 
+8825A: POP R13                        [415D] 
+8825C: POP R14                        [415E] 
+8825E: POP R15                        [415F] 
+
+========

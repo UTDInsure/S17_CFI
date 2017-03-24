@@ -1,0 +1,18 @@
+
+
+346A4: PUSH R12                       [4154] 
+346A6: TEST RDI,RDI                   [4885FF] 
+346A9: PUSH RBP                       [55] 
+346AA: PUSH RBX                       [53] 
+346AB: MOV RBX,RDI                    [4889FB] 
+346B0: MOV R12,[0x0024a7a0]           [4C8B25E9602100] 
+346B7: CMP dword ptr [R12],0x0        [49833C2400] 
+346BE: MOV RAX,[0x0024a880]           [488B05BB612100] 
+346C5: MOV RBP,[RAX]                  [488B28] 
+346C8: TEST RBP,RBP                   [4885ED] 
+3470B: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+34710: POP RBX                        [5B] 
+34711: POP RBP                        [5D] 
+34712: POP R12                        [415C] 
+
+========

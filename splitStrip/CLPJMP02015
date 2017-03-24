@@ -1,0 +1,10 @@
+
+
+17D54: PUSH R12                       [4154] 
+17D56: MOV R12D,R8D                   [4589C4] 
+17D59: PUSH RBP                       [55] 
+17D5A: MOV RBP,RCX                    [4889CD] 
+17D5D: PUSH RBX                       [53] 
+17D5E: MOV RBX,RDI                    [4889FB] 
+
+========

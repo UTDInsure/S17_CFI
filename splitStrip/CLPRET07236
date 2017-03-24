@@ -1,0 +1,11 @@
+
+
+112184: SUB RSP,0x8                    [4883EC08] 
+112188: MOV RDI,[RDI + 0x40]           [488B7F40] 
+11218C: MOV RCX,RSI                    [4889F1] 
+11218F: XOR EAX,EAX                    [31C0] 
+112191: MOV RSI,RDX                    [4889D6] 
+112194: ADD RDI,0x10                   [4883C710] 
+11219E: ADD RSP,0x8                    [4883C408] 
+
+========

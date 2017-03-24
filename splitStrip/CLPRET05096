@@ -1,0 +1,13 @@
+
+
+DB344: TEST RSI,RSI                   [4885F6] 
+DB349: MOVSXD R10,ECX                 [4C63D1] 
+DB34C: MOVSXD RDI,EDI                 [4863FF] 
+DB34F: MOV EAX,0x118                  [B818010000] 
+DB356: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DB360: MOV RDX,[0x00368e68]           [488B1501DB2800] 
+DB367: NEG EAX                        [F7D8] 
+DB369: MOV FS:[RDX],EAX               [648902] 
+DB36C: OR RAX,-0x1                    [4883C8FF] 
+
+========

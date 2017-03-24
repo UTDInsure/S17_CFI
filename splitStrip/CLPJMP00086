@@ -1,0 +1,10 @@
+
+
+17194: PUSH RBP                       [55] 
+17195: PUSH RBX                       [53] 
+17196: MOV RBX,RDI                    [4889FB] 
+17199: SUB RSP,0x8                    [4883EC08] 
+1719D: TEST RDI,RDI                   [4885FF] 
+171F0: MOV RDI,RSI                    [4889F7] 
+
+========

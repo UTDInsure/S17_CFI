@@ -1,0 +1,20 @@
+
+
+76CD4: PUSH RBX                       [53] 
+76CD5: MOV RBX,RDI                    [4889FB] 
+79A14: PUSH R12                       [4154] 
+79A16: MOV R12,RDX                    [4989D4] 
+79A19: PUSH RBP                       [55] 
+79A1A: MOV RBP,RSI                    [4889F5] 
+79A1D: PUSH RBX                       [53] 
+79A1E: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+79A25: MOV RBX,RDI                    [4889FB] 
+79A2F: CMP EAX,-0x1                   [83F8FF] 
+79AC0: XOR EAX,EAX                    [31C0] 
+79A94: POP RBX                        [5B] 
+79A95: POP RBP                        [5D] 
+79A96: POP R12                        [415C] 
+76CE1: TEST RAX,RAX                   [4885C0] 
+76D05: POP RBX                        [5B] 
+
+========

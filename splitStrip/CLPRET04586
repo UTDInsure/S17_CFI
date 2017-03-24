@@ -1,0 +1,11 @@
+
+
+BDE14: MOVZX EAX,byte ptr [RSI + 0x30] [0FB64630] 
+BDE18: CMP AL,0x4                     [3C04] 
+BDE1C: CMP AL,0x11                    [3C11] 
+BDE28: MOV RAX,[RSI + 0x8]            [488B4608] 
+BDE2C: TEST RAX,RAX                   [4885C0] 
+BDE31: CMP byte ptr [RAX + 0x30],0x11 [80783011] 
+BDE20: XOR EAX,EAX                    [31C0] 
+
+========

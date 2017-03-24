@@ -1,0 +1,13 @@
+
+
+E12B4: PUSH R12                       [4154] 
+E12B6: MOV R12D,EDX                   [4189D4] 
+E12B9: PUSH RBP                       [55] 
+E12BA: MOV RBP,RSI                    [4889F5] 
+E12BD: PUSH RBX                       [53] 
+E12BE: CMP dword ptr [RDI + 0x8],0x0  [48837F0800] 
+E12C3: MOV RBX,RDI                    [4889FB] 
+E12C8: XOR ESI,ESI                    [31F6] 
+E12CA: MOV RDI,RBX                    [4889DF] 
+
+========

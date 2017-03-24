@@ -1,0 +1,10 @@
+
+
+E4C04: MOV EAX,[0x0036e774]           [8B056A9B2800] 
+E4C0A: TEST EAX,EAX                   [85C0] 
+E4C0E: MOVSXD R10,ECX                 [4C63D1] 
+E4C11: MOVSXD RDI,EDI                 [4863FF] 
+E4C14: MOV EAX,0x120                  [B820010000] 
+E4C1B: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

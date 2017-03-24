@@ -1,0 +1,9 @@
+
+
+405594: MOVSX EDI,DIL                  [400FBEFF] 
+405598: MOV EAX,0x2                    [B802000000] 
+40559D: MOV EDX,EDI                    [89FA] 
+40559F: AND EDX,0xe0                   [81E2E0000000] 
+4055A5: CMP EDX,0xc0                   [81FAC0000000] 
+
+========

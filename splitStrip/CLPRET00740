@@ -1,0 +1,12 @@
+
+
+40B3C4: MOV RDI,[0x00627440]           [488B3D75C02100] 
+40B3CB: XOR EAX,EAX                    [31C0] 
+40B3CD: TEST RDI,RDI                   [4885FF] 
+40B3D2: SUB RSP,0x8                    [4883EC08] 
+40B3D6: MOV ESI,0x1                    [BE01000000] 
+40DE64: ADD [RDI + 0x24],ESI           [017724] 
+40B3E4: MOV RAX,[0x00627440]           [488B0555C02100] 
+40B3EB: ADD RSP,0x8                    [4883C408] 
+
+========

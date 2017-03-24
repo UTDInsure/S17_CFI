@@ -1,0 +1,8 @@
+
+
+4149A4: MOV EDX,[0x0062ba70]           [8B15C6702100] 
+4149AA: XOR EAX,EAX                    [31C0] 
+4149AC: MOV RCX,[0x0062b168]           [488B0DB5672100] 
+4149B3: TEST EDX,EDX                   [85D2] 
+
+========

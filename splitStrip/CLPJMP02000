@@ -1,0 +1,13 @@
+
+
+178F4: PUSH R12                       [4154] 
+178F6: MOV R12D,ECX                   [4189CC] 
+178F9: PUSH RBP                       [55] 
+178FA: MOV RBP,RDX                    [4889D5] 
+178FD: MOV EDX,ESI                    [89F2] 
+178FF: MOV ESI,EDI                    [89FE] 
+17901: PUSH RBX                       [53] 
+17902: MOV RBX,[0x0024a830]           [488B1D272F2300] 
+17909: MOV RDI,[RBX]                  [488B3B] 
+
+========

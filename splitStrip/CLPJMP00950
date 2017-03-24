@@ -1,0 +1,16 @@
+
+
+831D4: CMP dword ptr [0x0036b8d8],0x0 [48833DFC862E0000] 
+831E0: PUSH RBP                       [55] 
+831E1: LEA RDI,[0x135f16]             [488D3D2E2D0B00] 
+831E8: PUSH RBX                       [53] 
+831E9: SUB RSP,0x8                    [4883EC08] 
+38964: MOV RDX,[0x00368e28]           [488B15BD043300] 
+3896B: XOR EAX,EAX                    [31C0] 
+3896D: MOV EDX,[RDX]                  [8B12] 
+3896F: TEST EDX,EDX                   [85D2] 
+831F6: TEST RAX,RAX                   [4885C0] 
+831F9: MOV RBX,RAX                    [4889C3] 
+831FE: MOV EDI,0x200                  [BF00020000] 
+
+========

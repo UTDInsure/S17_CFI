@@ -1,0 +1,13 @@
+
+
+BCF64: PUSH RBP                       [55] 
+BCF65: MOV RBP,RDI                    [4889FD] 
+BCF68: PUSH RBX                       [53] 
+BCF69: SUB RSP,0x8                    [4883EC08] 
+BCF6D: TEST ESI,ESI                   [85F6] 
+BCFC8: MOV EAX,[RBP + 0x4c]           [8B454C] 
+BCFCB: ADD RSP,0x8                    [4883C408] 
+BCFCF: POP RBX                        [5B] 
+BCFD0: POP RBP                        [5D] 
+
+========

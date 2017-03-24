@@ -1,0 +1,20 @@
+
+
+A2BD4: LEA RSI,[0x36ba40]             [488D35658E2C00] 
+A2BDB: SUB RSP,0x8                    [4883EC08] 
+A2BDF: MOV EDX,0x72                   [BA72000000] 
+A2AB4: TEST RDI,RDI                   [4885FF] 
+A2ABD: PUSH RBP                       [55] 
+A2ABE: PUSH RBX                       [53] 
+A2ABF: SUB RSP,0x28                   [4883EC28] 
+A2AC3: MOV ECX,[RDI + 0x14]           [8B4F14] 
+A2AC6: CMP ECX,0x7ffff893             [81F993F8FF7F] 
+A2B70: MOV RAX,[0x00368e68]           [488B05F1622C00] 
+A2B77: MOV dword ptr FS:[RAX],0x4b    [64C7004B000000] 
+A2B7E: XOR EAX,EAX                    [31C0] 
+A2B53: ADD RSP,0x28                   [4883C428] 
+A2B57: POP RBX                        [5B] 
+A2B58: POP RBP                        [5D] 
+A2BED: ADD RSP,0x8                    [4883C408] 
+
+========

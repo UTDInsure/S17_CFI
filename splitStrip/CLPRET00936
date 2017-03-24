@@ -1,0 +1,14 @@
+
+
+411FF4: MOV EAX,[0x00627328]           [8B052E532100] 
+411FFA: TEST EAX,EAX                   [85C0] 
+411FFE: IMUL EAX,[0x0062ba70]          [0FAF056B9A2100] 
+412005: MOV EDX,0x431bde83             [BA83DE1B43] 
+41200A: MOV ECX,EAX                    [89C1] 
+41200C: IMUL EDX                       [F7EA] 
+41200E: SAR ECX,0x1f                   [C1F91F] 
+412011: SAR EDX,0x12                   [C1FA12] 
+412014: SUB EDX,ECX                    [29CA] 
+412016: MOV [0x0062bb14],EDX           [8915F89A2100] 
+
+========

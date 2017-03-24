@@ -1,0 +1,16 @@
+
+
+B2BA4: MOV EAX,[0x0036e774]           [8B05CABB2B00] 
+B2BAA: TEST EAX,EAX                   [85C0] 
+B2BAE: XOR R8D,R8D                    [4531C0] 
+B2BB1: MOVSXD R10,ECX                 [4C63D1] 
+B2BB4: MOV ESI,ESI                    [89F6] 
+B2BB6: MOV EDI,EDI                    [89FF] 
+B2BB8: MOV EAX,0xf7                   [B8F7000000] 
+B2BBF: CMP RAX,0xfffff000             [483D00F0FFFF] 
+B2BC8: MOV RDX,[0x00368e68]           [488B1599622B00] 
+B2BCF: NEG EAX                        [F7D8] 
+B2BD1: MOV FS:[RDX],EAX               [648902] 
+B2BD4: OR RAX,-0x1                    [4883C8FF] 
+
+========

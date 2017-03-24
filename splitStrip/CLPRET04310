@@ -1,0 +1,8 @@
+
+
+AFF74: MOV EAX,[0x0036e770]           [8B05F6E72B00] 
+AFF7A: TEST EAX,EAX                   [85C0] 
+AFF7E: MOV EAX,0x74                   [B874000000] 
+AFF85: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

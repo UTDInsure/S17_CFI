@@ -1,0 +1,26 @@
+
+
+22FF4: PUSH R15                       [4157] 
+22FF6: PUSH R14                       [4156] 
+22FF8: PUSH R13                       [4155] 
+22FFA: PUSH R12                       [4154] 
+22FFC: PUSH RBP                       [55] 
+22FFD: MOV EBP,ESI                    [89F5] 
+22FFF: PUSH RBX                       [53] 
+23000: MOV RBX,RDI                    [4889FB] 
+23003: SUB RSP,0x8                    [4883EC08] 
+23007: MOV R12,[0x0024a880]           [4C8B2572782200] 
+2300E: MOV RAX,[R12]                  [498B0424] 
+23012: MOV RAX,[RAX + 0x20]           [488B4020] 
+23016: MOV RDI,[0x360 + RAX]          [488BB860030000] 
+2301D: TEST RDI,RDI                   [4885FF] 
+231B0: MOV RDI,[0xf8 + RAX]           [488BB8F8000000] 
+231B7: TEST RDI,RDI                   [4885FF] 
+23310: TEST EBP,EBP                   [85ED] 
+23318: SUB EBP,0x1                    [83ED01] 
+2331B: MOV R13,[0x0024a7a0]           [4C8B2D7E742200] 
+23322: MOV R15D,0x20                  [41BF20000000] 
+23328: LEA R14,[RBX + RBP*0x8 + 0x8]  [4C8D74EB08] 
+2342E: MOV RDI,[0x1a0 + RAX]          [488BB8A0010000] 
+
+========

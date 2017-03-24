@@ -1,0 +1,11 @@
+
+
+E5984: PUSH RBP                       [55] 
+E5985: MOV EDX,0x1                    [BA01000000] 
+E598A: XOR EAX,EAX                    [31C0] 
+E598C: MOV RBP,RSP                    [4889E5] 
+E598F: LOCK                           [F0] 
+E5990: CMPXCHG [0x00369220],RDX       [480FB11588382800] 
+E5A4B: POP RBP                        [5D] 
+
+========

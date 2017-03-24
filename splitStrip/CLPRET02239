@@ -1,0 +1,22 @@
+
+
+472A4: PUSH R15                       [4157] 
+472A6: MOV R15,RSI                    [4989F7] 
+472A9: PUSH R14                       [4156] 
+472AB: PUSH R13                       [4155] 
+472AD: PUSH R12                       [4154] 
+472AF: PUSH RBP                       [55] 
+472B0: PUSH RBX                       [53] 
+472B1: SUB RSP,0x18                   [4883EC18] 
+472B5: TEST RCX,RCX                   [4885C9] 
+472B8: MOV [RSP + 0x8],RCX            [48894C2408] 
+473B1: ADD RSP,0x18                   [4883C418] 
+473B5: MOV RAX,R15                    [4C89F8] 
+473B8: POP RBX                        [5B] 
+473B9: POP RBP                        [5D] 
+473BA: POP R12                        [415C] 
+473BC: POP R13                        [415D] 
+473BE: POP R14                        [415E] 
+473C0: POP R15                        [415F] 
+
+========

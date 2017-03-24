@@ -1,0 +1,8 @@
+
+
+16E54: SUB RSP,0x8                    [4883EC08] 
+16E58: TEST RDI,RDI                   [4885FF] 
+16EE4: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+16EDF: ADD RSP,0x8                    [4883C408] 
+
+========

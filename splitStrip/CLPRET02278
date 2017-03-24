@@ -1,0 +1,9 @@
+
+
+4D0B4: MOVZX EDX,byte ptr [RSI]       [0FB616] 
+4D0B7: XOR EAX,EAX                    [31C0] 
+4D0B9: XOR R8D,R8D                    [4531C0] 
+4D0BC: LEA ECX,[RDX + -0x1]           [8D4AFF] 
+4D0BF: CMP CL,0x7d                    [80F97D] 
+
+========

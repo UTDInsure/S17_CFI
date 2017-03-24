@@ -1,0 +1,11 @@
+
+
+35BE4: FNSTCW [RSP + -0x2]            [D97C24FE] 
+35BE8: MOVZX EAX,word ptr [RSP + -0x2] [0FB74424FE] 
+35BED: AND DI,0xf3f                   [6681E73F0F] 
+35BF2: AND AX,0xf0c0                  [6625C0F0] 
+35BF6: OR EDI,EAX                     [09C7] 
+35BF8: MOV [RSP + -0x2],DI            [66897C24FE] 
+35BFD: FLDCW [RSP + -0x2]             [D96C24FE] 
+
+========

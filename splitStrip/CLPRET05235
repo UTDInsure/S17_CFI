@@ -1,0 +1,22 @@
+
+
+DC684: PUSH R12                       [4154] 
+DC686: MOV R12,[0x00368eb8]           [4C8B252BC82800] 
+DC68D: PUSH RBP                       [55] 
+DC68E: MOV RBP,RDI                    [4889FD] 
+DC691: PUSH RBX                       [53] 
+DC692: MOV RBX,[R12]                  [498B1C24] 
+DC696: TEST RBX,RBX                   [4885DB] 
+DC69B: MOV EAX,[0x00369060]           [8B05BFC92800] 
+DC6A1: TEST EAX,EAX                   [85C0] 
+DC6A5: CMP RBP,0x0                    [4883FD00] 
+DC700: MOV RAX,RBP                    [4889E8] 
+DC703: NEG RAX                        [48F7D8] 
+DC706: CMP RBX,RAX                    [4839C3] 
+DC6E8: MOV RBX,-0x1                   [48C7C3FFFFFFFF] 
+DC6EF: MOV RAX,RBX                    [4889D8] 
+DC6F2: POP RBX                        [5B] 
+DC6F3: POP RBP                        [5D] 
+DC6F4: POP R12                        [415C] 
+
+========

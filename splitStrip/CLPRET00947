@@ -1,0 +1,11 @@
+
+
+412494: PUSH RBX                       [53] 
+412495: SUB RSP,0x20                   [4883EC20] 
+412499: CMP EDI,0x1                    [83FF01] 
+41249E: CMP EDI,0x2                    [83FF02] 
+4124A3: TEST EDI,EDI                   [85FF] 
+4124A7: ADD RSP,0x20                   [4883C420] 
+4124AB: POP RBX                        [5B] 
+
+========

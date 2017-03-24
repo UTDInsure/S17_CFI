@@ -1,0 +1,20 @@
+
+
+45434: MOV RAX,[RSI]                  [488B06] 
+45437: LEA R8,[RSI + 0x8]             [4C8D4608] 
+4543B: LEA RSI,[RDI + 0x8]            [488D7708] 
+4543F: ADD RCX,RAX                    [4801C1] 
+45442: CMP RAX,RCX                    [4839C8] 
+45445: MOV [RDI],RCX                  [48890F] 
+4544A: CMP RSI,R8                     [4C39C6] 
+4544F: SUB RDX,0x1                    [4883EA01] 
+45453: TEST RDX,RDX                   [4885D2] 
+45458: XOR EAX,EAX                    [31C0] 
+4545A: NOP                            [660F1F440000] 
+45460: MOV RCX,[R8 + RAX*0x8]         [498B0CC0] 
+45464: MOV [RSI + RAX*0x8],RCX        [48890CC6] 
+45468: ADD RAX,0x1                    [4883C001] 
+4546C: CMP RAX,RDX                    [4839D0] 
+45471: XOR EAX,EAX                    [31C0] 
+
+========

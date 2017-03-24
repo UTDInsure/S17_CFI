@@ -1,0 +1,21 @@
+
+
+33F14: MOV RDX,[R12 + -0x10]          [498B5424F0] 
+33F19: MOV RAX,[R12]                  [498B0424] 
+33F1D: MOV EDI,0x2                    [BF02000000] 
+33F22: MOV ESI,[R12 + -0x8]           [418B7424F8] 
+33F27: MOV [RSP + 0x40],RDX           [4889542440] 
+33F2C: MOV RDX,[RSP + 0x28]           [488B542428] 
+33F31: MOV [RSP + 0x48],RAX           [4889442448] 
+33AB4: PUSH R12                       [4154] 
+33AB6: MOV R12D,EDI                   [4189FC] 
+33AB9: PUSH RBP                       [55] 
+33ABA: PUSH RBX                       [53] 
+33ABB: MOV EBX,EDI                    [89FB] 
+33ABD: SUB RSP,0x10                   [4883EC10] 
+33AC1: SUB EBX,0x1                    [83EB01] 
+33BA8: MOV EDI,0x20                   [BF20000000] 
+33BAD: MOV [RSP + 0x8],RDX            [4889542408] 
+33BB2: MOV [RSP + 0x4],ESI            [89742404] 
+
+========

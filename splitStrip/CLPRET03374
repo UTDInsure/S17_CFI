@@ -1,0 +1,8 @@
+
+
+805C4: SUB RSP,0x8                    [4883EC08] 
+805C8: TEST RDI,RDI                   [4885FF] 
+80610: XOR EAX,EAX                    [31C0] 
+80612: ADD RSP,0x8                    [4883C408] 
+
+========

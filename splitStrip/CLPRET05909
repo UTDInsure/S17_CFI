@@ -1,0 +1,9 @@
+
+
+E5E54: MOV RCX,[RDI]                  [488B0F] 
+E5E57: MOV RDX,[RSI]                  [488B16] 
+E5E5A: MOV EAX,0x1                    [B801000000] 
+E5E5F: MOV RDX,[RDX + 0x10]           [488B5210] 
+E5E63: CMP [RCX + 0x10],RDX           [48395110] 
+
+========

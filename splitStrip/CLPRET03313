@@ -1,0 +1,28 @@
+
+
+7BD74: SUB RSP,0x8                    [4883EC08] 
+7BD78: MOV RDX,[RDI + 0x8]            [488B5708] 
+7BD7C: MOV RAX,RDI                    [4889F8] 
+7BD7F: MOV RSI,RDX                    [4889D6] 
+7BD82: AND RSI,-0x8                   [4883E6F8] 
+7BD86: AND EDX,0x2                    [83E202] 
+7BD8B: MOV RDX,[RDI]                  [488B17] 
+7BD8E: SUB RDI,RDX                    [4829D7] 
+7BD91: ADD RSI,RDX                    [4801D6] 
+7BD94: MOV RDX,[0x00368e60]           [488B15C5D02E00] 
+7BD9B: MOV RCX,RDI                    [4889F9] 
+7BD9E: OR RCX,RSI                     [4809F1] 
+7BDA1: MOV RDX,[RDX + 0x18]           [488B5218] 
+7BDA5: SUB RDX,0x1                    [4883EA01] 
+7BDA9: TEST RCX,RDX                   [4885D1] 
+7BDAE: LOCK                           [F0] 
+7BDAF: DEC dword ptr [0x00369168]     [FF0DB3D32E00] 
+7BDB5: MOV RAX,RSI                    [4889F0] 
+7BDB8: NEG RAX                        [48F7D8] 
+7BDBB: LOCK                           [F0] 
+7BDBC: ADD [0x00369178],RAX           [480105B5D32E00] 
+E0184: MOV EAX,0xb                    [B80B000000] 
+E018B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+7BDCC: ADD RSP,0x8                    [4883C408] 
+
+========

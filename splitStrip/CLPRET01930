@@ -1,0 +1,22 @@
+
+
+39AD4: SUB RSP,0x8                    [4883EC08] 
+39644: SUB RSP,0x18                   [4883EC18] 
+39648: MOV ESI,0x1                    [BE01000000] 
+3964D: XOR EAX,EAX                    [31C0] 
+3964F: CMP dword ptr [0x0036e774],0x0 [833D1E51330000] 
+39664: CMPXCHG [0x0036b4a0],ESI       [0FB135351E3300] 
+3968B: LEA RDI,[0x3695c0]             [488D3D2EFF3200] 
+39692: LEA RSI,[RSP + 0xc]            [488D74240C] 
+397E4: TEST RDI,RDI                   [4885FF] 
+39868: MOV RAX,[0x00368e68]           [488B05F9F53200] 
+3986F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+39876: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+396A0: CMP dword ptr [0x0036e774],0x0 [833DCD50330000] 
+396A9: LOCK                           [F0] 
+396AA: DEC dword ptr [0x0036b4a0]     [FF0DF01D3300] 
+396DA: MOVSXD RAX,[RSP + 0xc]         [486344240C] 
+396DF: ADD RSP,0x18                   [4883C418] 
+39AE1: ADD RSP,0x8                    [4883C408] 
+
+========

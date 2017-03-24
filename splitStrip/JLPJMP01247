@@ -1,0 +1,9 @@
+
+
+D32F0: TEST RBP,RBP                   [4885ED] 
+D32F5: CMP byte ptr [RBP],0x0         [807D0000] 
+D32FF: TEST R14D,R14D                 [4585F6] 
+D410A: MOV RDI,RBP                    [4889EF] 
+D410D: MOV [RSP + 0x38],R10           [4C89542438] 
+
+========

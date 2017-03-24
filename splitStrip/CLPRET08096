@@ -1,0 +1,10 @@
+
+
+1AB74: TEST SIL,SIL                   [4084F6] 
+1AB77: PUSH RBX                       [53] 
+1AB78: MOV RBX,RDI                    [4889FB] 
+1AB7D: CMP byte ptr [0x404 + RDI],0x0 [80BF0404000000] 
+1ABAB: POP RBX                        [5B] 
+1ABAC: NOP                            [0F1F4000] 
+
+========

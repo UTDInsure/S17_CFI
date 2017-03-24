@@ -1,0 +1,24 @@
+
+
+DC3E4: PUSH RBP                       [55] 
+DC3E5: XOR EBP,EBP                    [31ED] 
+DC3E7: PUSH RBX                       [53] 
+DC3E8: MOV RBX,RDI                    [4889FB] 
+DC3EB: SUB RSP,0x98                   [4881EC98000000] 
+DC3F2: TEST RDI,RDI                   [4885FF] 
+DC3FB: MOV EDI,ESI                    [89F7] 
+DC3FD: MOV RSI,RSP                    [4889E6] 
+DC1F4: MOV EAX,0x62                   [B862000000] 
+DC1FB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DC204: MOV RCX,[0x00368e68]           [488B0D5DCC2800] 
+DC20B: NEG EAX                        [F7D8] 
+DC20D: MOV FS:[RCX],EAX               [648901] 
+DC210: OR RAX,-0x1                    [4883C8FF] 
+DC409: TEST EAX,EAX                   [85C0] 
+DC4C8: MOV EBP,0xffffffff             [BDFFFFFFFF] 
+DC4B9: ADD RSP,0x98                   [4881C498000000] 
+DC4C0: MOV EAX,EBP                    [89E8] 
+DC4C2: POP RBX                        [5B] 
+DC4C3: POP RBP                        [5D] 
+
+========

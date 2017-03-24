@@ -1,0 +1,10 @@
+
+
+F4F44: CMP EDI,0x7f                   [83FF7F] 
+F4F47: MOV EAX,EDI                    [89F8] 
+F4F80: SHL EAX,0x18                   [C1E018] 
+F4F83: AND ESI,0xffffff               [81E6FFFFFF00] 
+F4F89: OR EAX,ESI                     [09F0] 
+F4F8B: BSWAP EAX                      [0FC8] 
+
+========

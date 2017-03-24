@@ -1,0 +1,12 @@
+
+
+119C64: MOVZX EAX,word ptr [RDI]       [0FB707] 
+119C67: MOV R9,RDI                     [4989F9] 
+119C6A: SUB EAX,0x1                    [83E801] 
+119C6D: CMP AX,0x7                     [6683F807] 
+119C73: MOV RAX,[0x00368e68]           [488B05EEF12400] 
+119C7A: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+119C81: MOV dword ptr [RDX],0x0        [48C70200000000] 
+119C88: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,13 @@
+
+
+EFF94: TEST RSI,RSI                   [4885F6] 
+EFF99: MOV RDX,[RSI + 0x58]           [488B5658] 
+EFF9D: MOV RAX,[RDX + 0x50]           [488B4250] 
+EFFA1: MOV RDX,[RDX + 0x58]           [488B5258] 
+EFFA5: CMP RAX,RDX                    [4839D0] 
+EFFB9: CMP [RAX + 0x8],RDI            [48397808] 
+EFFB0: ADD RAX,0x48                   [4883C048] 
+EFFB4: CMP RAX,RDX                    [4839D0] 
+EFFC8: XOR EAX,EAX                    [31C0] 
+
+========

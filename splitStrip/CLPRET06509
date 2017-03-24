@@ -1,0 +1,13 @@
+
+
+F4F94: BSWAP EDI                      [0FCF] 
+F4F96: TEST EDI,EDI                   [85FF] 
+F4FA0: MOV EDX,EDI                    [89FA] 
+F4FA2: MOV EAX,EDI                    [89F8] 
+F4FA4: SHR EDI,0x8                    [C1EF08] 
+F4FA7: AND EDX,0xc0000000             [81E2000000C0] 
+F4FAD: SHR EAX,0x10                   [C1E810] 
+F4FB0: CMP EDX,0x80000000             [81FA00000080] 
+F4FB6: CMOVNZ EAX,EDI                 [0F45C7] 
+
+========

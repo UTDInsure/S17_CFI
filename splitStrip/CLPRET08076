@@ -1,0 +1,23 @@
+
+
+1A224: PUSH R15                       [4157] 
+1A226: PUSH R14                       [4156] 
+1A228: PUSH R13                       [4155] 
+1A22A: PUSH R12                       [4154] 
+1A22C: PUSH RBP                       [55] 
+1A22D: MOV RBP,RSI                    [4889F5] 
+1A230: PUSH RBX                       [53] 
+1A231: SUB RSP,0x18                   [4883EC18] 
+1A235: TEST RSI,RSI                   [4885F6] 
+1A23E: TEST RDI,RDI                   [4885FF] 
+1A241: MOV RBX,RDI                    [4889FB] 
+1A2E0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1A2CA: ADD RSP,0x18                   [4883C418] 
+1A2CE: POP RBX                        [5B] 
+1A2CF: POP RBP                        [5D] 
+1A2D0: POP R12                        [415C] 
+1A2D2: POP R13                        [415D] 
+1A2D4: POP R14                        [415E] 
+1A2D6: POP R15                        [415F] 
+
+========

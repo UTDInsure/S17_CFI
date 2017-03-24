@@ -1,0 +1,10 @@
+
+
+392D4: TEST RSI,RSI                   [4885F6] 
+392D7: PUSH RBX                       [53] 
+392DA: CMP byte ptr [RSI],0x0         [803E00] 
+392DF: TEST RDI,RDI                   [4885FF] 
+39310: XOR EAX,EAX                    [31C0] 
+39312: POP RBX                        [5B] 
+
+========

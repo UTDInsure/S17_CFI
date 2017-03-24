@@ -1,0 +1,25 @@
+
+
+11D534: PUSH R13                       [4155] 
+11D536: MOV R13,RDI                    [4989FD] 
+11D539: PUSH R12                       [4154] 
+11D53B: XOR R12D,R12D                  [4531E4] 
+11D53E: PUSH RBP                       [55] 
+11D53F: PUSH RBX                       [53] 
+11D540: XOR EBX,EBX                    [31DB] 
+11D542: SUB RSP,0x8                    [4883EC08] 
+11D546: CMP dword ptr [RDI + 0x18],0x0 [48837F1800] 
+11D54B: MOV RDX,[RDI + 0x10]           [488B5710] 
+11D551: NOP                            [0F1F8000000000] 
+11D558: LEA RAX,[RDX + RBX*0x1]        [488D041A] 
+11D55C: MOV ECX,[RAX + 0x10]           [8B4810] 
+11D55F: TEST ECX,ECX                   [85C9] 
+11D563: MOV RBP,[RAX + 0x40]           [488B6840] 
+11D567: TEST RBP,RBP                   [4885ED] 
+11D5A0: ADD R12,0x1                    [4983C401] 
+11D5A4: ADD RBX,0x68                   [4883C368] 
+11D5A8: CMP [R13 + 0x18],R12           [4D396518] 
+11D5AE: TEST RDX,RDX                   [4885D2] 
+11D5EE: MOV RDI,R13                    [4C89EF] 
+
+========

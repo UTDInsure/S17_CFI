@@ -1,0 +1,7 @@
+
+
+DE904: TEST RSI,RSI                   [4885F6] 
+DE920: MOV dword ptr [RDI],0x0        [48C70700000000] 
+DE927: MOV dword ptr [RDI + 0x8],0x0  [48C7470800000000] 
+
+========

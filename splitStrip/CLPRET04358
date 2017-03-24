@@ -1,0 +1,7 @@
+
+
+B2EC4: CMP dword ptr [0x0036e774],0x0 [833DA9B82B0000] 
+B2ED1: MOV EAX,0x23                   [B823000000] 
+B2ED8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

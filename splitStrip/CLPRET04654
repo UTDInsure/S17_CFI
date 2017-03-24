@@ -1,0 +1,22 @@
+
+
+BFE84: PUSH R14                       [4156] 
+BFE86: XOR EAX,EAX                    [31C0] 
+BFE88: PUSH R13                       [4155] 
+BFE8A: PUSH R12                       [4154] 
+BFE8C: MOV R12,RSI                    [4989F4] 
+BFE8F: PUSH RBP                       [55] 
+BFE90: PUSH RBX                       [53] 
+BFE91: SUB RSP,0x10                   [4883EC10] 
+BFE95: MOV R10D,[RSI + 0x4]           [448B5604] 
+BFE99: TEST R10D,R10D                 [4585D2] 
+BFEA2: MOV R11D,[RDX + 0x4]           [448B5A04] 
+BFEA6: TEST R11D,R11D                 [4585DB] 
+BFFB6: ADD RSP,0x10                   [4883C410] 
+BFFBA: POP RBX                        [5B] 
+BFFBB: POP RBP                        [5D] 
+BFFBC: POP R12                        [415C] 
+BFFBE: POP R13                        [415D] 
+BFFC0: POP R14                        [415E] 
+
+========

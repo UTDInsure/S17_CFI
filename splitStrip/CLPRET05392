@@ -1,0 +1,8 @@
+
+
+DE8A4: TEST RDI,RDI                   [4885FF] 
+DE8A7: MOV RAX,[0x00368e68]           [488B05BAA52800] 
+DE8C0: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DE8C7: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

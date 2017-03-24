@@ -1,0 +1,12 @@
+
+
+89AD4: MOV RAX,[0x00368dc0]           [488B05E5F22D00] 
+89ADB: MOV RDX,FS:[RAX]               [64488B10] 
+89ADF: NOP                            [0F1F440000] 
+89AE4: NOP                            [6666662E0F1F840000000000] 
+89AF4: MOV RAX,[RDX]                  [488B02] 
+89AF7: TEST dword ptr [0x278 + RAX],0x1 [F7807802000001000000] 
+948B4: CMP RDI,RSI                    [4839F7] 
+948E8: XOR EAX,EAX                    [31C0] 
+
+========

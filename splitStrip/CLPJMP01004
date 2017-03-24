@@ -1,0 +1,15 @@
+
+
+940C4: PUSH R14                       [4156] 
+940C6: PUSH R13                       [4155] 
+940C8: PUSH R12                       [4154] 
+940CA: PUSH RBP                       [55] 
+940CB: PUSH RBX                       [53] 
+940CC: MOV EBX,EDI                    [89FB] 
+940CE: SUB RSP,0x10                   [4883EC10] 
+940D2: TEST EDI,EDI                   [85FF] 
+940D6: CMP EDI,[0x0013dd84]           [3B3DA89C0A00] 
+94137: MOV [RSP + 0x8],RSI            [4889742408] 
+9413C: LEA RDI,[0x368d90]             [488D3D4D4C2D00] 
+
+========

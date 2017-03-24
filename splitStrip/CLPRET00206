@@ -1,0 +1,9 @@
+
+
+15254: PUSH RBX                       [53] 
+15255: TEST byte ptr [0x3d4 + RDI],0x8 [F687D403000008] 
+1525C: MOV RBX,RDI                    [4889FB] 
+1529B: TEST byte ptr [0x314 + RDI],0x8 [F6871403000008] 
+15299: POP RBX                        [5B] 
+
+========

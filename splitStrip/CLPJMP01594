@@ -1,0 +1,14 @@
+
+
+108E94: PUSH RBX                       [53] 
+1114C4: PUSH RBX                       [53] 
+1114C5: MOV RBX,[0x00368f80]           [488B1DB47A2500] 
+1114CC: MOV RAX,FS:[RBX]               [64488B03] 
+1114D0: TEST RAX,RAX                   [4885C0] 
+1114D5: POP RBX                        [5B] 
+108E9E: MOV RBX,[0xf0 + RAX]           [488B98F0000000] 
+108EA5: TEST RBX,RBX                   [4885DB] 
+108F00: MOV ESI,0x2570                 [BE70250000] 
+108F05: MOV EDI,0x1                    [BF01000000] 
+
+========

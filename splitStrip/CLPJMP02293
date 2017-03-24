@@ -1,0 +1,16 @@
+
+
+2CA14: PUSH RBP                       [55] 
+2CA15: LEA RDX,[0x3c5d7]              [488D15BBFB0000] 
+2CA1C: LEA RSI,[0x3c5d9]              [488D35B6FB0000] 
+2CA23: PUSH RBX                       [53] 
+2CA24: SUB RSP,0x8                    [4883EC08] 
+2CA28: MOV RBP,[0x0024a8a0]           [488B2D71DE2100] 
+2CA2F: MOV RBX,[0x0024a8b8]           [488B1D82DE2100] 
+2CA36: MOV RAX,[RBP + 0x10]           [488B4510] 
+2CA3A: MOV RDI,[RBX]                  [488B3B] 
+2CA3D: TEST RAX,RAX                   [4885C0] 
+2CA40: CMOVNZ RDX,RAX                 [480F45D0] 
+2CA44: XOR EAX,EAX                    [31C0] 
+
+========

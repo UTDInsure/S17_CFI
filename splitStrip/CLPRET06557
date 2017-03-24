@@ -1,0 +1,7 @@
+
+
+FBBF4: MOV RDI,[0x0036d7c8]           [488B3DCD1B2700] 
+FBBFB: XOR EAX,EAX                    [31C0] 
+FBBFD: TEST byte ptr [RDI],0x30       [F60730] 
+
+========

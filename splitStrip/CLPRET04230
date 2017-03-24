@@ -1,0 +1,19 @@
+
+
+A6244: TEST DIL,0x3                   [40F6C703] 
+A6248: MOV ECX,0x16d                  [B96D010000] 
+A624F: MOV EAX,EDI                    [89F8] 
+A6251: MOV EDX,0x51eb851f             [BA1F85EB51] 
+A6256: MOV ESI,EDI                    [89FE] 
+A6258: IMUL EDX                       [F7EA] 
+A625A: SAR ESI,0x1f                   [C1FE1F] 
+A625D: MOV R8D,0x64                   [41B864000000] 
+A6263: MOV EAX,EDX                    [89D0] 
+A6265: SAR EAX,0x5                    [C1F805] 
+A6268: SUB EAX,ESI                    [29F0] 
+A626A: IMUL EAX,R8D                   [410FAFC0] 
+A626E: CMP EDI,EAX                    [39C7] 
+A6288: MOV ECX,0x16e                  [B96E010000] 
+A628D: MOV EAX,ECX                    [89C8] 
+
+========

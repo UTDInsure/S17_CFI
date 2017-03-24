@@ -1,0 +1,12 @@
+
+
+17244: SUB RSP,0x28                   [4883EC28] 
+17248: MOV R8,RDX                     [4989D0] 
+1724B: MOV RCX,RDX                    [4889D1] 
+1724E: MOV dword ptr [RSP + 0x10],0x0 [48C744241000000000] 
+17257: MOV dword ptr [RSP + 0x8],0x0  [48C744240800000000] 
+17260: XOR R9D,R9D                    [4531C9] 
+17263: MOV dword ptr [RSP],0x0        [48C7042400000000] 
+1726B: MOV RDX,RSI                    [4889F2] 
+
+========

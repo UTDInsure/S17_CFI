@@ -1,0 +1,6 @@
+
+
+D7354: MOV EAX,0x125                  [B825010000] 
+D735B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

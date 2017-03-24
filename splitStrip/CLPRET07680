@@ -1,0 +1,24 @@
+
+
+11B874: PUSH R15                       [4157] 
+11B876: PUSH R14                       [4156] 
+11B878: PUSH R13                       [4155] 
+11B87A: PUSH R12                       [4154] 
+11B87C: PUSH RBP                       [55] 
+11B87D: MOV RBP,RSI                    [4889F5] 
+11B880: PUSH RBX                       [53] 
+11B881: SUB RSP,0x38                   [4883EC38] 
+11B885: MOV RBX,[0x00368e68]           [488B1DDCD52400] 
+11B88C: TEST RSI,RSI                   [4885F6] 
+11B88F: MOV R14D,FS:[RBX]              [64448B33] 
+11B8C8: MOV dword ptr FS:[RBX],0x16    [64C70316000000] 
+11B8CF: ADD RSP,0x38                   [4883C438] 
+11B8D3: MOV EAX,0x16                   [B816000000] 
+11B8D8: POP RBX                        [5B] 
+11B8D9: POP RBP                        [5D] 
+11B8DA: POP R12                        [415C] 
+11B8DC: POP R13                        [415D] 
+11B8DE: POP R14                        [415E] 
+11B8E0: POP R15                        [415F] 
+
+========

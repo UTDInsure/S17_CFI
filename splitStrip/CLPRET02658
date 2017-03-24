@@ -1,0 +1,24 @@
+
+
+71264: PUSH RBX                       [53] 
+71265: MOV ECX,[0xc0 + RDI]           [8B8FC0000000] 
+7126B: MOV RBX,RDI                    [4889FB] 
+7126E: TEST ECX,ECX                   [85C9] 
+712E0: MOV ESI,0x1                    [BE01000000] 
+73BD4: PUSH R12                       [4154] 
+73BD6: PUSH RBP                       [55] 
+73BD7: MOV RBP,RDI                    [4889FD] 
+73BDA: PUSH RBX                       [53] 
+73BDB: SUB RSP,0x20                   [4883EC20] 
+73BDF: TEST ESI,ESI                   [85F6] 
+73BE1: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+73DB0: TEST EAX,EAX                   [85C0] 
+73D69: ADD RSP,0x20                   [4883C420] 
+73D6D: POP RBX                        [5B] 
+73D6E: POP RBP                        [5D] 
+73D6F: POP R12                        [415C] 
+712EE: CMP EAX,0x1                    [83F801] 
+712D0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+712D5: POP RBX                        [5B] 
+
+========

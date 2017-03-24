@@ -1,0 +1,14 @@
+
+
+412024: PUSH RBX                       [53] 
+412025: SUB RSP,0x30                   [4883EC30] 
+412029: CMP EDI,0x1                    [83FF01] 
+41202C: MOV [RSP + 0x8],RSI            [4889742408] 
+412098: MOV EDX,[0x00627320]           [8B1582522100] 
+41209E: TEST EDX,EDX                   [85D2] 
+4120A6: LEA RBX,[RSP + 0x20]           [488D5C2420] 
+4120AB: MOV ESI,0x41ce71               [BE71CE4100] 
+4120B0: XOR EAX,EAX                    [31C0] 
+4120B2: MOV RDI,RBX                    [4889DF] 
+
+========

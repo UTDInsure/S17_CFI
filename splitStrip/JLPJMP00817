@@ -1,0 +1,15 @@
+
+
+54AA1: MOV RAX,[0xa0 + R14]           [498B86A0000000] 
+54AA8: TEST RAX,RAX                   [4885C0] 
+54AB1: MOV RDX,[RAX + 0x20]           [488B5020] 
+54AB5: CMP RDX,[RAX + 0x28]           [483B5028] 
+54ABF: LEA RCX,[RDX + 0x4]            [488D4A04] 
+54AC3: MOV [RAX + 0x20],RCX           [48894820] 
+54AC7: MOV dword ptr [RDX],0x25       [C70225000000] 
+54ACD: CMP dword ptr [-0x1078 + RBP],0x7fffffff [81BD88EFFFFFFFFFFF7F] 
+54ADD: ADD dword ptr [-0x1078 + RBP],0x1 [838588EFFFFF01] 
+53F38: TEST R12,R12                   [4D85E4] 
+57070: MOV RDI,R12                    [4C89E7] 
+
+========

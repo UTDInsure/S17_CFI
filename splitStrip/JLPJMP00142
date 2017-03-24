@@ -1,0 +1,28 @@
+
+
+4083EC: CMP byte ptr [RAX],0x21        [803821] 
+408425: MOV ECX,[0x0062ba44]           [8B0D19362200] 
+40842B: TEST ECX,ECX                   [85C9] 
+40842F: MOV RDI,[0x00628430]           [488B3DFAFF2100] 
+408436: MOV ESI,0x418f27               [BE278F4100] 
+40843B: TEST RDI,RDI                   [4885FF] 
+408444: XOR EAX,EAX                    [31C0] 
+4112A4: PUSH R15                       [4157] 
+4112A6: PUSH R14                       [4156] 
+4112A8: PUSH R13                       [4155] 
+4112AA: MOV R13,RSI                    [4989F5] 
+4112AD: PUSH R12                       [4154] 
+4112AF: PUSH RBP                       [55] 
+4112B0: PUSH RBX                       [53] 
+4112B1: MOV RBX,RDI                    [4889FB] 
+4112B4: SUB RSP,0x18                   [4883EC18] 
+4112B8: CMP byte ptr [RDI],0x2d        [803F2D] 
+4112C1: XOR EAX,EAX                    [31C0] 
+403F54: MOV ECX,[0x0062bb48]           [8B0DEE7B2200] 
+403F5A: PUSH RBX                       [53] 
+403F5B: MOV EDX,0x413de0               [BAE03D4100] 
+403F60: MOV ESI,0x1                    [BE01000000] 
+403F65: TEST ECX,ECX                   [85C9] 
+403F69: MOV RDI,[0x006279b0]           [488B3D403A2200] 
+
+========

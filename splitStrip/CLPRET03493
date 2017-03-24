@@ -1,0 +1,23 @@
+
+
+851F4: MOV RDX,RDI                    [4889FA] 
+851F7: MOV R8,RDI                     [4989F8] 
+851FA: SUB RSP,0x100                  [4881EC00010000] 
+85201: MOV ECX,0x20                   [B920000000] 
+85206: MOV RDI,RSP                    [4889E7] 
+85209: XOR EAX,EAX                    [31C0] 
+8520B: CLD                            [FC] 
+8520C: STOSQ.REP RDI                  [F348AB] 
+8520F: MOV RAX,RSI                    [4889F0] 
+85212: NOP                            [66666666662E0F1F840000000000] 
+85220: MOV CL,[RAX]                   [8A08] 
+85222: TEST CL,CL                     [84C9] 
+8524E: LEA RAX,[RDX + -0x4]           [488D42FC] 
+85252: NOP                            [66666666662E0F1F840000000000] 
+85260: ADD RAX,0x4                    [4883C004] 
+85264: MOV CL,[RAX]                   [8A08] 
+85266: CMP [RSP + RCX*0x1],CL         [380C0C] 
+8528C: ADD RSP,0x100                  [4881C400010000] 
+85293: SUB RAX,RDX                    [4829D0] 
+
+========

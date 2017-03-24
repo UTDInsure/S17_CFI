@@ -1,0 +1,22 @@
+
+
+40FCB4: PUSH R12                       [4154] 
+40FCB6: MOVSX EDI,DIL                  [400FBEFF] 
+40FCBA: XOR EAX,EAX                    [31C0] 
+40FCBC: PUSH RBP                       [55] 
+40FCBD: MOV RBP,RSI                    [4889F5] 
+40FCC0: PUSH RBX                       [53] 
+4058C4: MOVZX ECX,DIL                  [400FB6CF] 
+4058C8: SUB RSP,0x8                    [4883EC08] 
+4058CC: CMP RCX,0x7f                   [4883F97F] 
+4058D2: MOV ESI,[0x006279e0]           [8B3508212200] 
+4058D8: TEST ESI,ESI                   [85F6] 
+4058DC: TEST byte ptr [0x627a60 + RCX],0x2 [F681607A620002] 
+4058E5: CMP RCX,0x1b                   [4883F91B] 
+405988: MOV dword ptr [0x00627a20],0x435345 [C7058E20220045534300] 
+405921: MOV EAX,0x627a20               [B8207A6200] 
+405926: ADD RSP,0x8                    [4883C408] 
+40FCCA: MOV RDI,RAX                    [4889C7] 
+40FCCD: MOV RBX,RAX                    [4889C3] 
+
+========

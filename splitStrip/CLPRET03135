@@ -1,0 +1,17 @@
+
+
+79874: PUSH R14                       [4156] 
+79876: XOR EAX,EAX                    [31C0] 
+79878: TEST RDX,RDX                   [4885D2] 
+7987B: PUSH R13                       [4155] 
+7987D: MOV R13,RDX                    [4989D5] 
+79880: PUSH R12                       [4154] 
+79882: PUSH RBP                       [55] 
+79883: PUSH RBX                       [53] 
+79936: POP RBX                        [5B] 
+79937: POP RBP                        [5D] 
+79938: POP R12                        [415C] 
+7993A: POP R13                        [415D] 
+7993C: POP R14                        [415E] 
+
+========

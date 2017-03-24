@@ -1,0 +1,15 @@
+
+
+6F724: TEST ESI,ESI                   [85F6] 
+6F728: PUSH R12                       [4154] 
+6F72A: CMP ESI,0x1                    [83FE01] 
+6F72D: PUSH RBP                       [55] 
+6F72E: MOV RBP,RDI                    [4889FD] 
+6F731: PUSH RBX                       [53] 
+6F7A3: MOV dword ptr [RDI],0x0        [C70700000000] 
+6F7A9: MOV RAX,RDI                    [4889F8] 
+6F776: POP RBX                        [5B] 
+6F777: POP RBP                        [5D] 
+6F778: POP R12                        [415C] 
+
+========

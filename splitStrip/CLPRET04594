@@ -1,0 +1,9 @@
+
+
+BDF24: MOV R8D,EDI                    [4189F8] 
+BDF27: XOR EAX,EAX                    [31C0] 
+BDF33: CMP R8D,EAX                    [4139C0] 
+BDF6F: CMP EDI,EAX                    [39C7] 
+BDF90: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

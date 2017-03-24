@@ -1,0 +1,11 @@
+
+
+11A1D4: PUSH RBX                       [53] 
+11A1D5: MOVZX EAX,word ptr [RDI]       [0FB707] 
+11A1D8: XOR EBX,EBX                    [31DB] 
+11A1DA: SUB EAX,0x5                    [83E805] 
+11A1DD: CMP AX,0x3                     [6683F803] 
+11A218: MOV EAX,EBX                    [89D8] 
+11A21A: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,7 @@
+
+
+963AB: CMP RDX,0x3                    [4883FA03] 
+963B1: TEST RDX,RDX                   [4885D2] 
+963F0: XOR EAX,EAX                    [31C0] 
+
+========

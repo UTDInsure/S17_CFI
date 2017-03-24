@@ -1,0 +1,15 @@
+
+
+70BA4: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+70BAB: OR dword ptr [RDI],0x100       [810F00010000] 
+70BB1: MOV RCX,[RAX + 0x8]            [488B4808] 
+70BB5: MOV RDX,[RAX + 0x50]           [488B5050] 
+70BB9: MOV RSI,[RAX + 0x40]           [488B7040] 
+70BBD: MOV [RAX + 0x50],RCX           [48894850] 
+70BC1: MOV RCX,[RAX + 0x10]           [488B4810] 
+70BC5: MOV [RAX + 0x8],RDX            [48895008] 
+70BC9: MOV [RAX],RDX                  [488910] 
+70BCC: MOV [RAX + 0x10],RSI           [48897010] 
+70BD0: MOV [RAX + 0x40],RCX           [48894840] 
+
+========

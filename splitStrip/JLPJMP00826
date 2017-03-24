@@ -1,0 +1,20 @@
+
+
+582FF: OR dword ptr [-0x218 + RBP],0x1 [838DE8FDFFFF01] 
+58306: MOVZX EBX,byte ptr [RDX + 0x1] [0FB65A01] 
+5830A: TEST BL,BL                     [84DB] 
+58312: TEST R8D,R8D                   [4585C0] 
+58315: LEA RCX,[R13 + 0x1]            [498D4D01] 
+5831F: CMP BL,0x5b                    [80FB5B] 
+58328: MOV EAX,EBX                    [89D8] 
+5832A: AND EAX,0xffffffdf             [83E0DF] 
+5832D: CMP AL,0x43                    [3C43] 
+58335: MOV [-0x1f8 + RBP],RCX         [48898D08FEFFFF] 
+584A4: SUB EBX,0x25                   [83EB25] 
+584A7: CMP BL,0x53                    [80FB53] 
+584B0: LEA RAX,[0x12fdb8]             [488D0501790D00] 
+584B7: MOVZX EBX,BL                   [0FB6DB] 
+584BA: MOVSXD RDX,[RAX + RBX*0x4]     [48631498] 
+584BE: ADD RAX,RDX                    [4801D0] 
+
+========

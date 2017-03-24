@@ -1,0 +1,7 @@
+
+
+414704: XOR EAX,EAX                    [31C0] 
+414706: TEST RDI,RDI                   [4885FF] 
+414709: SETZ AL                        [0F94C0] 
+
+========

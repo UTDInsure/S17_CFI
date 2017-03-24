@@ -1,0 +1,7 @@
+
+
+2D6B4: MOV RDX,[0x0024a7e0]           [488B1525D12100] 
+2D6BB: MOVZX EAX,byte ptr [RDX]       [0FB602] 
+2D6BE: MOV [RDX],DIL                  [40883A] 
+
+========

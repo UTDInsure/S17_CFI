@@ -1,0 +1,10 @@
+
+
+E6EE4: XOR EAX,EAX                    [31C0] 
+E6EE6: TEST RSI,RSI                   [4885F6] 
+E6EEB: MOV ECX,[RSI]                  [8B0E] 
+E6EED: MOV EDX,EDI                    [89FA] 
+E6EEF: SHR EDX,CL                     [D3EA] 
+E6EF1: CMP EDX,[RSI + 0x4]            [3B5604] 
+
+========

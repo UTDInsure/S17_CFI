@@ -1,0 +1,25 @@
+
+
+BBD74: PUSH R15                       [4157] 
+BBD76: PUSH R14                       [4156] 
+BBD78: PUSH R13                       [4155] 
+BBD7A: PUSH R12                       [4154] 
+BBD7C: MOV R12,RSI                    [4989F4] 
+BBD7F: PUSH RBP                       [55] 
+BBD80: MOVZX EBP,DL                   [0FB6EA] 
+BBD83: PUSH RBX                       [53] 
+BBD84: MOV RBX,RDI                    [4889FB] 
+BBD87: SUB RSP,0x28                   [4883EC28] 
+BBD8B: MOV RAX,[RDI + 0x10]           [488B4710] 
+BBD8F: MOV RCX,[RDI + 0x8]            [488B4F08] 
+BBD93: CMP RAX,RCX                    [4839C8] 
+BBE67: LEA R13,[RCX + RCX*0x1]        [4C8D2C09] 
+BBE6B: MOV RAX,0xfffffffffffffff      [48B8FFFFFFFFFFFFFF0F] 
+BBE75: CMP R13,RAX                    [4939C5] 
+BBE7E: MOV R14,R13                    [4D89EE] 
+BBE81: MOV RDI,[RDI]                  [488B3F] 
+BBE84: MOV [RSP + 0x18],RDX           [4889542418] 
+BBE89: SHL R14,0x4                    [49C1E604] 
+BBE8D: MOV RSI,R14                    [4C89F6] 
+
+========

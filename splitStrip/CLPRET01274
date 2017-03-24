@@ -1,0 +1,14 @@
+
+
+24364: PUSH RBP                       [55] 
+24365: MOV RBP,RDI                    [4889FD] 
+24368: PUSH RBX                       [53] 
+24369: SUB RSP,0x8                    [4883EC08] 
+2436D: MOV RBX,[0x0036e370]           [488B1DFC9F3400] 
+24374: TEST RBX,RBX                   [4885DB] 
+24397: ADD RSP,0x8                    [4883C408] 
+2439B: XOR EAX,EAX                    [31C0] 
+2439D: POP RBX                        [5B] 
+2439E: POP RBP                        [5D] 
+
+========

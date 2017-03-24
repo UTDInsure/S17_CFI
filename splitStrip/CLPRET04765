@@ -1,0 +1,8 @@
+
+
+CFB64: MOVZX EDX,word ptr [RDI]       [0FB717] 
+CFB67: CMP DX,0xa                     [6683FA0A] 
+CFB6D: CMP DX,0x2                     [6683FA02] 
+CFB71: MOV EAX,0xf                    [B80F000000] 
+
+========

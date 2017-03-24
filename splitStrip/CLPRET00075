@@ -1,0 +1,16 @@
+
+
+B684: MOV RAX,[0x00221cd8]           [488B054D662100] 
+B68B: PUSH RBX                       [53] 
+B68C: MOV RBX,RDI                    [4889FB] 
+B68F: MOV RSI,[0x458 + RDI]          [488BB758040000] 
+B696: ADD RSI,[RDI]                  [480337] 
+B699: NEG RAX                        [48F7D8] 
+B69C: MOV RDI,RAX                    [4889C7] 
+B69F: AND RDI,RSI                    [4821F7] 
+B6A2: ADD RSI,[0x460 + RBX]          [4803B360040000] 
+B6A9: AND RSI,RAX                    [4821C6] 
+B6AC: CMP RDI,RSI                    [4839F7] 
+B6C6: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,27 @@
+
+
+31084: MOVZX EBX,byte ptr [RBP + 0x1] [0FB65D01] 
+31088: MOV R10D,0x1                   [41BA01000000] 
+3108E: ADD RBP,0x1                    [4883C501] 
+30FE0: TEST BL,BL                     [84DB] 
+31020: TEST R9B,R9B                   [4584C9] 
+31025: MOV byte ptr [RDI],0x25        [C60725] 
+31028: MOVZX EAX,byte ptr [RBP]       [0FB64500] 
+3102C: LEA RDX,[RDI + 0x2]            [488D5702] 
+31030: XOR R13D,R13D                  [4531ED] 
+31033: MOV dword ptr [RSP + 0x2c],0x0 [C744242C00000000] 
+3103B: MOV [RDI + 0x1],AL             [884701] 
+3103E: XOR EAX,EAX                    [31C0] 
+31040: TEST R8B,R8B                   [4584C0] 
+3104D: CMP R13D,EAX                   [4139C5] 
+31050: MOV byte ptr [RDX],0x0         [C60200] 
+31053: CMOVL R13D,EAX                 [440F4CE8] 
+31057: MOVZX ECX,byte ptr [RBP]       [0FB64D00] 
+3105B: LEA EDX,[RCX + -0x21]          [8D51DF] 
+3105E: CMP DL,0x5d                    [80FA5D] 
+31067: LEA RAX,[0x3e180]              [488D0512D10000] 
+3106E: MOVZX EDX,DL                   [0FB6D2] 
+31071: MOVSXD RDX,[RAX + RDX*0x4]     [48631490] 
+31075: ADD RDX,RAX                    [4801C2] 
+
+========

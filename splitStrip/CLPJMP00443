@@ -1,0 +1,24 @@
+
+
+4106B4: PUSH RBP                       [55] 
+4106B5: XOR EAX,EAX                    [31C0] 
+4106B7: MOV EBP,ESI                    [89F5] 
+4106B9: PUSH RBX                       [53] 
+4106BA: MOV EBX,EDI                    [89FB] 
+4106BC: SUB RSP,0x8                    [4883EC08] 
+410674: MOV R9D,[0x00628694]           [448B0D19802100] 
+41067B: XOR EAX,EAX                    [31C0] 
+41067D: TEST R9D,R9D                   [4585C9] 
+4106C9: MOVZX EAX,byte ptr [0x006286b8] [0FB605E87F2100] 
+4106D0: TEST AL,AL                     [84C0] 
+4106F3: MOV EAX,[0x006286d4]           [8B05DB7F2100] 
+4106F9: MOV EDI,[0x0062bad8]           [8B3DD9B32100] 
+4106FF: CMP EAX,EDI                    [39F8] 
+410707: CMP dword ptr [0x0062bb34],0x2 [833D26B4210002] 
+4107EA: XOR EAX,EAX                    [31C0] 
+4107EC: MOV EDI,0x6d                   [BF6D000000] 
+40F054: SUB RSP,0x8                    [4883EC08] 
+40F058: MOVSX ESI,DIL                  [400FBEF7] 
+40F05C: MOV RDI,[0x006286a8]           [488B3D45962100] 
+
+========

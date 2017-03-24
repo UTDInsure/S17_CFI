@@ -1,0 +1,8 @@
+
+
+DCB94: CMP EDI,-0x1                   [83FFFF] 
+DCBD0: MOV RAX,[0x00368e68]           [488B0591C22800] 
+DCBD7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DCBDE: MOV EAX,EDI                    [89F8] 
+
+========

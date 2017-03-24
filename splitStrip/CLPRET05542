@@ -1,0 +1,7 @@
+
+
+E3234: MOV R10,RCX                    [4989CA] 
+E3237: MOV EAX,0xc1                   [B8C1000000] 
+E323E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

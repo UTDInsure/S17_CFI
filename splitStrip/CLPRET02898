@@ -1,0 +1,15 @@
+
+
+75FB4: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+75FBA: PUSH RBX                       [53] 
+75FBB: MOV RBX,RDI                    [4889FB] 
+75FBE: TEST EAX,EAX                   [85C0] 
+75FC2: TEST dword ptr [RDI],0x100     [F70700010000] 
+75FCA: MOV RAX,[0xa0 + RBX]           [488B83A0000000] 
+75FD1: MOV RDX,[RAX]                  [488B10] 
+75FD4: MOV [RAX + 0x8],RDX            [48895008] 
+75FD8: MOV RDX,[RAX + 0x18]           [488B5018] 
+75FDC: MOV [RAX + 0x20],RDX           [48895020] 
+75FE0: POP RBX                        [5B] 
+
+========

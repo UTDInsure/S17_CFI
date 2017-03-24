@@ -1,0 +1,17 @@
+
+
+207F4: CMP EDI,0x3                    [83FF03] 
+207F7: MOV EAX,EDI                    [89F8] 
+207FB: MOV RDX,[0x0024a8a0]           [488B159EA02200] 
+20802: MOV ECX,[RDX + 0x50]           [8B4A50] 
+20805: TEST ECX,ECX                   [85C9] 
+20809: LEA ECX,[RDI + 0x1]            [8D4F01] 
+2080C: SUB RSP,0x8                    [4883EC08] 
+20810: MOV EDI,0xffffffff             [BFFFFFFFFF] 
+20815: CMP ECX,0x2                    [83F902] 
+20818: MOV [RDX + 0x50],ECX           [894A50] 
+2081D: MOV EDI,0x1                    [BF01000000] 
+20822: SUB EDI,EAX                    [29C7] 
+20824: MOV RSI,[0x0024a850]           [488B3525A02200] 
+
+========

@@ -1,0 +1,10 @@
+
+
+391B4: MOV EAX,EDI                    [89F8] 
+391B6: CDQ                            [99] 
+391B7: IDIV ESI                       [F7FE] 
+391B9: SHL RDX,0x20                   [48C1E220] 
+391BD: MOV EAX,EAX                    [89C0] 
+391BF: OR RAX,RDX                     [4809D0] 
+
+========

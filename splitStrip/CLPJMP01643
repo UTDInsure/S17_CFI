@@ -1,0 +1,10 @@
+
+
+10F644: CMP ESI,0xf                    [83FE0F] 
+10F647: MOV RDI,[RDI + 0x10]           [488B7F10] 
+10F651: LEA RAX,[0x134464]             [488D050C4E0200] 
+10F658: MOV ESI,ESI                    [89F6] 
+10F65A: MOVSXD RCX,[RAX + RSI*0x4]     [48630CB0] 
+10F65E: ADD RAX,RCX                    [4801C8] 
+
+========

@@ -1,0 +1,26 @@
+
+
+11BC4: MOV RAX,[0x00000010]           [488B042510000000] 
+11B46: ADD RAX,[RBX + 0x10]           [48034310] 
+11B4A: CMP RAX,R13                    [4C39E8] 
+11B4D: MOV [R12],EAX                  [41890424] 
+11B57: ADD RBX,0x18                   [4883C318] 
+11B5B: CMP R14,RBX                    [4939DE] 
+11B08: MOV ESI,[RBX + 0x8]            [8B7308] 
+11B0B: MOV R12,[RBX]                  [4C8B23] 
+11B0E: CMP RSI,0x8                    [4883FE08] 
+11B18: CMP RSI,0x26                   [4883FE26] 
+11BE6: MOV RAX,[RBX + 0x10]           [488B4310] 
+11BEA: ADD RAX,[R15]                  [490307] 
+11BED: MOV [R12],RAX                  [49890424] 
+11B57: ADD RBX,0x18                   [4883C318] 
+11B5B: CMP R14,RBX                    [4939DE] 
+11B60: ADD RSP,0x8                    [4883C408] 
+11B64: POP RBX                        [5B] 
+11B65: POP RBP                        [5D] 
+11B66: POP R12                        [415C] 
+11B68: POP R13                        [415D] 
+11B6A: POP R14                        [415E] 
+11B6C: POP R15                        [415F] 
+
+========

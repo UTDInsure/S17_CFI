@@ -1,0 +1,14 @@
+
+
+412234: MOV EAX,[0x00627320]           [8B05E6502100] 
+41223A: TEST EAX,EAX                   [85C0] 
+41223E: IMUL EAX,[0x0062ba7c]          [0FAF0537982100] 
+412245: MOV EDX,0x431bde83             [BA83DE1B43] 
+41224A: MOV ECX,EAX                    [89C1] 
+41224C: IMUL EDX                       [F7EA] 
+41224E: SAR ECX,0x1f                   [C1F91F] 
+412251: SAR EDX,0x12                   [C1FA12] 
+412254: SUB EDX,ECX                    [29CA] 
+412256: MOV [0x0062bb04],EDX           [8915A8982100] 
+
+========

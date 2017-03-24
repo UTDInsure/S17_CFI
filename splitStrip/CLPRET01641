@@ -1,0 +1,9 @@
+
+
+36214: MOV EAX,[0x0036e774]           [8B055A853300] 
+3621A: TEST EAX,EAX                   [85C0] 
+3621E: MOV ESI,0x8                    [BE08000000] 
+36223: MOV EAX,0x82                   [B882000000] 
+3622A: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

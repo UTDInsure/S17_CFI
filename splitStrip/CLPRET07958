@@ -1,0 +1,11 @@
+
+
+167B4: MOV RAX,[0x0024a7a0]           [488B05E53F2300] 
+167BB: PUSH RBX                       [53] 
+167BC: MOVSX RBX,DI                   [480FBFDF] 
+167C0: MOV R8,[RAX]                   [4C8B00] 
+167C3: TEST R8,R8                     [4D85C0] 
+16854: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+16859: POP RBX                        [5B] 
+
+========

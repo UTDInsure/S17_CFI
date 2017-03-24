@@ -1,0 +1,27 @@
+
+
+5024: MOV RAX,[R14 + 0x8]            [498B4608] 
+5028: SUB RAX,[0x00222e38]           [482B0509DE2100] 
+502F: ADD RAX,[RBX + 0x10]           [48034310] 
+5033: MOV [RCX + 0x8],RAX            [48894108] 
+5037: LEA RAX,[0x18340]              [488D0502330100] 
+503E: MOV [RCX],RAX                  [488901] 
+5006: ADD RBX,0x18                   [4883C318] 
+500A: CMP RSI,RBX                    [4839DE] 
+4F68: MOV R15,[RBX + 0x8]            [4C8B7B08] 
+4F6C: MOV RCX,R13                    [4C89E9] 
+4F6F: ADD RCX,[RBX]                  [48030B] 
+4F72: MOV RAX,R15                    [4C89F8] 
+4F75: MOV R15D,R15D                  [4589FF] 
+4F78: SHR RAX,0x20                   [48C1E820] 
+4F7C: TEST R15,R15                   [4D85FF] 
+4F7F: LEA RAX,[RAX + RAX*0x2]        [488D0440] 
+4F83: LEA R14,[RDI + RAX*0x8]        [4C8D34C7] 
+4F89: TEST R14,R14                   [4D85F6] 
+5058: XOR EAX,EAX                    [31C0] 
+4FAE: SUB R15,0x6                    [4983EF06] 
+4FB2: CMP R15,0x1e                   [4983FF1E] 
+4FB8: MOVSXD RDX,[R8 + R15*0x4]      [4B6314B8] 
+4FBC: ADD RDX,R8                     [4C01C2] 
+
+========

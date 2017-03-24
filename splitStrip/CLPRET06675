@@ -1,0 +1,17 @@
+
+
+100974: TEST EDX,EDX                   [85D2] 
+100978: CMP ECX,0x7f                   [83F97F] 
+10097D: PUSH RBP                       [55] 
+10097E: MOVSXD RBP,ECX                 [4863E9] 
+100981: SHL ECX,0x4                    [C1E104] 
+100984: ADD ECX,0x8                    [83C108] 
+100987: XOR EAX,EAX                    [31C0] 
+100989: PUSH RBX                       [53] 
+10098A: SUB RSP,0x8                    [4883EC08] 
+10098E: CMP ECX,ESI                    [39F1] 
+1009B7: ADD RSP,0x8                    [4883C408] 
+1009BB: POP RBX                        [5B] 
+1009BC: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,16 @@
+
+
+1E1B4: PUSH RBP                       [55] 
+1E1B5: PUSH RBX                       [53] 
+1E1B6: SUB RSP,0xd8                   [4881ECD8000000] 
+1E1BD: TEST AL,AL                     [84C0] 
+1E1BF: MOV [RSP + 0x38],RCX           [48894C2438] 
+1E1C4: MOV [RSP + 0x40],R8            [4C89442440] 
+1E1C9: MOV [RSP + 0x48],R9            [4C894C2448] 
+1E207: MOV RBP,RDX                    [4889D5] 
+1E20A: MOV EDX,ESI                    [89F2] 
+1E20C: MOV ESI,EDI                    [89FE] 
+1E20E: MOV RBX,[0x0024a830]           [488B1D1BC62200] 
+1E215: MOV RDI,[RBX]                  [488B3B] 
+
+========

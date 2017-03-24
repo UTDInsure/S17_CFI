@@ -1,0 +1,27 @@
+
+
+2BB74: SUB RSP,0x8                    [4883EC08] 
+2BB78: MOV [0x0036a928],RDI           [48893DA9ED3300] 
+2BB7F: MOV RDI,[0x0036a930]           [488B3DAAED3300] 
+2BB86: LEA RSI,[0x2bae0]              [488D3553FFFFFF] 
+E1B24: TEST RDI,RDI                   [4885FF] 
+E1B30: TEST RSI,RSI                   [4885F6] 
+E1B35: SUB RSP,0x8                    [4883EC08] 
+E1B39: XOR EDX,EDX                    [31D2] 
+E12B4: PUSH R12                       [4154] 
+E12B6: MOV R12D,EDX                   [4189D4] 
+E12B9: PUSH RBP                       [55] 
+E12BA: MOV RBP,RSI                    [4889F5] 
+E12BD: PUSH RBX                       [53] 
+E12BE: CMP dword ptr [RDI + 0x8],0x0  [48837F0800] 
+E12C3: MOV RBX,RDI                    [4889FB] 
+E1330: CMP dword ptr [RDI + 0x10],0x0 [48837F1000] 
+E12C8: XOR ESI,ESI                    [31F6] 
+E12CA: MOV RDI,RBX                    [4889DF] 
+E12D3: MOV RDI,[RBX + 0x8]            [488B7B08] 
+E12D7: TEST RDI,RDI                   [4885FF] 
+E12ED: MOV RDI,RBX                    [4889DF] 
+E12F0: MOV EDX,R12D                   [4489E2] 
+E12F3: MOV ESI,0x1                    [BE01000000] 
+
+========

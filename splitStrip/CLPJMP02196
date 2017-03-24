@@ -1,0 +1,26 @@
+
+
+22804: PUSH R12                       [4154] 
+22806: TEST RDI,RDI                   [4885FF] 
+22809: PUSH RBP                       [55] 
+2280A: MOV RBP,RDI                    [4889FD] 
+2280D: PUSH RBX                       [53] 
+22814: MOV RAX,[0x0024a7a0]           [488B05857F2200] 
+2281B: MOV RBX,[0x0024a8a0]           [488B1D7E802200] 
+22822: MOV R12,RSI                    [4989F4] 
+22825: MOV RDX,[RAX]                  [488B10] 
+22828: MOV EDI,[0x12c + RBX]          [8BBB2C010000] 
+2282E: MOVSX EAX,word ptr [RDX + 0x64] [0FBF4264] 
+22832: CMP EAX,EDI                    [39F8] 
+22836: MOVSX EDX,word ptr [RDX + 0x66] [0FBF5266] 
+2283A: CMP EDX,[0x128 + RBX]          [3B9328010000] 
+228B4: MOV [0x128 + RBX],EDX          [899328010000] 
+228BA: MOV EAX,EDI                    [89F8] 
+22884: ADD EDX,0x1                    [83C201] 
+22887: MOV RDI,[RBX + 0x58]           [488B7B58] 
+2288B: IMUL EDX,EAX                   [0FAFD0] 
+2288E: MOVSXD RDX,EDX                 [4863D2] 
+22891: LEA RSI,[RDX + 0x1]            [488D7201] 
+22895: MOV [RBX + 0x60],RSI           [48897360] 
+
+========

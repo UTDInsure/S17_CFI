@@ -1,0 +1,7 @@
+
+
+F07B4: MOV ECX,[0x0036e770]           [8B0DB6DF2700] 
+F07BA: XOR EAX,EAX                    [31C0] 
+F07BC: TEST ECX,ECX                   [85C9] 
+
+========

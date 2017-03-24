@@ -1,0 +1,15 @@
+
+
+39884: PUSH R12                       [4154] 
+39886: PUSH RBP                       [55] 
+39887: MOV RBP,RSI                    [4889F5] 
+3988A: PUSH RBX                       [53] 
+3988B: SUB RSP,0x10                   [4883EC10] 
+3988F: TEST RSI,RSI                   [4885F6] 
+39962: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+39959: ADD RSP,0x10                   [4883C410] 
+3995D: POP RBX                        [5B] 
+3995E: POP RBP                        [5D] 
+3995F: POP R12                        [415C] 
+
+========

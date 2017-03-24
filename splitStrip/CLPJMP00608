@@ -1,0 +1,8 @@
+
+
+4170C4: SUB RSP,0x8                    [4883EC08] 
+4170C8: TEST EDI,EDI                   [85FF] 
+4170CC: XOR ESI,ESI                    [31F6] 
+4170CE: MOV EDI,0x2                    [BF02000000] 
+
+========

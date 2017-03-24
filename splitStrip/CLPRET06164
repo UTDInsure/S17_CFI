@@ -1,0 +1,7 @@
+
+
+ED094: TEST ESI,ESI                   [85F6] 
+ED096: LEA EAX,[RSI + -0x1]           [8D46FF] 
+ED124: XOR EAX,EAX                    [31C0] 
+
+========

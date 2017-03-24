@@ -1,0 +1,11 @@
+
+
+D8564: PUSH R12                       [4154] 
+D8566: MOV R12,RDX                    [4989D4] 
+D8569: PUSH RBP                       [55] 
+D856A: MOV RBP,RSI                    [4889F5] 
+D856D: PUSH RBX                       [53] 
+D856E: MOV RBX,RDI                    [4889FB] 
+D8571: MOV EDI,0x10                   [BF10000000] 
+
+========

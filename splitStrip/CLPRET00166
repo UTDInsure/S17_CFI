@@ -1,0 +1,18 @@
+
+
+12934: MOV RAX,[0x448 + RDI]          [488B8748040000] 
+1293B: TEST RAX,RAX                   [4885C0] 
+12940: MOV RDX,FS:[0x8]               [64488B142508000000] 
+12949: MOV RCX,[RDX]                  [488B0A] 
+1294C: CMP RCX,[0x00222fc0]           [483B0D6D062100] 
+12968: CMP RAX,[RDX + -0x10]          [483B42F0] 
+1296E: MOV RSI,[0x00222f90]           [488B351B062100] 
+12975: MOV RDI,RAX                    [4889C7] 
+12978: MOV R8,[RSI]                   [4C8B06] 
+1297B: CMP RAX,R8                     [4C39C0] 
+1298F: ADD RDI,0x1                    [4883C701] 
+12993: SHL RDI,0x4                    [48C1E704] 
+12997: CMP RCX,[RSI + RDI*0x1]        [483B0C3E] 
+1299D: XOR EAX,EAX                    [31C0] 
+
+========

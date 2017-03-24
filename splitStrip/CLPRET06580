@@ -1,0 +1,18 @@
+
+
+FEAD4: TEST ECX,ECX                   [85C9] 
+FEAD8: MOV EAX,[RDX]                  [8B02] 
+FEADA: CMP EAX,-0x1                   [83F8FF] 
+FEADF: CMP EAX,EDI                    [39F8] 
+FEAE3: ADD RDX,0x4                    [4883C204] 
+FEAE7: MOV EAX,0x1                    [B801000000] 
+FEB06: CMP ECX,EAX                    [39C1] 
+FEB08: MOV R9D,EAX                    [4189C1] 
+FEAF0: MOV R8D,[RDX]                  [448B02] 
+FEAF3: CMP R8D,-0x1                   [4183F8FF] 
+FEB18: MOV [RDX],EDI                  [893A] 
+FEB1A: IMUL RDX,RAX,0xb8              [4869D0B8000000] 
+FEB21: LEA RCX,[RSI + RDX*0x1]        [488D0C16] 
+FEB25: MOV [-0xb8 + RSI + RDX*0x1],RCX [48898C1648FFFFFF] 
+
+========

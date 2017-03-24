@@ -1,0 +1,10 @@
+
+
+10F7F4: MOV RAX,[0x90 + RDI]           [488B8790000000] 
+10F7FB: MOV EAX,[RAX + 0xc]            [8B400C] 
+10F7FE: BSWAP EAX                      [0FC8] 
+10F800: MOV EAX,EAX                    [89C0] 
+10F802: MOV [RDX],RAX                  [488902] 
+10F805: MOV EAX,0x1                    [B801000000] 
+
+========

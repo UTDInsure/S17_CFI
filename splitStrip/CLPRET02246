@@ -1,0 +1,11 @@
+
+
+47694: LEA RDX,[0x36b6f4]             [488D1559403200] 
+4769B: MOV RAX,RDI                    [4889F8] 
+4769E: TEST RDI,RDI                   [4885FF] 
+476A1: MOV RCX,0x7974742f7665642f     [48B92F6465762F747479] 
+476AB: CMOVZ RAX,RDX                  [480F44C2] 
+476AF: MOV [RAX],RCX                  [488908] 
+476B2: MOV byte ptr [RAX + 0x8],0x0   [C6400800] 
+
+========

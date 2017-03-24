@@ -1,0 +1,8 @@
+
+
+20594: MOV RAX,[0x0024a7a0]           [488B0505A22200] 
+2059B: MOV RAX,[RAX]                  [488B00] 
+2059E: TEST RAX,RAX                   [4885C0] 
+205E8: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

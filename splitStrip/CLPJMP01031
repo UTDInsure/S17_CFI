@@ -1,0 +1,21 @@
+
+
+A4AF4: PUSH R15                       [4157] 
+A4AF6: PUSH R14                       [4156] 
+A4AF8: PUSH R13                       [4155] 
+A4AFA: PUSH R12                       [4154] 
+A4AFC: PUSH RBP                       [55] 
+A4AFD: PUSH RBX                       [53] 
+A4AFE: MOV RBX,RDI                    [4889FB] 
+A4B01: SUB RSP,0x118                  [4881EC18010000] 
+A4B08: TEST RDI,RDI                   [4885FF] 
+A4B0B: MOV R12D,[0x0036e540]          [448B252E9A2C00] 
+A4B12: MOV [RSP + 0x8],RSI            [4889742408] 
+A4B17: MOV [RSP + 0x10],RDX           [4889542410] 
+A4B1C: MOV dword ptr [RSP + 0x48],0x0 [48C744244800000000] 
+A4B25: MOV dword ptr [0x0036e540],0x0 [C705119A2C0000000000] 
+A4B35: MOVZX EBP,byte ptr [RDI]       [0FB62F] 
+A4B38: TEST BPL,BPL                   [4084ED] 
+A4B3D: XOR EDI,EDI                    [31FF] 
+
+========

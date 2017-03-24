@@ -1,0 +1,6 @@
+
+
+81BE4: TEST EDI,EDI                   [85FF] 
+81BE6: MOV EAX,0x16                   [B816000000] 
+
+========

@@ -1,0 +1,12 @@
+
+
+16FC4: MOV RCX,RDI                    [4889F9] 
+16FC7: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+16FCC: SUB RSP,0x8                    [4883EC08] 
+16FD0: MOV RDX,RCX                    [4889CA] 
+16FD3: OR RDX,RSI                     [4809F2] 
+16FD6: IMUL RDI,RSI                   [480FAFFE] 
+16FDA: CMP RDX,RAX                    [4839C2] 
+16FED: TEST RSI,RSI                   [4885F6] 
+
+========

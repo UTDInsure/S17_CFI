@@ -1,0 +1,17 @@
+
+
+2D10C: TEST EBX,EBX                   [85DB] 
+2D110: CMP RCX,0x47                   [4883F947] 
+2CEE6: ADD RAX,R12                    [4C01E0] 
+2CEE9: MOV [RDI + RCX*0x8 + 0x40],RAX [488944CF40] 
+2CEEE: ADD RCX,0x1                    [4883C101] 
+2CEF2: CMP RBP,RCX                    [4839CD] 
+2CEFB: MOV ESI,[R12 + RCX*0x4 + 0x8]  [418B748C08] 
+2CF00: MOV EAX,ESI                    [89F0] 
+2CF02: CMP R13,RAX                    [4939C5] 
+2CEA0: CMP EBX,0xc                    [83FB0C] 
+2CEA9: MOV R8D,EBX                    [4189D8] 
+2CEAC: MOVSXD R8,[RDX + R8*0x4]       [4E630482] 
+2CEB0: ADD R8,RDX                     [4901D0] 
+
+========

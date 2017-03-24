@@ -1,0 +1,9 @@
+
+
+8BE34: MOV RAX,[RCX]                  [488B01] 
+8BE37: TEST dword ptr [0x278 + RAX],0x1 [F7807802000001000000] 
+948F4: CMP RDI,RSI                    [4839F7] 
+948F9: TEST RDX,RDX                   [4885D2] 
+94938: XOR EAX,EAX                    [31C0] 
+
+========

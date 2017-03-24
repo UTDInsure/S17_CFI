@@ -1,0 +1,15 @@
+
+
+70264: MOV RDX,[0x0036a710]           [488B15A5A42F00] 
+7026B: MOV RCX,[RDX + 0x28]           [488B4A28] 
+7026F: CMP RCX,[RDX + 0x30]           [483B4A30] 
+70285: PUSH RCX                       [51] 
+70286: MOVZX ESI,DIL                  [400FB6F7] 
+7028A: MOV RDI,RDX                    [4889D7] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+79562: MOV dword ptr [0xc0 + RDI],0xffffffff [C787C0000000FFFFFFFF] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

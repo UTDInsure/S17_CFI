@@ -1,0 +1,14 @@
+
+
+119884: PUSH RBX                       [53] 
+119885: MOV RBX,RDI                    [4889FB] 
+119892: XOR EDX,EDX                    [31D2] 
+119894: TEST EAX,EAX                   [85C0] 
+119898: LEA RAX,[0x366ae0]             [488D0541D22400] 
+11989F: MOV RDI,RBX                    [4889DF] 
+1198A2: MOV [0x0036a728],RAX           [4889057F0E2500] 
+1198B3: MOV RDX,RAX                    [4889C2] 
+1198B6: MOV RAX,RDX                    [4889D0] 
+1198B9: POP RBX                        [5B] 
+
+========

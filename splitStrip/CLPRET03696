@@ -1,0 +1,8 @@
+
+
+8FBC4: TEST RSI,RSI                   [4885F6] 
+8FBC7: MOV RAX,RDI                    [4889F8] 
+8FBCA: LEA RCX,[RDI + RSI*0x1]        [488D0C37] 
+8FBCE: MOV RDX,RDI                    [4889FA] 
+
+========

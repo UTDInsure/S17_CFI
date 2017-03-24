@@ -1,0 +1,6 @@
+
+
+E3D14: MOV EAX,0xb1                   [B8B1000000] 
+E3D1B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

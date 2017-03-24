@@ -1,0 +1,11 @@
+
+
+40B344: TEST RSI,RSI                   [4885F6] 
+40B3A8: MOV RAX,[RDI + 0x8]            [488B4708] 
+40B3AC: MOV RDX,[RDI]                  [488B17] 
+40B3AF: NOP                            [90] 
+40B364: CMP byte ptr [RAX],0x0         [803800] 
+40B369: CMP RAX,RDX                    [4839D0] 
+40B36E: CMP byte ptr [RAX + -0x1],0x0  [8078FF00] 
+
+========

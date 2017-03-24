@@ -1,0 +1,9 @@
+
+
+1A2F4: TEST RSI,RSI                   [4885F6] 
+1A2FD: TEST RDI,RDI                   [4885FF] 
+1A3A0: XOR EDX,EDX                    [31D2] 
+1A3A2: XOR EAX,EAX                    [31C0] 
+1A3A4: MOV byte ptr [RSI + RDX*0x1],0x0 [C6041600] 
+
+========

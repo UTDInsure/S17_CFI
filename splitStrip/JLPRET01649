@@ -1,0 +1,21 @@
+
+
+C6DB4: MOV RAX,[RSP + 0x28]           [488B442428] 
+C6DB9: MOV RDX,[RSP + 0x20]           [488B542420] 
+C6DBE: MOV ECX,[RAX]                  [8B08] 
+C6DC0: MOV EAX,0x1                    [B801000000] 
+C6DC5: SHL EAX,CL                     [D3E0] 
+C6DC7: CDQE                           [4898] 
+C6DC9: TEST [0x98 + RDX],RAX          [48858298000000] 
+C84CA: MOV RAX,[RSP + 0x58]           [488B442458] 
+C84CF: MOV dword ptr [RAX],0x6        [C70006000000] 
+C84D5: XOR EAX,EAX                    [31C0] 
+C6A4D: ADD RSP,0x158                  [4881C458010000] 
+C6A54: POP RBX                        [5B] 
+C6A55: POP RBP                        [5D] 
+C6A56: POP R12                        [415C] 
+C6A58: POP R13                        [415D] 
+C6A5A: POP R14                        [415E] 
+C6A5C: POP R15                        [415F] 
+
+========

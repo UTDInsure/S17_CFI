@@ -1,0 +1,7 @@
+
+
+E48E4: MOV R10,RCX                    [4989CA] 
+E48E7: MOV EAX,0x36                   [B836000000] 
+E48EE: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

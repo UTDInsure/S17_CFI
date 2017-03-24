@@ -1,0 +1,15 @@
+
+
+1F314: PUSH RBX                       [53] 
+1F315: MOV RBX,RDI                    [4889FB] 
+1F318: SUB RSP,0x10                   [4883EC10] 
+1F31C: TEST RDI,RDI                   [4885FF] 
+1F321: CMP byte ptr [RDI + 0x23],0x0  [807F2300] 
+1F327: XOR EAX,EAX                    [31C0] 
+1F329: TEST ESI,ESI                   [85F6] 
+1F32D: MOVSX ECX,word ptr [RDI + 0x3a] [0FBF4F3A] 
+1F331: MOVSX EDX,word ptr [RDI + 0x38] [0FBF5738] 
+1F335: MOV R8,[RDI + 0x18]            [4C8B4718] 
+1F339: MOV [RSP + 0xc],EAX            [8944240C] 
+
+========

@@ -1,0 +1,15 @@
+
+
+FD024: PUSH RBP                       [55] 
+FD025: MOV RBP,RSI                    [4889F5] 
+FD028: PUSH RBX                       [53] 
+FD029: MOV RBX,RDI                    [4889FB] 
+FD02C: SUB RSP,0x18                   [4883EC18] 
+FD030: MOV ECX,[0x0036e770]           [8B0D3A172700] 
+FD036: TEST ECX,ECX                   [85C9] 
+FD03A: MOV EAX,[0x0036d85c]           [8B051C082700] 
+FD040: TEST EAX,EAX                   [85C0] 
+FD0B0: MOV EDI,0x400                  [BF00040000] 
+FD0B5: MOV [RSP + 0x8],RDX            [4889542408] 
+
+========

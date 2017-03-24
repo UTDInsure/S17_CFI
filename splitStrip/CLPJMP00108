@@ -1,0 +1,28 @@
+
+
+18494: SUB RSP,0x48                   [4883EC48] 
+18498: MOV [RSP],RAX                  [48890424] 
+1849C: MOV [RSP + 0x8],RDI            [48897C2408] 
+184A1: MOV RDI,RAX                    [4889C7] 
+184A4: MOV [RSP + 0x10],RSI           [4889742410] 
+184A9: LEA RSI,[0x184c9]              [488D3519000000] 
+184B0: MOV [RSP + 0x18],R8            [4C89442418] 
+184B5: MOV [RSP + 0x20],R9            [4C894C2420] 
+184BA: MOV [RSP + 0x28],R10           [4C89542428] 
+184BF: MOV [RSP + 0x30],R11           [4C895C2430] 
+184C4: MOV [RSP + 0x38],RDX           [4889542438] 
+184C9: MOV [RSP + 0x40],RCX           [48894C2440] 
+18274: MOV RAX,[RDI]                  [488B07] 
+18277: CMP RAX,RSI                    [4839F0] 
+184D7: MOV RAX,[RSP]                  [488B0424] 
+184DB: MOV RDI,[RSP + 0x8]            [488B7C2408] 
+184E0: MOV RSI,[RSP + 0x10]           [488B742410] 
+184E5: MOV R8,[RSP + 0x18]            [4C8B442418] 
+184EA: MOV R9,[RSP + 0x20]            [4C8B4C2420] 
+184EF: MOV R10,[RSP + 0x28]           [4C8B542428] 
+184F4: MOV R11,[RSP + 0x30]           [4C8B5C2430] 
+184F9: MOV RDX,[RSP + 0x38]           [488B542438] 
+184FE: MOV RCX,[RSP + 0x40]           [488B4C2440] 
+18503: ADD RSP,0x48                   [4883C448] 
+
+========

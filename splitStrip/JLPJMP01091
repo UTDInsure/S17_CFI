@@ -1,0 +1,12 @@
+
+
+A7A7D: LEA R12,[RAX + 0x2]            [4C8D6002] 
+A7A81: MOVZX EAX,byte ptr [RAX + 0x1] [0FB64001] 
+A7A85: SUB EAX,0x43                   [83E843] 
+A7A88: CMP AL,0x36                    [3C36] 
+A7A90: MOVZX EDX,AL                   [0FB6D0] 
+A7A93: LEA RAX,[0x13112c]             [488D0592960800] 
+A7A9A: MOVSXD RDX,[RAX + RDX*0x4]     [48631490] 
+A7A9E: ADD RAX,RDX                    [4801D0] 
+
+========

@@ -1,0 +1,17 @@
+
+
+102414: TEST RDX,RDX                   [4885D2] 
+102417: MOV RAX,RDX                    [4889D0] 
+10241A: LEA RDX,[0x36d940]             [488D151FB52600] 
+102421: PUSH RBX                       [53] 
+102422: MOV EBX,0xff                   [BBFF000000] 
+102427: CMOVZ RAX,RDX                  [480F44C2] 
+10242B: CMP EDI,0xff                   [81FFFF000000] 
+102431: CMOVLE EBX,EDI                 [0F4EDF] 
+102434: TEST EBX,EBX                   [85DB] 
+1024AF: MOV RDX,RAX                    [4889C2] 
+1024B2: NOP                            [660F1F440000] 
+1024B8: MOV byte ptr [RDX],0x0         [C60200] 
+1024BB: POP RBX                        [5B] 
+
+========

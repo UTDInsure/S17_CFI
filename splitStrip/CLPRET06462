@@ -1,0 +1,8 @@
+
+
+F41D4: TEST EDI,EDI                   [85FF] 
+F41F6: MOV RAX,[0x00368e68]           [488B056B4C2700] 
+F41FD: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+F4204: OR EAX,0xffffffff              [83C8FF] 
+
+========

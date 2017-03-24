@@ -1,0 +1,23 @@
+
+
+86DB4: PXOR XMM0,XMM0                 [660FEFC0] 
+86DB8: MOVDQA XMM2,[RDI]              [660F6F17] 
+86DBC: MOVDQA XMM1,[RSI]              [660F6F0E] 
+86DC0: PCMPEQB XMM0,XMM1              [660F74C1] 
+86DC4: PSLLDQ XMM2,0x4                [660F73FA04] 
+86DC9: PCMPEQB XMM2,XMM1              [660F74D1] 
+86DCD: PSUBB XMM2,XMM0                [660FF8D0] 
+86DD1: PMOVMSKB R9D,XMM2              [66440FD7CA] 
+86DD6: SHR EDX,CL                     [D3EA] 
+86DD8: SHR R9D,CL                     [41D3E9] 
+86DDB: SUB EDX,R9D                    [4429CA] 
+873B5: LEA RDI,[RDI + RAX*0x1]        [488D3C07] 
+873B9: LEA RSI,[RSI + RCX*0x1]        [488D340E] 
+873BD: TEST R8D,R8D                   [4585C0] 
+873D0: BSF RDX,RDX                    [480FBCD2] 
+873D4: SUB R11,RDX                    [4929D3] 
+873D9: MOVZX ECX,byte ptr [RSI + RDX*0x1] [0FB60C16] 
+873DD: MOVZX EAX,byte ptr [RDI + RDX*0x1] [0FB60417] 
+873E1: SUB EAX,ECX                    [29C8] 
+
+========

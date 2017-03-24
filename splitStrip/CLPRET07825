@@ -1,0 +1,16 @@
+
+
+11E164: MOV RDI,[0x0036d938]           [488B3DCDF72400] 
+11E16B: TEST RDI,RDI                   [4885FF] 
+11E170: SUB RSP,0x8                    [4883EC08] 
+11E174: ADD RDI,0x18                   [4883C718] 
+1013E4: TEST RDI,RDI                   [4885FF] 
+1013E7: MOV RDX,RDI                    [4889FA] 
+1013F0: LEA R8,[RDI + -0x18]           [4C8D47E8] 
+1013F4: LOCK                           [F0] 
+1013F5: ADD dword ptr [RDI + -0x14],-0x1 [8347ECFF] 
+1013F9: SETZ AL                        [0F94C0] 
+1013FC: TEST AL,AL                     [84C0] 
+11E181: ADD RSP,0x8                    [4883C408] 
+
+========

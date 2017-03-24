@@ -1,0 +1,7 @@
+
+
+A6244: TEST DIL,0x3                   [40F6C703] 
+A6248: MOV ECX,0x16d                  [B96D010000] 
+A6281: MOV EAX,ECX                    [89C8] 
+
+========

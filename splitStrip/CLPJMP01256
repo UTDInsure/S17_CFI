@@ -1,0 +1,22 @@
+
+
+DADF4: PUSH R13                       [4155] 
+DADF6: MOV R13D,ESI                   [4189F5] 
+DADF9: PUSH R12                       [4154] 
+DADFB: PUSH RBP                       [55] 
+DADFC: PUSH RBX                       [53] 
+DADFD: SUB RSP,0x8                    [4883EC08] 
+DAE01: TEST ESI,0xfffffeff            [F7C6FFFEFFFF] 
+DAE0D: TEST byte ptr [RDI + 0x41],0x2 [F6474102] 
+DAE11: MOV RAX,[0x00368e68]           [488B0550E02800] 
+DAE18: MOV RBP,RDI                    [4889FD] 
+DAE1B: MOV R12,[RDI]                  [4C8B27] 
+DAE1E: MOV dword ptr FS:[RAX],0x0     [64C70000000000] 
+DAE2B: MOVZX EAX,word ptr [R12 + 0x62] [410FB7442462] 
+DAE31: CMP AX,0x9                     [6683F809] 
+DAE3B: CMP AX,0x1                     [6683F801] 
+DAE45: MOV RDI,[RDI + 0x8]            [488B7F08] 
+DAE49: TEST RDI,RDI                   [4885FF] 
+DAEA3: MOV RBX,[RDI + 0x10]           [488B5F10] 
+
+========

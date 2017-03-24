@@ -1,0 +1,15 @@
+
+
+109464: MOV EAX,[RDI]                  [8B07] 
+109466: MOV RDX,[RDI + 0x18]           [488B5718] 
+10946A: TEST EAX,EAX                   [85C0] 
+10946E: CMP EAX,0x1                    [83F801] 
+109473: MOV RCX,[RDX + 0x68]           [488B4A68] 
+109477: MOV ESI,ESI                    [89F6] 
+109479: CMP RSI,RCX                    [4839CE] 
+10947E: MOV RAX,[RDX + 0x58]           [488B4258] 
+109482: LEA RDI,[RAX + RSI*0x1]        [488D3C30] 
+109486: CMP RDI,[RDX + 0x60]           [483B7A60] 
+1094A0: XOR EAX,EAX                    [31C0] 
+
+========

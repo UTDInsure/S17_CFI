@@ -1,0 +1,10 @@
+
+
+2A114: CMP EDI,0x2                    [83FF02] 
+2A119: MOV RAX,[0x0024a7a0]           [488B0580062200] 
+2A120: MOV RDX,[RAX]                  [488B10] 
+2A123: TEST RDX,RDX                   [4885D2] 
+2A128: MOV EAX,[0x580 + RDX]          [8B8280050000] 
+2A12E: MOV [0x580 + RDX],EDI          [89BA80050000] 
+
+========

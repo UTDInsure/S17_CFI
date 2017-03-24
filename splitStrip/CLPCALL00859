@@ -1,0 +1,18 @@
+
+
+B4294: MOV EAX,[0x0036e770]           [8B05D6A42B00] 
+B429A: TEST EAX,EAX                   [85C0] 
+B42C5: SUB RSP,0x38                   [4883EC38] 
+B42C9: MOV EAX,EDI                    [89F8] 
+B42CB: MOV [RSP + 0x8],RAX            [4889442408] 
+B42D0: MOV EAX,ESI                    [89F0] 
+B42D2: MOV dword ptr [RSP],0x77       [C7042477000000] 
+B42D9: MOV [RSP + 0x10],RAX           [4889442410] 
+B42DE: MOV EAX,EDX                    [89D0] 
+B42E0: MOV RDI,RSP                    [4889E7] 
+B42E3: MOV [RSP + 0x18],RAX           [4889442418] 
+B42E8: MOV RAX,[0x0036e758]           [488B0569A42B00] 
+B42EF: ROR RAX,0x11                   [48C1C811] 
+B42F3: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

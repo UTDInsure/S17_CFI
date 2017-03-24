@@ -1,0 +1,26 @@
+
+
+39F74: CMP word ptr [RSI + 0xe],0x0   [66837E0E00] 
+39FB8: MOV RAX,0x5deece66d            [48B86DE6ECDE05000000] 
+39FC2: MOV word ptr [RSI + 0xc],0xb   [66C7460C0B00] 
+39FC8: MOV word ptr [RSI + 0xe],0x1   [66C7460E0100] 
+39FCE: MOV [RSI + 0x10],RAX           [48894610] 
+39F7B: MOVZX EAX,word ptr [RDI + 0x4] [0FB74704] 
+39F7F: MOVZX EDX,word ptr [RDI]       [0FB717] 
+39F82: SHL RAX,0x20                   [48C1E020] 
+39F86: OR RAX,RDX                     [4809D0] 
+39F89: MOVZX EDX,word ptr [RDI + 0x2] [0FB75702] 
+39F8D: SHL EDX,0x10                   [C1E210] 
+39F90: OR RAX,RDX                     [4809D0] 
+39F93: MOVZX EDX,word ptr [RSI + 0xc] [0FB7560C] 
+39F97: IMUL RAX,[RSI + 0x10]          [480FAF4610] 
+39F9C: ADD RAX,RDX                    [4801D0] 
+39F9F: MOV RDX,RAX                    [4889C2] 
+39FA2: MOV [RDI],AX                   [668907] 
+39FA5: SHR RAX,0x20                   [48C1E820] 
+39FA9: SHR RDX,0x10                   [48C1EA10] 
+39FAD: MOV [RDI + 0x4],AX             [66894704] 
+39FB1: XOR EAX,EAX                    [31C0] 
+39FB3: MOV [RDI + 0x2],DX             [66895702] 
+
+========

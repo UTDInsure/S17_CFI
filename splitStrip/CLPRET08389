@@ -1,0 +1,24 @@
+
+
+2A144: PUSH R14                       [4156] 
+2A146: MOV RAX,[0x0024a880]           [488B0533072200] 
+2A14D: PUSH R13                       [4155] 
+2A14F: PUSH R12                       [4154] 
+2A151: MOV R12D,0xffffffff            [41BCFFFFFFFF] 
+2A157: PUSH RBP                       [55] 
+2A158: MOV EBP,ESI                    [89F5] 
+2A15A: PUSH RBX                       [53] 
+2A15B: MOV RAX,[RAX]                  [488B00] 
+2A15E: MOV EBX,EDI                    [89FB] 
+2A160: MOV RDX,[RAX + 0x20]           [488B5020] 
+2A164: CMP dword ptr [0x948 + RDX],0x0 [4883BA4809000000] 
+2A230: CMP dword ptr [0x950 + RDX],0x0 [4883BA5009000000] 
+2A172: CMP dword ptr [0x960 + RDX],0x0 [4883BA6009000000] 
+2A224: POP RBX                        [5B] 
+2A225: POP RBP                        [5D] 
+2A226: MOV EAX,R12D                   [4489E0] 
+2A229: POP R12                        [415C] 
+2A22B: POP R13                        [415D] 
+2A22D: POP R14                        [415E] 
+
+========

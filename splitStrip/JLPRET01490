@@ -1,0 +1,23 @@
+
+
+B8614: TEST byte ptr [-0x2864 + RBP],0x2 [F6859CD7FFFF02] 
+B8621: MOV R13D,[RBX + 0x4]           [448B6B04] 
+B8625: LEA R14,[RBX + 0x8]            [4C8D7308] 
+B8629: TEST R13D,R13D                 [4585ED] 
+B862E: MOV R8D,[-0x2854 + RBP]        [448B85ACD7FFFF] 
+B8635: TEST R8D,R8D                   [4585C0] 
+B8D39: CMP R15,[-0x2860 + RBP]        [4C3BBDA0D7FFFF] 
+B8D46: NOP                            [662E0F1F840000000000] 
+B8D50: MOV EAX,[R15]                  [418B07] 
+B883B: CMP EAX,R13D                   [4439E8] 
+B8660: MOV dword ptr [-0x2868 + RBP],0x1 [C78598D7FFFF01000000] 
+B866A: MOV EAX,[-0x2868 + RBP]        [8B8598D7FFFF] 
+B8670: LEA RSP,[RBP + -0x28]          [488D65D8] 
+B8674: POP RBX                        [5B] 
+B8675: POP R12                        [415C] 
+B8677: POP R13                        [415D] 
+B8679: POP R14                        [415E] 
+B867B: POP R15                        [415F] 
+B867D: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,20 @@
+
+
+30E84: ADD R8D,0x1                    [4183C001] 
+30E88: SUB EAX,0x1                    [83E801] 
+30E8B: CMP EAX,-0x1                   [83F8FF] 
+30EC9: MOV RAX,[0x0024a840]           [488B0570992100] 
+30ED0: MOV [0x1d8 + R12],EDI          [4189BC24D8010000] 
+30ED8: MOV [RAX],R8D                  [448900] 
+30EDB: MOVSXD R14,R14D                [4D63F6] 
+30EDE: MOV [RSP],RBX                  [48891C24] 
+30EE2: LEA R15,[0x3e01c]              [4C8D3D33D10000] 
+30EE9: TEST R14,R14                   [4D85F6] 
+31220: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+31228: LEA RAX,[RDX + 0x1]            [488D4201] 
+3122C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+312C0: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+312C8: LEA RSI,[RAX + RAX*0x1]        [488D3400] 
+312CC: MOV [0x1e8 + R12],RSI          [4989B424E8010000] 
+
+========

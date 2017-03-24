@@ -1,0 +1,8 @@
+
+
+F3B1: TEST EAX,EAX                   [85C0] 
+F3B3: MOV EBX,EAX                    [89C3] 
+F3B7: MOV RDI,[RSP + 0x38]           [488B7C2438] 
+F3BC: MOV R9,[RSP + 0x30]            [4C8B4C2430] 
+
+========

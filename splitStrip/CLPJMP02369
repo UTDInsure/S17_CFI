@@ -1,0 +1,9 @@
+
+
+304D4: MOVSXD RAX,ESI                 [4863C6] 
+304D7: SUB RSP,0x8                    [4883EC08] 
+304DB: MOVSXD RSI,EDX                 [4863F2] 
+304DE: MOV RDX,RAX                    [4889C2] 
+304E1: XOR EAX,EAX                    [31C0] 
+
+========

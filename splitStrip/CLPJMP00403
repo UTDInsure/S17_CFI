@@ -1,0 +1,22 @@
+
+
+40DB74: TEST RDI,RDI                   [4885FF] 
+40DB77: PUSH RBX                       [53] 
+40DB78: MOV RBX,RDI                    [4889FB] 
+40DB7D: XOR EAX,EAX                    [31C0] 
+411C24: MOV EAX,0x62a6e0               [B8E0A66200] 
+411C3C: CMP [RAX],RDI                  [483938] 
+411C30: ADD RAX,0x18                   [4883C018] 
+411C34: CMP RAX,0x62abd8               [483DD8AB6200] 
+40DB88: CMP RBX,[0x00627440]           [483B1DB1982100] 
+40DB91: MOV RAX,[RBX]                  [488B03] 
+40DB94: MOV RDX,[RBX + 0x8]            [488B5308] 
+40DB98: MOV [RAX + 0x8],RDX            [48895008] 
+40DB9C: MOV RDX,[RBX + 0x8]            [488B5308] 
+40DBA0: MOV [RDX],RAX                  [488902] 
+40DBA3: MOV RAX,[RBX]                  [488B03] 
+40DBA6: CMP RAX,0x626500               [483D00656200] 
+40DBBF: MOV RDI,[RBX + 0x10]           [488B7B10] 
+40DBC3: SUB dword ptr [0x0062847c],0x1 [832DB2A8210001] 
+
+========

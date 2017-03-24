@@ -1,0 +1,10 @@
+
+
+40AB04: MOV RDX,RSI                    [4889F2] 
+40AB07: MOV RSI,RDI                    [4889FE] 
+40AB0A: MOV RDI,[0x00628448]           [488B3D37D92100] 
+40AB11: XOR EAX,EAX                    [31C0] 
+40A814: TEST RDI,RDI                   [4885FF] 
+40A889: MOV EAX,0x64                   [B864000000] 
+
+========

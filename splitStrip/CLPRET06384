@@ -1,0 +1,10 @@
+
+
+F1E44: SUB RSP,0x8                    [4883EC08] 
+F1E48: CMP RCX,RDX                    [4839D1] 
+899D4: CMP RDX,0x3                    [4883FA03] 
+89A68: AND EDX,0x3                    [83E203] 
+89A6B: MOV RAX,RDI                    [4889F8] 
+F1E56: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,27 @@
+
+
+C6E84: MOV RAX,[RSP + 0x28]           [488B442428] 
+C6E89: MOV EAX,[RAX]                  [8B00] 
+C6E8B: TEST EAX,0x30f                 [A90F030000] 
+C6EA7: CMP EAX,0x100                  [3D00010000] 
+C6EAC: SETZ DL                        [0F94C2] 
+C6EAF: CMP EAX,0x200                  [3D00020000] 
+C849C: TEST DL,DL                     [84D2] 
+C84A0: MOV RAX,[RSP + 0x20]           [488B442420] 
+C84A5: MOV R8,[RSP + 0x28]            [4C8B442428] 
+C84AA: XOR ECX,ECX                    [31C9] 
+C84AC: XOR EDX,EDX                    [31D2] 
+C84AE: LEA RSI,[0x80 + RAX]           [488DB080000000] 
+C84B5: LEA RDI,[RAX + 0x70]           [488D7870] 
+BE3F4: PUSH RBX                       [53] 
+BE3F5: MOV RBX,RDI                    [4889FB] 
+BE3F8: SUB RSP,0x20                   [4883EC20] 
+BE3FC: MOVSXD RAX,[RSI]               [486306] 
+BE3FF: CMP EAX,0xf                    [83F80F] 
+BE46C: MOV EDI,0x3c8                  [BFC8030000] 
+BE471: MOV [RSP + 0x18],R8            [4C89442418] 
+BE476: MOV [RSP + 0x10],RCX           [48894C2410] 
+BE47B: MOV [RSP + 0x8],RDX            [4889542408] 
+BE480: MOV [RSP],RSI                  [48893424] 
+
+========

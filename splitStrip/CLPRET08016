@@ -1,0 +1,6 @@
+
+
+185D4: TEST RDI,RDI                   [4885FF] 
+185DE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

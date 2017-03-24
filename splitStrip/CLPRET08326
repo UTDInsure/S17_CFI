@@ -1,0 +1,7 @@
+
+
+222B4: TEST RDI,RDI                   [4885FF] 
+222B9: MOV [RDI + 0x27],SIL           [40887727] 
+222BD: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,19 @@
+
+
+1096C4: PUSH R14                       [4156] 
+1096C6: PUSH R13                       [4155] 
+1096C8: MOV R13,RSI                    [4989F5] 
+1096CB: PUSH R12                       [4154] 
+1096CD: PUSH RBP                       [55] 
+1096CE: MOV EBP,EDX                    [89D5] 
+1096D0: PUSH RBX                       [53] 
+1096D1: MOV RBX,RDI                    [4889FB] 
+1096D4: TEST EBP,EBP                   [85ED] 
+109731: POP RBX                        [5B] 
+109732: POP RBP                        [5D] 
+109733: POP R12                        [415C] 
+109735: POP R13                        [415D] 
+109737: MOV EAX,0x1                    [B801000000] 
+10973C: POP R14                        [415E] 
+
+========

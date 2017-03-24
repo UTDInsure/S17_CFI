@@ -1,0 +1,8 @@
+
+
+BB8E4: CMP byte ptr [RSI + 0x30],0x11 [807E3011] 
+BB8F0: CMP [RSI + 0x28],EDI           [397E28] 
+BB8F5: OR byte ptr [RSI + 0x32],0x8   [804E3208] 
+BB8F9: XOR EAX,EAX                    [31C0] 
+
+========

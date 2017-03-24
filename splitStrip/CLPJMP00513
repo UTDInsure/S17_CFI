@@ -1,0 +1,10 @@
+
+
+413C64: PUSH R13                       [4155] 
+413C66: PUSH R12                       [4154] 
+413C68: PUSH RBP                       [55] 
+413C69: PUSH RBX                       [53] 
+413C6A: MOV RBX,RDI                    [4889FB] 
+413C6D: SUB RSP,0x8                    [4883EC08] 
+
+========

@@ -1,0 +1,12 @@
+
+
+1148D4: MOV EAX,[RDI + 0x28]           [8B4728] 
+1148D7: CMP EAX,ESI                    [39F0] 
+1148DB: SUB EAX,ESI                    [29F0] 
+1148DD: MOV ESI,ESI                    [89F6] 
+1148DF: MOV [RDI + 0x28],EAX           [894728] 
+1148E2: MOV RAX,[RDI + 0x18]           [488B4718] 
+1148E6: ADD RSI,RAX                    [4801C6] 
+1148E9: MOV [RDI + 0x18],RSI           [48897718] 
+
+========

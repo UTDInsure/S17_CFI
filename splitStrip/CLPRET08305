@@ -1,0 +1,10 @@
+
+
+21414: CMP byte ptr [0x0024b738],0x0  [803D1DA3220000] 
+2141B: PUSH RBX                       [53] 
+214A8: MOV RBX,[0x0024a8a0]           [488B1DF1932200] 
+214AF: CMP byte ptr [RBX + 0x8],0x0   [807B0800] 
+214B5: TEST DIL,DIL                   [4084FF] 
+214BA: POP RBX                        [5B] 
+
+========

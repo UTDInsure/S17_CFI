@@ -1,0 +1,17 @@
+
+
+11C594: PUSH RBX                       [53] 
+11C595: MOV RBX,RDI                    [4889FB] 
+11C598: XOR R9D,R9D                    [4531C9] 
+11C59B: SUB RSP,0x10                   [4883EC10] 
+11C59F: MOV RSI,[RDI]                  [488B37] 
+11C5A2: MOV EAX,[RBX + 0x18]           [8B4318] 
+11C5A5: MOV RDX,[RDI + 0x28]           [488B5728] 
+11C5A9: MOV RDI,[RDI + 0x8]            [488B7F08] 
+11C5AD: MOV R8,[RBX + 0x10]            [4C8B4310] 
+11C5B1: MOV RCX,[0x380 + RSI]          [488B8E80030000] 
+11C5B8: MOV [RSP],EAX                  [890424] 
+11C5BB: MOV RAX,[0x00368e60]           [488B059EC82400] 
+11C5C2: MOV dword ptr [RSP + 0x8],0x0  [48C744240800000000] 
+
+========

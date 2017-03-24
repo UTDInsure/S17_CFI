@@ -1,0 +1,25 @@
+
+
+172A4: PUSH RBP                       [55] 
+172A5: PUSH RBX                       [53] 
+172A6: SUB RSP,0x8                    [4883EC08] 
+172AA: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+172AD: CMP CL,0x9                     [80F909] 
+172C4: CMP CL,0x20                    [80F920] 
+172C9: CMP CL,0x2d                    [80F92D] 
+172D2: XOR EAX,EAX                    [31C0] 
+172D4: CMP CL,0x2b                    [80F92B] 
+172D7: MOV EBX,0x1                    [BB01000000] 
+172DC: SETZ AL                        [0F94C0] 
+172DF: ADD RDI,RAX                    [4801C7] 
+172E2: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+172E5: LEA ECX,[RAX + -0x30]          [8D48D0] 
+172E8: CMP CL,0x9                     [80F909] 
+172ED: TEST RSI,RSI                   [4885F6] 
+172F6: MOV [RSI],RDI                  [48893E] 
+172F9: XOR EAX,EAX                    [31C0] 
+172FB: ADD RSP,0x8                    [4883C408] 
+172FF: POP RBX                        [5B] 
+17300: POP RBP                        [5D] 
+
+========

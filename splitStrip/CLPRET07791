@@ -1,0 +1,19 @@
+
+
+11D944: PUSH R14                       [4156] 
+11D946: PUSH R13                       [4155] 
+11D948: MOV R13,[0x0036a980]           [4C8B2D31D02400] 
+11D94F: PUSH R12                       [4154] 
+11D951: TEST R13,R13                   [4D85ED] 
+11D954: PUSH RBP                       [55] 
+11D955: PUSH RBX                       [53] 
+11D9D0: MOV RAX,[0x0036aa48]           [488B0571D02400] 
+11D9D7: MOV dword ptr [0x0036a980],0x0 [48C7059ECF240000000000] 
+11D9E2: TEST RAX,RAX                   [4885C0] 
+11DA47: POP RBX                        [5B] 
+11DA48: POP RBP                        [5D] 
+11DA49: POP R12                        [415C] 
+11DA4B: POP R13                        [415D] 
+11DA4D: POP R14                        [415E] 
+
+========

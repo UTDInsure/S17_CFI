@@ -1,0 +1,14 @@
+
+
+1CAE4: PUSH RBP                       [55] 
+1CAE5: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+1CAEA: XOR ECX,ECX                    [31C9] 
+1CAEC: MOV EDI,ESI                    [89F7] 
+1CAEE: PUSH RBX                       [53] 
+1CAEF: SUB RSP,0x8                    [4883EC08] 
+1CAF3: MOV RBX,[0x0024a7a0]           [488B1DA6DC2200] 
+1CAFA: MOV RAX,[RBX]                  [488B03] 
+1CAFD: MOVSX EDX,word ptr [RAX + 0x64] [0FBF5064] 
+1CB01: SUB EDX,0x1                    [83EA01] 
+
+========

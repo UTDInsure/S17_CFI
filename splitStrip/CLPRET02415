@@ -1,0 +1,20 @@
+
+
+6D454: PUSH R13                       [4155] 
+6D456: MOV R13,RDX                    [4989D5] 
+6D459: PUSH R12                       [4154] 
+6D45B: MOV R12,RSI                    [4989F4] 
+6D45E: IMUL R12,RDX                   [4C0FAFE2] 
+6D462: PUSH RBP                       [55] 
+6D463: MOV RBP,RSI                    [4889F5] 
+6D466: PUSH RBX                       [53] 
+6D467: SUB RSP,0x8                    [4883EC08] 
+6D46B: TEST R12,R12                   [4D85E4] 
+6D560: ADD RSP,0x8                    [4883C408] 
+6D564: XOR EAX,EAX                    [31C0] 
+6D566: POP RBX                        [5B] 
+6D567: POP RBP                        [5D] 
+6D568: POP R12                        [415C] 
+6D56A: POP R13                        [415D] 
+
+========

@@ -1,0 +1,23 @@
+
+
+82D54: PUSH R14                       [4156] 
+82D56: PUSH R13                       [4155] 
+82D58: MOV R13,RDI                    [4989FD] 
+82D5B: PUSH R12                       [4154] 
+82D5D: PUSH RBP                       [55] 
+82D5E: PUSH RBX                       [53] 
+82D5F: MOV RBX,RSI                    [4889F3] 
+82D62: MOV RDI,RBX                    [4889DF] 
+82D65: SUB RSP,0x20                   [4883EC20] 
+82D69: MOV RSI,RSP                    [4889E6] 
+82A84: TEST RDI,RDI                   [4885FF] 
+82AF0: XOR EAX,EAX                    [31C0] 
+82D75: MOV RDX,[0x0036b8b8]           [488B153C8B2E00] 
+82D7C: MOV RBP,[0x00368ee0]           [488B2D5D612E00] 
+82D83: MOV R14,RAX                    [4989C6] 
+82D86: TEST RDX,RDX                   [4885D2] 
+82D89: MOV [RBP],RDX                  [48895500] 
+82D93: MOV RSI,RBX                    [4889DE] 
+82D96: MOV RDI,R13                    [4C89EF] 
+
+========

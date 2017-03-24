@@ -1,0 +1,12 @@
+
+
+11E1C4: PUSH R12                       [4154] 
+11E1C6: MOV R12,[0x0036de48]           [4C8B257BFC2400] 
+11E1CD: PUSH RBP                       [55] 
+11E1CE: TEST R12,R12                   [4D85E4] 
+11E1D1: PUSH RBX                       [53] 
+11E244: POP RBX                        [5B] 
+11E245: POP RBP                        [5D] 
+11E246: POP R12                        [415C] 
+
+========

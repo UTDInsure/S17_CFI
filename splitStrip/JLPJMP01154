@@ -1,0 +1,24 @@
+
+
+C4740: CMP EBX,[RSP + 0x54]           [3B5C2454] 
+C474A: MOVSXD RAX,EBX                 [4863C3] 
+C474D: MOV ECX,[0xd4 + RSP]           [8B8C24D4000000] 
+C4754: ADD RAX,[0x80 + RSP]           [4803842480000000] 
+C475C: MOV RSI,[RSP + 0x70]           [488B742470] 
+C4761: MOV R10,[RSP + 0x78]           [4C8B542478] 
+C4766: MOV R9D,[RSP + 0x54]           [448B4C2454] 
+C476B: MOVZX EDI,byte ptr [0x93 + RSP] [0FB6BC2493000000] 
+C4773: MOV R8D,[0x8c + RSP]           [448B84248C000000] 
+C4792: XOR EDX,EDX                    [31D2] 
+C4794: CMP R8D,EBX                    [4139D8] 
+C479C: TEST DIL,DIL                   [4084FF] 
+C47A6: CMP byte ptr [RSI + RDX*0x1],0x0 [803C1600] 
+C4780: SUB EBX,0x1                    [83EB01] 
+C4783: SUB RAX,0x1                    [4883E801] 
+C4787: CMP EBX,R9D                    [4439CB] 
+C4DEE: MOV R14,R12                    [4D89E6] 
+C4DF1: MOV [0xd4 + RSP],EBX           [899C24D4000000] 
+C4ABB: MOV RDI,[0x198 + RSP]          [488BBC2498010000] 
+C4AC3: MOV dword ptr [RSP + 0x44],0x1 [C744244401000000] 
+
+========

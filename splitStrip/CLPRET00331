@@ -1,0 +1,20 @@
+
+
+18704: PUSH RBX                       [53] 
+18705: MOV RBX,RDI                    [4889FB] 
+18708: MOV EDI,[RDI]                  [8B3F] 
+1870A: XOR EDX,EDX                    [31D2] 
+1870C: XOR ESI,ESI                    [31F6] 
+18CB4: MOV EAX,0x8                    [B808000000] 
+18CBB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+18CC4: LEA RCX,[0x223160]             [488D0D95A42000] 
+18CCB: NEG EAX                        [F7D8] 
+18CCD: MOV [RCX],EAX                  [8901] 
+18CCF: OR RAX,-0x1                    [4883C8FF] 
+18717: MOV dword ptr [RBX + 0x48],0x0 [48C7434800000000] 
+1871F: MOV dword ptr [RBX + 0x40],0x0 [48C7434000000000] 
+18727: MOV dword ptr [RBX + 0x38],0x0 [48C7433800000000] 
+1872F: MOV dword ptr [RBX + 0x50],0x0 [C7435000000000] 
+18736: POP RBX                        [5B] 
+
+========

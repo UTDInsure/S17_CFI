@@ -1,0 +1,8 @@
+
+
+11CC74: TEST RSI,RSI                   [4885F6] 
+11CC90: MOV RAX,[0x00368e68]           [488B05D1C12400] 
+11CC97: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+11CC9E: XOR EAX,EAX                    [31C0] 
+
+========

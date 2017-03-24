@@ -1,0 +1,23 @@
+
+
+4CA1B: MOV RDI,[-0x578 + RBP]         [488BBD88FAFFFF] 
+1F56F: MOV RAX,[RDI]                  [488B07] 
+1F572: MOV R8D,0x7fffffff             [41B8FFFFFF7F] 
+1F578: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+1F57B: SUB EAX,0x30                   [83E830] 
+1F57E: MOV RDX,[RDI]                  [488B17] 
+1F581: LEA RCX,[RDX + 0x1]            [488D4A01] 
+1F585: MOV [RDI],RCX                  [48890F] 
+1F588: MOVZX EDX,byte ptr [RDX + 0x1] [0FB65201] 
+1F58C: SUB EDX,0x30                   [83EA30] 
+1F58F: CMP EDX,0x9                    [83FA09] 
+4CA2B: CMP EAX,0x7fffffde             [3DDEFFFF7F] 
+4CA30: MOV [-0x500 + RBP],EAX         [898500FBFFFF] 
+484BB: MOV RAX,[0x00368e68]           [488B05A6093200] 
+484C2: MOV dword ptr FS:[RAX],0x4b    [64C7004B000000] 
+47F03: MOV dword ptr [-0x4a8 + RBP],0xffffffff [C78558FBFFFFFFFFFFFF] 
+47F0D: CMP dword ptr [-0x4f0 + RBP],0x0 [4883BD10FBFFFF00] 
+47F17: CMP dword ptr [-0x4c0 + RBP],0x0 [4883BD40FBFFFF00] 
+47F25: MOV RDI,[-0x4c0 + RBP]         [488BBD40FBFFFF] 
+
+========

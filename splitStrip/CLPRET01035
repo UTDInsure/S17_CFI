@@ -1,0 +1,7 @@
+
+
+414AE4: MOV RDX,[0x0062b168]           [488B157D662100] 
+414AEB: CMP [RDX],RDI                  [48393A] 
+414B29: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

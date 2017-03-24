@@ -1,0 +1,21 @@
+
+
+710F4: PUSH RBX                       [53] 
+710F5: XOR R9D,R9D                    [4531C9] 
+710F8: MOV RBX,RDI                    [4889FB] 
+710FB: MOV R8D,0xffffffff             [41B8FFFFFFFF] 
+71101: XOR EDI,EDI                    [31FF] 
+71103: MOV ECX,0x22                   [B922000000] 
+71108: MOV EDX,0x3                    [BA03000000] 
+7110D: MOV ESI,0x2000                 [BE00200000] 
+E0154: MOV R10,RCX                    [4989CA] 
+E0157: MOV EAX,0x9                    [B809000000] 
+E015E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E0167: MOV RCX,[0x00368e68]           [488B0DFA8C2800] 
+E016E: NEG EAX                        [F7D8] 
+E0170: MOV FS:[RCX],EAX               [648901] 
+E0173: OR RAX,-0x1                    [4883C8FF] 
+7111B: CMP RAX,-0x1                   [4883F8FF] 
+71141: POP RBX                        [5B] 
+
+========

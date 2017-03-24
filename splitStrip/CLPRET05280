@@ -1,0 +1,6 @@
+
+
+DCDF4: MOV EAX,0xab                   [B8AB000000] 
+DCDFB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

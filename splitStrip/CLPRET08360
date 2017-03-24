@@ -1,0 +1,26 @@
+
+
+240D4: PUSH R15                       [4157] 
+240D6: PUSH R14                       [4156] 
+240D8: PUSH R13                       [4155] 
+240DA: PUSH R12                       [4154] 
+240DC: PUSH RBP                       [55] 
+240DD: MOV EBP,ESI                    [89F5] 
+240DF: PUSH RBX                       [53] 
+240E0: MOV RBX,RDI                    [4889FB] 
+240E3: SUB RSP,0x38                   [4883EC38] 
+240E7: MOV R13,[0x0024a880]           [4C8B2D92672200] 
+240EE: MOV R10,[R13]                  [4D8B5500] 
+240F2: MOV RAX,[R10 + 0x20]           [498B4220] 
+240F6: CMP dword ptr [0x128 + RAX],0x0 [4883B82801000000] 
+24104: TEST EBP,EBP                   [85ED] 
+243FB: XOR EAX,EAX                    [31C0] 
+243FD: ADD RSP,0x38                   [4883C438] 
+24401: POP RBX                        [5B] 
+24402: POP RBP                        [5D] 
+24403: POP R12                        [415C] 
+24405: POP R13                        [415D] 
+24407: POP R14                        [415E] 
+24409: POP R15                        [415F] 
+
+========

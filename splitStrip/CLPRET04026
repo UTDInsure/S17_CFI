@@ -1,0 +1,20 @@
+
+
+96884: PUSH R14                       [4156] 
+96886: MOV R14D,EDI                   [4189FE] 
+96889: PUSH R13                       [4155] 
+9688B: PUSH R12                       [4154] 
+9688D: PUSH RBP                       [55] 
+9688E: PUSH RBX                       [53] 
+9688F: ADD RSP,-0x80                  [4883C480] 
+96893: CMP EDI,-0x1                   [83FFFF] 
+9689C: CMP EDI,0x7f                   [83FF7F] 
+9689F: MOV EAX,EDI                    [89F8] 
+968A3: SUB RSP,-0x80                  [4883EC80] 
+968A7: POP RBX                        [5B] 
+968A8: POP RBP                        [5D] 
+968A9: POP R12                        [415C] 
+968AB: POP R13                        [415D] 
+968AD: POP R14                        [415E] 
+
+========

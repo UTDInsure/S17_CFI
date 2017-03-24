@@ -1,0 +1,23 @@
+
+
+F4D84: PUSH R13                       [4155] 
+F4D86: MOV RAX,RDI                    [4889F8] 
+F4D89: MOV R13D,EDX                   [4189D5] 
+F4D8C: PUSH R12                       [4154] 
+F4D8E: MOV R12,RSI                    [4989F4] 
+F4D91: PUSH RBP                       [55] 
+F4D92: MOV RBP,RDI                    [4889FD] 
+F4D95: PUSH RBX                       [53] 
+F4D96: MOV EBX,0x4                    [BB04000000] 
+F4D9B: SUB RSP,0x8                    [4883EC08] 
+F4D9F: MOVZX R8D,byte ptr [RAX]       [440FB600] 
+F4DD4: TEST R8B,R8B                   [4584C0] 
+F4DD9: MOV [R12],RBP                  [49892C24] 
+F4DDD: XOR EAX,EAX                    [31C0] 
+F4DDF: ADD RSP,0x8                    [4883C408] 
+F4DE3: POP RBX                        [5B] 
+F4DE4: POP RBP                        [5D] 
+F4DE5: POP R12                        [415C] 
+F4DE7: POP R13                        [415D] 
+
+========

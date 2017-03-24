@@ -1,0 +1,20 @@
+
+
+B4964: PUSH R12                       [4154] 
+B4966: PUSH RBP                       [55] 
+B4967: PUSH RBX                       [53] 
+B4968: MOV RBX,RDI                    [4889FB] 
+B496B: SUB RSP,0x90                   [4881EC90000000] 
+B4972: CMP ESI,0x6                    [83FE06] 
+B49E0: TEST ESI,ESI                   [85F6] 
+B4A18: CMP byte ptr [RBX],0x0         [803B00] 
+B4A21: CMP ESI,0x14                   [83FE14] 
+B4B20: MOV RAX,[0x00368e68]           [488B0541432B00] 
+B4B27: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B4B32: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+B49A5: ADD RSP,0x90                   [4881C490000000] 
+B49AC: POP RBX                        [5B] 
+B49AD: POP RBP                        [5D] 
+B49AE: POP R12                        [415C] 
+
+========

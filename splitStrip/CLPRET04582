@@ -1,0 +1,19 @@
+
+
+BDDD4: TEST ESI,ESI                   [85F6] 
+BDDD8: MOV EAX,[RDI + 0x4]            [8B4704] 
+BDDDB: CMP ESI,EAX                    [39C6] 
+BDDDF: SUB EAX,0x1                    [83E801] 
+BDDE2: CMP ESI,EAX                    [39C6] 
+BDDE4: MOV [RDI + 0x4],EAX            [894704] 
+BDDE9: MOV RAX,[RDI + 0x8]            [488B4708] 
+BDDED: MOVSXD RDX,ESI                 [4863D6] 
+BDDF0: LEA RAX,[RAX + RDX*0x4 + 0x4]  [488D449004] 
+BDDF5: NOP                            [0F1F00] 
+BDDF8: MOV EDX,[RAX]                  [8B10] 
+BDDFA: ADD ESI,0x1                    [83C601] 
+BDDFD: ADD RAX,0x4                    [4883C004] 
+BDE01: MOV [RAX + -0x8],EDX           [8950F8] 
+BDE04: CMP ESI,[RDI + 0x4]            [3B7704] 
+
+========

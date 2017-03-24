@@ -1,0 +1,21 @@
+
+
+1E324: PUSH R15                       [4157] 
+1E326: MOV R15,RDI                    [4989FF] 
+1E329: PUSH R14                       [4156] 
+1E32B: PUSH R13                       [4155] 
+1E32D: PUSH R12                       [4154] 
+1E32F: PUSH RBP                       [55] 
+1E330: PUSH RBX                       [53] 
+1E331: SUB RSP,0x8                    [4883EC08] 
+1E335: TEST RDI,RDI                   [4885FF] 
+1E455: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1E446: ADD RSP,0x8                    [4883C408] 
+1E44A: POP RBX                        [5B] 
+1E44B: POP RBP                        [5D] 
+1E44C: POP R12                        [415C] 
+1E44E: POP R13                        [415D] 
+1E450: POP R14                        [415E] 
+1E452: POP R15                        [415F] 
+
+========

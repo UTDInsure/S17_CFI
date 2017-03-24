@@ -1,0 +1,26 @@
+
+
+87C64: PUSH RBX                       [53] 
+87C65: MOV R11D,0x1                   [41BB01000000] 
+87C6B: MOV R8D,0x1                    [41B801000000] 
+87C71: XOR R9D,R9D                    [4531C9] 
+87C74: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+87C7B: NOP                            [0F1F440000] 
+87C80: LEA RCX,[R8 + R9*0x1]          [4B8D0C08] 
+87C84: CMP RCX,RSI                    [4839F1] 
+87CB3: MOV [RDX],R11                  [4C891A] 
+87CB6: MOV EBX,0x1                    [BB01000000] 
+87CBB: MOV R8D,0x1                    [41B801000000] 
+87CC1: XOR R9D,R9D                    [4531C9] 
+87CC4: MOV R10,-0x1                   [49C7C2FFFFFFFF] 
+87CCB: NOP                            [0F1F440000] 
+87CD0: LEA RCX,[R8 + R9*0x1]          [4B8D0C08] 
+87CD4: CMP RSI,RCX                    [4839CE] 
+87D00: ADD R10,0x1                    [4983C201] 
+87D04: ADD RAX,0x1                    [4883C001] 
+87D08: CMP R10,RAX                    [4939C2] 
+87D0D: MOV [RDX],RBX                  [48891A] 
+87D10: MOV RAX,R10                    [4C89D0] 
+87D13: POP RBX                        [5B] 
+
+========

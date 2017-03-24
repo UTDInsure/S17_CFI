@@ -1,0 +1,6 @@
+
+
+1BF94: TEST RDI,RDI                   [4885FF] 
+1BF97: MOV EAX,0xf4240                [B840420F00] 
+
+========

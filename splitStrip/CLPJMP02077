@@ -1,0 +1,22 @@
+
+
+1A904: PUSH R14                       [4156] 
+1A906: XOR EAX,EAX                    [31C0] 
+1A908: PUSH R13                       [4155] 
+1A90A: PUSH R12                       [4154] 
+1A90C: PUSH RBP                       [55] 
+1A90D: MOV RBP,RDI                    [4889FD] 
+1A910: PUSH RBX                       [53] 
+1A911: SUB RSP,0x10                   [4883EC10] 
+1A915: CMP dword ptr [0x408 + RDI],-0x1 [83BF08040000FF] 
+1A91C: MOV R12,[0x510 + RDI]          [4C8BA710050000] 
+1A938: XOR EBX,EBX                    [31DB] 
+1A93A: MOV R14,RSP                    [4989E6] 
+1A93D: MOV R13D,0x3                   [41BD03000000] 
+1A943: NOP                            [0F1F440000] 
+1A948: MOV EDI,[RBP]                  [8B7D00] 
+1A94B: MOV RDX,R13                    [4C89EA] 
+1A94E: LEA RSI,[R14 + RBX*0x1]        [498D341E] 
+1A952: SUB RDX,RBX                    [4829DA] 
+
+========

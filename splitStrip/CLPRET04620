@@ -1,0 +1,18 @@
+
+
+BE7A4: PUSH RBP                       [55] 
+BE7A5: MOV RBP,RDI                    [4889FD] 
+BE7A8: PUSH RBX                       [53] 
+BE7A9: MOV RBX,RSI                    [4889F3] 
+BE7AC: SUB RSP,0x18                   [4883EC18] 
+BE7B0: MOV RDX,[RSI + 0x8]            [488B5608] 
+BE7B4: MOV dword ptr [RSP + 0xc],0x0  [C744240C00000000] 
+BE7BC: TEST RDX,RDX                   [4885D2] 
+BE7C7: MOV RDX,[RBX + 0x10]           [488B5310] 
+BE7CB: TEST RDX,RDX                   [4885D2] 
+BE7D6: MOV EAX,[RSP + 0xc]            [8B44240C] 
+BE7DA: ADD RSP,0x18                   [4883C418] 
+BE7DE: POP RBX                        [5B] 
+BE7DF: POP RBP                        [5D] 
+
+========

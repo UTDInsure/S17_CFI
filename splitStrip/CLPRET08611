@@ -1,0 +1,8 @@
+
+
+347C4: MOV RAX,[0x0024a880]           [488B05B5602100] 
+347CB: MOV RDI,[RAX]                  [488B38] 
+347CE: TEST RDI,RDI                   [4885FF] 
+34850: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

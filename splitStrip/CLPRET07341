@@ -1,0 +1,28 @@
+
+
+113DC4: SUB RSP,0x8                    [4883EC08] 
+113CD4: PUSH RBP                       [55] 
+113CD5: MOV RBP,RSI                    [4889F5] 
+113CD8: PUSH RBX                       [53] 
+113CD9: MOV RBX,RDI                    [4889FB] 
+113CDC: SUB RSP,0x18                   [4883EC18] 
+113CE0: MOV EDX,[RDI]                  [8B17] 
+113CE2: TEST EDX,EDX                   [85D2] 
+113CE6: XOR EAX,EAX                    [31C0] 
+113CE8: CMP EDX,0x2                    [83FA02] 
+113CEB: SETZ AL                        [0F94C0] 
+113CEE: CMP EDX,0x1                    [83FA01] 
+113D58: MOV RAX,[RDI + 0x8]            [488B4708] 
+113D5C: MOV RSI,RSP                    [4889E6] 
+113D65: TEST EAX,EAX                   [85C0] 
+113D69: MOV RAX,[RBX + 0x8]            [488B4308] 
+113D6D: LEA RSI,[RSP + 0x8]            [488D742408] 
+113D72: MOV RDI,RBX                    [4889DF] 
+113D7B: TEST EAX,EAX                   [85C0] 
+113D25: ADD RSP,0x18                   [4883C418] 
+113D29: XOR EAX,EAX                    [31C0] 
+113D2B: POP RBX                        [5B] 
+113D2C: POP RBP                        [5D] 
+113DD1: ADD RSP,0x8                    [4883C408] 
+
+========

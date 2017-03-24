@@ -1,0 +1,12 @@
+
+
+410884: MOV R9D,[0x006286c0]           [448B0D357E2100] 
+41088B: TEST R9D,R9D                   [4585C9] 
+4108B0: MOV RAX,[0x006286d8]           [488B05217E2100] 
+4108B7: MOVSXD RDI,EDI                 [4863FF] 
+4108BA: MOVSX EAX,byte ptr [RAX + RDI*0x1] [0FBE0438] 
+4108BE: MOV [RSI],EAX                  [8906] 
+4108C0: MOV RAX,[0x006286e0]           [488B05197E2100] 
+4108C7: MOVZX EAX,byte ptr [RAX + RDI*0x1] [0FB60438] 
+
+========

@@ -1,0 +1,26 @@
+
+
+DB104: PUSH R14                       [4156] 
+DB106: MOV RAX,RSI                    [4889F0] 
+DB109: SHR RAX,0x3f                   [48C1E83F] 
+DB10D: PUSH R13                       [4155] 
+DB10F: PUSH R12                       [4154] 
+DB111: PUSH RBP                       [55] 
+DB112: MOV RBP,RSI                    [4889F5] 
+DB115: PUSH RBX                       [53] 
+DB116: SUB RSP,0x120                  [4881EC20010000] 
+DB11D: TEST AL,AL                     [84C0] 
+DB140: MOV RAX,RDX                    [4889D0] 
+DB143: MOV R12,RDX                    [4989D4] 
+DB146: SHR RAX,0x3f                   [48C1E83F] 
+DB14A: TEST AL,AL                     [84C0] 
+DB121: MOV EBX,0x16                   [BB16000000] 
+DB126: ADD RSP,0x120                  [4881C420010000] 
+DB12D: MOV EAX,EBX                    [89D8] 
+DB12F: POP RBX                        [5B] 
+DB130: POP RBP                        [5D] 
+DB131: POP R12                        [415C] 
+DB133: POP R13                        [415D] 
+DB135: POP R14                        [415E] 
+
+========

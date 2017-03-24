@@ -1,0 +1,10 @@
+
+
+D7231: MOV EAX,0x3                    [B803000000] 
+D7238: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D7279: MOV RCX,[0x00368e68]           [488B0DE81B2900] 
+D7280: NEG EAX                        [F7D8] 
+D7282: MOV FS:[RCX],EAX               [648901] 
+D7285: OR RAX,-0x1                    [4883C8FF] 
+
+========

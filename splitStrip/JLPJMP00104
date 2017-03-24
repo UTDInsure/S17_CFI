@@ -1,0 +1,9 @@
+
+
+4072CC: MOV R8D,[0x00627bb0]           [448B05DD082200] 
+4072D3: TEST R8D,R8D                   [4585C0] 
+4072DC: CMP EBX,0xf                    [83FB0F] 
+40774C: MOV RDI,[0x00627ba8]           [488B3D55042200] 
+407753: TEST RDI,RDI                   [4885FF] 
+
+========

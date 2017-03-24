@@ -1,0 +1,23 @@
+
+
+409D8D: MOV EAX,0x1000                 [B800100000] 
+409D92: XOR [0x00628428],EAX           [310590E62100] 
+409D98: XOR EAX,EAX                    [31C0] 
+407F44: SUB RSP,0x8                    [4883EC08] 
+407F48: MOV EAX,[0x00628428]           [8B05DA042200] 
+407F4E: TEST AH,0x20                   [F6C420] 
+407FE0: AND EAX,0x1                    [83E001] 
+407FE3: CMP EAX,0x1                    [83F801] 
+407FE6: SBB EAX,EAX                    [19C0] 
+407FE8: AND EAX,0xfffffff6             [83E0F6] 
+407FEB: ADD EAX,0xf                    [83C00F] 
+407FEE: MOV [0x0062842c],EAX           [890538042200] 
+407F61: XOR EAX,EAX                    [31C0] 
+403F54: MOV ECX,[0x0062bb48]           [8B0DEE7B2200] 
+403F5A: PUSH RBX                       [53] 
+403F5B: MOV EDX,0x413de0               [BAE03D4100] 
+403F60: MOV ESI,0x1                    [BE01000000] 
+403F65: TEST ECX,ECX                   [85C9] 
+403F69: MOV RDI,[0x006279b0]           [488B3D403A2200] 
+
+========

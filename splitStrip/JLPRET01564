@@ -1,0 +1,13 @@
+
+
+BC41C: TEST AL,0x8                    [A808] 
+BC424: MOV RAX,[RSI + 0x20]           [488B4620] 
+BC428: MOV EDX,[RAX + 0x38]           [8B5038] 
+BC42B: MOV RAX,[RDI + 0x18]           [488B4718] 
+BC42F: MOV [RAX + R8*0x4],EDX         [42891480] 
+BC433: XOR EAX,EAX                    [31C0] 
+BC435: POP RBX                        [5B] 
+BC436: POP RBP                        [5D] 
+BC437: POP R12                        [415C] 
+
+========

@@ -1,0 +1,13 @@
+
+
+403E84: SUB RSP,0x8                    [4883EC08] 
+403E88: MOV EAX,[0x0062790c]           [8B057E3A2200] 
+403E8E: TEST AL,0x8                    [A808] 
+403E96: TEST AL,0x4                    [A804] 
+403E9A: TEST AL,0x2                    [A802] 
+403E9E: TEST AL,0x1                    [A801] 
+403EA2: MOV RDI,[0x00627968]           [488B3DBF3A2200] 
+403EA9: MOV EDX,0x413de0               [BAE03D4100] 
+403EAE: MOV ESI,0x1                    [BE01000000] 
+
+========

@@ -1,0 +1,14 @@
+
+
+6B7A4: OR byte ptr [RBX + 0xc],0x80   [804B0C80] 
+6B690: MOV EAX,[RDX + 0x4]            [8B4204] 
+6B693: LEA RCX,[RDX + 0x4]            [488D4A04] 
+6B697: TEST EAX,EAX                   [85C0] 
+6B69F: SUB EAX,0x20                   [83E820] 
+6B6A2: MOV RDX,RCX                    [4889CA] 
+6B6A5: MOV RDI,RCX                    [4889CF] 
+6B6A8: CMP EAX,0x29                   [83F829] 
+6B670: MOVSXD RAX,[R8 + RAX*0x4]      [49630480] 
+6B674: ADD RAX,R8                     [4C01C0] 
+
+========

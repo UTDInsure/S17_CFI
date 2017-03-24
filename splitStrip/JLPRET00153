@@ -1,0 +1,21 @@
+
+
+415304: MOV EDI,[0x0062bb14]           [8B3D0A682100] 
+41530A: XOR EAX,EAX                    [31C0] 
+41530C: MOV [RSP + 0x8],RSI            [4889742408] 
+414C74: TEST EDI,EDI                   [85FF] 
+414C76: MOV EAX,[0x0062ba70]           [8B05F46D2100] 
+414C7E: TEST EDI,EDI                   [85FF] 
+414C80: MOV EDX,0x1                    [BA01000000] 
+414C85: CMOVLE EDI,EDX                 [0F4EFA] 
+414C88: LEA EDX,[RAX + -0x1]           [8D50FF] 
+414C8B: CMP EDI,EAX                    [39C7] 
+414C8D: CMOVGE EDI,EDX                 [0F4DFA] 
+414C90: LEA EAX,[RDI + -0x1]           [8D47FF] 
+41531A: MOV RSI,[RSP + 0x8]            [488B742408] 
+41531F: MOV [RSI],EAX                  [8906] 
+415321: MOV RAX,RBX                    [4889D8] 
+4152D8: ADD RSP,0x10                   [4883C410] 
+4152DC: POP RBX                        [5B] 
+
+========

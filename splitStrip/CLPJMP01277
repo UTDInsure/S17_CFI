@@ -1,0 +1,10 @@
+
+
+E0F14: LEA RDI,[0x36c310]             [488D3DF5B32800] 
+E0F1B: SUB RSP,0x8                    [4883EC08] 
+E1064: TEST RDI,RDI                   [4885FF] 
+E1067: PUSH RBX                       [53] 
+E1068: MOV RBX,RDI                    [4889FB] 
+E106D: MOV RDI,[RDI]                  [488B3F] 
+
+========

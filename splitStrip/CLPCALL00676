@@ -1,0 +1,25 @@
+
+
+7BB84: PUSH R13                       [4155] 
+7BB86: PUSH R12                       [4154] 
+7BB88: PUSH RBP                       [55] 
+7BB89: PUSH RBX                       [53] 
+7BB8A: SUB RSP,0x18                   [4883EC18] 
+7BB8E: MOV RCX,[RSI]                  [488B0E] 
+7BB91: MOV RAX,[0x00368e60]           [488B05C8D22E00] 
+7BB98: MOV RBX,[RCX + 0x8]            [488B5908] 
+7BB9C: MOV R8,[RAX + 0x18]            [4C8B4018] 
+7BBA0: AND RBX,-0x8                   [4883E3F8] 
+7BBA4: LEA RAX,[RBX + -0x21]          [488D43DF] 
+7BBA8: CMP RAX,RDI                    [4839F8] 
+7BBAD: MOV RCX,R8                     [4C89C1] 
+7BBB0: SUB RAX,RDI                    [4829F8] 
+7BBB3: NEG RCX                        [48F7D9] 
+7BBB6: AND RAX,RCX                    [4821C8] 
+7BBB9: MOV RBP,RAX                    [4889C5] 
+7BBD0: MOV R12,[0x00368db8]           [4C8B25E1D12E00] 
+7BBD7: MOV [RSP],RSI                  [48893424] 
+7BBDB: XOR EDI,EDI                    [31FF] 
+7BBDD: MOV [RSP + 0x8],RDX            [4889542408] 
+
+========

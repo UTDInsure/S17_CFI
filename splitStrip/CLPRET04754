@@ -1,0 +1,8 @@
+
+
+CC5C4: MOVZX ECX,word ptr [RDI]       [0FB70F] 
+CC5C7: CMP CX,0x2                     [6683F902] 
+CC5CD: CMP CX,0xa                     [6683F90A] 
+CC5D1: MOV EAX,EDX                    [89D0] 
+
+========

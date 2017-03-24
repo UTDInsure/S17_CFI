@@ -1,0 +1,7 @@
+
+
+DAF84: CMP dword ptr [0x0036e774],0x0 [833DE937290000] 
+DAF91: MOV EAX,0x7                    [B807000000] 
+DAF98: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

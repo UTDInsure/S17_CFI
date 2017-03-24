@@ -1,0 +1,26 @@
+
+
+AE6B4: PUSH R13                       [4155] 
+AE6B6: MOV R13D,EDI                   [4189FD] 
+AE6B9: PUSH R12                       [4154] 
+AE6BB: PUSH RBP                       [55] 
+AE6BC: PUSH RBX                       [53] 
+AE6BD: SUB RSP,0x18                   [4883EC18] 
+AE6C1: CMP R13D,0x63                  [4183FD63] 
+AE6CB: MOV RAX,[0x350 + RSI]          [488B8650030000] 
+AE6D2: MOV R10D,[RAX]                 [448B10] 
+AE6D5: TEST R10D,R10D                 [4585D2] 
+AE6DE: MOV R9D,[0x0036e770]           [448B0D8B002C00] 
+AE6E5: TEST R9D,R9D                   [4585C9] 
+AE798: MOV [RSP + 0x8],RSI            [4889742408] 
+AE79D: MOV RAX,[0x0036e708]           [488B0564FF2B00] 
+AE7A4: LEA RDI,[0x36a940]             [488D3D95C12B00] 
+AE7AB: ROR RAX,0x11                   [48C1C811] 
+AE7AF: XOR RAX,FS:[0x30]              [644833042530000000] 
+AE7BE: MOV RSI,[RSP + 0x8]            [488B742408] 
+AE6EE: MOV R12,[RSI + 0x28]           [4C8B6628] 
+AE6F2: TEST R12,R12                   [4D85E4] 
+AE80F: MOV EDI,0x30                   [BF30000000] 
+AE814: MOV [RSP + 0x8],RSI            [4889742408] 
+
+========

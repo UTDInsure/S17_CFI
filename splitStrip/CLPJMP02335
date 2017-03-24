@@ -1,0 +1,10 @@
+
+
+2E564: PUSH R12                       [4154] 
+2E566: TEST RDI,RDI                   [4885FF] 
+2E569: PUSH RBP                       [55] 
+2E56A: PUSH RBX                       [53] 
+2E56B: MOV RBX,RDI                    [4889FB] 
+2E570: MOV R12D,ESI                   [4189F4] 
+
+========

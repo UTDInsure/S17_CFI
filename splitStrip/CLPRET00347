@@ -1,0 +1,8 @@
+
+
+189A4: CMP EDI,0x1                    [83FF01] 
+189A7: MOV RAX,RSI                    [4889F0] 
+189C8: MOV dword ptr [0x00223160],0x16 [C7058EA7200016000000] 
+189D2: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

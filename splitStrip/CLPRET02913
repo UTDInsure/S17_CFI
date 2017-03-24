@@ -1,0 +1,15 @@
+
+
+763C4: CMP EDX,0x1                    [83FA01] 
+763C9: CMP EDX,0x2                    [83FA02] 
+76400: MOV EAX,[RDI + 0xc]            [8B470C] 
+76403: TEST EAX,EAX                   [85C0] 
+76407: MOV RAX,[RDI + 0x20]           [488B4720] 
+7640B: SUB RAX,[RSI]                  [482B06] 
+763E3: TEST RAX,RAX                   [4885C0] 
+763E8: CMP RAX,[RDI + 0x10]           [483B4710] 
+763EE: MOV [RDI + 0x18],RAX           [48894718] 
+763F2: MOV [RSI],RAX                  [488906] 
+763F5: XOR EAX,EAX                    [31C0] 
+
+========

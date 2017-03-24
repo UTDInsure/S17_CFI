@@ -1,0 +1,19 @@
+
+
+38AC4: LEA RSI,[0x3695a8]             [488D35DD0A3300] 
+38ACB: SUB RSP,0x8                    [4883EC08] 
+38ACF: MOV EDX,0x1                    [BA01000000] 
+38994: PUSH R13                       [4155] 
+38996: PUSH R12                       [4154] 
+38998: MOV R12D,EDX                   [4189D4] 
+3899B: PUSH RBP                       [55] 
+3899C: MOV RBP,RSI                    [4889F5] 
+3899F: PUSH RBX                       [53] 
+389A0: MOV EBX,EDI                    [89FB] 
+389A2: SUB RSP,0x8                    [4883EC08] 
+39074: PUSH R12                       [4154] 
+39076: PUSH RBP                       [55] 
+39077: PUSH RBX                       [53] 
+39078: LEA RDI,[0x368d90]             [488D3D11FD3200] 
+
+========

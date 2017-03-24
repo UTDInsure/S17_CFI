@@ -1,0 +1,27 @@
+
+
+D6474: SUB RSP,0x18                   [4883EC18] 
+D6478: MOV ECX,EDX                    [89D1] 
+D647A: MOV RDX,RSI                    [4889F2] 
+D647D: LEA R8,[RSP + 0x8]             [4C8D442408] 
+D6482: MOV ESI,EDI                    [89FE] 
+D6484: OR CH,0x10                     [80CD10] 
+D6487: XOR EDI,EDI                    [31FF] 
+D6489: MOV dword ptr [RSP + 0x8],0x0  [48C744240800000000] 
+D65F4: TEST EDI,EDI                   [85FF] 
+D65F6: MOV R9D,ESI                    [4189F1] 
+D65F9: MOV RSI,RDX                    [4889D6] 
+D65FE: MOV R10,[R8]                   [4D8B10] 
+D6601: MOV EAX,R10D                   [4489D0] 
+D6604: CMP R10,RAX                    [4939C2] 
+D6609: MOV EDX,ECX                    [89CA] 
+D660B: MOVSXD RDI,R9D                 [4963F9] 
+D660E: MOV EAX,0x103                  [B803010000] 
+D6615: CMP RAX,0xfffff000             [483D00F0FFFF] 
+D6634: MOV RDX,[0x00368e68]           [488B152D282900] 
+D663B: NEG EAX                        [F7D8] 
+D663D: MOV FS:[RDX],EAX               [648902] 
+D6640: OR RAX,-0x1                    [4883C8FF] 
+D649B: ADD RSP,0x18                   [4883C418] 
+
+========

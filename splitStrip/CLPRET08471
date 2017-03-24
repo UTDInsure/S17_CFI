@@ -1,0 +1,12 @@
+
+
+2D184: PUSH RBX                       [53] 
+2D185: MOV RBX,[0x0024a8a0]           [488B1D14D72100] 
+2D18C: CMP byte ptr [RBX + 0x21],0x0  [807B2100] 
+2D192: TEST RDI,RDI                   [4885FF] 
+2D197: MOV [RBX + 0x28],RDI           [48897B28] 
+2D19B: MOV byte ptr [RBX + 0x20],0x1  [C6432001] 
+2D19F: MOV RAX,RDI                    [4889F8] 
+2D1A2: POP RBX                        [5B] 
+
+========

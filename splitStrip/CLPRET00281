@@ -1,0 +1,17 @@
+
+
+175F4: PUSH RBP                       [55] 
+175F5: MOV RBP,RDI                    [4889FD] 
+175F8: PUSH RBX                       [53] 
+175F9: SUB RSP,0x8                    [4883EC08] 
+175FD: MOV RBX,[0x00223118]           [488B1D14BB2000] 
+17604: TEST RBX,RBX                   [4885DB] 
+17609: MOV EAX,[0x002230f8]           [8B05E9BA2000] 
+1760F: TEST EAX,EAX                   [85C0] 
+17613: CMP RBP,0x0                    [4883FD00] 
+17630: ADD RSP,0x8                    [4883C408] 
+17634: MOV RAX,RBX                    [4889D8] 
+17637: POP RBX                        [5B] 
+17638: POP RBP                        [5D] 
+
+========

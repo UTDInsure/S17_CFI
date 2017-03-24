@@ -1,0 +1,10 @@
+
+
+75F04: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+75F0A: TEST EAX,EAX                   [85C0] 
+75F0E: MOV RDX,[0xa0 + RDI]           [488B97A0000000] 
+75F15: MOV RAX,[RDX + 0x38]           [488B4238] 
+75F19: SUB RAX,[RDX + 0x30]           [482B4230] 
+75F1D: SAR RAX,0x2                    [48C1F802] 
+
+========

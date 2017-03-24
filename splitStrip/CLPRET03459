@@ -1,0 +1,13 @@
+
+
+83794: MOV RAX,[RDI + 0x8]            [488B4708] 
+83798: TEST RAX,RAX                   [4885C0] 
+8379D: NOP                            [0F1F00] 
+837A0: CMP RSI,RAX                    [4839C6] 
+837AA: MOV RAX,[RAX + 0x8]            [488B4008] 
+837AE: TEST RAX,RAX                   [4885C0] 
+837A0: CMP RSI,RAX                    [4839C6] 
+837A5: CMP RSI,[RAX]                  [483B30] 
+837C0: MOV EAX,0x1                    [B801000000] 
+
+========

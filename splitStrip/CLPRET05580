@@ -1,0 +1,11 @@
+
+
+E3624: MOV RAX,-0x16                  [48C7C0EAFFFFFF] 
+E362B: TEST RDI,RDI                   [4885FF] 
+E3630: TEST RSI,RSI                   [4885F6] 
+E36A1: MOV RCX,[0x00368e68]           [488B0DC0572800] 
+E36A8: NEG EAX                        [F7D8] 
+E36AA: MOV FS:[RCX],EAX               [648901] 
+E36AD: OR RAX,-0x1                    [4883C8FF] 
+
+========

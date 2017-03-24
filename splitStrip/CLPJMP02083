@@ -1,0 +1,23 @@
+
+
+1ADB4: TEST RDI,RDI                   [4885FF] 
+1ADB9: MOV RAX,[0x0024a7a0]           [488B05E0F92200] 
+1ADC0: MOV RAX,[RAX]                  [488B00] 
+1ADC3: TEST RAX,RAX                   [4885C0] 
+1ADC8: SUB RSP,0x8                    [4883EC08] 
+1ADCC: MOV RDX,[0x510 + RAX]          [488B9010050000] 
+1ADD3: MOV RCX,[RDI]                  [488B0F] 
+1ADD6: MOV [RDX],RCX                  [48890A] 
+1ADD9: MOV RCX,[RDI + 0x8]            [488B4F08] 
+1ADDD: LEA RSI,[RDX + 0x18]           [488D7218] 
+1ADE1: MOV [RDX + 0x8],RCX            [48894A08] 
+1ADE5: MOV RCX,[RDI + 0x10]           [488B4F10] 
+1ADE9: LEA RDI,[0x4f8 + RAX]          [488DB8F8040000] 
+1ADF0: CMP RDX,RDI                    [4839FA] 
+1ADF3: MOV EDI,0x199                  [BF99010000] 
+1ADF8: MOV [RDX + 0x10],RCX           [48894A10] 
+1ADFC: LEA RCX,[0x450 + RAX]          [488D8850040000] 
+1AE03: CMOVC RCX,RSI                  [480F42CE] 
+1AE07: MOV [0x510 + RAX],RCX          [48898810050000] 
+
+========

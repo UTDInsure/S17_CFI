@@ -1,0 +1,8 @@
+
+
+36BD4: TEST RDI,RDI                   [4885FF] 
+36BD9: MOV ECX,[RDI + 0x78]           [8B4F78] 
+36BDC: TEST ECX,ECX                   [85C9] 
+36C00: XOR EAX,EAX                    [31C0] 
+
+========

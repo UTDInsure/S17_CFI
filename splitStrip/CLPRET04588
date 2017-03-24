@@ -1,0 +1,9 @@
+
+
+BDEB4: MOVZX EAX,byte ptr [RSI + 0x30] [0FB64630] 
+BDEB8: CMP AL,0xb                     [3C0B] 
+BDF08: MOV RAX,[RSI + 0x8]            [488B4608] 
+BDF0C: MOV [RAX + 0x20],RSI           [48897020] 
+BDF10: XOR EAX,EAX                    [31C0] 
+
+========

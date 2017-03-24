@@ -1,0 +1,13 @@
+
+
+DD134: MOVSXD RDX,EDI                 [4863D7] 
+DD137: MOV ESI,0x28121969             [BE69191228] 
+DD13C: MOV RDI,-0x11e2153             [48C7C7ADDEE1FE] 
+DD143: MOV EAX,0xa9                   [B8A9000000] 
+DD14A: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DD154: MOV RDX,[0x00368e68]           [488B150DBD2800] 
+DD15B: NEG EAX                        [F7D8] 
+DD15D: MOV FS:[RDX],EAX               [648902] 
+DD160: OR RAX,-0x1                    [4883C8FF] 
+
+========

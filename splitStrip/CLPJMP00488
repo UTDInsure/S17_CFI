@@ -1,0 +1,12 @@
+
+
+412BF4: SUB RSP,0x8                    [4883EC08] 
+412BF8: CMP DIL,0x1                    [4080FF01] 
+412BFE: MOV R8,[RSI]                   [4C8B06] 
+412C01: MOVSX ECX,DIL                  [400FBECF] 
+412C05: MOV EDX,0x41d140               [BA40D14100] 
+412C0A: MOV ESI,0x2a                   [BE2A000000] 
+412C0F: MOV EDI,0x62ac00               [BF00AC6200] 
+412C14: XOR EAX,EAX                    [31C0] 
+
+========

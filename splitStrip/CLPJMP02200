@@ -1,0 +1,28 @@
+
+
+22A34: PUSH R15                       [4157] 
+22A36: MOV R8D,ESI                    [4189F0] 
+22A39: MOV R15D,EDX                   [4189D7] 
+22A3C: PUSH R14                       [4156] 
+22A3E: MOV R14,RCX                    [4989CE] 
+22A41: PUSH R13                       [4155] 
+22A43: PUSH R12                       [4154] 
+22A45: PUSH RBP                       [55] 
+22A46: PUSH RBX                       [53] 
+22A47: MOV EBX,EDI                    [89FB] 
+22A49: SUB RSP,0x8                    [4883EC08] 
+22A4D: MOV R12,[0x0024a880]           [4C8B252C7E2200] 
+22A54: MOV RAX,[R12]                  [498B0424] 
+22A58: MOV RAX,[RAX + 0x20]           [488B4020] 
+22A5C: CMP dword ptr [0x350 + RAX],0x0 [4883B85003000000] 
+22CA8: CMP dword ptr [0xb0 + RAX],0x0 [4883B8B000000000] 
+22A6A: CMP dword ptr [0x370 + RAX],0x0 [4883B87003000000] 
+22BC8: CMP dword ptr [0x1a8 + RAX],0x0 [4883B8A801000000] 
+22A78: MOV R13,[0x0024a7a0]           [4C8B2D217D2200] 
+22A7F: XOR ECX,ECX                    [31C9] 
+22A81: MOV EDX,R8D                    [4489C2] 
+22A84: MOV RAX,[R13]                  [498B4500] 
+22A88: MOV ESI,[0x2e8 + RAX]          [8BB0E8020000] 
+22A8E: MOV EDI,[0x2e4 + RAX]          [8BB8E4020000] 
+
+========

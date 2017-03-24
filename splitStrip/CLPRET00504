@@ -1,0 +1,14 @@
+
+
+402744: MOVSX R8D,byte ptr [RSI]       [440FBE06] 
+402748: TEST R8B,R8B                   [4584C0] 
+40274D: XOR ECX,ECX                    [31C9] 
+402769: TEST EDX,EDX                   [85D2] 
+40276B: MOV EAX,ECX                    [89C8] 
+40276D: MOVSX R9D,byte ptr [RDI + RCX*0x1] [440FBE0C0F] 
+402774: TEST ECX,ECX                   [85C9] 
+402778: LEA R10D,[R9 + -0x61]          [458D519F] 
+40277C: CMP R10D,0x19                  [4183FA19] 
+4027B2: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

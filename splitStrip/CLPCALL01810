@@ -1,0 +1,11 @@
+
+
+11D1B4: MOV ESI,[0x0036e770]           [8B35B6152500] 
+11D1BA: XOR EAX,EAX                    [31C0] 
+11D1BC: TEST ESI,ESI                   [85F6] 
+11D1C8: SUB RSP,0x8                    [4883EC08] 
+11D1CC: MOV RAX,[0x0036e668]           [488B0595142500] 
+11D1D3: ROR RAX,0x11                   [48C1C811] 
+11D1D7: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

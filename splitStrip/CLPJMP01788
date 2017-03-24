@@ -1,0 +1,24 @@
+
+
+11D634: PUSH RBP                       [55] 
+11D635: PUSH RBX                       [53] 
+11D636: MOV RBX,RDI                    [4889FB] 
+11D639: SUB RSP,0x8                    [4883EC08] 
+11D63D: MOV RDI,[RDI + 0x20]           [488B7F20] 
+11D641: TEST RDI,RDI                   [4885FF] 
+11D64F: MOV RDI,[RBX + 0x30]           [488B7B30] 
+11D653: TEST RDI,RDI                   [4885FF] 
+11D634: PUSH RBP                       [55] 
+11D635: PUSH RBX                       [53] 
+11D636: MOV RBX,RDI                    [4889FB] 
+11D639: SUB RSP,0x8                    [4883EC08] 
+11D63D: MOV RDI,[RDI + 0x20]           [488B7F20] 
+11D641: TEST RDI,RDI                   [4885FF] 
+11D64F: MOV RDI,[RBX + 0x30]           [488B7B30] 
+11D653: TEST RDI,RDI                   [4885FF] 
+11D670: MOV RAX,[RBX + 0x18]           [488B4318] 
+11D674: MOV RBP,[RBX + 0x28]           [488B6B28] 
+11D678: CMP byte ptr [RAX],0x2f        [80382F] 
+11D67D: MOV RDI,RBX                    [4889DF] 
+
+========

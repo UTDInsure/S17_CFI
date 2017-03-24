@@ -1,0 +1,24 @@
+
+
+71844: CMP dword ptr [RDI + 0x60],0x0 [48837F6000] 
+7184B: MOV dword ptr [RDI + 0x60],0x0 [48C7476000000000] 
+71853: CMP dword ptr [RDI + 0x48],0x0 [48837F4800] 
+7185A: SUB RSP,0x8                    [4883EC08] 
+711E4: PUSH RBX                       [53] 
+711E5: MOV EAX,[RDI]                  [8B07] 
+711E7: MOV RBX,RDI                    [4889FB] 
+711EA: TEST AH,0x1                    [F6C401] 
+711EF: AND AH,0xfe                    [80E4FE] 
+711F2: MOV [RDI],EAX                  [8907] 
+711F4: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+711FB: MOV RDX,[RAX + 0x8]            [488B5008] 
+711FF: MOV RCX,[RAX + 0x50]           [488B4850] 
+71203: MOV RDI,[RAX + 0x10]           [488B7810] 
+71207: MOV [RAX + 0x50],RDX           [48895050] 
+7120B: MOV RDX,[RAX + 0x40]           [488B5040] 
+7120F: MOV [RAX + 0x8],RCX            [48894808] 
+71213: MOV [RAX + 0x40],RDI           [48897840] 
+71217: MOV [RAX + 0x10],RDX           [48895010] 
+7121B: MOV [RAX],RDX                  [488910] 
+
+========

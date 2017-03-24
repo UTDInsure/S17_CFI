@@ -1,0 +1,7 @@
+
+
+F0044: MOV ECX,[RDI + 0x8]            [8B4F08] 
+F0047: XOR EAX,EAX                    [31C0] 
+F0049: TEST ECX,ECX                   [85C9] 
+
+========

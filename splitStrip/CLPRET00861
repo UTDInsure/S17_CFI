@@ -1,0 +1,6 @@
+
+
+410A34: TEST RDI,RDI                   [4885FF] 
+410B7D: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+
+========

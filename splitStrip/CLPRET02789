@@ -1,0 +1,10 @@
+
+
+74104: MOV ECX,[RDI]                  [8B0F] 
+74106: MOV R8,RDI                     [4989F8] 
+74109: MOV EAX,ECX                    [89C8] 
+7410B: AND EAX,0x8000                 [2500800000] 
+741C8: AND ECX,0xffffffcf             [83E1CF] 
+741CB: MOV [RDI],ECX                  [890F] 
+
+========

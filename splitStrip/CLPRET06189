@@ -1,0 +1,16 @@
+
+
+EEAC4: PUSH RBP                       [55] 
+EEAC5: PUSH RBX                       [53] 
+EEAC6: MOV RBX,RSI                    [4889F3] 
+EEAC9: SUB RSP,0x8                    [4883EC08] 
+EEACD: MOV RAX,[RDI]                  [488B07] 
+EEAD0: MOV RBP,[RDI + 0x20]           [488B6F20] 
+EEAD4: TEST RAX,RAX                   [4885C0] 
+EEB20: CMP dword ptr [RDI + 0x8],0x0  [48837F0800] 
+EEB2C: TEST RBP,RBP                   [4885ED] 
+EEB5E: ADD RSP,0x8                    [4883C408] 
+EEB62: POP RBX                        [5B] 
+EEB63: POP RBP                        [5D] 
+
+========

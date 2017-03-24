@@ -1,0 +1,10 @@
+
+
+B40A4: MOV EAX,0x79                   [B879000000] 
+B40AB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B40B4: MOV RCX,[0x00368e68]           [488B0DAD4D2B00] 
+B40BB: NEG EAX                        [F7D8] 
+B40BD: MOV FS:[RCX],EAX               [648901] 
+B40C0: OR RAX,-0x1                    [4883C8FF] 
+
+========

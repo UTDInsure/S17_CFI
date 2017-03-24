@@ -1,0 +1,13 @@
+
+
+1E654: PUSH RBP                       [55] 
+1E655: PUSH RBX                       [53] 
+1E656: MOV RBX,RDI                    [4889FB] 
+1E659: SUB RSP,0x8                    [4883EC08] 
+1E65D: TEST RDI,RDI                   [4885FF] 
+1E6C4: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1E696: ADD RSP,0x8                    [4883C408] 
+1E69A: POP RBX                        [5B] 
+1E69B: POP RBP                        [5D] 
+
+========

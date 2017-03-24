@@ -1,0 +1,19 @@
+
+
+7B794: MOV RAX,[0x00368e60]           [488B05C5D62E00] 
+7B79B: PUSH R12                       [4154] 
+7B79D: PUSH RBP                       [55] 
+7B79E: LEA RBP,[RDI + RSI*0x1]        [488D2C37] 
+7B7A2: MOV RAX,[RAX + 0x18]           [488B4018] 
+7B7A6: PUSH RBX                       [53] 
+7B7A7: SUB RAX,0x1                    [4883E801] 
+7B7AB: CMP RBP,0x7fff                 [4881FDFF7F0000] 
+7B7B8: CMP RBP,0x4000000              [4881FD00000004] 
+7B8C8: CMP RDI,0x4000000              [4881FF00000004] 
+7B8CF: MOV EBP,0x4000000              [BD00000004] 
+7B8DA: XOR EAX,EAX                    [31C0] 
+7B83A: POP RBX                        [5B] 
+7B83B: POP RBP                        [5D] 
+7B83C: POP R12                        [415C] 
+
+========

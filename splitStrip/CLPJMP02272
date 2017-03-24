@@ -1,0 +1,26 @@
+
+
+2BCF4: PUSH R13                       [4155] 
+2BCF6: PUSH R12                       [4154] 
+2BCF8: MOV R12,RSI                    [4989F4] 
+2BCFB: PUSH RBP                       [55] 
+2BCFC: PUSH RBX                       [53] 
+2BCFD: SUB RSP,0x8                    [4883EC08] 
+2BD01: CMP EDX,0x1                    [83FA01] 
+2BD06: CMP EDX,0x2                    [83FA02] 
+2BD0B: TEST EDX,EDX                   [85D2] 
+2BD8E: CMP EDX,0x1                    [83FA01] 
+2BD9B: MOVZX EDX,word ptr [RDI + 0x3e] [0FB7573E] 
+2BD9F: MOVZX EAX,word ptr [RDI + 0x40] [0FB74740] 
+2BDA3: XOR EBX,EBX                    [31DB] 
+2BDA5: ADD EAX,EDX                    [01D0] 
+2BD64: MOVZX EBP,word ptr [RDI + 0x42] [0FB76F42] 
+2BD68: ADD EBP,EAX                    [01C5] 
+2BD15: CMP EBP,EBX                    [39DD] 
+2BD17: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2BD1E: MOV R13,[RDI + 0x30]           [4C8B6F30] 
+2BD2F: MOV EAX,EBX                    [89D8] 
+2BD31: MOV RDI,R12                    [4C89E7] 
+2BD34: MOV RSI,[R13 + RAX*0x8]        [498B74C500] 
+
+========

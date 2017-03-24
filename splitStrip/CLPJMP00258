@@ -1,0 +1,12 @@
+
+
+4065B4: PUSH R12                       [4154] 
+4065B6: MOV R12,RSI                    [4989F4] 
+4065B9: PUSH RBP                       [55] 
+4065BA: MOV RBP,RDI                    [4889FD] 
+4065BD: PUSH RBX                       [53] 
+4065BE: MOV RBX,[RDI + 0x8]            [488B5F08] 
+4065C2: CMP RDI,RBX                    [4839DF] 
+4065C7: MOV RDI,[RBX + 0x18]           [488B7B18] 
+
+========

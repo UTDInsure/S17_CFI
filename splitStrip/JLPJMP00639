@@ -1,0 +1,15 @@
+
+
+45290: MOV R8,R9                      [4D89C8] 
+45293: ADD R9,0x8                     [4983C108] 
+4521F: MOV R8,[R8]                    [4D8B00] 
+45222: MOV [RDI + 0x30],R8            [4C894730] 
+451B8: ADD RAX,0x1                    [4883C001] 
+451BC: CMP EDX,EAX                    [39C2] 
+45178: CMP EAX,0x5                    [83F805] 
+45181: MOV R8D,EAX                    [4189C0] 
+45184: MOVSXD R8,[RSI + R8*0x4]       [4E630486] 
+45188: ADD R8,RSI                     [4901F0] 
+4518B: CMP ECX,0x2f                   [83F92F] 
+
+========

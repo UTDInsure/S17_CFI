@@ -1,0 +1,24 @@
+
+
+403DB4: PUSH RBP                       [55] 
+403DB5: PUSH RBX                       [53] 
+403DB6: MOV EBX,EDI                    [89FB] 
+403DB8: SUB RSP,0x8                    [4883EC08] 
+403DBC: MOV EAX,[0x00625c60]           [8B059E1E2200] 
+403DC2: OR EAX,EDI                     [09F8] 
+403DC4: TEST DIL,0x20                  [40F6C720] 
+403DC8: CMOVNZ EBX,EAX                 [0F45D8] 
+403DCB: MOV EAX,EBX                    [89D8] 
+403DCD: OR EAX,0x8                     [83C808] 
+403DD0: TEST BL,0x40                   [F6C340] 
+403DD3: CMOVNZ EBX,EAX                 [0F45D8] 
+403DD6: MOV EBP,EBX                    [89DD] 
+403DD8: AND EBP,0xffffff9f             [83E59F] 
+403DDB: TEST BL,0x1                    [F6C301] 
+403DE4: TEST BL,0x2                    [F6C302] 
+403DE9: TEST BL,0x4                    [F6C304] 
+403E20: MOV RDI,[0x00627950]           [488B3D293B2200] 
+403E27: MOV EDX,0x413de0               [BAE03D4100] 
+403E2C: MOV ESI,0x1                    [BE01000000] 
+
+========

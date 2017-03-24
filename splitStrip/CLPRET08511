@@ -1,0 +1,6 @@
+
+
+2DF84: TEST RDI,RDI                   [4885FF] 
+2DF90: XOR EAX,EAX                    [31C0] 
+
+========

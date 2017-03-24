@@ -1,0 +1,24 @@
+
+
+EC3A4: PUSH R13                       [4155] 
+EC3A6: PUSH R12                       [4154] 
+EC3A8: MOV R12,RCX                    [4989CC] 
+EC3AB: PUSH RBP                       [55] 
+EC3AC: MOV RBP,RDI                    [4889FD] 
+EC3AF: MOV RDI,RDX                    [4889D7] 
+EC3B2: PUSH RBX                       [53] 
+EC3B3: SUB RSP,0x8                    [4883EC08] 
+EC3B7: MOV RAX,[RBP + 0x10]           [488B4510] 
+EC3BB: MOV EBX,[RSI + 0x18]           [8B5E18] 
+EC3BE: OR EBX,[RBP + 0x18]            [0B5D18] 
+EC3C1: TEST RAX,RAX                   [4885C0] 
+EC440: MOV RAX,[RSI + 0x10]           [488B4610] 
+EC444: TEST RAX,RAX                   [4885C0] 
+EC44D: ADD RSP,0x8                    [4883C408] 
+EC451: XOR EAX,EAX                    [31C0] 
+EC453: POP RBX                        [5B] 
+EC454: POP RBP                        [5D] 
+EC455: POP R12                        [415C] 
+EC457: POP R13                        [415D] 
+
+========

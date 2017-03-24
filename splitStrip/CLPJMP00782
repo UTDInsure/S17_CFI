@@ -1,0 +1,19 @@
+
+
+4F674: PUSH RBP                       [55] 
+4F675: PUSH RBX                       [53] 
+4F676: MOVSXD RBX,EDI                 [4863DF] 
+4F679: SUB RSP,0x18                   [4883EC18] 
+4F67D: CMP EBX,0xff                   [81FBFF000000] 
+4F689: MOV RBP,RSI                    [4889F5] 
+4F68C: XOR EAX,EAX                    [31C0] 
+4F68E: MOV ESI,0x1                    [BE01000000] 
+4F693: CMP dword ptr [0x0036e774],0x0 [833DDAF0310000] 
+4F6A8: CMPXCHG [0x0036b708],ESI       [0FB13559C03100] 
+4F6CF: MOV RAX,[0x0036e4c8]           [488B05F2ED3100] 
+4F6D6: TEST RAX,RAX                   [4885C0] 
+4F738: MOV ESI,0x10                   [BE10000000] 
+4F73D: MOV EDI,0x100                  [BF00010000] 
+4F742: MOV [RSP + 0x8],RDX            [4889542408] 
+
+========

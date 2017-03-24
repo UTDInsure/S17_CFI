@@ -1,0 +1,21 @@
+
+
+415D74: PUSH R14                       [4156] 
+415D76: PUSH R13                       [4155] 
+415D78: PUSH R12                       [4154] 
+415D7A: PUSH RBP                       [55] 
+415D7B: PUSH RBX                       [53] 
+415D7C: SUB RSP,0x10                   [4883EC10] 
+415D80: MOV EDX,[0x0062bac0]           [8B153A5D2100] 
+415D86: TEST EDX,EDX                   [85D2] 
+415D8E: TEST EDI,EDI                   [85FF] 
+415D90: MOV R14D,[0x0062b9f0]          [448B35595C2100] 
+415D99: TEST R14D,R14D                 [4585F6] 
+415E42: ADD RSP,0x10                   [4883C410] 
+415E46: POP RBX                        [5B] 
+415E47: POP RBP                        [5D] 
+415E48: POP R12                        [415C] 
+415E4A: POP R13                        [415D] 
+415E4C: POP R14                        [415E] 
+
+========

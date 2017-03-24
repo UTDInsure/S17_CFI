@@ -1,0 +1,21 @@
+
+
+2CD54: SUB RSP,0x8                    [4883EC08] 
+2CD58: SUB dword ptr [RSI + 0x30],0x1 [836E3001] 
+2CD5E: CMP dword ptr [RSI + 0x18],0x2 [837E1802] 
+2CD64: LEA RAX,[0x36e3a0]             [488D0535163400] 
+2CD6B: MOVSXD RDI,EDI                 [4863FF] 
+2CD6E: MOV RAX,[RAX + RDI*0x8]        [488B04F8] 
+2CD72: CMP [RAX + 0x10],RSI           [48397010] 
+2CD78: NOP                            [0F1F840000000000] 
+2CD80: MOV RAX,[RAX + 0x18]           [488B4018] 
+2CD84: CMP [RAX + 0x10],RSI           [48397010] 
+2CD8A: MOV dword ptr [RAX + 0x8],0x0  [C7400800000000] 
+2CD91: MOV dword ptr [RAX + 0x10],0x0 [48C7401000000000] 
+2CD99: MOV RDI,RSI                    [4889F7] 
+2D484: PUSH RBX                       [53] 
+2D485: MOV RAX,[RDI + 0x20]           [488B4720] 
+2D489: MOV RBX,RDI                    [4889FB] 
+2D48C: TEST RAX,RAX                   [4885C0] 
+
+========

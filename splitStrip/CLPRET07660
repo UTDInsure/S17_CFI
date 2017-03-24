@@ -1,0 +1,8 @@
+
+
+11A7F4: MOVSXD RDI,[0x003692f0]        [48633DF5EA2400] 
+11A7FB: TEST EDI,EDI                   [85FF] 
+11A7FF: MOV EAX,0x3                    [B803000000] 
+11A806: MOV dword ptr [0x003692f0],0xffffffff [C705E0EA2400FFFFFFFF] 
+
+========

@@ -1,0 +1,25 @@
+
+
+B2C84: PUSH R13                       [4155] 
+B2C86: PUSH R12                       [4154] 
+B2C88: PUSH RBP                       [55] 
+B2C89: PUSH RBX                       [53] 
+B2C8A: SUB RSP,0x1b8                  [4881ECB8010000] 
+B2C91: TEST EDI,EDI                   [85FF] 
+B2E0A: MOV EAX,FS:[0x308]             [648B042508030000] 
+B2E12: AND EAX,0xffffffb9             [83E0B9] 
+B2E15: CMP EAX,0x8                    [83F808] 
+B2E1E: MOV dword ptr FS:[0x630],-0x1  [6448C7042530060000FFFFFFFF] 
+B2E2B: LOCK                           [F0] 
+B2E2C: OR dword ptr FS:[0x308],0x10   [64830C250803000010] 
+B2E35: MOV RDI,FS:[0x300]             [64488B3C2500030000] 
+11D334: SUB RSP,0x8                    [4883EC08] 
+11D338: MOV R10D,[0x0036e770]          [448B1531142500] 
+11D33F: MOV RDX,RDI                    [4889FA] 
+11D342: TEST R10D,R10D                 [4585D2] 
+11D35D: MOV RAX,[0x0036e748]           [488B05E4132500] 
+11D364: MOV RDI,RDX                    [4889D7] 
+11D367: ROR RAX,0x11                   [48C1C811] 
+11D36B: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

@@ -1,0 +1,27 @@
+
+
+105E4: PUSH RBP                       [55] 
+105E5: MOV RBP,RDI                    [4889FD] 
+105E8: PUSH RBX                       [53] 
+105E9: MOV RBX,RSI                    [4889F3] 
+105EC: SUB RSP,0x8                    [4883EC08] 
+105F0: MOV RSI,[RSI + 0x8]            [488B7608] 
+19254: MOV AL,[RDI]                   [8A07] 
+19256: CMP AL,[RSI]                   [3A06] 
+1925A: INC RDI                        [48FFC7] 
+1925D: INC RSI                        [48FFC6] 
+19260: TEST AL,AL                     [84C0] 
+19254: MOV AL,[RDI]                   [8A07] 
+19256: CMP AL,[RSI]                   [3A06] 
+1925A: INC RDI                        [48FFC7] 
+1925D: INC RSI                        [48FFC6] 
+19260: TEST AL,AL                     [84C0] 
+19264: XOR EAX,EAX                    [31C0] 
+105FD: TEST EAX,EAX                   [85C0] 
+105FF: MOV EDX,0x1                    [BA01000000] 
+10639: ADD RSP,0x8                    [4883C408] 
+1063D: MOV EAX,EDX                    [89D0] 
+1063F: POP RBX                        [5B] 
+10640: POP RBP                        [5D] 
+
+========

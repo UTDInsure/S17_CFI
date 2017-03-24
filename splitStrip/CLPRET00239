@@ -1,0 +1,8 @@
+
+
+16E04: MOV R8,[0x00223140]            [4C8B0535C32000] 
+16E0B: MOV RSI,[R8]                   [498B30] 
+16E0E: TEST RSI,RSI                   [4885F6] 
+16E4C: XOR EAX,EAX                    [31C0] 
+
+========

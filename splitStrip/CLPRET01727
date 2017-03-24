@@ -1,0 +1,12 @@
+
+
+368A4: LEA ECX,[RSI + -0x1]           [8D4EFF] 
+368A7: MOV EAX,0x1                    [B801000000] 
+368AC: MOVSXD RDX,ECX                 [4863D1] 
+368AF: SHL RAX,CL                     [48D3E0] 
+368B2: SHR RDX,0x6                    [48C1EA06] 
+368B6: NOT RAX                        [48F7D0] 
+368B9: AND [RDI + RDX*0x8],RAX        [482104D7] 
+368BD: XOR EAX,EAX                    [31C0] 
+
+========

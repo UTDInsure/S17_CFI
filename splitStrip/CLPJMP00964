@@ -1,0 +1,12 @@
+
+
+85434: PUSH RBP                       [55] 
+85435: MOV RBP,RDI                    [4889FD] 
+85438: PUSH RBX                       [53] 
+85439: SUB RSP,0x8                    [4883EC08] 
+858A4: TEST RSI,RSI                   [4885F6] 
+858A9: XOR RAX,RAX                    [4831C0] 
+85446: LEA RDI,[RAX + 0x1]            [488D7801] 
+8544A: MOV RBX,RAX                    [4889C3] 
+
+========

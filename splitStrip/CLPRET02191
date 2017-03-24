@@ -1,0 +1,13 @@
+
+
+45DA4: MOV EAX,EDX                    [89D0] 
+45DA6: AND EAX,0x3                    [83E003] 
+45DCD: CMP EAX,0x2                    [83F802] 
+45DD2: MOV R9,[RSI]                   [4C8B0E] 
+45DD5: XOR EAX,EAX                    [31C0] 
+45DD7: SHRD RAX,R9,CL                 [4C0FADC8] 
+45DDB: SUB RDX,0x2                    [4883EA02] 
+45DF3: SHR R9,CL                      [49D3E9] 
+45DF6: MOV [RDI],R9                   [4C890F] 
+
+========

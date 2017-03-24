@@ -1,0 +1,14 @@
+
+
+EB344: XOR EAX,EAX                    [31C0] 
+EB346: TEST byte ptr [RDI + 0x18],0x8 [F6471808] 
+EB34A: MOV EDX,[RDI + 0x8]            [8B5708] 
+EB34F: LEA ECX,[RDX + -0x1]           [8D4AFF] 
+EB352: CMP ECX,0xfe                   [81F9FE000000] 
+EB35A: MOV RCX,[0x00368e00]           [488B0D9FDA2700] 
+EB361: MOVSXD RSI,EDX                 [4863F2] 
+EB364: MOV RCX,FS:[RCX]               [64488B09] 
+EB368: TEST byte ptr [RCX + RSI*0x2 + 0x1],0x40 [F644710140] 
+EB36D: CMOVNZ EAX,EDX                 [0F45C2] 
+
+========

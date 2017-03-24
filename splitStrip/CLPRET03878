@@ -1,0 +1,13 @@
+
+
+948F4: CMP RDI,RSI                    [4839F7] 
+948F9: TEST RDX,RDX                   [4885D2] 
+948FE: MOV RCX,[RCX + 0x70]           [488B4970] 
+94917: ADD RSI,0x1                    [4883C601] 
+9491B: MOVZX R9D,byte ptr [RDI]       [440FB60F] 
+9491F: MOVZX R8D,byte ptr [RSI + -0x1] [440FB646FF] 
+94924: MOVZX EAX,R9B                  [410FB6C1] 
+94928: MOV EAX,[RCX + RAX*0x4]        [8B0481] 
+9492B: SUB EAX,[RCX + R8*0x4]         [422B0481] 
+
+========

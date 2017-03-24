@@ -1,0 +1,6 @@
+
+
+361B4: MOV EAX,0x3e                   [B83E000000] 
+361BB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

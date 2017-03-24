@@ -1,0 +1,12 @@
+
+
+BCDE4: PUSH RBX                       [53] 
+BCDE5: MOV RBX,RDI                    [4889FB] 
+BCDE8: SUB RSP,0x10                   [4883EC10] 
+BCDEC: MOV EAX,[RDI + 0x34]           [8B4734] 
+BCDEF: CMP EAX,0x7fffffe              [3DFEFFFF07] 
+BCEB5: MOV EAX,0xc                    [B80C000000] 
+BCE6D: ADD RSP,0x10                   [4883C410] 
+BCE71: POP RBX                        [5B] 
+
+========

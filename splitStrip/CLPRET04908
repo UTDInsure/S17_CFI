@@ -1,0 +1,6 @@
+
+
+D6921: MOV EAX,0x2                    [B802000000] 
+D6928: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,7 @@
+
+
+F07F4: MOV R8D,[0x0036e770]           [448B0575DF2700] 
+F07FB: XOR EAX,EAX                    [31C0] 
+F07FD: TEST R8D,R8D                   [4585C0] 
+
+========

@@ -1,0 +1,21 @@
+
+
+DD624: MOV EAX,EDI                    [89F8] 
+DD626: MOV EDX,0x431bde83             [BA83DE1B43] 
+DD62B: SUB RSP,0x18                   [4883EC18] 
+DD62F: MUL EDX                        [F7E2] 
+DD631: XOR ESI,ESI                    [31F6] 
+DD633: SHR EDX,0x12                   [C1EA12] 
+DD636: MOV EAX,EDX                    [89D0] 
+DD638: IMUL EDX,EDX,0xf4240           [69D240420F00] 
+DD63E: MOV [RSP],RAX                  [48890424] 
+DD642: SUB EDI,EDX                    [29D7] 
+DD644: IMUL RDI,RDI,0x3e8             [4869FFE8030000] 
+DD64B: MOV [RSP + 0x8],RDI            [48897C2408] 
+DD650: MOV RDI,RSP                    [4889E7] 
+B2EC4: CMP dword ptr [0x0036e774],0x0 [833DA9B82B0000] 
+B2ED1: MOV EAX,0x23                   [B823000000] 
+B2ED8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DD65C: ADD RSP,0x18                   [4883C418] 
+
+========

@@ -1,0 +1,9 @@
+
+
+FFCE4: CMP RSI,RDX                    [4839D6] 
+FFCE9: CMP byte ptr [RSI],0x0         [803E00] 
+FFD10: ADD RSI,0x1                    [4883C601] 
+FFD14: XOR EAX,EAX                    [31C0] 
+FFD16: MOV [RDI],RSI                  [488937] 
+
+========

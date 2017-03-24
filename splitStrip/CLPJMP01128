@@ -1,0 +1,20 @@
+
+
+BC054: PUSH R15                       [4157] 
+BC056: PUSH R14                       [4156] 
+BC058: MOV R14,RDI                    [4989FE] 
+BC05B: PUSH R13                       [4155] 
+BC05D: MOV R13D,EDX                   [4189D5] 
+BC060: PUSH R12                       [4154] 
+BC062: PUSH RBP                       [55] 
+BC063: MOV RBP,RSI                    [4889F5] 
+BC066: PUSH RBX                       [53] 
+BC067: SUB RSP,0x8                    [4883EC08] 
+BC06B: MOV R15D,[RSI + 0xc]           [448B7E0C] 
+BC06F: MOV [RBP],EDX                  [895500] 
+BC072: MOV dword ptr [RSI + 0x1c],0x0 [C7461C00000000] 
+BC079: MOVSXD RDI,R15D                [4963FF] 
+BC07C: MOV [RSI + 0x18],R15D          [44897E18] 
+BC080: SHL RDI,0x2                    [48C1E702] 
+
+========

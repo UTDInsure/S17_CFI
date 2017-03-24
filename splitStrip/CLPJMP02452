@@ -1,0 +1,12 @@
+
+
+36D9C: SUB RSP,0x8                    [4883EC08] 
+12D64: CMP byte ptr [0x0024b5e0],0x0  [803D7588230000] 
+12D6D: PUSH RBP                       [55] 
+12D6E: CMP dword ptr [0x0024a898],0x0 [48833D227B230000] 
+12D76: MOV RBP,RSP                    [4889E5] 
+12D79: PUSH R12                       [4154] 
+12D7B: PUSH RBX                       [53] 
+12D7E: MOV RDI,[0x0024b160]           [488B3DDB832300] 
+
+========

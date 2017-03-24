@@ -1,0 +1,18 @@
+
+
+405D9C: MOVZX EDX,byte ptr [RBX + 0x1] [0FB65301] 
+405DA0: MOV EAX,R12D                   [4489E0] 
+405DA3: SHL EAX,0xc                    [C1E00C] 
+405DA6: MOVZX EAX,AX                   [0FB7C0] 
+405DA9: AND EDX,0x3f                   [83E23F] 
+405DAC: SHL EDX,0x6                    [C1E206] 
+405DAF: OR EAX,EDX                     [09D0] 
+405DB1: MOVZX EDX,byte ptr [RBX + 0x2] [0FB65302] 
+405DB5: POP RBX                        [5B] 
+405DB6: POP RBP                        [5D] 
+405DB7: POP R12                        [415C] 
+405DB9: AND EDX,0x3f                   [83E23F] 
+405DBC: OR EAX,EDX                     [09D0] 
+405DBE: CDQE                           [4898] 
+
+========

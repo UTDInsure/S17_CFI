@@ -1,0 +1,9 @@
+
+
+16CC4: TEST RDI,RDI                   [4885FF] 
+16CC7: PUSH RBX                       [53] 
+16CC8: MOV RBX,RDI                    [4889FB] 
+16D80: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+16D85: POP RBX                        [5B] 
+
+========

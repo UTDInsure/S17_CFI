@@ -1,0 +1,14 @@
+
+
+38F44: PUSH R13                       [4155] 
+38F46: MOV R13,RDX                    [4989D5] 
+38F49: PUSH R12                       [4154] 
+38F4B: MOV R12,RDI                    [4989FC] 
+38F4E: MOV EDI,0x1                    [BF01000000] 
+38F53: PUSH RBP                       [55] 
+38F54: MOV RBP,RSI                    [4889F5] 
+38F57: MOV ESI,0x20                   [BE20000000] 
+38F5C: PUSH RBX                       [53] 
+38F5D: SUB RSP,0x8                    [4883EC08] 
+
+========

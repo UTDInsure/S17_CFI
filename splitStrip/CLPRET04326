@@ -1,0 +1,20 @@
+
+
+B2994: MOV ECX,0x64                   [B964000000] 
+B2999: MOV RSI,RDI                    [4889FE] 
+B299C: MOV EAX,ECX                    [89C8] 
+B29A0: CMP RAX,0xfffff000             [483D00F0FFFF] 
+B29A6: MOV RDX,RAX                    [4889C2] 
+B29AB: CMP RAX,-0xe                   [4883F8F2] 
+B29BC: TEST RSI,RSI                   [4885F6] 
+B29C1: MOV RAX,[RSI]                  [488B06] 
+B29C4: MOV [RSI],RAX                  [488906] 
+B29C7: MOV RAX,[RSI + 0x8]            [488B4608] 
+B29CB: MOV [RSI + 0x8],RAX            [48894608] 
+B29CF: MOV RAX,[RSI + 0x10]           [488B4610] 
+B29D3: MOV [RSI + 0x10],RAX           [48894610] 
+B29D7: MOV RAX,[RSI + 0x18]           [488B4618] 
+B29DB: MOV [RSI + 0x18],RAX           [48894618] 
+B29DF: MOV RAX,-0xe                   [48C7C0F2FFFFFF] 
+
+========

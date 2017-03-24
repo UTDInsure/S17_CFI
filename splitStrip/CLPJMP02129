@@ -1,0 +1,13 @@
+
+
+1E654: PUSH RBP                       [55] 
+1E655: PUSH RBX                       [53] 
+1E656: MOV RBX,RDI                    [4889FB] 
+1E659: SUB RSP,0x8                    [4883EC08] 
+1E65D: TEST RDI,RDI                   [4885FF] 
+1E662: MOV RBP,[0x0024a7a0]           [488B2D37C12200] 
+1E669: MOV RAX,[RBP]                  [488B4500] 
+1E66D: MOV RAX,[RAX + 0x70]           [488B4070] 
+1E671: CMP RAX,RDI                    [4839F8] 
+
+========

@@ -1,0 +1,15 @@
+
+
+35284: MOVQ RAX,XMM0                  [66480F7EC0] 
+35289: MOV RCX,RAX                    [4889C1] 
+3528C: SAR RCX,0x34                   [48C1F934] 
+35290: AND ECX,0x7ff                  [81E1FF070000] 
+35296: SUB ECX,0x3ff                  [81E9FF030000] 
+3529C: CMP ECX,0x33                   [83F933] 
+352D0: CMP ECX,0x400                  [81F900040000] 
+352D6: MOVSD [RDI],XMM0               [F20F1107] 
+352DC: MOV RDX,-0x8000000000000000    [48BA0000000000000080] 
+352E6: AND RAX,RDX                    [4821D0] 
+352E9: MOVQ XMM0,RAX                  [66480F6EC0] 
+
+========

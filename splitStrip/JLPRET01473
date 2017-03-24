@@ -1,0 +1,9 @@
+
+
+B5812: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+B5694: ADD RSP,0x90                   [4881C490000000] 
+B569B: POP RBX                        [5B] 
+B569C: POP RBP                        [5D] 
+B569D: POP R12                        [415C] 
+
+========

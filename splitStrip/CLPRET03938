@@ -1,0 +1,8 @@
+
+
+95CF4: CMP RDX,0x3                    [4883FA03] 
+95CF8: MOV RAX,RDI                    [4889F8] 
+95CFB: LEA RCX,[RDI + -0x4]           [488D4FFC] 
+95D90: AND EDX,0x3                    [83E203] 
+
+========

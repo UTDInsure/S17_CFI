@@ -1,0 +1,6 @@
+
+
+E36D1: MOV EAX,0x8                    [B808000000] 
+E36D8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,8 @@
+
+
+16F44: SUB RSP,0x8                    [4883EC08] 
+16F48: MOV RAX,[0x0024a830]           [488B05E1382300] 
+16F4F: MOV RSI,RDI                    [4889FE] 
+16F52: MOV RDI,[RAX]                  [488B38] 
+
+========

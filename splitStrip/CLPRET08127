@@ -1,0 +1,8 @@
+
+
+1AF54: TEST RDI,RDI                   [4885FF] 
+1AF59: MOV R10D,[0x408 + RDI]         [448B9708040000] 
+1AF60: TEST R10D,R10D                 [4585D2] 
+1AF63: SETNZ AL                       [0F95C0] 
+
+========

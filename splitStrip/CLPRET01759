@@ -1,0 +1,16 @@
+
+
+36BD4: TEST RDI,RDI                   [4885FF] 
+36BD9: MOV ECX,[RDI + 0x78]           [8B4F78] 
+36BDC: TEST ECX,ECX                   [85C9] 
+36BE0: XOR EAX,EAX                    [31C0] 
+36BE2: NOP                            [660F1F440000] 
+36BE8: MOV EDX,[RDI + RAX*0x1 + 0x70] [8B540770] 
+36BEC: TEST EDX,EDX                   [85D2] 
+36BF0: SUB RAX,0x8                    [4883E808] 
+36BF4: CMP RAX,-0x78                  [4883F888] 
+36BE8: MOV EDX,[RDI + RAX*0x1 + 0x70] [8B540770] 
+36BEC: TEST EDX,EDX                   [85D2] 
+36C00: XOR EAX,EAX                    [31C0] 
+
+========

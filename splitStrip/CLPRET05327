@@ -1,0 +1,6 @@
+
+
+DD474: MOV EAX,0xa8                   [B8A8000000] 
+DD47B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

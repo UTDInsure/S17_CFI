@@ -1,0 +1,28 @@
+
+
+109F54: PUSH R15                       [4157] 
+109F56: PUSH R14                       [4156] 
+109F58: MOV R14,RDX                    [4989D6] 
+109F5B: PUSH R13                       [4155] 
+109F5D: MOV R13,RSI                    [4989F5] 
+109F60: PUSH R12                       [4154] 
+109F62: MOV R12,RDI                    [4989FC] 
+109F65: PUSH RBP                       [55] 
+109F66: PUSH RBX                       [53] 
+109F67: SUB RSP,0x28                   [4883EC28] 
+109F6B: MOV RDX,[0x0036df10]           [488B159E3F2600] 
+109F72: TEST RDX,RDX                   [4885D2] 
+109F7B: MOV RAX,[0x0036df08]           [488B05863F2600] 
+109F82: CMP RDX,-0x1                   [4883FAFF] 
+109F86: MOV [RSP + 0x18],RDX           [4889542418] 
+109F8B: MOV [RSP + 0x10],RAX           [4889442410] 
+10A04C: XOR EAX,EAX                    [31C0] 
+10A005: ADD RSP,0x28                   [4883C428] 
+10A009: POP RBX                        [5B] 
+10A00A: POP RBP                        [5D] 
+10A00B: POP R12                        [415C] 
+10A00D: POP R13                        [415D] 
+10A00F: POP R14                        [415E] 
+10A011: POP R15                        [415F] 
+
+========

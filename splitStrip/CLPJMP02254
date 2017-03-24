@@ -1,0 +1,20 @@
+
+
+2B304: PUSH R14                       [4156] 
+2B306: TEST RSI,RSI                   [4885F6] 
+2B309: PUSH R13                       [4155] 
+2B30B: MOV R13,RSI                    [4989F5] 
+2B30E: PUSH R12                       [4154] 
+2B310: PUSH RBP                       [55] 
+2B311: PUSH RBX                       [53] 
+2B318: MOVZX R8D,byte ptr [RSI]       [440FB606] 
+2B31C: TEST R8B,R8B                   [4584C0] 
+2B325: TEST EDX,EDX                   [85D2] 
+2B327: MOV R12D,EDX                   [4189D4] 
+2B330: MOV RBP,[RDI]                  [488B2F] 
+2B333: MOV R14,RDI                    [4989FE] 
+2B336: TEST RBP,RBP                   [4885ED] 
+2B491: MOV ESI,0x18                   [BE18000000] 
+2B496: MOV EDI,0x1                    [BF01000000] 
+
+========

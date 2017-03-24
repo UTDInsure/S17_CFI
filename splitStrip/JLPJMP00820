@@ -1,0 +1,11 @@
+
+
+54B4A: CMP dword ptr [-0x10c0 + RBP],0x0 [83BD40EFFFFF00] 
+54B57: MOV RAX,[0x00368e68]           [488B050A433100] 
+54B5E: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+5325B: MOV dword ptr [-0x1078 + RBP],0xffffffff [C78588EFFFFFFFFFFFFF] 
+53265: CMP dword ptr [-0x10b8 + RBP],0x0 [4883BD48EFFFFF00] 
+53273: TEST R12,R12                   [4D85E4] 
+5327C: MOV RDI,R12                    [4C89E7] 
+
+========

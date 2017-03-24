@@ -1,0 +1,15 @@
+
+
+81B74: TEST SIL,0x7                   [40F6C607] 
+81B78: MOV RCX,RSI                    [4889F1] 
+81B7B: MOV EAX,0x16                   [B816000000] 
+81B88: MOV RSI,RDX                    [4889D6] 
+81B8B: MOV RDX,RCX                    [4889CA] 
+81B8E: PUSH RBX                       [53] 
+81B8F: SHR RDX,0x3                    [48C1EA03] 
+81B93: MOV RBX,RDI                    [4889FB] 
+81B96: LEA RDI,[RDX + -0x1]           [488D7AFF] 
+81B9A: TEST RDI,RDX                   [4885D7] 
+81B9F: POP RBX                        [5B] 
+
+========

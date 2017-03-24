@@ -1,0 +1,12 @@
+
+
+2DC84: SUB RSP,0x8                    [4883EC08] 
+2DC88: MOV RAX,[0x00368dc0]           [488B0531B13300] 
+2DC8F: MOV RSI,FS:[RAX]               [64488B30] 
+2DCB4: MOV EDX,EDI                    [89FA] 
+2DCB6: LEA RAX,[0x134a16]             [488D05596D1000] 
+2DCBD: SAR EDX,0x10                   [C1FA10] 
+2DCC0: CMP EDX,0x6                    [83FA06] 
+2DC9C: ADD RSP,0x8                    [4883C408] 
+
+========

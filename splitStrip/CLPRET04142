@@ -1,0 +1,8 @@
+
+
+A1434: PUSH RBX                       [53] 
+A1435: MOV RBX,[RDI + 0x28]           [488B5F28] 
+A1439: TEST RBX,RBX                   [4885DB] 
+A147B: POP RBX                        [5B] 
+
+========

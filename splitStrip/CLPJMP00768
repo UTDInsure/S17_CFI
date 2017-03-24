@@ -1,0 +1,21 @@
+
+
+42A34: PUSH RBP                       [55] 
+42A35: MOV RBP,RSP                    [4889E5] 
+42A38: PUSH R15                       [4157] 
+42A3A: PUSH R14                       [4156] 
+42A3C: PUSH R13                       [4155] 
+42A3E: MOV R13,RDI                    [4989FD] 
+42A41: PUSH R12                       [4154] 
+42A43: PUSH RBX                       [53] 
+42A44: SUB RSP,0xc8                   [4881ECC8000000] 
+42A4B: TEST RDI,RDI                   [4885FF] 
+42A4E: MOV [-0xd8 + RBP],RSI          [4889B528FFFFFF] 
+42A5B: MOVZX EBX,byte ptr [RDI]       [0FB61F] 
+42A5E: TEST BL,BL                     [84DB] 
+42A66: MOV RAX,[-0xd8 + RBP]          [488B8528FFFFFF] 
+42A6D: TEST RAX,RAX                   [4885C0] 
+42A70: MOV RCX,RAX                    [4889C1] 
+42F06: MOV EDI,0x1000                 [BF00100000] 
+
+========

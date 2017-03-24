@@ -1,0 +1,21 @@
+
+
+14674: PUSH R15                       [4157] 
+14676: PUSH R14                       [4156] 
+14678: PUSH R13                       [4155] 
+1467A: PUSH R12                       [4154] 
+1467C: PUSH RBP                       [55] 
+1467D: PUSH RBX                       [53] 
+1467E: MOV RBX,RDI                    [4889FB] 
+14681: SUB RSP,0x18                   [4883EC18] 
+14685: TEST RDI,RDI                   [4885FF] 
+14C60: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+147DD: ADD RSP,0x18                   [4883C418] 
+147E1: POP RBX                        [5B] 
+147E2: POP RBP                        [5D] 
+147E3: POP R12                        [415C] 
+147E5: POP R13                        [415D] 
+147E7: POP R14                        [415E] 
+147E9: POP R15                        [415F] 
+
+========

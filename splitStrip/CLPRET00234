@@ -1,0 +1,14 @@
+
+
+16DC4: MOV RDX,[RDI]                  [488B17] 
+16DC7: MOV RAX,[RDX]                  [488B02] 
+16DCA: TEST RAX,RAX                   [4885C0] 
+16DCF: NOP                            [90] 
+16DD0: CMP byte ptr [RAX],0x4c        [80384C] 
+16DE4: CMP byte ptr [RAX + 0x1],0x44  [80780144] 
+16DD5: ADD RDX,0x8                    [4883C208] 
+16DD9: MOV RAX,[RDX]                  [488B02] 
+16DDC: TEST RAX,RAX                   [4885C0] 
+16DE1: XOR EAX,EAX                    [31C0] 
+
+========

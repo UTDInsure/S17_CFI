@@ -1,0 +1,6 @@
+
+
+AE044: CMP ESI,0x1                    [83FE01] 
+AE049: XOR EAX,EAX                    [31C0] 
+
+========

@@ -1,0 +1,27 @@
+
+
+2CDB4: PUSH R15                       [4157] 
+2CDB6: PUSH R14                       [4156] 
+2CDB8: PUSH R13                       [4155] 
+2CDBA: MOV R13,RDX                    [4989D5] 
+2CDBD: PUSH R12                       [4154] 
+2CDBF: PUSH RBP                       [55] 
+2CDC0: PUSH RBX                       [53] 
+2CDC1: SUB RSP,0x8                    [4883EC08] 
+2CDC5: CMP RDX,0x7                    [4883FA07] 
+2CDCF: CMP EDI,0x3                    [83FF03] 
+2CDD2: MOV EBX,EDI                    [89FB] 
+2CDD4: MOV R12,RSI                    [4989F4] 
+2CDD7: MOV EDX,[RSI]                  [8B16] 
+2CDD9: MOV EAX,0x20051017             [B817100520] 
+2CDF2: CMP EAX,EDX                    [39D0] 
+2CDFA: MOV R14D,[R12 + 0x4]           [458B742404] 
+2CDFF: LEA RAX,[0x11f2e0]             [488D05DA240F00] 
+2CE06: MOVSXD R15,EBX                 [4C63FB] 
+2CE09: MOV EBP,R14D                   [4489F5] 
+2CE0C: CMP RBP,[RAX + R15*0x8]        [4A3B2CF8] 
+2CE16: LEA RAX,[0x8 + RBP*0x4]        [488D04AD08000000] 
+2CE1E: CMP R13,RAX                    [4939C5] 
+2CE27: LEA RDI,[0x40 + RBP*0x8]       [488D3CED40000000] 
+
+========

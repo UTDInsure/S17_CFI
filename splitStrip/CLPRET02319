@@ -1,0 +1,9 @@
+
+
+69834: TEST RDI,RDI                   [4885FF] 
+69837: PUSH RBX                       [53] 
+69838: MOV RBX,RDI                    [4889FB] 
+69878: XOR EAX,EAX                    [31C0] 
+6987A: POP RBX                        [5B] 
+
+========

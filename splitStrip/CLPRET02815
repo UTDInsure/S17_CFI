@@ -1,0 +1,7 @@
+
+
+743F4: TEST dword ptr [RDI],0x2000    [F70700200000] 
+743FC: MOV EAX,[RDI + 0x70]           [8B4770] 
+743FF: TEST EAX,EAX                   [85C0] 
+
+========

@@ -1,0 +1,10 @@
+
+
+D8394: MOV R10,RCX                    [4989CA] 
+D8397: MOVSXD R8,R8D                  [4D63C0] 
+D839A: MOVSXD RDX,EDX                 [4863D2] 
+D839D: MOVSXD RDI,EDI                 [4863FF] 
+D83A0: MOV EAX,0x109                  [B809010000] 
+D83A7: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

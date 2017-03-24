@@ -1,0 +1,28 @@
+
+
+C3124: PUSH R15                       [4157] 
+C3126: MOV RAX,RSI                    [4889F0] 
+C3129: MOV R15,RDI                    [4989FF] 
+C312C: PUSH R14                       [4156] 
+C312E: PUSH R13                       [4155] 
+C3130: PUSH R12                       [4154] 
+C3132: PUSH RBP                       [55] 
+C3133: PUSH RBX                       [53] 
+C3134: SUB RSP,0xc8                   [4881ECC8000000] 
+C313B: MOV EBX,[RAX + 0x4]            [8B5804] 
+C313E: MOV [RSP + 0x58],RSI           [4889742458] 
+C3143: MOV RSI,[RDI + 0x70]           [488B7770] 
+C3147: TEST EBX,EBX                   [85DB] 
+C3149: MOV [RSP + 0x60],RSI           [4889742460] 
+C314E: MOV ESI,[RDI + 0x38]           [8B7738] 
+C3151: MOV [RSP + 0x14],ESI           [89742414] 
+C38D7: XOR EAX,EAX                    [31C0] 
+C3820: ADD RSP,0xc8                   [4881C4C8000000] 
+C3827: POP RBX                        [5B] 
+C3828: POP RBP                        [5D] 
+C3829: POP R12                        [415C] 
+C382B: POP R13                        [415D] 
+C382D: POP R14                        [415E] 
+C382F: POP R15                        [415F] 
+
+========

@@ -1,0 +1,8 @@
+
+
+977F4: TEST RSI,RSI                   [4885F6] 
+977FD: MOV R11D,[RDI]                 [448B1F] 
+97800: TEST R11D,R11D                 [4585DB] 
+97884: XOR EAX,EAX                    [31C0] 
+
+========

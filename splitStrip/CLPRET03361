@@ -1,0 +1,26 @@
+
+
+7FF64: PUSH R15                       [4157] 
+7FF66: PUSH R14                       [4156] 
+7FF68: MOV R14,RSI                    [4989F6] 
+7FF6B: PUSH R13                       [4155] 
+7FF6D: PUSH R12                       [4154] 
+7FF6F: PUSH RBP                       [55] 
+7FF70: MOV RBP,RDI                    [4889FD] 
+7FF73: PUSH RBX                       [53] 
+7FF74: SUB RSP,0x18                   [4883EC18] 
+7FF78: MOV RAX,[0x00368fd8]           [488B0559902E00] 
+7FF7F: MOV RAX,[RAX]                  [488B00] 
+7FF82: TEST RAX,RAX                   [4885C0] 
+8020B: MOV RDX,[RSP + 0x48]           [488B542448] 
+80216: MOV RSI,RAX                    [4889C6] 
+800AD: ADD RSP,0x18                   [4883C418] 
+800B1: MOV RAX,RSI                    [4889F0] 
+800B4: POP RBX                        [5B] 
+800B5: POP RBP                        [5D] 
+800B6: POP R12                        [415C] 
+800B8: POP R13                        [415D] 
+800BA: POP R14                        [415E] 
+800BC: POP R15                        [415F] 
+
+========

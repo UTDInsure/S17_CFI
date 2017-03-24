@@ -1,0 +1,10 @@
+
+
+10F774: MOV RAX,[0x90 + RDI]           [488B8790000000] 
+10F77B: MOV EAX,[RAX]                  [8B00] 
+10F77D: BSWAP EAX                      [0FC8] 
+10F77F: MOV EAX,EAX                    [89C0] 
+10F781: MOV [RDX],RAX                  [488902] 
+10F784: MOV EAX,0x1                    [B801000000] 
+
+========

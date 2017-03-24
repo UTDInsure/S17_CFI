@@ -1,0 +1,10 @@
+
+
+404E24: PUSH RBX                       [53] 
+404E25: MOV RBX,[0x006279d8]           [488B1DAC2B2200] 
+404E2C: TEST RBX,RBX                   [4885DB] 
+404E35: TEST byte ptr [0x824 + RBX],0x1 [F6832408000001] 
+404EE0: MOV dword ptr [0x848 + RBX],-0x1 [48C78348080000FFFFFFFF] 
+404EEB: POP RBX                        [5B] 
+
+========

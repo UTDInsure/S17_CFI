@@ -1,0 +1,10 @@
+
+
+40D224: PUSH RBX                       [53] 
+40D225: MOV ESI,EDI                    [89FE] 
+40D227: MOV EBX,EDI                    [89FB] 
+40D229: MOV EDI,0x1                    [BF01000000] 
+40D22E: SUB RSP,0x90                   [4881EC90000000] 
+40D235: MOV RDX,RSP                    [4889E2] 
+
+========

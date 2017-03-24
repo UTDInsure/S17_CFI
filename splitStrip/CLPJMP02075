@@ -1,0 +1,25 @@
+
+
+1A7A4: TEST RDI,RDI                   [4885FF] 
+1A7A7: PUSH RBX                       [53] 
+1A7A8: MOV RBX,RDI                    [4889FB] 
+1A7B1: CMP byte ptr [0x404 + RDI],0x0 [80BF0404000000] 
+1A7B8: MOV EAX,0x1                    [B801000000] 
+1A7C3: LEA RAX,[0x450 + RDI]          [488D8750040000] 
+1A7CA: MOV byte ptr [0x404 + RDI],0x1 [C6870404000001] 
+1A7D1: MOV [0x510 + RDI],RAX          [48898710050000] 
+1A7D8: XOR EAX,EAX                    [31C0] 
+1A7DA: NOP                            [660F1F440000] 
+1A7E0: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+1A7E5: MOV [0x450 + RBX + RAX*0x1],DX [6689940350040000] 
+1A7ED: ADD RAX,0x18                   [4883C018] 
+1A7F1: CMP RAX,0xc0                   [483DC0000000] 
+1A7F9: MOV RAX,[0x0024a880]           [488B0580002300] 
+1A800: MOV RDX,[RAX]                  [488B10] 
+1A803: MOV RAX,[RDX + 0x20]           [488B4220] 
+1A807: MOV RAX,[0xb18 + RAX]          [488B80180B0000] 
+1A80E: TEST RAX,RAX                   [4885C0] 
+1A898: MOV RDI,[RDX]                  [488B3A] 
+1A89B: LEA RSI,[0x36f4a]              [488D35A8C60100] 
+
+========

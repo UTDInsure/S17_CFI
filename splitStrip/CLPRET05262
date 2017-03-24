@@ -1,0 +1,8 @@
+
+
+DCAF4: CMP EDI,-0x1                   [83FFFF] 
+DCB30: MOV RAX,[0x00368e68]           [488B0531C32800] 
+DCB37: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DCB3E: MOV EAX,EDI                    [89F8] 
+
+========

@@ -1,0 +1,6 @@
+
+
+936B4: MOV byte ptr [RDI],0x0         [C60700] 
+936BB: MOV RAX,RDI                    [4889F8] 
+
+========

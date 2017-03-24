@@ -1,0 +1,23 @@
+
+
+40267F: CMP byte ptr [0x00627418],0x0  [803D924D220000] 
+402688: PUSH RBP                       [55] 
+402689: MOV EAX,0x623260               [B860326200] 
+40268E: SUB RAX,0x623258               [482D58326200] 
+402694: MOV RBP,RSP                    [4889E5] 
+402697: PUSH RBX                       [53] 
+402698: SAR RAX,0x3                    [48C1F803] 
+40269C: LEA RBX,[RAX + -0x1]           [488D58FF] 
+4026A0: PUSH RDX                       [52] 
+4026A1: MOV RDX,[0x00627420]           [488B15784D2200] 
+4026A8: CMP RDX,RBX                    [4839DA] 
+40260F: MOV EAX,0x6273f7               [B8F7736200] 
+402614: SUB RAX,0x6273f0               [482DF0736200] 
+40261A: CMP RAX,0xe                    [4883F80E] 
+402620: MOV EAX,0x0                    [B800000000] 
+402625: TEST RAX,RAX                   [4885C0] 
+40262A: PUSH RBP                       [55] 
+40262B: MOV EDI,0x6273f0               [BFF0736200] 
+402630: MOV RBP,RSP                    [4889E5] 
+
+========

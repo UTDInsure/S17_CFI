@@ -1,0 +1,21 @@
+
+
+E6814: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E681C: MOV RAX,[0x00368dc0]           [488B059D252800] 
+E6823: MOV RAX,FS:[RAX]               [64488B00] 
+E6827: MOV RAX,[RAX]                  [488B00] 
+E682A: MOV ESI,[0xc8 + RAX]           [8BB0C8000000] 
+E6830: LEA EDX,[RSI + 0x3]            [8D5603] 
+E6833: MOVZX EDX,DX                   [0FB7D2] 
+E6836: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E683B: MOV EAX,EDI                    [89F8] 
+E683D: MOV ECX,[RDX]                  [8B0A] 
+E683F: SHR EAX,CL                     [D3E8] 
+E6841: MOV ECX,EAX                    [89C1] 
+E6843: XOR EAX,EAX                    [31C0] 
+E6845: CMP ECX,[RDX + 0x4]            [3B4A04] 
+E684A: ADD ECX,0x5                    [83C105] 
+E684D: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+E6850: TEST ECX,ECX                   [85C9] 
+
+========

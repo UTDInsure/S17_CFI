@@ -1,0 +1,10 @@
+
+
+205F4: MOV RAX,[0x0024a7a0]           [488B05A5A12200] 
+205FB: MOV RAX,[RAX]                  [488B00] 
+205FE: TEST RAX,RAX                   [4885C0] 
+20603: MOV RDX,[0x308 + RAX]          [488B9008030000] 
+2060A: TEST RDX,RDX                   [4885D2] 
+20630: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

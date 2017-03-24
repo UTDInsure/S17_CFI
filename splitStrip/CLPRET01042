@@ -1,0 +1,19 @@
+
+
+414B44: MOV EDX,[0x0062ba70]           [8B15266F2100] 
+414B4A: TEST EDX,EDX                   [85D2] 
+414B4E: MOV RAX,[0x0062b168]           [488B0513662100] 
+414B55: MOV RDI,[RAX]                  [488B38] 
+414B58: LEA RCX,[RDI + 0x1]            [488D4F01] 
+414B5C: CMP RCX,0x1                    [4883F901] 
+414B62: ADD RAX,0x8                    [4883C008] 
+414B66: SUB EDX,0x1                    [83EA01] 
+414B69: LEA RCX,[RAX + RDX*0x8]        [488D0CD0] 
+414B81: CMP RAX,RCX                    [4839C8] 
+414B70: MOV RSI,[RAX]                  [488B30] 
+414B73: ADD RAX,0x8                    [4883C008] 
+414B77: LEA RDX,[RSI + 0x1]            [488D5601] 
+414B7B: CMP RDX,0x1                    [4883FA01] 
+414B90: XOR EAX,EAX                    [31C0] 
+
+========

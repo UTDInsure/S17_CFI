@@ -1,0 +1,21 @@
+
+
+BC3BC: MOV RAX,[RSI + 0x20]           [488B4620] 
+BC3C0: MOV RDX,[RDI + 0x18]           [488B5718] 
+BC3C4: MOV EAX,[RAX + 0x38]           [8B4038] 
+BC3C7: MOV [RDX + R8*0x4],EAX         [42890482] 
+BC3CB: CMP byte ptr [RSI + 0x30],0x4  [807E3004] 
+BC3D5: SHL R8,0x4                     [49C1E004] 
+BC3D9: ADD R8,[RDI + 0x28]            [4C034728] 
+BC3DD: MOV ESI,EAX                    [89C6] 
+BC3DF: MOV RDI,R8                     [4C89C7] 
+BC004: PUSH RBP                       [55] 
+BC005: MOV EBP,ESI                    [89F5] 
+BC007: PUSH RBX                       [53] 
+BC008: MOV RBX,RDI                    [4889FB] 
+BC00B: SUB RSP,0x8                    [4883EC08] 
+BC00F: MOV dword ptr [RDI],0x1        [C70701000000] 
+BC015: MOV dword ptr [RDI + 0x4],0x1  [C7470401000000] 
+BC01C: MOV EDI,0x4                    [BF04000000] 
+
+========

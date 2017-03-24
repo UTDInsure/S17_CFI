@@ -1,0 +1,13 @@
+
+
+71614: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+7161B: PUSH RBX                       [53] 
+7161C: MOV RBX,RDI                    [4889FB] 
+7161F: MOV RDX,[RAX]                  [488B10] 
+71622: CMP RDX,[RAX + 0x10]           [483B5010] 
+71640: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+71647: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+71632: CMP EAX,-0x1                   [83F8FF] 
+7163A: POP RBX                        [5B] 
+
+========

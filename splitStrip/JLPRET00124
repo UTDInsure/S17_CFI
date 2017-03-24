@@ -1,0 +1,24 @@
+
+
+407579: MOV RAX,[0x00627bc0]           [488B0540062200] 
+407580: MOV dword ptr [0x00627bb0],0x0 [C7052606220000000000] 
+40758A: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+40758D: CMP AL,0x20                    [3C20] 
+407591: TEST AL,0xdf                   [A8DF] 
+407599: NOP                            [0F1F8000000000] 
+4075A0: XOR EAX,EAX                    [31C0] 
+406BD4: MOV RAX,[0x00627bc0]           [488B05E50F2200] 
+406BDB: CMP byte ptr [RAX],0x0         [803800] 
+406BE0: XOR EAX,EAX                    [31C0] 
+4075AB: MOV RAX,[0x00627bc0]           [488B050E062200] 
+4075B2: TEST byte ptr [RAX],0xdf       [F600DF] 
+4075B7: XOR EAX,EAX                    [31C0] 
+407112: ADD RSP,0x28                   [4883C428] 
+407116: POP RBX                        [5B] 
+407117: POP RBP                        [5D] 
+407118: POP R12                        [415C] 
+40711A: POP R13                        [415D] 
+40711C: POP R14                        [415E] 
+40711E: POP R15                        [415F] 
+
+========

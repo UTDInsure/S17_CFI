@@ -1,0 +1,22 @@
+
+
+DC054: SUB RSP,0x8                    [4883EC08] 
+DC058: TEST ESI,ESI                   [85F6] 
+DC05C: ADD ESI,0x63                   [83C663] 
+DC05F: MOV EDX,0x51eb851f             [BA1F85EB51] 
+DC064: MOV EAX,ESI                    [89F0] 
+DC066: SAR ESI,0x1f                   [C1FE1F] 
+DC069: IMUL EDX                       [F7EA] 
+DC06B: XOR EAX,EAX                    [31C0] 
+DC06D: SAR EDX,0x5                    [C1FA05] 
+DC070: SUB EDX,ESI                    [29F2] 
+DC072: MOV ESI,0x5425                 [BE25540000] 
+DC744: MOV EAX,0x10                   [B810000000] 
+DC74B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DC754: MOV RCX,[0x00368e68]           [488B0D0DC72800] 
+DC75B: NEG EAX                        [F7D8] 
+DC75D: MOV FS:[RCX],EAX               [648901] 
+DC760: OR RAX,-0x1                    [4883C8FF] 
+DC080: ADD RSP,0x8                    [4883C408] 
+
+========

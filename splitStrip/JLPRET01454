@@ -1,0 +1,11 @@
+
+
+B562B: MOV RAX,[0x00368e68]           [488B0536382B00] 
+B5632: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B5639: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+B4E30: ADD RSP,0x30                   [4883C430] 
+B4E34: POP RBX                        [5B] 
+B4E35: POP RBP                        [5D] 
+B4E36: POP R12                        [415C] 
+
+========

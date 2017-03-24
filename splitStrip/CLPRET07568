@@ -1,0 +1,7 @@
+
+
+118FE4: MOV RAX,[0x00368e68]           [488B057DFE2400] 
+118FEB: MOV dword ptr FS:[RAX],0x26    [64C70026000000] 
+118FF2: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

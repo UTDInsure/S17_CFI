@@ -1,0 +1,9 @@
+
+
+E6814: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E6898: SUB EDI,0x30                   [83EF30] 
+E689B: XOR EAX,EAX                    [31C0] 
+E689D: CMP EDI,0x9                    [83FF09] 
+E68A0: SETBE AL                       [0F96C0] 
+
+========

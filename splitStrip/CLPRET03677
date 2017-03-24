@@ -1,0 +1,21 @@
+
+
+8EF14: PUSH RBP                       [55] 
+8EF15: MOV RBP,RDI                    [4889FD] 
+8EF18: PUSH RBX                       [53] 
+8EF19: SUB RSP,0x8                    [4883EC08] 
+8EF1D: MOV RBX,[RDI]                  [488B1F] 
+8EF20: TEST RBX,RBX                   [4885DB] 
+8EF25: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+8EF28: TEST AL,AL                     [84C0] 
+8EF2C: CMP byte ptr [RSI + 0x1],0x0   [807E0100] 
+8EF60: MOVZX EDX,byte ptr [RBX]       [0FB613] 
+8EF63: CMP AL,DL                      [38D0] 
+8EF67: TEST DL,DL                     [84D2] 
+8EF6B: MOV dword ptr [RBP],0x0        [48C7450000000000] 
+8EF73: ADD RSP,0x8                    [4883C408] 
+8EF77: MOV RAX,RBX                    [4889D8] 
+8EF7A: POP RBX                        [5B] 
+8EF7B: POP RBP                        [5D] 
+
+========

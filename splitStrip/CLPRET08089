@@ -1,0 +1,18 @@
+
+
+1A434: MOV RAX,[0x0024a7a0]           [488B0565032300] 
+1A43B: MOV RDX,[0x510 + RDI]          [488B9710050000] 
+1A442: MOV R11,[RAX]                  [4C8B18] 
+1A445: LEA R10,[RDX + -0x18]          [4C8D52E8] 
+1A449: LEA R8,[0x450 + R11]           [4D8D8350040000] 
+1A450: ADD R11,0x4f8                  [4981C3F8040000] 
+1A457: CMP RDX,R8                     [4C39C2] 
+1A45A: CMOVBE R10,R11                 [4D0F46D3] 
+1A45E: CMP ESI,0x1                    [83FE01] 
+1A463: XOR EAX,EAX                    [31C0] 
+1A465: CMP word ptr [R10],0x0         [6641833A00] 
+1A470: MOV RAX,[0x440 + RDI]          [488B8740040000] 
+1A477: TEST [R10 + 0x10],RAX          [49854210] 
+1A47B: SETNZ AL                       [0F95C0] 
+
+========

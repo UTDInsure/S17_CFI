@@ -1,0 +1,20 @@
+
+
+B83E4: PUSH RBP                       [55] 
+B83E5: MOV RBP,RDI                    [4889FD] 
+B83E8: PUSH RBX                       [53] 
+B83E9: MOV RBX,RDI                    [4889FB] 
+B83EC: SUB RSP,0x8                    [4883EC08] 
+B83F0: MOVZX EDX,byte ptr [RBX + 0x1] [0FB65301] 
+B83F4: TEST DL,DL                     [84D2] 
+B83F8: CMP DL,0x5b                    [80FA5B] 
+B83FD: LEA ECX,[RDX + -0x3f]          [8D4AC1] 
+B8400: CMP CL,0x1                     [80F901] 
+B8440: CMP byte ptr [RBX + 0x2],0x28  [807B0228] 
+B8412: CMP DL,0x29                    [80FA29] 
+B84F4: ADD RSP,0x8                    [4883C408] 
+B84F8: LEA RAX,[RBX + 0x2]            [488D4302] 
+B84FC: POP RBX                        [5B] 
+B84FD: POP RBP                        [5D] 
+
+========

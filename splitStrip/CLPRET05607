@@ -1,0 +1,9 @@
+
+
+E3944: MOVSXD R10,EDX                 [4C63D2] 
+E3947: MOVSXD RDI,EDI                 [4863FF] 
+E394A: MOV EDX,0x8                    [BA08000000] 
+E394F: MOV EAX,0x121                  [B821010000] 
+E3956: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

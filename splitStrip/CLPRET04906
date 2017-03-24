@@ -1,0 +1,7 @@
+
+
+D6914: CMP dword ptr [0x0036e774],0x0 [833D597E290000] 
+D6921: MOV EAX,0x2                    [B802000000] 
+D6928: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

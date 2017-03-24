@@ -1,0 +1,6 @@
+
+
+E37E4: MOV EAX,0x7b                   [B87B000000] 
+E37EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

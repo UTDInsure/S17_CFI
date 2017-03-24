@@ -1,0 +1,17 @@
+
+
+A2C04: SUB RSP,0x18                   [4883EC18] 
+A2C08: MOV EDI,0x2                    [BF02000000] 
+A2C0D: MOV RSI,RSP                    [4889E6] 
+F0F74: SUB RSP,0x8                    [4883EC08] 
+F0F78: MOV RAX,[0x00368e18]           [488B05997E2700] 
+F0F7F: MOV RAX,[RAX]                  [488B00] 
+F0F82: ROR RAX,0x11                   [48C1C811] 
+F0F86: XOR RAX,FS:[0x30]              [644833042530000000] 
+F0F95: CMP RAX,0xfffff000             [483D00F0FFFF] 
+F0FAE: ADD RSP,0x8                    [4883C408] 
+A2C19: TEST EAX,EAX                   [85C0] 
+A2C51: OR RAX,-0x1                    [4883C8FF] 
+A2C4C: ADD RSP,0x18                   [4883C418] 
+
+========

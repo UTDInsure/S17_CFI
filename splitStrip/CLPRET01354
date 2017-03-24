@@ -1,0 +1,11 @@
+
+
+2BB74: SUB RSP,0x8                    [4883EC08] 
+2BB78: MOV [0x0036a928],RDI           [48893DA9ED3300] 
+2BB7F: MOV RDI,[0x0036a930]           [488B3DAAED3300] 
+2BB86: LEA RSI,[0x2bae0]              [488D3553FFFFFF] 
+E1B24: TEST RDI,RDI                   [4885FF] 
+E1B30: TEST RSI,RSI                   [4885F6] 
+2BB96: ADD RSP,0x8                    [4883C408] 
+
+========

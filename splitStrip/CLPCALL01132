@@ -1,0 +1,20 @@
+
+
+F4C54: SUB RSP,0x8                    [4883EC08] 
+F4C58: MOV ESI,0x1                    [BE01000000] 
+F4C5D: XOR EAX,EAX                    [31C0] 
+F4C5F: CMP dword ptr [0x0036e774],0x0 [833D0E9B270000] 
+F4C68: LOCK                           [F0] 
+F4C69: CMPXCHG [0x0036d1b8],ESI       [0FB13548852700] 
+F4C9B: CMP dword ptr [0x0036d1d0],0x0 [48833D2D85270000] 
+F4CE8: LEA RDI,[0x136f0b]             [488D3D1C220400] 
+F4CEF: MOV ESI,0x80000001             [BE01000080] 
+11C484: SUB RSP,0x28                   [4883EC28] 
+11C488: MOV RAX,[RSP + 0x28]           [488B442428] 
+11C48D: MOV [RSP],RDI                  [48893C24] 
+11C491: MOV [RSP + 0x8],ESI            [89742408] 
+11C495: MOV [RSP + 0x10],RAX           [4889442410] 
+11C49A: MOV RAX,[0x0036e340]           [488B059F1E2500] 
+11C4A1: TEST RAX,RAX                   [4885C0] 
+
+========

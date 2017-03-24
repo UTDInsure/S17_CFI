@@ -1,0 +1,21 @@
+
+
+EE954: PUSH RBP                       [55] 
+EE955: PUSH RBX                       [53] 
+EE956: MOV RBX,RDI                    [4889FB] 
+EE959: SUB RSP,0xe8                   [4881ECE8000000] 
+EE960: TEST AL,AL                     [84C0] 
+EE962: MOV [RSP + 0x40],RDX           [4889542440] 
+EE967: MOV [RSP + 0x48],RCX           [48894C2448] 
+EE96C: MOV [RSP + 0x50],R8            [4C89442450] 
+EE971: MOV [RSP + 0x58],R9            [4C894C2458] 
+EE9B2: TEST RBX,RBX                   [4885DB] 
+EE9BB: TEST byte ptr [RBX + 0x1c],0x2 [F6431C02] 
+EE9C5: MOV RBP,[RBX + 0x48]           [488B6B48] 
+EE9C9: TEST RBP,RBP                   [4885ED] 
+EE9CC: MOV [RSP + 0x8],RSI            [4889742408] 
+EEA7B: ADD RSP,0xe8                   [4881C4E8000000] 
+EEA82: POP RBX                        [5B] 
+EEA83: POP RBP                        [5D] 
+
+========

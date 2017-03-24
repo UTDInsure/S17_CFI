@@ -1,0 +1,9 @@
+
+
+36C24: TEST RDI,RDI                   [4885FF] 
+36C29: TEST RSI,RSI                   [4885F6] 
+36C54: MOV RAX,[0x00368e68]           [488B050D223300] 
+36C5B: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+36C62: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,26 @@
+
+
+1AB74: TEST SIL,SIL                   [4084F6] 
+1AB77: PUSH RBX                       [53] 
+1AB78: MOV RBX,RDI                    [4889FB] 
+1A7A4: TEST RDI,RDI                   [4885FF] 
+1A7A7: PUSH RBX                       [53] 
+1A7A8: MOV RBX,RDI                    [4889FB] 
+1A890: XOR EAX,EAX                    [31C0] 
+1A892: POP RBX                        [5B] 
+1ABF1: TEST AL,AL                     [84C0] 
+1ABF5: MOV EAX,[0x408 + RBX]          [8B8308040000] 
+1ABFB: CMP EAX,-0x1                   [83F8FF] 
+1AC00: TEST EAX,EAX                   [85C0] 
+1AC04: LEA RAX,[0x1a420]              [488D0515F8FFFF] 
+1AC0B: MOV [0x410 + RBX],RAX          [48898310040000] 
+1AC12: LEA RAX,[0x1a900]              [488D05E7FCFFFF] 
+1AC19: MOV [0x418 + RBX],RAX          [48898318040000] 
+1AC20: LEA RAX,[0x1a430]              [488D0509F8FFFF] 
+1AC27: MOV [0x420 + RBX],RAX          [48898320040000] 
+1AC2E: LEA RAX,[0x1ace0]              [488D05AB000000] 
+1AC35: MOV [0x428 + RBX],RAX          [48898328040000] 
+1AC3C: LEA RAX,[0x1aca0]              [488D055D000000] 
+1AC43: MOV [0x430 + RBX],RAX          [48898330040000] 
+
+========

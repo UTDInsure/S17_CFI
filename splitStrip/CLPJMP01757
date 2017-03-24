@@ -1,0 +1,22 @@
+
+
+11B594: PUSH RBP                       [55] 
+11B595: MOV RBP,RSP                    [4889E5] 
+11B598: PUSH R15                       [4157] 
+11B59A: LEA R15,[-0x10c0 + RBP]        [4C8DBD40EFFFFF] 
+11B5A1: PUSH R14                       [4156] 
+11B5A3: MOV R14D,EDI                   [4189FE] 
+11B5A6: PUSH R13                       [4155] 
+11B5A8: LEA R13,[-0x1030 + RBP]        [4C8DADD0EFFFFF] 
+11B5AF: PUSH R12                       [4154] 
+11B5B1: MOV R12,R13                    [4D89EC] 
+11B5B4: PUSH RBX                       [53] 
+11B5B5: MOV EBX,0x1000                 [BB00100000] 
+11B5BA: SUB RSP,0x10d8                 [4881ECD8100000] 
+11B5E9: TEST RBX,RBX                   [4885DB] 
+11B5C8: CMP R12,R13                    [4D39EC] 
+11B5CB: MOV EBX,0x80                   [BB80000000] 
+11B5D2: MOV RSI,RBX                    [4889DE] 
+11B5D5: MOV RDI,R12                    [4C89E7] 
+
+========

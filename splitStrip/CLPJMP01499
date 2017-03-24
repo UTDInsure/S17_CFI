@@ -1,0 +1,12 @@
+
+
+FE6F4: PUSH RBP                       [55] 
+FE6F5: MOV RBP,RDI                    [4889FD] 
+FE6F8: PUSH RBX                       [53] 
+FE6F9: MOV RBX,RDI                    [4889FB] 
+FE6FC: SUB RSP,0x8                    [4883EC08] 
+FE715: MOV RDI,[RBX + 0x8]            [488B7B08] 
+FE719: TEST RDI,RDI                   [4885FF] 
+FE708: ADD RBX,0x10                   [4883C310] 
+
+========

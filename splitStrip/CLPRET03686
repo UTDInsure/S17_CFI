@@ -1,0 +1,24 @@
+
+
+8F584: PUSH R15                       [4157] 
+8F586: MOV R8,RSI                     [4989F0] 
+8F589: PUSH R14                       [4156] 
+8F58B: PUSH R13                       [4155] 
+8F58D: PUSH R12                       [4154] 
+8F58F: PUSH RBP                       [55] 
+8F590: PUSH RBX                       [53] 
+8F591: SUB RSP,0x68                   [4883EC68] 
+8F595: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+8F598: TEST AL,AL                     [84C0] 
+8F5A0: MOVZX EDX,byte ptr [RSI]       [0FB616] 
+8F5A3: TEST DL,DL                     [84D2] 
+8FA6B: MOV RAX,RDI                    [4889F8] 
+8F624: ADD RSP,0x68                   [4883C468] 
+8F628: POP RBX                        [5B] 
+8F629: POP RBP                        [5D] 
+8F62A: POP R12                        [415C] 
+8F62C: POP R13                        [415D] 
+8F62E: POP R14                        [415E] 
+8F630: POP R15                        [415F] 
+
+========

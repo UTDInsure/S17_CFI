@@ -1,0 +1,18 @@
+
+
+DFEF4: PUSH RBX                       [53] 
+DFEF5: MOV ESI,0x1                    [BE01000000] 
+DFEFA: XOR EAX,EAX                    [31C0] 
+DFEFC: CMP dword ptr [0x0036e774],0x0 [833D71E8280000] 
+DFF11: CMPXCHG [0x0036c230],ESI       [0FB13518C32800] 
+DFF38: MOV EDI,[0x0036c244]           [8B3D06C32800] 
+DFF3E: TEST EDI,EDI                   [85FF] 
+DFF4B: XOR EDI,EDI                    [31FF] 
+DFF4D: MOV dword ptr [0x0036c238],0x0 [48C705E0C2280000000000] 
+DFF58: MOV dword ptr [0x003691fc],0x2 [C7059A92280002000000] 
+DF4C4: CMP dword ptr [0x0036e774],0x0 [833DA9F2280000] 
+DF4CD: LOCK                           [F0] 
+DF4CE: DEC dword ptr [0x0036c230]     [FF0D5CCD2800] 
+DFF6B: POP RBX                        [5B] 
+
+========

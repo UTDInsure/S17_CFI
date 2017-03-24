@@ -1,0 +1,15 @@
+
+
+91194: NOP                            [0F1F4000] 
+91198: TEST RSI,RSI                   [4885F6] 
+9119D: MOV R8,RDX                     [4989D0] 
+911A0: MOV RAX,RDI                    [4889F8] 
+911AB: MOVZX ECX,byte ptr [R8]        [410FB608] 
+911AF: MOVZX R9D,byte ptr [RAX]       [440FB608] 
+911B3: CMP CL,R9B                     [4438C9] 
+911B8: TEST CL,CL                     [84C9] 
+91240: XOR R8D,R8D                    [4531C0] 
+91243: CMP R8B,0x3d                   [4180F83D] 
+91232: MOV RAX,RDI                    [4889F8] 
+
+========

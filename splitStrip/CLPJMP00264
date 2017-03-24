@@ -1,0 +1,26 @@
+
+
+406924: PUSH RBP                       [55] 
+406925: PUSH RBX                       [53] 
+406926: SUB RSP,0x28                   [4883EC28] 
+40692A: MOVSXD RCX,[0x00627bb8]        [48630D87122200] 
+406931: MOV EDX,[0x0062ba7c]           [8B1545512200] 
+406937: SUB EDX,[0x00627bc8]           [2B158B122200] 
+40693D: LEA RAX,[0x627be0 + RCX]       [488D81E07B6200] 
+406944: CMP EDX,0x1                    [83FA01] 
+406947: MOV [RSP + 0x10],RAX           [4889442410] 
+40694E: CMP byte ptr [0x627be0 + RCX],0x0 [80B9E07B620000] 
+40695B: XOR EBX,EBX                    [31DB] 
+40695D: LEA RBP,[RSP + 0x18]           [488D6C2418] 
+40696D: LEA RDI,[RSP + 0x10]           [488D7C2410] 
+406972: XOR EAX,EAX                    [31C0] 
+406974: MOV RSI,RBP                    [4889EE] 
+406634: PUSH R12                       [4154] 
+406636: MOV R12,RSI                    [4989F4] 
+406639: PUSH RBP                       [55] 
+40663A: MOV RBP,RDI                    [4889FD] 
+40663D: PUSH RBX                       [53] 
+40663E: MOV RBX,[RDI]                  [488B1F] 
+406641: MOV RDI,RBX                    [4889DF] 
+
+========

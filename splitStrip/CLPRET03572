@@ -1,0 +1,9 @@
+
+
+88BB4: TEST RDX,RDX                   [4885D2] 
+88BBD: CMP RDX,0x1                    [4883FA01] 
+88C81: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+88C84: MOVZX EDX,byte ptr [RSI]       [0FB616] 
+88C87: SUB EAX,EDX                    [29D0] 
+
+========

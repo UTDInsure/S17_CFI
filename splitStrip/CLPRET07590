@@ -1,0 +1,19 @@
+
+
+1197C4: PUSH R12                       [4154] 
+1197C6: MOV R12,RSI                    [4989F4] 
+1197C9: PUSH RBP                       [55] 
+1197CA: MOV RBP,RDI                    [4889FD] 
+1197CD: PUSH RBX                       [53] 
+1197CE: MOV RBX,RDX                    [4889D3] 
+1197DB: TEST EAX,EAX                   [85C0] 
+1197DF: LEA RAX,[0x366ae0]             [488D05FAD22400] 
+1197E6: MOV RDX,RBX                    [4889DA] 
+1197E9: MOV RSI,R12                    [4C89E6] 
+1197EC: MOV RDI,RBP                    [4889EF] 
+1197EF: MOV [0x0036a728],RAX           [488905320F2500] 
+119800: POP RBX                        [5B] 
+119801: POP RBP                        [5D] 
+119802: POP R12                        [415C] 
+
+========

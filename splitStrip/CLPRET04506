@@ -1,0 +1,16 @@
+
+
+BB7B4: MOVSXD RAX,[RSI + 0x38]        [48634638] 
+BB7B8: CMP [RSI + 0x48],EAX           [394648] 
+BB7BD: MOV RCX,[RSI + 0x8]            [488B4E08] 
+BB7C1: MOVZX EAX,byte ptr [RCX + RAX*0x1] [0FB60401] 
+BB7C5: MOV [RDI],AL                   [8807] 
+BB7C7: CMP dword ptr [RSI + 0x68],0x1 [837E6801] 
+BB7CD: MOVSXD RCX,[RSI + 0x38]        [48634E38] 
+BB7D1: CMP ECX,[RSI + 0x2c]           [3B4E2C] 
+BB7D6: MOV R8,[RSI + 0x10]            [4C8B4610] 
+BB7DA: CMP dword ptr [R8 + RCX*0x4],-0x1 [41833C88FF] 
+BB820: MOV byte ptr [RDI + 0x8],0x1   [C6470801] 
+BB824: MOV EAX,0x1                    [B801000000] 
+
+========

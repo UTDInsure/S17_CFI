@@ -1,0 +1,6 @@
+
+
+117C14: CMP RDI,-0x1                   [4883FFFF] 
+117C2B: XOR EAX,EAX                    [31C0] 
+
+========

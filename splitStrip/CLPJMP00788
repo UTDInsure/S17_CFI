@@ -1,0 +1,28 @@
+
+
+51734: PUSH RBX                       [53] 
+51735: MOV ESI,0x1                    [BE01000000] 
+5173A: MOV RBX,RDI                    [4889FB] 
+5173D: XOR EAX,EAX                    [31C0] 
+5173F: CMP dword ptr [0x0036e774],0x0 [833D2ED0310000] 
+51754: CMPXCHG [0x0036b714],ESI       [0FB135B99F3100] 
+5175D: LEA RDI,[0x36b714]             [488D3DB09F3100] 
+51764: SUB RSP,0x80                   [4881EC80000000] 
+F0874: PUSH R10                       [4152] 
+F0876: PUSH RDX                       [52] 
+F0877: XOR R10,R10                    [4D31D2] 
+F087A: MOV EDX,0x2                    [BA02000000] 
+F087F: MOV ESI,0x80                   [BE80000000] 
+F0884: CMP EAX,EDX                    [39D0] 
+F0888: MOV EAX,0xca                   [B8CA000000] 
+F088F: MOV EAX,EDX                    [89D0] 
+F0891: XCHG [RDI],EAX                 [8707] 
+F0893: TEST EAX,EAX                   [85C0] 
+F0897: POP RDX                        [5A] 
+F0898: POP R10                        [415A] 
+51774: ADD RSP,0x80                   [4881C480000000] 
+5177B: CMP dword ptr [0x0036a758],0x0 [48833DD58F310000] 
+517F0: MOV ESI,0x8                    [BE08000000] 
+517F5: MOV EDI,0xf8                   [BFF8000000] 
+
+========

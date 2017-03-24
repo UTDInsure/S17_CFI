@@ -1,0 +1,6 @@
+
+
+1B054: TEST RDI,RDI                   [4885FF] 
+1B090: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,14 @@
+
+
+109524: PUSH RBP                       [55] 
+109525: MOV RBP,RDI                    [4889FD] 
+109528: PUSH RBX                       [53] 
+109529: MOV RBX,RSI                    [4889F3] 
+10952C: SUB RSP,0x8                    [4883EC08] 
+109530: TEST RBX,RBX                   [4885DB] 
+10955C: ADD RSP,0x8                    [4883C408] 
+109560: MOV EAX,0x1                    [B801000000] 
+109565: POP RBX                        [5B] 
+109566: POP RBP                        [5D] 
+
+========

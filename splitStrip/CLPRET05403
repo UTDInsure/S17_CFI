@@ -1,0 +1,10 @@
+
+
+DE954: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+DE957: MOVSX EDX,CL                   [0FBED1] 
+DE95A: TEST EDX,EDX                   [85D2] 
+DEA32: MOV R9,RDI                     [4989F9] 
+DEA35: MOV RAX,RDI                    [4889F8] 
+DE9C5: MOV byte ptr [R9 + -0x1],0x0   [41C641FF00] 
+
+========

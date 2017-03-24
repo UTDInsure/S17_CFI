@@ -1,0 +1,17 @@
+
+
+11E404: PUSH R15                       [4157] 
+11E406: PUSH R14                       [4156] 
+11E408: PUSH R13                       [4155] 
+11E40A: PUSH R12                       [4154] 
+11E40C: PUSH RBP                       [55] 
+11E40D: PUSH RBX                       [53] 
+11E40E: SUB RSP,0x8                    [4883EC08] 
+11E412: MOV R13,[0x00368de8]           [4C8B2DCFA92400] 
+11E419: MOV R14,[0x00368e60]           [4C8B3540AA2400] 
+11E420: MOV RDI,[0x988 + R13]          [498BBD88090000] 
+11E427: MOV RBP,[0xa8 + R14]           [498BAEA8000000] 
+11E42E: CMP RDI,RBP                    [4839EF] 
+11E43B: MOV RBX,[RDI]                  [488B1F] 
+
+========

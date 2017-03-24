@@ -1,0 +1,10 @@
+
+
+D6844: TEST ECX,0xfffffeff            [F7C1FFFEFFFF] 
+D684C: AND CH,0x1                     [80E501] 
+D6851: MOV EDX,EDX                    [89D2] 
+D6853: MOVSXD RDI,EDI                 [4863FF] 
+D6856: MOV EAX,0x10c                  [B80C010000] 
+D685D: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

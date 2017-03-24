@@ -1,0 +1,16 @@
+
+
+34DA4: PUSH RBP                       [55] 
+34DA5: PUSH RBX                       [53] 
+34DA6: MOV RBX,RSI                    [4889F3] 
+34DA9: SUB RSP,0x8                    [4883EC08] 
+34DAD: MOVSXD RAX,[RSI]               [486306] 
+34DB0: SUB EDX,EAX                    [29C2] 
+34DB2: TEST EDX,EDX                   [85D2] 
+34DF0: ADD RSP,0x8                    [4883C408] 
+34DF4: XOR EBP,EBP                    [31ED] 
+34DF6: POP RBX                        [5B] 
+34DF7: MOV EAX,EBP                    [89E8] 
+34DF9: POP RBP                        [5D] 
+
+========

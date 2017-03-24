@@ -1,0 +1,11 @@
+
+
+D0294: PUSH RBP                       [55] 
+D0295: PUSH RBX                       [53] 
+D0296: MOV RBX,RDI                    [4889FB] 
+D0299: SUB RSP,0x8                    [4883EC08] 
+D029D: TEST RDI,RDI                   [4885FF] 
+D02AB: MOV RDI,[RBX + 0x20]           [488B7B20] 
+D02AF: MOV RBP,[RBX + 0x28]           [488B6B28] 
+
+========

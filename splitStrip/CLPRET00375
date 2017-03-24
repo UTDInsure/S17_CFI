@@ -1,0 +1,6 @@
+
+
+18C84: MOV EAX,0xa                    [B80A000000] 
+18C8B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

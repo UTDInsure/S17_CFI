@@ -1,0 +1,12 @@
+
+
+2D4C4: TEST RDI,RDI                   [4885FF] 
+2D4C9: CMP RDI,RSI                    [4839F7] 
+2D4D8: MOV RAX,[0x3f0 + RDI]          [488B87F0030000] 
+2D4DF: TEST RAX,RAX                   [4885C0] 
+2D4D0: CMP RAX,RSI                    [4839F0] 
+2D4D5: MOV RDI,RAX                    [4889C7] 
+2D4D8: MOV RAX,[0x3f0 + RDI]          [488B87F0030000] 
+2D4DF: TEST RAX,RAX                   [4885C0] 
+
+========

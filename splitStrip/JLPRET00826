@@ -1,0 +1,7 @@
+
+
+8E9F4: SUB RDX,0x1                    [4883EA01] 
+8E9F8: MOV RCX,[RSI]                  [488B0E] 
+8EAB0: MOV [RDI],RCX                  [48890F] 
+
+========

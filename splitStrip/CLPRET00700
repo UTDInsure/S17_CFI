@@ -1,0 +1,9 @@
+
+
+40A574: MOV EDX,[0x006279e0]           [8B1566D42100] 
+40A57A: LEA EAX,[RDI*0x4]              [8D04BD00000000] 
+40A581: TEST EDX,EDX                   [85D2] 
+40A583: CMOVNZ EDI,EAX                 [0F45F8] 
+40A586: LEA EAX,[RDI + 0x1]            [8D4701] 
+
+========

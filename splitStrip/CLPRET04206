@@ -1,0 +1,26 @@
+
+
+A38E4: PUSH RBP                       [55] 
+A38E5: CMP ESI,-0x1                   [83FEFF] 
+A38E8: PUSH RBX                       [53] 
+A38EF: CMP [RDI + 0x28],ESI           [397728] 
+A38F8: XOR ECX,ECX                    [31C9] 
+A38FA: CMP ESI,0x7b2                  [81FEB2070000] 
+A393C: MOV EAX,[RDI + 0x8]            [8B4708] 
+A393F: CMP EAX,0x1                    [83F801] 
+A3B36: MOVZX EAX,word ptr [RDI + 0x10] [0FB74710] 
+A3B3A: MOVZX EDX,AX                   [0FB7D0] 
+A3B3D: SUB EDX,0x1                    [83EA01] 
+A3B40: MOVSXD RDX,EDX                 [4863D2] 
+A3B43: IMUL RDX,RDX,0x15180           [4869D280510100] 
+A3B4A: ADD RCX,RDX                    [4801D1] 
+A3B4D: CMP AX,0x3b                    [6683F83B] 
+A3B0E: SUB RCX,[RDI + 0x18]           [482B4F18] 
+A3B12: MOVSXD RAX,[RDI + 0x14]        [48634714] 
+A3B16: MOV [RDI + 0x28],ESI           [897728] 
+A3B19: ADD RCX,RAX                    [4801C1] 
+A3B1C: MOV [RDI + 0x20],RCX           [48894F20] 
+A3B20: POP RBX                        [5B] 
+A3B21: POP RBP                        [5D] 
+
+========

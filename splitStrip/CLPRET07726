@@ -1,0 +1,18 @@
+
+
+11C404: SUB RSP,0x38                   [4883EC38] 
+11C408: MOV RAX,[0x00368e60]           [488B0551CA2400] 
+11C40F: MOV RCX,RDI                    [4889F9] 
+11C412: MOV R8,RSI                     [4989F0] 
+11C415: MOV dword ptr [RSP + 0x28],0x0 [48C744242800000000] 
+11C41E: LEA RDX,[RSP + 0x1f]           [488D54241F] 
+11C423: LEA RSI,[RSP + 0x28]           [488D742428] 
+11C428: LEA RDI,[RSP + 0x20]           [488D7C2420] 
+11C437: TEST EAX,EAX                   [85C0] 
+11C43B: CMP dword ptr [RSP + 0x28],0x0 [48837C242800] 
+11C450: MOV AL,0x1                     [B001] 
+11C452: NOP                            [660F1F440000] 
+11C458: CMP byte ptr [RSP + 0x1f],0x0  [807C241F00] 
+11C443: ADD RSP,0x38                   [4883C438] 
+
+========

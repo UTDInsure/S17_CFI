@@ -1,0 +1,15 @@
+
+
+1F554: MOV RAX,[0x0024a7c0]           [488B0565B22200] 
+1F55B: MOV RDX,[RAX]                  [488B10] 
+1F55E: TEST RDX,RDX                   [4885D2] 
+1F563: PUSH R12                       [4154] 
+1F565: CMP RDI,RDX                    [4839D7] 
+1F568: PUSH RBP                       [55] 
+1F569: PUSH RBX                       [53] 
+1F56A: MOV RBX,RDI                    [4889FB] 
+1F7FB: MOV RDX,[0x540 + RDI]          [488B9740050000] 
+1F802: MOV [RAX],RDX                  [488910] 
+1F5A6: MOV RDI,[RBX + 0x70]           [488B7B70] 
+
+========

@@ -1,0 +1,20 @@
+
+
+405C94: PUSH R12                       [4154] 
+405C96: PUSH RBP                       [55] 
+405C97: PUSH RBX                       [53] 
+405C98: MOVZX EBP,byte ptr [RDI]       [0FB62F] 
+405C9B: MOV RBX,RDI                    [4889FB] 
+405C9E: TEST BPL,BPL                   [4084ED] 
+405CB0: MOVSX R12D,BPL                 [440FBEE5] 
+405CB4: XOR EAX,EAX                    [31C0] 
+405CB6: MOV EDI,R12D                   [4489E7] 
+405594: MOVSX EDI,DIL                  [400FBEFF] 
+405598: MOV EAX,0x2                    [B802000000] 
+40559D: MOV EDX,EDI                    [89FA] 
+40559F: AND EDX,0xe0                   [81E2E0000000] 
+4055A5: CMP EDX,0xc0                   [81FAC0000000] 
+405CC2: CMP EAX,0x6                    [83F806] 
+405CC7: MOV EAX,EAX                    [89C0] 
+
+========

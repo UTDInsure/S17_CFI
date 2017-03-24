@@ -1,0 +1,21 @@
+
+
+B4CF4: PUSH R12                       [4154] 
+B4CF6: PUSH RBP                       [55] 
+B4CF7: PUSH RBX                       [53] 
+B4CF8: MOV EBX,EDI                    [89FB] 
+B4CFA: LEA EAX,[-0xb9 + RBX]          [8D8347FFFFFF] 
+B4D00: SUB RSP,0x30                   [4883EC30] 
+B4D04: CMP EAX,0xe                    [83F80E] 
+B4D0D: CMP EBX,0x22                   [83FB22] 
+B4DE8: CMP EBX,0x8a                   [81FB8A000000] 
+B4DC8: CMP EBX,0xf6                   [81FBF6000000] 
+B562B: MOV RAX,[0x00368e68]           [488B0536382B00] 
+B5632: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B5639: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+B4E30: ADD RSP,0x30                   [4883C430] 
+B4E34: POP RBX                        [5B] 
+B4E35: POP RBP                        [5D] 
+B4E36: POP R12                        [415C] 
+
+========

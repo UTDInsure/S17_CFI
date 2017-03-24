@@ -1,0 +1,22 @@
+
+
+11CB84: SUB RSP,0x8                    [4883EC08] 
+11CB88: MOV R8D,0x2                    [41B802000000] 
+11CB8E: XOR ECX,ECX                    [31C9] 
+11C5E4: PUSH RBP                       [55] 
+11C5E5: MOV RBP,RSP                    [4889E5] 
+11C5E8: PUSH R15                       [4157] 
+11C5EA: MOV R15,RDI                    [4989FF] 
+11C5ED: MOV RDI,RDX                    [4889D7] 
+11C5F0: PUSH R14                       [4156] 
+11C5F2: MOV R14,RCX                    [4989CE] 
+11C5F5: PUSH R13                       [4155] 
+11C5F7: MOV R13,RSI                    [4989F5] 
+11C5FA: PUSH R12                       [4154] 
+11C5FC: MOV R12,RDX                    [4989D4] 
+11C5FF: PUSH RBX                       [53] 
+11C600: SUB RSP,0x88                   [4881EC88000000] 
+11C607: MOV [-0x88 + RBP],R8D          [44898578FFFFFF] 
+11C60E: MOV dword ptr [RBP + -0x78],0x0 [48C7458800000000] 
+
+========

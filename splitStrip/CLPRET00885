@@ -1,0 +1,8 @@
+
+
+4118C4: SUB RSP,0x8                    [4883EC08] 
+4118C8: CMP EDI,0x27                   [83FF27] 
+4119D0: MOV EAX,0x62abc0               [B8C0AB6200] 
+4119D5: ADD RSP,0x8                    [4883C408] 
+
+========

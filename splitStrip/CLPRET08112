@@ -1,0 +1,9 @@
+
+
+1ADB4: TEST RDI,RDI                   [4885FF] 
+1ADB9: MOV RAX,[0x0024a7a0]           [488B05E0F92200] 
+1ADC0: MOV RAX,[RAX]                  [488B00] 
+1ADC3: TEST RAX,RAX                   [4885C0] 
+1AE20: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

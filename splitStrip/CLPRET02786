@@ -1,0 +1,9 @@
+
+
+73DC4: TEST ESI,ESI                   [85F6] 
+73DC6: PUSH RBX                       [53] 
+73DC7: MOV RBX,RDI                    [4889FB] 
+73DD2: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+73DD8: POP RBX                        [5B] 
+
+========

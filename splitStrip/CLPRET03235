@@ -1,0 +1,9 @@
+
+
+7AA14: SUB dword ptr [0x0036b784],0x1 [832D690D2F0001] 
+7AA1D: MOV dword ptr [0x0036b788],0x0 [48C705600D2F0000000000] 
+7AA28: CMP dword ptr [0x0036e774],0x0 [833D453D2F0000] 
+7AA31: LOCK                           [F0] 
+7AA32: DEC dword ptr [0x0036b780]     [FF0D480D2F00] 
+
+========

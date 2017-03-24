@@ -1,0 +1,23 @@
+
+
+DEAB4: PUSH R13                       [4155] 
+DEAB6: PUSH R12                       [4154] 
+DEAB8: PUSH RBP                       [55] 
+DEAB9: PUSH RBX                       [53] 
+DEABA: SUB RSP,0x8                    [4883EC08] 
+DEABE: MOV RDX,[0x0036c148]           [488B1583D62800] 
+DEAC5: TEST RDX,RDX                   [4885D2] 
+DEACE: NOP                            [6690] 
+DEAD0: LEA RDI,[0x36c0e0]             [488D3D09D62800] 
+DEAD7: MOV ESI,0x64                   [BE64000000] 
+76AB4: TEST ESI,ESI                   [85F6] 
+76B30: XOR EAX,EAX                    [31C0] 
+DEAE5: TEST RAX,RAX                   [4885C0] 
+DEBB4: XOR EAX,EAX                    [31C0] 
+DEBB6: ADD RSP,0x8                    [4883C408] 
+DEBBA: POP RBX                        [5B] 
+DEBBB: POP RBP                        [5D] 
+DEBBC: POP R12                        [415C] 
+DEBBE: POP R13                        [415D] 
+
+========

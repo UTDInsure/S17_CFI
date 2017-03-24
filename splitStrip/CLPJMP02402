@@ -1,0 +1,18 @@
+
+
+34974: PUSH R15                       [4157] 
+34976: MOV R15D,ESI                   [4189F7] 
+34979: XOR ESI,ESI                    [31F6] 
+3497B: PUSH R14                       [4156] 
+3497D: MOV R14D,EDX                   [4189D6] 
+34980: PUSH R13                       [4155] 
+34982: PUSH R12                       [4154] 
+34984: MOV R12,RDI                    [4989FC] 
+34987: PUSH RBP                       [55] 
+34988: PUSH RBX                       [53] 
+34989: MOV RBX,RCX                    [4889CB] 
+3498C: SUB RSP,0xa8                   [4881ECA8000000] 
+34993: LEA R13,[RSP + 0x20]           [4C8D6C2420] 
+34998: MOV RDI,R13                    [4C89EF] 
+
+========

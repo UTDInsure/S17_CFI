@@ -1,0 +1,21 @@
+
+
+415044: XOR EAX,EAX                    [31C0] 
+404394: MOV RDX,[0x006279d8]           [488B153D362200] 
+40439B: TEST RDX,RDX                   [4885D2] 
+4043A0: MOV EAX,[0x0062baac]           [8B0506772200] 
+4043A6: TEST EAX,EAX                   [85C0] 
+4043AA: MOV ECX,[0x824 + RDX]          [8B8A24080000] 
+4043B0: TEST CL,0x8                    [F6C108] 
+4043B5: XOR EAX,EAX                    [31C0] 
+4043B7: AND ECX,0x10                   [83E110] 
+4043BC: MOV RAX,[0x848 + RDX]          [488B8248080000] 
+41504F: CMP RAX,-0x1                   [4883F8FF] 
+414FC0: MOV EDI,0x418b16               [BF168B4100] 
+414FC5: XOR EAX,EAX                    [31C0] 
+414D04: PUSH RBP                       [55] 
+414D05: MOV RBP,RDI                    [4889FD] 
+414D08: PUSH RBX                       [53] 
+414D09: SUB RSP,0x18                   [4883EC18] 
+
+========

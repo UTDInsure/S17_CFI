@@ -1,0 +1,13 @@
+
+
+B5AE4: PUSH RBP                       [55] 
+B5AE5: MOV RBP,RDI                    [4889FD] 
+B5AE8: PUSH RBX                       [53] 
+B5AE9: SUB RSP,0x8                    [4883EC08] 
+B5AED: MOV RDI,[RDI + 0x8]            [488B7F08] 
+B5AF1: TEST RDI,RDI                   [4885FF] 
+B5B33: ADD RSP,0x8                    [4883C408] 
+B5B37: POP RBX                        [5B] 
+B5B38: POP RBP                        [5D] 
+
+========

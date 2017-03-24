@@ -1,0 +1,20 @@
+
+
+78FA4: PUSH RBP                       [55] 
+78FA5: PUSH RBX                       [53] 
+78FA6: MOV RBX,RDI                    [4889FB] 
+78FA9: SUB RSP,0x28                   [4883EC28] 
+78FAD: MOV EAX,[RDI]                  [8B07] 
+78FAF: TEST AL,0x80                   [A880] 
+78FB7: MOV EBP,[0x0036e770]           [8B2DB3572F00] 
+78FBD: OR AL,0x80                     [0C80] 
+78FBF: MOV [RDI],EAX                  [8907] 
+78FC1: TEST EBP,EBP                   [85ED] 
+791B0: MOV RAX,[0x0036e730]           [488B0579552F00] 
+791B7: MOV RDI,RSP                    [4889E7] 
+791BA: XOR EDX,EDX                    [31D2] 
+791BC: ROR RAX,0x11                   [48C1C811] 
+791C0: XOR RAX,FS:[0x30]              [644833042530000000] 
+791C9: LEA RSI,[0x78c40]              [488D3570FAFFFF] 
+
+========

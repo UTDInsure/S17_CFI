@@ -1,0 +1,27 @@
+
+
+76E84: PUSH R14                       [4156] 
+76E86: PUSH R13                       [4155] 
+76E88: PUSH R12                       [4154] 
+76E8A: PUSH RBP                       [55] 
+76E8B: PUSH RBX                       [53] 
+76E8C: MOV RBX,RDI                    [4889FB] 
+76E8F: SUB RSP,0x90                   [4881EC90000000] 
+76E96: TEST ECX,ECX                   [85C9] 
+76E9E: MOV RAX,[RDI + 0x10]           [488B4710] 
+76EA2: CMP [RDI + 0x18],RAX           [48394718] 
+76EA6: MOV R12D,EDX                   [4189D4] 
+76EA9: MOV RBP,RSI                    [4889F5] 
+76EAC: MOV RAX,[RDI + 0x20]           [488B4720] 
+76EB0: MOV RDX,[RDI + 0x28]           [488B5728] 
+76EBA: XOR R13D,R13D                  [4531ED] 
+76EBD: CMP RDX,RAX                    [4839C2] 
+76EC6: MOV RDI,RBX                    [4889DF] 
+794A4: MOV RAX,[RDI + 0x28]           [488B4728] 
+794A8: CMP RAX,[RDI + 0x20]           [483B4720] 
+794AC: PUSH RBX                       [53] 
+794AD: MOV RBX,RDI                    [4889FB] 
+794F0: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+794F7: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+
+========

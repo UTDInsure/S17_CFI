@@ -1,0 +1,15 @@
+
+
+105444: PUSH RBX                       [53] 
+105445: MOV RBX,RCX                    [4889CB] 
+105448: SUB RSP,0x10                   [4883EC10] 
+10544C: MOV RAX,[R8]                   [498B00] 
+10544F: TEST RAX,RAX                   [4885C0] 
+1054A0: MOV R10,RSI                    [4989F2] 
+1054A3: MOV [RSP + 0x8],R8             [4C89442408] 
+1054A8: MOV RCX,RDX                    [4889D1] 
+1054AB: MOV RSI,RDI                    [4889FE] 
+1054AE: XOR EDX,EDX                    [31D2] 
+1054B0: MOV RDI,RBX                    [4889DF] 
+
+========

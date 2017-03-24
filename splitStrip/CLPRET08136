@@ -1,0 +1,18 @@
+
+
+1B054: TEST RDI,RDI                   [4885FF] 
+1B059: TEST EDX,EDX                   [85D2] 
+1B05D: MOVSX EAX,word ptr [RDI + 0x6] [0FBF4706] 
+1B061: CMP EDX,EAX                    [39C2] 
+1B065: TEST ESI,ESI                   [85F6] 
+1B069: MOVSX EAX,word ptr [RDI + 0x4] [0FBF4704] 
+1B06D: CMP ESI,EAX                    [39C6] 
+1B071: MOVZX EAX,word ptr [RDI + 0xc] [0FB7470C] 
+1B075: MOV [RDI + 0x2],DX             [66895702] 
+1B079: MOV [RDI],SI                   [668937] 
+1B07C: AND EAX,0xffffffbf             [83E0BF] 
+1B07F: OR EAX,0x20                    [83C820] 
+1B082: MOV [RDI + 0xc],AX             [6689470C] 
+1B086: XOR EAX,EAX                    [31C0] 
+
+========

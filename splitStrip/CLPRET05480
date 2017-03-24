@@ -1,0 +1,23 @@
+
+
+E04C4: PUSH R15                       [4157] 
+E04C6: PUSH R14                       [4156] 
+E04C8: PUSH R13                       [4155] 
+E04CA: PUSH R12                       [4154] 
+E04CC: MOV R12,RCX                    [4989CC] 
+E04CF: PUSH RBP                       [55] 
+E04D0: PUSH RBX                       [53] 
+E04D1: SUB RSP,0x18                   [4883EC18] 
+E04D5: TEST RCX,RCX                   [4885C9] 
+E0678: MOV RAX,[0x00368e68]           [488B05E9872800] 
+E067F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+E0686: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+E0657: ADD RSP,0x18                   [4883C418] 
+E065B: POP RBX                        [5B] 
+E065C: POP RBP                        [5D] 
+E065D: POP R12                        [415C] 
+E065F: POP R13                        [415D] 
+E0661: POP R14                        [415E] 
+E0663: POP R15                        [415F] 
+
+========

@@ -1,0 +1,8 @@
+
+
+2DD14: MOV RAX,[0x00368dc0]           [488B05A5B03300] 
+2DD1B: MOV RAX,FS:[RAX]               [64488B00] 
+2DD1F: MOV RAX,[RAX]                  [488B00] 
+2DD22: MOV EAX,[0xa8 + RAX]           [8B80A8000000] 
+
+========

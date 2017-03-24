@@ -1,0 +1,14 @@
+
+
+1149C4: PUSH RBP                       [55] 
+1149C5: XOR EAX,EAX                    [31C0] 
+1149C7: PUSH RBX                       [53] 
+1149C8: MOV RBX,RDI                    [4889FB] 
+1149CB: SUB RSP,0x8                    [4883EC08] 
+1149CF: MOV ECX,[RDI + 0x28]           [8B4F28] 
+1149D2: CMP ECX,EDX                    [39D1] 
+1149F6: ADD RSP,0x8                    [4883C408] 
+1149FA: POP RBX                        [5B] 
+1149FB: POP RBP                        [5D] 
+
+========

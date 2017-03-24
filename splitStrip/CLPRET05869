@@ -1,0 +1,19 @@
+
+
+E5AF4: MOV RAX,[0xa8 + RDX]           [488B82A8000000] 
+E5AFB: SUB RAX,[0x0036c428]           [482B0526692800] 
+E5B02: MOV ECX,[0x0036c420]           [8B0D18692800] 
+E5B08: MOV RDX,RAX                    [4889C2] 
+E5B0B: SHR RDX,0x3f                   [48C1EA3F] 
+E5B0F: ADD RAX,RDX                    [4801D0] 
+E5B12: SAR RAX,1                      [48D1F8] 
+E5B15: MOV RDX,RAX                    [4889C2] 
+E5B18: MOVZX EAX,AX                   [0FB7C0] 
+E5B1B: SHR RDX,0x10                   [48C1EA10] 
+E5B1F: IMUL RAX,RCX                   [480FAFC1] 
+E5B23: IMUL RDX,RCX                   [480FAFD1] 
+E5B27: SHR RAX,0x10                   [48C1E810] 
+E5B2B: ADD RAX,RDX                    [4801D0] 
+E5B2E: CMP RAX,[0x0036c430]           [483B05FB682800] 
+
+========

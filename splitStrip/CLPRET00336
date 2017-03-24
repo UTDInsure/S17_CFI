@@ -1,0 +1,24 @@
+
+
+187D4: PUSH RBP                       [55] 
+187D5: MOV ESI,EDI                    [89FE] 
+187D7: PUSH RBX                       [53] 
+187D8: MOV EBX,EDI                    [89FB] 
+187DA: MOV EDI,0x1                    [BF01000000] 
+187DF: SUB RSP,0x98                   [4881EC98000000] 
+187E6: MOV RDX,RSP                    [4889E2] 
+189F4: CMP EDI,0x1                    [83FF01] 
+189F7: MOV EAX,ESI                    [89F0] 
+18A18: MOV dword ptr [0x00223160],0x16 [C7053EA7200016000000] 
+18A22: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+187F2: TEST EAX,EAX                   [85C0] 
+187F6: MOV EAX,[RSP + 0x18]           [8B442418] 
+187FA: AND EAX,0xf000                 [2500F00000] 
+187FF: CMP EAX,0x4000                 [3D00400000] 
+18843: MOV dword ptr [0x00223160],0x14 [C70513A9200014000000] 
+1884D: XOR EAX,EAX                    [31C0] 
+18839: ADD RSP,0x98                   [4881C498000000] 
+18840: POP RBX                        [5B] 
+18841: POP RBP                        [5D] 
+
+========

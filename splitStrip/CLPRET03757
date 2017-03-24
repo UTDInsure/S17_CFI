@@ -1,0 +1,25 @@
+
+
+91404: PUSH R15                       [4157] 
+91406: PUSH R14                       [4156] 
+91408: MOV R14,RDI                    [4989FE] 
+9140B: PUSH R13                       [4155] 
+9140D: MOV R13,RSI                    [4989F5] 
+91410: PUSH R12                       [4154] 
+91412: MOV R12,RCX                    [4989CC] 
+91415: PUSH RBP                       [55] 
+91416: PUSH RBX                       [53] 
+91417: MOV RBX,RDX                    [4889D3] 
+9141A: SUB RSP,0x18                   [4883EC18] 
+9141E: TEST RCX,RCX                   [4885C9] 
+91421: MOV [RSP + 0xc],R8D            [448944240C] 
+914BF: XOR EAX,EAX                    [31C0] 
+914B0: ADD RSP,0x18                   [4883C418] 
+914B4: POP RBX                        [5B] 
+914B5: POP RBP                        [5D] 
+914B6: POP R12                        [415C] 
+914B8: POP R13                        [415D] 
+914BA: POP R14                        [415E] 
+914BC: POP R15                        [415F] 
+
+========

@@ -1,0 +1,13 @@
+
+
+17794: PUSH R12                       [4154] 
+17796: MOV R12D,ECX                   [4189CC] 
+17799: PUSH RBP                       [55] 
+1779A: MOV RBP,RDX                    [4889D5] 
+1779D: MOV EDX,ESI                    [89F2] 
+1779F: MOV ESI,EDI                    [89FE] 
+177A1: PUSH RBX                       [53] 
+177A2: MOV RBX,[0x0024a830]           [488B1D87302300] 
+177A9: MOV RDI,[RBX]                  [488B3B] 
+
+========

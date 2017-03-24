@@ -1,0 +1,12 @@
+
+
+78CF4: PUSH RBP                       [55] 
+78CF5: PUSH RBX                       [53] 
+78CF6: MOV RBX,RDI                    [4889FB] 
+78CF9: SUB RSP,0x28                   [4883EC28] 
+78CFD: TEST byte ptr [RDI],0x80       [F60780] 
+78EBD: ADD RSP,0x28                   [4883C428] 
+78EC1: POP RBX                        [5B] 
+78EC2: POP RBP                        [5D] 
+
+========

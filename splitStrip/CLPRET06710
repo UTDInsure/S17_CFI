@@ -1,0 +1,10 @@
+
+
+102314: PUSH RBX                       [53] 
+102315: XOR EAX,EAX                    [31C0] 
+102317: NOP                            [660F1F840000000000] 
+102320: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+102323: TEST CL,CL                     [84C9] 
+1023F0: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,9 @@
+
+
+2E824: MOV ECX,[RDI]                  [8B0F] 
+2E826: MOV EDX,ESI                    [89F2] 
+2E828: XOR EAX,EAX                    [31C0] 
+2E82A: SHR EDX,CL                     [D3EA] 
+2E82C: CMP EDX,[RDI + 0x4]            [3B5704] 
+
+========

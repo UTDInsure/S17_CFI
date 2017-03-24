@@ -1,0 +1,14 @@
+
+
+AF2C4: PUSH R12                       [4154] 
+AF2C6: PUSH RBP                       [55] 
+AF2C7: MOV RBP,RDI                    [4889FD] 
+AF2CA: PUSH RBX                       [53] 
+AF2CB: XOR EBX,EBX                    [31DB] 
+AF2CD: CMP dword ptr [RDI + 0x10],0x0 [48837F1000] 
+AF2D2: MOV R12,[RDI + 0x8]            [4C8B6708] 
+AF2D8: NOP                            [0F1F840000000000] 
+AF2E0: MOV RDI,[R12 + RBX*0x8]        [498B3CDC] 
+AF2E4: ADD RBX,0x1                    [4883C301] 
+
+========

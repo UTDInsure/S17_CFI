@@ -1,0 +1,10 @@
+
+
+207F4: CMP EDI,0x3                    [83FF03] 
+207F7: MOV EAX,EDI                    [89F8] 
+207FB: MOV RDX,[0x0024a8a0]           [488B159EA02200] 
+20802: MOV ECX,[RDX + 0x50]           [8B4A50] 
+20805: TEST ECX,ECX                   [85C9] 
+20840: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

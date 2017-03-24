@@ -1,0 +1,10 @@
+
+
+B2ED1: MOV EAX,0x23                   [B823000000] 
+B2ED8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B2F19: MOV RCX,[0x00368e68]           [488B0D485F2B00] 
+B2F20: NEG EAX                        [F7D8] 
+B2F22: MOV FS:[RCX],EAX               [648901] 
+B2F25: OR RAX,-0x1                    [4883C8FF] 
+
+========

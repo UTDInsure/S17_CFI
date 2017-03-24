@@ -1,0 +1,20 @@
+
+
+6C454: TEST RDI,RDI                   [4885FF] 
+6C457: PUSH RBX                       [53] 
+6C458: MOV RBX,RDI                    [4889FB] 
+6C461: MOV EAX,[RDI]                  [8B07] 
+6C463: AND EAX,0x8000                 [2500800000] 
+6C4C4: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+6C4CB: MOV RDI,RBX                    [4889DF] 
+6C4D5: XOR EDX,EDX                    [31D2] 
+6C4D7: TEST EAX,EAX                   [85C0] 
+6C4D9: SETNZ DL                       [0F95C2] 
+6C4DC: NEG EDX                        [F7DA] 
+6C4DE: TEST dword ptr [RBX],0x8000    [F70300800000] 
+6C4E6: MOV RSI,[0x88 + RBX]           [488BB388000000] 
+6C4ED: SUB dword ptr [RSI + 0x4],0x1  [836E0401] 
+6C530: MOV EAX,EDX                    [89D0] 
+6C532: POP RBX                        [5B] 
+
+========

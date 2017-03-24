@@ -1,0 +1,8 @@
+
+
+D52D4: CMP dword ptr [0x0036e774],0x0 [833D9994290000] 
+D52E1: MOV R10,RCX                    [4989CA] 
+D52E4: MOV EAX,0x11                   [B811000000] 
+D52EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

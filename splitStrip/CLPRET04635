@@ -1,0 +1,28 @@
+
+
+BF394: PUSH R15                       [4157] 
+BF396: PUSH R14                       [4156] 
+BF398: MOV R14,RDI                    [4989FE] 
+BF39B: PUSH R13                       [4155] 
+BF39D: MOV R13,RDX                    [4989D5] 
+BF3A0: PUSH R12                       [4154] 
+BF3A2: MOV R12,RSI                    [4989F4] 
+BF3A5: PUSH RBP                       [55] 
+BF3A6: PUSH RBX                       [53] 
+BF3A7: SUB RSP,0x8                    [4883EC08] 
+BF3AB: TEST RSI,RSI                   [4885F6] 
+BF480: TEST R13,R13                   [4D85ED] 
+BF485: MOV R15D,[R13 + 0x4]           [458B7D04] 
+BF489: TEST R15D,R15D                 [4585FF] 
+BF4B0: MOV dword ptr [R14],0x0        [49C70600000000] 
+BF4B7: MOV dword ptr [R14 + 0x8],0x0  [49C7460800000000] 
+BF4BF: ADD RSP,0x8                    [4883C408] 
+BF4C3: POP RBX                        [5B] 
+BF4C4: POP RBP                        [5D] 
+BF4C5: POP R12                        [415C] 
+BF4C7: POP R13                        [415D] 
+BF4C9: POP R14                        [415E] 
+BF4CB: XOR EAX,EAX                    [31C0] 
+BF4CD: POP R15                        [415F] 
+
+========

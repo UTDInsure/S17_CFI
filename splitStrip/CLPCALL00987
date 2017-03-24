@@ -1,0 +1,23 @@
+
+
+E24F4: PUSH R12                       [4154] 
+E24F6: PUSH RBP                       [55] 
+E24F7: MOV EBP,ESI                    [89F5] 
+E24F9: PUSH RBX                       [53] 
+E24FA: MOV EBX,EDI                    [89FB] 
+E24FC: SUB RSP,0xd0                   [4881ECD0000000] 
+E2503: TEST AL,AL                     [84C0] 
+E2505: MOV [RSP + 0x38],RCX           [48894C2438] 
+E250A: MOV [RSP + 0x40],R8            [4C89442440] 
+E250F: MOV [RSP + 0x48],R9            [4C894C2448] 
+E254D: MOV R12,RDX                    [4989D4] 
+E2550: MOV EDI,[0x0036e770]           [8B3D1AC22800] 
+E2556: MOV dword ptr [RSP + 0x4],0x0  [C744240400000000] 
+E255E: TEST EDI,EDI                   [85FF] 
+E2608: MOV RAX,[0x0036e6e0]           [488B05D1C02800] 
+E260F: LEA RSI,[RSP + 0x4]            [488D742404] 
+E2614: MOV EDI,0x1                    [BF01000000] 
+E2619: ROR RAX,0x11                   [48C1C811] 
+E261D: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

@@ -1,0 +1,22 @@
+
+
+D1F64: PUSH R12                       [4154] 
+D1F66: MOV R12,RSI                    [4989F4] 
+D1F69: PUSH RBP                       [55] 
+D1F6A: MOV RBP,RDI                    [4889FD] 
+D1F6D: PUSH RBX                       [53] 
+D1F6E: MOV RDI,[RDI]                  [488B3F] 
+D1F71: TEST RDI,RDI                   [4885FF] 
+D1FB8: MOVZX EAX,byte ptr [0x00000000] [0FB6042500000000] 
+D1FC0: XOR EBX,EBX                    [31DB] 
+D1FC2: CMP AL,0x28                    [3C28] 
+D1FC6: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+D1FC9: CMP DL,0x29                    [80FA29] 
+D2055: MOV RCX,RDI                    [4889F9] 
+D1FF7: TEST DL,DL                     [84D2] 
+D1FFB: POP RBX                        [5B] 
+D1FFC: POP RBP                        [5D] 
+D1FFD: MOV EAX,0x5                    [B805000000] 
+D2002: POP R12                        [415C] 
+
+========

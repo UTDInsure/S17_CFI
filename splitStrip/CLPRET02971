@@ -1,0 +1,14 @@
+
+
+76BF4: PUSH RBX                       [53] 
+76BF5: MOV RDX,[RDI + 0x28]           [488B5728] 
+76BF9: MOV RBX,RDI                    [4889FB] 
+76BFC: MOV RSI,[RDI + 0x20]           [488B7720] 
+76C00: CMP RDX,RSI                    [4839F2] 
+76C37: MOV RSI,[RBX + 0x8]            [488B7308] 
+76C3B: SUB RSI,[RBX + 0x10]           [482B7310] 
+76C41: MOV dword ptr [0x90 + RBX],-0x1 [48C78390000000FFFFFFFF] 
+76C4C: XOR EAX,EAX                    [31C0] 
+76C4E: POP RBX                        [5B] 
+
+========

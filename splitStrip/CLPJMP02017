@@ -1,0 +1,13 @@
+
+
+17DD4: PUSH R13                       [4155] 
+17DD6: MOV R13D,R9D                   [4589CD] 
+17DD9: PUSH R12                       [4154] 
+17DDB: MOV R12,R8                     [4D89C4] 
+17DDE: PUSH RBP                       [55] 
+17DDF: MOV EBP,ECX                    [89CD] 
+17DE1: PUSH RBX                       [53] 
+17DE2: MOV RBX,RDI                    [4889FB] 
+17DE5: SUB RSP,0x8                    [4883EC08] 
+
+========

@@ -1,0 +1,21 @@
+
+
+17B44: PUSH R12                       [4154] 
+17B46: MOV R12D,ESI                   [4189F4] 
+17B49: PUSH RBP                       [55] 
+17B4A: MOV EBP,EDI                    [89FD] 
+17B4C: PUSH RBX                       [53] 
+17B4D: SUB RSP,0x10                   [4883EC10] 
+17B51: TEST SIL,SIL                   [4084F6] 
+17B56: AND EDX,0x80000                [81E200000800] 
+17B62: TEST RCX,RCX                   [4885C9] 
+17B65: MOV EDI,0x8060                 [BF60800000] 
+17B6A: MOV EBX,0x8000                 [BB00800000] 
+17B71: MOV RAX,[RCX + 0x38]           [488B4138] 
+17B75: CMP RAX,0xfffff                [483DFFFF0F00] 
+17B7D: MOV EBX,0x8000                 [BB00800000] 
+17B82: CMP RAX,0x8000                 [483D00800000] 
+17B88: CMOVNC RBX,RAX                 [480F43D8] 
+17B8C: LEA RDI,[RBX + 0x60]           [488D7B60] 
+
+========

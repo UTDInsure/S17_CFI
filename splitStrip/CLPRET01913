@@ -1,0 +1,26 @@
+
+
+396F4: TEST RDI,RDI                   [4885FF] 
+396F7: LEA RCX,[RDI + 0x4]            [488D4F04] 
+39701: TEST RSI,RSI                   [4885F6] 
+3970A: MOV R8D,[RSI + 0x18]           [448B4618] 
+3970E: MOV RDX,[RSI + 0x10]           [488B5610] 
+39712: TEST R8D,R8D                   [4585C0] 
+397B8: MOV dword ptr [RDX + -0x4],0x0 [C742FC00000000] 
+39730: MOV R8D,[RDI]                  [448B07] 
+39733: MOV R10D,0x66666667            [41BA67666666] 
+39739: MOV EAX,R8D                    [4489C0] 
+3973C: IMUL R10D                      [41F7EA] 
+3973F: MOV EAX,R8D                    [4489C0] 
+39742: SAR EAX,0x1f                   [C1F81F] 
+39745: SAR EDX,1                      [D1FA] 
+39747: SUB EDX,EAX                    [29C2] 
+39749: LEA EAX,[RDX + RDX*0x4]        [8D0492] 
+3974C: MOV EDX,R8D                    [4489C2] 
+3974F: SUB EDX,EAX                    [29C2] 
+39751: CMP EDX,0x4                    [83FA04] 
+397C8: MOV RAX,[0x00368e68]           [488B0599F63200] 
+397CF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+397D6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

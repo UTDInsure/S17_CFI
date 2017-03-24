@@ -1,0 +1,24 @@
+
+
+1E1B4: PUSH RBP                       [55] 
+1E1B5: PUSH RBX                       [53] 
+1E1B6: SUB RSP,0xd8                   [4881ECD8000000] 
+1E1BD: TEST AL,AL                     [84C0] 
+1E1BF: MOV [RSP + 0x38],RCX           [48894C2438] 
+1E1C4: MOV [RSP + 0x40],R8            [4C89442440] 
+1E1C9: MOV [RSP + 0x48],R9            [4C894C2448] 
+1E1D0: MOVAPS [RSP + 0x50],XMM0       [0F29442450] 
+1E1D5: MOVAPS [RSP + 0x60],XMM1       [0F294C2460] 
+1E1DA: MOVAPS [RSP + 0x70],XMM2       [0F29542470] 
+1E1DF: MOVAPS [0x80 + RSP],XMM3       [0F299C2480000000] 
+1E1E7: MOVAPS [0x90 + RSP],XMM4       [0F29A42490000000] 
+1E1EF: MOVAPS [0xa0 + RSP],XMM5       [0F29AC24A0000000] 
+1E1F7: MOVAPS [0xb0 + RSP],XMM6       [0F29B424B0000000] 
+1E1FF: MOVAPS [0xc0 + RSP],XMM7       [0F29BC24C0000000] 
+1E207: MOV RBP,RDX                    [4889D5] 
+1E20A: MOV EDX,ESI                    [89F2] 
+1E20C: MOV ESI,EDI                    [89FE] 
+1E20E: MOV RBX,[0x0024a830]           [488B1D1BC62200] 
+1E215: MOV RDI,[RBX]                  [488B3B] 
+
+========

@@ -1,0 +1,10 @@
+
+
+4059A4: CMP RDI,0x1b                   [4883FF1B] 
+4059A8: PUSH RBX                       [53] 
+4059A9: MOV RBX,RDI                    [4889FB] 
+405B4F: MOV dword ptr [0x00627a00],0x435345 [C705A71E220045534300] 
+405A62: MOV EAX,0x627a00               [B8007A6200] 
+405A67: POP RBX                        [5B] 
+
+========

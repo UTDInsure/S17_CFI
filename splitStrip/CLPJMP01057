@@ -1,0 +1,10 @@
+
+
+AE9D4: PUSH RBX                       [53] 
+AE9D5: MOV RBX,[RDI + 0x28]           [488B5F28] 
+AE9D9: TEST RBX,RBX                   [4885DB] 
+AE9DE: MOV dword ptr [RDI + 0x28],0x0 [48C7472800000000] 
+AE9E6: MOV dword ptr [RDI + 0x20],0x0 [48C7472000000000] 
+AE9EE: MOV RDI,[RBX]                  [488B3B] 
+
+========

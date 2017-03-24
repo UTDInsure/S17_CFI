@@ -1,0 +1,13 @@
+
+
+10D6E4: PUSH R12                       [4154] 
+10D6E6: MOV R12,RSI                    [4989F4] 
+10D6E9: XOR ESI,ESI                    [31F6] 
+10D6EB: PUSH RBP                       [55] 
+10D6EC: MOV RBP,RDI                    [4889FD] 
+10D6EF: PUSH RBX                       [53] 
+10D6F0: SUB RSP,0x40                   [4883EC40] 
+10D6F4: MOV RBX,[RDI + 0x40]           [488B5F40] 
+10D6F8: LEA RDI,[RSP + 0x30]           [488D7C2430] 
+
+========

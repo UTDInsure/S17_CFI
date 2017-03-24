@@ -1,0 +1,20 @@
+
+
+AD6B3: TEST R8D,R8D                   [4585C0] 
+AD6BC: SUB R15D,0x1                   [4183EF01] 
+AD6C0: MOV RAX,[-0xd8 + RBP]          [488B8528FFFFFF] 
+AD6C7: CMOVNS R8D,R15D                [450F49C7] 
+AD6CB: LEA R12D,[R8 + 0x1]            [458D6001] 
+AD6CF: SUB RAX,R14                    [4C29F0] 
+AD6D2: MOVSXD R12,R12D                [4D63E4] 
+AD6D5: CMP R12,RAX                    [4939C4] 
+ABF60: XOR EAX,EAX                    [31C0] 
+ABF62: LEA RSP,[RBP + -0x28]          [488D65D8] 
+ABF66: POP RBX                        [5B] 
+ABF67: POP R12                        [415C] 
+ABF69: POP R13                        [415D] 
+ABF6B: POP R14                        [415E] 
+ABF6D: POP R15                        [415F] 
+ABF6F: POP RBP                        [5D] 
+
+========

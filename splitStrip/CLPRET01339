@@ -1,0 +1,22 @@
+
+
+2B5E4: PUSH R15                       [4157] 
+2B5E6: PUSH R14                       [4156] 
+2B5E8: PUSH R13                       [4155] 
+2B5EA: PUSH R12                       [4154] 
+2B5EC: PUSH RBP                       [55] 
+2B5ED: PUSH RBX                       [53] 
+2B5EE: MOV EBX,0x2                    [BB02000000] 
+2B5F3: SUB RSP,0x48                   [4883EC48] 
+2B5F7: MOV R14,[0x0036a920]           [4C8B3522F33300] 
+2B5FE: TEST R14,R14                   [4D85F6] 
+2B65B: ADD RSP,0x48                   [4883C448] 
+2B65F: MOV EAX,EBX                    [89D8] 
+2B661: POP RBX                        [5B] 
+2B662: POP RBP                        [5D] 
+2B663: POP R12                        [415C] 
+2B665: POP R13                        [415D] 
+2B667: POP R14                        [415E] 
+2B669: POP R15                        [415F] 
+
+========

@@ -1,0 +1,9 @@
+
+
+18044: PUSH RBP                       [55] 
+18045: MOV RBP,RCX                    [4889CD] 
+18048: PUSH RBX                       [53] 
+18049: MOV RBX,RDI                    [4889FB] 
+1804C: SUB RSP,0x8                    [4883EC08] 
+
+========

@@ -1,0 +1,7 @@
+
+
+75F94: XOR EAX,EAX                    [31C0] 
+75F96: TEST byte ptr [RDI],0x8        [F60708] 
+75F99: SETZ AL                        [0F94C0] 
+
+========

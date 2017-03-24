@@ -1,0 +1,7 @@
+
+
+16BB4: TEST RDI,RDI                   [4885FF] 
+16BB9: TEST RDX,RDX                   [4885D2] 
+16C00: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

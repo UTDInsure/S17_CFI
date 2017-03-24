@@ -1,0 +1,23 @@
+
+
+4090FA: MOV ECX,0x1                    [B901000000] 
+4090FF: XOR EDX,EDX                    [31D2] 
+409101: MOV ESI,0x418b75               [BE758B4100] 
+409106: MOV EDI,0x6                    [BF06000000] 
+40910B: XOR EAX,EAX                    [31C0] 
+4081C4: PUSH R12                       [4154] 
+4081C6: XOR EAX,EAX                    [31C0] 
+4081C8: MOV R12,RSI                    [4989F4] 
+4081CB: MOV [0x0062842c],EDI           [893D5B022200] 
+4081D1: PUSH RBP                       [55] 
+4081D2: MOV EBP,ECX                    [89CD] 
+4081D4: PUSH RBX                       [53] 
+4081D5: MOV RBX,RDX                    [4889D3] 
+403F54: MOV ECX,[0x0062bb48]           [8B0DEE7B2200] 
+403F5A: PUSH RBX                       [53] 
+403F5B: MOV EDX,0x413de0               [BAE03D4100] 
+403F60: MOV ESI,0x1                    [BE01000000] 
+403F65: TEST ECX,ECX                   [85C9] 
+403F69: MOV RDI,[0x006279b0]           [488B3D403A2200] 
+
+========

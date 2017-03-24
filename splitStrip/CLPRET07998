@@ -1,0 +1,6 @@
+
+
+18184: MOV RAX,RDI                    [4889F8] 
+18187: MOVZX EAX,AH                   [0FB6C4] 
+
+========

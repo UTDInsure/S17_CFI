@@ -1,0 +1,15 @@
+
+
+EC6E4: CMP dword ptr [RDI + 0x10],0x0 [48837F1000] 
+EC6F0: CMP dword ptr [RSI + 0x10],0x0 [48837E1000] 
+EC6F7: MOV EAX,[RSI + 0x18]           [8B4618] 
+EC6FA: OR EAX,[RDI + 0x18]            [0B4718] 
+EC6FD: TEST AL,0x10                   [A810] 
+EC701: MOV RAX,[RCX]                  [488B01] 
+EC704: LEA RDX,[RAX + 0x1]            [488D5001] 
+EC708: MOV [RCX],RDX                  [488911] 
+EC70B: MOV EDX,[RDI + 0x8]            [8B5708] 
+EC70E: MOV [RAX],DL                   [8810] 
+EC6EB: XOR EAX,EAX                    [31C0] 
+
+========

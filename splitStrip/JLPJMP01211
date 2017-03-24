@@ -1,0 +1,17 @@
+
+
+C94DC: CMP byte ptr [RCX],0x0         [803900] 
+C94DF: MOV ECX,0x1                    [B901000000] 
+C94E4: CMOVS EDI,ECX                  [0F48F9] 
+C949B: LEA R11,[R8 + 0x1]             [4D8D5801] 
+C949F: CMP R11,R10                    [4D39D3] 
+C94A8: MOV RCX,R8                     [4C89C1] 
+C94AB: MOV R8,R11                     [4D89D8] 
+C929D: SHL RCX,0x4                    [48C1E104] 
+C92A1: ADD RCX,RSI                    [4801F1] 
+C92A4: CMP byte ptr [RCX + 0x8],0xc   [8079080C] 
+C92AE: MOVZX R11D,byte ptr [RCX + 0x8] [440FB65908] 
+C92B3: MOVSXD R11,[R9 + R11*0x4]      [4F631C99] 
+C92B7: ADD R11,R9                     [4D01CB] 
+
+========

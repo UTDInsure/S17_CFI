@@ -1,0 +1,8 @@
+
+
+D8464: MOV R10,RCX                    [4989CA] 
+D8467: MOVSXD RDI,EDI                 [4863FF] 
+D846A: MOV EAX,0x10b                  [B80B010000] 
+D8471: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

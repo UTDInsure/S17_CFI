@@ -1,0 +1,8 @@
+
+
+DD584: TEST ESI,ESI                   [85F6] 
+DD5A0: MOV RAX,[0x00368e68]           [488B05C1B82800] 
+DD5A7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DD5AE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

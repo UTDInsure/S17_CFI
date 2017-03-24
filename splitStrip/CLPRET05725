@@ -1,0 +1,11 @@
+
+
+E4384: MOV R10,RCX                    [4989CA] 
+E4387: MOV EAX,0x137                  [B837010000] 
+E438E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E4397: MOV RCX,[0x00368e68]           [488B0DCA4A2800] 
+E439E: NEG EAX                        [F7D8] 
+E43A0: MOV FS:[RCX],EAX               [648901] 
+E43A3: OR RAX,-0x1                    [4883C8FF] 
+
+========

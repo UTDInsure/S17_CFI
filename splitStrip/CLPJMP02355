@@ -1,0 +1,24 @@
+
+
+2F244: PUSH R15                       [4157] 
+2F246: PUSH R14                       [4156] 
+2F248: PUSH R13                       [4155] 
+2F24A: PUSH R12                       [4154] 
+2F24C: MOV R12,RDX                    [4989D4] 
+2F24F: PUSH RBP                       [55] 
+2F250: MOV RBP,RSI                    [4889F5] 
+2F253: PUSH RBX                       [53] 
+2F254: SUB RSP,0x28                   [4883EC28] 
+2F258: MOV RBX,[0x0024a880]           [488B1D21B62100] 
+2F25F: MOV [RSP + 0x8],RDI            [48897C2408] 
+2F264: MOV R13,[RBX]                  [4C8B2B] 
+2F267: MOV RAX,[R13 + 0x18]           [498B4518] 
+2F26B: MOVSX EDX,word ptr [RAX + 0x4] [0FBF5004] 
+2F26F: MOV [RSI],EDX                  [8916] 
+2F271: MOVSX EDX,word ptr [RAX]       [0FBF10] 
+2F274: MOV [R12],EDX                  [41891424] 
+2F278: MOV RDX,[0x0024a878]           [488B15F9B52100] 
+2F27F: CMP byte ptr [RDX],0x0         [803A00] 
+2F2B0: MOVSX EDI,word ptr [R13 + 0x48] [410FBF7D48] 
+
+========

@@ -1,0 +1,21 @@
+
+
+E6774: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E677C: MOV RAX,[0x00368dc0]           [488B053D262800] 
+E6783: MOV RAX,FS:[RAX]               [64488B00] 
+E6787: MOV RAX,[RAX]                  [488B00] 
+E678A: MOV ESI,[0xc8 + RAX]           [8BB0C8000000] 
+E6790: LEA EDX,[RSI + 0x9]            [8D5609] 
+E6793: MOVZX EDX,DX                   [0FB7D2] 
+E6796: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E679B: MOV EAX,EDI                    [89F8] 
+E679D: MOV ECX,[RDX]                  [8B0A] 
+E679F: SHR EAX,CL                     [D3E8] 
+E67A1: MOV ECX,EAX                    [89C1] 
+E67A3: XOR EAX,EAX                    [31C0] 
+E67A5: CMP ECX,[RDX + 0x4]            [3B4A04] 
+E67AA: ADD ECX,0x5                    [83C105] 
+E67AD: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+E67B0: TEST ECX,ECX                   [85C9] 
+
+========

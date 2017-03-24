@@ -1,0 +1,10 @@
+
+
+94654: PUSH RBX                       [53] 
+94655: MOV EAX,0x80000000             [B800000080] 
+9465A: CPUID                          [0FA2] 
+9465C: CMP EDI,0xc4                   [81FFC4000000] 
+946AC: XOR EAX,EAX                    [31C0] 
+946B2: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,18 @@
+
+
+4BE1C: MOV RAX,[RBX + 0x28]           [488B4328] 
+4BE20: CMP RAX,[RBX + 0x30]           [483B4330] 
+4BEAD: MOV ESI,0x25                   [BE25000000] 
+4BEB2: MOV RDI,RBX                    [4889DF] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+79562: MOV dword ptr [0xc0 + RDI],0xffffffff [C787C0000000FFFFFFFF] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+7957A: ADD RSP,0x8                    [4883C408] 
+4BEBE: ADD EAX,0x1                    [83C001] 
+47F03: MOV dword ptr [-0x4a8 + RBP],0xffffffff [C78558FBFFFFFFFFFFFF] 
+47F0D: CMP dword ptr [-0x4f0 + RBP],0x0 [4883BD10FBFFFF00] 
+47F3A: MOV RDI,[-0x4f0 + RBP]         [488BBD10FBFFFF] 
+
+========

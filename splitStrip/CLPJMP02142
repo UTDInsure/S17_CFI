@@ -1,0 +1,9 @@
+
+
+1EE64: PUSH R12                       [4154] 
+1EE66: MOV ESI,0x4                    [BE04000000] 
+1EE6B: PUSH RBP                       [55] 
+1EE6C: PUSH RBX                       [53] 
+1EE6D: MOV RBX,RDI                    [4889FB] 
+
+========

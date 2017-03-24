@@ -1,0 +1,26 @@
+
+
+D32A4: TEST RBP,RBP                   [4885ED] 
+D366D: TEST R14D,R14D                 [4585F6] 
+D3688: TEST R15,R15                   [4D85FF] 
+D415C: XOR EBP,EBP                    [31ED] 
+D36B3: MOV RDI,R10                    [4C89D7] 
+D36B6: MOV EDX,0x1                    [BA01000000] 
+D36BB: MOV RSI,RBP                    [4889EE] 
+D36BE: MOV [RSP + 0x38],R10           [4C89542438] 
+D36C3: MOV R14D,0x1                   [41BE01000000] 
+386D4: PUSH R12                       [4154] 
+386D6: TEST RDI,RDI                   [4885FF] 
+386D9: PUSH RBP                       [55] 
+386DA: PUSH RBX                       [53] 
+386DB: MOV RBX,RDI                    [4889FB] 
+38720: MOV RAX,[0x00368e68]           [488B0541073300] 
+38727: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+3872E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+38733: POP RBX                        [5B] 
+38734: POP RBP                        [5D] 
+38735: POP R12                        [415C] 
+D36D2: MOV R10,[RSP + 0x38]           [4C8B542438] 
+D36D7: MOV RDI,R10                    [4C89D7] 
+
+========

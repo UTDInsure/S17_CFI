@@ -1,0 +1,25 @@
+
+
+FA684: PUSH R15                       [4157] 
+FA686: MOV R15,RDI                    [4989FF] 
+FA689: PUSH R14                       [4156] 
+FA68B: PUSH R13                       [4155] 
+FA68D: PUSH R12                       [4154] 
+FA68F: PUSH RBP                       [55] 
+FA690: PUSH RBX                       [53] 
+FA691: MOV EBX,ESI                    [89F3] 
+FA693: SUB RSP,0x88                   [4881EC88000000] 
+FA69A: CMP SI,0x2                     [6683FE02] 
+FA6A4: CMP SI,0xa                     [6683FE0A] 
+FA760: MOV RAX,[0x00368e68]           [488B0501E72600] 
+FA767: MOV dword ptr FS:[RAX],0x61    [64C70061000000] 
+FA76E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+FA773: ADD RSP,0x88                   [4881C488000000] 
+FA77A: POP RBX                        [5B] 
+FA77B: POP RBP                        [5D] 
+FA77C: POP R12                        [415C] 
+FA77E: POP R13                        [415D] 
+FA780: POP R14                        [415E] 
+FA782: POP R15                        [415F] 
+
+========

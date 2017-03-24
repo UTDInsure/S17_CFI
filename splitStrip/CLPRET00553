@@ -1,0 +1,9 @@
+
+
+404C84: PUSH RBX                       [53] 
+404C85: MOV RBX,[0x006279d8]           [488B1D4C2D2200] 
+404C8C: TEST RBX,RBX                   [4885DB] 
+404CC9: XOR EAX,EAX                    [31C0] 
+404CCB: POP RBX                        [5B] 
+
+========

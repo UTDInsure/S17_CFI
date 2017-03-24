@@ -1,0 +1,12 @@
+
+
+DC054: SUB RSP,0x8                    [4883EC08] 
+DC058: TEST ESI,ESI                   [85F6] 
+DC088: XOR EDX,EDX                    [31D2] 
+DC08A: MOV ESI,0x5409                 [BE09540000] 
+DC08F: XOR EAX,EAX                    [31C0] 
+DC744: MOV EAX,0x10                   [B810000000] 
+DC74B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DC09A: ADD RSP,0x8                    [4883C408] 
+
+========

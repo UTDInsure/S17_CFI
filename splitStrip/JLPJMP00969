@@ -1,0 +1,15 @@
+
+
+6AF2C: OR byte ptr [RBX + 0xd],0x8    [804B0D08] 
+6AF30: LEA RDI,[RDX + 0x1]            [488D7A01] 
+6AF34: MOV [RSP + 0x8],RDI            [48897C2408] 
+6AF39: MOVZX EAX,byte ptr [RDX + 0x1] [0FB64201] 
+6AF3D: MOV RDX,RDI                    [4889FA] 
+6AF40: TEST AL,AL                     [84C0] 
+6AF10: SUB EAX,0x20                   [83E820] 
+6AF13: CMP AL,0x29                    [3C29] 
+6AF17: MOVZX EAX,AL                   [0FB6C0] 
+6AF1A: MOVSXD RAX,[RCX + RAX*0x4]     [48630481] 
+6AF1E: ADD RAX,RCX                    [4801C8] 
+
+========

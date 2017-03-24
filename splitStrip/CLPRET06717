@@ -1,0 +1,20 @@
+
+
+1024C4: PUSH R14                       [4156] 
+1024C6: PUSH R13                       [4155] 
+1024C8: LEA R13,[0x132d70]             [4C8D2DA1080300] 
+1024CF: PUSH R12                       [4154] 
+1024D1: MOV R12,RDI                    [4989FC] 
+1024D4: PUSH RBP                       [55] 
+1024D5: PUSH RBX                       [53] 
+1024D6: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+1024D9: MOV RBX,RSI                    [4889F3] 
+1024DC: NOP                            [0F1F4000] 
+1024E0: TEST AL,AL                     [84C0] 
+10267E: POP RBX                        [5B] 
+10267F: POP RBP                        [5D] 
+102680: POP R12                        [415C] 
+102682: POP R13                        [415D] 
+102684: POP R14                        [415E] 
+
+========

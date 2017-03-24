@@ -1,0 +1,26 @@
+
+
+36E44: SUB RSP,0x10                   [4883EC10] 
+36E48: TEST RDI,RDI                   [4885FF] 
+36E4B: MOV R8,RSI                     [4989F0] 
+36E50: MOV RAX,0x180000000            [48B80000008001000000] 
+36E5A: TEST [RDI],RAX                 [488507] 
+36EAC: MOV RAX,[RDI]                  [488B07] 
+36EAF: LEA RDI,[RSP + -0x78]          [488D7C2488] 
+36EB4: MOV [RSP + -0x78],RAX          [4889442488] 
+36EB9: MOV RAX,-0x180000001           [48B8FFFFFF7FFEFFFFFF] 
+36EC3: AND [RSP + -0x78],RAX          [4821442488] 
+36E5F: MOV ECX,0x80                   [B980000000] 
+36E64: MOV R10D,0x8                   [41BA08000000] 
+36E6A: XOR EDX,EDX                    [31D2] 
+36E6C: MOV RSI,R8                     [4C89C6] 
+36E6F: MOV EAX,ECX                    [89C8] 
+36E73: CMP RAX,0xfffff000             [483D00F0FFFF] 
+36E79: MOV RDX,RAX                    [4889C2] 
+36ECA: MOV RAX,[0x00368e68]           [488B05971F3300] 
+36ED1: NEG EDX                        [F7DA] 
+36ED3: MOV FS:[RAX],EDX               [648910] 
+36ED6: OR EAX,0xffffffff              [83C8FF] 
+36E8F: ADD RSP,0x10                   [4883C410] 
+
+========

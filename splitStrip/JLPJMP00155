@@ -1,0 +1,23 @@
+
+
+4089BC: XOR EAX,EAX                    [31C0] 
+4089BE: MOV dword ptr [0x0062842c],0x0 [C70564FA210000000000] 
+407064: MOV RDI,[0x00627b78]           [488B3D0D0B2200] 
+40706B: TEST RDI,RDI                   [4885FF] 
+4089D1: MOV ESI,[0x0062bb98]           [8B35C1312200] 
+4089D7: MOV dword ptr [0x00628420],0x0 [48C7053EFA210000000000] 
+4089E2: MOV dword ptr [0x00628410],0x0 [48C70523FA210000000000] 
+4089ED: TEST ESI,ESI                   [85F6] 
+408AB0: XOR EAX,EAX                    [31C0] 
+417174: PUSH R12                       [4154] 
+417176: PUSH RBP                       [55] 
+417177: PUSH RBX                       [53] 
+417178: MOV EBX,[0x0062bb98]           [8B1D1A4A2100] 
+41717E: TEST EBX,EBX                   [85DB] 
+417182: TEST BL,0x2                    [F6C302] 
+417185: MOV dword ptr [0x0062bb98],0x0 [C705094A210000000000] 
+417220: MOV ESI,0x1                    [BE01000000] 
+417225: MOV EDI,0x16                   [BF16000000] 
+41722A: OR EBX,0x4                     [83CB04] 
+
+========

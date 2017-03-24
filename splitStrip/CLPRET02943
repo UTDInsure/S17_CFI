@@ -1,0 +1,11 @@
+
+
+76844: MOV RCX,[RSI + 0x28]           [488B4E28] 
+76848: CMP RCX,[RSI + 0x30]           [483B4E30] 
+7684C: MOV RDX,RSI                    [4889F2] 
+76851: LEA RAX,[RCX + 0x1]            [488D4101] 
+76855: MOV [RSI + 0x28],RAX           [48894628] 
+76859: MOV [RCX],DIL                  [408839] 
+7685C: MOVZX EAX,DIL                  [400FB6C7] 
+
+========

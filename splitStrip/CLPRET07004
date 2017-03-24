@@ -1,0 +1,20 @@
+
+
+109A34: PUSH RBP                       [55] 
+109A35: MOV RBP,RSI                    [4889F5] 
+109A38: PUSH RBX                       [53] 
+109A39: SUB RSP,0x8                    [4883EC08] 
+109A3D: MOV RBX,[RDI + 0x18]           [488B5F18] 
+109A41: MOV RAX,[RBX + 0x20]           [488B4320] 
+109A45: LEA RDX,[RAX + 0x4]            [488D5004] 
+109A49: CMP RDX,[RBX + 0x28]           [483B5328] 
+109A4D: MOV [RBX + 0x20],RDX           [48895320] 
+109A53: MOV RDX,[RBP]                  [488B5500] 
+109A57: BSWAP EDX                      [0FCA] 
+109A59: MOV [RAX],EDX                  [8910] 
+109A5B: MOV EAX,0x1                    [B801000000] 
+109A60: ADD RSP,0x8                    [4883C408] 
+109A64: POP RBX                        [5B] 
+109A65: POP RBP                        [5D] 
+
+========

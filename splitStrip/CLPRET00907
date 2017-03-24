@@ -1,0 +1,17 @@
+
+
+411AC4: SUB RSP,0x18                   [4883EC18] 
+411AC8: XOR EAX,EAX                    [31C0] 
+405194: MOV RAX,[0x006279d8]           [488B053D282200] 
+40519B: TEST RAX,RAX                   [4885C0] 
+4051B0: XOR EAX,EAX                    [31C0] 
+411AD3: TEST AL,0x8                    [A808] 
+411AE0: XOR EAX,EAX                    [31C0] 
+411AE2: MOV RDI,RSP                    [4889E7] 
+414C04: MOV ESI,[0x0062ba70]           [8B35666E2100] 
+414C0A: TEST ESI,ESI                   [85F6] 
+414C45: MOV dword ptr [RDI],-0x1       [48C707FFFFFFFF] 
+411AEE: CMP dword ptr [RSP],-0x1       [48833C24FF] 
+411AD7: ADD RSP,0x18                   [4883C418] 
+
+========

@@ -1,0 +1,9 @@
+
+
+B57A4: MOV EAX,0xff                   [B8FF000000] 
+B5694: ADD RSP,0x90                   [4881C490000000] 
+B569B: POP RBX                        [5B] 
+B569C: POP RBP                        [5D] 
+B569D: POP R12                        [415C] 
+
+========

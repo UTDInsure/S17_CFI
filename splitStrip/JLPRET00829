@@ -1,0 +1,13 @@
+
+
+8EA14: MOV RAX,[RSI]                  [488B06] 
+8EA17: ADD RDX,0x6                    [4883C206] 
+8EA1B: SUB RSI,0x30                   [4883EE30] 
+8EA1F: SUB RDI,0x38                   [4883EF38] 
+8E998: MOV RCX,[RSI + 0x38]           [488B4E38] 
+8E99C: ADD RDI,0x40                   [4883C740] 
+8E9A0: MOV [RDI + -0x8],RAX           [488947F8] 
+8E9A4: SUB RDX,0x8                    [4883EA08] 
+8EAB0: MOV [RDI],RCX                  [48890F] 
+
+========

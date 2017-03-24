@@ -1,0 +1,13 @@
+
+
+D53B4: PUSH RBP                       [55] 
+D53B5: PUSH RBX                       [53] 
+D53B6: MOV RBX,RDI                    [4889FB] 
+D53B9: SUB RSP,0x8                    [4883EC08] 
+D53BD: MOV EAX,[RDI]                  [8B07] 
+D53BF: MOV RDI,[RDI + 0x8]            [488B7F08] 
+D53C3: LEA EBP,[RAX + 0x8]            [8D6808] 
+D53C6: MOVSXD RSI,EBP                 [4863F5] 
+D53C9: SHL RSI,0x5                    [48C1E605] 
+
+========

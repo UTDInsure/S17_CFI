@@ -1,0 +1,19 @@
+
+
+88644: MOV R8,RDI                     [4989F8] 
+88647: SUB RSP,0x100                  [4881EC00010000] 
+8864E: MOV ECX,0x20                   [B920000000] 
+88653: MOV RDI,RSP                    [4889E7] 
+88656: XOR EAX,EAX                    [31C0] 
+88658: CLD                            [FC] 
+88659: STOSQ.REP RDI                  [F348AB] 
+8865C: MOV RAX,[0x0036b988]           [488B0525332E00] 
+88663: MOV RDX,R8                     [4C89C2] 
+88666: CMP RDX,0x0                    [4883FA00] 
+8866A: CMOVZ RDX,RAX                  [480F44D0] 
+8866E: TEST RDX,RDX                   [4885D2] 
+8872A: XOR EAX,EAX                    [31C0] 
+8872C: MOV [0x0036b988],RDX           [48891555322E00] 
+88722: ADD RSP,0x100                  [4881C400010000] 
+
+========

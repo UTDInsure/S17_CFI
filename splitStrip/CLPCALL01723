@@ -1,0 +1,16 @@
+
+
+11B154: PUSH R13                       [4155] 
+11B156: MOV ESI,0x1                    [BE01000000] 
+11B15B: XOR EAX,EAX                    [31C0] 
+11B15D: PUSH R12                       [4154] 
+11B15F: PUSH RBP                       [55] 
+11B160: PUSH RBX                       [53] 
+11B161: MOV RBX,RDI                    [4889FB] 
+11B164: SUB RSP,0x8                    [4883EC08] 
+11B168: CMP dword ptr [0x0036e774],0x0 [833D0536250000] 
+11B17D: CMPXCHG [0x0036e9b8],ESI       [0FB13534382500] 
+11B1A4: MOV RAX,[0x0036a728]           [488B057DF52400] 
+11B1AB: XOR EBP,EBP                    [31ED] 
+
+========

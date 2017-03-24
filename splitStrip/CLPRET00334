@@ -1,0 +1,22 @@
+
+
+18744: PUSH R14                       [4156] 
+18746: MOVSXD RDI,EDI                 [4863FF] 
+18749: MOV EAX,0x4e                   [B84E000000] 
+1874E: PUSH R13                       [4155] 
+18750: PUSH R12                       [4154] 
+18752: PUSH RBP                       [55] 
+18753: PUSH RBX                       [53] 
+18754: MOV RBX,RSI                    [4889F3] 
+18759: CMP RAX,0xfffff000             [483D00F0FFFF] 
+18761: LEA R13,[RBX + RAX*0x1]        [4C8D2C03] 
+18765: MOV R14,RAX                    [4989C6] 
+18768: CMP RBX,R13                    [4C39EB] 
+187AE: POP RBX                        [5B] 
+187AF: POP RBP                        [5D] 
+187B0: POP R12                        [415C] 
+187B2: POP R13                        [415D] 
+187B4: MOV RAX,R14                    [4C89F0] 
+187B7: POP R14                        [415E] 
+
+========

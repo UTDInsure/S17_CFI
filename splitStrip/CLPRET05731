@@ -1,0 +1,7 @@
+
+
+E43D4: CMP dword ptr [0x0036e774],0x0 [833D99A3280000] 
+E43E1: MOV EAX,0x2b                   [B82B000000] 
+E43E8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

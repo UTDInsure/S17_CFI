@@ -1,0 +1,10 @@
+
+
+B0A4: PUSH RBP                       [55] 
+B0A5: MOV RBP,RDI                    [4889FD] 
+B0A8: LEA RDI,[0x222990]             [488D3DE1782100] 
+B0AF: PUSH RBX                       [53] 
+B0B0: MOV RBX,RSI                    [4889F3] 
+B0B3: SUB RSP,0x8                    [4883EC08] 
+
+========

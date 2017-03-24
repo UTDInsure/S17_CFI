@@ -1,0 +1,7 @@
+
+
+457D4: XOR EAX,EAX                    [31C0] 
+457D6: TEST RDX,RDX                   [4885D2] 
+457D9: MOV R9,RDX                     [4989D1] 
+
+========

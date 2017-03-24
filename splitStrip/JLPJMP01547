@@ -1,0 +1,19 @@
+
+
+32A1C: TEST R10B,R10B                 [4584D2] 
+32A25: MOV byte ptr [RDX],0x2d        [C6022D] 
+32A28: ADD RBP,0x1                    [4883C501] 
+32A2C: MOVZX EBX,byte ptr [RBP]       [0FB65D00] 
+32A30: ADD RDX,0x1                    [4883C201] 
+32920: TEST BL,BL                     [84DB] 
+32924: TEST CL,CL                     [84C9] 
+32928: LEA EAX,[RBX + -0x20]          [8D43E0] 
+3292B: CMP AL,0x58                    [3C58] 
+32A84: MOV [RSP + 0x28],R9D           [44894C2428] 
+32A89: MOV [RSP + 0x24],ECX           [894C2424] 
+32A8D: MOV [RSP + 0x20],R10D          [4489542420] 
+32A92: MOV [RSP + 0x1c],R8D           [448944241C] 
+32A97: MOV [RSP + 0x10],RDX           [4889542410] 
+32A9C: MOV [RSP + 0x8],RDI            [48897C2408] 
+
+========

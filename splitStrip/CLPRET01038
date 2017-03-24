@@ -1,0 +1,17 @@
+
+
+414AE4: MOV RDX,[0x0062b168]           [488B157D662100] 
+414AEB: CMP [RDX],RDI                  [48393A] 
+414AF0: MOV ECX,[0x0062ba70]           [8B0D7A6F2100] 
+414AF6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+414AFB: CMP ECX,0x1                    [83F901] 
+414B00: CMP RDI,[RDX + 0x8]            [483B7A08] 
+414B06: ADD RDX,0x10                   [4883C210] 
+414B0A: MOV EAX,0x1                    [B801000000] 
+414B22: ADD EAX,0x1                    [83C001] 
+414B25: CMP EAX,ECX                    [39C8] 
+414B18: ADD RDX,0x8                    [4883C208] 
+414B1C: CMP RDI,[RDX + -0x8]           [483B7AF8] 
+414B30: SUB EAX,0x1                    [83E801] 
+
+========

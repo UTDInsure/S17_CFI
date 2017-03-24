@@ -1,0 +1,14 @@
+
+
+402CB4: PUSH RBP                       [55] 
+402CB5: PUSH RBX                       [53] 
+402CB6: MOV EBX,EDI                    [89FB] 
+402CB8: SUB RSP,0x48                   [4883EC48] 
+402CBC: CMP EDI,[0x00627900]           [3B3D3E4C2200] 
+402CC8: TEST EDI,EDI                   [85FF] 
+402CCA: MOV dword ptr [0x0062ba84],0x8 [C705B08D220008000000] 
+402D70: MOV EDI,[0x0062bb9c]           [8B3D268E2200] 
+402D76: MOV RSI,RSP                    [4889E6] 
+402D79: MOV RBP,RSP                    [4889E5] 
+
+========

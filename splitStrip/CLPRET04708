@@ -1,0 +1,20 @@
+
+
+CA594: PUSH R12                       [4154] 
+CA596: MOV R12,RSI                    [4989F4] 
+CA599: PUSH RBP                       [55] 
+CA59A: PUSH RBX                       [53] 
+CA59B: MOV RBX,RDX                    [4889D3] 
+CA59E: SUB RSP,0x60                   [4883EC60] 
+CA5A2: CMP EDI,0x45c                  [81FF5C040000] 
+CA5B4: CMP EDI,0x3ef                  [81FFEF030000] 
+CAA88: MOV EBP,0x16                   [BD16000000] 
+CAA8D: LEA RSI,[0x13667f]             [488D35EBBB0600] 
+CA700: TEST RBX,RBX                   [4885DB] 
+CA7B0: ADD RSP,0x60                   [4883C460] 
+CA7B4: MOV RAX,RBP                    [4889E8] 
+CA7B7: POP RBX                        [5B] 
+CA7B8: POP RBP                        [5D] 
+CA7B9: POP R12                        [415C] 
+
+========

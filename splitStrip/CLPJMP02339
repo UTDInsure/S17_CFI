@@ -1,0 +1,18 @@
+
+
+2E6D4: TEST RDI,RDI                   [4885FF] 
+2E6D7: PUSH RBX                       [53] 
+2E6D8: MOV EBX,ESI                    [89F3] 
+2E740: MOV RAX,[0x0024a7a0]           [488B0559C02100] 
+2E747: MOV RAX,[RAX]                  [488B00] 
+2E6E5: TEST RAX,RAX                   [4885C0] 
+2E6EA: MOVZX EDX,BL                   [0FB6D3] 
+2E6ED: TEST BL,BL                     [84DB] 
+2E6EF: MOV [0x300 + RAX],EDX          [899000030000] 
+2E6F5: MOV RAX,[0x0024a880]           [488B0584C12100] 
+2E6FC: MOV RAX,[RAX]                  [488B00] 
+2E6FF: MOV RAX,[RAX + 0x20]           [488B4020] 
+2E705: MOV RSI,[0x328 + RAX]          [488BB028030000] 
+2E70C: LEA RDI,[0x3db80]              [488D3D6DF40000] 
+
+========

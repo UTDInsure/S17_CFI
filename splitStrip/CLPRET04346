@@ -1,0 +1,20 @@
+
+
+B2C84: PUSH R13                       [4155] 
+B2C86: PUSH R12                       [4154] 
+B2C88: PUSH RBP                       [55] 
+B2C89: PUSH RBX                       [53] 
+B2C8A: SUB RSP,0x1b8                  [4881ECB8010000] 
+B2C91: TEST EDI,EDI                   [85FF] 
+B2E0A: MOV EAX,FS:[0x308]             [648B042508030000] 
+B2E12: AND EAX,0xffffffb9             [83E0B9] 
+B2E15: CMP EAX,0x8                    [83F808] 
+B2D90: ADD RSP,0x1b8                  [4881C4B8010000] 
+B2D97: XOR EBP,EBP                    [31ED] 
+B2D99: POP RBX                        [5B] 
+B2D9A: MOV EAX,EBP                    [89E8] 
+B2D9C: POP RBP                        [5D] 
+B2D9D: POP R12                        [415C] 
+B2D9F: POP R13                        [415D] 
+
+========

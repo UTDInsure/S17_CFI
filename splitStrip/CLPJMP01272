@@ -1,0 +1,24 @@
+
+
+DF3C4: PUSH RBP                       [55] 
+DF3C5: MOV EDI,0x48                   [BF48000000] 
+DF3CA: MOV RBP,RSP                    [4889E5] 
+DF3CD: PUSH R13                       [4155] 
+DF3CF: PUSH R12                       [4154] 
+DF3D1: PUSH RBX                       [53] 
+DF3D2: SUB RSP,0x8                    [4883EC08] 
+B4CF4: PUSH R12                       [4154] 
+B4CF6: PUSH RBP                       [55] 
+B4CF7: PUSH RBX                       [53] 
+B4CF8: MOV EBX,EDI                    [89FB] 
+B4CFA: LEA EAX,[-0xb9 + RBX]          [8D8347FFFFFF] 
+B4D00: SUB RSP,0x30                   [4883EC30] 
+B4D04: CMP EAX,0xe                    [83F80E] 
+B4D0D: CMP EBX,0x22                   [83FB22] 
+B4DE8: CMP EBX,0x8a                   [81FB8A000000] 
+B4DC8: CMP EBX,0xf6                   [81FBF6000000] 
+B4DD4: LEA RAX,[0x1316fc]             [488D0521C90700] 
+B4DDB: MOVSXD RDX,[RAX + RBX*0x4]     [48631498] 
+B4DDF: ADD RAX,RDX                    [4801D0] 
+
+========

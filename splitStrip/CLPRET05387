@@ -1,0 +1,8 @@
+
+
+DE7F4: TEST RSI,RSI                   [4885F6] 
+DE7F9: MOVSXD RDI,EDI                 [4863FF] 
+DE7FC: MOV EAX,0x105                  [B805010000] 
+DE803: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

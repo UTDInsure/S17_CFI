@@ -1,0 +1,10 @@
+
+
+F0984: MOV EDX,[RDI + 0x10]           [8B5710] 
+F0987: MOV RAX,RDI                    [4889F8] 
+F098A: TEST EDX,EDX                   [85D2] 
+F0990: SUB RSP,0x8                    [4883EC08] 
+F0994: MOV RDI,[RDI + 0x8]            [488B7F08] 
+F099E: ADD RSP,0x8                    [4883C408] 
+
+========

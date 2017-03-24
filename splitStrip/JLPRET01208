@@ -1,0 +1,27 @@
+
+
+AAA37: MOV RAX,[RSP + 0x20]           [488B442420] 
+AAA3C: MOV ESI,[RAX + 0x20]           [8B7020] 
+AAA3F: TEST ESI,ESI                   [85F6] 
+AAA47: MOV R14,[RAX + 0x28]           [4C8B7028] 
+AAA4B: TEST R14D,R14D                 [4585F6] 
+AAA4E: MOV R13D,R14D                  [4589F5] 
+AAA57: MOV R14D,R15D                  [4589FE] 
+AAA5A: XOR EAX,EAX                    [31C0] 
+AAA5C: SUB R14D,0x1                   [4183EE01] 
+AAA60: CMOVNS EAX,R14D                [410F49C6] 
+AAA64: ADD EAX,0x1                    [83C001] 
+AAA67: MOVSXD R8,EAX                  [4C63C0] 
+AAA6A: MOV RAX,[RSP + 0x8]            [488B442408] 
+AAA6F: SUB RAX,R11                    [4C29D8] 
+AAA72: CMP R8,RAX                     [4939C0] 
+A9F18: XOR EAX,EAX                    [31C0] 
+A9F1A: ADD RSP,0xd8                   [4881C4D8000000] 
+A9F21: POP RBX                        [5B] 
+A9F22: POP RBP                        [5D] 
+A9F23: POP R12                        [415C] 
+A9F25: POP R13                        [415D] 
+A9F27: POP R14                        [415E] 
+A9F29: POP R15                        [415F] 
+
+========

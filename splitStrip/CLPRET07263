@@ -1,0 +1,10 @@
+
+
+1134E4: XOR EAX,EAX                    [31C0] 
+1134E6: TEST EDI,EDI                   [85FF] 
+1134E8: LEA R9,[0x13d670]              [4C8D0D81A10200] 
+113524: ADD EDI,EDI                    [01FF] 
+113526: MOVSXD RDI,EDI                 [4863FF] 
+113529: MOV byte ptr [RDX + RDI*0x1],0x0 [C6043A00] 
+
+========

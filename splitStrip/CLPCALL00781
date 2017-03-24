@@ -1,0 +1,17 @@
+
+
+837D4: PUSH R12                       [4154] 
+837D6: MOV R12,RSI                    [4989F4] 
+837D9: PUSH RBP                       [55] 
+837DA: PUSH RBX                       [53] 
+837DB: MOV RSI,[RDI + 0x8]            [488B7708] 
+837DF: MOV RBX,RDI                    [4889FB] 
+837E2: TEST RSI,RSI                   [4885F6] 
+83807: CMP R12,RSI                    [4939F4] 
+8380C: MOV RDX,[RSI]                  [488B16] 
+8380F: CMP R12,RDX                    [4939D4] 
+83814: TEST byte ptr [RBX + 0x50],0x1 [F6435001] 
+83818: MOV RBP,[RSI + 0x8]            [488B6E08] 
+837F0: MOV RDI,[RBX + 0x48]           [488B7B48] 
+
+========

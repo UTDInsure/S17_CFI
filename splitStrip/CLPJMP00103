@@ -1,0 +1,24 @@
+
+
+182B4: PUSH R12                       [4154] 
+182B6: PUSH RBP                       [55] 
+182B7: PUSH RBX                       [53] 
+182B8: MOV RBX,RDI                    [4889FB] 
+182BB: MOV RDI,[0x340 + RDI]          [488BBF40030000] 
+182C2: MOV RSI,[0x348 + RBX]          [488BB348030000] 
+182C9: SUB RSI,RDI                    [4829FE] 
+18C54: MOV EAX,0xb                    [B80B000000] 
+18C5B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+182D5: MOV R12,[0x3f0 + RBX]          [4C8BA3F0030000] 
+182DC: TEST R12,R12                   [4D85E4] 
+182E1: MOV EAX,[R12 + 0x8]            [418B442408] 
+182E6: LEA EBX,[RAX + -0x1]           [8D58FF] 
+182E9: MOVSXD RBP,EBX                 [4863EB] 
+182EC: SHL RBP,0x3                    [48C1E503] 
+182F0: TEST EBX,EBX                   [85DB] 
+182F4: NOP                            [0F1F4000] 
+182F8: MOV RAX,[R12]                  [498B0424] 
+182FC: MOV RDI,[RAX + RBP*0x1]        [488B3C28] 
+18300: SUB RBP,0x8                    [4883ED08] 
+
+========

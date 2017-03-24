@@ -1,0 +1,13 @@
+
+
+B2B44: SUB RSP,0x8                    [4883EC08] 
+B2B48: MOV RCX,RDX                    [4889D1] 
+B2B4B: MOV EDX,ESI                    [89F2] 
+B2B4D: MOV RSI,RDI                    [4889FE] 
+B2B50: MOV EDI,0xffffffff             [BFFFFFFFFF] 
+B2B74: MOV R10,RCX                    [4989CA] 
+B2B77: MOV EAX,0x3d                   [B83D000000] 
+B2B7E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B2B5E: ADD RSP,0x8                    [4883C408] 
+
+========

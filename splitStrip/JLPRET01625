@@ -1,0 +1,14 @@
+
+
+C63D2: AND EDX,0x402                  [81E202040000] 
+C63D8: MOV EAX,0x2                    [B802000000] 
+C63DD: CMP RDX,0x2                    [4883FA02] 
+C619D: MOV byte ptr [RBP + 0x8],0x13  [C6450813] 
+C5F46: ADD RSP,0x20                   [4883C420] 
+C5F4A: POP RBX                        [5B] 
+C5F4B: POP RBP                        [5D] 
+C5F4C: POP R12                        [415C] 
+C5F4E: POP R13                        [415D] 
+C5F50: POP R14                        [415E] 
+
+========

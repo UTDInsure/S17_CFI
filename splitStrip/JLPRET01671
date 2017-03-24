@@ -1,0 +1,9 @@
+
+
+10C114: MOV RAX,[R8]                   [498B00] 
+10C117: SUB EAX,0x1                    [83E801] 
+10C11A: BSWAP EAX                      [0FC8] 
+10C11C: MOV [0xa8 + RCX],EAX           [8981A8000000] 
+10C122: MOV EAX,0x1                    [B801000000] 
+
+========

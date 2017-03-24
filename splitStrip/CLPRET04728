@@ -1,0 +1,6 @@
+
+
+CC2D4: MOV EAX,0x92                   [B892000000] 
+CC2DB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

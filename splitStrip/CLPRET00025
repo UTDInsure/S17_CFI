@@ -1,0 +1,13 @@
+
+
+51B4: MOVZX R10D,byte ptr [RSI]      [440FB616] 
+51B8: XOR R11D,R11D                  [4531DB] 
+51BB: CMP R10B,0x7b                  [4180FA7B] 
+51C1: XOR R9D,R9D                    [4531C9] 
+51C4: CMP R10B,[RDX]                 [443A12] 
+5200: TEST R11B,R11B                 [4584DB] 
+5210: CMP R10B,0x2f                  [4180FA2F] 
+51F0: TEST R8D,R8D                   [4585C0] 
+51F5: MOV RAX,R9                     [4C89C8] 
+
+========

@@ -1,0 +1,15 @@
+
+
+1FFB4: XOR EAX,EAX                    [31C0] 
+1FFB6: TEST EDI,EDI                   [85FF] 
+1FFBA: MOV RCX,[0x0024a878]           [488B0DB7A82200] 
+1FFC1: MOV RDX,[0x88 + RCX]           [488B9188000000] 
+1FFC8: TEST RDX,RDX                   [4885D2] 
+1FFF8: LEA RAX,[RCX + 0x28]           [488D4128] 
+1FFFC: LEA RDX,[RCX + 0x10]           [488D5110] 
+1FFE2: MOV [RDX + 0x8],EDI            [897A08] 
+1FFE5: MOV [RDX + 0x10],RSI           [48897210] 
+1FFE9: MOV [0x88 + RCX],RAX           [48898188000000] 
+1FFF0: XOR EAX,EAX                    [31C0] 
+
+========

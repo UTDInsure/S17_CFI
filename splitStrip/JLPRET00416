@@ -1,0 +1,16 @@
+
+
+80744: XOR EDX,EDX                    [31D2] 
+80746: CMP EBX,0xa0                   [81FBA0000000] 
+8074E: TEST EBX,EBX                   [85DB] 
+80750: MOV EAX,0x10                   [B810000000] 
+80762: MOV [0x0036b860],RAX           [488905F7B02E00] 
+80769: MOV EDX,0x1                    [BA01000000] 
+80790: CMP dword ptr [0x0036e774],0x0 [833DDDDF2E0000] 
+807A4: DEC dword ptr [0x00369620]     [FF0D768E2E00] 
+807CA: ADD RSP,0x8                    [4883C408] 
+807CE: MOV EAX,EDX                    [89D0] 
+807D0: POP RBX                        [5B] 
+807D1: POP RBP                        [5D] 
+
+========

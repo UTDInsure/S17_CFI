@@ -1,0 +1,10 @@
+
+
+2F454: SUB RSP,0x18                   [4883EC18] 
+2F458: XOR EAX,EAX                    [31C0] 
+2F45A: TEST RDI,RDI                   [4885FF] 
+2F45D: MOV [RSP + 0x8],RSI            [4889742408] 
+2F464: CMP byte ptr [RDI],0x0         [803F00] 
+2F469: ADD RSP,0x18                   [4883C418] 
+
+========

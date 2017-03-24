@@ -1,0 +1,23 @@
+
+
+10F1E4: PUSH R14                       [4156] 
+10F1E6: XOR EAX,EAX                    [31C0] 
+10F1E8: PUSH R13                       [4155] 
+10F1EA: PUSH R12                       [4154] 
+10F1EC: MOV R12,RSI                    [4989F4] 
+10F1EF: PUSH RBP                       [55] 
+10F1F0: MOV EBP,EDX                    [89D5] 
+10F1F2: PUSH RBX                       [53] 
+10F1F3: MOV RBX,RDI                    [4889FB] 
+10F1F6: SUB RSP,0x10                   [4883EC10] 
+10F1FA: TEST EDX,EDX                   [85D2] 
+10F1FC: MOV RSI,[RDI + 0x8]            [488B7708] 
+10F200: MOV RDI,[RDI + 0x10]           [488B7F10] 
+10F268: ADD RSP,0x10                   [4883C410] 
+10F26C: POP RBX                        [5B] 
+10F26D: POP RBP                        [5D] 
+10F26E: POP R12                        [415C] 
+10F270: POP R13                        [415D] 
+10F272: POP R14                        [415E] 
+
+========

@@ -1,0 +1,11 @@
+
+
+BB754: MOV R8D,[RDI + 0x34]           [448B4734] 
+BB758: CMP [RDI + 0x40],R8D           [44394740] 
+BB75C: CMOVLE R8D,[RDI + 0x40]        [440F4E4740] 
+BB761: MOV EAX,[RDI + 0x2c]           [8B472C] 
+BB764: CMP R8D,EAX                    [4139C0] 
+BB79B: MOV [RDI + 0x2c],EAX           [89472C] 
+BB79E: MOV [RDI + 0x30],EAX           [894730] 
+
+========

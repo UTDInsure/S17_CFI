@@ -1,0 +1,12 @@
+
+
+CA524: TEST EDX,EDX                   [85D2] 
+CA548: MOVZX EAX,byte ptr [RDI + 0x38] [0FB64738] 
+CA54C: AND EAX,0xfffffff9             [83E0F9] 
+CA54F: OR EAX,0x2                     [83C802] 
+CA552: MOV [RDI + 0x38],AL            [884738] 
+CA555: MOV [RSI],EDX                  [8916] 
+CA557: MOV [RSI + 0x8],RCX            [48894E08] 
+CA55B: MOV [RSI + 0x10],R8            [4C894610] 
+
+========

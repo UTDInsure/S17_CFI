@@ -1,0 +1,13 @@
+
+
+1E274: PUSH RBP                       [55] 
+1E275: PUSH RBX                       [53] 
+1E276: MOV RBX,RDI                    [4889FB] 
+1E279: SUB RSP,0xd8                   [4881ECD8000000] 
+1E280: TEST AL,AL                     [84C0] 
+1E282: MOV [RSP + 0x40],R8            [4C89442440] 
+1E287: MOV [RSP + 0x48],R9            [4C894C2448] 
+1E2C5: MOV RDI,RBX                    [4889DF] 
+1E2C8: MOV RBP,RCX                    [4889CD] 
+
+========

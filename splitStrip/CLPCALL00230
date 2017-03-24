@@ -1,0 +1,24 @@
+
+
+44924: PUSH R15                       [4157] 
+44926: MOV R15,R9                     [4D89CF] 
+44929: PUSH R14                       [4156] 
+4492B: MOV R14,RDI                    [4989FE] 
+4492E: PUSH R13                       [4155] 
+44930: MOV R13D,EDX                   [4189D5] 
+44933: PUSH R12                       [4154] 
+44935: PUSH RBP                       [55] 
+44936: MOV RBP,RSI                    [4889F5] 
+44939: PUSH RBX                       [53] 
+4493A: SUB RSP,0x78                   [4883EC78] 
+4493E: MOV ESI,[0x0036e770]           [8B352C9E3200] 
+44944: MOV [RSP + 0x30],RCX           [48894C2430] 
+44949: MOV [RSP + 0x38],R8            [4C89442438] 
+4494E: TEST ESI,ESI                   [85F6] 
+44D10: MOV RAX,[0x0036e6f8]           [488B05E1993200] 
+44D17: LEA RSI,[0x446b0]              [488D3592F9FFFF] 
+44D1E: LEA RDI,[0x36b6e8]             [488D3DC3693200] 
+44D25: ROR RAX,0x11                   [48C1C811] 
+44D29: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

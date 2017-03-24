@@ -1,0 +1,8 @@
+
+
+A61F4: TEST RDI,RDI                   [4885FF] 
+A6220: MOV RAX,[0x00368e68]           [488B05412C2C00] 
+A6227: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+A622E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

@@ -1,0 +1,10 @@
+
+
+4123B4: SUB RSP,0x18                   [4883EC18] 
+4123B8: CMP EDI,0x1                    [83FF01] 
+4123BD: CMP EDI,0x2                    [83FF02] 
+4123C2: TEST EDI,EDI                   [85FF] 
+4123D0: MOV [0x006273e0],RSI           [48893509502100] 
+4123D7: ADD RSP,0x18                   [4883C418] 
+
+========

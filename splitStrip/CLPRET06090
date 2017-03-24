@@ -1,0 +1,6 @@
+
+
+E9044: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+E9049: CMP [0x00369288],EAX           [390539022800] 
+
+========

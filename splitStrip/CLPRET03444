@@ -1,0 +1,6 @@
+
+
+82A84: TEST RDI,RDI                   [4885FF] 
+82AF0: XOR EAX,EAX                    [31C0] 
+
+========

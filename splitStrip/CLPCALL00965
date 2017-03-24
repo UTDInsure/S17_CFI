@@ -1,0 +1,28 @@
+
+
+E1354: PUSH RBP                       [55] 
+E1355: MOV RBP,RSI                    [4889F5] 
+E1358: PUSH RBX                       [53] 
+E1359: MOV RBX,RDI                    [4889FB] 
+E135C: SUB RSP,0x8                    [4883EC08] 
+E1360: MOV RDI,[RDI + 0x8]            [488B7F08] 
+E1364: TEST RDI,RDI                   [4885FF] 
+E1354: PUSH RBP                       [55] 
+E1355: MOV RBP,RSI                    [4889F5] 
+E1358: PUSH RBX                       [53] 
+E1359: MOV RBX,RDI                    [4889FB] 
+E135C: SUB RSP,0x8                    [4883EC08] 
+E1360: MOV RDI,[RDI + 0x8]            [488B7F08] 
+E1364: TEST RDI,RDI                   [4885FF] 
+E1354: PUSH RBP                       [55] 
+E1355: MOV RBP,RSI                    [4889F5] 
+E1358: PUSH RBX                       [53] 
+E1359: MOV RBX,RDI                    [4889FB] 
+E135C: SUB RSP,0x8                    [4883EC08] 
+E1360: MOV RDI,[RDI + 0x8]            [488B7F08] 
+E1364: TEST RDI,RDI                   [4885FF] 
+E1372: MOV RDI,[RBX + 0x10]           [488B7B10] 
+E1376: TEST RDI,RDI                   [4885FF] 
+E1387: MOV RDI,[RBX]                  [488B3B] 
+
+========

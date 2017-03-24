@@ -1,0 +1,25 @@
+
+
+6DB44: PUSH R12                       [4154] 
+6DB46: PUSH RBP                       [55] 
+6DB47: MOV RBP,RDI                    [4889FD] 
+6DB4A: PUSH RBX                       [53] 
+6DB4B: MOV RBX,[0x0036a718]           [488B1DC6CB2F00] 
+6DB52: MOV EAX,[RBX]                  [8B03] 
+6DB54: MOV RDI,RBX                    [4889DF] 
+6DB57: AND EAX,0x8000                 [2500800000] 
+6DBC3: MOV RAX,[RDI + 0x8]            [488B4708] 
+6DBC7: CMP RAX,[RDI + 0x10]           [483B4710] 
+6DBD1: LEA RDX,[RAX + 0x1]            [488D5001] 
+6DBD5: MOV [RDI + 0x8],RDX            [48895708] 
+6DBD9: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+6DBDC: CMP EAX,0xa                    [83F80A] 
+6DC98: XOR EAX,EAX                    [31C0] 
+6DC3A: MOV byte ptr [RBP + RAX*0x1],0x0 [C644050000] 
+6DC3F: TEST dword ptr [RBX],0x8000    [F70300800000] 
+6DC8A: POP RBX                        [5B] 
+6DC8B: MOV RAX,RBP                    [4889E8] 
+6DC8E: POP RBP                        [5D] 
+6DC8F: POP R12                        [415C] 
+
+========

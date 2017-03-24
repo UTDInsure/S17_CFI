@@ -1,0 +1,18 @@
+
+
+B1604: PUSH RBP                       [55] 
+B1605: MOV RBP,RSP                    [4889E5] 
+B1608: PUSH R12                       [4154] 
+B160A: PUSH RBX                       [53] 
+B160B: MOV RBX,RSI                    [4889F3] 
+B160E: SUB RSP,0x60                   [4883EC60] 
+B1612: TEST RSI,RSI                   [4885F6] 
+B16C0: MOV RAX,[0x00368e68]           [488B05A1772B00] 
+B16C7: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+B16CE: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+B16A5: LEA RSP,[RBP + -0x10]          [488D65F0] 
+B16A9: POP RBX                        [5B] 
+B16AA: POP R12                        [415C] 
+B16AC: POP RBP                        [5D] 
+
+========

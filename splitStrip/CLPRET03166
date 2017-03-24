@@ -1,0 +1,13 @@
+
+
+79DE4: MOV RAX,[RDI + 0x8]            [488B4708] 
+79DE8: CMP RAX,[RDI + 0x18]           [483B4718] 
+79DEC: PUSH RBX                       [53] 
+79DED: MOV RBX,RDI                    [4889FB] 
+79DF2: LEA RDX,[RAX + -0x1]           [488D50FF] 
+79DF6: MOV [RDI + 0x8],RDX            [48895708] 
+79DFA: MOVZX EAX,byte ptr [RAX + -0x1] [0FB640FF] 
+79DFE: AND [RBX],0xffffffef           [8323EF] 
+79E01: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,27 @@
+
+
+6B594: MOV RDX,[RDI]                  [488B17] 
+6B597: MOV R9D,0x7fffffff             [41B9FFFFFF7F] 
+6B59D: MOV EAX,[RDX]                  [8B02] 
+6B59F: ADD RDX,0x4                    [4883C204] 
+6B5A3: SUB EAX,0x30                   [83E830] 
+6B5CC: MOV ESI,[RDX]                  [8B32] 
+6B5CE: LEA ECX,[RSI + -0x30]          [8D4ED0] 
+6B5D1: CMP ECX,0x9                    [83F909] 
+6B5D6: TEST EAX,EAX                   [85C0] 
+6B5DA: CMP EAX,0xccccccc              [3DCCCCCC0C] 
+6B5B0: LEA ESI,[RAX + RAX*0x4]        [8D3480] 
+6B5B3: MOV R8D,R9D                    [4589C8] 
+6B5B6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+6B5BB: SUB R8D,ECX                    [4129C8] 
+6B5BE: ADD ESI,ESI                    [01F6] 
+6B5C0: ADD ECX,ESI                    [01F1] 
+6B5C2: CMP ESI,R8D                    [4439C6] 
+6B5C5: CMOVLE EAX,ECX                 [0F4EC1] 
+6B5C8: ADD RDX,0x4                    [4883C204] 
+6B5CC: MOV ESI,[RDX]                  [8B32] 
+6B5CE: LEA ECX,[RSI + -0x30]          [8D4ED0] 
+6B5D1: CMP ECX,0x9                    [83F909] 
+6B5F0: MOV [RDI],RDX                  [488917] 
+
+========

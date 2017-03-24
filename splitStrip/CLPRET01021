@@ -1,0 +1,24 @@
+
+
+414924: MOVSXD RSI,[0x0062ba70]        [48633545712100] 
+41492B: MOV R8,[0x0062b168]            [4C8B0536682100] 
+414932: CMP ESI,0x1                    [83FE01] 
+414937: LEA EDX,[RSI + -0x2]           [8D56FE] 
+41493A: LEA RAX,[R8 + 0x8]             [498D4008] 
+41493E: LEA RCX,[R8 + RDX*0x8 + 0x10]  [498D4CD010] 
+414943: NOP                            [0F1F440000] 
+414948: MOV RDX,[RAX]                  [488B10] 
+41494B: ADD RAX,0x8                    [4883C008] 
+41494F: MOV [RAX + -0x10],RDX          [488950F0] 
+414953: CMP RAX,RCX                    [4839C8] 
+414948: MOV RDX,[RAX]                  [488B10] 
+41494B: ADD RAX,0x8                    [4883C008] 
+41494F: MOV [RAX + -0x10],RDX          [488950F0] 
+414953: CMP RAX,RCX                    [4839C8] 
+414948: MOV RDX,[RAX]                  [488B10] 
+41494B: ADD RAX,0x8                    [4883C008] 
+41494F: MOV [RAX + -0x10],RDX          [488950F0] 
+414953: CMP RAX,RCX                    [4839C8] 
+414958: MOV [R8 + RSI*0x8 + -0x8],RDI  [49897CF0F8] 
+
+========

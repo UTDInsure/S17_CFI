@@ -1,0 +1,21 @@
+
+
+F6C54: PUSH R14                       [4156] 
+F6C56: MOV ESI,0x1                    [BE01000000] 
+F6C5B: XOR EAX,EAX                    [31C0] 
+F6C5D: PUSH R13                       [4155] 
+F6C5F: PUSH R12                       [4154] 
+F6C61: PUSH RBP                       [55] 
+F6C62: MOV RBP,RDI                    [4889FD] 
+F6C65: PUSH RBX                       [53] 
+F6C66: SUB RSP,0x10                   [4883EC10] 
+F6C6A: MOV dword ptr [RSP + 0x4],0x0  [C744240400000000] 
+F6C72: CMP dword ptr [0x0036e774],0x0 [833DFB7A270000] 
+F6C87: CMPXCHG [0x0036d3b0],ESI       [0FB13522672700] 
+F6CAE: MOV RDX,[0x0036a830]           [488B157B3B2700] 
+F6CB5: MOV RCX,[0x0036d3a8]           [488B0DEC662700] 
+F6CBC: TEST RDX,RDX                   [4885D2] 
+F6DE0: MOV EDI,0x400                  [BF00040000] 
+F6DE5: MOV dword ptr [0x0036d3a8],0x400 [48C705B865270000040000] 
+
+========

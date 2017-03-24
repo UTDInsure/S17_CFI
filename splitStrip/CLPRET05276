@@ -1,0 +1,6 @@
+
+
+DCD44: MOV EAX,0xaa                   [B8AA000000] 
+DCD4B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

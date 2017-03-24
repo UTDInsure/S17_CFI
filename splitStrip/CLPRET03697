@@ -1,0 +1,21 @@
+
+
+8FBC4: TEST RSI,RSI                   [4885F6] 
+8FBC7: MOV RAX,RDI                    [4889F8] 
+8FBCA: LEA RCX,[RDI + RSI*0x1]        [488D0C37] 
+8FBCE: MOV RDX,RDI                    [4889FA] 
+8FBD3: NOP                            [0F1F440000] 
+8FBD8: ADD RDX,0x1                    [4883C201] 
+8FBDC: XOR byte ptr [RDX + -0x1],0x2a [8072FF2A] 
+8FBE0: CMP RDX,RCX                    [4839CA] 
+8FBD8: ADD RDX,0x1                    [4883C201] 
+8FBDC: XOR byte ptr [RDX + -0x1],0x2a [8072FF2A] 
+8FBE0: CMP RDX,RCX                    [4839CA] 
+8FBD8: ADD RDX,0x1                    [4883C201] 
+8FBDC: XOR byte ptr [RDX + -0x1],0x2a [8072FF2A] 
+8FBE0: CMP RDX,RCX                    [4839CA] 
+8FBD8: ADD RDX,0x1                    [4883C201] 
+8FBDC: XOR byte ptr [RDX + -0x1],0x2a [8072FF2A] 
+8FBE0: CMP RDX,RCX                    [4839CA] 
+
+========

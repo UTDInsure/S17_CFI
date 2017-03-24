@@ -1,0 +1,15 @@
+
+
+391F4: TEST RDI,RDI                   [4885FF] 
+391F7: PUSH RBX                       [53] 
+39240: MOV RAX,[0x00368dc0]           [488B0579FB3200] 
+39247: MOV RAX,FS:[RAX]               [64488B00] 
+3924B: MOV RBX,[RAX]                  [488B18] 
+3924E: MOV RAX,[RBX + 0x28]           [488B4328] 
+39252: TEST RAX,RAX                   [4885C0] 
+39257: MOV dword ptr [0x0036b490],0x0 [48C7052E22330000000000] 
+39262: MOV RAX,[RAX]                  [488B00] 
+39265: POP RBX                        [5B] 
+39266: MOV EAX,[RAX + 0x58]           [8B4058] 
+
+========

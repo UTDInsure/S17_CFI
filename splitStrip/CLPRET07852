@@ -1,0 +1,10 @@
+
+
+11E6D4: PUSH RBX                       [53] 
+11E6D5: MOV RBX,[0x00368ff0]           [488B1D14A92400] 
+11E6DC: MOV RDI,FS:[RBX]               [64488B3B] 
+11E6E0: MOV EAX,[RDI + 0x10]           [8B4710] 
+11E6E3: TEST EAX,EAX                   [85C0] 
+11E6E7: POP RBX                        [5B] 
+
+========

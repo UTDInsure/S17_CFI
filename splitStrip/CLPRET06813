@@ -1,0 +1,13 @@
+
+
+106644: XOR EAX,EAX                    [31C0] 
+106646: TEST RDI,RDI                   [4885FF] 
+10664B: SUB RSP,0x8                    [4883EC08] 
+10664F: MOV RAX,[RSI + 0x8]            [488B4608] 
+106653: MOV RCX,RSI                    [4889F1] 
+106656: MOV EDX,[RDI + 0x5c]           [8B575C] 
+106659: LEA RSI,[RDI + 0x48]           [488D7748] 
+10665D: MOV RDI,RCX                    [4889CF] 
+106667: ADD RSP,0x8                    [4883C408] 
+
+========

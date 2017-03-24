@@ -1,0 +1,20 @@
+
+
+10D4F4: PUSH RBP                       [55] 
+10D4F5: MOV ESI,0x1                    [BE01000000] 
+10D4FA: XOR EAX,EAX                    [31C0] 
+10D4FC: PUSH RBX                       [53] 
+10D4FD: SUB RSP,0x18                   [4883EC18] 
+10D501: CMP dword ptr [0x0036e774],0x0 [833D6C12260000] 
+10D50A: LOCK                           [F0] 
+10D50B: CMPXCHG [0x0036dfac],ESI       [0FB1359A0A2600] 
+B3E54: MOV EDX,FS:[0x2d4]             [648B1425D4020000] 
+B3E5C: CMP EDX,0x0                    [83FA00] 
+B3E5F: MOV EAX,EDX                    [89D0] 
+10D546: CMP [0x0036dfa8],EAX           [39055C0A2600] 
+10D54C: MOV EBX,EAX                    [89C3] 
+10D54E: MOV RBP,RSP                    [4889E5] 
+10D553: XOR ESI,ESI                    [31F6] 
+10D555: MOV RDI,RSP                    [4889E7] 
+
+========

@@ -1,0 +1,27 @@
+
+
+35A94: FLD tword ptr [RSP + 0x8]      [DB6C2408] 
+35A98: MOV dword ptr [RDI],0x0        [C70700000000] 
+35A9E: FLD ST0                        [D9C0] 
+35AA0: FSTP tword ptr [RSP + -0x18]   [DB7C24E8] 
+35AA4: MOVSX EDX,word ptr [RSP + -0x10] [0FBF5424F0] 
+35AA9: MOV ECX,[RSP + -0x14]          [8B4C24EC] 
+35AAD: MOV ESI,[RSP + -0x18]          [8B7424E8] 
+35AB1: MOV EAX,EDX                    [89D0] 
+35AB3: AND EAX,0x7fff                 [25FF7F0000] 
+35AB8: CMP EAX,0x7fff                 [3DFF7F0000] 
+35ABF: OR ECX,ESI                     [09F1] 
+35AC1: FLD ST0                        [D9C0] 
+35AC3: OR ECX,EAX                     [09C1] 
+35AC7: FSTP ST0                       [DDD8] 
+35AC9: TEST EAX,EAX                   [85C0] 
+35ACB: MOV ECX,0xffffc002             [B902C0FFFF] 
+35AF0: FSTP tword ptr [RSP + -0x18]   [DB7C24E8] 
+35AF4: AND EDX,0x8000                 [81E200800000] 
+35AFA: ADD EAX,ECX                    [01C8] 
+35AFC: OR EDX,0x3ffe                  [81CAFE3F0000] 
+35B02: MOV [RSP + -0x10],DX           [66895424F0] 
+35B07: MOV [RDI],EAX                  [8907] 
+35B09: FLD tword ptr [RSP + -0x18]    [DB6C24E8] 
+
+========

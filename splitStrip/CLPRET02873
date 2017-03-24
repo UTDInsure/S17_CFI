@@ -1,0 +1,28 @@
+
+
+750F4: SUB RSP,0x8                    [4883EC08] 
+750F8: XOR ECX,ECX                    [31C9] 
+750FA: MOV EDX,0x1                    [BA01000000] 
+750FF: XOR ESI,ESI                    [31F6] 
+6EBF4: PUSH R12                       [4154] 
+6EBF6: MOV R10,RSI                    [4989F2] 
+6EBF9: PUSH RBP                       [55] 
+6EBFA: MOV RBP,RCX                    [4889CD] 
+6EBFD: PUSH RBX                       [53] 
+6EBFE: MOV RBX,RDI                    [4889FB] 
+6EC01: MOV EDI,[RDI]                  [8B3F] 
+6EC03: MOV EAX,EDI                    [89F8] 
+6EC05: MOV R8D,EDI                    [4189F8] 
+6EC08: AND EAX,0x8000                 [2500800000] 
+6EC71: CMP EDX,0x1                    [83FA01] 
+6EC7A: CMP EDX,0x2                    [83FA02] 
+6EC83: TEST EDX,EDX                   [85D2] 
+6EC87: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+6EC8C: AND R8D,0x8000                 [4181E000800000] 
+6ECD8: POP RBX                        [5B] 
+6ECD9: POP RBP                        [5D] 
+6ECDA: MOV EAX,EDX                    [89D0] 
+6ECDC: POP R12                        [415C] 
+7510A: ADD RSP,0x8                    [4883C408] 
+
+========

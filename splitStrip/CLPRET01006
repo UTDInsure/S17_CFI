@@ -1,0 +1,6 @@
+
+
+413E54: TEST byte ptr [0x0062bb98],0x3 [F6053D7D210003] 
+413EE8: MOV dword ptr [0x0062bac4],0x1 [C705D27B210001000000] 
+
+========

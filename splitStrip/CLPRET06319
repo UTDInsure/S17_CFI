@@ -1,0 +1,7 @@
+
+
+F0F44: MOVSXD RDI,EDI                 [4863FF] 
+F0F47: MOV EAX,0xe5                   [B8E5000000] 
+F0F4E: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

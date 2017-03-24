@@ -1,0 +1,8 @@
+
+
+20F14: TEST RDI,RDI                   [4885FF] 
+20F19: MOVSX EDX,word ptr [RDI + 0x4] [0FBF5704] 
+20F1D: MOV EAX,0x1                    [B801000000] 
+20F22: CMP EDX,ESI                    [39F2] 
+
+========

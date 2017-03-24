@@ -1,0 +1,21 @@
+
+
+73F04: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+73F0B: PUSH RBX                       [53] 
+73F0C: MOV RBX,RDI                    [4889FB] 
+73F0F: MOV RDX,[RAX + 0x20]           [488B5020] 
+73F13: CMP RDX,[RAX + 0x28]           [483B5028] 
+73F19: MOV dword ptr [RDX],0x0        [C70200000000] 
+73F1F: MOV RDX,[0xf0 + RBX]           [488B93F0000000] 
+73F26: MOV RAX,[RAX + 0x18]           [488B4018] 
+73F2A: MOV [RDX],RAX                  [488902] 
+73F2D: MOV RDX,[0xa0 + RBX]           [488B93A0000000] 
+73F34: MOV RCX,[0xf8 + RBX]           [488B8BF8000000] 
+73F3B: MOV RAX,[RDX + 0x20]           [488B4220] 
+73F3F: SUB RAX,[RDX + 0x18]           [482B4218] 
+73F43: SAR RAX,0x2                    [48C1F802] 
+73F47: MOV [RCX],RAX                  [488901] 
+73F4A: XOR EAX,EAX                    [31C0] 
+73F4C: POP RBX                        [5B] 
+
+========

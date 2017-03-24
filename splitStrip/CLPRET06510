@@ -1,0 +1,8 @@
+
+
+F4F94: BSWAP EDI                      [0FCF] 
+F4F96: TEST EDI,EDI                   [85FF] 
+F4F9A: MOV EAX,EDI                    [89F8] 
+F4F9C: SHR EAX,0x18                   [C1E818] 
+
+========

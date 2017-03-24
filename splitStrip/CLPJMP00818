@@ -1,0 +1,26 @@
+
+
+6D624: PUSH R15                       [4157] 
+6D626: PUSH R14                       [4156] 
+6D628: PUSH R13                       [4155] 
+6D62A: PUSH R12                       [4154] 
+6D62C: MOV R12,RDI                    [4989FC] 
+6D62F: PUSH RBP                       [55] 
+6D630: PUSH RBX                       [53] 
+6D631: SUB RSP,0x28                   [4883EC28] 
+6D635: TEST RDI,RDI                   [4885FF] 
+6D638: MOV [RSP + 0x10],RSI           [4889742410] 
+6D63D: MOV [RSP + 0x1c],EDX           [8954241C] 
+6D647: TEST RSI,RSI                   [4885F6] 
+6D650: MOV EDX,[RCX]                  [8B11] 
+6D652: MOV RBX,RCX                    [4889CB] 
+6D655: MOV EAX,EDX                    [89D0] 
+6D657: MOV R15D,EDX                   [4189D7] 
+6D65A: AND EAX,0x8000                 [2500800000] 
+6D6C3: AND EDX,0x20                   [83E220] 
+6D6CC: CMP dword ptr [R12],0x0        [49833C2400] 
+6D6DE: MOV RAX,[RSP + 0x10]           [488B442410] 
+6D6E3: MOV EDI,0x78                   [BF78000000] 
+6D6E8: MOV dword ptr [RAX],0x78       [48C70078000000] 
+
+========

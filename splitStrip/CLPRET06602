@@ -1,0 +1,11 @@
+
+
+FFD44: CMP EDX,0x3b                   [83FA3B] 
+FFD60: CMP EDX,0x36                   [83FA36] 
+FFD49: MOV dword ptr [RDI],0x10       [48C70710000000] 
+FFD50: MOV dword ptr [RDI + 0x8],0x29 [C7470829000000] 
+FFD57: XOR EAX,EAX                    [31C0] 
+FFD59: MOV [RDI + 0xc],EDX            [89570C] 
+FFD5C: MOV [RSI],RDI                  [48893E] 
+
+========

@@ -1,0 +1,18 @@
+
+
+82B04: PUSH RBP                       [55] 
+82B05: TEST RDI,RDI                   [4885FF] 
+82B08: MOV RBP,RSP                    [4889E5] 
+82B0B: PUSH R14                       [4156] 
+82B0D: PUSH R13                       [4155] 
+82B0F: PUSH R12                       [4154] 
+82B11: MOV R12,RDI                    [4989FC] 
+82B14: PUSH RBX                       [53] 
+82BED: LEA RSP,[RBP + -0x20]          [488D65E0] 
+82BF1: POP RBX                        [5B] 
+82BF2: POP R12                        [415C] 
+82BF4: POP R13                        [415D] 
+82BF6: POP R14                        [415E] 
+82BF8: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,14 @@
+
+
+D6264: SUB RSP,0x18                   [4883EC18] 
+D6268: MOV EDI,0x6                    [BF06000000] 
+D626D: MOV RSI,RSP                    [4889E6] 
+DC194: MOV EAX,0x61                   [B861000000] 
+DC19B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D6279: MOV RDX,-0x1                   [48C7C2FFFFFFFF] 
+D6280: TEST EAX,EAX                   [85C0] 
+D6282: CMOVZ RDX,[RSP]                [480F441424] 
+D6287: ADD RSP,0x18                   [4883C418] 
+D628B: MOV RAX,RDX                    [4889D0] 
+
+========

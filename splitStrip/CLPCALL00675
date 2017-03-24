@@ -1,0 +1,9 @@
+
+
+7AE94: PUSH RBX                       [53] 
+7AE95: MOV RBX,RDI                    [4889FB] 
+7AE98: MOV RDI,[RDI + 0x38]           [488B7F38] 
+7AE9C: TEST RDI,RDI                   [4885FF] 
+7AEA1: TEST byte ptr [RBX],0x1        [F60301] 
+
+========

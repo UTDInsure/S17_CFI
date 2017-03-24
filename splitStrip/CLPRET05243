@@ -1,0 +1,10 @@
+
+
+DC774: MOV EAX,[0x0036e774]           [8B05FA1F2900] 
+DC77A: TEST EAX,EAX                   [85C0] 
+DC77E: MOVSXD RDX,EDX                 [4863D2] 
+DC781: MOVSXD RDI,EDI                 [4863FF] 
+DC784: MOV EAX,0x13                   [B813000000] 
+DC78B: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

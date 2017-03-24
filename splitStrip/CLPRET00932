@@ -1,0 +1,16 @@
+
+
+411DB4: SUB RSP,0x8                    [4883EC08] 
+411DB8: XOR EAX,EAX                    [31C0] 
+411DBA: MOV dword ptr [0x00627430],0x1 [C7056C56210001000000] 
+411C64: SUB RSP,0x28                   [4883EC28] 
+411C68: MOV ECX,[0x0062ba44]           [8B0DD69D2100] 
+411C6E: TEST ECX,ECX                   [85C9] 
+411C72: CMP EDI,0x1                    [83FF01] 
+411C77: CMP EDI,0x2                    [83FF02] 
+411C7C: TEST EDI,EDI                   [85FF] 
+411C7E: NOP                            [6690] 
+411C89: ADD RSP,0x28                   [4883C428] 
+411DCD: ADD RSP,0x8                    [4883C408] 
+
+========

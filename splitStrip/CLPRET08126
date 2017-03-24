@@ -1,0 +1,6 @@
+
+
+1AF54: TEST RDI,RDI                   [4885FF] 
+1AF70: XOR EAX,EAX                    [31C0] 
+
+========

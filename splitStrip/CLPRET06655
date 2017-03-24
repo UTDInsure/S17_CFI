@@ -1,0 +1,9 @@
+
+
+100814: TEST EDX,EDX                   [85D2] 
+100818: MOV DL,0x2                     [B202] 
+10081A: NOP                            [660F1F440000] 
+100820: CMP EDX,ESI                    [39F2] 
+10083A: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

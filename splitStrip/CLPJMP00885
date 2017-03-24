@@ -1,0 +1,15 @@
+
+
+78784: PUSH RBP                       [55] 
+78785: PUSH RBX                       [53] 
+78786: MOV RBX,RDI                    [4889FB] 
+78789: SUB RSP,0x8                    [4883EC08] 
+7878D: MOV EAX,[RDI]                  [8B07] 
+7878F: TEST AL,0x4                    [A804] 
+78797: MOV RDX,[RDI + 0x8]            [488B5708] 
+7879B: CMP RDX,[RDI + 0x10]           [483B5710] 
+787A5: CMP dword ptr [RDI + 0x38],0x0 [48837F3800] 
+78938: MOV RDI,[RDI + 0x48]           [488B7F48] 
+7893C: TEST RDI,RDI                   [4885FF] 
+
+========

@@ -1,0 +1,8 @@
+
+
+2D2A4: MOV EDX,[R14]                  [418B16] 
+2D2A7: XOR EDI,EDI                    [31FF] 
+2D2A9: TEST EDX,EDX                   [85D2] 
+2D3D0: LEA RDI,[0x3c61e]              [488D3D47F20000] 
+
+========

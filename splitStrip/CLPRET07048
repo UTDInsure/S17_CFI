@@ -1,0 +1,19 @@
+
+
+10AEB4: SUB RSP,0x8                    [4883EC08] 
+113FF4: PUSH RBX                       [53] 
+113FF5: MOV RBX,RSI                    [4889F3] 
+113FF8: SUB RSP,0x10                   [4883EC10] 
+113FFC: MOV EAX,[RDI]                  [8B07] 
+113FFE: CMP EAX,0x1                    [83F801] 
+114005: CMP EAX,0x2                    [83F802] 
+114008: SETZ AL                        [0F94C0] 
+11400B: MOVZX EAX,AL                   [0FB6C0] 
+11400E: ADD RSP,0x10                   [4883C410] 
+114012: POP RBX                        [5B] 
+10AEC1: TEST EAX,EAX                   [85C0] 
+10AEC3: SETNZ AL                       [0F95C0] 
+10AEC6: ADD RSP,0x8                    [4883C408] 
+10AECA: MOVZX EAX,AL                   [0FB6C0] 
+
+========

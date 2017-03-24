@@ -1,0 +1,13 @@
+
+
+17194: PUSH RBP                       [55] 
+17195: PUSH RBX                       [53] 
+17196: MOV RBX,RDI                    [4889FB] 
+17199: SUB RSP,0x8                    [4883EC08] 
+1719D: TEST RDI,RDI                   [4885FF] 
+171A2: CMP RDI,[0x00223100]           [483B3D57BF2000] 
+171AB: MOV RBP,[0x00223110]           [488B2D5EBF2000] 
+171B2: MOV [0x00223110],RDI           [48893D57BF2000] 
+171B9: MOV RDI,RSI                    [4889F7] 
+
+========

@@ -1,0 +1,11 @@
+
+
+4138D4: MOVSX EDX,byte ptr [0x00626560] [0FBE15852C2100] 
+4138DB: TEST DL,DL                     [84D2] 
+4138DF: CMP EDX,EDI                    [39FA] 
+4138E1: MOV EAX,0x626560               [B860656200] 
+4138F4: TEST byte ptr [RAX + 0x10],0x2 [F6401002] 
+4138FA: SUB EDX,0x20                   [83EA20] 
+4138FD: CMP EDX,EDI                    [39FA] 
+
+========

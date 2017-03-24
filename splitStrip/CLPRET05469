@@ -1,0 +1,7 @@
+
+
+E02B4: MOV R10,RCX                    [4989CA] 
+E02B7: MOV EAX,0xd8                   [B8D8000000] 
+E02BE: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

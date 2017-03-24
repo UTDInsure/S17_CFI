@@ -1,0 +1,10 @@
+
+
+119824: PUSH R12                       [4154] 
+119826: MOV R12,RSI                    [4989F4] 
+119829: PUSH RBP                       [55] 
+11982A: MOV RBP,RDI                    [4889FD] 
+11982D: PUSH RBX                       [53] 
+11982E: MOV RBX,RDX                    [4889D3] 
+
+========

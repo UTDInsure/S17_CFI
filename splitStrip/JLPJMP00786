@@ -1,0 +1,28 @@
+
+
+5318B: MOV RAX,[0xa0 + R14]           [498B86A0000000] 
+53192: TEST RAX,RAX                   [4885C0] 
+5755B: MOV ESI,0x25                   [BE25000000] 
+57560: MOV RDI,R14                    [4C89F7] 
+70F24: PUSH RBP                       [55] 
+70F25: MOV EBP,ESI                    [89F5] 
+70F27: PUSH RBX                       [53] 
+70F28: MOV RBX,RDI                    [4889FB] 
+70F2B: SUB RSP,0x8                    [4883EC08] 
+70F2F: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+70F35: TEST EAX,EAX                   [85C0] 
+70F47: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+70F4E: MOV ESI,EBP                    [89EE] 
+70F50: MOV RDI,RBX                    [4889DF] 
+70F5A: ADD RSP,0x8                    [4883C408] 
+70F5E: POP RBX                        [5B] 
+70F5F: POP RBP                        [5D] 
+5756C: ADD EAX,0x1                    [83C001] 
+531B7: MOV ECX,[-0x1078 + RBP]        [8B8D88EFFFFF] 
+531BD: CMP ECX,0x7fffffff             [81F9FFFFFF7F] 
+531C9: ADD ECX,0x1                    [83C101] 
+531CC: TEST R12,R12                   [4D85E4] 
+57005: MOV RDI,R12                    [4C89E7] 
+57008: MOV [-0x1078 + RBP],ECX        [898D88EFFFFF] 
+
+========

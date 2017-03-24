@@ -1,0 +1,23 @@
+
+
+81BAC: TEST RCX,RCX                   [4885C9] 
+81BB1: MOV RDX,[RSP + 0x8]            [488B542408] 
+81BB6: MOV RDI,RCX                    [4889CF] 
+7FC44: PUSH R12                       [4154] 
+7FC46: MOV RAX,[0x00368ed0]           [488B0583922E00] 
+7FC4D: MOV R12,RSI                    [4989F4] 
+7FC50: PUSH RBP                       [55] 
+7FC51: PUSH RBX                       [53] 
+7FC52: MOV RAX,[RAX]                  [488B00] 
+7FC55: MOV RBX,RDI                    [4889FB] 
+7FC58: TEST RAX,RAX                   [4885C0] 
+7FE8B: NOP                            [0F1F440000] 
+7FD77: POP RBX                        [5B] 
+7FD78: POP RBP                        [5D] 
+7FD79: POP R12                        [415C] 
+81BC2: MOV RDX,RAX                    [4889C2] 
+81BC5: MOV EAX,0xc                    [B80C000000] 
+81BCA: TEST RDX,RDX                   [4885D2] 
+81B9F: POP RBX                        [5B] 
+
+========

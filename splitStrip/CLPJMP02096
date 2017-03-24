@@ -1,0 +1,27 @@
+
+
+1C8D4: PUSH R15                       [4157] 
+1C8D6: PUSH R14                       [4156] 
+1C8D8: PUSH R13                       [4155] 
+1C8DA: PUSH R12                       [4154] 
+1C8DC: PUSH RBP                       [55] 
+1C8DD: PUSH RBX                       [53] 
+1C8DE: MOV EBX,EDI                    [89FB] 
+1C8E0: SUB RSP,0x18                   [4883EC18] 
+1C8E4: MOV RAX,[0x0024a7a0]           [488B05B5DE2200] 
+1C8EB: MOV RDI,[RAX]                  [488B38] 
+1C8EE: TEST RDI,RDI                   [4885FF] 
+1C8F7: CMP EBX,EDX                    [39D3] 
+1C8F9: MOV EBP,EDX                    [89D5] 
+1C8FB: MOV R13D,ECX                   [4189CD] 
+1C9E0: XOR R12D,R12D                  [4531E4] 
+1C9E3: CMP ESI,ECX                    [39CE] 
+1C904: MOVSX R8D,word ptr [RDI + 0x66] [440FBF4766] 
+1C909: CMP R13D,R8D                   [4539C5] 
+1C91A: MOV RAX,[0x2d0 + RDI]          [488B87D0020000] 
+1C921: MOV R14,[RAX]                  [4C8B30] 
+1C924: TEST R14D,0x400000             [41F7C600004000] 
+1C94A: XOR EDI,EDI                    [31FF] 
+1C94C: MOV [RSP + 0xc],ESI            [8974240C] 
+
+========

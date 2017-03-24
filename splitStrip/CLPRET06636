@@ -1,0 +1,26 @@
+
+
+100634: CMP EDX,0x1                    [83FA01] 
+100639: TEST EDX,EDX                   [85D2] 
+10063D: MOVSXD RSI,ESI                 [4863F6] 
+100640: SUB EDX,0x2                    [83EA02] 
+100643: SUB RSP,0x8                    [4883EC08] 
+100647: ADD RDI,RSI                    [4801F7] 
+10064A: XOR ESI,ESI                    [31F6] 
+10064C: MOV [RDI + 0x1],DL             [885701] 
+10064F: MOV byte ptr [RDI],0x1         [C60701] 
+100652: MOVZX EDX,DL                   [0FB6D2] 
+100655: ADD RDI,0x2                    [4883C702] 
+891B4: MOVD XMM8,ESI                  [66440F6EC6] 
+891B9: MOV RAX,RDI                    [4889F8] 
+891BC: PUNPCKLBW XMM8,XMM8            [66450F60C0] 
+891C1: PUNPCKLWD XMM8,XMM8            [66450F61C0] 
+891C6: PSHUFD XMM8,XMM8,0x0           [66450F70C000] 
+891CC: CMP RDX,0x40                   [4883FA40] 
+891D2: CMP RDX,0x10                   [4883FA10] 
+891DC: CMP RDX,0x20                   [4883FA20] 
+891E0: MOVDQU [RDI],XMM8              [F3440F7F07] 
+891E5: MOVDQU [RDI + RDX*0x1 + -0x10],XMM8 [F3440F7F4417F0] 
+100662: ADD RSP,0x8                    [4883C408] 
+
+========

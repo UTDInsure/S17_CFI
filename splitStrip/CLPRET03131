@@ -1,0 +1,8 @@
+
+
+797D4: PUSH RBX                       [53] 
+797D5: CMP dword ptr [RDI + 0x38],0x0 [48837F3800] 
+797DA: MOV RBX,RDI                    [4889FB] 
+797DF: POP RBX                        [5B] 
+
+========

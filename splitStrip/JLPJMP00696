@@ -1,0 +1,13 @@
+
+
+4BE1C: MOV RAX,[RBX + 0x28]           [488B4328] 
+4BE20: CMP RAX,[RBX + 0x30]           [483B4330] 
+4BE2A: LEA RDX,[RAX + 0x1]            [488D5001] 
+4BE2E: MOV [RBX + 0x28],RDX           [48895328] 
+4BE32: MOV byte ptr [RAX],0x25        [C60025] 
+4BE35: CMP dword ptr [-0x4a8 + RBP],0x7fffffff [81BD58FBFFFFFFFFFF7F] 
+4BE45: ADD dword ptr [-0x4a8 + RBP],0x1 [838558FBFFFF01] 
+48801: CMP dword ptr [-0x4c0 + RBP],0x0 [4883BD40FBFFFF00] 
+48D18: MOV RDI,[-0x4c0 + RBP]         [488BBD40FBFFFF] 
+
+========

@@ -1,0 +1,14 @@
+
+
+405BD4: PUSH RBP                       [55] 
+405BD5: MOV RBP,RDI                    [4889FD] 
+405BD8: PUSH RBX                       [53] 
+405BD9: MOVZX EBX,byte ptr [RDI]       [0FB61F] 
+405BDC: MOV EAX,EBX                    [89D8] 
+405BDE: AND EAX,0xfffffffe             [83E0FE] 
+405BE1: CMP AL,0xfe                    [3CFE] 
+405C00: XOR EAX,EAX                    [31C0] 
+405C02: POP RBX                        [5B] 
+405C03: POP RBP                        [5D] 
+
+========

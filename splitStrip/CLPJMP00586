@@ -1,0 +1,18 @@
+
+
+416714: PUSH RBP                       [55] 
+416715: XOR EAX,EAX                    [31C0] 
+416717: MOV EBP,ESI                    [89F5] 
+416719: PUSH RBX                       [53] 
+41671A: MOV RBX,RDI                    [4889FB] 
+41671D: MOV EDI,0x627390               [BF90736200] 
+416722: SUB RSP,0x8                    [4883EC08] 
+416084: PUSH RBP                       [55] 
+416085: MOV RBP,RDI                    [4889FD] 
+416088: PUSH RBX                       [53] 
+416089: SUB RSP,0x8                    [4883EC08] 
+41608D: MOV RDI,[RDI]                  [488B3F] 
+416090: TEST RDI,RDI                   [4885FF] 
+4160A3: MOV RBX,[RDI]                  [488B1F] 
+
+========

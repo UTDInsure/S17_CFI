@@ -1,0 +1,11 @@
+
+
+1145F4: SUB RSP,0x8                    [4883EC08] 
+1145F8: MOV EAX,[RDI]                  [8B07] 
+1145FA: CMP EAX,0x1                    [83F801] 
+114601: CMP EAX,0x2                    [83F802] 
+114604: SETZ AL                        [0F94C0] 
+114607: ADD RSP,0x8                    [4883C408] 
+11460B: MOVZX EAX,AL                   [0FB6C0] 
+
+========

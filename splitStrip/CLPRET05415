@@ -1,0 +1,10 @@
+
+
+DF0C4: SUB RSP,0x8                    [4883EC08] 
+DF0C8: MOV RDX,[0x0036c170]           [488B15A1D02800] 
+DF0CF: TEST RDX,RDX                   [4885D2] 
+DF0D4: MOV RAX,[RDX]                  [488B02] 
+DF0D7: TEST RAX,RAX                   [4885C0] 
+DF0E7: ADD RSP,0x8                    [4883C408] 
+
+========

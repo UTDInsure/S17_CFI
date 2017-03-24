@@ -1,0 +1,22 @@
+
+
+11CE4: SUB RSP,0x8                    [4883EC08] 
+11CE8: CMP byte ptr [0x00222f84],0x0  [803D9512210000] 
+11D08: MOV RAX,[0x00222f98]           [488B0589122100] 
+11D0F: MOV RDX,[0x00222f88]           [488B1572122100] 
+11D16: MOV RCX,[0x00222f90]           [488B0D73122100] 
+11D1D: ADD RAX,0x1                    [4883C001] 
+11D21: CMP RAX,RDX                    [4839D0] 
+11D26: MOV RDI,[RCX]                  [488B39] 
+11D29: LEA R9,[RDX + 0x1]             [4C8D4A01] 
+11D2D: XOR ESI,ESI                    [31F6] 
+11D2F: MOV R8,RAX                     [4989C0] 
+11D32: SUB R8,RSI                     [4929F0] 
+11D35: CMP R8,RDI                     [4939F8] 
+11D3A: ADD R8,0x1                     [4983C001] 
+11D3E: SHL R8,0x4                     [49C1E004] 
+11D42: CMP dword ptr [RCX + R8*0x1 + 0x8],0x0 [4A837C010800] 
+11D89: CMP RDX,RAX                    [4839C2] 
+11D03: ADD RSP,0x8                    [4883C408] 
+
+========

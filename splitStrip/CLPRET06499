@@ -1,0 +1,18 @@
+
+
+F4E54: MOVZX ECX,byte ptr [RDI]       [0FB60F] 
+F4E57: TEST CL,CL                     [84C9] 
+F4E5B: MOV RAX,RDI                    [4889F8] 
+F4E5E: NOP                            [6690] 
+F4E60: ADD RAX,0x1                    [4883C001] 
+F4E64: MOVZX ECX,byte ptr [RAX]       [0FB608] 
+F4E67: TEST CL,CL                     [84C9] 
+F4E6B: TEST CL,CL                     [84C9] 
+F4E6F: SUB RSP,0x28                   [4883EC28] 
+F4E73: MOV RCX,[0x0036d1d0]           [488B0D56832700] 
+F4E7A: TEST RCX,RCX                   [4885C9] 
+F4E7F: CMP RCX,0x1                    [4883F901] 
+F4E83: MOV EAX,0xca                   [B8CA000000] 
+F4E94: ADD RSP,0x28                   [4883C428] 
+
+========

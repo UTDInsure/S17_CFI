@@ -1,0 +1,15 @@
+
+
+16744: MOV RAX,[0x0024a880]           [488B0535412300] 
+1674B: MOV RCX,[RAX]                  [488B08] 
+1674E: XOR EAX,EAX                    [31C0] 
+16750: MOV RDX,[RCX + 0x18]           [488B5118] 
+16754: CMP word ptr [RDX + 0x1a],0x0  [66837A1A00] 
+1675B: CMP word ptr [RDX + 0x1c],0x0  [66837A1C00] 
+16762: MOV RAX,[RCX + 0x20]           [488B4120] 
+16766: CMP dword ptr [0x970 + RAX],0x0 [4883B87009000000] 
+16780: CMP dword ptr [0xb38 + RAX],0x0 [4883B8380B000000] 
+1678A: CMP dword ptr [0xb40 + RAX],0x0 [4883B8400B000000] 
+1677A: MOV EAX,0x1                    [B801000000] 
+
+========

@@ -1,0 +1,15 @@
+
+
+392D4: TEST RSI,RSI                   [4885F6] 
+392D7: PUSH RBX                       [53] 
+39318: MOV RAX,[0x00368dc0]           [488B05A1FA3200] 
+3931F: MOV RAX,FS:[RAX]               [64488B00] 
+39323: MOV RBX,[RAX]                  [488B18] 
+39326: MOV RAX,[RBX + 0x28]           [488B4328] 
+3932A: TEST RAX,RAX                   [4885C0] 
+3932F: MOV dword ptr [0x0036b498],0x0 [48C7055E21330000000000] 
+3933A: MOV RAX,[RAX]                  [488B00] 
+3933D: POP RBX                        [5B] 
+3933E: MOV EAX,[RAX + 0x58]           [8B4058] 
+
+========

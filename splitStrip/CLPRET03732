@@ -1,0 +1,27 @@
+
+
+90B74: PUSH R15                       [4157] 
+90B76: PUSH R14                       [4156] 
+90B78: MOV R14,RSI                    [4989F6] 
+90B7B: PUSH R13                       [4155] 
+90B7D: PUSH R12                       [4154] 
+90B7F: PUSH RBP                       [55] 
+90B80: MOV RBP,RDI                    [4889FD] 
+90B83: PUSH RBX                       [53] 
+90B84: SUB RSP,0x28                   [4883EC28] 
+90B88: TEST RDX,RDX                   [4885D2] 
+90B91: MOV RBX,[RDI]                  [488B1F] 
+90B94: MOV EAX,0x16                   [B816000000] 
+90B99: CMP RDX,RBX                    [4839DA] 
+90BB0: MOV R15,[RSI]                  [4C8B3E] 
+90BB3: LEA RSI,[RBX + R15*0x1]        [4A8D343B] 
+90BB7: CMP RDX,RSI                    [4839F2] 
+90B9E: ADD RSP,0x28                   [4883C428] 
+90BA2: POP RBX                        [5B] 
+90BA3: POP RBP                        [5D] 
+90BA4: POP R12                        [415C] 
+90BA6: POP R13                        [415D] 
+90BA8: POP R14                        [415E] 
+90BAA: POP R15                        [415F] 
+
+========

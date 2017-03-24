@@ -1,0 +1,9 @@
+
+
+A62C4: PUSH RBX                       [53] 
+A62C5: MOV RBX,RDI                    [4889FB] 
+A62C8: SUB RSP,0x20                   [4883EC20] 
+A62CC: LEA RDI,[RSP + 0x10]           [488D7C2410] 
+A62D1: MOV RSI,RSP                    [4889E6] 
+
+========

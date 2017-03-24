@@ -1,0 +1,22 @@
+
+
+1079D4: PUSH R14                       [4156] 
+1079D6: PUSH R13                       [4155] 
+1079D8: PUSH R12                       [4154] 
+1079DA: PUSH RBP                       [55] 
+1079DB: MOV RBP,RSI                    [4889F5] 
+1079DE: PUSH RBX                       [53] 
+1079DF: MOV RBX,RDI                    [4889FB] 
+1079E2: SUB RSP,0x10                   [4883EC10] 
+113B84: PUSH RBX                       [53] 
+113B85: MOV RBX,RSI                    [4889F3] 
+113B88: SUB RSP,0x10                   [4883EC10] 
+113B8C: MOV EAX,[RDI]                  [8B07] 
+113B8E: CMP EAX,0x1                    [83F801] 
+113BD8: MOV RDX,[RSI]                  [488B16] 
+113BDB: XOR EAX,EAX                    [31C0] 
+113BDD: MOV ECX,EDX                    [89D1] 
+113BDF: CMP RDX,RCX                    [4839CA] 
+113BE4: MOV RAX,[RDI + 0x8]            [488B4708] 
+
+========

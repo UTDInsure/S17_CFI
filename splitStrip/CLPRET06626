@@ -1,0 +1,27 @@
+
+
+FFEC4: CMP dword ptr [RDI + 0x8],0x29 [837F0829] 
+FFECE: PUSH R14                       [4156] 
+FFED0: MOV R14,RSI                    [4989F6] 
+FFED3: PUSH R13                       [4155] 
+FFED5: MOV R13D,EDX                   [4189D5] 
+FFED8: PUSH R12                       [4154] 
+FFEDA: PUSH RBP                       [55] 
+FFEDB: PUSH RBX                       [53] 
+FFEDC: SUB RSP,0x10                   [4883EC10] 
+FFEE0: MOV EAX,[RDI + 0xc]            [8B470C] 
+FFEE3: CMP EAX,0x3b                   [83F83B] 
+FFEEC: MOV RAX,[RDI]                  [488B07] 
+FFEEF: CMP RAX,0x11                   [4883F811] 
+FFEF5: MOVZX EDX,byte ptr [RDI + 0x11] [0FB65711] 
+FFEF9: LEA RBP,[0x18 + RDX*0x8]       [488D2CD518000000] 
+FFF01: CMP RAX,RBP                    [4839E8] 
+FFF5B: ADD RSP,0x10                   [4883C410] 
+FFF5F: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+FFF64: POP RBX                        [5B] 
+FFF65: POP RBP                        [5D] 
+FFF66: POP R12                        [415C] 
+FFF68: POP R13                        [415D] 
+FFF6A: POP R14                        [415E] 
+
+========

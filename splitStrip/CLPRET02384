@@ -1,0 +1,7 @@
+
+
+6C964: TEST byte ptr [RDI + 0x74],0x1 [F6477401] 
+6C968: MOV RAX,RDI                    [4889F8] 
+6C96D: TEST byte ptr [RDI],0x8        [F60708] 
+
+========

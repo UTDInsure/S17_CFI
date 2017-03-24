@@ -1,0 +1,20 @@
+
+
+2F1D4: MOV RAX,[0x0024a8a0]           [488B05C5B62100] 
+2F1DB: MOV EDX,[RAX]                  [8B10] 
+2F1DD: TEST EDX,EDX                   [85D2] 
+2F1E1: MOV dword ptr [RAX],0x0        [C70000000000] 
+2F1E7: MOV RAX,[0x0024a7c0]           [488B05D2B52100] 
+2F1EE: MOV RAX,[RAX]                  [488B00] 
+2F1F1: TEST RAX,RAX                   [4885C0] 
+2F1F6: NOP                            [662E0F1F840000000000] 
+2F200: MOV byte ptr [0x538 + RAX],0x1 [C6803805000001] 
+2F207: MOV RAX,[0x540 + RAX]          [488B8040050000] 
+2F20E: TEST RAX,RAX                   [4885C0] 
+2F200: MOV byte ptr [0x538 + RAX],0x1 [C6803805000001] 
+2F207: MOV RAX,[0x540 + RAX]          [488B8040050000] 
+2F20E: TEST RAX,RAX                   [4885C0] 
+2F213: TEST RDI,RDI                   [4885FF] 
+2F218: MOVZX EAX,byte ptr [0x538 + RDI] [0FB68738050000] 
+
+========

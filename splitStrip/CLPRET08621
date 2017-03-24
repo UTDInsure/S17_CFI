@@ -1,0 +1,15 @@
+
+
+34D34: XOR EAX,EAX                    [31C0] 
+34D36: TEST EDX,EDX                   [85D2] 
+34D58: MOVZX ECX,byte ptr [RDI + RAX*0x2] [0FB60C47] 
+34D5C: MOVZX R8D,byte ptr [RDI + RAX*0x2 + 0x1] [440FB6444701] 
+34D62: CMP CL,0xff                    [80F9FF] 
+34D40: CMP CL,0xfe                    [80F9FE] 
+34D88: CMP R8B,0xff                   [4180F8FF] 
+34D8E: MOV ECX,0xfffffffe             [B9FEFFFFFF] 
+34D93: MOV [RSI + RAX*0x2],CX         [66890C46] 
+34D50: ADD RAX,0x1                    [4883C001] 
+34D54: CMP EDX,EAX                    [39C2] 
+
+========

@@ -1,0 +1,7 @@
+
+
+40CCD4: MOV R8D,[0x0062bb58]           [448B057DEE2100] 
+40CCDB: TEST R8D,R8D                   [4585C0] 
+40CE68: XOR EAX,EAX                    [31C0] 
+
+========

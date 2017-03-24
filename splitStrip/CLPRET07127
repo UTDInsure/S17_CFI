@@ -1,0 +1,22 @@
+
+
+10CF94: PUSH R15                       [4157] 
+10CF96: PUSH R14                       [4156] 
+10CF98: PUSH R13                       [4155] 
+10CF9A: PUSH R12                       [4154] 
+10CF9C: PUSH RBP                       [55] 
+10CF9D: PUSH RBX                       [53] 
+10CF9E: SUB RSP,0x78                   [4883EC78] 
+10CFA2: TEST EDX,EDX                   [85D2] 
+10CFA4: MOV [RSP + 0x8],RDI            [48897C2408] 
+10CFA9: MOV [RSP + 0x1c],EDX           [8954241C] 
+10D0B3: MOV EAX,[RSP + 0x1c]           [8B44241C] 
+10D0B7: ADD RSP,0x78                   [4883C478] 
+10D0BB: POP RBX                        [5B] 
+10D0BC: POP RBP                        [5D] 
+10D0BD: POP R12                        [415C] 
+10D0BF: POP R13                        [415D] 
+10D0C1: POP R14                        [415E] 
+10D0C3: POP R15                        [415F] 
+
+========

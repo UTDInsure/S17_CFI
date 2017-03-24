@@ -1,0 +1,11 @@
+
+
+BDD24: MOV EDX,[RDI + 0x4]            [8B5704] 
+BDD27: XOR EAX,EAX                    [31C0] 
+BDD29: CMP EDX,[RSI + 0x4]            [3B5604] 
+BDD30: MOVSXD RAX,EDX                 [4863C2] 
+BDD33: LEA RAX,[-0x4 + RAX*0x4]       [488D0485FCFFFFFF] 
+BDD58: SUB EDX,0x1                    [83EA01] 
+BDD5D: MOV EAX,0x1                    [B801000000] 
+
+========

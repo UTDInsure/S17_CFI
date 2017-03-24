@@ -1,0 +1,10 @@
+
+
+E6FD4: TEST RSI,RSI                   [4885F6] 
+E6FD9: MOV ECX,[RSI]                  [8B0E] 
+E6FDB: MOV EDX,EDI                    [89FA] 
+E6FDD: MOV EAX,EDI                    [89F8] 
+E6FDF: SHR EDX,CL                     [D3EA] 
+E6FE1: CMP EDX,[RSI + 0x4]            [3B5604] 
+
+========

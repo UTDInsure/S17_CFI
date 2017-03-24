@@ -1,0 +1,19 @@
+
+
+716B4: PUSH RBX                       [53] 
+716B5: MOV RBX,RDI                    [4889FB] 
+716B8: SUB RSP,0x10                   [4883EC10] 
+716BC: MOV EAX,[RSI]                  [8B06] 
+716BE: MOV [RDI + 0x8],RSI            [48897708] 
+716C2: TEST AH,0x8                    [F6C408] 
+71708: MOV RDI,RSI                    [4889F7] 
+7170B: MOV [RSP + 0x8],RSI            [4889742408] 
+71154: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+7115B: PUSH RBX                       [53] 
+7115C: MOV RBX,RDI                    [4889FB] 
+7115F: MOV RDX,[RAX + 0x20]           [488B5020] 
+71163: CMP RDX,[RAX + 0x18]           [483B5018] 
+711B0: MOV RAX,[0x140 + RAX]          [488B8040010000] 
+711B7: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+
+========

@@ -1,0 +1,9 @@
+
+
+11DEC4: MOV RDI,[0x0036bad8]           [488B3D0DDC2400] 
+11DECB: PUSH RBX                       [53] 
+11DECC: TEST RDI,RDI                   [4885FF] 
+11DEDB: MOV RBX,[RDI]                  [488B1F] 
+11DEDE: MOV [0x0036bad8],RBX           [48891DF3DB2400] 
+
+========

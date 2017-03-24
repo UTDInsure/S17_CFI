@@ -1,0 +1,27 @@
+
+
+28004: PUSH R15                       [4157] 
+28006: MOV R15D,EDX                   [4189D7] 
+28009: PUSH R14                       [4156] 
+2800B: PUSH R13                       [4155] 
+2800D: PUSH R12                       [4154] 
+2800F: MOV R12,R9                     [4D89CC] 
+28012: PUSH RBP                       [55] 
+28013: MOV EBP,EDI                    [89FD] 
+28015: PUSH RBX                       [53] 
+28016: SUB RSP,0x38                   [4883EC38] 
+2801A: MOV R14,[0x0024a880]           [4C8B355F282200] 
+28021: CMP EDI,0x1                    [83FF01] 
+28024: MOV RAX,[R14]                  [498B06] 
+28027: MOV RAX,[RAX + 0x20]           [488B4020] 
+28031: CMP dword ptr [0x368 + RAX],0x0 [4883B86803000000] 
+2803B: CMP ESI,ECX                    [39CE] 
+28398: CMP R15D,R8D                   [4539C7] 
+283A1: MOV RBX,[0x0024a7a0]           [488B1DF8232200] 
+283A8: XOR ECX,ECX                    [31C9] 
+283AA: MOV EDX,R15D                   [4489FA] 
+283AD: MOV RAX,[RBX]                  [488B03] 
+283B0: MOV ESI,[0x2e8 + RAX]          [8BB0E8020000] 
+283B6: MOV EDI,[0x2e4 + RAX]          [8BB8E4020000] 
+
+========

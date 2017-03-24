@@ -1,0 +1,20 @@
+
+
+1ACE4: CMP dword ptr [0x408 + RDI],-0x1 [83BF08040000FF] 
+1ACED: CMP dword ptr [0x440 + RDI],0x0 [4883BF4004000000] 
+1AD00: SUB RSP,0x8                    [4883EC08] 
+1AD04: MOV ESI,0x1                    [BE01000000] 
+1AB74: TEST SIL,SIL                   [4084F6] 
+1AB77: PUSH RBX                       [53] 
+1AB78: MOV RBX,RDI                    [4889FB] 
+1A7A4: TEST RDI,RDI                   [4885FF] 
+1A7A7: PUSH RBX                       [53] 
+1A7A8: MOV RBX,RDI                    [4889FB] 
+1A890: XOR EAX,EAX                    [31C0] 
+1A892: POP RBX                        [5B] 
+1ABF1: TEST AL,AL                     [84C0] 
+1ABAB: POP RBX                        [5B] 
+1ABAC: NOP                            [0F1F4000] 
+1AD12: ADD RSP,0x8                    [4883C408] 
+
+========

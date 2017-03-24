@@ -1,0 +1,7 @@
+
+
+F0404: MOV EDX,[0x0036e770]           [8B1566E32700] 
+F040A: XOR EAX,EAX                    [31C0] 
+F040C: TEST EDX,EDX                   [85D2] 
+
+========

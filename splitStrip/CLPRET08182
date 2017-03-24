@@ -1,0 +1,10 @@
+
+
+1DB44: SUB RSP,0x8                    [4883EC08] 
+1DB48: MOV EDX,0x1                    [BA01000000] 
+1DA54: TEST RDI,RDI                   [4885FF] 
+1DA5D: TEST RSI,RSI                   [4885F6] 
+1DB30: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1DB56: ADD RSP,0x8                    [4883C408] 
+
+========

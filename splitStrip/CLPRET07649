@@ -1,0 +1,26 @@
+
+
+119E04: PUSH R15                       [4157] 
+119E06: XOR EAX,EAX                    [31C0] 
+119E08: PUSH R14                       [4156] 
+119E0A: PUSH R13                       [4155] 
+119E0C: PUSH R12                       [4154] 
+119E0E: PUSH RBP                       [55] 
+119E0F: PUSH RBX                       [53] 
+119E10: SUB RSP,0x178                  [4881EC78010000] 
+119E17: MOV [RSP + 0x8],RSI            [4889742408] 
+119E1C: MOV ESI,0x1                    [BE01000000] 
+D6921: MOV EAX,0x2                    [B802000000] 
+D6928: CMP RAX,0xfffff001             [483D01F0FFFF] 
+119E2A: TEST EAX,EAX                   [85C0] 
+119E2C: MOV EBX,EAX                    [89C3] 
+11A010: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+119FA8: ADD RSP,0x178                  [4881C478010000] 
+119FAF: POP RBX                        [5B] 
+119FB0: POP RBP                        [5D] 
+119FB1: POP R12                        [415C] 
+119FB3: POP R13                        [415D] 
+119FB5: POP R14                        [415E] 
+119FB7: POP R15                        [415F] 
+
+========

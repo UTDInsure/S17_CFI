@@ -1,0 +1,11 @@
+
+
+BCD44: MOV R9D,[RDI + 0x34]           [448B4F34] 
+BCD48: CMP [RDI + 0x40],R9D           [44394F40] 
+BCD4C: CMOVLE R9D,[RDI + 0x40]        [440F4E4F40] 
+BCD51: MOV EAX,[RDI + 0x2c]           [8B472C] 
+BCD54: CMP R9D,EAX                    [4139C1] 
+BCDCA: MOV [RDI + 0x2c],EAX           [89472C] 
+BCDCD: MOV [RDI + 0x30],EAX           [894730] 
+
+========

@@ -1,0 +1,19 @@
+
+
+FEEA4: PUSH RBP                       [55] 
+FEEA5: XOR EDX,EDX                    [31D2] 
+FEEA7: MOV ESI,0x3                    [BE03000000] 
+FEEAC: PUSH RBX                       [53] 
+FEEAD: MOV RBX,RDI                    [4889FB] 
+FEEB0: MOV EDI,0x10                   [BF10000000] 
+FEEB5: SUB RSP,0x28                   [4883EC28] 
+E4944: MOV EAX,0x29                   [B829000000] 
+E494B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+FEEC2: TEST EAX,EAX                   [85C0] 
+FEEC4: MOV [RBX],EAX                  [8903] 
+FEF30: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+FEF27: ADD RSP,0x28                   [4883C428] 
+FEF2B: POP RBX                        [5B] 
+FEF2C: POP RBP                        [5D] 
+
+========

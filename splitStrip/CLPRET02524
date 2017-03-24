@@ -1,0 +1,22 @@
+
+
+6F524: SUB RSP,0x8                    [4883EC08] 
+6F528: MOV RDI,[0x0036a718]           [488B3DE9B12F00] 
+6F52F: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+6F536: TEST RAX,RAX                   [4885C0] 
+71264: PUSH RBX                       [53] 
+71265: MOV ECX,[0xc0 + RDI]           [8B8FC0000000] 
+7126B: MOV RBX,RDI                    [4889FB] 
+7126E: TEST ECX,ECX                   [85C9] 
+71274: TEST dword ptr [RBX],0x800     [F70300080000] 
+71280: MOV RAX,[0xa0 + RBX]           [488B83A0000000] 
+71287: MOV RDX,[RAX]                  [488B10] 
+7128A: MOV RCX,[RAX + 0x8]            [488B4808] 
+7128E: CMP RDX,RCX                    [4839CA] 
+71365: LEA RCX,[RDX + 0x4]            [488D4A04] 
+71369: MOV [RAX],RCX                  [488908] 
+7136C: MOV EAX,[RDX]                  [8B02] 
+7136E: POP RBX                        [5B] 
+6F54D: ADD RSP,0x8                    [4883C408] 
+
+========

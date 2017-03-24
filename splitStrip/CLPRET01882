@@ -1,0 +1,9 @@
+
+
+39174: MOV RDX,RDI                    [4889FA] 
+39177: MOV RAX,RDI                    [4889F8] 
+3917A: SAR RDX,0x3f                   [48C1FA3F] 
+3917E: XOR RAX,RDX                    [4831D0] 
+39181: SUB RAX,RDX                    [4829D0] 
+
+========

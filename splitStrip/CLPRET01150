@@ -1,0 +1,17 @@
+
+
+4167A4: SUB RSP,0x8                    [4883EC08] 
+4167A8: XOR EAX,EAX                    [31C0] 
+405194: MOV RAX,[0x006279d8]           [488B053D282200] 
+40519B: TEST RAX,RAX                   [4885C0] 
+4051A0: MOV EAX,[0x824 + RAX]          [8B8024080000] 
+4167B3: XOR EDX,EDX                    [31D2] 
+4167B5: TEST AL,0x8                    [A808] 
+4167B9: TEST byte ptr [0x0062b9b1],0x10 [F605F151210010] 
+4167C2: XOR EDX,EDX                    [31D2] 
+4167C4: CMP dword ptr [0x0062b9a8],0x0 [48833DDC51210000] 
+4167CC: SETNZ DL                       [0F95C2] 
+4167CF: MOV EAX,EDX                    [89D0] 
+4167D1: ADD RSP,0x8                    [4883C408] 
+
+========

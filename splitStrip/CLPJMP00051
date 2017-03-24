@@ -1,0 +1,12 @@
+
+
+11C94: PUSH RBP                       [55] 
+11C95: MOV ESI,0x10                   [BE10000000] 
+11C9A: PUSH RBX                       [53] 
+11C9B: MOV RBX,RDI                    [4889FB] 
+11C9E: SUB RSP,0x8                    [4883EC08] 
+11CA2: MOV RDX,[0x00222f88]           [488B15DF122100] 
+11CA9: LEA RDI,[RDX + 0x10]           [488D7A10] 
+11CAD: LEA RBP,[RDX + 0xe]            [488D6A0E] 
+
+========

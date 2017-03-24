@@ -1,0 +1,7 @@
+
+
+11D1B4: MOV ESI,[0x0036e770]           [8B35B6152500] 
+11D1BA: XOR EAX,EAX                    [31C0] 
+11D1BC: TEST ESI,ESI                   [85F6] 
+
+========

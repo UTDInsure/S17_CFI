@@ -1,0 +1,6 @@
+
+
+E44E4: MOV EAX,0x34                   [B834000000] 
+E44EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

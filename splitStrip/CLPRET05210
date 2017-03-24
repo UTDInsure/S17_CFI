@@ -1,0 +1,11 @@
+
+
+DC514: MOV ECX,0x8c                   [B98C000000] 
+DC519: MOV ESI,ESI                    [89F6] 
+DC51B: MOVSXD RDI,EDI                 [4863FF] 
+DC51E: MOV EAX,ECX                    [89C8] 
+DC522: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DC528: MOV RDX,RAX                    [4889C2] 
+DC52D: TEST EDX,EDX                   [85D2] 
+
+========

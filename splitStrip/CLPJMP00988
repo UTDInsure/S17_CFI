@@ -1,0 +1,15 @@
+
+
+8FAD4: PUSH R14                       [4156] 
+8FAD6: PUSH R13                       [4155] 
+8FAD8: PUSH R12                       [4154] 
+8FADA: PUSH RBP                       [55] 
+8FADB: MOV RBP,RDI                    [4889FD] 
+8FADE: PUSH RBX                       [53] 
+8FADF: SUB RSP,0x10                   [4883EC10] 
+8FAE3: MOV EAX,[0x0036b9f0]           [8B0507BF2D00] 
+8FAE9: TEST EAX,EAX                   [85C0] 
+8FB68: XOR EDI,EDI                    [31FF] 
+8FB6A: MOV dword ptr [0x0036b9d0],0x0 [48C7055BBE2D0000000000] 
+
+========

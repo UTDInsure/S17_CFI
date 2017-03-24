@@ -1,0 +1,10 @@
+
+
+18A44: CMP EDI,0x1                    [83FF01] 
+18A47: MOV RAX,RSI                    [4889F0] 
+18A4C: MOV RDI,RAX                    [4889C7] 
+18A4F: MOV RSI,RDX                    [4889D6] 
+18A52: MOV EAX,0x6                    [B806000000] 
+18A59: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

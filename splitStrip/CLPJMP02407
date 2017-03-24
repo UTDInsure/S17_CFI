@@ -1,0 +1,19 @@
+
+
+357F4: PUSH R15                       [4157] 
+357F6: MOV RCX,RDI                    [4889F9] 
+357F9: XOR EAX,EAX                    [31C0] 
+357FB: PUSH R14                       [4156] 
+357FD: PUSH R13                       [4155] 
+357FF: MOV R13,RDX                    [4989D5] 
+35802: MOV EDX,0xfff                  [BAFF0F0000] 
+35807: PUSH R12                       [4154] 
+35809: PUSH RBP                       [55] 
+3580A: MOV RBP,RSI                    [4889F5] 
+3580D: LEA RSI,[0x405dc]              [488D35C8AD0000] 
+35814: PUSH RBX                       [53] 
+35815: MOV RBX,RDI                    [4889FB] 
+35818: MOV RDI,RBP                    [4889EF] 
+3581B: SUB RSP,0x28                   [4883EC28] 
+
+========

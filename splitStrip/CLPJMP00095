@@ -1,0 +1,17 @@
+
+
+17D74: PUSH R15                       [4157] 
+17D76: PUSH R14                       [4156] 
+17D78: PUSH R13                       [4155] 
+17D7A: MOV R13,RSI                    [4989F5] 
+17D7D: PUSH R12                       [4154] 
+17D7F: PUSH RBP                       [55] 
+17D80: PUSH RBX                       [53] 
+17D81: MOV RBX,RDI                    [4889FB] 
+17D84: LEA RDI,[0x222968]             [488D3DDDAB2000] 
+17D8B: SUB RSP,0x18                   [4883EC18] 
+17D99: MOV R12,[0x3f0 + RBX]          [4C8BA3F0030000] 
+17DA0: TEST R12,R12                   [4D85E4] 
+17FEB: MOV EDI,0x20                   [BF20000000] 
+
+========

@@ -1,0 +1,14 @@
+
+
+B5B4: PUSH RBX                       [53] 
+B5B5: CMP dword ptr [0x440 + RDI],-0x1 [4883BF40040000FF] 
+B5BD: MOV RBX,RDI                    [4889FB] 
+B4C4: PUSH RBX                       [53] 
+B4C5: CMP dword ptr [0x440 + RDI],-0x1 [4883BF40040000FF] 
+B4CD: MOV RBX,RDI                    [4889FB] 
+B590: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+B595: POP RBX                        [5B] 
+B5CB: TEST EAX,EAX                   [85C0] 
+B5CF: POP RBX                        [5B] 
+
+========

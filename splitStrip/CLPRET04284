@@ -1,0 +1,8 @@
+
+
+AEC24: CMP byte ptr [RSI],0x0         [803E00] 
+AEC5A: MOV RAX,[0x00368e68]           [488B0507A22B00] 
+AEC61: MOV dword ptr FS:[RAX],0x2     [64C70002000000] 
+AEC68: XOR EAX,EAX                    [31C0] 
+
+========

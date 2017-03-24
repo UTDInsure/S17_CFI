@@ -1,0 +1,19 @@
+
+
+FFDF4: CMP dword ptr [RDI + 0x8],0x29 [837F0829] 
+FFDFE: PUSH R12                       [4154] 
+FFE00: PUSH RBP                       [55] 
+FFE01: PUSH RBX                       [53] 
+FFE02: MOV RBX,RSI                    [4889F3] 
+FFE05: SUB RSP,0x10                   [4883EC10] 
+FFE09: MOV EAX,[RDI + 0xc]            [8B470C] 
+FFE0C: CMP EAX,0x3b                   [83F83B] 
+FFE11: MOV RAX,[RDI]                  [488B07] 
+FFE14: CMP RAX,0x11                   [4883F811] 
+FFE88: ADD RSP,0x10                   [4883C410] 
+FFE8C: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+FFE91: POP RBX                        [5B] 
+FFE92: POP RBP                        [5D] 
+FFE93: POP R12                        [415C] 
+
+========

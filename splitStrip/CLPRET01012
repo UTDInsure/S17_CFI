@@ -1,0 +1,23 @@
+
+
+4145B4: PUSH R14                       [4156] 
+4145B6: CMP dword ptr [0x0062bae4],0x2 [833D2775210002] 
+4145BD: MOV R14,RDX                    [4989D6] 
+4145C0: PUSH R13                       [4155] 
+4145C2: MOV R13D,ESI                   [4189F5] 
+4145C5: PUSH R12                       [4154] 
+4145C7: PUSH RBP                       [55] 
+4145C8: MOV RBP,RDI                    [4889FD] 
+4145CB: PUSH RBX                       [53] 
+4145CC: MOV RBX,RDI                    [4889FB] 
+4145D1: XOR R12D,R12D                  [4531E4] 
+4145D4: AND R13D,0x1000                [4181E500100000] 
+4145DD: CMP RBX,RBP                    [4839EB] 
+4145EE: POP RBX                        [5B] 
+4145EF: POP RBP                        [5D] 
+4145F0: MOV EAX,R12D                   [4489E0] 
+4145F3: POP R12                        [415C] 
+4145F5: POP R13                        [415D] 
+4145F7: POP R14                        [415E] 
+
+========

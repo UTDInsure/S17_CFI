@@ -1,0 +1,7 @@
+
+
+D6B64: CMP dword ptr [0x0036e774],0x0 [833D097C290000] 
+D6B71: MOV EAX,0x0                    [B800000000] 
+D6B78: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,6 @@
+
+
+E4811: MOV EAX,0x2e                   [B82E000000] 
+E4818: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

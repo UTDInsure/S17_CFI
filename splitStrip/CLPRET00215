@@ -1,0 +1,13 @@
+
+
+16054: NOP                            [0F1F4000] 
+16058: MOVSX EDX,byte ptr [RDI]       [0FBE17] 
+1605B: TEST DL,DL                     [84D2] 
+16063: LEA EAX,[RDX + -0x30]          [8D42D0] 
+16066: CMP AL,0x9                     [3C09] 
+1606E: MOVSX EAX,byte ptr [RSI]       [0FBE06] 
+16071: LEA ECX,[RAX + -0x30]          [8D48D0] 
+16074: CMP CL,0x9                     [80F909] 
+1612B: MOV EAX,0x1                    [B801000000] 
+
+========

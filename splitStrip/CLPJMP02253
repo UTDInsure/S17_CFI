@@ -1,0 +1,8 @@
+
+
+2B2C4: SUB RSP,0x98                   [4881EC98000000] 
+2B2CB: MOV RSI,RDI                    [4889FE] 
+2B2CE: MOV EDI,0x1                    [BF01000000] 
+2B2D3: MOV RDX,RSP                    [4889E2] 
+
+========

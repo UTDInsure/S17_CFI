@@ -1,0 +1,10 @@
+
+
+E2864: MOV RAX,RDI                    [4889F8] 
+E2867: MOV EDI,EDI                    [89FF] 
+E2869: CMP RDI,RAX                    [4839C7] 
+E2880: MOV RAX,[0x00368e68]           [488B05E1652800] 
+E2887: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+E288E: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

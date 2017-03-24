@@ -1,0 +1,20 @@
+
+
+3099C: TEST R8B,R8B                   [4584C0] 
+30A88: MOV R14D,0x1                   [41BE01000000] 
+308C0: TEST BL,BL                     [84DB] 
+30908: TEST DIL,DIL                   [4084FF] 
+3090D: MOV byte ptr [RDX],0x25        [C60225] 
+30910: MOVZX EAX,byte ptr [RBP]       [0FB64500] 
+30914: LEA R12,[RDX + 0x2]            [4C8D6202] 
+30918: MOV [RDX + 0x1],AL             [884201] 
+3091B: MOV byte ptr [R12],0x0         [41C6042400] 
+30920: MOVZX EAX,byte ptr [RBP]       [0FB64500] 
+30924: LEA EDX,[RAX + -0x21]          [8D50DF] 
+30927: CMP DL,0x5d                    [80FA5D] 
+30930: LEA RDI,[0x3dea4]              [488D3D6DD50000] 
+30937: MOVZX EDX,DL                   [0FB6D2] 
+3093A: MOVSXD RDX,[RDI + RDX*0x4]     [48631497] 
+3093E: ADD RDX,RDI                    [4801FA] 
+
+========

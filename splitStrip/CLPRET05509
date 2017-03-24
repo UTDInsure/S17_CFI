@@ -1,0 +1,16 @@
+
+
+E1634: PUSH R12                       [4154] 
+E1636: TEST RSI,RSI                   [4885F6] 
+E1639: MOV R12,RDI                    [4989FC] 
+E163C: PUSH RBP                       [55] 
+E163D: MOV RBP,RDX                    [4889D5] 
+E1640: PUSH RBX                       [53] 
+E1666: MOV RBX,[RSI]                  [488B1E] 
+E1669: TEST RBX,RBX                   [4885DB] 
+E166E: POP RBX                        [5B] 
+E166F: POP RBP                        [5D] 
+E1670: XOR EAX,EAX                    [31C0] 
+E1672: POP R12                        [415C] 
+
+========

@@ -1,0 +1,15 @@
+
+
+36C24: TEST RDI,RDI                   [4885FF] 
+36C29: TEST RSI,RSI                   [4885F6] 
+36C2E: TEST RDX,RDX                   [4885D2] 
+36C33: XOR EAX,EAX                    [31C0] 
+36C35: NOP                            [0F1F00] 
+36C38: MOV RCX,[RDX + RAX*0x1 + 0x78] [488B4C0278] 
+36C3D: AND RCX,[RSI + RAX*0x1 + 0x78] [48234C0678] 
+36C42: MOV [RDI + RAX*0x1 + 0x78],RCX [48894C0778] 
+36C47: SUB RAX,0x8                    [4883E808] 
+36C4B: CMP RAX,-0x80                  [4883F880] 
+36C51: XOR EAX,EAX                    [31C0] 
+
+========

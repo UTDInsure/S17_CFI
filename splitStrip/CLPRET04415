@@ -1,0 +1,11 @@
+
+
+B4214: MOV EAX,[0x0036e770]           [8B0556A52B00] 
+B421A: TEST EAX,EAX                   [85C0] 
+B421E: MOV EDX,EDX                    [89D2] 
+B4220: MOV ESI,ESI                    [89F6] 
+B4222: MOV EDI,EDI                    [89FF] 
+B4224: MOV EAX,0x75                   [B875000000] 
+B422B: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

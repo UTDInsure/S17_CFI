@@ -1,0 +1,11 @@
+
+
+E6C14: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E6C90: MOV RAX,[0x00368e00]           [488B0569212800] 
+E6C97: MOV EDI,EDI                    [89FF] 
+E6C99: MOV RAX,FS:[RAX]               [64488B00] 
+E6C9D: MOVZX EAX,word ptr [RAX + RDI*0x2] [0FB70478] 
+E6CA1: AND AX,0x100                   [66250001] 
+E6CA5: MOVZX EAX,AX                   [0FB7C0] 
+
+========

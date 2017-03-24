@@ -1,0 +1,10 @@
+
+
+B41E4: MOV EAX,0x78                   [B878000000] 
+B41EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B41F4: MOV RCX,[0x00368e68]           [488B0D6D4C2B00] 
+B41FB: NEG EAX                        [F7D8] 
+B41FD: MOV FS:[RCX],EAX               [648901] 
+B4200: OR RAX,-0x1                    [4883C8FF] 
+
+========

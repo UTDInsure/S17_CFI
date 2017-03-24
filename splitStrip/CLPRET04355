@@ -1,0 +1,22 @@
+
+
+B2EC4: CMP dword ptr [0x0036e774],0x0 [833DA9B82B0000] 
+B2EE1: SUB RSP,0x8                    [4883EC08] 
+F08C4: MOV EAX,FS:[0x308]             [648B042508030000] 
+F08CC: MOV R11D,EAX                   [4189C3] 
+F08CF: OR R11D,0x2                    [4183CB02] 
+F08D3: CMP R11D,EAX                   [4139C3] 
+B2EEE: MOV [RSP],RAX                  [48890424] 
+B2EF2: MOV EAX,0x23                   [B823000000] 
+B2EF9: MOV RDI,[RSP]                  [488B3C24] 
+B2EFD: MOV RDX,RAX                    [4889C2] 
+F0924: TEST EDI,0x2                   [F7C702000000] 
+B2F09: MOV RAX,RDX                    [4889D0] 
+B2F0C: ADD RSP,0x8                    [4883C408] 
+B2F10: CMP RAX,0xfffff001             [483D01F0FFFF] 
+B2F19: MOV RCX,[0x00368e68]           [488B0D485F2B00] 
+B2F20: NEG EAX                        [F7D8] 
+B2F22: MOV FS:[RCX],EAX               [648901] 
+B2F25: OR RAX,-0x1                    [4883C8FF] 
+
+========

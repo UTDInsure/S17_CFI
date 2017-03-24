@@ -1,0 +1,9 @@
+
+
+1DFB4: PUSH RBX                       [53] 
+1DFB5: MOV RBX,RDI                    [4889FB] 
+1DFB8: SUB RSP,0x10                   [4883EC10] 
+1DFBC: TEST RDI,RDI                   [4885FF] 
+1DFC1: TEST byte ptr [RBX + 0xc],0x10 [F6430C10] 
+
+========

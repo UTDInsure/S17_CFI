@@ -1,0 +1,9 @@
+
+
+19F94: MOV RCX,RDX                    [4889D1] 
+19F97: MOVZX EAX,SIL                  [400FB6C6] 
+19F9B: MOV RDX,RDI                    [4889FA] 
+19F9E: STOSB.REP RDI                  [F3AA] 
+19FA0: MOV RAX,RDX                    [4889D0] 
+
+========

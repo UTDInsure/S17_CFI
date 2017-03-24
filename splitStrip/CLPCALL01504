@@ -1,0 +1,9 @@
+
+
+1139E4: SUB RSP,0x38                   [4883EC38] 
+1139E8: MOV RDX,RDI                    [4889FA] 
+1139EB: XOR EAX,EAX                    [31C0] 
+1139ED: MOV dword ptr [RSP],0x2        [C7042402000000] 
+1139F4: MOV RDI,RSP                    [4889E7] 
+
+========

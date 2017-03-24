@@ -1,0 +1,6 @@
+
+
+FFCE4: CMP RSI,RDX                    [4839D6] 
+FFD20: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

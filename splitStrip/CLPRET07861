@@ -1,0 +1,17 @@
+
+
+12C54: MOVSXD R10,ECX                 [4C63D1] 
+12C57: XOR R9D,R9D                    [4531C9] 
+12C5A: ADD R10,R8                     [4D01C2] 
+12C5D: CMP EDX,R9D                    [4439CA] 
+12C66: MOVZX EAX,byte ptr [RDI + R9*0x2] [420FB6044F] 
+12C6B: CMP AL,0xff                    [3CFF] 
+12C6F: CMP byte ptr [RDI + R9*0x2 + 0x1],0xff [42807C4F01FF] 
+12CA1: MOV dword ptr [RSI + R9*0x8],0x0 [4AC704CE00000000] 
+12CB5: MOV RAX,[RSI + R9*0x8]         [4A8B04CE] 
+12CB9: LEA R11,[RAX + -0x1]           [4C8D58FF] 
+12CBD: CMP R11,-0x3                   [4983FBFD] 
+12CE1: INC R9                         [49FFC1] 
+12C5D: CMP EDX,R9D                    [4439CA] 
+
+========

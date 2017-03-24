@@ -1,0 +1,26 @@
+
+
+71154: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+7115B: PUSH RBX                       [53] 
+7115C: MOV RBX,RDI                    [4889FB] 
+7115F: MOV RDX,[RAX + 0x20]           [488B5020] 
+71163: CMP RDX,[RAX + 0x18]           [483B5018] 
+711B0: MOV RAX,[0x140 + RAX]          [488B8040010000] 
+711B7: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+711C3: CMP EAX,-0x1                   [83F8FF] 
+711C8: MOV RAX,[0xa0 + RBX]           [488B83A0000000] 
+711CF: MOV RDX,[RAX + 0x20]           [488B5020] 
+71169: MOV ECX,[RBX]                  [8B0B] 
+7116B: TEST CH,0x1                    [F6C501] 
+71170: CMP [RAX + 0x8],RDX            [48395008] 
+71174: MOV RSI,[RAX + 0x30]           [488B7030] 
+71178: MOV [RAX + 0x10],RSI           [48897010] 
+71182: AND CH,0xf7                    [80E5F7] 
+71185: MOV [RAX],RDX                  [488910] 
+71188: MOV [RAX + 0x28],RDX           [48895028] 
+7118C: MOV [RAX + 0x18],RDX           [48895018] 
+71190: MOV [RBX],ECX                  [890B] 
+71192: XOR EAX,EAX                    [31C0] 
+71194: POP RBX                        [5B] 
+
+========

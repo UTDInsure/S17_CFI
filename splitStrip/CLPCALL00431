@@ -1,0 +1,24 @@
+
+
+71B64: PUSH R15                       [4157] 
+71B66: PUSH R14                       [4156] 
+71B68: PUSH R13                       [4155] 
+71B6A: MOV R13,RDI                    [4989FD] 
+71B6D: PUSH R12                       [4154] 
+71B6F: PUSH RBP                       [55] 
+71B70: PUSH RBX                       [53] 
+71B71: SUB RSP,0x28                   [4883EC28] 
+71B75: MOV R14,[0xa0 + RDI]           [4C8BB7A0000000] 
+71B7C: MOV EBX,[RDI + 0x74]           [8B5F74] 
+71B7F: MOV [RSP + 0xc],EDX            [8954240C] 
+71B83: MOV RAX,[R14 + 0x18]           [498B4618] 
+71B87: AND EBX,0x8                    [83E308] 
+71B8A: MOV R15,[R14 + 0x28]           [4D8B7E28] 
+71B8E: MOV [RSP],RAX                  [48890424] 
+71BB0: LEA RAX,[0x190 + RSI*0x4]      [488D04B590010000] 
+71BB8: MOV R12,RSI                    [4989F4] 
+71BBB: MOV RBP,[R14 + 0x30]           [498B6E30] 
+71BBF: MOV [RSP + 0x10],RAX           [4889442410] 
+71BC4: MOV RDI,RAX                    [4889C7] 
+
+========

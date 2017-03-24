@@ -1,0 +1,14 @@
+
+
+2CB04: PUSH RBX                       [53] 
+2CB05: MOV RSI,RDI                    [4889FE] 
+2CB08: SUB RSP,0x10                   [4883EC10] 
+2CB0C: MOV RBX,[0x0024a8a0]           [488B1D8DDD2100] 
+2CB13: MOV RAX,[RBX + 0x18]           [488B4318] 
+2CB17: TEST RAX,RAX                   [4885C0] 
+2CB1C: TEST RSI,RSI                   [4885F6] 
+2CB1F: MOV byte ptr [RAX],0x0         [C60000] 
+2CB36: ADD RSP,0x10                   [4883C410] 
+2CB3A: POP RBX                        [5B] 
+
+========

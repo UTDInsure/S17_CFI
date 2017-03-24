@@ -1,0 +1,18 @@
+
+
+1A164: PUSH R13                       [4155] 
+1A166: PUSH R12                       [4154] 
+1A168: PUSH RBP                       [55] 
+1A169: PUSH RBX                       [53] 
+1A16A: MOV RBX,RDI                    [4889FB] 
+1A16D: SUB RSP,0x8                    [4883EC08] 
+1A171: TEST RDI,RDI                   [4885FF] 
+1A1C8: MOV EBP,0xffffffff             [BDFFFFFFFF] 
+1A1B4: ADD RSP,0x8                    [4883C408] 
+1A1B8: MOV EAX,EBP                    [89E8] 
+1A1BA: POP RBX                        [5B] 
+1A1BB: POP RBP                        [5D] 
+1A1BC: POP R12                        [415C] 
+1A1BE: POP R13                        [415D] 
+
+========

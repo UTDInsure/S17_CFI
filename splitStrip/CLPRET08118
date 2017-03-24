@@ -1,0 +1,7 @@
+
+
+1AED4: TEST RDI,RDI                   [4885FF] 
+1AF10: XOR EAX,EAX                    [31C0] 
+1AF12: NOP                            [660F1F440000] 
+
+========

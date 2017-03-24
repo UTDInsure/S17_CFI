@@ -1,0 +1,18 @@
+
+
+34DA4: PUSH RBP                       [55] 
+34DA5: PUSH RBX                       [53] 
+34DA6: MOV RBX,RSI                    [4889F3] 
+34DA9: SUB RSP,0x8                    [4883EC08] 
+34DAD: MOVSXD RAX,[RSI]               [486306] 
+34DB0: SUB EDX,EAX                    [29C2] 
+34DB2: TEST EDX,EDX                   [85D2] 
+34DB6: CMP EDX,R8D                    [4439C2] 
+34DB9: MOV EBP,R8D                    [4489C5] 
+34DE0: MOV R8D,EDX                    [4189D0] 
+34DE3: MOV EBP,EDX                    [89D5] 
+34DBE: LEA RSI,[RDI + RAX*0x1]        [488D3407] 
+34DC2: MOV EDX,R8D                    [4489C2] 
+34DC5: MOV RDI,RCX                    [4889CF] 
+
+========

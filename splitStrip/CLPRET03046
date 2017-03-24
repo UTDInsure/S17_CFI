@@ -1,0 +1,10 @@
+
+
+77C84: PUSH RBX                       [53] 
+77C85: MOV RAX,[RDI + 0x8]            [488B4708] 
+77C89: MOV RBX,RDI                    [4889FB] 
+77C8C: CMP RAX,[RDI + 0x10]           [483B4710] 
+77C92: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+77C95: POP RBX                        [5B] 
+
+========

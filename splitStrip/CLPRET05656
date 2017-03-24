@@ -1,0 +1,6 @@
+
+
+E3D74: MOV EAX,0xfe                   [B8FE000000] 
+E3D7B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

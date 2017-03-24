@@ -1,0 +1,20 @@
+
+
+ACA0D: XOR EAX,EAX                    [31C0] 
+ACA0F: SUB R15D,0x1                   [4183EF01] 
+ACA13: CMOVNS EAX,R15D                [410F49C7] 
+ACA17: ADD EAX,0x1                    [83C001] 
+ACA1A: MOVSXD R12,EAX                 [4C63E0] 
+ACA1D: MOV RAX,[-0xd8 + RBP]          [488B8528FFFFFF] 
+ACA24: SUB RAX,R14                    [4C29F0] 
+ACA27: CMP R12,RAX                    [4939C4] 
+ABF60: XOR EAX,EAX                    [31C0] 
+ABF62: LEA RSP,[RBP + -0x28]          [488D65D8] 
+ABF66: POP RBX                        [5B] 
+ABF67: POP R12                        [415C] 
+ABF69: POP R13                        [415D] 
+ABF6B: POP R14                        [415E] 
+ABF6D: POP R15                        [415F] 
+ABF6F: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,23 @@
+
+
+4D0B4: MOVZX EDX,byte ptr [RSI]       [0FB616] 
+4D0B7: XOR EAX,EAX                    [31C0] 
+4D0B9: XOR R8D,R8D                    [4531C0] 
+4D0BC: LEA ECX,[RDX + -0x1]           [8D4AFF] 
+4D0BF: CMP CL,0x7d                    [80F97D] 
+4D0EB: MOVSX ECX,DL                   [0FBECA] 
+4D0EE: CMP EDI,ECX                    [39CF] 
+4D0D0: MOVZX EDX,byte ptr [RSI + 0x1] [0FB65601] 
+4D0D4: ADD R8D,0x1                    [4183C001] 
+4D0D8: SUB EDI,ECX                    [29CF] 
+4D0DA: TEST DL,DL                     [84D2] 
+4D0DE: CMP DL,0x7f                    [80FA7F] 
+4D0E3: ADD RSI,0x1                    [4883C601] 
+4D0E7: TEST DL,DL                     [84D2] 
+4D100: LEA EAX,[RDI + -0x1]           [8D47FF] 
+4D103: XOR EDX,EDX                    [31D2] 
+4D105: DIV ECX                        [F7F1] 
+4D107: ADD R8D,EAX                    [4101C0] 
+4D10A: MOV EAX,R8D                    [4489C0] 
+
+========

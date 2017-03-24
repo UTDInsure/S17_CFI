@@ -1,0 +1,17 @@
+
+
+30174: PUSH R15                       [4157] 
+30176: PUSH R14                       [4156] 
+30178: PUSH R13                       [4155] 
+3017A: PUSH R12                       [4154] 
+3017C: PUSH RBP                       [55] 
+3017D: PUSH RBX                       [53] 
+3017E: SUB RSP,0x8                    [4883EC08] 
+30182: MOV RAX,[0x0024a880]           [488B05F7A62100] 
+30189: MOV RBP,[RAX]                  [488B28] 
+3018C: TEST RBP,RBP                   [4885ED] 
+30195: XOR ESI,ESI                    [31F6] 
+30197: MOV EDX,0x1                    [BA01000000] 
+3019C: MOV R13,RDI                    [4989FD] 
+
+========

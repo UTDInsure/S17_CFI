@@ -1,0 +1,13 @@
+
+
+E2B84: PUSH RBP                       [55] 
+E2B85: XOR EDI,EDI                    [31FF] 
+E2B87: MOV RBP,RSP                    [4889E5] 
+E2B8A: PUSH R15                       [4157] 
+E2B8C: PUSH R14                       [4156] 
+E2B8E: PUSH R13                       [4155] 
+E2B90: PUSH R12                       [4154] 
+E2B92: PUSH RBX                       [53] 
+E2B93: SUB RSP,0x48                   [4883EC48] 
+
+========

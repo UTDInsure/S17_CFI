@@ -1,0 +1,28 @@
+
+
+C0424: PUSH R14                       [4156] 
+C0426: PUSH R13                       [4155] 
+C0428: MOV R13,RDI                    [4989FD] 
+C042B: PUSH R12                       [4154] 
+C042D: MOV R12,RCX                    [4989CC] 
+C0430: PUSH RBP                       [55] 
+C0431: MOV RBP,R9                     [4C89CD] 
+C0434: PUSH RBX                       [53] 
+C0435: MOV RBX,RSI                    [4889F3] 
+C0438: SUB RSP,0x10                   [4883EC10] 
+C043C: TEST dword ptr [RSP + 0x40],0x400000 [48F744244000004000] 
+C0447: LEA RDI,[0x13659d]             [488D3D4F610700] 
+C044E: MOV ECX,0x6                    [B906000000] 
+C0453: MOV RSI,R9                     [4C89CE] 
+C0456: CMPSB.REPE RDI,RSI             [F3A6] 
+C045E: LEA RBP,[0x136597]             [488D2D32610700] 
+C0465: MOVSXD RSI,[R12]               [49633424] 
+C0469: CMP [R8],ESI                   [413930] 
+C0BF4: LEA R14D,[RSI + RSI*0x1 + 0x1] [448D743601] 
+C0BF9: MOV RDI,[RDX]                  [488B3A] 
+C0BFC: MOV [RSP + 0x8],R8             [4C89442408] 
+C0C01: MOV [RSP],RDX                  [48891424] 
+C0C05: MOVSXD RSI,R14D                [4963F6] 
+C0C08: SHL RSI,0x3                    [48C1E603] 
+
+========

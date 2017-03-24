@@ -1,0 +1,15 @@
+
+
+397E4: TEST RDI,RDI                   [4885FF] 
+397E9: TEST RSI,RSI                   [4885F6] 
+397EE: MOV EAX,[RDI + 0x18]           [8B4718] 
+397F1: MOV RDX,[RDI + 0x10]           [488B5710] 
+397F5: TEST EAX,EAX                   [85C0] 
+39848: MOV ECX,[RDX]                  [8B0A] 
+3984A: IMUL ECX,ECX,0x41c64e6d        [69C96D4EC641] 
+39850: ADD ECX,0x3039                 [81C139300000] 
+39856: AND ECX,0x7fffffff             [81E1FFFFFF7F] 
+3985C: MOV [RDX],ECX                  [890A] 
+3985E: MOV [RSI],ECX                  [890E] 
+
+========

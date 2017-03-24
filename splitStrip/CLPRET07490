@@ -1,0 +1,11 @@
+
+
+114C54: PUSH RBX                       [53] 
+114C55: MOV RBX,RDI                    [4889FB] 
+114C58: MOV dword ptr [RDI + 0x28],0x0 [C7472800000000] 
+114C5F: MOV dword ptr [RDI + 0x20],0x0 [48C7472000000000] 
+114C67: MOV RDI,[RDI + 0x18]           [488B7F18] 
+114C6B: TEST RDI,RDI                   [4885FF] 
+114C81: POP RBX                        [5B] 
+
+========

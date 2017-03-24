@@ -1,0 +1,18 @@
+
+
+52A4: PUSH RBP                       [55] 
+52A5: MOV RBP,RSP                    [4889E5] 
+52A8: PUSH R13                       [4155] 
+52AA: PUSH R12                       [4154] 
+52AC: XOR R12D,R12D                  [4531E4] 
+52AF: PUSH RBX                       [53] 
+52B0: SUB RSP,0x8                    [4883EC08] 
+52B4: TEST RSI,RSI                   [4885F6] 
+5392: LEA RSP,[RBP + -0x18]          [488D65E8] 
+5396: MOV EAX,R12D                   [4489E0] 
+5399: POP RBX                        [5B] 
+539A: POP R12                        [415C] 
+539C: POP R13                        [415D] 
+539E: POP RBP                        [5D] 
+
+========

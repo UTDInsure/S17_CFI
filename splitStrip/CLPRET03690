@@ -1,0 +1,6 @@
+
+
+8FAA4: AND RDX,-0x2                   [4883E2FE] 
+8FAA8: CMP RDX,0x1                    [4883FA01] 
+
+========

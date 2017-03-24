@@ -1,0 +1,11 @@
+
+
+2E694: MOV RAX,[0x00368dc0]           [488B0525A73300] 
+2E69B: TEST RDI,RDI                   [4885FF] 
+2E69E: LEA RCX,[0x369f20]             [488D0D7BB83300] 
+2E6A5: MOV RDX,FS:[RAX]               [64488B10] 
+2E6E4: CMP RDX,RCX                    [4839CA] 
+2E6E7: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+2E6EE: CMOVNZ RAX,RDX                 [480F45C2] 
+
+========

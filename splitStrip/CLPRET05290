@@ -1,0 +1,25 @@
+
+
+DCE94: PUSH RBP                       [55] 
+DCE95: MOV R10,RCX                    [4989CA] 
+DCE98: PUSH RBX                       [53] 
+DCE99: SUB RSP,0x58                   [4883EC58] 
+DCE9D: TEST R8,R8                     [4D85C0] 
+DCEA2: MOV RCX,[R8]                   [498B08] 
+DCEA5: MOV RBX,[R8 + 0x8]             [498B5808] 
+DCEA9: LEA R8,[RSP + 0x30]            [4C8D442430] 
+DCEAE: MOV [RSP + 0x30],RCX           [48894C2430] 
+DCEB3: MOV [RSP + 0x38],RBX           [48895C2438] 
+DCEB8: MOV EAX,[0x0036e774]           [8B05B6182900] 
+DCEBE: MOV [RSP + 0x40],R9            [4C894C2440] 
+DCEC3: MOV dword ptr [RSP + 0x48],0x8 [48C744244808000000] 
+DCECC: TEST EAX,EAX                   [85C0] 
+DCED0: LEA R9,[RSP + 0x40]            [4C8D4C2440] 
+DCED5: MOVSXD RDI,EDI                 [4863FF] 
+DCED8: MOV EAX,0x10e                  [B80E010000] 
+DCEDF: CMP RAX,0xfffff000             [483D00F0FFFF] 
+DCEE7: ADD RSP,0x58                   [4883C458] 
+DCEEB: POP RBX                        [5B] 
+DCEEC: POP RBP                        [5D] 
+
+========

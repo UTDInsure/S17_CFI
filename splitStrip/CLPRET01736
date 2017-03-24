@@ -1,0 +1,11 @@
+
+
+36A84: LEA ECX,[RSI + -0x1]           [8D4EFF] 
+36A87: CMP ECX,0x3f                   [83F93F] 
+36A8C: TEST RDI,RDI                   [4885FF] 
+36A91: MOV RAX,-0x2                   [48C7C0FEFFFFFF] 
+36A98: ROL RAX,CL                     [48D3C0] 
+36A9B: AND [RDI],RAX                  [482107] 
+36A9E: XOR EAX,EAX                    [31C0] 
+
+========

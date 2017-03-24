@@ -1,0 +1,18 @@
+
+
+10C884: PUSH R15                       [4157] 
+10C886: MOV R15,RDI                    [4989FF] 
+10C889: MOV EDI,0xf8                   [BFF8000000] 
+10C88E: PUSH R14                       [4156] 
+10C890: PUSH R13                       [4155] 
+10C892: MOV R13,RSI                    [4989F5] 
+10C895: PUSH R12                       [4154] 
+10C897: MOV R12,RDX                    [4989D4] 
+10C89A: PUSH RBP                       [55] 
+10C89B: MOV RBP,RCX                    [4889CD] 
+10C89E: PUSH RBX                       [53] 
+10C89F: SUB RSP,0x78                   [4883EC78] 
+10C8A3: MOV [RSP + 0x4],R8D            [4489442404] 
+10C8A8: MOV [RSP + 0x8],R9D            [44894C2408] 
+
+========

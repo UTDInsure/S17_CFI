@@ -1,0 +1,13 @@
+
+
+80B09: MOV RAX,[0x00368e28]           [488B0518832E00] 
+80B10: MOV R9D,[RAX]                  [448B08] 
+80B13: TEST R9D,R9D                   [4585C9] 
+809A2: MOV RBP,[RBX]                  [488B2B] 
+809A5: TEST RBP,RBP                   [4885ED] 
+809AA: TEST R12,R12                   [4D85E4] 
+809B8: MOV RAX,[0x00368db0]           [488B05F1832E00] 
+809BF: MOV RAX,[RAX]                  [488B00] 
+809C2: TEST RAX,RAX                   [4885C0] 
+
+========

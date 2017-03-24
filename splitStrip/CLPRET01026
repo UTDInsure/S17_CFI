@@ -1,0 +1,23 @@
+
+
+414964: MOV EAX,[0x0062ba70]           [8B0506712100] 
+41496A: MOV RSI,[0x0062b168]           [488B35F7672100] 
+414971: LEA EDX,[RAX + -0x1]           [8D50FF] 
+414974: MOVSXD RAX,EDX                 [4863C2] 
+414977: TEST EDX,EDX                   [85D2] 
+414979: LEA RAX,[RSI + RAX*0x8 + -0x8] [488D44C6F8] 
+414980: MOV RCX,[RAX]                  [488B08] 
+414983: SUB RAX,0x8                    [4883E808] 
+414987: MOV [RAX + 0x10],RCX           [48894810] 
+41498B: SUB EDX,0x1                    [83EA01] 
+414980: MOV RCX,[RAX]                  [488B08] 
+414983: SUB RAX,0x8                    [4883E808] 
+414987: MOV [RAX + 0x10],RCX           [48894810] 
+41498B: SUB EDX,0x1                    [83EA01] 
+414980: MOV RCX,[RAX]                  [488B08] 
+414983: SUB RAX,0x8                    [4883E808] 
+414987: MOV [RAX + 0x10],RCX           [48894810] 
+41498B: SUB EDX,0x1                    [83EA01] 
+414990: MOV [RSI],RDI                  [48893E] 
+
+========

@@ -1,0 +1,9 @@
+
+
+18474: TEST RSI,RSI                   [4885F6] 
+18480: TEST RDX,RDX                   [4885D2] 
+18485: MOVZX EAX,byte ptr [RDI + 0x11] [0FB64711] 
+18489: MOV [RDX],AX                   [668902] 
+1848C: XOR EAX,EAX                    [31C0] 
+
+========

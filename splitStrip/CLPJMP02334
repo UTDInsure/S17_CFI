@@ -1,0 +1,9 @@
+
+
+2E4D4: SUB RSP,0x8                    [4883EC08] 
+2E4D8: MOV EDX,EDI                    [89FA] 
+2E4DA: XOR ECX,ECX                    [31C9] 
+2E4DC: XOR ESI,ESI                    [31F6] 
+2E4DE: XOR EDI,EDI                    [31FF] 
+
+========

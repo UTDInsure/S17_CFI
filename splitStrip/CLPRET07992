@@ -1,0 +1,11 @@
+
+
+170C4: TEST RDI,RDI                   [4885FF] 
+170DA: TEST RSI,RSI                   [4885F6] 
+170DF: MOV RAX,[0x0024a830]           [488B054A372300] 
+170E6: MOV RAX,[RAX]                  [488B00] 
+170E9: MOVZX EAX,byte ptr [RAX + 0x11] [0FB64011] 
+170ED: MOV [RSI],AX                   [668906] 
+170F0: XOR EAX,EAX                    [31C0] 
+
+========

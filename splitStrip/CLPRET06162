@@ -1,0 +1,23 @@
+
+
+EC724: PUSH RBP                       [55] 
+EC725: MOV RBP,RSP                    [4889E5] 
+EC728: PUSH R15                       [4157] 
+EC72A: PUSH R14                       [4156] 
+EC72C: PUSH R13                       [4155] 
+EC72E: MOV R13,RDI                    [4989FD] 
+EC731: PUSH R12                       [4154] 
+EC733: PUSH RBX                       [53] 
+EC734: SUB RSP,0x38                   [4883EC38] 
+EC738: MOV EBX,[RDI + 0x8]            [8B5F08] 
+EC73B: MOV [RBP + -0x48],RSI          [488975B8] 
+EC73F: TEST EBX,EBX                   [85DB] 
+EC743: LEA RSP,[RBP + -0x28]          [488D65D8] 
+EC747: POP RBX                        [5B] 
+EC748: POP R12                        [415C] 
+EC74A: POP R13                        [415D] 
+EC74C: POP R14                        [415E] 
+EC74E: POP R15                        [415F] 
+EC750: POP RBP                        [5D] 
+
+========

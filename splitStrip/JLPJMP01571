@@ -1,0 +1,24 @@
+
+
+32CFA: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+32D02: LEA RAX,[RDX + 0x1]            [488D4201] 
+32D06: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+32D14: MOV RCX,[0x1e0 + R12]          [498B8C24E0010000] 
+32D1C: MOV RSI,RAX                    [4889C6] 
+32D1F: MOV [0x1f0 + R12],RSI          [4989B424F0010000] 
+32D27: MOV RBX,RBP                    [4889EB] 
+32D2A: MOV byte ptr [RCX + RDX*0x1],0x25 [C6041125] 
+32D2E: MOVZX EAX,byte ptr [RBP]       [0FB64500] 
+32857: TEST AL,AL                     [84C0] 
+3285F: ADD RBX,0x1                    [4883C301] 
+32863: MOV RAX,RBX                    [4889D8] 
+32866: SUB RAX,[RSP]                  [482B0424] 
+3286A: CMP RAX,R14                    [4C39F0] 
+32B60: MOV RDX,[0x1f0 + R12]          [498B9424F0010000] 
+32B68: LEA RAX,[RDX + 0x1]            [488D4201] 
+32B6C: CMP RAX,[0x1e8 + R12]          [493B8424E8010000] 
+32C00: MOV RDI,[0x1e0 + R12]          [498BBC24E0010000] 
+32C08: LEA RSI,[RAX + RAX*0x1]        [488D3400] 
+32C0C: MOV [0x1e8 + R12],RSI          [4989B424E8010000] 
+
+========

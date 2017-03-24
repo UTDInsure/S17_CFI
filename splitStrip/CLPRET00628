@@ -1,0 +1,10 @@
+
+
+405DF4: MOV R8D,[0x006279e0]           [448B05E51B2200] 
+405DFB: TEST R8D,R8D                   [4585C0] 
+405ED8: MOV RAX,[RDI]                  [488B07] 
+405EDB: LEA RDX,[RAX + 0x1]            [488D5001] 
+405EDF: MOV [RDI],RDX                  [488917] 
+405EE2: MOV [RAX],SIL                  [408830] 
+
+========

@@ -1,0 +1,21 @@
+
+
+CA124: PUSH RBX                       [53] 
+CA125: MOV RBX,RDI                    [4889FB] 
+CA128: MOV RDI,[RDI]                  [488B3F] 
+CA12B: TEST RDI,RDI                   [4885FF] 
+BD334: PUSH R15                       [4157] 
+BD336: PUSH R14                       [4156] 
+BD338: PUSH R13                       [4155] 
+BD33A: MOV R13,RDI                    [4989FD] 
+BD33D: PUSH R12                       [4154] 
+BD33F: PUSH RBP                       [55] 
+BD340: PUSH RBX                       [53] 
+BD341: SUB RSP,0x8                    [4883EC08] 
+BD345: MOV RAX,[RDI]                  [488B07] 
+BD348: TEST RAX,RAX                   [4885C0] 
+BD384: MOV RDI,[R13 + 0x18]           [498B7D18] 
+BD388: XOR EBP,EBP                    [31ED] 
+BD38A: MOV EBX,0x1                    [BB01000000] 
+
+========

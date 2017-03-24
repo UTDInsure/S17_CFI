@@ -1,0 +1,10 @@
+
+
+10DDA4: PUSH RBP                       [55] 
+10DDA5: PUSH RBX                       [53] 
+10DDA6: MOV RBX,RDI                    [4889FB] 
+10DDA9: SUB RSP,0x8                    [4883EC08] 
+10DDAD: MOV RBP,[RDI + 0x40]           [488B6F40] 
+10DDB1: MOV RDI,[RBP + 0x8]            [488B7D08] 
+
+========

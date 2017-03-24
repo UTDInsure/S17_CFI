@@ -1,0 +1,26 @@
+
+
+C66AA: MOV RDX,[RSP + 0x50]           [488B542450] 
+C66AF: TEST DL,0x20                   [F6C220] 
+C66B8: TEST DL,0x10                   [F6C210] 
+C66C1: CMP AL,0x9                     [3C09] 
+C66CD: MOV RDX,[RSP + 0x20]           [488B542420] 
+C66D2: MOV RAX,[RSP + 0x28]           [488B442428] 
+C66D7: XOR ECX,ECX                    [31C9] 
+C66D9: LEA RSI,[0x80 + RDX]           [488DB280000000] 
+C66E0: LEA RDI,[RDX + 0x70]           [488D7A70] 
+C66E4: MOV byte ptr [RAX + 0x8],0x1   [C6400801] 
+C66E8: XOR EDX,EDX                    [31D2] 
+C66EA: MOV R8,RAX                     [4989C0] 
+BE3F4: PUSH RBX                       [53] 
+BE3F5: MOV RBX,RDI                    [4889FB] 
+BE3F8: SUB RSP,0x20                   [4883EC20] 
+BE3FC: MOVSXD RAX,[RSI]               [486306] 
+BE3FF: CMP EAX,0xf                    [83F80F] 
+BE46C: MOV EDI,0x3c8                  [BFC8030000] 
+BE471: MOV [RSP + 0x18],R8            [4C89442418] 
+BE476: MOV [RSP + 0x10],RCX           [48894C2410] 
+BE47B: MOV [RSP + 0x8],RDX            [4889542408] 
+BE480: MOV [RSP],RSI                  [48893424] 
+
+========

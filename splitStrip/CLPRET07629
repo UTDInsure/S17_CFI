@@ -1,0 +1,23 @@
+
+
+119B84: PUSH RBX                       [53] 
+119B85: MOV RBX,RDI                    [4889FB] 
+119B88: SUB RSP,0x10                   [4883EC10] 
+119B8C: MOV RSI,[0x0036a8c8]           [488B35350D2500] 
+119B93: TEST RSI,RSI                   [4885F6] 
+119B98: LEA RDX,[RSP + 0x8]            [488D542408] 
+119B9D: MOV RDI,RBX                    [4889DF] 
+119C64: MOVZX EAX,word ptr [RDI]       [0FB707] 
+119C67: MOV R9,RDI                     [4989F9] 
+119C6A: SUB EAX,0x1                    [83E801] 
+119C6D: CMP AX,0x7                     [6683F807] 
+119C73: MOV RAX,[0x00368e68]           [488B05EEF12400] 
+119C7A: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+119C81: MOV dword ptr [RDX],0x0        [48C70200000000] 
+119C88: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+119BA9: TEST EAX,EAX                   [85C0] 
+119BAD: MOV RAX,[RSP + 0x8]            [488B442408] 
+119BB2: ADD RSP,0x10                   [4883C410] 
+119BB6: POP RBX                        [5B] 
+
+========

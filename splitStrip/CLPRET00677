@@ -1,0 +1,19 @@
+
+
+406BD4: MOV RAX,[0x00627bc0]           [488B05E50F2200] 
+406BDB: CMP byte ptr [RAX],0x0         [803800] 
+406BE8: SUB RSP,0x8                    [4883EC08] 
+406BEC: XOR EAX,EAX                    [31C0] 
+406A24: MOV RAX,[0x00627bc0]           [488B0595112200] 
+406A2B: CMP byte ptr [RAX],0x0         [803800] 
+406A30: XOR EAX,EAX                    [31C0] 
+406BF7: XOR EAX,EAX                    [31C0] 
+406B34: PUSH RBX                       [53] 
+406B35: MOV RBX,[0x00627bc0]           [488B1D84102200] 
+406B3C: CMP RBX,0x627be0               [4881FBE07B6200] 
+406BC0: MOV EAX,0x1                    [B801000000] 
+406BC5: POP RBX                        [5B] 
+406C02: XOR EAX,EAX                    [31C0] 
+406C04: ADD RSP,0x8                    [4883C408] 
+
+========

@@ -1,0 +1,14 @@
+
+
+BDEB4: MOVZX EAX,byte ptr [RSI + 0x30] [0FB64630] 
+BDEB8: CMP AL,0xb                     [3C0B] 
+BDEBC: CMP AL,0x10                    [3C10] 
+BDEE8: MOV RAX,[RSI + 0x10]           [488B4610] 
+BDEEC: MOV RDX,[RSI + 0x8]            [488B5608] 
+BDEF0: MOV RCX,[RAX + 0x18]           [488B4818] 
+BDEF4: MOV [RDX + 0x20],RCX           [48894A20] 
+BDEF8: MOV RDX,[RSI + 0x20]           [488B5620] 
+BDEFC: MOV [RAX + 0x20],RDX           [48895020] 
+BDF00: XOR EAX,EAX                    [31C0] 
+
+========

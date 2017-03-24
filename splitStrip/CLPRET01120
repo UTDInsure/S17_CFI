@@ -1,0 +1,14 @@
+
+
+416124: PUSH RBX                       [53] 
+416125: XOR EAX,EAX                    [31C0] 
+416127: MOV RBX,RDI                    [4889FB] 
+405194: MOV RAX,[0x006279d8]           [488B053D282200] 
+40519B: TEST RAX,RAX                   [4885C0] 
+4051B0: XOR EAX,EAX                    [31C0] 
+416133: AND EAX,0x8                    [83E008] 
+416138: MOV RDX,[0x00627390]           [488B1551122100] 
+41613F: TEST RDX,RDX                   [4885D2] 
+416163: POP RBX                        [5B] 
+
+========

@@ -1,0 +1,7 @@
+
+
+6CB84: MOV RDX,[0x100 + RDI]          [488B9700010000] 
+6CB8B: XOR EAX,EAX                    [31C0] 
+6CB8D: TEST RDX,RDX                   [4885D2] 
+
+========

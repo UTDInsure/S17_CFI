@@ -1,0 +1,15 @@
+
+
+837D4: PUSH R12                       [4154] 
+837D6: MOV R12,RSI                    [4989F4] 
+837D9: PUSH RBP                       [55] 
+837DA: PUSH RBX                       [53] 
+837DB: MOV RSI,[RDI + 0x8]            [488B7708] 
+837DF: MOV RBX,RDI                    [4889FB] 
+837E2: TEST RSI,RSI                   [4885F6] 
+83831: TEST R12,R12                   [4D85E4] 
+83836: POP RBX                        [5B] 
+83837: POP RBP                        [5D] 
+83838: POP R12                        [415C] 
+
+========

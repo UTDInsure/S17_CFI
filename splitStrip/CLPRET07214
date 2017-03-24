@@ -1,0 +1,17 @@
+
+
+111BA4: SUB RSP,0x68                   [4883EC68] 
+111BA8: MOV RAX,[RDI + 0x28]           [488B4728] 
+111BAC: MOV dword ptr [RSP + 0x8],0x1  [C744240801000000] 
+111BB4: MOV dword ptr [RSP + 0x10],0x0 [C744241000000000] 
+111BBC: MOV RSI,RSP                    [4889E6] 
+111BBF: MOV dword ptr [RSP + 0x30],0x5 [C744243005000000] 
+111BC7: MOV [RSP + 0x18],RAX           [4889442418] 
+111BCC: MOV RAX,[RDI + 0x30]           [488B4730] 
+111BD0: MOV [RSP + 0x20],RAX           [4889442420] 
+111BD5: MOV RAX,[RDI + 0x38]           [488B4738] 
+111BD9: MOV [RSP + 0x28],RAX           [4889442428] 
+111BDE: MOV RAX,[RDI + 0x8]            [488B4708] 
+111BE9: ADD RSP,0x68                   [4883C468] 
+
+========

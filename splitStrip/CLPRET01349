@@ -1,0 +1,9 @@
+
+
+2BAE4: CMP ESI,0x3                    [83FE03] 
+2BAE7: PUSH RBX                       [53] 
+2BAE8: MOV RBX,[RDI]                  [488B1F] 
+2BB30: TEST ESI,ESI                   [85F6] 
+2BB34: POP RBX                        [5B] 
+
+========

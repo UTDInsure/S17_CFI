@@ -1,0 +1,25 @@
+
+
+44E44: CMP EDI,0x4                    [83FF04] 
+44E47: MOV R8D,EDI                    [4189F8] 
+44E4A: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+44E55: MOV R9,RSI                     [4989F1] 
+44E58: SUB RSP,0x8                    [4883EC08] 
+44E5C: MOV ESI,0x1                    [BE01000000] 
+44E61: XOR EAX,EAX                    [31C0] 
+44E63: CMP dword ptr [0x0036e774],0x0 [833D0A99320000] 
+44E6C: LOCK                           [F0] 
+44E6D: CMPXCHG [0x0036b6f0],ESI       [0FB1357C683200] 
+44E9F: MOV RSI,R9                     [4C89CE] 
+44EA2: MOV EDI,R8D                    [4489C7] 
+445E4: PUSH RBP                       [55] 
+445E5: PUSH RBX                       [53] 
+445E6: MOV EBX,EDI                    [89FB] 
+445E8: SUB RSP,0x18                   [4883EC18] 
+445EC: MOV RBP,[0x003695f0]           [488B2DFD4F3200] 
+445F3: TEST RBP,RBP                   [4885ED] 
+44620: TEST RSI,RSI                   [4885F6] 
+44625: MOV EDI,0x18                   [BF18000000] 
+4462A: MOV [RSP + 0x8],RSI            [4889742408] 
+
+========

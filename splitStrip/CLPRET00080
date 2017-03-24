@@ -1,0 +1,22 @@
+
+
+CD64: PUSH R12                       [4154] 
+CD66: MOV R12,RDI                    [4989FC] 
+CD69: PUSH RBP                       [55] 
+CD6A: LEA RBP,[RDI + 0x8]            [488D6F08] 
+CD6E: PUSH RBX                       [53] 
+CD6F: MOV [RDI],RSI                  [488937] 
+CD72: MOVZX EAX,byte ptr [0x314 + RSI] [0FB68614030000] 
+CD79: AND EAX,0xffffff9f             [83E09F] 
+CD7C: OR EAX,0x20                    [83C820] 
+CD7F: MOV [0x314 + RSI],AL           [888614030000] 
+CD85: MOV RAX,[0x3b8 + RSI]          [488B86B8030000] 
+CD8C: TEST RAX,RAX                   [4885C0] 
+CDD2: MOV RAX,RBP                    [4889E8] 
+CDD5: POP RBX                        [5B] 
+CDD6: SUB RAX,R12                    [4C29E0] 
+CDD9: POP RBP                        [5D] 
+CDDA: SAR RAX,0x3                    [48C1F803] 
+CDDE: POP R12                        [415C] 
+
+========

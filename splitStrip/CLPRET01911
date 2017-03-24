@@ -1,0 +1,9 @@
+
+
+396F4: TEST RDI,RDI                   [4885FF] 
+396F7: LEA RCX,[RDI + 0x4]            [488D4F04] 
+397C8: MOV RAX,[0x00368e68]           [488B0599F63200] 
+397CF: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+397D6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

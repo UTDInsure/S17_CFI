@@ -1,0 +1,17 @@
+
+
+BC3F4: MOV RAX,[RSI + 0x20]           [488B4620] 
+BC3F8: SHL R8,0x4                     [49C1E004] 
+BC3FC: ADD R8,[RDI + 0x28]            [4C034728] 
+BC400: MOV ESI,[RAX + 0x38]           [8B7038] 
+BC403: MOV RDI,R8                     [4C89C7] 
+BC004: PUSH RBP                       [55] 
+BC005: MOV EBP,ESI                    [89F5] 
+BC007: PUSH RBX                       [53] 
+BC008: MOV RBX,RDI                    [4889FB] 
+BC00B: SUB RSP,0x8                    [4883EC08] 
+BC00F: MOV dword ptr [RDI],0x1        [C70701000000] 
+BC015: MOV dword ptr [RDI + 0x4],0x1  [C7470401000000] 
+BC01C: MOV EDI,0x4                    [BF04000000] 
+
+========

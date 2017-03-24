@@ -1,0 +1,16 @@
+
+
+95814: PUSH R12                       [4154] 
+95816: MOV R12,RSI                    [4989F4] 
+95819: PUSH RBP                       [55] 
+9581A: MOV RBP,RDI                    [4889FD] 
+9581D: PUSH RBX                       [53] 
+9581E: MOV ESI,[RDI]                  [8B37] 
+95820: XOR EBX,EBX                    [31DB] 
+95822: TEST ESI,ESI                   [85F6] 
+9584D: MOV RAX,RBX                    [4889D8] 
+95850: POP RBX                        [5B] 
+95851: POP RBP                        [5D] 
+95852: POP R12                        [415C] 
+
+========

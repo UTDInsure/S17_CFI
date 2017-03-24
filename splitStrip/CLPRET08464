@@ -1,0 +1,21 @@
+
+
+2CBB4: PUSH R12                       [4154] 
+2CBB6: PUSH RBP                       [55] 
+2CBB7: PUSH RBX                       [53] 
+2CBB8: SUB RSP,0xd0                   [4881ECD0000000] 
+2CBBF: TEST AL,AL                     [84C0] 
+2CBC1: MOV [RSP + 0x28],RSI           [4889742428] 
+2CBC6: MOV [RSP + 0x30],RDX           [4889542430] 
+2CBCB: MOV [RSP + 0x38],RCX           [48894C2438] 
+2CBD0: MOV [RSP + 0x40],R8            [4C89442440] 
+2CBD5: MOV [RSP + 0x48],R9            [4C894C2448] 
+2CC13: MOV RBP,RDI                    [4889FD] 
+2CC16: MOV RAX,[0x0024a7c8]           [488B05ABDB2100] 
+2CC1D: CMP byte ptr [RAX],0x0         [803800] 
+2CC22: ADD RSP,0xd0                   [4881C4D0000000] 
+2CC29: POP RBX                        [5B] 
+2CC2A: POP RBP                        [5D] 
+2CC2B: POP R12                        [415C] 
+
+========

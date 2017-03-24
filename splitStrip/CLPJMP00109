@@ -1,0 +1,7 @@
+
+
+18624: TEST RDI,RDI                   [4885FF] 
+18629: PUSH RBX                       [53] 
+1862A: MOV EBX,[RDI]                  [8B1F] 
+
+========

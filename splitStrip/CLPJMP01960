@@ -1,0 +1,9 @@
+
+
+17034: SUB RSP,0x8                    [4883EC08] 
+17038: MOV RAX,[0x0024a830]           [488B05F1372300] 
+1703F: MOVSXD RSI,EDI                 [4863F7] 
+17042: XOR EDX,EDX                    [31D2] 
+17044: MOV RDI,[RAX]                  [488B38] 
+
+========

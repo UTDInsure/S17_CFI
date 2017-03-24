@@ -1,0 +1,10 @@
+
+
+47524: TEST RCX,RCX                   [4885C9] 
+47529: CMP RSI,RDI                    [4839FE] 
+4752E: NOP                            [6690] 
+47530: LEA R10,[RSI + -0x4]           [4C8D56FC] 
+47534: CMP RDI,R10                    [4C39D7] 
+47550: MOV RAX,RSI                    [4889F0] 
+
+========

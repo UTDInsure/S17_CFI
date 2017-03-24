@@ -1,0 +1,25 @@
+
+
+264E4: PUSH R15                       [4157] 
+264E6: PUSH R14                       [4156] 
+264E8: PUSH R13                       [4155] 
+264EA: PUSH R12                       [4154] 
+264EC: PUSH RBP                       [55] 
+264ED: PUSH RBX                       [53] 
+264EE: SUB RSP,0x28                   [4883EC28] 
+264F2: MOV RBP,[0x0024a7a0]           [488B2DA7422200] 
+264F9: MOV R8,[RBP]                   [4C8B4500] 
+264FD: TEST R8,R8                     [4D85C0] 
+26506: MOV R9,[R8 + 0x70]             [4D8B4870] 
+2650A: MOV RBX,RDI                    [4889FB] 
+2650D: TEST R9,R9                     [4D85C9] 
+26567: TEST SIL,SIL                   [4084F6] 
+26570: MOV RAX,[0x2d0 + R8]           [498B80D0020000] 
+26577: MOV RDX,RBX                    [4889DA] 
+2657A: XOR RDX,[RAX]                  [483310] 
+2657D: MOV RAX,R8                     [4C89C0] 
+26580: TEST RDX,-0x100                [48F7C200FFFFFF] 
+269A8: MOV RDI,RBX                    [4889DF] 
+269AB: AND DIL,0x0                    [4080E700] 
+
+========

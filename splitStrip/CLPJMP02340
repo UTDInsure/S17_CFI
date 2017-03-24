@@ -1,0 +1,7 @@
+
+
+2E6D4: TEST RDI,RDI                   [4885FF] 
+2E6D7: PUSH RBX                       [53] 
+2E6D8: MOV EBX,ESI                    [89F3] 
+
+========

@@ -1,0 +1,10 @@
+
+
+713A4: PUSH RBX                       [53] 
+713A5: MOV RBX,RDI                    [4889FB] 
+713A8: MOV EDI,[0xc0 + RDI]           [8BBFC0000000] 
+713AE: TEST EDI,EDI                   [85FF] 
+71410: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+71415: POP RBX                        [5B] 
+
+========

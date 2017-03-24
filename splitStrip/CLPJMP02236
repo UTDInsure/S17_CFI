@@ -1,0 +1,11 @@
+
+
+2A0C4: PUSH RBP                       [55] 
+2A0C5: MOV EBP,EDI                    [89FD] 
+2A0C7: PUSH RBX                       [53] 
+2A0C8: SUB RSP,0x8                    [4883EC08] 
+2A0CC: MOV RBX,[0x0024a7a0]           [488B1DCD062200] 
+2A0D3: MOV RDI,[RBX]                  [488B3B] 
+2A0D6: TEST RDI,RDI                   [4885FF] 
+
+========

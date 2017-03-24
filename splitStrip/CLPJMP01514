@@ -1,0 +1,23 @@
+
+
+100B64: PUSH RBP                       [55] 
+100B65: MOV R9D,0x16                   [41B916000000] 
+100B6B: MOV R10D,0x301                 [41BA01030000] 
+100B71: MOV RBP,RSP                    [4889E5] 
+100B74: PUSH R15                       [4157] 
+100B76: PUSH R14                       [4156] 
+100B78: MOV R14D,ESI                   [4189F6] 
+100B7B: PUSH R13                       [4155] 
+100B7D: MOV R13D,0x10                  [41BD10000000] 
+100B83: PUSH R12                       [4154] 
+100B85: MOV R12D,EDI                   [4189FC] 
+100B88: XOR EDI,EDI                    [31FF] 
+100B8A: PUSH RBX                       [53] 
+100B8B: LEA RBX,[-0x90 + RBP]          [488D9D70FFFFFF] 
+100B92: SUB RSP,0xd8                   [4881ECD8000000] 
+100B99: MOV dword ptr [-0x90 + RBP],0x14 [C78570FFFFFF14000000] 
+100BA3: MOV [-0x8c + RBP],R9W          [6644898D74FFFFFF] 
+100BAB: MOV [-0x8a + RBP],R10W         [6644899576FFFFFF] 
+100BB3: MOV dword ptr [-0x84 + RBP],0x0 [C7857CFFFFFF00000000] 
+
+========

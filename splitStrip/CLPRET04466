@@ -1,0 +1,20 @@
+
+
+B5654: PUSH R12                       [4154] 
+B5656: PUSH RBP                       [55] 
+B5657: PUSH RBX                       [53] 
+B5658: MOV EBX,EDI                    [89FB] 
+B565A: SUB RSP,0x90                   [4881EC90000000] 
+B5661: CMP ESI,0x6                    [83FE06] 
+B566C: CMP ESI,0xd                    [83FE0D] 
+B5671: CMP ESI,0x14                   [83FE14] 
+B5700: TEST EBX,EBX                   [85DB] 
+B58B3: MOV RAX,[0x00368e68]           [488B05AE352B00] 
+B58BA: MOV dword ptr FS:[RAX],0x9     [64C70009000000] 
+B58C1: MOV RAX,-0x1                   [48C7C0FFFFFFFF] 
+B5694: ADD RSP,0x90                   [4881C490000000] 
+B569B: POP RBX                        [5B] 
+B569C: POP RBP                        [5D] 
+B569D: POP R12                        [415C] 
+
+========

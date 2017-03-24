@@ -1,0 +1,17 @@
+
+
+6DE04: PUSH R12                       [4154] 
+6DE06: PUSH RBP                       [55] 
+6DE07: PUSH RBX                       [53] 
+6DE08: MOV RBX,RDI                    [4889FB] 
+6DE0B: SUB RSP,0x20                   [4883EC20] 
+6DE0F: MOV EBP,[0x0036e770]           [8B2D5B093000] 
+6DE15: TEST EBP,EBP                   [85ED] 
+6DFF8: MOV RAX,[0x0036e730]           [488B0531073000] 
+6DFFF: MOV RDI,RSP                    [4889E7] 
+6E002: XOR EDX,EDX                    [31D2] 
+6E004: ROR RAX,0x11                   [48C1C811] 
+6E008: XOR RAX,FS:[0x30]              [644833042530000000] 
+6E011: LEA RSI,[0x6e050]              [488D3538000000] 
+
+========

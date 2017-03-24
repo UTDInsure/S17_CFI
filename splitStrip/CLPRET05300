@@ -1,0 +1,6 @@
+
+
+DD001: MOV EAX,0x4a                   [B84A000000] 
+DD008: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

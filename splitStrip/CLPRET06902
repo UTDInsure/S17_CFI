@@ -1,0 +1,9 @@
+
+
+108584: MOV EAX,[RDI + 0x10]           [8B4710] 
+108587: TEST EAX,EAX                   [85C0] 
+1085C0: MOV EAX,[RDI + 0x30]           [8B4730] 
+1085C3: TEST EAX,EAX                   [85C0] 
+1085C7: MOV dword ptr [RSI],0x0        [C70600000000] 
+
+========

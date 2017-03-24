@@ -1,0 +1,24 @@
+
+
+DB2A4: PUSH RBP                       [55] 
+DB2A5: MOV ECX,0x11d                  [B91D010000] 
+DB2AA: MOV RBP,RDX                    [4889D5] 
+DB2AD: MOV R10,RDX                    [4989D2] 
+DB2B0: MOV R9D,EDI                    [4189F9] 
+DB2B3: MOV RDX,RSI                    [4889F2] 
+DB2B6: PUSH RBX                       [53] 
+DB2B7: MOV EAX,ECX                    [89C8] 
+DB2B9: MOV RBX,RSI                    [4889F3] 
+DB2BC: XOR ESI,ESI                    [31F6] 
+DB2BE: SUB RSP,0x8                    [4883EC08] 
+DB2C4: MOV R8,RAX                     [4989C0] 
+DB2C7: XOR EAX,EAX                    [31C0] 
+DB2C9: CMP R8D,0xfffff000             [4181F800F0FFFF] 
+DB2D2: CMP R8D,-0x5f                  [4183F8A1] 
+DB2D8: MOV EAX,R8D                    [4489C0] 
+DB2DB: NEG EAX                        [F7D8] 
+DB2DD: ADD RSP,0x8                    [4883C408] 
+DB2E1: POP RBX                        [5B] 
+DB2E2: POP RBP                        [5D] 
+
+========

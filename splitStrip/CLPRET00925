@@ -1,0 +1,11 @@
+
+
+411C24: MOV EAX,0x62a6e0               [B8E0A66200] 
+411C3C: CMP [RAX],RDI                  [483938] 
+411C30: ADD RAX,0x18                   [4883C018] 
+411C34: CMP RAX,0x62abd8               [483DD8AB6200] 
+411C3C: CMP [RAX],RDI                  [483938] 
+411C30: ADD RAX,0x18                   [4883C018] 
+411C34: CMP RAX,0x62abd8               [483DD8AB6200] 
+
+========

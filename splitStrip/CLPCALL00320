@@ -1,0 +1,15 @@
+
+
+6E6A4: CMP EDX,0x2                    [83FA02] 
+6E6AD: PUSH RBX                       [53] 
+6E6AE: MOV RBX,RDI                    [4889FB] 
+6E6B1: SUB RSP,0x10                   [4883EC10] 
+6E6B5: TEST ECX,ECX                   [85C9] 
+6E6B9: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+6E6BF: TEST EAX,EAX                   [85C0] 
+6E6C5: MOV RDI,[0xa0 + RDI]           [488BBFA0000000] 
+6E6CC: CMP dword ptr [RDI + 0x40],0x0 [48837F4000] 
+6E700: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+6E707: MOV RDI,RBX                    [4889DF] 
+
+========

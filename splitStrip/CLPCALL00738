@@ -1,0 +1,27 @@
+
+
+825D4: PUSH R12                       [4154] 
+825D6: MOV R9D,[0x0036b868]           [448B0D8B922E00] 
+825DD: MOV R12,RSI                    [4989F4] 
+825E0: PUSH RBP                       [55] 
+825E1: TEST R9D,R9D                   [4585C9] 
+825E4: PUSH RBX                       [53] 
+825E5: MOV RBX,RDI                    [4889FB] 
+822D4: PUSH RBX                       [53] 
+822D5: MOV RBX,[0x0036b870]           [488B1D94952E00] 
+822DC: MOV dword ptr [0x0036b868],0x0 [C70582952E0000000000] 
+822E6: TEST RBX,RBX                   [4885DB] 
+822F9: MOV EAX,[0x0036b86c]           [8B056D952E00] 
+822FF: TEST EAX,EAX                   [85C0] 
+82303: MOV RDI,RBX                    [4889DF] 
+82204: PUSH RBX                       [53] 
+82205: MOV RDX,[RDI + 0x18]           [488B5718] 
+82209: MOV EAX,0xd8675309             [B8095367D8] 
+8220E: ADD RDX,[RDI + 0x10]           [48035710] 
+82212: XOR RDX,[RDI + 0x8]            [48335708] 
+82216: CMP RDX,RAX                    [4839C2] 
+82278: MOV EBX,0x1                    [BB01000000] 
+8222A: MOV dword ptr [0x0036b86c],0x0 [C70538962E0000000000] 
+82234: MOV EDI,EBX                    [89DF] 
+
+========

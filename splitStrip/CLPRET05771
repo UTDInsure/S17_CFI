@@ -1,0 +1,18 @@
+
+
+E4804: CMP dword ptr [0x0036e774],0x0 [833D699F280000] 
+E4821: SUB RSP,0x8                    [4883EC08] 
+F08C4: MOV EAX,FS:[0x308]             [648B042508030000] 
+F08CC: MOV R11D,EAX                   [4189C3] 
+F08CF: OR R11D,0x2                    [4183CB02] 
+F08D3: CMP R11D,EAX                   [4139C3] 
+E482E: MOV [RSP],RAX                  [48890424] 
+E4832: MOV EAX,0x2e                   [B82E000000] 
+E4839: MOV RDI,[RSP]                  [488B3C24] 
+E483D: MOV RDX,RAX                    [4889C2] 
+F0924: TEST EDI,0x2                   [F7C702000000] 
+E4849: MOV RAX,RDX                    [4889D0] 
+E484C: ADD RSP,0x8                    [4883C408] 
+E4850: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

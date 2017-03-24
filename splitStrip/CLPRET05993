@@ -1,0 +1,20 @@
+
+
+E6F44: PUSH R13                       [4155] 
+E6F46: PUSH R12                       [4154] 
+E6F48: PUSH RBP                       [55] 
+E6F49: PUSH RBX                       [53] 
+E6F4A: SUB RSP,0x8                    [4883EC08] 
+E6F4E: MOV RAX,[0x00368dc0]           [488B056B1E2800] 
+E6F55: MOV RAX,FS:[RAX]               [64488B00] 
+E6F59: MOV R13,[RAX]                  [4C8B28] 
+E6F5C: MOV RBX,[0x98 + R13]           [498B9D98000000] 
+E6F63: CMP byte ptr [RBX],0x0         [803B00] 
+E6FC0: ADD RSP,0x8                    [4883C408] 
+E6FC4: XOR EAX,EAX                    [31C0] 
+E6FC6: POP RBX                        [5B] 
+E6FC7: POP RBP                        [5D] 
+E6FC8: POP R12                        [415C] 
+E6FCA: POP R13                        [415D] 
+
+========

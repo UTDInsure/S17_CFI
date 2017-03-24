@@ -1,0 +1,25 @@
+
+
+E0A94: PUSH R15                       [4157] 
+E0A96: PUSH R14                       [4156] 
+E0A98: PUSH R13                       [4155] 
+E0A9A: PUSH R12                       [4154] 
+E0A9C: MOV R12,RCX                    [4989CC] 
+E0A9F: PUSH RBP                       [55] 
+E0AA0: PUSH RBX                       [53] 
+E0AA1: SUB RSP,0x38                   [4883EC38] 
+E0AA5: TEST RCX,RCX                   [4885C9] 
+E0AA8: FLD tword ptr [RSP + 0x70]     [DB6C2470] 
+E0C3C: FSTP ST0                       [DDD8] 
+E0C3E: MOV RAX,[0x00368e68]           [488B0523822800] 
+E0C45: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+E0C4C: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+E0C19: ADD RSP,0x38                   [4883C438] 
+E0C1D: POP RBX                        [5B] 
+E0C1E: POP RBP                        [5D] 
+E0C1F: POP R12                        [415C] 
+E0C21: POP R13                        [415D] 
+E0C23: POP R14                        [415E] 
+E0C25: POP R15                        [415F] 
+
+========

@@ -1,0 +1,23 @@
+
+
+F3774: PUSH R15                       [4157] 
+F3776: PUSH R14                       [4156] 
+F3778: PUSH R13                       [4155] 
+F377A: PUSH R12                       [4154] 
+F377C: PUSH RBP                       [55] 
+F377D: MOV RBP,RSI                    [4889F5] 
+F3780: PUSH RBX                       [53] 
+F3781: SUB RSP,0x348                  [4881EC48030000] 
+F3788: CMP RCX,RSI                    [4839F1] 
+F3791: TEST RSI,RSI                   [4885F6] 
+F3794: MOV dword ptr [0x1d8 + RSP],0x0 [48C78424D801000000000000] 
+F3856: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+F3844: ADD RSP,0x348                  [4881C448030000] 
+F384B: POP RBX                        [5B] 
+F384C: POP RBP                        [5D] 
+F384D: POP R12                        [415C] 
+F384F: POP R13                        [415D] 
+F3851: POP R14                        [415E] 
+F3853: POP R15                        [415F] 
+
+========

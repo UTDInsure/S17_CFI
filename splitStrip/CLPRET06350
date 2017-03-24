@@ -1,0 +1,20 @@
+
+
+F1604: PUSH R15                       [4157] 
+F1606: PUSH R14                       [4156] 
+F1608: PUSH R13                       [4155] 
+F160A: PUSH R12                       [4154] 
+F160C: PUSH RBP                       [55] 
+F160D: PUSH RBX                       [53] 
+F160E: SUB RSP,0x138                  [4881EC38010000] 
+F1615: TEST ESI,ESI                   [85F6] 
+F1617: MOV [RSP + 0xc],EDX            [8954240C] 
+F1890: ADD RSP,0x138                  [4881C438010000] 
+F1897: POP RBX                        [5B] 
+F1898: POP RBP                        [5D] 
+F1899: POP R12                        [415C] 
+F189B: POP R13                        [415D] 
+F189D: POP R14                        [415E] 
+F189F: POP R15                        [415F] 
+
+========

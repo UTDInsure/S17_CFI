@@ -1,0 +1,7 @@
+
+
+18834: TEST RDI,RDI                   [4885FF] 
+18839: MOVZX EAX,word ptr [RDI + 0xc] [0FB7470C] 
+1883D: AND EAX,0x1                    [83E001] 
+
+========

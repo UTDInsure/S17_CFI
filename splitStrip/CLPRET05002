@@ -1,0 +1,6 @@
+
+
+D7391: MOV EAX,0x55                   [B855000000] 
+D7398: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

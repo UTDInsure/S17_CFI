@@ -1,0 +1,11 @@
+
+
+938E4: MOVSX ECX,byte ptr [RDI]       [0FBE0F] 
+938E7: XOR EAX,EAX                    [31C0] 
+938E9: CMP ECX,ESI                    [39F1] 
+938ED: NOP                            [0F1F00] 
+938F0: ADD RAX,0x1                    [4883C001] 
+938F4: MOVSX EDX,byte ptr [RDI + RAX*0x1] [0FBE1407] 
+938F8: CMP EDX,ECX                    [39CA] 
+
+========

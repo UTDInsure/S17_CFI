@@ -1,0 +1,27 @@
+
+
+DFFF4: PUSH R12                       [4154] 
+DFFF6: MOV R12D,EDI                   [4189FC] 
+DFFF9: PUSH RBP                       [55] 
+DFFFA: MOV EBP,ESI                    [89F5] 
+DFFFC: PUSH RBX                       [53] 
+DFFFD: SUB RSP,0x90                   [4881EC90000000] 
+B2F34: PUSH RBP                       [55] 
+B2F35: MOV RBP,RSP                    [4889E5] 
+B2F38: PUSH R14                       [4156] 
+B2F3A: PUSH R13                       [4155] 
+B2F3C: PUSH R12                       [4154] 
+B2F3E: PUSH RBX                       [53] 
+B2F3F: MOV RBX,[0x0036e558]           [488B1D12B62B00] 
+B2F46: TEST RBX,RBX                   [4885DB] 
+B2F4F: MOV EAX,[RBX + 0x28]           [8B4328] 
+B2F52: TEST EAX,EAX                   [85C0] 
+B2F56: MOV RDX,[0x0036e558]           [488B15FBB52B00] 
+B2F5D: LEA ECX,[RAX + 0x1]            [8D4801] 
+B2F60: LOCK                           [F0] 
+B2F61: CMPXCHG [RDX + 0x28],ECX       [0FB14A28] 
+B2F67: XOR R13D,R13D                  [4531ED] 
+B2F77: MOV RAX,[RBX + 0x8]            [488B4308] 
+B2F7B: TEST RAX,RAX                   [4885C0] 
+
+========

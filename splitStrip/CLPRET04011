@@ -1,0 +1,14 @@
+
+
+965A4: CMP RDX,0x3                    [4883FA03] 
+96648: AND EDX,0x3                    [83E203] 
+9664B: MOV RAX,RDI                    [4889F8] 
+9665D: ADD RSI,0x4                    [4883C604] 
+96661: MOV ECX,[RSI + -0x4]           [8B4EFC] 
+96664: ADD RAX,0x4                    [4883C004] 
+96668: SUB RDX,0x1                    [4883EA01] 
+9666C: TEST ECX,ECX                   [85C9] 
+9666E: MOV [RAX + -0x4],ECX           [8948FC] 
+96658: TEST RDX,RDX                   [4885D2] 
+
+========

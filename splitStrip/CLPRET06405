@@ -1,0 +1,14 @@
+
+
+F2FA4: SUB RSP,0x8                    [4883EC08] 
+F2FA8: CMP RDX,RCX                    [4839CA] 
+F2FAD: MOV ECX,R8D                    [4489C1] 
+F2FB0: MOV R8,R9                      [4D89C8] 
+F2FB3: MOV R9,[RSP + 0x10]            [4C8B4C2410] 
+E4664: CMP dword ptr [0x0036e774],0x0 [833D09A1280000] 
+E4671: MOV R10,RCX                    [4989CA] 
+E4674: MOV EAX,0x2d                   [B82D000000] 
+E467B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+F2FC1: ADD RSP,0x8                    [4883C408] 
+
+========

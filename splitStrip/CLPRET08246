@@ -1,0 +1,17 @@
+
+
+205F4: MOV RAX,[0x0024a7a0]           [488B05A5A12200] 
+205FB: MOV RAX,[RAX]                  [488B00] 
+205FE: TEST RAX,RAX                   [4885C0] 
+20603: MOV RDX,[0x308 + RAX]          [488B9008030000] 
+2060A: TEST RDX,RDX                   [4885D2] 
+2060F: MOV RAX,RDI                    [4889F8] 
+20612: XOR AL,AL                      [30C0] 
+20614: NOT RAX                        [48F7D0] 
+20617: AND RAX,[RDX + 0x20]           [48234220] 
+2061B: TEST EDI,0xff00                [F7C700FF0000] 
+20623: XOR AH,AH                      [30E4] 
+20625: MOV [RDX + 0x20],RAX           [48894220] 
+20629: XOR EAX,EAX                    [31C0] 
+
+========

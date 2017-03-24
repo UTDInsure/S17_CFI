@@ -1,0 +1,12 @@
+
+
+404394: MOV RDX,[0x006279d8]           [488B153D362200] 
+40439B: TEST RDX,RDX                   [4885D2] 
+4043A0: MOV EAX,[0x0062baac]           [8B0506772200] 
+4043A6: TEST EAX,EAX                   [85C0] 
+4043AA: MOV ECX,[0x824 + RDX]          [8B8A24080000] 
+4043B0: TEST CL,0x8                    [F6C108] 
+4043B5: XOR EAX,EAX                    [31C0] 
+4043B7: AND ECX,0x10                   [83E110] 
+
+========

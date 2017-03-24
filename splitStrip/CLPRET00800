@@ -1,0 +1,8 @@
+
+
+40DB74: TEST RDI,RDI                   [4885FF] 
+40DB77: PUSH RBX                       [53] 
+40DB78: MOV RBX,RDI                    [4889FB] 
+40DBDF: POP RBX                        [5B] 
+
+========

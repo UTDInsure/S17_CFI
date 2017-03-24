@@ -1,0 +1,28 @@
+
+
+A8612: MOVZX EAX,byte ptr [RSP + 0x71] [0FB6442471] 
+A8617: AND EAX,0x18                   [83E018] 
+A861A: CMP AL,0x10                    [3C10] 
+A9A14: MOV RDX,R15                    [4C89FA] 
+A9981: MOVZX ESI,byte ptr [RDX]       [0FB632] 
+A9984: LEA RAX,[RDX + 0x1]            [488D4201] 
+A9988: MOVSX RDI,SIL                  [480FBEFE] 
+A998C: TEST byte ptr [RCX + RDI*0x2 + 0x1],0x20 [F644790120] 
+A9993: MOV [RSP + 0x68],RAX           [4889442468] 
+A9998: MOVZX ESI,byte ptr [RAX]       [0FB630] 
+A999B: MOV RDX,RAX                    [4889C2] 
+A999E: ADD RAX,0x1                    [4883C001] 
+A99A2: MOVSX RDI,SIL                  [480FBEFE] 
+A99A6: TEST byte ptr [RCX + RDI*0x2 + 0x1],0x20 [F644790120] 
+A99AD: SUB ESI,0x30                   [83EE30] 
+A99B0: CMP SIL,0x9                    [4080FE09] 
+A6C92: XOR EAX,EAX                    [31C0] 
+A6C94: ADD RSP,0xc8                   [4881C4C8000000] 
+A6C9B: POP RBX                        [5B] 
+A6C9C: POP RBP                        [5D] 
+A6C9D: POP R12                        [415C] 
+A6C9F: POP R13                        [415D] 
+A6CA1: POP R14                        [415E] 
+A6CA3: POP R15                        [415F] 
+
+========

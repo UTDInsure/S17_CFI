@@ -1,0 +1,8 @@
+
+
+4125E4: SUB RSP,0x8                    [4883EC08] 
+4125E8: TEST EDI,EDI                   [85FF] 
+4125EC: CMP EDI,0x2                    [83FF02] 
+4125F1: ADD RSP,0x8                    [4883C408] 
+
+========

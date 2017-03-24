@@ -1,0 +1,25 @@
+
+
+4A19D: MOVSXD RAX,[-0x4e4 + RBP]      [4863851CFBFFFF] 
+4A1A4: MOV RCX,[-0x4d0 + RBP]         [488B8D30FBFFFF] 
+4A1AB: IMUL RAX,RAX,0x48              [486BC048] 
+4A1AF: LEA R12,[RCX + RAX*0x1]        [4C8D2401] 
+4A1B3: MOV RSI,[R12 + 0x38]           [498B742438] 
+4A1B8: LEA RAX,[0x1e + RSI*0x8]       [488D04F51E000000] 
+4A1C0: AND RAX,-0x10                  [4883E0F0] 
+4A1C4: SUB RSP,RAX                    [4829C4] 
+4A1C7: XOR EAX,EAX                    [31C0] 
+4A1C9: LEA RDX,[RSP + 0xf]            [488D54240F] 
+4A1CE: AND RDX,-0x10                  [4883E2F0] 
+4A1ED: MOV EDI,EAX                    [89C7] 
+4A1EF: CMP RSI,RDI                    [4839FE] 
+4A1F4: MOV RAX,[RBX + 0x28]           [488B4328] 
+4A1F8: CMP RAX,[RBX + 0x30]           [483B4330] 
+4A60E: MOV ESI,0x25                   [BE25000000] 
+4A613: MOV RDI,RBX                    [4889DF] 
+79554: SUB RSP,0x8                    [4883EC08] 
+79558: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+7955E: TEST EAX,EAX                   [85C0] 
+7956C: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+
+========

@@ -1,0 +1,8 @@
+
+
+404E24: PUSH RBX                       [53] 
+404E25: MOV RBX,[0x006279d8]           [488B1DAC2B2200] 
+404E2C: TEST RBX,RBX                   [4885DB] 
+404ED4: POP RBX                        [5B] 
+
+========

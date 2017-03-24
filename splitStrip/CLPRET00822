@@ -1,0 +1,15 @@
+
+
+40E664: CMP RDI,-0x1                   [4883FFFF] 
+40E668: PUSH RBX                       [53] 
+40E669: MOV RBX,RDI                    [4889FB] 
+40E6B0: MOV [0x00623680],RBX           [48891DC94F2100] 
+40E6CA: XOR EAX,EAX                    [31C0] 
+40E6CC: ADD RBX,0x1                    [4883C301] 
+4049A4: CMP dword ptr [0x006279d8],0x0 [48833D2C30220000] 
+404A00: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+40E6D9: CMP EAX,-0x1                   [83F8FF] 
+40E6DE: MOV [0x00623678],RBX           [48891D934F2100] 
+40E6E5: POP RBX                        [5B] 
+
+========

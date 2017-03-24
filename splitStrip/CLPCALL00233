@@ -1,0 +1,20 @@
+
+
+478A4: PUSH R13                       [4155] 
+478A6: PUSH R12                       [4154] 
+478A8: PUSH RBP                       [55] 
+478A9: MOV EBP,ESI                    [89F5] 
+478AB: PUSH RBX                       [53] 
+478AC: MOV RBX,RDI                    [4889FB] 
+478AF: SUB RSP,0x8                    [4883EC08] 
+478B3: MOV RCX,[RBX + 0x28]           [488B4B28] 
+478B7: MOV RSI,[RBX + 0x20]           [488B7320] 
+478BB: MOV RDI,[0xe0 + RDI]           [488BBFE0000000] 
+478C2: MOV RDX,RCX                    [4889CA] 
+478C5: SUB RDX,RSI                    [4829F2] 
+478C8: TEST EDX,EDX                   [85D2] 
+478F0: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+478F7: MOVSXD R13,EDX                 [4C63EA] 
+478FA: MOV RDX,R13                    [4C89EA] 
+
+========

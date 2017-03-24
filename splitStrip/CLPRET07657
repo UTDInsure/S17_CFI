@@ -1,0 +1,22 @@
+
+
+11A1D4: PUSH RBX                       [53] 
+11A1D5: MOVZX EAX,word ptr [RDI]       [0FB707] 
+11A1D8: XOR EBX,EBX                    [31DB] 
+11A1DA: SUB EAX,0x5                    [83E805] 
+11A1DD: CMP AX,0x3                     [6683F803] 
+11A1E3: MOVZX EAX,word ptr [RSI]       [0FB706] 
+11A1E6: SUB EAX,0x5                    [83E805] 
+11A1E9: CMP AX,0x3                     [6683F803] 
+11A1EF: CMP byte ptr [RDI + 0x28],0x0  [807F2800] 
+11A220: ADD RSI,0x8                    [4883C608] 
+11A224: ADD RDI,0x8                    [4883C708] 
+11A228: MOV EDX,0x20                   [BA20000000] 
+85BA4: TEST RDX,RDX                   [4885D2] 
+873E4: XOR EAX,EAX                    [31C0] 
+11A236: TEST EAX,EAX                   [85C0] 
+11A23A: XOR EBX,EBX                    [31DB] 
+11A23C: MOV EAX,EBX                    [89D8] 
+11A23E: POP RBX                        [5B] 
+
+========

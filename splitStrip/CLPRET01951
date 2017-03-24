@@ -1,0 +1,25 @@
+
+
+39C94: LEA RSI,[0x36e4b0]             [488D3515483300] 
+39C9B: SUB RSP,0x8                    [4883EC08] 
+39ED4: MOV EAX,[RSI]                  [8B06] 
+39ED6: MOV EDX,0x1                    [BA01000000] 
+39EDB: MOV [RSI + 0x6],EAX            [894606] 
+39EDE: MOVZX EAX,word ptr [RSI + 0x4] [0FB74604] 
+39EE2: MOV [RSI + 0xa],AX             [6689460A] 
+39EE6: MOVZX EAX,word ptr [RDI + 0x4] [0FB74704] 
+39EEA: MOV [RSI + 0x4],AX             [66894604] 
+39EEE: MOVZX EAX,word ptr [RDI + 0x2] [0FB74702] 
+39EF2: MOV [RSI + 0x2],AX             [66894602] 
+39EF6: MOVZX EAX,word ptr [RDI]       [0FB707] 
+39EF9: MOV [RSI + 0xe],DX             [6689560E] 
+39EFD: MOV [RSI],AX                   [668906] 
+39F00: MOV RAX,0x5deece66d            [48B86DE6ECDE05000000] 
+39F0A: MOV [RSI + 0x10],RAX           [48894610] 
+39F0E: MOV EAX,0xb                    [B80B000000] 
+39F13: MOV [RSI + 0xc],AX             [6689460C] 
+39F17: XOR EAX,EAX                    [31C0] 
+39CA8: LEA RAX,[0x36e4b6]             [488D0507483300] 
+39CAF: ADD RSP,0x8                    [4883C408] 
+
+========

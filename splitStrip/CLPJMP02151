@@ -1,0 +1,22 @@
+
+
+1F424: TEST RDI,RDI                   [4885FF] 
+1F427: PUSH RBX                       [53] 
+1F428: MOV RBX,RDI                    [4889FB] 
+1F42D: MOV RDI,[RDI]                  [488B3F] 
+1F424: TEST RDI,RDI                   [4885FF] 
+1F427: PUSH RBX                       [53] 
+1F428: MOV RBX,RDI                    [4889FB] 
+1F42D: MOV RDI,[RDI]                  [488B3F] 
+1F424: TEST RDI,RDI                   [4885FF] 
+1F427: PUSH RBX                       [53] 
+1F428: MOV RBX,RDI                    [4889FB] 
+1F452: POP RBX                        [5B] 
+1F439: MOV RDI,[RBX + 0x8]            [488B7B08] 
+1F424: TEST RDI,RDI                   [4885FF] 
+1F427: PUSH RBX                       [53] 
+1F428: MOV RBX,RDI                    [4889FB] 
+1F452: POP RBX                        [5B] 
+1F446: MOV RDI,RBX                    [4889DF] 
+
+========

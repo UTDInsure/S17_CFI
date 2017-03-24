@@ -1,0 +1,14 @@
+
+
+8BE34: MOV RAX,[RCX]                  [488B01] 
+8BE37: TEST dword ptr [0x278 + RAX],0x1 [F7807802000001000000] 
+8BE47: TEST RDX,RDX                   [4885D2] 
+8BE50: CMP RDX,0x1                    [4883FA01] 
+8E460: MOVZX ECX,byte ptr [RSI]       [0FB60E] 
+8E463: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+8E466: LEA RDX,[0x11fc20]             [488D15B3170900] 
+8E46D: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+8E470: MOV EAX,[RDX + RAX*0x4]        [8B0482] 
+8E473: SUB EAX,ECX                    [29C8] 
+
+========

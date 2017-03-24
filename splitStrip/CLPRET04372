@@ -1,0 +1,28 @@
+
+
+B3784: SUB RSP,0x8                    [4883EC08] 
+B3788: MOV RAX,[0x00368ea8]           [488B0519572B00] 
+B378F: MOV RDX,[RAX]                  [488B10] 
+B3944: PUSH RBP                       [55] 
+B3945: MOV RBP,RSP                    [4889E5] 
+B3948: PUSH R15                       [4157] 
+B394A: MOV R15,RDI                    [4989FF] 
+B394D: PUSH R14                       [4156] 
+B394F: PUSH R13                       [4155] 
+B3951: PUSH R12                       [4154] 
+B3953: PUSH RBX                       [53] 
+B3954: SUB RSP,0x58                   [4883EC58] 
+B3958: CMP byte ptr [RDI],0x0         [803F00] 
+B39B0: MOV RAX,[0x00368e68]           [488B05B1542B00] 
+B39B7: MOV dword ptr FS:[RAX],0x2     [64C70002000000] 
+B3999: LEA RSP,[RBP + -0x28]          [488D65D8] 
+B399D: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+B39A2: POP RBX                        [5B] 
+B39A3: POP R12                        [415C] 
+B39A5: POP R13                        [415D] 
+B39A7: POP R14                        [415E] 
+B39A9: POP R15                        [415F] 
+B39AB: POP RBP                        [5D] 
+B379B: ADD RSP,0x8                    [4883C408] 
+
+========

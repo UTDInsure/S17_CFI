@@ -1,0 +1,7 @@
+
+
+18C24: MOV R10,RCX                    [4989CA] 
+18C27: MOV EAX,0x9                    [B809000000] 
+18C2E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

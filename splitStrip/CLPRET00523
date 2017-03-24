@@ -1,0 +1,9 @@
+
+
+4042A4: CMP EDI,-0x1                   [83FFFF] 
+4042A7: PUSH RBX                       [53] 
+4042A8: MOV EBX,EDI                    [89FB] 
+4042C7: MOV [0x0062368c],EBX           [891DBFF32100] 
+4042CD: POP RBX                        [5B] 
+
+========

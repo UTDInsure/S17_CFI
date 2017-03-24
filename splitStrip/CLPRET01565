@@ -1,0 +1,23 @@
+
+
+356B4: MOVD EDX,XMM0                  [660F7EC2] 
+356B8: MOV EAX,EDX                    [89D0] 
+356BA: AND EAX,0x7f800000             [250000807F] 
+356BF: SAR EAX,0x17                   [C1F817] 
+356C2: TEST EAX,EAX                   [85C0] 
+3573C: AND EDX,0x7fffffff             [81E2FFFFFF7F] 
+35742: MOVAPS XMM1,XMM0               [0F28C8] 
+35747: MULSS XMM0,[0x0013dd50]        [F30F590501861000] 
+3574F: MOVD EDX,XMM0                  [660F7EC2] 
+35753: MOV EAX,EDX                    [89D0] 
+35755: AND EAX,0x7f800000             [250000807F] 
+3575A: SAR EAX,0x17                   [C1F817] 
+3575D: SUB EAX,0x19                   [83E819] 
+356CD: CMP EDI,0xffff3cb0             [81FFB03CFFFF] 
+35718: MOVAPS XMM1,XMM0               [0F28C8] 
+3571B: ANDPS XMM1,[0x0013d560]        [0F540D3E7E1000] 
+35722: ORPS XMM1,[0x0013d550]         [0F560D277E1000] 
+35729: MULSS XMM1,[0x0013dd54]        [F30F590D23861000] 
+356F9: MOVAPS XMM0,XMM1               [0F28C1] 
+
+========

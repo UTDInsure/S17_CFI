@@ -1,0 +1,10 @@
+
+
+E4E24: SUB EDI,0x1                    [83EF01] 
+E4E27: XOR EAX,EAX                    [31C0] 
+E4E29: CMP DI,0x12                    [6683FF12] 
+E4E2F: LEA RAX,[0x132b80]             [488D054ADD0400] 
+E4E36: MOVZX EDI,DI                   [0FB7FF] 
+E4E39: MOV EAX,[RAX + RDI*0x4]        [8B04B8] 
+
+========

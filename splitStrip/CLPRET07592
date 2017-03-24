@@ -1,0 +1,19 @@
+
+
+119824: PUSH R12                       [4154] 
+119826: MOV R12,RSI                    [4989F4] 
+119829: PUSH RBP                       [55] 
+11982A: MOV RBP,RDI                    [4889FD] 
+11982D: PUSH RBX                       [53] 
+11982E: MOV RBX,RDX                    [4889D3] 
+11983B: TEST EAX,EAX                   [85C0] 
+11983F: LEA RAX,[0x366ae0]             [488D059AD22400] 
+119846: MOV RDX,RBX                    [4889DA] 
+119849: MOV RSI,R12                    [4C89E6] 
+11984C: MOV RDI,RBP                    [4889EF] 
+11984F: MOV [0x0036a728],RAX           [488905D20E2500] 
+119860: POP RBX                        [5B] 
+119861: POP RBP                        [5D] 
+119862: POP R12                        [415C] 
+
+========

@@ -1,0 +1,12 @@
+
+
+7A794: CMP dword ptr [RDI + 0x60],0x0 [48837F6000] 
+7A79B: MOV dword ptr [RDI + 0x60],0x0 [48C7476000000000] 
+7A7A3: CMP dword ptr [RDI + 0x48],0x0 [48837F4800] 
+7A7AA: SUB RSP,0x8                    [4883EC08] 
+79514: PUSH RBX                       [53] 
+79515: TEST dword ptr [RDI],0x100     [F70700010000] 
+7951B: MOV RBX,RDI                    [4889FB] 
+79529: MOV RDI,[RBX + 0x48]           [488B7B48] 
+
+========

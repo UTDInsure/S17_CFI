@@ -1,0 +1,26 @@
+
+
+12D64: CMP byte ptr [0x0024b5e0],0x0  [803D7588230000] 
+12D6D: PUSH RBP                       [55] 
+12D6E: CMP dword ptr [0x0024a898],0x0 [48833D227B230000] 
+12D76: MOV RBP,RSP                    [4889E5] 
+12D79: PUSH R12                       [4154] 
+12D7B: PUSH RBX                       [53] 
+12D8E: LEA RDX,[0x247650]             [488D15BB482300] 
+12D95: LEA RAX,[0x247658]             [488D05BC482300] 
+12D9C: SUB RAX,RDX                    [4829D0] 
+12D9F: MOV R12,RDX                    [4989D4] 
+12DA2: SAR RAX,0x3                    [48C1F803] 
+12DA6: LEA RBX,[RAX + -0x1]           [488D58FF] 
+12DAA: MOV RDX,[0x0024b5e8]           [488B1537882300] 
+12DB1: CMP RDX,RBX                    [4839DA] 
+12CEE: LEA RAX,[0x24b5e7]             [488D05F2882300] 
+12CF5: LEA RDI,[0x24b5e0]             [488D3DE4882300] 
+12CFC: SUB RAX,RDI                    [4829F8] 
+12CFF: CMP RAX,0xe                    [4883F80E] 
+12DD3: POP RBX                        [5B] 
+12DD4: POP R12                        [415C] 
+12DD6: POP RBP                        [5D] 
+12DD7: MOV byte ptr [0x0024b5e0],0x1  [C6050288230001] 
+
+========

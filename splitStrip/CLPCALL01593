@@ -1,0 +1,13 @@
+
+
+1147F4: PUSH RBX                       [53] 
+1147F5: MOV RBX,RSI                    [4889F3] 
+1147F8: SUB RSP,0x10                   [4883EC10] 
+1147FC: MOV EAX,[RDI]                  [8B07] 
+1147FE: CMP EAX,0x1                    [83F801] 
+114848: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+11484B: LEA RSI,[RSP + 0xc]            [488D74240C] 
+114850: MOV [RSP + 0xc],EAX            [8944240C] 
+114854: MOV RAX,[RDI + 0x8]            [488B4708] 
+
+========

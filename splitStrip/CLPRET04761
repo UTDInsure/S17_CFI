@@ -1,0 +1,19 @@
+
+
+CFB64: MOVZX EDX,word ptr [RDI]       [0FB717] 
+CFB67: CMP DX,0xa                     [6683FA0A] 
+CFBB8: CMP byte ptr [RDI + 0x8],0xff  [807F08FF] 
+CFBBE: MOV EDX,[RDI + 0x8]            [8B5708] 
+CFBC1: MOV EAX,0x2                    [B802000000] 
+CFBC6: MOV ECX,EDX                    [89D1] 
+CFBC8: AND ECX,0xc0ff                 [81E1FFC00000] 
+CFBCE: CMP ECX,0x80fe                 [81F9FE800000] 
+CFBD6: TEST EDX,EDX                   [85D2] 
+CFBDA: MOV ESI,[RDI + 0xc]            [8B770C] 
+CFBDD: TEST ESI,ESI                   [85F6] 
+CFBF8: XOR EAX,EAX                    [31C0] 
+CFBFA: CMP ECX,0xc0fe                 [81F9FEC00000] 
+CFC00: SETNZ AL                       [0F95C0] 
+CFC03: LEA EAX,[RAX + RAX*0x8 + 0x5]  [8D44C005] 
+
+========

@@ -1,0 +1,20 @@
+
+
+AE474: PUSH RBX                       [53] 
+AE475: MOV EBX,EDI                    [89FB] 
+AE477: SUB RSP,0x10                   [4883EC10] 
+AE47B: MOV RAX,[RSI + 0x28]           [488B4628] 
+AE47F: TEST RAX,RAX                   [4885C0] 
+AE484: MOV R10D,[RAX + 0x10]          [448B5010] 
+AE488: TEST R10D,R10D                 [4585D2] 
+AE4A8: MOV R9D,[0x1d0 + RSI]          [448B8ED0010000] 
+AE4AF: TEST R9D,R9D                   [4585C9] 
+AE4B4: TEST RAX,RAX                   [4885C0] 
+AE48D: MOVSXD RDI,EBX                 [4863FB] 
+AE490: MOV RAX,[RAX]                  [488B00] 
+AE493: LEA RDX,[RDI + RDI*0x8]        [488D14FF] 
+AE497: LEA RAX,[RAX + RDX*0x8]        [488D04D0] 
+AE49B: ADD RSP,0x10                   [4883C410] 
+AE49F: POP RBX                        [5B] 
+
+========

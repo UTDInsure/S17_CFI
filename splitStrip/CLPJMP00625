@@ -1,0 +1,8 @@
+
+
+417FF4: SUB RSP,0x8                    [4883EC08] 
+417FF8: XOR ESI,ESI                    [31F6] 
+417FFA: XOR EAX,EAX                    [31C0] 
+417FFC: MOV EDI,0x41cba3               [BFA3CB4100] 
+
+========

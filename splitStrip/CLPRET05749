@@ -1,0 +1,6 @@
+
+
+E4574: MOV EAX,0x32                   [B832000000] 
+E457B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

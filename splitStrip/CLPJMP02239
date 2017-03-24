@@ -1,0 +1,7 @@
+
+
+2A244: MOV ESI,0xffffffff             [BEFFFFFFFF] 
+2A249: SUB RSP,0x8                    [4883EC08] 
+2A24D: MOV EDI,ESI                    [89F7] 
+
+========

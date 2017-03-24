@@ -1,0 +1,12 @@
+
+
+82284: TEST RSI,RSI                   [4885F6] 
+822A0: MOV RAX,[RDI]                  [488B07] 
+822A3: TEST RAX,RAX                   [4885C0] 
+822A8: MOV [RAX + 0x18],RSI           [48897018] 
+822AC: ADD RSI,[RAX + 0x10]           [48037010] 
+822B0: MOV EDX,0xfedabeeb             [BAEBBEDAFE] 
+822B5: XOR RSI,RDX                    [4831D6] 
+822B8: MOV [RAX + 0x8],RSI            [48897008] 
+
+========

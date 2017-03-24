@@ -1,0 +1,13 @@
+
+
+FC354: CMP byte ptr [0x0036d7e8],0x0  [803D8D14270000] 
+FC35B: PUSH RBX                       [53] 
+FC35C: MOV RBX,RSI                    [4889F3] 
+FC361: MOV R8,[0x0036d7e0]            [4C8B0578142700] 
+FC368: MOV EAX,0x1                    [B801000000] 
+FC36D: ROR R8,0x11                    [49C1C811] 
+FC371: XOR R8,FS:[0x30]               [644C33042530000000] 
+FC37A: CMP R8,-0x1                    [4983F8FF] 
+FC39B: POP RBX                        [5B] 
+
+========

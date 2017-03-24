@@ -1,0 +1,7 @@
+
+
+6EE04: CMP EDI,-0x1                   [83FFFF] 
+6EE07: MOV R8D,EDI                    [4189F8] 
+6EEE8: MOV EAX,EDI                    [89F8] 
+
+========

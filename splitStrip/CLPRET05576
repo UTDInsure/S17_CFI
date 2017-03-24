@@ -1,0 +1,6 @@
+
+
+E3594: MOV EAX,0xac                   [B8AC000000] 
+E359B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

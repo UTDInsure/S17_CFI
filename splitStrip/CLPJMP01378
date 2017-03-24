@@ -1,0 +1,16 @@
+
+
+F44C4: PUSH R15                       [4157] 
+F44C6: MOV R15D,ESI                   [4189F7] 
+F44C9: PUSH R14                       [4156] 
+F44CB: MOV R14,RCX                    [4989CE] 
+F44CE: PUSH R13                       [4155] 
+F44D0: MOV R13,RDX                    [4989D5] 
+F44D3: PUSH R12                       [4154] 
+F44D5: MOV R12,RDI                    [4989FC] 
+F44D8: MOV EDI,0x64                   [BF64000000] 
+F44DD: PUSH RBP                       [55] 
+F44DE: PUSH RBX                       [53] 
+F44DF: SUB RSP,0xf8                   [4881ECF8000000] 
+
+========

@@ -1,0 +1,18 @@
+
+
+4059A4: CMP RDI,0x1b                   [4883FF1B] 
+4059A8: PUSH RBX                       [53] 
+4059A9: MOV RBX,RDI                    [4889FB] 
+4059B2: CMP RDI,0x7f                   [4883FF7F] 
+4059B8: TEST byte ptr [0x627a60 + RDI],0x2 [F687607A620002] 
+4059C1: MOV RAX,RDI                    [4889F8] 
+4059C4: XOR RAX,0x40                   [4883F040] 
+4059C8: TEST byte ptr [0x627a60 + RAX],0x2 [F680607A620002] 
+4059D5: XOR EBX,0x40                   [83F340] 
+4059D8: MOV EDX,0x4185c3               [BAC3854100] 
+4059DD: MOV ESI,0x20                   [BE20000000] 
+4059E2: MOVSX ECX,BL                   [0FBECB] 
+4059E5: MOV EDI,0x627a00               [BF007A6200] 
+4059EA: XOR EAX,EAX                    [31C0] 
+
+========

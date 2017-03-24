@@ -1,0 +1,9 @@
+
+
+100AF4: CMP byte ptr [RDI + 0x2],0x0   [807F0200] 
+100AFA: MOVZX EAX,byte ptr [RDI + 0x1] [0FB64701] 
+100AFE: SHL EAX,0x3                    [C1E003] 
+100B01: CDQE                           [4898] 
+100B03: SHR RAX,0x4                    [48C1E804] 
+
+========

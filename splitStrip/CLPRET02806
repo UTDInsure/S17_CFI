@@ -1,0 +1,19 @@
+
+
+742F4: MOV ESI,[RDI]                  [8B37] 
+742F6: MOV R8,RDI                     [4989F8] 
+742F9: MOV EAX,ESI                    [89F0] 
+742FB: AND EAX,0x8000                 [2500800000] 
+74306: MOV RDX,[0x88 + RDI]           [488B9788000000] 
+7430D: MOV R9,FS:[0x10]               [644C8B0C2510000000] 
+74316: CMP R9,[RDX + 0x8]             [4C3B4A08] 
+743D0: MOV EAX,[RDX + 0x4]            [8B4204] 
+743D3: SHR ESI,0x5                    [C1EE05] 
+743D6: AND ESI,0x1                    [83E601] 
+743D9: LEA ECX,[RAX + 0x1]            [8D4801] 
+743DC: MOV [RDX + 0x4],ECX            [894A04] 
+74379: TEST EAX,EAX                   [85C0] 
+7437B: MOV [RDX + 0x4],EAX            [894204] 
+743C6: MOV EAX,ESI                    [89F0] 
+
+========

@@ -1,0 +1,12 @@
+
+
+54B4A: CMP dword ptr [-0x10c0 + RBP],0x0 [83BD40EFFFFF00] 
+5302E: SUB RSP,0x910                  [4881EC10090000] 
+53035: MOV dword ptr [-0x1068 + RBP],0x0 [48C78598EFFFFF00000000] 
+53040: LEA RAX,[RSP + 0xf]            [488D44240F] 
+53045: MOV [-0x1098 + RBP],RAX        [48898568EFFFFF] 
+5304C: AND [-0x1098 + RBP],-0x10      [4883A568EFFFFFF0] 
+53054: TEST R12,R12                   [4D85E4] 
+56845: MOV RDI,R12                    [4C89E7] 
+
+========

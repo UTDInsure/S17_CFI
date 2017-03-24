@@ -1,0 +1,11 @@
+
+
+DBD74: CMP ESI,0x1                    [83FE01] 
+DBD77: MOV RAX,RDX                    [4889D0] 
+DBD80: CMP ESI,0x2                    [83FE02] 
+DBD89: TEST ESI,ESI                   [85F6] 
+DBD8D: MOV RAX,[0x00368e68]           [488B05D4D02800] 
+DBD94: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DBD9B: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

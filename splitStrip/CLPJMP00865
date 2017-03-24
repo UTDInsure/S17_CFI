@@ -1,0 +1,13 @@
+
+
+74CC4: PUSH RBP                       [55] 
+74CC5: PUSH RBX                       [53] 
+74CC6: MOV RBX,RDI                    [4889FB] 
+74CC9: SUB RSP,0x8                    [4883EC08] 
+74CCD: MOV RBP,[0xf0 + RDI]           [488BAFF0000000] 
+74CD4: MOV RSI,[RBX + 0x28]           [488B7328] 
+74CD8: MOV RDI,[RDI + 0x20]           [488B7F20] 
+74CDC: SUB RSI,RDI                    [4829FE] 
+74CDF: ADD RSI,0x1                    [4883C601] 
+
+========

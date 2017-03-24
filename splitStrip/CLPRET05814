@@ -1,0 +1,15 @@
+
+
+E4D74: MOV EAX,[0x0036e774]           [8B05FA992800] 
+E4D7A: TEST EAX,EAX                   [85C0] 
+E4D7E: MOVSXD R10,ECX                 [4C63D1] 
+E4D81: MOV EDX,EDX                    [89D2] 
+E4D83: MOVSXD RDI,EDI                 [4863FF] 
+E4D86: MOV EAX,0x133                  [B833010000] 
+E4D8D: CMP RAX,0xfffff000             [483D00F0FFFF] 
+E4D96: MOV RDX,[0x00368e68]           [488B15CB402800] 
+E4D9D: NEG EAX                        [F7D8] 
+E4D9F: MOV FS:[RDX],EAX               [648902] 
+E4DA2: OR RAX,-0x1                    [4883C8FF] 
+
+========

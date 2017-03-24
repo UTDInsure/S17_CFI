@@ -1,0 +1,10 @@
+
+
+15254: PUSH RBX                       [53] 
+15255: TEST byte ptr [0x3d4 + RDI],0x8 [F687D403000008] 
+1525C: MOV RBX,RDI                    [4889FB] 
+15261: MOV EAX,[0x310 + RDI]          [8B8710030000] 
+15267: TEST EAX,EAX                   [85C0] 
+1526B: LEA RDI,[0x222968]             [488D3DF6D62000] 
+
+========

@@ -1,0 +1,9 @@
+
+
+E7274: TEST EDI,0xffffff80            [F7C780FFFFFF] 
+E72E8: SUB EDI,0x30                   [83EF30] 
+E72EB: XOR EAX,EAX                    [31C0] 
+E72ED: CMP EDI,0x9                    [83FF09] 
+E72F0: SETBE AL                       [0F96C0] 
+
+========

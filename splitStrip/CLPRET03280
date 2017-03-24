@@ -1,0 +1,6 @@
+
+
+7B344: MOV EDX,[0x00369124]           [8B15DADD2E00] 
+7B34A: TEST EDX,EDX                   [85D2] 
+
+========

@@ -1,0 +1,9 @@
+
+
+17064: CMP EDI,0x16                   [83FF16] 
+17069: LEA RAX,[0x1b680]              [488D0510460000] 
+17070: MOV ECX,EDI                    [89F9] 
+17072: MOVSXD RCX,[RAX + RCX*0x4]     [48630C88] 
+17076: ADD RAX,RCX                    [4801C8] 
+
+========

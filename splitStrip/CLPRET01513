@@ -1,0 +1,8 @@
+
+
+344D4: XOR EAX,EAX                    [31C0] 
+344D6: NOP                            [662E0F1F840000000000] 
+344E0: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+344E3: TEST DL,DL                     [84D2] 
+
+========

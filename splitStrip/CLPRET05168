@@ -1,0 +1,11 @@
+
+
+DC034: SUB RSP,0x8                    [4883EC08] 
+DC038: MOV EDX,ESI                    [89F2] 
+DC03A: XOR EAX,EAX                    [31C0] 
+DC03C: MOV ESI,0x540b                 [BE0B540000] 
+DC744: MOV EAX,0x10                   [B810000000] 
+DC74B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DC04A: ADD RSP,0x8                    [4883C408] 
+
+========

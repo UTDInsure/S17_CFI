@@ -1,0 +1,20 @@
+
+
+36924: SUB RSP,0x8                    [4883EC08] 
+36928: MOV EDX,0xffffffff             [BAFFFFFFFF] 
+36644: PUSH R15                       [4157] 
+36646: PUSH R14                       [4156] 
+36648: PUSH R13                       [4155] 
+3664A: PUSH R12                       [4154] 
+3664C: PUSH RBP                       [55] 
+3664D: MOV RBP,RSI                    [4889F5] 
+36650: PUSH RBX                       [53] 
+36651: MOVSXD RBX,EDI                 [4863DF] 
+36654: SUB RSP,0x8                    [4883EC08] 
+36658: TEST RSI,RSI                   [4885F6] 
+36661: CMP RSI,-0x1                   [4883FEFF] 
+3666B: TEST EDX,EDX                   [85D2] 
+3666D: MOV R14D,EDX                   [4189D6] 
+368D8: MOV RDI,RSI                    [4889F7] 
+
+========

@@ -1,0 +1,15 @@
+
+
+71664: MOVSXD RCX,EDX                 [4863CA] 
+71667: LEA R8,[RSI + RCX*0x4]         [4C8D048E] 
+7166B: CMP RSI,R8                     [4C39C6] 
+71670: CMP dword ptr [R8 + -0x4],0xa  [418378FC0A] 
+71675: LEA RCX,[R8 + -0x4]            [498D48FC] 
+71689: CMP RSI,RCX                    [4839CE] 
+71680: SUB RCX,0x4                    [4883E904] 
+71684: CMP dword ptr [RCX],0xa        [83390A] 
+71698: SUB R8,RCX                     [4929C8] 
+7169B: SAR R8,0x2                     [49C1F802] 
+7169F: LEA EAX,[R8 + -0x1]            [418D40FF] 
+
+========

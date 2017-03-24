@@ -1,0 +1,6 @@
+
+
+E40F4: MOV EAX,0x110                  [B810010000] 
+E40FB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

@@ -1,0 +1,11 @@
+
+
+A2CC4: MOV [RSP + -0x18],RDI          [48897C24E8] 
+A2CC9: FILD qword ptr [RSP + -0x18]   [DF6C24E8] 
+A2CCD: MOV [RSP + -0x18],RSI          [48897424E8] 
+A2CD2: FILD qword ptr [RSP + -0x18]   [DF6C24E8] 
+A2CD6: FSUBP                          [DEE9] 
+A2CD8: FSTP qword ptr [RSP + -0x10]   [DD5C24F0] 
+A2CDC: MOVSD XMM0,[RSP + -0x10]       [F20F104424F0] 
+
+========

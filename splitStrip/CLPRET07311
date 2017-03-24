@@ -1,0 +1,12 @@
+
+
+113B24: SUB RSP,0x8                    [4883EC08] 
+113B28: MOV EAX,[RDI]                  [8B07] 
+113B2A: TEST EAX,EAX                   [85C0] 
+113B50: CMP EAX,0x1                    [83F801] 
+113B39: CMP EAX,0x2                    [83F802] 
+113B3C: SETZ AL                        [0F94C0] 
+113B3F: MOVZX EAX,AL                   [0FB6C0] 
+113B42: ADD RSP,0x8                    [4883C408] 
+
+========

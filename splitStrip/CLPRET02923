@@ -1,0 +1,19 @@
+
+
+765A4: PUSH R13                       [4155] 
+765A6: PUSH R12                       [4154] 
+765A8: MOV R12,RSI                    [4989F4] 
+765AB: PUSH RBP                       [55] 
+765AC: PUSH RBX                       [53] 
+765AD: SUB RSP,0x48                   [4883EC48] 
+765B1: TEST RSI,RSI                   [4885F6] 
+76713: MOV RAX,[0x00368e68]           [488B054E272F00] 
+7671A: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+76721: XOR EAX,EAX                    [31C0] 
+7667B: ADD RSP,0x48                   [4883C448] 
+7667F: POP RBX                        [5B] 
+76680: POP RBP                        [5D] 
+76681: POP R12                        [415C] 
+76683: POP R13                        [415D] 
+
+========

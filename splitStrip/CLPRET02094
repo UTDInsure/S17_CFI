@@ -1,0 +1,7 @@
+
+
+44E44: CMP EDI,0x4                    [83FF04] 
+44E47: MOV R8D,EDI                    [4189F8] 
+44E4A: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

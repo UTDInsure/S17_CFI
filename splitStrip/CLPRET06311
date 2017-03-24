@@ -1,0 +1,17 @@
+
+
+F0BE4: MOV R9,[0x0036e558]            [4C8B0D6DD92700] 
+F0BEB: PUSH RBP                       [55] 
+F0BEC: MOV RBP,RSP                    [4889E5] 
+F0BEF: TEST R9,R9                     [4D85C9] 
+F0BF4: CMP [R9 + 0x20],RDI            [49397920] 
+F0BF8: MOV R10,RDI                    [4989FA] 
+F0C09: MOV RDX,[R9]                   [498B11] 
+F0C0C: TEST RDX,RDX                   [4885D2] 
+F0C00: CMP [RDX + 0x20],R10           [4C395220] 
+F0C06: MOV R9,RDX                     [4989D1] 
+F0C09: MOV RDX,[R9]                   [498B11] 
+F0C0C: TEST RDX,RDX                   [4885D2] 
+F0C11: LEAVE                          [C9] 
+
+========

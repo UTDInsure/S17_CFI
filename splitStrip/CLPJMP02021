@@ -1,0 +1,9 @@
+
+
+17EC4: PUSH RBP                       [55] 
+17EC5: MOV RBP,RCX                    [4889CD] 
+17EC8: PUSH RBX                       [53] 
+17EC9: MOV RBX,RDI                    [4889FB] 
+17ECC: SUB RSP,0x8                    [4883EC08] 
+
+========

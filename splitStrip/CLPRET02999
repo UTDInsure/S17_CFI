@@ -1,0 +1,25 @@
+
+
+77314: PUSH RBX                       [53] 
+77315: MOV RBX,RDI                    [4889FB] 
+77318: MOV RDI,[RDI + 0x38]           [488B7F38] 
+7731C: MOV RSI,[RBX + 0x40]           [488B7340] 
+77320: SUB RSI,RDI                    [4829FE] 
+E0184: MOV EAX,0xb                    [B80B000000] 
+E018B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E0194: MOV RCX,[0x00368e68]           [488B0DCD8C2800] 
+E019B: NEG EAX                        [F7D8] 
+E019D: MOV FS:[RCX],EAX               [648901] 
+E01A0: OR RAX,-0x1                    [4883C8FF] 
+7732C: MOV EDI,[RBX + 0x70]           [8B7B70] 
+7732F: MOV dword ptr [RBX + 0x40],0x0 [48C7434000000000] 
+77337: MOV dword ptr [RBX + 0x38],0x0 [48C7433800000000] 
+D7231: MOV EAX,0x3                    [B803000000] 
+D7238: CMP RAX,0xfffff001             [483D01F0FFFF] 
+D7279: MOV RCX,[0x00368e68]           [488B0DE81B2900] 
+D7280: NEG EAX                        [F7D8] 
+D7282: MOV FS:[RCX],EAX               [648901] 
+D7285: OR RAX,-0x1                    [4883C8FF] 
+77348: POP RBX                        [5B] 
+
+========

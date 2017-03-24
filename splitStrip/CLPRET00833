@@ -1,0 +1,7 @@
+
+
+40F134: XOR EAX,EAX                    [31C0] 
+40F136: CMP RDI,0x7f                   [4883FF7F] 
+40F13A: SETBE AL                       [0F96C0] 
+
+========

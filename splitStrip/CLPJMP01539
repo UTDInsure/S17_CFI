@@ -1,0 +1,13 @@
+
+
+1045F4: PUSH R12                       [4154] 
+1045F6: TEST RDI,RDI                   [4885FF] 
+1045F9: MOV R12,RDI                    [4989FC] 
+1045FC: PUSH RBP                       [55] 
+1045FD: PUSH RBX                       [53] 
+104600: MOV RBX,[R12 + 0x8]            [498B5C2408] 
+104605: TEST RBX,RBX                   [4885DB] 
+104640: MOV RBX,[R12]                  [498B1C24] 
+104644: MOV RDI,R12                    [4C89E7] 
+
+========

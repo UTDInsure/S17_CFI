@@ -1,0 +1,26 @@
+
+
+FD024: PUSH RBP                       [55] 
+FD025: MOV RBP,RSI                    [4889F5] 
+FD028: PUSH RBX                       [53] 
+FD029: MOV RBX,RDI                    [4889FB] 
+FD02C: SUB RSP,0x18                   [4883EC18] 
+FD030: MOV ECX,[0x0036e770]           [8B0D3A172700] 
+FD036: TEST ECX,ECX                   [85C9] 
+FD070: MOV [RSP + 0x8],RDX            [4889542408] 
+FD075: MOV RAX,[0x0036e6f8]           [488B057C162700] 
+FD07C: LEA RSI,[0xfcff0]              [488D356DFFFFFF] 
+FD083: ROR RAX,0x11                   [48C1C811] 
+FD087: XOR RAX,FS:[0x30]              [644833042530000000] 
+FD090: LEA RDI,[0x36d85c]             [488D3DC5072700] 
+FD09D: MOV RCX,[0x0036a898]           [488B0DF4D72600] 
+FD0A4: MOV RDX,[RSP + 0x8]            [488B542408] 
+FD04B: TEST RCX,RCX                   [4885C9] 
+FD0E8: MOV RAX,[0x00368e68]           [488B0579BD2600] 
+FD0EF: MOV dword ptr FS:[RAX],0xc     [64C7000C000000] 
+FD0F6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+FD069: ADD RSP,0x18                   [4883C418] 
+FD06D: POP RBX                        [5B] 
+FD06E: POP RBP                        [5D] 
+
+========

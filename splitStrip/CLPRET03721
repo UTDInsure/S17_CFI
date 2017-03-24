@@ -1,0 +1,14 @@
+
+
+90814: PUSH R12                       [4154] 
+90816: TEST RSI,RSI                   [4885F6] 
+90819: PUSH RBP                       [55] 
+9081A: MOV RBP,RSI                    [4889F5] 
+9081D: PUSH RBX                       [53] 
+9085C: XOR R12D,R12D                  [4531E4] 
+90854: POP RBX                        [5B] 
+90855: POP RBP                        [5D] 
+90856: MOV RAX,R12                    [4C89E0] 
+90859: POP R12                        [415C] 
+
+========

@@ -1,0 +1,27 @@
+
+
+103AF4: MOV RAX,[0x00368e30]           [488B0535532600] 
+103AFB: TEST byte ptr [RAX + 0x40],0x8 [F6404008] 
+103B01: PUSH R15                       [4157] 
+103B03: PUSH R14                       [4156] 
+103B05: PUSH R13                       [4155] 
+103B07: PUSH R12                       [4154] 
+103B09: PUSH RBP                       [55] 
+103B0A: PUSH RBX                       [53] 
+103B0B: MOV RBX,RDI                    [4889FB] 
+103B0E: SUB RSP,0x48                   [4883EC48] 
+103B12: CMP dword ptr [RDI + 0x10],0x2 [837F1002] 
+103B30: MOV R9D,[0x003692e8]           [448B0DB1572600] 
+103B37: TEST R9D,R9D                   [4585C9] 
+103B40: MOV R11,[RBX + 0x18]           [4C8B5B18] 
+103B44: MOV R12,[R11]                  [4D8B23] 
+103B47: TEST R12,R12                   [4D85E4] 
+103B18: ADD RSP,0x48                   [4883C448] 
+103B1C: POP RBX                        [5B] 
+103B1D: POP RBP                        [5D] 
+103B1E: POP R12                        [415C] 
+103B20: POP R13                        [415D] 
+103B22: POP R14                        [415E] 
+103B24: POP R15                        [415F] 
+
+========

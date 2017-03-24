@@ -1,0 +1,17 @@
+
+
+19CF4: PUSH R13                       [4155] 
+19CF6: PUSH R12                       [4154] 
+19CF8: PUSH RBP                       [55] 
+19CF9: MOV RBP,RDI                    [4889FD] 
+19CFC: PUSH RBX                       [53] 
+19CFD: SUB RSP,0x8                    [4883EC08] 
+19D01: TEST RDI,RDI                   [4885FF] 
+19DD0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+19DA2: ADD RSP,0x8                    [4883C408] 
+19DA6: POP RBX                        [5B] 
+19DA7: POP RBP                        [5D] 
+19DA8: POP R12                        [415C] 
+19DAA: POP R13                        [415D] 
+
+========

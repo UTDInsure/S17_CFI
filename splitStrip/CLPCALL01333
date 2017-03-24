@@ -1,0 +1,16 @@
+
+
+10AFE4: PUSH RBP                       [55] 
+10AFE5: MOV RBP,RDI                    [4889FD] 
+10AFE8: PUSH RBX                       [53] 
+10AFE9: MOV RBX,RSI                    [4889F3] 
+10AFEC: SUB RSP,0x8                    [4883EC08] 
+113FF4: PUSH RBX                       [53] 
+113FF5: MOV RBX,RSI                    [4889F3] 
+113FF8: SUB RSP,0x10                   [4883EC10] 
+113FFC: MOV EAX,[RDI]                  [8B07] 
+113FFE: CMP EAX,0x1                    [83F801] 
+114018: MOV RAX,[RDI + 0x8]            [488B4708] 
+11401C: LEA RSI,[RSP + 0x8]            [488D742408] 
+
+========

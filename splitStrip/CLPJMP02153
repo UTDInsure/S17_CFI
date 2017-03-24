@@ -1,0 +1,13 @@
+
+
+1F464: PUSH RBP                       [55] 
+1F465: PUSH RBX                       [53] 
+1F466: MOV RBX,RDI                    [4889FB] 
+1F469: SUB RSP,0x8                    [4883EC08] 
+1F46D: MOV RDX,[0x0024a7a0]           [488B152CB32200] 
+1F474: TEST RDI,RDI                   [4885FF] 
+1F477: MOV RBP,[RDX]                  [488B2A] 
+1F47A: MOV [RDX],RDI                  [48893A] 
+1F4E8: XOR EDI,EDI                    [31FF] 
+
+========

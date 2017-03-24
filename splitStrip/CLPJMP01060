@@ -1,0 +1,20 @@
+
+
+AEB04: PUSH R12                       [4154] 
+AEB06: MOV R12D,ESI                   [4189F4] 
+AEB09: PUSH RBP                       [55] 
+AEB0A: MOV EBP,EDI                    [89FD] 
+AEB0C: PUSH RBX                       [53] 
+AEB0D: SUB RSP,0x10                   [4883EC10] 
+AEB11: TEST SIL,SIL                   [4084F6] 
+AEB22: TEST RCX,RCX                   [4885C9] 
+AEB25: MOV EDI,0x8030                 [BF30800000] 
+AEB2A: MOV EBX,0x8000                 [BB00800000] 
+AEB31: MOV RAX,[RCX + 0x38]           [488B4138] 
+AEB35: CMP RAX,0xfffff                [483DFFFF0F00] 
+AEB3D: MOV EBX,0x8000                 [BB00800000] 
+AEB42: CMP RAX,0x8000                 [483D00800000] 
+AEB48: CMOVNC RBX,RAX                 [480F43D8] 
+AEB4C: LEA RDI,[RBX + 0x30]           [488D7B30] 
+
+========

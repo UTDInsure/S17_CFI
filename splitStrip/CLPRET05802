@@ -1,0 +1,12 @@
+
+
+E4BD4: SUB RSP,0x18                   [4883EC18] 
+E4BD8: XOR EAX,EAX                    [31C0] 
+E4BDA: MOV ESI,0x8905                 [BE05890000] 
+E4BDF: LEA RDX,[RSP + 0xc]            [488D54240C] 
+DC744: MOV EAX,0x10                   [B810000000] 
+DC74B: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E4BED: CMP EAX,-0x1                   [83F8FF] 
+E4BF6: ADD RSP,0x18                   [4883C418] 
+
+========

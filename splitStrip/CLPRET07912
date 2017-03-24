@@ -1,0 +1,16 @@
+
+
+15554: MOV RAX,[0x0024a880]           [488B0525532300] 
+1555B: PUSH RBX                       [53] 
+1555C: MOV RAX,[RAX]                  [488B00] 
+1555F: TEST RAX,RAX                   [4885C0] 
+15564: MOV RAX,[RAX + 0x20]           [488B4020] 
+15568: MOV RDI,[RAX + 0x8]            [488B7808] 
+1556C: TEST RDI,RDI                   [4885FF] 
+15590: MOV RDI,[0x168 + RAX]          [488BB868010000] 
+15597: TEST RDI,RDI                   [4885FF] 
+1559C: MOV EBX,0xffffffff             [BBFFFFFFFF] 
+15585: MOV EAX,EBX                    [89D8] 
+15587: POP RBX                        [5B] 
+
+========

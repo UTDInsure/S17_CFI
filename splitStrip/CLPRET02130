@@ -1,0 +1,12 @@
+
+
+45434: MOV RAX,[RSI]                  [488B06] 
+45437: LEA R8,[RSI + 0x8]             [4C8D4608] 
+4543B: LEA RSI,[RDI + 0x8]            [488D7708] 
+4543F: ADD RCX,RAX                    [4801C1] 
+45442: CMP RAX,RCX                    [4839C8] 
+45445: MOV [RDI],RCX                  [48890F] 
+4544A: CMP RSI,R8                     [4C39C6] 
+45471: XOR EAX,EAX                    [31C0] 
+
+========

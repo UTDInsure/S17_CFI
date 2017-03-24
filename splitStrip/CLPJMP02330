@@ -1,0 +1,10 @@
+
+
+2E0E4: MOV RAX,[0x0024a880]           [488B0595C72100] 
+2E0EB: MOV RAX,[RAX]                  [488B00] 
+2E0EE: TEST RAX,RAX                   [4885C0] 
+2E0F3: SUB RSP,0x8                    [4883EC08] 
+2E0F7: MOVSX EDI,word ptr [RAX + 0x48] [0FBF7848] 
+2E0FB: XOR ESI,ESI                    [31F6] 
+
+========

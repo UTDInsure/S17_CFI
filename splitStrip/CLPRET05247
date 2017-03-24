@@ -1,0 +1,10 @@
+
+
+DC814: MOV EAX,[0x0036e774]           [8B055A1F2900] 
+DC81A: TEST EAX,EAX                   [85C0] 
+DC81E: MOVSXD RDX,EDX                 [4863D2] 
+DC821: MOVSXD RDI,EDI                 [4863FF] 
+DC824: MOV EAX,0x14                   [B814000000] 
+DC82B: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

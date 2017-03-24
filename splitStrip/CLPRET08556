@@ -1,0 +1,8 @@
+
+
+2E794: MOV RAX,[0x0024a7a0]           [488B0505C02100] 
+2E79B: MOV RDX,[RAX]                  [488B10] 
+2E79E: XOR EAX,EAX                    [31C0] 
+2E7A0: TEST RDX,RDX                   [4885D2] 
+
+========

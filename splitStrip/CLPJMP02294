@@ -1,0 +1,12 @@
+
+
+2CB04: PUSH RBX                       [53] 
+2CB05: MOV RSI,RDI                    [4889FE] 
+2CB08: SUB RSP,0x10                   [4883EC10] 
+2CB0C: MOV RBX,[0x0024a8a0]           [488B1D8DDD2100] 
+2CB13: MOV RAX,[RBX + 0x18]           [488B4318] 
+2CB17: TEST RAX,RAX                   [4885C0] 
+2CB40: MOV [RSP + 0x8],RDI            [48897C2408] 
+2CB45: MOV EDI,0x201                  [BF01020000] 
+
+========

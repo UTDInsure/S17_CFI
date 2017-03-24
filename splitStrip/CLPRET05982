@@ -1,0 +1,28 @@
+
+
+E6D64: MOV RAX,[0x00368dc0]           [488B0555202800] 
+E6D6B: MOV RAX,FS:[RAX]               [64488B00] 
+E6D6F: MOV RAX,[RAX]                  [488B00] 
+E6D72: MOV ESI,[0xd0 + RAX]           [8BB0D0000000] 
+E6D78: LEA EDX,[RSI + 0x1]            [8D5601] 
+E6D7B: MOVZX EDX,DX                   [0FB7D2] 
+E6D7E: MOV RDX,[RAX + RDX*0x8 + 0x40] [488B54D040] 
+E6D83: MOV EAX,EDI                    [89F8] 
+E6D85: MOV ECX,[RDX]                  [8B0A] 
+E6D87: SHR EAX,CL                     [D3E8] 
+E6D89: MOV ECX,EAX                    [89C1] 
+E6D8B: CMP ECX,[RDX + 0x4]            [3B4A04] 
+E6D8E: MOV EAX,EDI                    [89F8] 
+E6D92: ADD ECX,0x5                    [83C105] 
+E6D95: MOV ECX,[RDX + RCX*0x4]        [8B0C8A] 
+E6D98: TEST ECX,ECX                   [85C9] 
+E6D9C: MOV ESI,ECX                    [89CE] 
+E6D9E: MOV ECX,[RDX + 0x8]            [8B4A08] 
+E6DA1: SHR EDI,CL                     [D3EF] 
+E6DA3: MOV ECX,EDI                    [89F9] 
+E6DA5: AND ECX,[RDX + 0xc]            [234A0C] 
+E6DA8: LEA RCX,[RSI + RCX*0x4]        [488D0C8E] 
+E6DAC: MOV ECX,[RDX + RCX*0x1]        [8B0C0A] 
+E6DAF: TEST ECX,ECX                   [85C9] 
+
+========

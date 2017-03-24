@@ -1,0 +1,26 @@
+
+
+6B9F4: MOV dword ptr [RBX + 0x34],0x1 [C7433401000000] 
+6B950: CMP dword ptr [RBX + 0x30],-0x1 [837B30FF] 
+6B9A0: MOV RAX,[RBX + 0x38]           [488B4338] 
+6B9A4: TEST RAX,RAX                   [4885C0] 
+6B9A9: ADD R13,RAX                    [4901C5] 
+6B9AC: TEST EDX,EDX                   [85D2] 
+6B9AE: MOV [RBX + 0x30],R12D          [44896330] 
+6B95A: MOV RDI,[RSP + 0x8]            [488B7C2408] 
+6B95F: MOV ESI,0x25                   [BE25000000] 
+6B964: MOV [RBX + 0x18],RDI           [48897B18] 
+978A4: MOV EDX,[RDI]                  [8B17] 
+978A6: MOV RAX,RDI                    [4889F8] 
+978A9: TEST EDX,EDX                   [85D2] 
+978AD: CMP EDX,ESI                    [39F2] 
+6B971: MOV [RBX + 0x20],RAX           [48894320] 
+6B975: ADD RSP,0x10                   [4883C410] 
+6B979: MOV RAX,R13                    [4C89E8] 
+6B97C: POP RBX                        [5B] 
+6B97D: POP RBP                        [5D] 
+6B97E: POP R12                        [415C] 
+6B980: POP R13                        [415D] 
+6B982: POP R14                        [415E] 
+
+========

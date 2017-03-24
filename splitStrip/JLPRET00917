@@ -1,0 +1,8 @@
+
+
+946F4: XOR EAX,EAX                    [31C0] 
+946F6: TEST DH,0xf0                   [F6C6F0] 
+946FB: MOVZX EAX,DL                   [0FB6C2] 
+946FE: POP RBX                        [5B] 
+
+========

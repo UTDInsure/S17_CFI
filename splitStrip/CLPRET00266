@@ -1,0 +1,12 @@
+
+
+174E4: MOVZX R10D,byte ptr [RSI]      [440FB616] 
+174E8: TEST R10B,R10B                 [4584D2] 
+174ED: MOV RAX,[RDI]                  [488B07] 
+174F0: TEST RAX,RAX                   [4885C0] 
+174F5: MOVZX R8D,byte ptr [RAX]       [440FB600] 
+174F9: TEST R8B,R8B                   [4584C0] 
+17531: XOR EDX,EDX                    [31D2] 
+17533: MOV [RDI],RDX                  [488917] 
+
+========

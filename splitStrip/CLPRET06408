@@ -1,0 +1,15 @@
+
+
+F3014: SUB RSP,0x8                    [4883EC08] 
+F3018: CMP RCX,R8                     [4C39C1] 
+D8464: MOV R10,RCX                    [4989CA] 
+D8467: MOVSXD RDI,EDI                 [4863FF] 
+D846A: MOV EAX,0x10b                  [B80B010000] 
+D8471: CMP RAX,0xfffff000             [483D00F0FFFF] 
+D847B: MOV RDX,[0x00368e68]           [488B15E6092900] 
+D8482: NEG EAX                        [F7D8] 
+D8484: MOV FS:[RDX],EAX               [648902] 
+D8487: OR RAX,-0x1                    [4883C8FF] 
+F3026: ADD RSP,0x8                    [4883C408] 
+
+========

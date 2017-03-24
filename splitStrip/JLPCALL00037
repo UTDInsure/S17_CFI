@@ -1,0 +1,24 @@
+
+
+4BDCA: MOV EDX,[R15]                  [418B17] 
+4BDCD: CMP EDX,0x30                   [83FA30] 
+4BE0A: MOV RAX,[R15 + 0x8]            [498B4708] 
+4BE0E: LEA RDX,[RAX + 0x8]            [488D5008] 
+4BE12: MOV [R15 + 0x8],RDX            [49895708] 
+4BDDE: MOV R13,[RAX]                  [4C8B28] 
+494CC: TEST R13,R13                   [4D85ED] 
+497DF: CMP dword ptr [-0x508 + RBP],0x5 [83BDF8FAFFFF05] 
+49841: MOV dword ptr [-0x4c8 + RBP],0x0 [C78538FBFFFF00000000] 
+4984B: MOV R9D,0x6                    [41B906000000] 
+49851: LEA R13,[0x134d06]             [4C8D2DAEB40E00] 
+4951A: MOV R10D,[-0x500 + RBP]        [448B9500FBFFFF] 
+49521: MOV [-0x508 + RBP],R9D         [44898DF8FAFFFF] 
+49528: SUB R10D,R9D                   [4529CA] 
+496D3: CMP dword ptr [-0x4a8 + RBP],0x0 [83BD58FBFFFF00] 
+496E0: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+496E7: MOV RDX,R9                     [4C89CA] 
+496EA: MOV [-0x4c8 + RBP],R9          [4C898D38FBFFFF] 
+496F1: MOV RSI,R13                    [4C89EE] 
+496F4: MOV RDI,RBX                    [4889DF] 
+
+========

@@ -1,0 +1,11 @@
+
+
+79A14: PUSH R12                       [4154] 
+79A16: MOV R12,RDX                    [4989D4] 
+79A19: PUSH RBP                       [55] 
+79A1A: MOV RBP,RSI                    [4889F5] 
+79A1D: PUSH RBX                       [53] 
+79A1E: MOV RAX,[0xd8 + RDI]           [488B87D8000000] 
+79A25: MOV RBX,RDI                    [4889FB] 
+
+========

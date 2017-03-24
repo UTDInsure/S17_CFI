@@ -1,0 +1,7 @@
+
+
+EB344: XOR EAX,EAX                    [31C0] 
+EB346: TEST byte ptr [RDI + 0x18],0x8 [F6471808] 
+EB34A: MOV EDX,[RDI + 0x8]            [8B5708] 
+
+========

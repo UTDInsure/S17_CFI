@@ -1,0 +1,10 @@
+
+
+10D5F4: PUSH RBP                       [55] 
+10D5F5: MOV RBP,RDI                    [4889FD] 
+10D5F8: PUSH RBX                       [53] 
+10D5F9: SUB RSP,0x8                    [4883EC08] 
+10D5FD: MOV RBX,[RDI + 0x40]           [488B5F40] 
+10D601: MOV RDI,[RBX]                  [488B3B] 
+
+========

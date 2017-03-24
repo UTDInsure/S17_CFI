@@ -1,0 +1,19 @@
+
+
+DADF4: PUSH R13                       [4155] 
+DADF6: MOV R13D,ESI                   [4189F5] 
+DADF9: PUSH R12                       [4154] 
+DADFB: PUSH RBP                       [55] 
+DADFC: PUSH RBX                       [53] 
+DADFD: SUB RSP,0x8                    [4883EC08] 
+DAE01: TEST ESI,0xfffffeff            [F7C6FFFEFFFF] 
+DAF60: MOV RAX,[0x00368e68]           [488B0501DF2800] 
+DAF67: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+DAF6E: ADD RSP,0x8                    [4883C408] 
+DAF72: XOR EAX,EAX                    [31C0] 
+DAF74: POP RBX                        [5B] 
+DAF75: POP RBP                        [5D] 
+DAF76: POP R12                        [415C] 
+DAF78: POP R13                        [415D] 
+
+========

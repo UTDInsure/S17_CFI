@@ -1,0 +1,16 @@
+
+
+A2EA4: PUSH R15                       [4157] 
+A2EA6: PUSH R14                       [4156] 
+A2EA8: MOV R14,RDX                    [4989D6] 
+A2EAB: PUSH R13                       [4155] 
+A2EAD: MOV R13,RDI                    [4989FD] 
+A2EB0: PUSH R12                       [4154] 
+A2EB2: MOV R12,RSI                    [4989F4] 
+A2EB5: MOV RSI,RDX                    [4889D6] 
+A2EB8: MOV RDI,R12                    [4C89E7] 
+A2EBB: PUSH RBP                       [55] 
+A2EBC: PUSH RBX                       [53] 
+A2EBD: SUB RSP,0x8                    [4883EC08] 
+
+========

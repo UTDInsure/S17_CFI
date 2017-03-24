@@ -1,0 +1,12 @@
+
+
+F0284: MOV EDX,[0x0036e770]           [8B15E6E42700] 
+F028A: XOR EAX,EAX                    [31C0] 
+F028C: TEST EDX,EDX                   [85D2] 
+F0298: SUB RSP,0x8                    [4883EC08] 
+F029C: MOV RAX,[0x0036e5f8]           [488B0555E32700] 
+F02A3: ROR RAX,0x11                   [48C1C811] 
+F02A7: XOR RAX,FS:[0x30]              [644833042530000000] 
+F02B6: ADD RSP,0x8                    [4883C408] 
+
+========

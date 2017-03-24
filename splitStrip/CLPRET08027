@@ -1,0 +1,7 @@
+
+
+18674: TEST RDI,RDI                   [4885FF] 
+18679: MOVSX EAX,word ptr [RDI + 0x4] [0FBF4704] 
+1867D: ADD EAX,0x1                    [83C001] 
+
+========

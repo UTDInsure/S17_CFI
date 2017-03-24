@@ -1,0 +1,17 @@
+
+
+220F4: PUSH R14                       [4156] 
+220F6: TEST RDI,RDI                   [4885FF] 
+220F9: PUSH R13                       [4155] 
+220FB: PUSH R12                       [4154] 
+220FD: MOV R12,RDI                    [4989FC] 
+22100: PUSH RBP                       [55] 
+22101: PUSH RBX                       [53] 
+221F3: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+221BE: POP RBX                        [5B] 
+221BF: POP RBP                        [5D] 
+221C0: POP R12                        [415C] 
+221C2: POP R13                        [415D] 
+221C4: POP R14                        [415E] 
+
+========

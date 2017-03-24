@@ -1,0 +1,23 @@
+
+
+2E3F4: PUSH R15                       [4157] 
+2E3F6: LEA RAX,[0x367ae0]             [488D05E3963300] 
+2E3FD: PUSH R14                       [4156] 
+2E3FF: MOV R14,RDI                    [4989FE] 
+2E402: PUSH R13                       [4155] 
+2E404: PUSH R12                       [4154] 
+2E406: PUSH RBP                       [55] 
+2E407: PUSH RBX                       [53] 
+2E408: SUB RSP,0x18                   [4883EC18] 
+2E40C: CMP RDI,RAX                    [4839C7] 
+2E5AD: MOV R15,RDI                    [4989FF] 
+2E530: ADD RSP,0x18                   [4883C418] 
+2E534: MOV RAX,R15                    [4C89F8] 
+2E537: POP RBX                        [5B] 
+2E538: POP RBP                        [5D] 
+2E539: POP R12                        [415C] 
+2E53B: POP R13                        [415D] 
+2E53D: POP R14                        [415E] 
+2E53F: POP R15                        [415F] 
+
+========

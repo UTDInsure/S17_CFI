@@ -1,0 +1,11 @@
+
+
+DBF74: MOV R8D,[0x0036e774]           [448B05F9272900] 
+DBF7B: TEST R8D,R8D                   [4585C0] 
+DBF80: MOV EDX,0x1                    [BA01000000] 
+DBF85: MOV ESI,0x5409                 [BE09540000] 
+DBF8A: MOVSXD RDI,EDI                 [4863FF] 
+DBF8D: MOV EAX,0x10                   [B810000000] 
+DBF94: CMP RAX,0xfffff000             [483D00F0FFFF] 
+
+========

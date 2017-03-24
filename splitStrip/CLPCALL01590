@@ -1,0 +1,11 @@
+
+
+114774: PUSH RBX                       [53] 
+114775: MOV RBX,RSI                    [4889F3] 
+114778: SUB RSP,0x10                   [4883EC10] 
+11477C: MOV EAX,[RDI]                  [8B07] 
+11477E: CMP EAX,0x1                    [83F801] 
+114798: MOV RAX,[RDI + 0x8]            [488B4708] 
+11479C: LEA RSI,[RSP + 0xc]            [488D74240C] 
+
+========

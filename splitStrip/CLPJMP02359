@@ -1,0 +1,7 @@
+
+
+2F5C4: SUB RSP,0x8                    [4883EC08] 
+2F5C8: XOR ESI,ESI                    [31F6] 
+2F5CA: XOR EDI,EDI                    [31FF] 
+
+========

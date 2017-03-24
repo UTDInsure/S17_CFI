@@ -1,0 +1,21 @@
+
+
+CA184: PUSH R12                       [4154] 
+CA186: TEST RDI,RDI                   [4885FF] 
+CA189: PUSH RBP                       [55] 
+CA18A: PUSH RBX                       [53] 
+CA18B: MOV RBX,RDI                    [4889FB] 
+CA194: CMP dword ptr [0x0036bee0],0x0 [48833D441D2A0000] 
+CA19C: LEA RBP,[0x36bee0]             [488D2D3D1D2A00] 
+CA1A3: MOV R12,[0x0036bf00]           [4C8B25561D2A00] 
+CA1AC: MOV RDI,RBP                    [4889EF] 
+CA1AF: MOV dword ptr [0x0036bf00],0x0 [48C705461D2A0000000000] 
+CA124: PUSH RBX                       [53] 
+CA125: MOV RBX,RDI                    [4889FB] 
+CA128: MOV RDI,[RDI]                  [488B3F] 
+CA12B: TEST RDI,RDI                   [4885FF] 
+CA139: MOV RDI,[RBX + 0x20]           [488B7B20] 
+CA13D: MOV dword ptr [RBX],0x0        [48C70300000000] 
+CA144: MOV dword ptr [RBX + 0x8],0x0  [48C7430800000000] 
+
+========

@@ -1,0 +1,11 @@
+
+
+45794: SUB RDX,0x1                    [4883EA01] 
+457AA: MOV RAX,[RDI + RDX*0x8]        [488B04D7] 
+457AE: MOV RCX,[RSI + RDX*0x8]        [488B0CD6] 
+457B2: CMP RAX,RCX                    [4839C8] 
+457A0: SUB RDX,0x1                    [4883EA01] 
+457A4: CMP RDX,-0x1                   [4883FAFF] 
+457C8: XOR EAX,EAX                    [31C0] 
+
+========

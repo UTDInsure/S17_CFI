@@ -1,0 +1,15 @@
+
+
+B4C4: PUSH RBX                       [53] 
+B4C5: CMP dword ptr [0x440 + RDI],-0x1 [4883BF40040000FF] 
+B4CD: MOV RBX,RDI                    [4889FB] 
+B4D6: MOV RCX,[0x430 + RDI]          [488B8F30040000] 
+B4DD: CMP RCX,[0x00222fb0]           [483B0DCC7A2100] 
+B4EA: MOV RSI,[0x00222fa8]           [488B35B77A2100] 
+B4F1: MOV RAX,[0x00222fa0]           [488B05A87A2100] 
+B4F8: SUB RAX,RSI                    [4829F0] 
+B4FB: CMP RAX,0x8ff                  [483DFF080000] 
+B590: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+B595: POP RBX                        [5B] 
+
+========

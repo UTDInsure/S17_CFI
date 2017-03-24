@@ -1,0 +1,7 @@
+
+
+83864: MOV RDX,[RDI + 0x8]            [488B5708] 
+83868: XOR EAX,EAX                    [31C0] 
+8386A: TEST RDX,RDX                   [4885D2] 
+
+========

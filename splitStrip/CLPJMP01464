@@ -1,0 +1,19 @@
+
+
+F8EF4: PUSH R13                       [4155] 
+F8EF6: MOV ESI,0x1                    [BE01000000] 
+F8EFB: XOR EAX,EAX                    [31C0] 
+F8EFD: PUSH R12                       [4154] 
+F8EFF: PUSH RBP                       [55] 
+F8F00: MOV EBP,EDI                    [89FD] 
+F8F02: PUSH RBX                       [53] 
+F8F03: SUB RSP,0x18                   [4883EC18] 
+F8F07: CMP dword ptr [0x0036e774],0x0 [833D6658270000] 
+F8F1C: CMPXCHG [0x0036d6b0],ESI       [0FB1358D472700] 
+F8F43: MOV RDX,[0x0036a880]           [488B1536192700] 
+F8F4A: MOV RCX,[0x0036d6a8]           [488B0D57472700] 
+F8F51: TEST RDX,RDX                   [4885D2] 
+F9050: MOV EDI,0x400                  [BF00040000] 
+F9055: MOV dword ptr [0x0036d6a8],0x400 [48C7054846270000040000] 
+
+========

@@ -1,0 +1,9 @@
+
+
+19DF4: TEST RSI,RSI                   [4885F6] 
+19DFD: TEST RDI,RDI                   [4885FF] 
+19E80: XOR EDX,EDX                    [31D2] 
+19E82: XOR EAX,EAX                    [31C0] 
+19E84: MOV dword ptr [RSI + RDX*0x1],0x0 [48C7041600000000] 
+
+========

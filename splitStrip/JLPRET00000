@@ -1,0 +1,12 @@
+
+F3B1: TEST EAX,EAX                   [85C0] 
+F3B3: MOV EBX,EAX                    [89C3] 
+F400: MOV RAX,[RSP + 0x8]            [488B442408] 
+F405: MOV RCX,[RSP + 0x10]           [488B4C2410] 
+F40A: MOV EBX,[RSP + 0x44]           [8B5C2444] 
+F40E: MOV [RAX],RCX                  [488908] 
+F3F5: ADD RSP,0x130                  [4881C430010000] 
+F3FC: MOV EAX,EBX                    [89D8] 
+F3FE: POP RBX                        [5B] 
+
+========

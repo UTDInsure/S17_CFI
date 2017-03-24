@@ -1,0 +1,14 @@
+
+
+34864: PUSH RBP                       [55] 
+34865: PUSH RBX                       [53] 
+34866: SUB RSP,0x8                    [4883EC08] 
+3486A: MOV RAX,[0x0024a880]           [488B050F602100] 
+34871: MOV RBX,[RAX]                  [488B18] 
+34874: TEST RBX,RBX                   [4885DB] 
+34879: MOV RBP,[0x0024a7a0]           [488B2D205F2100] 
+34880: MOV RDI,[RBP]                  [488B7D00] 
+34884: TEST RDI,RDI                   [4885FF] 
+348B0: LEA RDI,[RBX + 0x4c]           [488D7B4C] 
+
+========

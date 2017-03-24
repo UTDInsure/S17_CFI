@@ -1,0 +1,26 @@
+
+
+D85D4: PUSH R14                       [4156] 
+D85D6: MOV R14D,R8D                   [4589C6] 
+D85D9: PUSH R13                       [4155] 
+D85DB: MOV R13,RSI                    [4989F5] 
+D85DE: PUSH R12                       [4154] 
+D85E0: MOV R12,RCX                    [4989CC] 
+D85E3: PUSH RBP                       [55] 
+D85E4: MOV RBP,RDX                    [4889D5] 
+D85E7: PUSH RBX                       [53] 
+D85E8: MOV RBX,RDI                    [4889FB] 
+D85EB: SUB RSP,0xa0                   [4881ECA0000000] 
+D85F2: CMP byte ptr [RDX],0x2e        [803A2E] 
+D8730: MOVZX EAX,byte ptr [RDX + 0x1] [0FB64201] 
+D8734: TEST AL,AL                     [84C0] 
+D8738: CMP AL,0x2e                    [3C2E] 
+D8740: CMP byte ptr [RDX + 0x2],0x0   [807A0200] 
+D85FB: MOVSXD RDX,[RBX + 0x28]        [48635328] 
+D85FF: LEA RSI,[RDX + R12*0x1 + 0x2]  [4A8D742202] 
+D8604: CMP RSI,[RBX + 0x20]           [483B7320] 
+D86B8: MOV RDI,[RBX + 0x18]           [488B7B18] 
+D86BC: ADD RSI,RSI                    [4801F6] 
+D86BF: MOV [RBX + 0x20],RSI           [48897320] 
+
+========

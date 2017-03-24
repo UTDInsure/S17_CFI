@@ -1,0 +1,7 @@
+
+
+40F054: SUB RSP,0x8                    [4883EC08] 
+40F058: MOVSX ESI,DIL                  [400FBEF7] 
+40F05C: MOV RDI,[0x006286a8]           [488B3D45962100] 
+
+========

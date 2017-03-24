@@ -1,0 +1,24 @@
+
+
+C38A: ADD RSI,[R12 + 0x10]           [4903742410] 
+C38F: MOV [RBX],RSI                  [488933] 
+C392: NOP                            [660F1F440000] 
+C398: ADD R12,0x18                   [4983C418] 
+C39C: CMP [-0xa0 + RBP],R12          [4C39A560FFFFFF] 
+C3A9: MOV RAX,[-0xc0 + RBP]          [488B8540FFFFFF] 
+C3B0: MOV RBX,R13                    [4C89EB] 
+C3B3: MOV R13,[-0xa8 + RBP]          [4C8BAD58FFFFFF] 
+C3BA: TEST RAX,RAX                   [4885C0] 
+BA50: MOV RAX,[-0xf0 + RBP]          [488B8510FFFFFF] 
+BA57: CMP [-0xe0 + RBP],RAX          [48398520FFFFFF] 
+BA64: MOV EAX,[-0xac + RBP]          [8B8554FFFFFF] 
+BA6A: MOV R10,RBX                    [4989DA] 
+BA6D: TEST EAX,EAX                   [85C0] 
+CCC9: MOV RAX,[RBX + 0x50]           [488B4350] 
+CCCD: LEA RSI,[0x1dfa0]              [488D35CC120100] 
+CCD4: TEST RAX,RAX                   [4885C0] 
+CCD9: MOV RSI,[RAX + 0x8]            [488B7008] 
+CCDD: MOV EDI,0x20                   [BF20000000] 
+CCE2: MOV [-0x98 + RBP],RBX          [48899D68FFFFFF] 
+
+========

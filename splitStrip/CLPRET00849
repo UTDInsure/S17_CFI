@@ -1,0 +1,22 @@
+
+
+410674: MOV R9D,[0x00628694]           [448B0D19802100] 
+41067B: XOR EAX,EAX                    [31C0] 
+41067D: TEST R9D,R9D                   [4585C9] 
+410682: SUB RSP,0x8                    [4883EC08] 
+410686: MOV RDI,[0x00628688]           [488B3DFB7F2100] 
+40FD74: PUSH R12                       [4154] 
+40FD76: MOV R10D,[0x00628690]          [448B1513892100] 
+40FD7D: PUSH RBP                       [55] 
+40FD7E: MOV RBP,RDI                    [4889FD] 
+40FD81: PUSH RBX                       [53] 
+40FD82: XOR EBX,EBX                    [31DB] 
+40FD84: TEST R10D,R10D                 [4585D2] 
+40FDC8: POP RBX                        [5B] 
+40FDC9: POP RBP                        [5D] 
+40FDCA: XOR EAX,EAX                    [31C0] 
+40FDCC: POP R12                        [415C] 
+410696: MOV dword ptr [0x00628694],0x0 [C705F47F210000000000] 
+4106A0: ADD RSP,0x8                    [4883C408] 
+
+========

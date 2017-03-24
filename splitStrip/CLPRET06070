@@ -1,0 +1,21 @@
+
+
+E7854: XOR EAX,EAX                    [31C0] 
+E7856: TEST RSI,RSI                   [4885F6] 
+E785B: MOV ECX,[RSI]                  [8B0E] 
+E785D: MOV EDX,EDI                    [89FA] 
+E785F: SHR EDX,CL                     [D3EA] 
+E7861: CMP EDX,[RSI + 0x4]            [3B5604] 
+E7866: ADD EDX,0x5                    [83C205] 
+E7869: MOV EDX,[RSI + RDX*0x4]        [8B1496] 
+E786C: TEST EDX,EDX                   [85D2] 
+E7870: MOV ECX,[RSI + 0x8]            [8B4E08] 
+E7873: MOV R8D,EDI                    [4189F8] 
+E7876: SHR R8D,CL                     [41D3E8] 
+E7879: MOV ECX,R8D                    [4489C1] 
+E787C: AND ECX,[RSI + 0xc]            [234E0C] 
+E787F: LEA RDX,[RDX + RCX*0x4]        [488D148A] 
+E7883: MOV EDX,[RSI + RDX*0x1]        [8B1416] 
+E7886: TEST EDX,EDX                   [85D2] 
+
+========

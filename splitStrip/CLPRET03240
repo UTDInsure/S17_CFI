@@ -1,0 +1,13 @@
+
+
+7AAA4: MOV RAX,[RDI + 0x28]           [488B4728] 
+7AAA8: MOV RCX,[RDI + 0x10]           [488B4F10] 
+7AAAC: CMP RAX,RCX                    [4839C8] 
+7AAB8: MOV EDX,[RDI]                  [8B17] 
+7AABA: AND EDX,0xc00                  [81E2000C0000] 
+7AAC0: CMP EDX,0xc00                  [81FA000C0000] 
+7AAC8: MOV RAX,[RDI + 0x8]            [488B4708] 
+7AACC: CMP RAX,RCX                    [4839C8] 
+7AAD1: MOVZX EAX,byte ptr [RAX]       [0FB600] 
+
+========

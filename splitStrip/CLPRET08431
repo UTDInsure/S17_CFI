@@ -1,0 +1,25 @@
+
+
+2BCF4: PUSH R13                       [4155] 
+2BCF6: PUSH R12                       [4154] 
+2BCF8: MOV R12,RSI                    [4989F4] 
+2BCFB: PUSH RBP                       [55] 
+2BCFC: PUSH RBX                       [53] 
+2BCFD: SUB RSP,0x8                    [4883EC08] 
+2BD01: CMP EDX,0x1                    [83FA01] 
+2BD06: CMP EDX,0x2                    [83FA02] 
+2BD58: MOVZX EBP,word ptr [RDI + 0x3e] [0FB76F3E] 
+2BD5C: MOVZX EAX,word ptr [RDI + 0x40] [0FB74740] 
+2BD60: ADD EAX,EBP                    [01E8] 
+2BD62: MOV EBX,EAX                    [89C3] 
+2BD64: MOVZX EBP,word ptr [RDI + 0x42] [0FB76F42] 
+2BD68: ADD EBP,EAX                    [01C5] 
+2BD15: CMP EBP,EBX                    [39DD] 
+2BD17: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+2BD48: ADD RSP,0x8                    [4883C408] 
+2BD4C: POP RBX                        [5B] 
+2BD4D: POP RBP                        [5D] 
+2BD4E: POP R12                        [415C] 
+2BD50: POP R13                        [415D] 
+
+========

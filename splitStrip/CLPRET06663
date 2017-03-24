@@ -1,0 +1,9 @@
+
+
+100884: TEST EDX,EDX                   [85D2] 
+100888: MOV DL,0x2                     [B202] 
+10088A: NOP                            [660F1F440000] 
+100890: CMP EDX,ESI                    [39F2] 
+1008D1: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

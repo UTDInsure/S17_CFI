@@ -1,0 +1,19 @@
+
+
+961D4: PUSH R12                       [4154] 
+961D6: TEST RDI,RDI                   [4885FF] 
+961D9: MOV R12,RDX                    [4989D4] 
+961DC: PUSH RBP                       [55] 
+961DD: MOV RBP,RSI                    [4889F5] 
+961E0: PUSH RBX                       [53] 
+961E1: MOV RBX,RDI                    [4889FB] 
+96230: MOV RBX,[RDX]                  [488B1A] 
+96233: TEST RBX,RBX                   [4885DB] 
+96238: MOV RAX,[0x00368e68]           [488B05292C2D00] 
+9623F: MOV dword ptr FS:[RAX],0x16    [64C70016000000] 
+96246: XOR EAX,EAX                    [31C0] 
+96224: POP RBX                        [5B] 
+96225: POP RBP                        [5D] 
+96226: POP R12                        [415C] 
+
+========

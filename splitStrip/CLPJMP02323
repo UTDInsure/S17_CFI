@@ -1,0 +1,11 @@
+
+
+2D744: PUSH RBP                       [55] 
+2D745: PUSH RBX                       [53] 
+2D746: SUB RSP,0x8                    [4883EC08] 
+2D74A: MOV RBX,[0x0024a8a0]           [488B1D4FD12100] 
+2D751: MOV RAX,[0x120 + RBX]          [488B8320010000] 
+2D758: TEST RAX,RAX                   [4885C0] 
+2D768: LEA RDI,[0x3c640]              [488D3DD1EE0000] 
+
+========

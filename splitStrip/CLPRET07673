@@ -1,0 +1,13 @@
+
+
+11B564: SUB RSP,0x8                    [4883EC08] 
+11B568: MOV EDI,0x2                    [BF02000000] 
+11B394: MOV EDX,[0x0036e310]           [8B15762F2500] 
+11B39A: TEST EDX,EDX                   [85D2] 
+11B498: MOV RAX,[0x00368e68]           [488B05C9D92400] 
+11B49F: MOV dword ptr FS:[RAX],0x2     [64C70002000000] 
+11B4A6: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+11B576: CMP EAX,-0x1                   [83F8FF] 
+11B57B: ADD RSP,0x8                    [4883C408] 
+
+========

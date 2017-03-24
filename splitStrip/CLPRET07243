@@ -1,0 +1,7 @@
+
+
+112484: MOV RDI,[RDI + 0x40]           [488B7F40] 
+112488: MOV EAX,[RDI]                  [8B07] 
+11248A: TEST EAX,EAX                   [85C0] 
+
+========

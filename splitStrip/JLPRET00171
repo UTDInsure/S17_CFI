@@ -1,0 +1,26 @@
+
+
+41561D: MOV EDX,[0x0062bad8]           [8B15B5642100] 
+415623: XOR EAX,EAX                    [31C0] 
+415625: TEST EDX,EDX                   [85D2] 
+415627: SETNZ AL                       [0F95C0] 
+415590: TEST EAX,EAX                   [85C0] 
+415396: MOVZX EDX,byte ptr [RBX + 0x1] [0FB65301] 
+41539A: ADD RBX,0x1                    [4883C301] 
+41539E: TEST DL,DL                     [84D2] 
+4154C6: MOV RDX,[0x0062b180]           [488B15B35C2100] 
+4154CD: CMP RDX,0x62b1a0               [4881FAA0B16200] 
+4154D6: TEST EBP,EBP                   [85ED] 
+4154DA: LEA RSI,[0x62b1a0 + RBP]       [488DB5A0B16200] 
+4154E1: MOV RCX,RDX                    [4889D1] 
+4154E4: MOV EAX,0x62b1a0               [B8A0B16200] 
+4154E9: SUB RCX,RBP                    [4829E9] 
+4154EC: CMP RDX,RSI                    [4839F2] 
+4154EF: CMOVNC RAX,RCX                 [480F43C1] 
+4154F3: ADD RSP,0x18                   [4883C418] 
+4154F7: POP RBX                        [5B] 
+4154F8: POP RBP                        [5D] 
+4154F9: POP R12                        [415C] 
+4154FB: POP R13                        [415D] 
+
+========

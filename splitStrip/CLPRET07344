@@ -1,0 +1,16 @@
+
+
+113DE4: PUSH RBX                       [53] 
+113DE5: MOV RBX,RSI                    [4889F3] 
+113DE8: SUB RSP,0x10                   [4883EC10] 
+113DEC: MOV EAX,[RDI]                  [8B07] 
+113DEE: CMP EAX,0x1                    [83F801] 
+113E08: MOV RAX,[RDI + 0x8]            [488B4708] 
+113E0C: LEA RSI,[RSP + 0x8]            [488D742408] 
+113E17: MOV EDX,EAX                    [89C2] 
+113E19: XOR EAX,EAX                    [31C0] 
+113E1B: TEST EDX,EDX                   [85D2] 
+113DFE: ADD RSP,0x10                   [4883C410] 
+113E02: POP RBX                        [5B] 
+
+========

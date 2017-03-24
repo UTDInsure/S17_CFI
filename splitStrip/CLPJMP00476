@@ -1,0 +1,12 @@
+
+
+412624: CMP EDI,0x2                    [83FF02] 
+412630: SUB RSP,0x8                    [4883EC08] 
+412634: XOR EAX,EAX                    [31C0] 
+4166B4: MOV R9D,[0x0062b9d8]           [448B0D1D532100] 
+4166BB: TEST R9D,R9D                   [4585C9] 
+4166D0: SUB RSP,0x8                    [4883EC08] 
+4166D4: MOV RDI,[0x0062b9c8]           [488B3DED522100] 
+4166DB: TEST RDI,RDI                   [4885FF] 
+
+========

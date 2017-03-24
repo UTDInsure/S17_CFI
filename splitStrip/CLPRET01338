@@ -1,0 +1,6 @@
+
+
+2B554: CMP dword ptr [0x0036a920],0x0 [48833DC4F3330000] 
+2B5D0: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

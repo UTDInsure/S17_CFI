@@ -1,0 +1,8 @@
+
+
+19074: LEA EAX,[RDI + -0x20]          [8D47E0] 
+19077: CMP EAX,0x1                    [83F801] 
+1908E: MOV dword ptr [0x00223160],0x16 [C705C8A0200016000000] 
+19098: OR EAX,0xffffffff              [83C8FF] 
+
+========

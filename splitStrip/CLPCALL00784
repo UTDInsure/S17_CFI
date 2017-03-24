@@ -1,0 +1,15 @@
+
+
+87984: PUSH RBP                       [55] 
+87985: PUSH RBX                       [53] 
+87986: MOV EBX,EDI                    [89FB] 
+87988: SUB RSP,0x8                    [4883EC08] 
+8798C: MOV R8D,[0x0036e770]           [448B05DD6D2E00] 
+87993: TEST R8D,R8D                   [4585C0] 
+87B20: MOV RAX,[0x0036e6f8]           [488B05D16B2E00] 
+87B27: LEA RSI,[0x878c0]              [488D3592FDFFFF] 
+87B2E: LEA RDI,[0x36b900]             [488D3DCB3D2E00] 
+87B35: ROR RAX,0x11                   [48C1C811] 
+87B39: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

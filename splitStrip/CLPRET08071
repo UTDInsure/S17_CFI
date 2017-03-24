@@ -1,0 +1,26 @@
+
+
+19F64: PUSH R13                       [4155] 
+19F66: MOV R13,RDX                    [4989D5] 
+19F69: PUSH R12                       [4154] 
+19F6B: MOV R12,RDI                    [4989FC] 
+19F6E: PUSH RBP                       [55] 
+19F6F: MOV RBP,RSI                    [4889F5] 
+19F72: PUSH RBX                       [53] 
+19F73: SUB RSP,0x8                    [4883EC08] 
+19F77: MOV RAX,[0x0024a860]           [488B05E2082300] 
+19F7E: CMP RDX,0x9                    [4883FA09] 
+19F82: MOV EBX,[RAX]                  [8B18] 
+1A090: MOVSX EAX,word ptr [RSI + 0x2] [0FBF4602] 
+1A094: CDQ                            [99] 
+1A095: IDIV EBX                       [F7FB] 
+1A097: SUB EBX,EDX                    [29D3] 
+1A099: TEST EBX,EBX                   [85DB] 
+1A079: XOR EAX,EAX                    [31C0] 
+1A07B: ADD RSP,0x8                    [4883C408] 
+1A07F: POP RBX                        [5B] 
+1A080: POP RBP                        [5D] 
+1A081: POP R12                        [415C] 
+1A083: POP R13                        [415D] 
+
+========

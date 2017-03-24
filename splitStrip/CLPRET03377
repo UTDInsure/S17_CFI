@@ -1,0 +1,16 @@
+
+
+805C4: SUB RSP,0x8                    [4883EC08] 
+805C8: TEST RDI,RDI                   [4885FF] 
+805CD: CMP dword ptr [0x0036b7ec],0x1 [833D18B22E0001] 
+805D4: LEA RDX,[RDI + -0x10]          [488D57F0] 
+805DA: MOV RDX,[RDI + -0x8]           [488B57F8] 
+805DE: MOV RAX,RDX                    [4889D0] 
+805E1: AND RDX,-0x8                   [4883E2F8] 
+805E5: AND EAX,0x2                    [83E002] 
+805EA: TEST byte ptr [RDI + RDX*0x1 + -0x8],0x1 [F64417F801] 
+805EF: LEA RCX,[RDX + -0x8]           [488D4AF8] 
+805F3: CMOVNZ RAX,RCX                 [480F45C1] 
+805F7: ADD RSP,0x8                    [4883C408] 
+
+========

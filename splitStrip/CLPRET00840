@@ -1,0 +1,6 @@
+
+
+40F3A4: XOR EAX,EAX                    [31C0] 
+40F3A6: CMP RDI,0x7f                   [4883FF7F] 
+
+========

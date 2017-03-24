@@ -1,0 +1,8 @@
+
+
+25104: MOVZX EDX,SIL                  [400FB6D6] 
+25108: TEST SIL,SIL                   [4084F6] 
+2510B: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+25110: CMOVNS EAX,EDX                 [0F49C2] 
+
+========

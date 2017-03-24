@@ -1,0 +1,20 @@
+
+
+155B4: TEST RDI,RDI                   [4885FF] 
+155B9: MOV RDX,[RDI + 0x18]           [488B5718] 
+155BD: MOV RCX,RSI                    [4889F1] 
+155C0: XOR CL,CL                      [30C9] 
+155C2: MOV RAX,RDX                    [4889D0] 
+155C5: XOR AL,AL                      [30C0] 
+155C7: AND DH,0xff                    [80E6FF] 
+15620: NOT RAX                        [48F7D0] 
+15623: AND RAX,[RDI + 0x10]           [48234710] 
+15627: MOV [RDI + 0x10],RAX           [48894710] 
+155DA: TEST ESI,0xff00                [F7C600FF0000] 
+15610: OR RAX,RCX                     [4809C8] 
+15613: MOV [RDI + 0x10],RAX           [48894710] 
+155EB: TEST SIL,SIL                   [4084F6] 
+15600: OR RCX,0x20                    [4883C920] 
+15604: MOV [RDI + 0x18],RCX           [48894F18] 
+
+========

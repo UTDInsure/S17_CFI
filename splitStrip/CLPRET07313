@@ -1,0 +1,12 @@
+
+
+113B24: SUB RSP,0x8                    [4883EC08] 
+113B28: MOV EAX,[RDI]                  [8B07] 
+113B2A: TEST EAX,EAX                   [85C0] 
+113B2E: MOV RDX,[RSI]                  [488B16] 
+113B31: MOVSXD RCX,EDX                 [4863CA] 
+113B34: CMP RDX,RCX                    [4839CA] 
+113B68: MOV RAX,[RDI + 0x8]            [488B4708] 
+113B42: ADD RSP,0x8                    [4883C408] 
+
+========

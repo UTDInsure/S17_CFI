@@ -1,0 +1,7 @@
+
+
+1A404: SUB RDX,0x1                    [4883EA01] 
+1A408: MOV RCX,[RSI]                  [488B0E] 
+1A4C0: MOV [RDI],RCX                  [48890F] 
+
+========

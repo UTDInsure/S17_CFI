@@ -1,0 +1,6 @@
+
+
+85BA4: TEST RDX,RDX                   [4885D2] 
+873E4: XOR EAX,EAX                    [31C0] 
+
+========

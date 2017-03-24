@@ -1,0 +1,10 @@
+
+
+DE934: MOV RDX,[RDI]                  [488B17] 
+DE937: MOV RAX,[RDI + 0x8]            [488B4708] 
+DE93B: TEST RDX,RDX                   [4885D2] 
+DE940: MOV [RDX + 0x8],RAX            [48894208] 
+DE944: TEST RAX,RAX                   [4885C0] 
+DE949: MOV [RAX],RDX                  [488910] 
+
+========

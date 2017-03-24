@@ -1,0 +1,24 @@
+
+
+D7454: PUSH R15                       [4157] 
+D7456: PUSH R14                       [4156] 
+D7458: PUSH R13                       [4155] 
+D745A: PUSH R12                       [4154] 
+D745C: MOV R12,RDI                    [4989FC] 
+D745F: PUSH RBP                       [55] 
+D7460: PUSH RBX                       [53] 
+D7461: MOV RBX,RSI                    [4889F3] 
+D7464: SUB RSP,0xf8                   [4881ECF8000000] 
+D746B: TEST RSI,RSI                   [4885F6] 
+D7470: TEST RDI,RDI                   [4885FF] 
+DCC34: MOV RAX,[0x00368e60]           [488B0525C22800] 
+DCC3B: MOV RAX,[RAX + 0x18]           [488B4018] 
+DCC3F: TEST RAX,RAX                   [4885C0] 
+D7482: MOV ESI,0x1000                 [BE00100000] 
+D7487: CMP EAX,0x1000                 [3D00100000] 
+D748C: CMOVGE ESI,EAX                 [0F4DF0] 
+D748F: MOVSXD RSI,ESI                 [4863F6] 
+D7492: MOV RDI,RSI                    [4889F7] 
+D7495: MOV [RSP],RSI                  [48893424] 
+
+========

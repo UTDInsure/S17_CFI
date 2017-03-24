@@ -1,0 +1,28 @@
+
+
+413344: PUSH R12                       [4154] 
+413346: MOV R12D,ECX                   [4189CC] 
+413349: PUSH RBP                       [55] 
+41334A: MOV RBP,RDI                    [4889FD] 
+41334D: PUSH RBX                       [53] 
+41334E: MOV EBX,ECX                    [89CB] 
+413350: AND EBX,0xffffffbf             [83E3BF] 
+413353: SUB RSP,0x30                   [4883EC30] 
+413357: TEST RDI,RDI                   [4885FF] 
+41335A: MOV [RSP + 0x8],RDX            [4889542408] 
+413365: CMP EBX,0x1                    [83FB01] 
+413368: MOV EDX,[RDI + 0x10]           [8B5710] 
+413371: TEST EBX,EBX                   [85DB] 
+413375: TEST DH,0x1                    [F6C601] 
+4134C0: MOV RSI,[RDI + 0x8]            [488B7708] 
+4134C4: MOVZX EDI,byte ptr [RDI]       [0FB63F] 
+4134C7: XOR EAX,EAX                    [31C0] 
+412BF4: SUB RSP,0x8                    [4883EC08] 
+412BF8: CMP DIL,0x1                    [4080FF01] 
+412C30: MOV RCX,[RSI]                  [488B0E] 
+412C33: MOV EDX,0x41d13b               [BA3BD14100] 
+412C38: MOV ESI,0x2a                   [BE2A000000] 
+412C3D: MOV EDI,0x62ac00               [BF00AC6200] 
+412C42: XOR EAX,EAX                    [31C0] 
+
+========

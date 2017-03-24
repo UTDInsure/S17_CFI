@@ -1,0 +1,12 @@
+
+
+892C4: CMP RDX,0x20                   [4883FA20] 
+89340: MOV ECX,ESI                    [89F1] 
+89342: AND ECX,0x7                    [83E107] 
+89370: CMP RDX,0x400                  [4881FA00040000] 
+89379: MOV ECX,EDX                    [89D1] 
+8937B: SHR ECX,0x5                    [C1E905] 
+893E0: AND EDX,0x1f                   [83E21F] 
+893E9: MOV RAX,RDI                    [4889F8] 
+
+========

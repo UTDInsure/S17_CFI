@@ -1,0 +1,12 @@
+
+
+100264: LEA RDX,[0x132d00]             [488D15952A0300] 
+10026B: LEA R8,[0x132d54]              [4C8D05E22A0300] 
+100272: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+100289: MOV ECX,[RDX]                  [8B0A] 
+10028B: CMP ECX,-0x1                   [83F9FF] 
+100290: CMP [RDX + 0x8],ESI            [397208] 
+100280: ADD RDX,0xc                    [4883C20C] 
+100284: CMP RDX,R8                     [4C39C2] 
+
+========

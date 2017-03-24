@@ -1,0 +1,15 @@
+
+
+119764: PUSH RBP                       [55] 
+119765: MOV RBP,RDI                    [4889FD] 
+119768: PUSH RBX                       [53] 
+119769: MOV RBX,RSI                    [4889F3] 
+11976C: SUB RSP,0x8                    [4883EC08] 
+11977A: TEST EAX,EAX                   [85C0] 
+1197A8: MOV dword ptr [RBX],0x0        [48C70300000000] 
+1197AF: ADD RSP,0x8                    [4883C408] 
+1197B3: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+1197B8: POP RBX                        [5B] 
+1197B9: POP RBP                        [5D] 
+
+========

@@ -1,0 +1,6 @@
+
+
+1013E4: TEST RDI,RDI                   [4885FF] 
+1013E7: MOV RDX,RDI                    [4889FA] 
+
+========

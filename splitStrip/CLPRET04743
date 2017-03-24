@@ -1,0 +1,10 @@
+
+
+CC554: MOV EDX,[RSI + 0x10]           [8B5610] 
+CC557: CMP [RDI + 0x10],EDX           [395710] 
+CC55A: MOV EAX,0x1                    [B801000000] 
+CC561: SETNZ AL                       [0F95C0] 
+CC564: MOVZX EAX,AL                   [0FB6C0] 
+CC567: NEG EAX                        [F7D8] 
+
+========

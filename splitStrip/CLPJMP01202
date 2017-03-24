@@ -1,0 +1,14 @@
+
+
+D1004: PUSH R12                       [4154] 
+D1006: TEST RSI,RSI                   [4885F6] 
+D1009: PUSH RBP                       [55] 
+D100A: MOV RBP,RSI                    [4889F5] 
+D100D: PUSH RBX                       [53] 
+D100E: MOV RBX,RDI                    [4889FB] 
+D1013: MOV RAX,[RDI]                  [488B07] 
+D1016: ADD RAX,[RDI + 0x10]           [48034710] 
+D101A: MOV RDI,[RDI + 0x8]            [488B7F08] 
+D101E: LEA RSI,[0x10 + RAX*0x8]       [488D34C510000000] 
+
+========

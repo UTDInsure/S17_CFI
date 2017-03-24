@@ -1,0 +1,26 @@
+
+
+12A94: PUSH R12                       [4154] 
+12A96: MOV EDX,0x1000                 [BA00100000] 
+12A9B: LEA RDI,[0x1c257]              [488D3DB5970000] 
+12AA2: MOV EAX,0x59                   [B859000000] 
+12AA7: PUSH RBP                       [55] 
+12AA8: PUSH RBX                       [53] 
+12AA9: SUB RSP,0x1000                 [4881EC00100000] 
+12AB0: MOV RSI,RSP                    [4889E6] 
+12AB5: TEST EAX,EAX                   [85C0] 
+12AB9: CMP EAX,0xfffff000             [3D00F0FFFF] 
+12AC4: MOV RBX,[0x00221d38]           [488B1D6DF22000] 
+12ACB: TEST RBX,RBX                   [4885DB] 
+12AD4: MOV RDI,RBX                    [4889DF] 
+19284: MOV RCX,RDI                    [4889F9] 
+19287: AND ECX,0x7                    [83E107] 
+1928A: MOV RAX,RDI                    [4889F8] 
+1928F: NEG ECX                        [F7D9] 
+19291: ADD ECX,0x8                    [83C108] 
+19294: CMP byte ptr [RAX],0x0         [803800] 
+19365: SUB RAX,RDI                    [4829F8] 
+12AE0: LEA RDI,[RAX + 0x1]            [488D7801] 
+12AE4: MOV R12,RAX                    [4989C4] 
+
+========

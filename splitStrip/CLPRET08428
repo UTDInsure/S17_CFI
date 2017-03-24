@@ -1,0 +1,14 @@
+
+
+2B9B4: TEST EDX,EDX                   [85D2] 
+2B9B8: CMP EDX,0x1                    [83FA01] 
+2B9D0: MOVZX EDX,word ptr [RDI + 0x42] [0FB75742] 
+2B9D4: MOVZX EAX,word ptr [RDI + 0x3c] [0FB7473C] 
+2B9D8: MOVZX ECX,word ptr [RDI + 0x3e] [0FB74F3E] 
+2B9DC: SUB EAX,EDX                    [29D0] 
+2B9DE: MOVZX EDX,word ptr [RDI + 0x40] [0FB75740] 
+2B9E2: ADD EDX,ECX                    [01CA] 
+2B9E4: SUB EAX,EDX                    [29D0] 
+2B9E6: ADD EAX,ESI                    [01F0] 
+
+========

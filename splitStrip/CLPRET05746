@@ -1,0 +1,11 @@
+
+
+E4544: MOV R10,RCX                    [4989CA] 
+E4547: MOV EAX,0x37                   [B837000000] 
+E454E: CMP RAX,0xfffff001             [483D01F0FFFF] 
+E4557: MOV RCX,[0x00368e68]           [488B0D0A492800] 
+E455E: NEG EAX                        [F7D8] 
+E4560: MOV FS:[RCX],EAX               [648901] 
+E4563: OR RAX,-0x1                    [4883C8FF] 
+
+========

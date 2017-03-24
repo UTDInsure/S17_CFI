@@ -1,0 +1,8 @@
+
+
+DBAD4: CMP dword ptr [0x0036e774],0x0 [833D992C290000] 
+DBAE1: MOV R10,RCX                    [4989CA] 
+DBAE4: MOV EAX,0x115                  [B815010000] 
+DBAEB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

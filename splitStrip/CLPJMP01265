@@ -1,0 +1,27 @@
+
+
+DEAB4: PUSH R13                       [4155] 
+DEAB6: PUSH R12                       [4154] 
+DEAB8: PUSH RBP                       [55] 
+DEAB9: PUSH RBX                       [53] 
+DEABA: SUB RSP,0x8                    [4883EC08] 
+DEABE: MOV RDX,[0x0036c148]           [488B1583D62800] 
+DEAC5: TEST RDX,RDX                   [4885D2] 
+DEA44: SUB RSP,0x8                    [4883EC08] 
+DEA48: MOV RDI,[0x0036c148]           [488B3DF9D62800] 
+DEA4F: TEST RDI,RDI                   [4885FF] 
+DEA70: LEA RSI,[0x1345f8]             [488D35815B0500] 
+DEA77: LEA RDI,[0x136a46]             [488D3DC87F0500] 
+6CA94: SUB RSP,0x8                    [4883EC08] 
+6CA98: MOV EDX,0x1                    [BA01000000] 
+6C9B4: PUSH R13                       [4155] 
+6C9B6: MOV R13D,EDX                   [4189D5] 
+6C9B9: PUSH R12                       [4154] 
+6C9BB: MOV R12,RSI                    [4989F4] 
+6C9BE: PUSH RBP                       [55] 
+6C9BF: MOV RBP,RDI                    [4889FD] 
+6C9C2: MOV EDI,0x238                  [BF38020000] 
+6C9C7: PUSH RBX                       [53] 
+6C9C8: SUB RSP,0x18                   [4883EC18] 
+
+========

@@ -1,0 +1,14 @@
+
+
+4B305: MOV RAX,[-0x4a0 + RBP]         [488B8560FBFFFF] 
+4B30C: LEA RDX,[RAX + 0x1]            [488D5001] 
+4B310: MOV [-0x4a0 + RBP],RDX         [48899560FBFFFF] 
+4B317: MOVZX EAX,byte ptr [RAX + 0x1] [0FB64001] 
+4B31B: LEA EDX,[RAX + -0x20]          [8D50E0] 
+4B31E: MOV [-0x4c8 + RBP],AL          [888538FBFFFF] 
+4B324: XOR EAX,EAX                    [31C0] 
+4B326: CMP DL,0x5a                    [80FA5A] 
+4B34D: ADD RAX,R12                    [4C01E0] 
+4B350: MOV dword ptr [-0x520 + RBP],0x1 [C785E0FAFFFF01000000] 
+
+========

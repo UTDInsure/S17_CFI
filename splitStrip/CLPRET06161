@@ -1,0 +1,6 @@
+
+
+EC6E4: CMP dword ptr [RDI + 0x10],0x0 [48837F1000] 
+EC6EB: XOR EAX,EAX                    [31C0] 
+
+========

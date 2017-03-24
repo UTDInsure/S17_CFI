@@ -1,0 +1,25 @@
+
+
+96504: CMP RDX,0x3                    [4883FA03] 
+96508: MOV RAX,RDI                    [4889F8] 
+9650B: MOV RCX,RDI                    [4889F9] 
+96510: MOV R8,RDX                     [4989D0] 
+96513: NOP                            [0F1F440000] 
+96518: SUB R8,0x4                     [4983E804] 
+9651C: MOV [RCX],ESI                  [8931] 
+9651E: MOV [RCX + 0x4],ESI            [897104] 
+96521: MOV [RCX + 0x8],ESI            [897108] 
+96524: MOV [RCX + 0xc],ESI            [89710C] 
+96527: ADD RCX,0x10                   [4883C110] 
+9652B: CMP R8,0x3                     [4983F803] 
+96531: LEA RCX,[RDX + -0x4]           [488D4AFC] 
+96535: AND EDX,0x3                    [83E203] 
+96538: SHR RCX,0x2                    [48C1E902] 
+9653C: ADD RCX,0x1                    [4883C101] 
+96540: SHL RCX,0x4                    [48C1E104] 
+96544: ADD RCX,RAX                    [4801C1] 
+96547: TEST RDX,RDX                   [4885D2] 
+9654C: CMP RDX,0x1                    [4883FA01] 
+96550: MOV [RCX],ESI                  [8931] 
+
+========

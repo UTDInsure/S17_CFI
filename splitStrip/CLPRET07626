@@ -1,0 +1,28 @@
+
+
+119AD4: SUB RSP,0x8                    [4883EC08] 
+119AD8: MOV ESI,0x1                    [BE01000000] 
+119ADD: XOR EAX,EAX                    [31C0] 
+119ADF: CMP dword ptr [0x0036e774],0x0 [833D8E4C250000] 
+119AE8: LOCK                           [F0] 
+119AE9: CMPXCHG [0x0036e9b8],ESI       [0FB135C84E2500] 
+119B1B: MOV RAX,[0x0036a728]           [488B05060C2500] 
+119B29: LEA RAX,[0x366aa0]             [488D0570CF2400] 
+119B30: MOV [0x0036a728],RAX           [488905F10B2500] 
+119B37: CMP dword ptr [0x0036e774],0x0 [833D364C250000] 
+119B40: LOCK                           [F0] 
+119B41: DEC dword ptr [0x0036e9b8]     [FF0D714E2500] 
+119B53: LEA RDI,[0x36e9b8]             [488D3D5E4E2500] 
+119B5A: SUB RSP,0x80                   [4881EC80000000] 
+F08A4: PUSH RSI                       [56] 
+F08A5: PUSH RDX                       [52] 
+F08A6: MOV dword ptr [RDI],0x0        [C70700000000] 
+F08AC: MOV ESI,0x81                   [BE81000000] 
+F08B1: MOV EDX,0x1                    [BA01000000] 
+F08B6: MOV EAX,0xca                   [B8CA000000] 
+F08BD: POP RDX                        [5A] 
+F08BE: POP RSI                        [5E] 
+119B6A: ADD RSP,0x80                   [4881C480000000] 
+119B71: ADD RSP,0x8                    [4883C408] 
+
+========

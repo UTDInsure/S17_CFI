@@ -1,0 +1,9 @@
+
+
+355D4: MOVD EDX,XMM0                  [660F7EC2] 
+355D8: MOV EAX,0x7f800000             [B80000807F] 
+355DD: AND EDX,0x7fffffff             [81E2FFFFFF7F] 
+355E3: SUB EAX,EDX                    [29D0] 
+355E5: SHR EAX,0x1f                   [C1E81F] 
+
+========

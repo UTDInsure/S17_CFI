@@ -1,0 +1,7 @@
+
+
+F04C4: MOV R10D,[0x0036e770]          [448B15A5E22700] 
+F04CB: XOR EAX,EAX                    [31C0] 
+F04CD: TEST R10D,R10D                 [4585D2] 
+
+========

@@ -1,0 +1,11 @@
+
+
+DBAE1: MOV R10,RCX                    [4989CA] 
+DBAE4: MOV EAX,0x115                  [B815010000] 
+DBAEB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+DBB2F: MOV RCX,[0x00368e68]           [488B0D32D32800] 
+DBB36: NEG EAX                        [F7D8] 
+DBB38: MOV FS:[RCX],EAX               [648901] 
+DBB3B: OR RAX,-0x1                    [4883C8FF] 
+
+========

@@ -1,0 +1,18 @@
+
+
+6CC74: PUSH R12                       [4154] 
+6CC76: MOV R12,RDI                    [4989FC] 
+6CC79: PUSH RBP                       [55] 
+6CC7A: PUSH RBX                       [53] 
+6CC7B: SUB RSP,0x20                   [4883EC20] 
+6CC7F: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+6CC82: CMP AL,0x72                    [3C72] 
+6CC8A: CMP AL,0x77                    [3C77] 
+6CC92: CMP AL,0x61                    [3C61] 
+6CC96: ADD RSP,0x20                   [4883C420] 
+6CC9A: XOR EAX,EAX                    [31C0] 
+6CC9C: POP RBX                        [5B] 
+6CC9D: POP RBP                        [5D] 
+6CC9E: POP R12                        [415C] 
+
+========

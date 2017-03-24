@@ -1,0 +1,18 @@
+
+
+402714: MOVZX EDX,byte ptr [RDI]       [0FB617] 
+402717: MOV RAX,RDI                    [4889F8] 
+40271A: CMP DL,0x9                     [80FA09] 
+40271F: NOP                            [90] 
+402720: ADD RAX,0x1                    [4883C001] 
+402724: MOVZX EDX,byte ptr [RAX]       [0FB610] 
+402727: CMP DL,0x9                     [80FA09] 
+402720: ADD RAX,0x1                    [4883C001] 
+402724: MOVZX EDX,byte ptr [RAX]       [0FB610] 
+402727: CMP DL,0x9                     [80FA09] 
+402720: ADD RAX,0x1                    [4883C001] 
+402724: MOVZX EDX,byte ptr [RAX]       [0FB610] 
+402727: CMP DL,0x9                     [80FA09] 
+40272C: CMP DL,0x20                    [80FA20] 
+
+========

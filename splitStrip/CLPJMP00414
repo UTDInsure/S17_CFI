@@ -1,0 +1,16 @@
+
+
+40EDD4: PUSH R15                       [4157] 
+40EDD6: MOV ESI,0x1                    [BE01000000] 
+40EDDB: PUSH R14                       [4156] 
+40EDDD: PUSH R13                       [4155] 
+40EDDF: PUSH R12                       [4154] 
+40EDE1: PUSH RBP                       [55] 
+40EDE2: PUSH RBX                       [53] 
+40EDE3: SUB RSP,0x8                    [4883EC08] 
+40EDE7: MOVSXD R13,[0x00628680]        [4C632D92982100] 
+40EDEE: LEA R12D,[R13 + R13*0x1]       [478D642D00] 
+40EDF3: MOVSXD RBX,R12D                [4963DC] 
+40EDF6: MOV RDI,RBX                    [4889DF] 
+
+========

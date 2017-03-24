@@ -1,0 +1,15 @@
+
+
+412C64: SUB RSP,0x8                    [4883EC08] 
+412C68: XOR EAX,EAX                    [31C0] 
+4058C4: MOVZX ECX,DIL                  [400FB6CF] 
+4058C8: SUB RSP,0x8                    [4883EC08] 
+4058CC: CMP RCX,0x7f                   [4883F97F] 
+4058D2: MOV ESI,[0x006279e0]           [8B3508212200] 
+4058D8: TEST ESI,ESI                   [85F6] 
+405905: MOV RDX,[0x00627a48]           [488B153C212200] 
+40590C: MOV ESI,0x20                   [BE20000000] 
+405911: MOV EDI,0x627a20               [BF207A6200] 
+405916: XOR EAX,EAX                    [31C0] 
+
+========

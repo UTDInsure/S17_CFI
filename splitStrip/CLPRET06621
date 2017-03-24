@@ -1,0 +1,6 @@
+
+
+FFEC4: CMP dword ptr [RDI + 0x8],0x29 [837F0829] 
+FFF90: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+
+========

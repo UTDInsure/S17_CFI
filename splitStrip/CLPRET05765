@@ -1,0 +1,6 @@
+
+
+E46E1: MOV EAX,0x2f                   [B82F000000] 
+E46E8: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========

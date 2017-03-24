@@ -1,0 +1,7 @@
+
+
+40B3C4: MOV RDI,[0x00627440]           [488B3D75C02100] 
+40B3CB: XOR EAX,EAX                    [31C0] 
+40B3CD: TEST RDI,RDI                   [4885FF] 
+
+========

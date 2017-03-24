@@ -1,0 +1,13 @@
+
+
+E7944: TEST RSI,RSI                   [4885F6] 
+E7949: MOV ECX,[RSI]                  [8B0E] 
+E794B: MOV EDX,EDI                    [89FA] 
+E794D: MOV EAX,EDI                    [89F8] 
+E794F: SHR EDX,CL                     [D3EA] 
+E7951: CMP EDX,[RSI + 0x4]            [3B5604] 
+E7956: ADD EDX,0x5                    [83C205] 
+E7959: MOV EDX,[RSI + RDX*0x4]        [8B1496] 
+E795C: TEST EDX,EDX                   [85D2] 
+
+========

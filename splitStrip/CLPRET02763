@@ -1,0 +1,21 @@
+
+
+734F4: PUSH R12                       [4154] 
+734F6: PUSH RBP                       [55] 
+734F7: PUSH RBX                       [53] 
+734F8: MOV RAX,[0xa0 + RDI]           [488B87A0000000] 
+734FF: MOV RBX,RDI                    [4889FB] 
+73502: MOV RDX,[RAX + 0x20]           [488B5020] 
+73506: MOV RSI,[RAX + 0x18]           [488B7018] 
+7350A: CMP RDX,RSI                    [4839F2] 
+73545: MOV RBP,[RAX]                  [488B28] 
+73548: SUB RBP,[RAX + 0x8]            [482B6808] 
+7354C: SAR RBP,0x2                    [48C1FD02] 
+73550: TEST RBP,RBP                   [4885ED] 
+73555: MOV dword ptr [0x90 + RBX],-0x1 [48C78390000000FFFFFFFF] 
+73560: XOR EAX,EAX                    [31C0] 
+73562: POP RBX                        [5B] 
+73563: POP RBP                        [5D] 
+73564: POP R12                        [415C] 
+
+========

@@ -1,0 +1,25 @@
+
+
+116A34: PUSH R15                       [4157] 
+116A36: PUSH R14                       [4156] 
+116A38: PUSH R13                       [4155] 
+116A3A: MOV R13,RSI                    [4989F5] 
+116A3D: PUSH R12                       [4154] 
+116A3F: PUSH RBP                       [55] 
+116A40: MOV RBP,RDI                    [4889FD] 
+116A43: PUSH RBX                       [53] 
+116A44: SUB RSP,0x68                   [4883EC68] 
+116A48: MOV EAX,[0x0036e984]           [8B05367F2500] 
+116A4E: MOV [RSP],RDX                  [48891424] 
+116A52: TEST EAX,EAX                   [85C0] 
+116E5B: MOV dword ptr [0x0036e980],0x1 [C7051B7B250001000000] 
+116E30: ADD RSP,0x68                   [4883C468] 
+116E34: MOV EAX,0xffffffff             [B8FFFFFFFF] 
+116E39: POP RBX                        [5B] 
+116E3A: POP RBP                        [5D] 
+116E3B: POP R12                        [415C] 
+116E3D: POP R13                        [415D] 
+116E3F: POP R14                        [415E] 
+116E41: POP R15                        [415F] 
+
+========

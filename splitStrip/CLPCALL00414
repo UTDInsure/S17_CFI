@@ -1,0 +1,14 @@
+
+
+70F24: PUSH RBP                       [55] 
+70F25: MOV EBP,ESI                    [89F5] 
+70F27: PUSH RBX                       [53] 
+70F28: MOV RBX,RDI                    [4889FB] 
+70F2B: SUB RSP,0x8                    [4883EC08] 
+70F2F: MOV EAX,[0xc0 + RDI]           [8B87C0000000] 
+70F35: TEST EAX,EAX                   [85C0] 
+70F47: MOV RAX,[0xd8 + RBX]           [488B83D8000000] 
+70F4E: MOV ESI,EBP                    [89EE] 
+70F50: MOV RDI,RBX                    [4889DF] 
+
+========

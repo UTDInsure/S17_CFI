@@ -1,0 +1,20 @@
+
+
+415284: PUSH RBX                       [53] 
+415285: MOV RAX,RDI                    [4889F8] 
+415288: SUB RSP,0x10                   [4883EC10] 
+41528C: MOVZX EBX,byte ptr [RDI]       [0FB61F] 
+41528F: LEA EDX,[RBX + -0x50]          [8D53B0] 
+415292: CMP DL,0x20                    [80FA20] 
+415297: MOV RCX,0x110140001            [48B90100141001000000] 
+4152A1: BT RCX,RDX                     [480FA3D1] 
+4152A7: LEA RBX,[RDI + 0x1]            [488D5F01] 
+4152AB: MOVZX EDI,byte ptr [RDI + 0x1] [0FB67F01] 
+4152AF: LEA EDX,[RDI + -0x42]          [8D57BE] 
+4152B2: CMP DL,0x32                    [80FA32] 
+4152CC: MOV dword ptr [RSI],0x0        [C70600000000] 
+4152D2: NOP                            [660F1F440000] 
+4152D8: ADD RSP,0x10                   [4883C410] 
+4152DC: POP RBX                        [5B] 
+
+========

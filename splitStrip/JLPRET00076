@@ -1,0 +1,16 @@
+
+
+1A6F4: LEA RAX,[RSI + -0x10]          [488D46F0] 
+1A6F8: LEA RCX,[RDI + -0x8]           [488D4FF8] 
+1A6FC: MOV RSI,[RSI + -0x8]           [488B76F8] 
+1A700: ADD RDX,0x6                    [4883C206] 
+1A704: MOV RDI,RCX                    [4889CF] 
+1A707: MOV R8,RAX                     [4989C0] 
+1A70A: SUB RDX,0x8                    [4883EA08] 
+1A70E: MOV R9,[R8]                    [4D8B08] 
+1A711: MOV [RDI],RSI                  [488937] 
+1A714: LEA RDI,[RCX + -0x40]          [488D79C0] 
+1A71E: NOP                            [6690] 
+1A720: MOV [RDI + 0x38],R9            [4C894F38] 
+
+========

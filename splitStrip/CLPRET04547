@@ -1,0 +1,20 @@
+
+
+BCEC4: PUSH R12                       [4154] 
+BCEC6: PUSH RBP                       [55] 
+BCEC7: MOV EBP,ESI                    [89F5] 
+BCEC9: PUSH RBX                       [53] 
+BCECA: MOV EAX,[RDI + 0x34]           [8B4734] 
+BCECD: MOV RBX,RDI                    [4889FB] 
+BCED0: MOVSXD R12,[0x90 + RDI]        [4C63A790000000] 
+BCED7: CMP EAX,ESI                    [39F0] 
+BCEDB: CMP EAX,[RDI + 0x40]           [3B4740] 
+BCF00: MOV EAX,[RBX + 0x2c]           [8B432C] 
+BCF03: CMP EBP,EAX                    [39C5] 
+BCEF3: CMP R12D,EBP                   [4139EC] 
+BCEF8: XOR EAX,EAX                    [31C0] 
+BCEFA: POP RBX                        [5B] 
+BCEFB: POP RBP                        [5D] 
+BCEFC: POP R12                        [415C] 
+
+========

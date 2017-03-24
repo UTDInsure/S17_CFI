@@ -1,0 +1,21 @@
+
+
+220D4: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+220D7: TEST AL,AL                     [84C0] 
+220DF: MOV RCX,[0x00367b48]           [488B0D625A3400] 
+220E6: MOV R8,[0x00367b58]            [4C8B056B5A3400] 
+220ED: XOR R10D,R10D                  [4531D2] 
+22120: MOVSX RDX,AL                   [480FBED0] 
+22124: TEST byte ptr [RCX + RDX*0x2],0x8 [F6045108] 
+220F8: CMP AL,0x5f                    [3C5F] 
+2212A: MOV EAX,[R8 + RDX*0x4]         [418B0490] 
+2212E: ADD RSI,0x1                    [4883C601] 
+22132: ADD RDI,0x1                    [4883C701] 
+22136: MOV [RDI + -0x1],AL            [8847FF] 
+22139: MOVZX EAX,byte ptr [RSI]       [0FB606] 
+2213C: TEST AL,AL                     [84C0] 
+22140: CMP R10D,0x1                   [4183FA01] 
+22144: LEA EAX,[R10 + 0x1]            [418D4201] 
+22163: MOV byte ptr [RDI],0x0         [C60700] 
+
+========

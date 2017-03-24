@@ -1,0 +1,27 @@
+
+
+2F454: SUB RSP,0x18                   [4883EC18] 
+2F458: XOR EAX,EAX                    [31C0] 
+2F45A: TEST RDI,RDI                   [4885FF] 
+2F45D: MOV [RSP + 0x8],RSI            [4889742408] 
+2F464: CMP byte ptr [RDI],0x0         [803F00] 
+2F470: LEA RDX,[RSP + 0x8]            [488D542408] 
+2F475: XOR ESI,ESI                    [31F6] 
+2F034: PUSH R15                       [4157] 
+2F036: PUSH R14                       [4156] 
+2F038: PUSH R13                       [4155] 
+2F03A: MOV R13,RDX                    [4989D5] 
+2F03D: PUSH R12                       [4154] 
+2F03F: MOV R12,RSI                    [4989F4] 
+2F042: PUSH RBP                       [55] 
+2F043: MOV RBP,RDI                    [4889FD] 
+2F046: PUSH RBX                       [53] 
+2F047: SUB RSP,0x8                    [4883EC08] 
+2F04B: MOV EDX,[0x0036e770]           [8B151FF73300] 
+2F051: TEST EDX,EDX                   [85D2] 
+2F2D0: MOV RAX,[0x0036e708]           [488B0531F43300] 
+2F2D7: LEA RDI,[0x36aac0]             [488D3DE2B73300] 
+2F2DE: ROR RAX,0x11                   [48C1C811] 
+2F2E2: XOR RAX,FS:[0x30]              [644833042530000000] 
+
+========

@@ -1,0 +1,21 @@
+
+
+70F74: PUSH R15                       [4157] 
+70F76: XOR EAX,EAX                    [31C0] 
+70F78: PUSH R14                       [4156] 
+70F7A: PUSH R13                       [4155] 
+70F7C: PUSH R12                       [4154] 
+70F7E: MOV R12,RDX                    [4989D4] 
+70F81: PUSH RBP                       [55] 
+70F82: PUSH RBX                       [53] 
+70F83: SUB RSP,0x8                    [4883EC08] 
+70F87: TEST RDX,RDX                   [4885D2] 
+71056: ADD RSP,0x8                    [4883C408] 
+7105A: POP RBX                        [5B] 
+7105B: POP RBP                        [5D] 
+7105C: POP R12                        [415C] 
+7105E: POP R13                        [415D] 
+71060: POP R14                        [415E] 
+71062: POP R15                        [415F] 
+
+========

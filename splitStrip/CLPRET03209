@@ -1,0 +1,6 @@
+
+
+7A794: CMP dword ptr [RDI + 0x60],0x0 [48837F6000] 
+7A7A3: CMP dword ptr [RDI + 0x48],0x0 [48837F4800] 
+
+========

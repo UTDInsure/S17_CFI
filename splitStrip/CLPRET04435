@@ -1,0 +1,10 @@
+
+
+B4884: TEST EDI,EDI                   [85FF] 
+B48E8: MOV RAX,[0x00368e68]           [488B0579452B00] 
+B48EF: CMP dword ptr FS:[RAX],0x26    [64833826] 
+B48F3: SETZ AL                        [0F94C0] 
+B48F6: MOVZX EAX,AL                   [0FB6C0] 
+B48F9: LEA RAX,[RAX + RAX*0x1 + -0x1] [488D4400FF] 
+
+========

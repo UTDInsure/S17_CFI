@@ -1,0 +1,19 @@
+
+
+B88C4: CMP dword ptr [-0x28a8 + RBP],0x0 [4883BD58D7FFFF00] 
+B88D2: CMP dword ptr [-0x28b0 + RBP],0x0 [4883BD50D7FFFF00] 
+B88E0: CMP R15,[-0x2860 + RBP]        [4C3BBDA0D7FFFF] 
+B88E9: CMP dword ptr [R15],0x2e       [41833F2E] 
+B9011: MOV EDI,[-0x2858 + RBP]        [8BBDA8D7FFFF] 
+B9017: TEST EDI,EDI                   [85FF] 
+B8660: MOV dword ptr [-0x2868 + RBP],0x1 [C78598D7FFFF01000000] 
+B866A: MOV EAX,[-0x2868 + RBP]        [8B8598D7FFFF] 
+B8670: LEA RSP,[RBP + -0x28]          [488D65D8] 
+B8674: POP RBX                        [5B] 
+B8675: POP R12                        [415C] 
+B8677: POP R13                        [415D] 
+B8679: POP R14                        [415E] 
+B867B: POP R15                        [415F] 
+B867D: POP RBP                        [5D] 
+
+========

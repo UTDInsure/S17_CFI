@@ -1,0 +1,26 @@
+
+
+2C014: PUSH R15                       [4157] 
+2C016: PUSH R14                       [4156] 
+2C018: MOV R14D,EDI                   [4189FE] 
+2C01B: PUSH R13                       [4155] 
+2C01D: PUSH R12                       [4154] 
+2C01F: PUSH RBP                       [55] 
+2C020: PUSH RBX                       [53] 
+2C021: MOVSXD RBX,EDI                 [4863DF] 
+2C024: SUB RSP,0x128                  [4881EC28010000] 
+2C02B: CMP RBX,0xc                    [4883FB0C] 
+2C035: TEST RSI,RSI                   [4885F6] 
+2C038: MOV RBP,RSI                    [4889F5] 
+2C420: LEA RAX,[0x369f20]             [488D05F9DA3300] 
+2C427: MOV R15,[0x80 + RAX + RBX*0x8] [4C8BBCD880000000] 
+2C080: ADD RSP,0x128                  [4881C428010000] 
+2C087: MOV RAX,R15                    [4C89F8] 
+2C08A: POP RBX                        [5B] 
+2C08B: POP RBP                        [5D] 
+2C08C: POP R12                        [415C] 
+2C08E: POP R13                        [415D] 
+2C090: POP R14                        [415E] 
+2C092: POP R15                        [415F] 
+
+========

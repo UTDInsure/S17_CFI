@@ -1,0 +1,16 @@
+
+
+405094: PUSH RBP                       [55] 
+405095: PUSH RBX                       [53] 
+405096: SUB RSP,0x8                    [4883EC08] 
+40509A: MOV RBX,[0x006279d8]           [488B1D37292200] 
+4050A1: TEST RBX,RBX                   [4885DB] 
+4050A6: MOV ECX,[0x824 + RBX]          [8B8B24080000] 
+4050AC: MOV EBP,0x1                    [BD01000000] 
+4050B1: TEST CL,0xd                    [F6C10D] 
+4050B6: TEST CL,0x2                    [F6C102] 
+4050FD: ADD RSP,0x8                    [4883C408] 
+405101: POP RBX                        [5B] 
+405102: POP RBP                        [5D] 
+
+========

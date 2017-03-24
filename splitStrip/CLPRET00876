@@ -1,0 +1,21 @@
+
+
+411064: PUSH R13                       [4155] 
+411066: PUSH R12                       [4154] 
+411068: MOV R12,RDI                    [4989FC] 
+41106B: PUSH RBP                       [55] 
+41106C: PUSH RBX                       [53] 
+41106D: SUB RSP,0x8                    [4883EC08] 
+411071: CMP RDI,0x1                    [4883FF01] 
+41107B: MOV RBX,[0x0062a680]           [488B1DFE952100] 
+411082: CMP RBX,0x62a680               [4881FB80A66200] 
+411130: CMP [0x0062a6a0],R12           [4C392569952100] 
+4111DD: MOV EBX,0x62a680               [BB80A66200] 
+4111E2: MOV RAX,[RBX + 0x10]           [488B4310] 
+4111E6: ADD RSP,0x8                    [4883C408] 
+4111EA: POP RBX                        [5B] 
+4111EB: POP RBP                        [5D] 
+4111EC: POP R12                        [415C] 
+4111EE: POP R13                        [415D] 
+
+========

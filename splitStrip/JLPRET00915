@@ -1,0 +1,10 @@
+
+
+946DC: XOR EAX,EAX                    [31C0] 
+946DE: TEST CH,0xf0                   [F6C5F0] 
+946E3: MOV EAX,ECX                    [89C8] 
+946E5: SHR EAX,0x6                    [C1E806] 
+946E8: AND EAX,0x3fffc00              [2500FCFF03] 
+946ED: POP RBX                        [5B] 
+
+========

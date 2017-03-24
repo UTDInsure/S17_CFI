@@ -1,0 +1,14 @@
+
+
+C62CA: AND EDX,0x1200                 [81E200120000] 
+C62D0: MOV EAX,0x2                    [B802000000] 
+C62D5: CMP RDX,0x200                  [4881FA00020000] 
+C6234: MOV byte ptr [RBP + 0x8],0x17  [C6450817] 
+C5F46: ADD RSP,0x20                   [4883C420] 
+C5F4A: POP RBX                        [5B] 
+C5F4B: POP RBP                        [5D] 
+C5F4C: POP R12                        [415C] 
+C5F4E: POP R13                        [415D] 
+C5F50: POP R14                        [415E] 
+
+========

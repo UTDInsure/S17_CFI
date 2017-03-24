@@ -1,0 +1,19 @@
+
+
+E4E44: MOV RAX,[RSI]                  [488B06] 
+E4E47: CMP RAX,0xf                    [4883F80F] 
+E4E4D: ADD RAX,0x7                    [4883C007] 
+E4E51: MOV RDX,[RDI + 0x20]           [488B5720] 
+E4E55: ADD RDX,[RDI + 0x28]           [48035728] 
+E4E59: AND RAX,-0x8                   [4883E0F8] 
+E4E5D: ADD RAX,RSI                    [4801F0] 
+E4E60: LEA RCX,[RAX + 0x10]           [488D4810] 
+E4E64: CMP RDX,RCX                    [4839CA] 
+E4E69: MOV RDI,[RAX]                  [488B38] 
+E4E6C: LEA RCX,[RDI + 0x7]            [488D4F07] 
+E4E70: AND RCX,-0x8                   [4883E1F8] 
+E4E74: ADD RCX,RAX                    [4801C1] 
+E4E77: CMP RDX,RCX                    [4839CA] 
+E4E80: XOR EAX,EAX                    [31C0] 
+
+========

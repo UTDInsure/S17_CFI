@@ -1,0 +1,23 @@
+
+
+82A24: SUB RSP,0x8                    [4883EC08] 
+82934: PUSH RBX                       [53] 
+82935: LEA RAX,[0x82130]              [488D05F4F7FFFF] 
+8293C: SUB RSP,0x10                   [4883EC10] 
+82940: TEST RDI,RDI                   [4885FF] 
+82943: CMOVNZ RAX,RDI                 [480F45C7] 
+82947: MOV [0x0036b878],RAX           [4889052A8F2E00] 
+8294E: MOV EAX,[0x00369124]           [8B05D0672E00] 
+82954: TEST EAX,EAX                   [85C0] 
+82958: MOV EAX,[0x0036b86c]           [8B050E8F2E00] 
+8295E: XOR EBX,EBX                    [31DB] 
+82960: TEST EAX,EAX                   [85C0] 
+82962: SETZ BL                        [0F94C3] 
+82965: NEG EBX                        [F7DB] 
+82967: ADD RSP,0x10                   [4883C410] 
+8296B: MOV EAX,EBX                    [89D8] 
+8296D: POP RBX                        [5B] 
+82A31: TEST EAX,EAX                   [85C0] 
+82A3F: ADD RSP,0x8                    [4883C408] 
+
+========

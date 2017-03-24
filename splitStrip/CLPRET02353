@@ -1,0 +1,15 @@
+
+
+69FD4: MOV RDX,[0x88 + RDI]           [488B9788000000] 
+69FDB: MOV R8,FS:[0x10]               [644C8B042510000000] 
+69FE4: CMP R8,[RDX + 0x8]             [4C3B4208] 
+69FEA: XOR ECX,ECX                    [31C9] 
+69FEC: MOV ESI,0x1                    [BE01000000] 
+69FF1: MOV EAX,ECX                    [89C8] 
+69FF3: CMP dword ptr [0x0036e774],0x0 [833D7A47300000] 
+6A002: CMPXCHG [RDX],ESI              [0FB132] 
+6A005: MOV ECX,EAX                    [89C1] 
+6A007: MOV EAX,0x10                   [B810000000] 
+6A00C: TEST ECX,ECX                   [85C9] 
+
+========

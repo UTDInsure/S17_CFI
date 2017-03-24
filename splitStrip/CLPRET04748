@@ -1,0 +1,19 @@
+
+
+CC594: SUB RSP,0x8                    [4883EC08] 
+CC598: ADD RSI,0x8                    [4883C608] 
+CC59C: ADD RDI,0x8                    [4883C708] 
+CC5A0: MOV EDX,0x10                   [BA10000000] 
+88BB4: TEST RDX,RDX                   [4885D2] 
+88BBD: CMP RDX,0x1                    [4883FA01] 
+88BC7: SUB RSI,RDI                    [4829FE] 
+88BCA: MOV R10,RDX                    [4989D2] 
+88BCD: CMP R10,0x20                   [4983FA20] 
+88BD7: TEST R10,0x1                   [49F7C201000000] 
+88BE0: MOVZX EAX,byte ptr [RDI]       [0FB607] 
+88BE3: MOVZX EDX,byte ptr [RDI + RSI*0x1] [0FB61437] 
+88BE7: SUB R10,0x1                    [4983EA01] 
+88C87: SUB EAX,EDX                    [29D0] 
+CC5AE: ADD RSP,0x8                    [4883C408] 
+
+========

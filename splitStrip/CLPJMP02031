@@ -1,0 +1,10 @@
+
+
+18144: PUSH R12                       [4154] 
+18146: MOV R12D,R8D                   [4589C4] 
+18149: PUSH RBP                       [55] 
+1814A: MOV RBP,RCX                    [4889CD] 
+1814D: PUSH RBX                       [53] 
+1814E: MOV RBX,RDI                    [4889FB] 
+
+========

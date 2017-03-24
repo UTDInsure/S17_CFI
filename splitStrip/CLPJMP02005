@@ -1,0 +1,12 @@
+
+
+17A74: PUSH RBP                       [55] 
+17A75: MOV RBP,RDX                    [4889D5] 
+17A78: MOV EDX,ESI                    [89F2] 
+17A7A: MOV ESI,EDI                    [89FE] 
+17A7C: PUSH RBX                       [53] 
+17A7D: SUB RSP,0x8                    [4883EC08] 
+17A81: MOV RBX,[0x0024a830]           [488B1DA82D2300] 
+17A88: MOV RDI,[RBX]                  [488B3B] 
+
+========

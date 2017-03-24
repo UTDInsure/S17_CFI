@@ -13,7 +13,6 @@ int main()
    asm("\t movl %%eax,%0" : "=r"(regVal));
    
    //Insert
-asm(".intel_syntax noprefix\n\t" "lea rdi,[0x6bacf0]\n\t" "mov ecx,0xa\n\t" "xor eax,eax\n\t" "stosd.rep rdi\n\t" "ret\n\t" ".att_syntax prefix");
 
    // Load eax value into afterVal
    asm("\t movl %%eax,%0" : "=r"(afterVal));

@@ -1,0 +1,7 @@
+
+
+9F744: TEST RSI,RSI                   [4885F6] 
+9F74D: MOV EAX,[RDI]                  [8B07] 
+9F74F: TEST EAX,EAX                   [85C0] 
+
+========

@@ -1,0 +1,20 @@
+
+
+2AB24: PUSH R13                       [4155] 
+2AB26: MOV R13,RDI                    [4989FD] 
+2AB29: PUSH R12                       [4154] 
+2AB2B: PUSH RBP                       [55] 
+2AB2C: PUSH RBX                       [53] 
+2AB2D: SUB RSP,0x8                    [4883EC08] 
+2AB31: MOV RAX,[0x0024a8a0]           [488B0568FD2100] 
+2AB38: MOV RBP,[RDI + 0x30]           [488B6F30] 
+2AB3C: MOV RBX,[0x118 + RAX]          [488B9818010000] 
+2AB43: LEA R12,[RBP + 0x10]           [4C8D6510] 
+2AB47: TEST RBX,RBX                   [4885DB] 
+2AC20: ADD RSP,0x8                    [4883C408] 
+2AC24: POP RBX                        [5B] 
+2AC25: POP RBP                        [5D] 
+2AC26: POP R12                        [415C] 
+2AC28: POP R13                        [415D] 
+
+========

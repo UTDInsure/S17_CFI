@@ -1,0 +1,17 @@
+
+
+171F4: SUB RSP,0x28                   [4883EC28] 
+171F8: MOV RAX,[RSP + 0x38]           [488B442438] 
+171FD: MOV [RSP],R9                   [4C890C24] 
+17201: MOV R9,R8                      [4D89C1] 
+17204: MOV R8,RCX                     [4989C8] 
+17207: MOV RCX,RDX                    [4889D1] 
+1720A: MOV RDX,RSI                    [4889F2] 
+1720D: MOV RSI,RDI                    [4889FE] 
+17210: MOV [RSP + 0x10],RAX           [4889442410] 
+17215: MOV RAX,[RSP + 0x30]           [488B442430] 
+1721A: MOV [RSP + 0x8],RAX            [4889442408] 
+1721F: MOV RAX,[0x0024a830]           [488B050A362300] 
+17226: MOV RDI,[RAX]                  [488B38] 
+
+========

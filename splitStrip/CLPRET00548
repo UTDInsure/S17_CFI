@@ -1,0 +1,23 @@
+
+
+404C14: SUB RSP,0x8                    [4883EC08] 
+404C18: XOR EDI,EDI                    [31FF] 
+404C1A: XOR EAX,EAX                    [31C0] 
+404AD4: PUSH R12                       [4154] 
+404AD6: PUSH RBP                       [55] 
+404AD7: MOV RBP,[0x006279d8]           [488B2DFA2E2200] 
+404ADE: PUSH RBX                       [53] 
+404ADF: TEST RBP,RBP                   [4885ED] 
+404BB0: POP RBX                        [5B] 
+404BB1: XOR R12D,R12D                  [4531E4] 
+404BB4: POP RBP                        [5D] 
+404BB5: MOV EAX,R12D                   [4489E0] 
+404BB8: POP R12                        [415C] 
+404C25: TEST EAX,EAX                   [85C0] 
+404C29: MOV RSI,[0x006279d8]           [488B35A82D2200] 
+404C30: MOV RAX,[RSI]                  [488B06] 
+404C33: CMP RSI,RAX                    [4839C6] 
+404C70: MOV EAX,0x1                    [B801000000] 
+404C66: ADD RSP,0x8                    [4883C408] 
+
+========

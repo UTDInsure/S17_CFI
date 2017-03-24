@@ -1,0 +1,15 @@
+
+
+76AB4: TEST ESI,ESI                   [85F6] 
+76AB8: PUSH R12                       [4154] 
+76ABA: CMP ESI,0x1                    [83FE01] 
+76ABD: PUSH RBP                       [55] 
+76ABE: MOV RBP,RDI                    [4889FD] 
+76AC1: PUSH RBX                       [53] 
+76B33: MOV byte ptr [RDI],0x0         [C60700] 
+76B36: MOV RAX,RDI                    [4889F8] 
+76B06: POP RBX                        [5B] 
+76B07: POP RBP                        [5D] 
+76B08: POP R12                        [415C] 
+
+========

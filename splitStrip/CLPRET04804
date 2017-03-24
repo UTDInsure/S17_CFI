@@ -1,0 +1,7 @@
+
+
+D52E1: MOV R10,RCX                    [4989CA] 
+D52E4: MOV EAX,0x11                   [B811000000] 
+D52EB: CMP RAX,0xfffff001             [483D01F0FFFF] 
+
+========
