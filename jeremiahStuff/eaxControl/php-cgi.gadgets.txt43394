@@ -1,0 +1,8 @@
+
+64106E: JLP                            [0F1F40BB] 
+641072: MOV EDX,R12D                   [4489E2] 
+641075: MOV RSI,RBX                    [4889DE] 
+641078: MOV RDI,R14                    [4C89F7] 
+64107B: CALL RAX                       [FFD0] 
+
+========

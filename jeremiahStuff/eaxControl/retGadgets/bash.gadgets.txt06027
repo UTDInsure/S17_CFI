@@ -1,0 +1,14 @@
+
+493EF8: JLP                            [0F1F40BB] 
+493EFC: CMP byte ptr [RDI + 0x1],0x28  [807F0128] 
+493F00: JZ 0x00493f20                  [741E] 
+493F02: JLP                            [0F1F40BB] 
+493F06: MOVZX EDX,byte ptr [RCX]       [0FB611] 
+493F09: ADD EAX,0x1                    [83C001] 
+493F0C: MOV RDI,RCX                    [4889CF] 
+493F0F: TEST DL,DL                     [84D2] 
+493F11: LEA RCX,[RDI + 0x1]            [488D4F01] 
+493F15: JNZ 0x00493ee0                 [75C9] 
+493F17: RET                            [C3] 
+
+========

@@ -1,0 +1,20 @@
+
+435E60: JLP                            [0F1F40BB] 
+435E64: ADD R8,0x1                     [4983C001] 
+435E68: CMP byte ptr [R8],0x5f         [4180385F] 
+435E6C: JZ 0x00435e60                  [74F2] 
+435E60: JLP                            [0F1F40BB] 
+435E64: ADD R8,0x1                     [4983C001] 
+435E68: CMP byte ptr [R8],0x5f         [4180385F] 
+435E6C: JZ 0x00435e60                  [74F2] 
+435E60: JLP                            [0F1F40BB] 
+435E64: ADD R8,0x1                     [4983C001] 
+435E68: CMP byte ptr [R8],0x5f         [4180385F] 
+435E6C: JZ 0x00435e60                  [74F2] 
+435E6E: MOV ESI,0x44ea00               [BE00EA4400] 
+435E73: MOV RDI,R8                     [4C89C7] 
+435E76: CALL 0x00403660                [E8E5D7FCFF] 
+403660: CLP                            [0F1F40AA] 
+403664: JMP [0x0065f618]               [FF25AEBF2500] 
+
+========

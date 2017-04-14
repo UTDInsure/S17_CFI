@@ -1,0 +1,9 @@
+
+493CB0: JLP                            [0F1F40BB] 
+493CB4: MOV ECX,[RDI + 0x4]            [8B4F04] 
+493CB7: ADD EAX,0x1                    [83C001] 
+493CBA: TEST ECX,ECX                   [85C9] 
+493CBC: JZ 0x00493db4                  [0F84F2000000] 
+493DB4: RET                            [F3C3] 
+
+========

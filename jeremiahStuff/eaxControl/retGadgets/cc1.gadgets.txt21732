@@ -1,0 +1,20 @@
+
+69B184: JLP                            [0F1F40BB] 
+69B188: TEST byte ptr [0x013e2d90],0x1 [F605017CD40001] 
+69B18F: JZ 0x0069b1fd                  [746C] 
+69B1FD: CMP R10D,0x4                   [4183FA04] 
+69B201: JG 0x0069b210                  [7F0D] 
+69B203: MOV EDX,R8D                    [4489C2] 
+69B206: JMP 0x0069b1ac                 [EBA4] 
+69B1AC: ADD R8D,0x1                    [4183C001] 
+69B1B0: MOVSXD RDX,EDX                 [4863D2] 
+69B1B3: ADD R9D,0x8                    [4183C108] 
+69B1B7: CMP R10D,R8D                   [4539C2] 
+69B1BA: MOV [RSI + RDX*0x1],CL         [880C16] 
+69B1BD: JG 0x0069b170                  [7FB1] 
+69B1BF: MOV EAX,R10D                   [4489D0] 
+69B1C2: ADD RSP,0x10                   [4883C410] 
+69B1C6: POP RBX                        [5B] 
+69B1C7: RET                            [C3] 
+
+========

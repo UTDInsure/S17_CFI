@@ -1,0 +1,7 @@
+
+C774AE: JLP                            [0F1F40BB] 
+C774B2: MOV byte ptr [RSP + RSI*0x1],0x0 [C6043400] 
+C774B6: MOV RDI,RBX                    [4889DF] 
+C774B9: CALL RAX                       [FFD0] 
+
+========

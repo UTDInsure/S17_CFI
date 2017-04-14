@@ -1,0 +1,7 @@
+
+9C62F8: JLP                            [0F1F40BB] 
+9C62FC: MOV RDI,RBX                    [4889DF] 
+9C62FF: MOV RSI,RBP                    [4889EE] 
+9C6302: CALL RAX                       [FFD0] 
+
+========

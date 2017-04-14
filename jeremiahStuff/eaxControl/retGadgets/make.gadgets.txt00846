@@ -1,0 +1,22 @@
+
+41B7C6: JLP                            [0F1F40BB] 
+41B7CA: CMP DIL,0x2b                   [4080FF2B] 
+41B7CE: MOV EAX,0x2                    [B802000000] 
+41B7D3: MOV R9D,0x1                    [41B901000000] 
+41B7D9: MOV RSI,0x40000000b            [48BE0B00000004000000] 
+41B7E3: JZ 0x0041b832                  [744D] 
+41B7E5: JLE 0x0041b860                 [7E79] 
+41B860: CMP DIL,0x9                    [4080FF09] 
+41B864: JZ 0x0041b840                  [74DA] 
+41B840: SUB R8,0x1                     [4983E801] 
+41B844: TEST R12,R12                   [4D85E4] 
+41B847: JZ 0x0041b84d                  [7404] 
+41B849: MOV [R12],RBX                  [49891C24] 
+41B84D: TEST RBP,RBP                   [4885ED] 
+41B850: JZ 0x0041b859                  [7407] 
+41B859: POP RBX                        [5B] 
+41B85A: POP RBP                        [5D] 
+41B85B: POP R12                        [415C] 
+41B85D: RET                            [C3] 
+
+========

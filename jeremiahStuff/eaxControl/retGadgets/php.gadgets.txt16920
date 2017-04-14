@@ -1,0 +1,15 @@
+
+5A0AA0: JLP                            [0F1F40BB] 
+5A0AA4: ADD RCX,0x1                    [4883C101] 
+5A0AA8: MOVZX R9D,byte ptr [RCX + -0x1] [440FB649FF] 
+5A0AAD: ADD R8,0x1                     [4983C001] 
+5A0AB1: CMP RCX,RDX                    [4839D1] 
+5A0AB4: MOVZX R9D,byte ptr [0x76c400 + R9] [450FB68900C47600] 
+5A0ABC: MOV [R8 + -0x1],R9B            [458848FF] 
+5A0AC0: JNZ 0x005a0aa0                 [75DE] 
+5A0AC2: SUB RCX,RSI                    [4829F1] 
+5A0AC5: ADD RCX,RAX                    [4801C1] 
+5A0AC8: MOV byte ptr [RCX],0x0         [C60100] 
+5A0ACB: RET                            [C3] 
+
+========

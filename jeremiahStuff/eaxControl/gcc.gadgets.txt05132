@@ -1,0 +1,7 @@
+
+452A8E: JLP                            [0F1F40BB] 
+452A92: MOV byte ptr [RSP + RSI*0x1],0x0 [C6043400] 
+452A96: MOV RDI,RBX                    [4889DF] 
+452A99: CALL RAX                       [FFD0] 
+
+========

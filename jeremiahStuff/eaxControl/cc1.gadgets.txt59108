@@ -1,0 +1,7 @@
+
+A37968: JLP                            [0F1F40BB] 
+A3796C: MOV RDI,RBX                    [4889DF] 
+A3796F: MOV RSI,RBP                    [4889EE] 
+A37972: CALL RAX                       [FFD0] 
+
+========

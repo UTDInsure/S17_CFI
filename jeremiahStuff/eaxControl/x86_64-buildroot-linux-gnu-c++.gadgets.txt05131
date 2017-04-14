@@ -1,0 +1,7 @@
+
+45345E: JLP                            [0F1F40BB] 
+453462: MOV byte ptr [RSP + RSI*0x1],0x0 [C6043400] 
+453466: MOV RDI,RBX                    [4889DF] 
+453469: CALL RAX                       [FFD0] 
+
+========

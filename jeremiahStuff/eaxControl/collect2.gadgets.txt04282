@@ -1,0 +1,7 @@
+
+43EDEE: JLP                            [0F1F40BB] 
+43EDF2: MOV byte ptr [RSP + RSI*0x1],0x0 [C6043400] 
+43EDF6: MOV RDI,RBX                    [4889DF] 
+43EDF9: CALL RAX                       [FFD0] 
+
+========

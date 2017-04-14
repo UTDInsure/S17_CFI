@@ -1,0 +1,14 @@
+
+493C0A: JLP                            [0F1F40BB] 
+493C0E: MOV EDX,[RCX]                  [8B11] 
+493C10: ADD EAX,0x1                    [83C001] 
+493C13: MOV RDI,RCX                    [4889CF] 
+493C16: TEST EDX,EDX                   [85D2] 
+493C18: LEA RCX,[RDI + 0x4]            [488D4F04] 
+493C1C: JNZ 0x00493bef                 [75D1] 
+493BEF: SUB EDX,0x21                   [83EA21] 
+493BF2: CMP EDX,0x3b                   [83FA3B] 
+493BF5: JA 0x00493c0a                  [7713] 
+493BF7: JMP [0x4b6ca8 + RDX*0x8]       [FF24D5A86C4B00] 
+
+========

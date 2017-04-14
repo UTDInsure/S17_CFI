@@ -1,0 +1,8 @@
+
+63EDEE: JLP                            [0F1F40BB] 
+63EDF2: MOV EDX,R12D                   [4489E2] 
+63EDF5: MOV RSI,RBX                    [4889DE] 
+63EDF8: MOV RDI,R14                    [4C89F7] 
+63EDFB: CALL RAX                       [FFD0] 
+
+========

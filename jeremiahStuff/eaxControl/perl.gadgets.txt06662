@@ -1,0 +1,21 @@
+
+4C7390: JLP                            [0F1F40BB] 
+4C7394: TEST EBP,EBP                   [85ED] 
+4C7396: JZ 0x004c76b0                  [0F8414030000] 
+4C76B0: MOV R14,R12                    [4D89E6] 
+4C76B3: MOV dword ptr [R12],0x0        [49C7042400000000] 
+4C76BB: SAR R13D,0x4                   [41C1FD04] 
+4C76BF: XOR EBP,EBP                    [31ED] 
+4C76C1: JMP 0x004c743c                 [E976FDFFFF] 
+4C743C: TEST R13D,R13D                 [4585ED] 
+4C743F: JZ 0x004c7457                  [7416] 
+4C7441: ADD R12,0x8                    [4983C408] 
+4C7445: TEST EBP,EBP                   [85ED] 
+4C7447: JNZ 0x004c7302                 [0F85B5FEFFFF] 
+4C7302: MOV EDX,R13D                   [4489EA] 
+4C7305: LEA RAX,[R12 + -0x8]           [498D4424F8] 
+4C730A: ADD R8D,0x1                    [4183C001] 
+4C730E: AND EDX,0x7                    [83E207] 
+4C7311: JMP [0x540e70 + RDX*0x8]       [FF24D5700E5400] 
+
+========

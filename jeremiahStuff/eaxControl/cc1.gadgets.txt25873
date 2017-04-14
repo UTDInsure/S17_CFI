@@ -1,0 +1,23 @@
+
+701291: JLP                            [0F1F40BB] 
+701295: MOV byte ptr [RCX],0x28        [C60128] 
+701298: ADD R8,0x1                     [4983C001] 
+70129C: MOVZX EDX,byte ptr [R8]        [410FB610] 
+7012A0: ADD RCX,0x1                    [4883C101] 
+7012A4: XOR EDI,EDI                    [31FF] 
+7012A6: XOR ESI,ESI                    [31F6] 
+7012A8: JMP 0x00701018                 [E96BFDFFFF] 
+701018: TEST DL,DL                     [84D2] 
+70101A: JZ 0x007014f0                  [0F84D0040000] 
+7014F0: TEST DIL,DIL                   [4084FF] 
+7014F3: JNZ 0x007013ba                 [0F85C1FEFFFF] 
+7013BA: JLP                            [0F1F40BB] 
+7013BE: MOV RDI,[0x0135f690]           [488B3DCBE2C500] 
+7013C5: XOR EAX,EAX                    [31C0] 
+7013C7: MOV RDX,R14                    [4C89F2] 
+7013CA: MOV ESI,0xd98bec               [BEEC8BD900] 
+7013CF: CALL 0x004e9170                [E89C7DDEFF] 
+4E9170: CLP                            [0F1F40AA] 
+4E9174: JMP [0x0132cee8]               [FF256E3DE400] 
+
+========

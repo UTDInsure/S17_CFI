@@ -1,0 +1,18 @@
+
+98F228: JLP                            [0F1F40BB] 
+98F22C: MOVZX ECX,byte ptr [RDX]       [0FB60A] 
+98F22F: SUB RDX,0x1                    [4883EA01] 
+98F233: TEST byte ptr [0xf81420 + RCX + RCX*0x1],0x4 [F684092014F80004] 
+98F23B: JZ 0x0098f270                  [7433] 
+98F23D: SUB EAX,0x1                    [83E801] 
+98F240: JNS 0x0098f228                 [79E6] 
+98F242: CMP byte ptr [RBP],0x0         [807D0000] 
+98F246: JZ 0x0098f270                  [7428] 
+98F248: MOV EDX,0xa                    [BA0A000000] 
+98F24D: XOR ESI,ESI                    [31F6] 
+98F24F: MOV RDI,RBP                    [4889EF] 
+98F252: CALL 0x004deb80                [E829F9B4FF] 
+4DEB80: CLP                            [0F1F40AA] 
+4DEB84: JMP [0x0127e9f8]               [FF256EFED900] 
+
+========

@@ -1,0 +1,23 @@
+
+4393FC: JLP                            [0F1F40BB] 
+439400: MOV RDI,[0x0076df20]           [488B3D194B3300] 
+439407: MOV byte ptr [0x0076de68],0x4  [C6055A4A330004] 
+43940E: TEST RDI,RDI                   [4885FF] 
+439411: JZ 0x0043942d                  [741A] 
+439413: CMP RDI,0x8                    [4883FF08] 
+439417: JZ 0x0043942d                  [7414] 
+439419: CMP RDI,0x10                   [4883FF10] 
+43941D: JZ 0x0043942d                  [740E] 
+43942D: MOV dword ptr [0x0076df20],0x10 [48C705E84A330010000000] 
+439438: ADD RAX,0x1                    [4883C001] 
+43943C: JMP 0x004392f8                 [E9B7FEFFFF] 
+4392F8: ADD RSP,0x28                   [4883C428] 
+4392FC: POP RBX                        [5B] 
+4392FD: POP RBP                        [5D] 
+4392FE: POP R12                        [415C] 
+439300: POP R13                        [415D] 
+439302: POP R14                        [415E] 
+439304: POP R15                        [415F] 
+439306: RET                            [C3] 
+
+========

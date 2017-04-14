@@ -1,0 +1,7 @@
+
+434F9E: JLP                            [0F1F40BB] 
+434FA2: MOV byte ptr [RSP + RSI*0x1],0x0 [C6043400] 
+434FA6: MOV RDI,RBX                    [4889DF] 
+434FA9: CALL RAX                       [FFD0] 
+
+========

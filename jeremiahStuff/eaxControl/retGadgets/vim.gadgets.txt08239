@@ -1,0 +1,12 @@
+
+4A5921: JLP                            [0F1F40BB] 
+4A5925: ADD RAX,0x1                    [4883C001] 
+4A5929: TEST DL,0xdf                   [F6C2DF] 
+4A592C: JZ 0x004a5954                  [7426] 
+4A592E: CMP DL,0x2e                    [80FA2E] 
+4A5931: JZ 0x004a5954                  [7421] 
+4A5933: CMP DL,0x9                     [80FA09] 
+4A5936: JZ 0x004a5954                  [741C] 
+4A5954: RET                            [F3C3] 
+
+========

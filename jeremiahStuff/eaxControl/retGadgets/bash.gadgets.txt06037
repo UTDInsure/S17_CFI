@@ -1,0 +1,8 @@
+
+493FB0: JLP                            [0F1F40BB] 
+493FB4: ADD EAX,0x1                    [83C001] 
+493FB7: CMP byte ptr [RDI + 0x1],0x0   [807F0100] 
+493FBB: JZ 0x004940b6                  [0F84F5000000] 
+4940B6: RET                            [F3C3] 
+
+========

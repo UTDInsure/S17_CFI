@@ -1,0 +1,19 @@
+
+7F8CFC: JLP                            [0F1F40BB] 
+7F8D00: MOV ESI,[0x013ae960]           [8B355A5CBB00] 
+7F8D06: CMP R8D,ESI                    [4139F0] 
+7F8D09: JGE 0x007f8d48                 [7D3D] 
+7F8D48: CMP R10D,0x4                   [4183FA04] 
+7F8D4C: JZ 0x007f8f67                  [0F8415020000] 
+7F8D52: ADD R8D,0x1                    [4183C001] 
+7F8D56: CMP R8D,ESI                    [4139F0] 
+7F8D59: JGE 0x007f8db8                 [7D5D] 
+7F8DB8: TEST ESI,ESI                   [85F6] 
+7F8DBA: JLE 0x007f8e46                 [0F8E86000000] 
+7F8E46: MOV RDX,[0x013c4b00]           [488B15B3BCBC00] 
+7F8E4D: XOR EAX,EAX                    [31C0] 
+7F8E4F: BT RDX,RDI                     [480FA3FA] 
+7F8E53: JC 0x007f8a52                  [0F82F9FBFFFF] 
+7F8A52: RET                            [F3C3] 
+
+========
